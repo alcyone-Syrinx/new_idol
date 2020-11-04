@@ -1,6 +1,7 @@
 const express = require('express');
 const next = require('next');
-
+const axios = require('axios')
+    ;
 const dev = process.env.NODE_ENV !== 'production';
 
 const app = next({ dev });
@@ -19,6 +20,31 @@ app.prepare().then(() => {
         const page = '/item/idolSearch';
         const id = { id: req.query.hash };
         return app.render(req, res, page, id);
+    })
+
+    server.get('/idolData', async (req, res) => {
+        try {
+            const data = await axios.get('https://pink-check.school/api/v2/idols');
+            res.json(data.data)
+        } catch (error) {
+            res.json();
+        }
+    })
+
+
+    server.get('/idolCardList', async (req, res) => {
+        const { id } = req.query;
+
+        if (!id) {
+            res.json();
+        }
+
+        try {
+            const data = await axios.get(`https://pink-check.school/api/v2/cards?idolId=${id}`);
+            res.json(data.data);
+        } catch (error) {
+            res.json();
+        }
     })
 
     server.get('*', (req, res) => {
