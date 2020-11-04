@@ -1,11 +1,12 @@
 const arr = {
-    "미즈모토 유카리": "水本ゆかり",
-    "미야모토 후레데리카": "宮本ﾌﾚﾃﾞﾘｶ"
+    "미즈모토유카리": "水本ゆかり",
+    "미야모토후레데리카": "宮本ﾌﾚﾃﾞﾘｶ",
+    "사토신": "佐藤心"
 };
 
 const LIst = (val) => {
-    console.log(arr[val])
-    return arr[val];
+    const value = val.replace(/(\s*)/g, "");
+    return arr[value];
 }
 
 
