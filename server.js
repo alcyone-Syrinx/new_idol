@@ -16,10 +16,27 @@ app.prepare().then(() => {
         return app.render(req, res, page, { title: 'next' })
     })
 
+
     server.get('/idol', (req, res) => {
         const page = '/item/idolSearch';
         const id = { id: req.query.hash };
         return app.render(req, res, page, id);
+    })
+
+    server.get('/trade-info', (req, res) => {
+        const page = '/item/tradeInfo';
+        const body = { hash: req.query.hash };
+        return app.render(req, res, page, body);
+    })
+
+    server.get('/card-trade-info', async (req, res) => {
+        const { hash } = req.query;
+        try {
+            const tradeInfo = await axios.get(' https://pink-check.school/api/v2/trades/' + hash);
+            res.json(tradeInfo.data);
+        } catch (err) {
+            res.sendStatus(400);
+        }
     })
 
     server.get('/idolData', async (req, res) => {

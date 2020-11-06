@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Layout from '../../components/Layout';
 import axios from 'axios';
 import searchIdolName from '../../mapping';
+import Router from 'next/router';
 
 class IdolSearch extends Component {
     constructor(props) {
@@ -27,6 +28,11 @@ class IdolSearch extends Component {
         const { inputValue, idolData } = this.state;
         const name = searchIdolName(inputValue);
         const idolInfo = name && idolData.filter(a => a.name === name);
+        console.log(idolData);
+        if (!idolInfo) {
+            return;
+        }
+
         const { classification } = idolInfo[0];
 
         let classColor = this.getClassColor(classification);
@@ -45,7 +51,7 @@ class IdolSearch extends Component {
         if (cardSearchResult) {
             const imgArr = cardSearchResult.data.content.map(a => {
                 return (
-                    <li className="item-content">
+                    <li className="item-content" onClick={() => this.itemOnClick(a.cardHash)}>
                         <div >
                             <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${a.cardHash}.jpg`} />
                             <div style={{ color: classColor }}>
@@ -57,6 +63,10 @@ class IdolSearch extends Component {
             })
             this.setState({ imgData: imgArr, loadingDisplay: 'none' })
         }
+    }
+
+    itemOnClick = (hash) => {
+        Router.push({ pathname: "/trade-info", query: { hash: hash } });
     }
 
     getClassColor = (val) => {
@@ -73,13 +83,13 @@ class IdolSearch extends Component {
     }
 
     render() {
-        const { imgData, loadingDisplay } = this.state;
+        const { imgData, loadingDisplay, inputValue } = this.state;
         const { title } = this.props;
         return (
             <Layout>
                 {title}
                 <div>
-                    검색:<input onChange={this.onChange}></input><button onClick={this.onClick}>확인</button>
+                    검색:<input onChange={this.onChange} value={inputValue}></input><button onClick={this.onClick}>확인</button>
                 </div>
                 <div className="progress" style={{ display: loadingDisplay }}>
                     <div className="outer">
@@ -94,7 +104,13 @@ class IdolSearch extends Component {
     }
 }
 
-IdolSearch.getInitialProps = ({ query }) => {
+IdolSearch.getInitialProps = async ({ query }) => {
+    // try {
+    //     const idolData = await axios.get('http://localhost:3002/idolData');
+    //     return { ...query, idolData: idolData.data.content };
+    // } catch (err) {
+    //     return query;
+    // }
     return query;
 }
 
