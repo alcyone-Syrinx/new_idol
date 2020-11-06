@@ -1,6 +1,9 @@
+@import "./component/_layout.scss";
+
 .progress {
+
   margin-top: 30px;
-  width: 100%;
+  width: 300px;
 }
 
 .progress .outer {
@@ -45,7 +48,7 @@ ul.item-body {
     position: relative;
     &::before,
     &::after {
-      background: linear-gradient(135deg, $blue 0%, $green 100%);
+     // background: linear-gradient(135deg, $blue 0%, $green 100%);
       border-radius: 1rem 1rem 0 1rem;
       content: "";
       height: 3rem;
@@ -55,42 +58,13 @@ ul.item-body {
       top: -1rem;
       width: 3rem;
     }
-    &::before {
-      align-items: flex-end;
-      @extend %boxshadow;
-      content: counter(gradient-counter);
-      color: $black;
-      display: flex;
-      font: 900 1.5em/1 "Montserrat";
-      justify-content: flex-end;
-      padding: 0.125em 0.25em;
-      z-index: 1;
-    }
-    @for $i from 1 through 5 {
-      &:nth-child(10n + #{$i}):before {
-        background: linear-gradient(
-          135deg,
-          rgba($green, $i * 0.2) 0%,
-          rgba($yellow, $i * 0.2) 100%
-        );
-      }
-    }
-    @for $i from 6 through 10 {
-      &:nth-child(10n + #{$i}):before {
-        background: linear-gradient(
-          135deg,
-          rgba($green, 1 - (($i - 5) * 0.2)) 0%,
-          rgba($yellow, 1 - (($i - 5) * 0.2)) 100%
-        );
-      }
-    }
     + li {
       margin-top: 2rem;
     }
   }
 }
 
-$url: #ffaa50;
+$url: #080808;
 
 .test {
   width: 500px;
@@ -100,7 +74,7 @@ $url: #ffaa50;
   color: $url;
 }
 
-.img-items {
+.item-content {
   color: $url;
   position: relative;
   animation-name: fadein;
@@ -108,9 +82,10 @@ $url: #ffaa50;
   animation-duration: 0.5s;
   z-index: 0;
 }
+
 $animationDelay: 1;
 @for $i from 1 through 90 {
-  .item-body .item-content:nth-of-type(#{$i}) {
+  .item-body li:nth-of-type(#{$i}) {
     animation-delay: #{0.5+ ($i)/30}s;
   }
 }
@@ -131,7 +106,7 @@ $animationDelay: 1;
   a {
     text-decoration: none;
   }
-  .img-items-content {
+  .items-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;

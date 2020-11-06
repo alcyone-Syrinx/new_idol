@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '../../components/Layout';
 import axios from 'axios';
-import List from '../../mapping';
+import searchIdolName from '../../mapping';
 
 class IdolSearch extends Component {
     constructor(props) {
@@ -9,7 +9,8 @@ class IdolSearch extends Component {
         this.state = {
             idolData: [],
             imgData: [],
-            value: ""
+            inputValue: "",
+            loadingDisplay: 'none'
         }
     }
 
@@ -19,12 +20,17 @@ class IdolSearch extends Component {
     }
 
     onChange = (val) => {
-        this.setState({ value: val.target.value })
+        this.setState({ inputValue: val.target.value })
     }
 
     onClick = async () => {
-        const name = List(this.state.value);
-        const idolInfo = name && this.state.idolData.filter(a => a.name === name);
+        const { inputValue, idolData } = this.state;
+        const name = searchIdolName(inputValue);
+        const idolInfo = name && idolData.filter(a => a.name === name);
+        const { classification } = idolInfo[0];
+
+        let classColor = this.getClassColor(classification);
+
 
         const id = idolInfo ? idolInfo[0].idolId : false;
 
@@ -32,30 +38,58 @@ class IdolSearch extends Component {
             this.setState({ imgData: [] });
             return;
         }
-        const idolData = await axios.get(`http://localhost:3002/idolCardList?id=${id}`);
-        if (idolData) {
-            const imgArr = idolData.data.content.map(a => {
+
+        this.setState({ imgData: [], loadingDisplay: 'block' });
+
+        const cardSearchResult = await axios.get(`http://localhost:3002/idolCardList?id=${id}`);
+        if (cardSearchResult) {
+            const imgArr = cardSearchResult.data.content.map(a => {
                 return (
-
-                    <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${a.cardHash}.jpg`} />
-
+                    <li className="item-content">
+                        <div >
+                            <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${a.cardHash}.jpg`} />
+                            <div style={{ color: classColor }}>
+                                카드명:{a.name}
+                            </div>
+                        </div>
+                    </li>
                 )
             })
+            this.setState({ imgData: imgArr, loadingDisplay: 'none' })
+        }
+    }
 
-            console.log(imgArr)
-            this.setState({ imgData: imgArr })
+    getClassColor = (val) => {
+        switch (val) {
+            case "Cute":
+                return "#ff50ff";
+            case "Cool":
+                return "081cd1";
+            case "Passion":
+                return "#d38219";
+            default:
+                return "080808";
         }
     }
 
     render() {
+        const { imgData, loadingDisplay } = this.state;
+        const { title } = this.props;
         return (
             <Layout>
-                {this.props.title}
+                {title}
                 <div>
                     검색:<input onChange={this.onChange}></input><button onClick={this.onClick}>확인</button>
                 </div>
-                {this.state.imgData}
-            </Layout>
+                <div className="progress" style={{ display: loadingDisplay }}>
+                    <div className="outer">
+                        <div className="inner"></div>
+                    </div>
+                </div>
+                <ul className="item-body">
+                    {imgData}
+                </ul>
+            </Layout >
         )
     }
 }
