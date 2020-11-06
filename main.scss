@@ -1,0 +1,25 @@
+.progress {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.progress .outer {
+  width: 100%;
+  height: 14px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.progress .inner {
+  width: 0;
+  height: 100%;
+  background: #ffcd33;
+  animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+  100% {
+    width: 100%;
+  }
+}
