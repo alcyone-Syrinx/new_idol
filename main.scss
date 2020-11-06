@@ -23,3 +23,129 @@
     width: 100%;
   }
 }
+
+%boxshadow {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05),
+    0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+}
+
+ul.item-body {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+  li {
+    background: white;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    @extend %boxshadow;
+    counter-increment: gradient-counter;
+    margin-top: 1rem;
+    min-height: 3rem;
+    padding: 1rem 1rem 1rem 3rem;
+    position: relative;
+    &::before,
+    &::after {
+      background: linear-gradient(135deg, $blue 0%, $green 100%);
+      border-radius: 1rem 1rem 0 1rem;
+      content: "";
+      height: 3rem;
+      left: -1rem;
+      overflow: hidden;
+      position: absolute;
+      top: -1rem;
+      width: 3rem;
+    }
+    &::before {
+      align-items: flex-end;
+      @extend %boxshadow;
+      content: counter(gradient-counter);
+      color: $black;
+      display: flex;
+      font: 900 1.5em/1 "Montserrat";
+      justify-content: flex-end;
+      padding: 0.125em 0.25em;
+      z-index: 1;
+    }
+    @for $i from 1 through 5 {
+      &:nth-child(10n + #{$i}):before {
+        background: linear-gradient(
+          135deg,
+          rgba($green, $i * 0.2) 0%,
+          rgba($yellow, $i * 0.2) 100%
+        );
+      }
+    }
+    @for $i from 6 through 10 {
+      &:nth-child(10n + #{$i}):before {
+        background: linear-gradient(
+          135deg,
+          rgba($green, 1 - (($i - 5) * 0.2)) 0%,
+          rgba($yellow, 1 - (($i - 5) * 0.2)) 100%
+        );
+      }
+    }
+    + li {
+      margin-top: 2rem;
+    }
+  }
+}
+
+$url: #ffaa50;
+
+.test {
+  width: 500px;
+}
+
+.apple {
+  color: $url;
+}
+
+.img-items {
+  color: $url;
+  position: relative;
+  animation-name: fadein;
+  animation-fill-mode: both;
+  animation-duration: 0.5s;
+  z-index: 0;
+}
+$animationDelay: 1;
+@for $i from 1 through 90 {
+  .item-body .item-content:nth-of-type(#{$i}) {
+    animation-delay: #{0.5+ ($i)/30}s;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.item-body {
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .img-items-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 2;
+  }
+
+  .item-content {
+    margin-bottom: 20px;
+  }
+
+  .item-content:hover .img-items-content {
+    display: block;
+  }
+}
