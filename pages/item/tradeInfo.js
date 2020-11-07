@@ -14,7 +14,7 @@ class TradeInfo extends Component {
     async componentDidMount() {
         const { hash } = this.props;
         try {
-            const tradeInfo = await axios.get(`/card-trade-info?hash=${hash}`);
+            const tradeInfo = await axios.get(`/card-trades/${hash}`);
 
             if (tradeInfo) {
                 const { content } = tradeInfo.data;

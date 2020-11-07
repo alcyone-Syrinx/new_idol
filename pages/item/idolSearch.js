@@ -16,7 +16,7 @@ class IdolSearch extends Component {
     }
 
     async componentDidMount() {
-        const idolData = await axios.get('http://localhost:3002/idolData');
+        const idolData = await axios.get('http://localhost:3002/idols');
         this.setState({ idolData: idolData.data.content });
     }
 
@@ -106,7 +106,7 @@ class IdolSearch extends Component {
 
 IdolSearch.getInitialProps = async ({ query }) => {
     // try {
-    //     const idolData = await axios.get('http://localhost:3002/idolData');
+    //     const idolData = await axios.get('http://localhost:3002/idols');
     //     return { ...query, idolData: idolData.data.content };
     // } catch (err) {
     //     return query;
