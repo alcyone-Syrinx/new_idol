@@ -8,7 +8,7 @@ class Header extends Component {
                     <a href="/">home</a>
                 </li>
                 <li>
-                    <a href="/idol">아이돌 검색</a>
+                    <a href="/idols">아이돌 검색</a>
                 </li>
             </ul>
         )

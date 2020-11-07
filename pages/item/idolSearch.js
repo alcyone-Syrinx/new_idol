@@ -16,7 +16,7 @@ class IdolSearch extends Component {
     }
 
     async componentDidMount() {
-        const idolData = await axios.get('http://localhost:3002/idolData');
+        const idolData = await axios.get('http://localhost:3002/api/idols');
         this.setState({ idolData: idolData.data.content });
     }
 
@@ -66,7 +66,7 @@ class IdolSearch extends Component {
     }
 
     itemOnClick = (hash) => {
-        Router.push({ pathname: "/trade-info", query: { hash: hash } });
+        Router.push({ pathname: `/card-trades/${hash}`})
     }
 
     getClassColor = (val) => {
@@ -88,6 +88,7 @@ class IdolSearch extends Component {
         return (
             <Layout>
                 {title}
+                </div>
                 <div>
                     검색:<input onChange={this.onChange} value={inputValue}></input><button onClick={this.onClick}>확인</button>
                 </div>
@@ -106,7 +107,7 @@ class IdolSearch extends Component {
 
 IdolSearch.getInitialProps = async ({ query }) => {
     // try {
-    //     const idolData = await axios.get('http://localhost:3002/idolData');
+    //     const idolData = await axios.get('http://localhost:3002/api/idols');
     //     return { ...query, idolData: idolData.data.content };
     // } catch (err) {
     //     return query;
