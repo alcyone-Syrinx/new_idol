@@ -1,6 +1,7 @@
 const express = require('express')
 const next = require('next')
 const axios = require('axios')
+const path = require('path')
 const bodyParser = require('body-parser')
 const dev = process.env.NODE_ENV !== 'production'
 
