@@ -14,7 +14,7 @@ class TradeInfo extends Component {
     async componentDidMount() {
         const { hash } = this.props;
         try {
-            const tradeInfo = await axios.get(`/card-trades/${hash}`);
+            const tradeInfo = await axios.get(`/api/card-trades/${hash}`);
 
             if (tradeInfo) {
                 const { content } = tradeInfo.data;
@@ -49,6 +49,7 @@ class TradeInfo extends Component {
                 this.setState({ cardTradeInfo: [] })
             }
         } catch (error) {
+            console.log(error)
             this.setState({ cardTradeInfo: [] })
 
         }

@@ -18,19 +18,22 @@ app.prepare().then(() => {
         return app.render(req, res, page, { title: 'next' })
     })
 
-    server.get('/idol', (req, res) => {
+    server.get('/idols', (req, res) => {
         const page = '/item/idolSearch'
         const id = { id: req.query.hash }
         return app.render(req, res, page, id)
     })
 
-    server.get('/trade-info', (req, res) => {
+    server.get('/card-trades/:hash', (req, res) => {
         const page = '/item/tradeInfo'
-        const body = { hash: req.query.hash }
+        const { hash } = req.params
+        const body = { hash }
         return app.render(req, res, page, body)
     })
 
-    server.get('/card-trades/:hash', async (req, res) => {
+    // api
+
+    server.get('/api/card-trades/:hash', async (req, res) => {
         const { hash } = req.params
         try {
             const tradeInfo = await axios.get(' https://pink-check.school/api/v2/trades/' + hash)
@@ -40,7 +43,7 @@ app.prepare().then(() => {
         }
     })
 
-    server.get('/idols', async (req, res) => {
+    server.get('/api/idols', async (req, res) => {
         try {
             const data = await axios.get('https://pink-check.school/api/v2/idols')
             res.json(data.data)
