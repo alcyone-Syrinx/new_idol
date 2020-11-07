@@ -25,7 +25,7 @@ app.prepare().then(() => {
     })
 
     server.get('/card-trades/:hash', (req, res) => {
-        const page = '/item/tradeInfo'
+        const page = '/item/card-trades'
         const { hash } = req.params
         const body = { hash }
         return app.render(req, res, page, body)

@@ -88,6 +88,7 @@ class IdolSearch extends Component {
         return (
             <Layout>
                 {title}
+                </div>
                 <div>
                     검색:<input onChange={this.onChange} value={inputValue}></input><button onClick={this.onClick}>확인</button>
                 </div>

@@ -1,0 +1,37 @@
+@import '../../../styles/colors.scss';
+
+.header {
+  margin: 16px 0;
+  font-size: 24px;
+  color: $grey900;
+}
+
+.cardContainer {
+    margin-bottom: 8px;
+    border: 1px solid $grey700;
+    border-radius: 4px;
+    padding: 10px 12px 8px 12px;
+
+    .tradeCost {
+      font-size: 16px;
+      color: $grey900;
+    }
+
+    .tradeInfo {
+      display: flex;
+      margin-top: 2px;
+      align-items: center;
+
+      .tradeNames {
+        flex: 1 1 0;
+        font-size: 14px;
+        color: $grey500;
+      }
+
+      .tradeTime {
+        flex: 0 0 auto;
+        font-size: 12px;
+        color: $grey500;
+      }
+    }
+}
