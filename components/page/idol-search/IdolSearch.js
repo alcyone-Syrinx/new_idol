@@ -24,11 +24,25 @@ class IdolSearch extends Component {
         this.setState({ idolData: idolData.data.content })
         const category = await apiCodes()
         this.setState({ codeCategory: category.content })
+        this.testFucntion("EffectStrength", "")
     }
 
-    getCardEffectInfo(categoryName, codeValue) {
+    testFucntion = (categoryName, codeValue) => {
         const { codeCategory } = this.state;
-        const data = codeCategory.filter(a => a.categoryKey === categoryName)[0]?.detail?.filter(item => item.codeValue === codeValue)[0] || [];
+        const data = codeCategory.filter(a => a.categoryKey === categoryName)[0]?.detail
+        const string = JSON.stringify(data.map(a => {
+            const key = a.stringValue
+            return {
+                [key]: a.explanation
+            }
+        }))
+        const test = string.replaceAll("{", "").replaceAll("}", "").replaceAll("[", "").replaceAll("]", "")
+        console.log(test)
+    }
+
+    getCardEffectInfo = (categoryName, codeValue) => {
+        const { codeCategory } = this.state;
+        const data = codeCategory.filter(a => a.categoryKey === categoryName)[0]?.detail?.filter(item => item.codeValue === codeValue)[0] || []
 
         return mapping.convertCategoryCode(categoryName, data.stringValue);
     }
@@ -73,7 +87,15 @@ class IdolSearch extends Component {
 
     renderIdolCards = (val) => {
         const { cardHash, name, abilityEffect } = val
-        const { effect, scope } = abilityEffect;
+        const { effect } = abilityEffect
+        const transAbilityEffect = {
+            scope: effect !== "0" && this.getCardEffectInfo("EffectScope", abilityEffect.scope),
+            type: effect !== "0" && this.getCardEffectInfo("EffectType", abilityEffect.type),
+            backMember: effect !== "0" && this.getCardEffectInfo("EffectBackMemberScope", abilityEffect.backMember),
+            strength: effect !== "0" && this.getCardEffectInfo("EffectStrength", abilityEffect.strength),
+        };
+
+        const { scope, backMember, type, strength } = transAbilityEffect;
 
         return (
             <li key={val.cardMobageId} className={styles.cardItems} onClick={() => this.itemOnClick(cardHash)}>
@@ -86,7 +108,13 @@ class IdolSearch extends Component {
                             카드명:{name}
                         </li>
                         <li>
-                            특기: {this.getCardEffectInfo("EffectScope", scope)}
+                            특기: <label>{strength && `[${strength}]`}</label>{scope}{type}
+                        </li>
+                        <li>
+                            백맴버: <label>{backMember && `[${strength}]`}</label>{backMember && scope}{backMember}{backMember && type}
+                        </li>
+                        <li>
+                            특기원문 : {effect !== "0" && effect}
                         </li>
                     </ul>
                 </div>

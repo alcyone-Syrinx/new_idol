@@ -85,6 +85,10 @@ ul {
           font-weight: 400;
           padding-left: 16px;
           position: relative;
+
+          label {
+            font-weight: bolder;
+          }
         }
       }
     }
