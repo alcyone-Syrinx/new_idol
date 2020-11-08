@@ -63,12 +63,11 @@ class IdolSearch extends Component {
     }
 
     renderIdolCards = (val) => {
-        console.log(this.state)
         const { idolColor } = this.state
         const { cardHash, name } = val
 
         return (
-            <li key={val.cardMobageId} className={styles.cardContainer} onClick={() => this.itemOnClick(cardHash)}>
+            <li key={val.cardMobageId} className={styles.cardItems} onClick={() => this.itemOnClick(cardHash)}>
                 <div >
                     <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${cardHash}.jpg`} />
                     <div style={{ color: idolColor }}>
@@ -84,11 +83,12 @@ class IdolSearch extends Component {
     }
 
     getClassColor = (val) => {
+        console.log(val)
         switch (val) {
             case "Cute":
                 return "#ff50ff";
             case "Cool":
-                return "081cd1";
+                return "#081cd1";
             case "Passion":
                 return "#d38219";
             default:
@@ -97,22 +97,27 @@ class IdolSearch extends Component {
     }
 
     render() {
-        const { imgData, loadingDisplay, inputValue } = this.state;
+        const { imgData, loadingDisplay, inputValue, idolColor } = this.state;
 
         return (
-            <>
-                <div>
-                    검색:<input onChange={this.onChange} onKeyPress={this.onEnterPress} value={inputValue}></input><button onClick={this.onClick}>확인</button>
+            <div className={styles.searchBody}>
+                <div className={styles.inputBody}>
+                    <label>검색</label><input onChange={this.onChange} onKeyPress={this.onEnterPress} value={inputValue} />
                 </div>
-                <div className="progress" style={{ display: loadingDisplay }}>
-                    <div className="outer">
-                        <div className="inner"></div>
+                <div className={styles.buttonContainer}>
+                    <button id={styles.submit} className={styles.submit} onClick={this.onClick}>확인</button>
+                </div>
+                <div className={styles.progress} style={{ display: loadingDisplay }}>
+                    <div className={styles.outer}>
+                        <div className={styles.inner} style={{ background: idolColor }}></div>
                     </div>
                 </div>
-                <ul className="item-body">
-                    {imgData?.map(item => this.renderIdolCards(item))}
-                </ul>
-            </>
+                <div className={styles.contentContainer}>
+                    <ul className={styles.contentBody}>
+                        {imgData?.map(item => this.renderIdolCards(item))}
+                    </ul>
+                </div>
+            </div>
         )
     }
 }

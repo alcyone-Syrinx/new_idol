@@ -1,0 +1,50 @@
+
+%boxshadow {
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05),
+      0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+  }
+  
+  $animationDelay: 1;
+  @for $i from 1 through 90 {
+    .contentBody .cardContainer:nth-of-type(#{$i}) {
+      animation-delay: #{0.5+ ($i)/30}s;
+    }
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /*로딩바*/
+  .progress {
+
+    margin-top: 30px;
+    width: 300px;
+  }
+  
+  .progress .outer {
+    width: 100%;
+    height: 14px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .progress .inner {
+    width: 0;
+    height: 100%;
+    background: #ffcd33;
+    animation: loading 2s linear infinite;
+  }
+
+  
+@keyframes loading {
+    100% {
+      width: 100%;
+    }
+  }
