@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import searchIdolName from '../../../mapping';
+import mapping from '../../../mapping';
 import Router from 'next/router';
 import styles from './IdolSearch.scss';
+import apiCodes from '../../../categoryCodes';
 
 class IdolSearch extends Component {
 
@@ -14,13 +15,22 @@ class IdolSearch extends Component {
             inputValue: "",
             loadingDisplay: 'none',
             idolColor: '',
-
+            codeCategory: [],
         }
     }
 
     async componentDidMount() {
-        const idolData = await axios.get('http://localhost:3002/api/idols');
-        this.setState({ idolData: idolData.data.content });
+        const idolData = await axios.get('http://localhost:3002/api/idols')
+        this.setState({ idolData: idolData.data.content })
+        const category = await apiCodes()
+        this.setState({ codeCategory: category.content })
+    }
+
+    getCardEffectInfo(categoryName, codeValue) {
+        const { codeCategory } = this.state;
+        const data = codeCategory.filter(a => a.categoryKey === categoryName)[0]?.detail?.filter(item => item.codeValue === codeValue)[0] || [];
+
+        return mapping.convertCategoryCode(categoryName, data.stringValue);
     }
 
     onChange = (val) => {
@@ -29,7 +39,7 @@ class IdolSearch extends Component {
 
     onClick = async () => {
         const { inputValue, idolData } = this.state;
-        const name = searchIdolName(inputValue);
+        const name = mapping.searchIdolName(inputValue);
         const idolInfo = name && idolData?.filter(a => a.name === name)
         if (!idolInfo) {
             return
@@ -38,7 +48,6 @@ class IdolSearch extends Component {
         const { classification } = idolInfo[0];
 
         this.setState({ idolColor: this.getClassColor(classification) })
-
 
         const id = idolInfo ? idolInfo[0].idolId : false;
 
@@ -63,16 +72,23 @@ class IdolSearch extends Component {
     }
 
     renderIdolCards = (val) => {
-        const { idolColor } = this.state
-        const { cardHash, name } = val
+        const { cardHash, name, abilityEffect } = val
+        const { effect, scope } = abilityEffect;
 
         return (
             <li key={val.cardMobageId} className={styles.cardItems} onClick={() => this.itemOnClick(cardHash)}>
-                <div >
+                <div className={styles.cardImgBox}>
                     <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${cardHash}.jpg`} />
-                    <div style={{ color: idolColor }}>
-                        카드명:{name}
-                    </div>
+                </div>
+                <div className={styles.cardInfoBox}>
+                    <ul>
+                        <li>
+                            카드명:{name}
+                        </li>
+                        <li>
+                            특기: {this.getCardEffectInfo("EffectScope", scope)}
+                        </li>
+                    </ul>
                 </div>
             </li>
         )

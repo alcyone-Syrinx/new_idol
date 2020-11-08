@@ -32,11 +32,19 @@ app.prepare().then(() => {
     })
 
     // api
+    server.get('/api/category/codes', async(req, res) => {
+        try {
+            const codes = await axios.get(`https://pink-check.school/api/v2/codes`)
+            res.json(codes.data)
+        } catch (error) {
+            res.sendStatus(400)
+        }
+    })
 
     server.get('/api/card-trades/:hash', async (req, res) => {
         const { hash } = req.params
         try {
-            const tradeInfo = await axios.get(' https://pink-check.school/api/v2/trades/' + hash)
+            const tradeInfo = await axios.get('https://pink-check.school/api/v2/trades/' + hash)
             res.json(tradeInfo.data)
         } catch (err) {
             res.sendStatus(400)
