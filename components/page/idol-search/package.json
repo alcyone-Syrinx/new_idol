@@ -1,0 +1,6 @@
+{
+  "name": "IdolSearch",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./IdolSearch.js"
+}

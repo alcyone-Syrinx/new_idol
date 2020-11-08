@@ -1,0 +1,28 @@
+@import '../../../styles/colors.scss';
+
+.header {
+  margin: 16px 0;
+  font-size: 24px;
+  color: $grey900;
+}
+li{
+  list-style: none;
+}
+
+.content-body{
+  li{
+    list-style: none;
+  }
+}
+
+.cardImg {
+  border-radius: 3px;
+}
+
+.cardContainer {
+    margin-bottom: 8px;
+    border: 1px solid $grey700;
+    border-radius: 4px;
+    padding: 10px 12px 8px 12px;
+
+}
