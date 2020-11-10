@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import autobind from 'autobind-decorator'
+import moment from 'moment'
 
 /* Internal imports */
 import styles from './CardTrades.scss'
@@ -18,9 +19,16 @@ class CardTrades extends Component {
 
     async componentDidMount() {
         const { hash } = this.props
+        await this.getCardTradData(hash)
+    }
+
+    getCardTradData = async (hash) => {
+        const endTime = moment().format().split("+")[0]
+        const beginTime = moment().add("-30", "d").format().split("+")[0]
+        const body = { beginTime, endTime }
 
         try {
-            const response = await axios.get(`/api/card-trades/${hash}`)
+            const response = await axios.post(`/api/card-trades/${hash}`, body)
             this.setState({
                 cardName: response?.data?.content?.[0]?.cardName || '정보 없음',
                 cardTradeInfos: response?.data?.content || []
@@ -28,6 +36,7 @@ class CardTrades extends Component {
         } catch (error) {
             this.setState({ cardTradeInfos: [] })
         }
+
     }
 
     convertDate(val) {
@@ -54,9 +63,9 @@ class CardTrades extends Component {
     getCostMessage(items) {
         return items.map(item => {
             if (item.cardName) {
-              return item.cardName
+                return item.cardName
             } else {
-              return `${item.volume} ${this.getItemType(item.itemTypeId)}`
+                return `${item.volume} ${this.getItemType(item.itemTypeId)}`
             }
         }).join(', ')
     }
@@ -84,12 +93,12 @@ class CardTrades extends Component {
         const { cardName, cardTradeInfos } = this.state
         return (
             <dik>
-              <div className={styles.header}>
-                {cardName}
-              </div>
-              <div>
-                {cardTradeInfos.map(this.renderItems)}
-              </div>
+                <div className={styles.header}>
+                    {cardName}
+                </div>
+                <div>
+                    {cardTradeInfos.map(this.renderItems)}
+                </div>
             </dik>
         )
     }

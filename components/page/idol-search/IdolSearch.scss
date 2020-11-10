@@ -1,5 +1,7 @@
 @import "../../../styles/colors.scss";
 @import "../../../styles/global.scss";
+@import "../../../styles/datepicker.scss";
+
 
 $black-color: #222;
 $orange-color: #ff6801;
@@ -72,11 +74,15 @@ ul {
     min-height: 3rem;
     padding: 1rem 1rem 1rem 1rem;
     position: relative;
+
     .cardInfoBox {
+      width: 35%;
       margin-left: 10px;
       padding: 16px 16px 16px 0;
       box-sizing: inherit;
+
       ul {
+        
         li {
           color: hsl(0, 0%, 40%);
           margin-bottom: 4px;
