@@ -32,7 +32,7 @@ app.prepare().then(() => {
     })
 
     // api
-    server.get('/api/category/codes', async(req, res) => {
+    server.get('/api/category/codes', async (req, res) => {
         try {
             const codes = await axios.get(`https://pink-check.school/api/v2/codes`)
             res.json(codes.data)
@@ -41,12 +41,16 @@ app.prepare().then(() => {
         }
     })
 
-    server.get('/api/card-trades/:hash', async (req, res) => {
+    server.post('/api/card-trades/:hash', async (req, res) => {
         const { hash } = req.params
+        const { beginTime, endTime } = req.body
+        console.log(beginTime,endTime)
+        const queryUrl = beginTime ? `?beginTime=${beginTime}&endTime=${endTime}` : ``;
         try {
-            const tradeInfo = await axios.get('https://pink-check.school/api/v2/trades/' + hash)
+            const tradeInfo = await axios.get('https://pink-check.school/api/v2/trades/' + hash + queryUrl)
             res.json(tradeInfo.data)
         } catch (err) {
+            console.log(err)
             res.sendStatus(400)
         }
     })

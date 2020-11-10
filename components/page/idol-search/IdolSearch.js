@@ -24,20 +24,6 @@ class IdolSearch extends Component {
         this.setState({ idolData: idolData.data.content })
         const category = await apiCodes()
         this.setState({ codeCategory: category.content })
-        this.testFucntion("EffectStrength", "")
-    }
-
-    testFucntion = (categoryName, codeValue) => {
-        const { codeCategory } = this.state;
-        const data = codeCategory.filter(a => a.categoryKey === categoryName)[0]?.detail
-        const string = JSON.stringify(data.map(a => {
-            const key = a.stringValue
-            return {
-                [key]: a.explanation
-            }
-        }))
-        const test = string.replaceAll("{", "").replaceAll("}", "").replaceAll("[", "").replaceAll("]", "")
-        console.log(test)
     }
 
     getCardEffectInfo = (categoryName, codeValue) => {
@@ -93,8 +79,7 @@ class IdolSearch extends Component {
             type: effect !== "0" && this.getCardEffectInfo("EffectType", abilityEffect.type),
             backMember: effect !== "0" && this.getCardEffectInfo("EffectBackMemberScope", abilityEffect.backMember),
             strength: effect !== "0" && this.getCardEffectInfo("EffectStrength", abilityEffect.strength),
-        };
-
+        }
         const { scope, backMember, type, strength } = transAbilityEffect;
 
         return (
@@ -115,6 +100,16 @@ class IdolSearch extends Component {
                         </li>
                         <li>
                             특기원문 : {effect !== "0" && effect}
+                        </li>
+                    </ul>
+                </div>
+                <div className={styles.cardInfoBox}>
+                    <ul>
+                        <li>
+                            공격력:
+                        </li>
+                        <li>
+                            수비력:
                         </li>
                     </ul>
                 </div>
