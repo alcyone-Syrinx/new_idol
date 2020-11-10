@@ -44,7 +44,7 @@ app.prepare().then(() => {
     server.post('/api/card-trades/:hash', async (req, res) => {
         const { hash } = req.params
         const { beginTime, endTime } = req.body
-        console.log(beginTime,endTime)
+        console.log(beginTime, endTime)
         const queryUrl = beginTime ? `?beginTime=${beginTime}&endTime=${endTime}` : ``;
         try {
             const tradeInfo = await axios.get('https://pink-check.school/api/v2/trades/' + hash + queryUrl)
@@ -64,15 +64,17 @@ app.prepare().then(() => {
         }
     })
 
-    server.get('/idolCardList', async (req, res) => {
-        const { id } = req.query
+    server.get('/api/card-search', async (req, res) => {
+        const { id, hash } = req.query
 
-        if (!id) {
+        if (!id && !hash) {
             res.json()
         }
 
+        const queryUrl = id ? `?idolId=${id}` : `/${hash}`
+
         try {
-            const data = await axios.get(`https://pink-check.school/api/v2/cards?idolId=${id}`)
+            const data = await axios.get(`https://pink-check.school/api/v2/cards${queryUrl}`)
             res.json(data.data)
         } catch (error) {
             res.json()

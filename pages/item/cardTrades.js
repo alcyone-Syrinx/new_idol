@@ -5,6 +5,7 @@ import axios from 'axios'
 /* Internal imports */
 import Page from '../../components/common/page'
 import CardTrades from '../../components/page/card-trades'
+import NaveHeader from '../../components/common/component/navi-header'
 
 class CardTradesPage extends Component {
     static getInitialProps({ query }) {
@@ -16,6 +17,7 @@ class CardTradesPage extends Component {
 
         return (
             <Page>
+                <NaveHeader/>
                 <CardTrades hash={hash} />
             </Page>
         )

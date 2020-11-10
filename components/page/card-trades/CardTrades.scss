@@ -1,15 +1,79 @@
-@import '../../../styles/colors.scss';
+@import "../../../styles/colors.scss";
+@import "../../../styles/global.scss";
+
+$black-color: #222;
+$orange-color: #ff6801;
+$grey-light: #999;
+$border-color: #ebebeb;
 
 .header {
   margin: 16px 0;
   font-size: 24px;
   color: $grey900;
+
+  label {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin-bottom: 2px;
+    display: block;
+  }
 }
 
-.cardContainer {
+.tradeContainer {
+  padding: 50px 100px 50px 70px;
+
+  .inputBody {
+    display: flex;
+
+    label {
+      font-size: 14px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      margin-bottom: 2px;
+      display: block;
+    }
+
+    input,
+    select {
+      display: block;
+      width: 100%;
+      border: 1px solid $border-color;
+      padding: 11px 20px;
+      box-sizing: border-box;
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 13px;
+      &:focus {
+        border: 1px solid $orange-color;
+      }
+    }
+  }
+}
+.cardListContainer {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+
+  .cardItems {
+    display: flex;
+    animation-name: fadein;
+    animation-fill-mode: both;
+    animation-duration: 0.5s;
     margin-bottom: 8px;
     border: 1px solid $grey700;
-    border-radius: 4px;
+    background: white;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    @extend %boxshadow;
+    counter-increment: gradient-counter;
+    margin-top: 1rem;
+    min-height: 3rem;
+    padding: 1rem 1rem 1rem 1rem;
+    position: relative;
+  }
+
+  .cardContainer {
+    margin-bottom: 8px;
     padding: 10px 12px 8px 12px;
 
     .tradeCost {
@@ -34,4 +98,68 @@
         color: $grey500;
       }
     }
+  }
+}
+
+.buttonContainer {
+  text-align: right;
+  margin-left: 20px;
+}
+
+.cardImg {
+  border-radius: 3px;
+}
+
+.submit {
+  width: 80px;
+  height: 40px;
+  display: inline-block;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 13px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#submit {
+  background: $orange-color;
+  color: #fff;
+  &:hover {
+    background-color: darken($orange-color, 10%);
+  }
+}
+
+.idolCardsContainer {
+  width: 100%;
+
+  .idolCardsHeader {
+    line-height: 2.5rem;
+    text-align: left;
+    border-radius: 6px;
+    @extend %boxshadow;
+    margin-bottom: 10px;
+    padding: 2px 0 2px 5px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  .idolCardsList {
+    width: 100%;
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+
+    ul {
+      width: 100%;
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        margin: 0 8px 5px 8px;
+      }
+    }
+  }
 }
