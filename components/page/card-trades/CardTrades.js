@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import autobind from 'autobind-decorator'
 import moment from 'moment'
+import Router from 'next/router';
+
 
 /* Internal imports */
 import styles from './CardTrades.scss'
@@ -12,31 +14,95 @@ class CardTrades extends Component {
         super(props)
 
         this.state = {
+            hash: '',
             cardName: '로드 중...',
             cardTradeInfos: [],
+            beginTime: '',
+            endTime: '',
+            cardBasicData: '',
+            idolCardsInfo: [],
+            idolCardsView: 'none',
         }
     }
 
     async componentDidMount() {
         const { hash } = this.props
-        await this.getCardTradData(hash)
+        await this.setState({ hash })
+        await this.getCardBasicInfo()
+        await this.getIdolCardsInfo()
+        await this.getCardTradData()
     }
 
-    getCardTradData = async (hash) => {
-        const endTime = moment().format().split("+")[0]
-        const beginTime = moment().add("-30", "d").format().split("+")[0]
-        const body = { beginTime, endTime }
+    getCardBasicInfo = async () => {
+        const { hash } = this.props
 
         try {
+            const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?hash=${hash}`)
+            this.setState({ cardName: cardSearchResult?.data?.content[0].name, idolId: cardSearchResult?.data?.content[0].idolId })
+        } catch (error) {
+            this.setState({ cardName: '조회실패' })
+
+        }
+    }
+
+    getIdolCardsInfo = async () => {
+        const { idolId } = this.state
+
+        try {
+            const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?id=${idolId}`)
+            this.setState({ idolCardsInfo: cardSearchResult?.data?.content })
+        } catch (error) {
+            this.setState({ idolCardsInfo: [] })
+
+        }
+    }
+
+    setBeginDate = async (date) => {
+        const beginTime = date.target.value
+        const { endTime } = this.state
+
+        if (beginTime > endTime) {
+            return
+        }
+
+        await this.setState({ beginTime })
+    }
+
+    setEndDate = async (date) => {
+        const endTime = date.target.value
+        const { beginTime } = this.state
+
+        if (beginTime > endTime) {
+            return
+        }
+
+        this.setState({ endTime })
+
+    }
+
+    getCardTradData = async () => {
+        const stateEndTime = moment().format('YYYY-MM-DD')
+        const stateBeginTime = moment().add("-30", "d").format('YYYY-MM-DD')
+
+        await this.setState({ beginTime: stateBeginTime, endTime: stateEndTime })
+        await this.callTradeApi()
+    }
+
+    callTradeApi = async () => {
+
+        const { beginTime, endTime, hash } = this.state
+        const body = {
+            beginTime: `${beginTime}T00:00:00`,
+            endTime: `${endTime}T00:00:00`
+        }
+
+        try {
+            this.setState({ cardTradeInfos: [] })
             const response = await axios.post(`/api/card-trades/${hash}`, body)
-            this.setState({
-                cardName: response?.data?.content?.[0]?.cardName || '정보 없음',
-                cardTradeInfos: response?.data?.content || []
-            })
+            this.setState({ cardTradeInfos: response?.data?.content || [] })
         } catch (error) {
             this.setState({ cardTradeInfos: [] })
         }
-
     }
 
     convertDate(val) {
@@ -70,36 +136,88 @@ class CardTrades extends Component {
         }).join(', ')
     }
 
+    idolCardsTabClick = () => {
+        const { idolCardsView } = this.state
+        this.setState({ idolCardsView: idolCardsView === 'none' ? 'block' : 'none' })
+    }
+
+    itemOnClick = (hash) => {
+        Router.push({ pathname: `/card-trades/${hash}` })
+    }
+
     @autobind
     renderItems(info) {
         return (
-            <div key={info.mobageTradeHistoryDetailId} className={styles.cardContainer}>
-                <div className={styles.tradeCost}>
-                    {this.getCostMessage(info.item)}
-                </div>
-                <div className={styles.tradeInfo}>
-                    <div className={styles.tradeNames}>
-                        {`${info.sourceProducerName} -> ${info.destProducerName}`}
+            <li className={styles.cardItems}>
+                <div key={info.mobageTradeHistoryDetailId} className={styles.cardContainer}>
+                    <div className={styles.tradeCost}>
+                        {this.getCostMessage(info.item)}
                     </div>
-                    <div className={styles.tradeTime}>
-                        {`${this.convertDate(info.tradeTime)}`}
+                    <div className={styles.tradeInfo}>
+                        <div className={styles.tradeNames}>
+                            {`${info.sourceProducerName} -> ${info.destProducerName}`}
+                        </div>
+                        <div className={styles.tradeTime}>
+                            {`${this.convertDate(info.tradeTime)}`}
+                        </div>
                     </div>
                 </div>
-            </div>
+            </li>
+
+        )
+    }
+
+    renderCardList = (info) => {
+        const { cardHash } = info;
+        return (
+            <li onClick={() => this.itemOnClick(cardHash)}>
+                <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${cardHash}.jpg`} />
+            </li>
         )
     }
 
     render() {
-        const { cardName, cardTradeInfos } = this.state
+        const {
+            cardName,
+            cardTradeInfos,
+            beginTime, endTime,
+            idolCardsView,
+            idolCardsInfo
+        } = this.state
         return (
-            <dik>
+            <div className={styles.tradeContainer}>
                 <div className={styles.header}>
-                    {cardName}
+                    <label>{cardName}</label>
                 </div>
                 <div>
-                    {cardTradeInfos.map(this.renderItems)}
+                    <div className={styles.idolCardsContainer} >
+                        <div className={styles.idolCardsHeader} onClick={this.idolCardsTabClick}>
+                            아이돌 리스트
+                        </div>
+                        <div className={styles.idolCardsList} style={{ display: idolCardsView }}>
+                            <ul >
+                                {idolCardsInfo?.map(item => this.renderCardList(item))}
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </dik>
+                <div className={styles.inputBody} >
+                    <div className={styles.inputDate}>
+                        <input type="date" onChange={this.setBeginDate} value={beginTime} />
+                    </div>
+                    <div className={styles.inputDate}>
+                        <input type="date" onChange={this.setEndDate} value={endTime} />
+                    </div>
+                    <div className={styles.buttonContainer}>
+                        <button id={styles.submit} className={styles.submit} onClick={this.callTradeApi}>확인</button>
+                    </div>
+                </div>
+                <div>
+                    <ul className={styles.cardListContainer}>
+                        {cardTradeInfos.map(this.renderItems)}
+                    </ul>
+                </div>
+            </div >
         )
     }
 }

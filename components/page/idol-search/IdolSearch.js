@@ -21,7 +21,7 @@ class IdolSearch extends Component {
 
     async componentDidMount() {
         const idolData = await axios.get('http://localhost:3002/api/idols')
-        this.setState({ idolData: idolData.data.content })
+        await this.setState({ idolData: idolData.data.content })
         const category = await apiCodes()
         this.setState({ codeCategory: category.content })
     }
@@ -41,6 +41,7 @@ class IdolSearch extends Component {
         const { inputValue, idolData } = this.state;
         const name = mapping.searchIdolName(inputValue);
         const idolInfo = name && idolData?.filter(a => a.name === name)
+
         if (!idolInfo) {
             return
         }
@@ -58,7 +59,7 @@ class IdolSearch extends Component {
 
         this.setState({ imgData: [], loadingDisplay: 'block' });
 
-        const cardSearchResult = await axios.get(`http://localhost:3002/idolCardList?id=${id}`)
+        const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?id=${id}`)
 
         const imgArr = cardSearchResult?.data.content || [];
         this.setState({ imgData: imgArr, loadingDisplay: 'none' })
