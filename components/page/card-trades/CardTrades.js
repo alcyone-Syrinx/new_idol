@@ -22,6 +22,11 @@ class CardTrades extends Component {
             cardBasicData: '',
             idolCardsInfo: [],
             idolCardsView: 'none',
+            graphView: 'none',
+            graphData: {
+                topPrice: 0,
+                graphTradeData: []
+            },
         }
     }
 
@@ -31,6 +36,7 @@ class CardTrades extends Component {
         await this.getCardBasicInfo()
         await this.getIdolCardsInfo()
         await this.getCardTradData()
+        await this.transToGraphData()
     }
 
     getCardBasicInfo = async () => {
@@ -44,6 +50,8 @@ class CardTrades extends Component {
 
         }
     }
+
+
 
     getIdolCardsInfo = async () => {
         const { idolId } = this.state
@@ -103,14 +111,84 @@ class CardTrades extends Component {
         } catch (error) {
             this.setState({ cardTradeInfos: [] })
         }
+
+        await this.transToGraphData()
+
     }
+
+    transToGraphData = () => {
+        const { cardTradeInfos } = this.state
+
+        let tradeDateList = []
+        let dateTradeData = {}
+        let dateCount = {}
+        let topPrice = 0;
+
+        for (let i of cardTradeInfos) {
+
+            if (tradeDateList.length > 30) {
+                break
+            }
+
+            const { item } = i
+            let price = 0;
+            let itemInclude = false
+            const tradeDate = i.tradeTime.split("T")[0]
+
+
+            for (let i of item) {
+                if (i.itemTypeId === 1) {
+                    price += i.volume
+                } else if (i.itemTypeId === 2) {
+                    price += i.volume * 1.5
+                } else {
+                    itemInclude = true
+                    break
+                }
+            }
+
+            if (itemInclude) {
+                continue
+            }
+
+            if (!tradeDateList.find(a => a === tradeDate)) {
+                tradeDateList.push(tradeDate)
+            }
+
+            dateCount[tradeDate] = (dateCount[tradeDate] || 0) + 1
+            dateTradeData[tradeDate] = (dateTradeData[tradeDate] || 0) + price
+        }
+
+        const result = tradeDateList.map(a => {
+            const value = Math.round(dateTradeData[a] / dateCount[a])
+
+            if (value > topPrice) {
+                topPrice = value
+            }
+
+            return {
+                date: a,
+                value
+            }
+        })
+
+        this.setState({
+            graphData: {
+                topPrice: topPrice,
+                graphTradeData: result || []
+            }
+        })
+
+        console.log(this.state.graphData)
+    }
+
 
     convertDate(val) {
         const firstSplit = val.split("T");
         const seconedSplit = firstSplit[1].split("+");
 
-        const yyyyMMdd = firstSplit[0].split("-");
-        const hhMMss = seconedSplit[0].split(":");
+        const yyyyMMdd = firstSplit[0].split("-")
+        const hhMMss = seconedSplit[0].split(":")
 
         return (`${yyyyMMdd[0]}년 ${yyyyMMdd[1]}월 ${yyyyMMdd[2]}일 ${hhMMss[0]}시 ${hhMMss[1]}분 ${hhMMss[2]}초`)
     }
@@ -136,13 +214,32 @@ class CardTrades extends Component {
         }).join(', ')
     }
 
-    idolCardsTabClick = () => {
-        const { idolCardsView } = this.state
-        this.setState({ idolCardsView: idolCardsView === 'none' ? 'block' : 'none' })
+    dropDownTab = (flag) => {
+        const { idolCardsView, graphView } = this.state
+
+        if (flag === 'cards') {
+            this.setState({ idolCardsView: idolCardsView === 'none' ? 'block' : 'none' })
+
+        } else {
+            this.setState({ graphView: graphView === 'none' ? 'block' : 'none' })
+
+        }
     }
 
     itemOnClick = (hash) => {
         Router.push({ pathname: `/card-trades/${hash}` })
+    }
+
+    renderGraphItem = (topPrice, info) => {
+
+        const height = `${Math.ceil(info.value / topPrice * 100)}%`
+
+        return (
+            <li className={styles.graphContent}>
+                <div className={styles.graphBar} style={{ height }} >{info.value}</div>
+                <div className={styles.graphDate}>{info.date}</div>
+            </li>
+        )
     }
 
     @autobind
@@ -182,8 +279,13 @@ class CardTrades extends Component {
             cardTradeInfos,
             beginTime, endTime,
             idolCardsView,
-            idolCardsInfo
+            graphView,
+            idolCardsInfo,
+            graphData
         } = this.state
+
+        const { topPrice, graphTradeData } = graphData
+
         return (
             <div className={styles.tradeContainer}>
                 <div className={styles.header}>
@@ -191,12 +293,22 @@ class CardTrades extends Component {
                 </div>
                 <div>
                     <div className={styles.idolCardsContainer} >
-                        <div className={styles.idolCardsHeader} onClick={this.idolCardsTabClick}>
+                        <div className={styles.idolCardsHeader} onClick={() => this.dropDownTab('cards')}>
                             아이돌 리스트
                         </div>
                         <div className={styles.idolCardsList} style={{ display: idolCardsView }}>
                             <ul >
                                 {idolCardsInfo?.map(item => this.renderCardList(item))}
+                            </ul>
+                        </div>
+                    </div>
+                    <div className={styles.graphContainer} >
+                        <div className={styles.graphHeader} onClick={() => this.dropDownTab('graph')}>
+                            거래내역 그래프
+                        </div>
+                        <div className={styles.graphList} style={{ display: graphView }}>
+                            <ul >
+                                {graphTradeData?.map(item => this.renderGraphItem(topPrice, item))}
                             </ul>
                         </div>
                     </div>
