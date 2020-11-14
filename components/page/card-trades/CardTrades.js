@@ -22,6 +22,7 @@ class CardTrades extends Component {
             cardBasicData: '',
             idolCardsInfo: [],
             idolCardsView: 'none',
+            graphData: {},
         }
     }
 
@@ -31,6 +32,7 @@ class CardTrades extends Component {
         await this.getCardBasicInfo()
         await this.getIdolCardsInfo()
         await this.getCardTradData()
+        await this.transToGraphData()
     }
 
     getCardBasicInfo = async () => {
@@ -44,6 +46,8 @@ class CardTrades extends Component {
 
         }
     }
+
+
 
     getIdolCardsInfo = async () => {
         const { idolId } = this.state
@@ -105,12 +109,68 @@ class CardTrades extends Component {
         }
     }
 
+    transToGraphData = () => {
+        let form = {};
+        const { cardTradeInfos } = this.state
+
+        let dateContent = []
+        let dateTradeData = {}
+        let dateCount = {}
+
+        for (let i of cardTradeInfos) {
+
+            if (dateContent.length > 30) {
+                break
+            }
+
+            const { item } = i
+            let price = 0;
+            let itemInclude = false
+            const tradeDate = i.tradeTime.split("T")[0]
+
+
+            for (let i of item) {
+                if (i.itemTypeId === 1) {
+                    price += i.volume
+                } else if (i.itemTypeId === 2) {
+                    price += i.volume * 1.5
+                } else {
+                    itemInclude = true
+                    break
+                }
+            }
+
+            if(itemInclude) {
+                continue
+            }
+
+            if (!dateContent.find(a => a === tradeDate)) {
+                dateContent.push(tradeDate)
+            }
+
+            dateCount[tradeDate] = (dateCount[tradeDate] || 0) + 1
+            dateTradeData[tradeDate] = (dateTradeData[tradeDate] || 0) + price
+        }
+
+        this.setState({
+            graphData: {
+                dateList: dateContent,
+                dateTradeDate: dateContent.map(a => {
+                    return { [a]: dateTradeData[a] / dateCount[a] }
+                })
+            }
+        })
+
+        console.log(this.state.graphData)
+    }
+
+
     convertDate(val) {
         const firstSplit = val.split("T");
         const seconedSplit = firstSplit[1].split("+");
 
-        const yyyyMMdd = firstSplit[0].split("-");
-        const hhMMss = seconedSplit[0].split(":");
+        const yyyyMMdd = firstSplit[0].split("-")
+        const hhMMss = seconedSplit[0].split(":")
 
         return (`${yyyyMMdd[0]}년 ${yyyyMMdd[1]}월 ${yyyyMMdd[2]}일 ${hhMMss[0]}시 ${hhMMss[1]}분 ${hhMMss[2]}초`)
     }
