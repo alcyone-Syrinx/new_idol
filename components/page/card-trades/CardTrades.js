@@ -51,8 +51,6 @@ class CardTrades extends Component {
         }
     }
 
-
-
     getIdolCardsInfo = async () => {
         const { idolId } = this.state
 
@@ -113,10 +111,13 @@ class CardTrades extends Component {
         }
 
         await this.transToGraphData()
-
     }
 
-    transToGraphData = () => {
+    transToGraphData = (eneDrink) => {
+        if (eneDrink) {
+            if (Number.isNaN(eneDrink)) return
+        }
+
         const { cardTradeInfos } = this.state
 
         let tradeDateList = []
@@ -126,7 +127,7 @@ class CardTrades extends Component {
 
         for (let i of cardTradeInfos) {
 
-            if (tradeDateList.length > 30) {
+            if (tradeDateList.length > 29) {
                 break
             }
 
@@ -140,7 +141,8 @@ class CardTrades extends Component {
                 if (i.itemTypeId === 1) {
                     price += i.volume
                 } else if (i.itemTypeId === 2) {
-                    price += i.volume * 1.5
+                    price += i.volume * (eneDrink || 1.5)
+                    console.log(price)
                 } else {
                     itemInclude = true
                     break
@@ -178,8 +180,6 @@ class CardTrades extends Component {
                 graphTradeData: result || []
             }
         })
-
-        console.log(this.state.graphData)
     }
 
 
@@ -230,13 +230,22 @@ class CardTrades extends Component {
         Router.push({ pathname: `/card-trades/${hash}` })
     }
 
+    reCaculateByEne = () => {
+        const value = document?.getElementById('enedrink')?.value || 1.5
+
+        this.transToGraphData(value)
+    }
+
     renderGraphItem = (topPrice, info) => {
 
         const height = `${Math.ceil(info.value / topPrice * 100)}%`
 
         return (
             <li className={styles.graphContent}>
-                <div className={styles.graphBar} style={{ height }} >{info.value}</div>
+                <div className={styles.graphBar} style={{ height }} >
+                    <div className={styles.graphValue}>{info.value}</div>
+                    <div className={styles.graphHeight}  />
+                </div>
                 <div className={styles.graphDate}>{info.date}</div>
             </li>
         )
@@ -305,6 +314,11 @@ class CardTrades extends Component {
                     <div className={styles.graphContainer} >
                         <div className={styles.graphHeader} onClick={() => this.dropDownTab('graph')}>
                             거래내역 그래프
+                        </div>
+                        <div className={styles.inputBody} style={{ display: graphView }}>
+                            <label>에네드링배율</label>
+                            <input id="enedrink" type="number" />
+                            <button id={styles.submit} className={styles.submit} onClick={this.reCaculateByEne}>확인</button>
                         </div>
                         <div className={styles.graphList} style={{ display: graphView }}>
                             <ul >

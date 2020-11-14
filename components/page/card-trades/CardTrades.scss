@@ -197,17 +197,32 @@ $border-color: #ebebeb;
       .graphContent {
         position: relative;
         width: 300px;
-        margin: 0 8px 5px 90px;
+        margin: 0 8px 5px 100px;
         height: 400px;
+        display: inline-block;
 
         .graphBar {
           position: absolute;
           bottom: 0;
-          width: 30px;
-          background-color: red;
           margin-bottom: 30px;
           margin-left: 30px;
           text-align: center;
+          height: 300px;
+
+          .graphHeight {
+            position: relative;
+            height: 95%;
+            bottom: 0px;
+            width: 30px;
+            background-color: red;
+          }
+
+          .graphValue {
+            height: 5%;
+            position: relative;
+            width: 30px;
+            text-align: center;
+          }
         }
 
         .graphDate {
