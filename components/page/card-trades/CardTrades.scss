@@ -211,6 +211,7 @@ $border-color: #ebebeb;
           width: 120px;
           overflow-y: hidden;
 
+
           .graphHeight {
             position: relative;
             height: 95%;
@@ -218,6 +219,9 @@ $border-color: #ebebeb;
             width: 30px;
             margin: 0 auto;
             background-color: red;
+            -webkit-animation-name: grow;
+            -webkit-animation-duration: 2s;
+
           }
 
           .graphValue {
