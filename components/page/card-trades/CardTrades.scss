@@ -185,7 +185,6 @@ $border-color: #ebebeb;
   .graphList {
     animation: growDown 300ms ease-in-out forwards;
     transform-origin: top center;
-    overflow: auto;
 
     ul {
       list-style: none;
@@ -193,6 +192,7 @@ $border-color: #ebebeb;
       padding: 0;
       display: flex;
       padding-top: 40px;
+      overflow: auto;
 
       .graphContent {
         position: relative;
@@ -201,34 +201,42 @@ $border-color: #ebebeb;
         height: 400px;
         display: inline-block;
 
+
         .graphBar {
           position: absolute;
           bottom: 0;
           margin-bottom: 30px;
-          margin-left: 30px;
           text-align: center;
-          height: 300px;
+          min-height: 20px;
+          width: 120px;
+          overflow-y: hidden;
 
           .graphHeight {
             position: relative;
             height: 95%;
             bottom: 0px;
             width: 30px;
+            margin: 0 auto;
             background-color: red;
           }
 
           .graphValue {
+            min-height: 20px;
             height: 5%;
             position: relative;
-            width: 30px;
+            width: 40px;
             text-align: center;
+            margin: 0 auto;
+
           }
         }
 
         .graphDate {
           position: absolute;
           bottom: 0;
-          width: 150px;
+          width: 120px;
+          text-align: center;
+
         }
       }
 
