@@ -5,9 +5,9 @@ import autobind from 'autobind-decorator'
 import moment from 'moment'
 import Router from 'next/router';
 
-
 /* Internal imports */
 import styles from './CardTrades.scss'
+import GraphContainer from './GraphContainer'
 
 class CardTrades extends Component {
     constructor(props) {
@@ -22,11 +22,6 @@ class CardTrades extends Component {
             cardBasicData: '',
             idolCardsInfo: [],
             idolCardsView: 'none',
-            graphView: 'none',
-            graphData: {
-                topPrice: 0,
-                graphTradeData: []
-            },
         }
     }
 
@@ -50,8 +45,6 @@ class CardTrades extends Component {
 
         }
     }
-
-
 
     getIdolCardsInfo = async () => {
         const { idolId } = this.state
@@ -113,75 +106,9 @@ class CardTrades extends Component {
         }
 
         await this.transToGraphData()
+        console.log('data ok')
 
     }
-
-    transToGraphData = () => {
-        const { cardTradeInfos } = this.state
-
-        let tradeDateList = []
-        let dateTradeData = {}
-        let dateCount = {}
-        let topPrice = 0;
-
-        for (let i of cardTradeInfos) {
-
-            if (tradeDateList.length > 30) {
-                break
-            }
-
-            const { item } = i
-            let price = 0;
-            let itemInclude = false
-            const tradeDate = i.tradeTime.split("T")[0]
-
-
-            for (let i of item) {
-                if (i.itemTypeId === 1) {
-                    price += i.volume
-                } else if (i.itemTypeId === 2) {
-                    price += i.volume * 1.5
-                } else {
-                    itemInclude = true
-                    break
-                }
-            }
-
-            if (itemInclude) {
-                continue
-            }
-
-            if (!tradeDateList.find(a => a === tradeDate)) {
-                tradeDateList.push(tradeDate)
-            }
-
-            dateCount[tradeDate] = (dateCount[tradeDate] || 0) + 1
-            dateTradeData[tradeDate] = (dateTradeData[tradeDate] || 0) + price
-        }
-
-        const result = tradeDateList.map(a => {
-            const value = Math.round(dateTradeData[a] / dateCount[a])
-
-            if (value > topPrice) {
-                topPrice = value
-            }
-
-            return {
-                date: a,
-                value
-            }
-        })
-
-        this.setState({
-            graphData: {
-                topPrice: topPrice,
-                graphTradeData: result || []
-            }
-        })
-
-        console.log(this.state.graphData)
-    }
-
 
     convertDate(val) {
         const firstSplit = val.split("T");
@@ -230,18 +157,6 @@ class CardTrades extends Component {
         Router.push({ pathname: `/card-trades/${hash}` })
     }
 
-    renderGraphItem = (topPrice, info) => {
-
-        const height = `${Math.ceil(info.value / topPrice * 100)}%`
-
-        return (
-            <li className={styles.graphContent}>
-                <div className={styles.graphBar} style={{ height }} >{info.value}</div>
-                <div className={styles.graphDate}>{info.date}</div>
-            </li>
-        )
-    }
-
     @autobind
     renderItems(info) {
         return (
@@ -273,18 +188,83 @@ class CardTrades extends Component {
         )
     }
 
+    transToGraphData = (eneDrink) => {
+        if (eneDrink) {
+            if (Number.isNaN(eneDrink)) return
+        }
+        let tradeDateList = []
+        let dateTradeData = {}
+        let dateCount = {}
+        let topPrice = 0;
+
+        const { cardTradeInfos } = this.state
+
+        for (let i of cardTradeInfos) {
+
+            if (tradeDateList.length > 29) {
+                break
+            }
+
+            const { item } = i
+            let price = 0;
+            let itemInclude = false
+            const tradeDate = i.tradeTime.split("T")[0]
+
+
+            for (let i of item) {
+                if (i.itemTypeId === 1) {
+                    price += i.volume
+                } else if (i.itemTypeId === 2) {
+                    price += i.volume * (eneDrink || 1.5)
+                } else {
+                    itemInclude = true
+                    break
+                }
+            }
+
+            if (itemInclude) {
+                continue
+            }
+
+            if (!tradeDateList.find(a => a === tradeDate)) {
+                tradeDateList.push(tradeDate)
+            }
+
+            dateCount[tradeDate] = (dateCount[tradeDate] || 0) + 1
+            dateTradeData[tradeDate] = (dateTradeData[tradeDate] || 0) + price
+        }
+
+        const result = tradeDateList.map(a => {
+            const value = Math.round(dateTradeData[a] / dateCount[a])
+
+            if (value > topPrice) {
+                topPrice = value
+            }
+
+            return {
+                date: a,
+                value
+            }
+        })
+
+        this.setState({
+            topPrice: topPrice,
+            graphData: result || []
+
+        })
+    }
+
     render() {
         const {
             cardName,
             cardTradeInfos,
-            beginTime, endTime,
+            beginTime,
+            endTime,
             idolCardsView,
-            graphView,
             idolCardsInfo,
-            graphData
+            graphData,
+            topPrice
         } = this.state
-
-        const { topPrice, graphTradeData } = graphData
 
         return (
             <div className={styles.tradeContainer}>
@@ -302,16 +282,12 @@ class CardTrades extends Component {
                             </ul>
                         </div>
                     </div>
-                    <div className={styles.graphContainer} >
-                        <div className={styles.graphHeader} onClick={() => this.dropDownTab('graph')}>
-                            거래내역 그래프
-                        </div>
-                        <div className={styles.graphList} style={{ display: graphView }}>
-                            <ul >
-                                {graphTradeData?.map(item => this.renderGraphItem(topPrice, item))}
-                            </ul>
-                        </div>
-                    </div>
+                    <GraphContainer
+                        topPrice={topPrice}
+                        graphData={graphData}
+                        cardTradeInfos={cardTradeInfos}
+                        transToGraphData={this.transToGraphData}
+                    />
                 </div>
                 <div className={styles.inputBody} >
                     <div className={styles.inputDate}>

@@ -104,8 +104,8 @@ $border-color: #ebebeb;
 }
 
 .buttonContainer {
-  text-align: right;
-  margin-left: 20px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .cardImg {
@@ -182,10 +182,43 @@ $border-color: #ebebeb;
     font-size: 13px;
   }
 
+  .inputBody {
+    display: flex;
+
+    .inputContent {
+      width: 50%;
+      padding: 2px;
+    }
+
+    label {
+      font-size: 14px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      margin-bottom: 2px;
+      display: block;
+    }
+
+    input,
+    select {
+      display: block;
+      width: 100%;
+      border: 1px solid $border-color;
+      padding: 11px 20px;
+      box-sizing: border-box;
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 13px;
+
+      &:focus {
+        border: 1px solid $orange-color;
+      }
+    }
+
+  }
+
   .graphList {
     animation: growDown 300ms ease-in-out forwards;
-    transform-origin: top center;
-    overflow: auto;
+    // transform-origin: top center;
 
     ul {
       list-style: none;
@@ -193,27 +226,55 @@ $border-color: #ebebeb;
       padding: 0;
       display: flex;
       padding-top: 40px;
+      overflow: auto;
 
       .graphContent {
         position: relative;
         width: 300px;
-        margin: 0 8px 5px 90px;
+        margin: 0 8px 5px 100px;
         height: 400px;
+        display: inline-block;
+
 
         .graphBar {
           position: absolute;
           bottom: 0;
-          width: 30px;
-          background-color: red;
           margin-bottom: 30px;
-          margin-left: 30px;
           text-align: center;
+          min-height: 20px;
+          width: 120px;
+          overflow-y: hidden;
+
+
+          .graphHeight {
+            position: relative;
+            height: 95%;
+            bottom: 0px;
+            width: 30px;
+            margin: 0 auto;
+            background-color: $orange-color;
+            -webkit-animation-name: grow;
+            -webkit-animation-duration: 2s;
+
+          }
+
+          .graphValue {
+            min-height: 20px;
+            height: 5%;
+            position: relative;
+            width: 40px;
+            text-align: center;
+            margin: 0 auto;
+
+          }
         }
 
         .graphDate {
           position: absolute;
           bottom: 0;
-          width: 150px;
+          width: 120px;
+          text-align: center;
+
         }
       }
 
