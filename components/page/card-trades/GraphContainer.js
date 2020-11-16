@@ -10,10 +10,11 @@ class GraphContainer extends Component {
 
         this.state = {
             graphView: 'none',
-            enebiyull: 1.5
+            enebiyull: 1.5,
+            viewCount: 30,
         }
     }
-    
+
     dropDownTab = (flag) => {
         const { idolCardsView, graphView } = this.state
 
@@ -29,6 +30,8 @@ class GraphContainer extends Component {
     transToGraphData = (cardTradeInfos, eneDrink) => {
         if (!cardTradeInfos) return
 
+        const reverseTradeDtaa = cardTradeInfos.reverse()
+
         if (eneDrink) {
             if (Number.isNaN(eneDrink)) return
         }
@@ -38,7 +41,7 @@ class GraphContainer extends Component {
         let dateCount = {}
         let topPrice = 0;
 
-        for (let i of cardTradeInfos) {
+        for (let i of reverseTradeDtaa) {
 
             if (tradeDateList.length > 29) {
                 break
@@ -92,7 +95,7 @@ class GraphContainer extends Component {
             </ul>)
     }
 
-    reCaculateByEne = () => {
+    reCaculate = () => {
         const value = document?.getElementById('enedrink')?.value || 1.5
         this.setState({ enebiyull: value })
     }
@@ -113,17 +116,25 @@ class GraphContainer extends Component {
 
 
     render() {
-        const { graphView, enebiyull } = this.state
+        const { graphView, enebiyull, viewCount } = this.state
         const { cardTradeInfos } = this.props
 
         return (
             <div className={styles.graphContainer} >
                 <div className={styles.graphHeader} onClick={() => this.dropDownTab('graph')}>거래내역 그래프</div>
-                <div className={styles.inputBody} style={{ display: graphView }}>
-                    <label>에네드링배율</label>
-                    <input id="enedrink" type="number" />
+                <div style={{ display: graphView }}>
+                    <div className={styles.inputBody}>
+                        <div className={styles.inputContent}>
+                            <label>에네드링배율</label>
+                            <input id="enedrink" type="number" />
+                        </div>
+                        <div className={styles.inputContent}>
+                            <label>최대갯수</label>
+                            <input id="viewCount" type="number" />
+                        </div>
+                    </div>
                     <button id={styles.submit} className={styles.submit}
-                        onClick={() => this.reCaculateByEne(cardTradeInfos)}>확인</button>
+                            onClick={() => this.reCaculate(cardTradeInfos)}>확인</button>
                 </div>
                 <div className={styles.graphList} style={{ display: graphView }}>
                     {this.transToGraphData(cardTradeInfos, enebiyull)}

@@ -22,8 +22,6 @@ class CardTrades extends Component {
             cardBasicData: '',
             idolCardsInfo: [],
             idolCardsView: 'none',
-            topPrice: 0,
-            graphData: []
         }
     }
 
