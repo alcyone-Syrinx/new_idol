@@ -16,8 +16,6 @@ const CardTrades2 = (props) => {
     const [endTime, setEndTime] = useState(moment().format('YYYY-MM-DD'))
     const [idolCardsInfo, setIdolCardsInfo] = useState([])
     const [idolCardsView, setIdolCardsView] = useState('none')
-    const [topPrice, setTopPrice] = useState(0)
-    const [graphData, setGraphData] = useState([])
 
     useEffect(() => {
         getCardBasicInfo()
@@ -77,8 +75,6 @@ const CardTrades2 = (props) => {
         } catch (error) {
             setCardTradeInfos([])
         }
-
-        await transToGraphData()
     }
 
     const convertDate = (val) => {
@@ -148,66 +144,6 @@ const CardTrades2 = (props) => {
                 <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${cardHash}.jpg`} />
             </li>
         )
-    }
-
-    const transToGraphData = (eneDrink) => {
-        if (eneDrink) {
-            if (Number.isNaN(eneDrink)) return
-        }
-        let tradeDateList = []
-        let dateTradeData = {}
-        let dateCount = {}
-        let top = 0;
-
-        for (let i of cardTradeInfos) {
-
-            if (tradeDateList.length > 29) {
-                break
-            }
-
-            const { item } = i
-            let price = 0;
-            let itemInclude = false
-            const tradeDate = i.tradeTime.split("T")[0]
-
-            for (let i of item) {
-                if (i.itemTypeId === 1) {
-                    price += i.volume
-                } else if (i.itemTypeId === 2) {
-                    price += i.volume * (eneDrink || 1.5)
-                } else {
-                    itemInclude = true
-                    break
-                }
-            }
-
-            if (itemInclude) {
-                continue
-            }
-
-            if (!tradeDateList.find(a => a === tradeDate)) {
-                tradeDateList.push(tradeDate)
-            }
-
-            dateCount[tradeDate] = (dateCount[tradeDate] || 0) + 1
-            dateTradeData[tradeDate] = (dateTradeData[tradeDate] || 0) + price
-        }
-
-        const result = tradeDateList.map(a => {
-            const value = Math.round(dateTradeData[a] / dateCount[a])
-
-            if (value > top) {
-                top = value
-            }
-
-            return {
-                date: a,
-                value
-            }
-        })
-
-        setTopPrice(topPrice)
-        setGraphData(result || [])
     }
 
     return (
