@@ -1,6 +1,6 @@
 {
-  "name": "CardTrades",
+  "name": "CardTrades2",
   "version": "0.0.0",
   "private": true,
-  "main": "./CardTrades.js"
+  "main": "./CardTrades2.js"
 }
