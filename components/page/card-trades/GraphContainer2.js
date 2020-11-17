@@ -13,11 +13,10 @@ const GraphContainer2 = (props) => {
     const [enebiyull, setEnebiyull] = useState(1.5)
     const [viewCount, setViewCount] = useState(30)
 
-    const dropDownTab = (flag) => {
+    const dropDownTab = () => {
         setGraphView(graphView === 'none' ? 'block' : 'none')
     }
     const transToGraphData = useCallback((cardTradeInfos, eneDrink) => {
-        console.log('why')
         if (!cardTradeInfos) return
 
         const reverseTradeDtaa = cardTradeInfos.reverse()
@@ -106,7 +105,7 @@ const GraphContainer2 = (props) => {
         )
     }
 
-    const a = useMemo(() => transToGraphData(cardTradeInfos, enebiyull), [cardTradeInfos]);
+    const renderGraph = useMemo(() => transToGraphData(cardTradeInfos, enebiyull), [cardTradeInfos]);
 
     return (
         <div className={styles.graphContainer} >
@@ -126,7 +125,7 @@ const GraphContainer2 = (props) => {
                     onClick={() => reCaculate(cardTradeInfos)}>확인</button>
             </div>
             <div className={styles.graphList} style={{ display: graphView }}>
-                {a}
+                {renderGraph}
             </div>
         </div>
     )
