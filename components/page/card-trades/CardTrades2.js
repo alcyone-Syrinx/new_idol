@@ -7,8 +7,8 @@ import Router from 'next/router';
 /* Internal imports */
 import styles from './CardTrades.scss'
 import GraphContainer2 from './GraphContainer2'
-const CardTrades2 = (props) => {
 
+const CardTrades2 = (props) => {
     const { hash } = props
     const [cardName, setCardName] = useState('')
     const [cardTradeInfos, setCardTradeInfos] = useState([])
@@ -95,7 +95,7 @@ const CardTrades2 = (props) => {
             11: `매니`,
             21: `카드`
         }
-        return itemType[val];
+        return itemType[val]
     }
 
     const getCostMessage = (items) => {
@@ -187,7 +187,7 @@ const CardTrades2 = (props) => {
 }
 
 CardTrades2.getInitialProps = ({ query }) => {
-    return query;
+    return query
 }
 
 export default CardTrades2
