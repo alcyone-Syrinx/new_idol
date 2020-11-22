@@ -7,14 +7,20 @@ import Router from 'next/router';
 /* Internal imports */
 import styles from './CardTrades.scss'
 import GraphContainer2 from './GraphContainer2'
-const CardTrades2 = (props) => {
+import LoaderContainer from '../../common/component/loader-container/LoaderContainer'
+import CardList from './CardList/CardList';
 
-    const { hash } = props
+const CardTrades2 = ({ hash }) => {
+    const [loading, setLoading] = useState(true)
+    const [idolId, setIdolId] = useState()
+
+    const [showCardList, setShowCardList] = useState(false)
+    const [showTradeChart, setShowTradeChart] = useState(false)
+
     const [cardName, setCardName] = useState('')
     const [cardTradeInfos, setCardTradeInfos] = useState([])
     const [beginTime, setBeginTime] = useState(moment().add("-30", "d").format('YYYY-MM-DD'))
     const [endTime, setEndTime] = useState(moment().format('YYYY-MM-DD'))
-    const [idolCardsInfo, setIdolCardsInfo] = useState([])
     const [idolCardsView, setIdolCardsView] = useState('none')
 
     useEffect(() => {
@@ -25,21 +31,14 @@ const CardTrades2 = (props) => {
     const getCardBasicInfo = async () => {
         try {
             const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?hash=${hash}`)
-            getIdolCardsInfo(cardSearchResult?.data?.content[0].idolId)
+
+            setIdolId(cardSearchResult?.data?.content?.[0].idolId)
             setCardName(cardSearchResult?.data?.content[0].name)
+
+            setLoading(false)
         } catch (error) {
             setCardName("조회실패")
-            return ([])
-        }
-    }
-
-    const getIdolCardsInfo = async (id) => {
-        try {
-            const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?id=${id}`)
-            setIdolCardsInfo(cardSearchResult?.data?.content)
-        } catch (error) {
-            console.log(error)
-            setIdolCardsInfo([])
+            setLoading(false)
         }
     }
 
@@ -95,7 +94,7 @@ const CardTrades2 = (props) => {
             11: `매니`,
             21: `카드`
         }
-        return itemType[val];
+        return itemType[val]
     }
 
     const getCostMessage = (items) => {
@@ -110,10 +109,6 @@ const CardTrades2 = (props) => {
 
     const dropDownTab = () => {
         setIdolCardsView(idolCardsView === 'none' ? 'block' : 'none')
-    }
-
-    const itemOnClick = (hash) => {
-        Router.push({ pathname: `/card-trades/${hash}` })
     }
 
     const renderItems = (info) => {
@@ -137,57 +132,51 @@ const CardTrades2 = (props) => {
         )
     }
 
-    const renderCardList = (info) => {
-        const { cardHash } = info;
-        return (
-            <li onClick={() => itemOnClick(cardHash)}>
-                <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${cardHash}.jpg`} />
-            </li>
-        )
-    }
+    const renderCardList = useCallback(() => (
+        <div className={styles.idolCardsContainer}>
+            <div className={styles.idolCardsHeader}>
+                <div onClick={() => setShowCardList(!showCardList)}>아이돌 리스트</div>
+                { showCardList ? <CardList idolId={idolId} /> : null }
+            </div>
+        </div>
+    ), [showCardList, idolId])
+
+    const renderTradeChart = useCallback(() => (
+        <div className={styles.idolCardsContainer}>
+            <div className={styles.idolCardsHeader}>
+                <div onClick={() => setShowTradeChart(!showTradeChart)}>거래내역 차트</div>
+                { showTradeChart ? <GraphContainer2 trades={cardTradeInfos} /> : null }
+            </div>
+        </div>
+    ), [showTradeChart, cardTradeInfos])
 
     return (
-        <div className={styles.tradeContainer}>
-            <div className={styles.header}>
-                <label>{cardName}</label>
-            </div>
-            <div>
-                <div className={styles.idolCardsContainer} >
-                    <div className={styles.idolCardsHeader} onClick={() => dropDownTab('cards')}>
-                        아이돌 리스트
+        <LoaderContainer loading={loading}>
+            <div className={styles.tradeContainer}>
+                <div className={styles.header}>
+                    <label>{cardName}</label>
                 </div>
-                    <div className={styles.idolCardsList} style={{ display: idolCardsView }}>
-                        <ul >
-                            {idolCardsInfo?.map(item => renderCardList(item))}
-                        </ul>
+                {renderCardList()}
+                {renderTradeChart()}
+                <div className={styles.inputBody} >
+                    <div className={styles.inputDate}>
+                        <input type="date" onChange={setBeginDates} value={beginTime} />
+                    </div>
+                    <div className={styles.inputDate}>
+                        <input type="date" onChange={setEndDates} value={endTime} />
+                    </div>
+                    <div className={styles.buttonContainer}>
+                        <button id={styles.submit} className={styles.submit} onClick={callTradeApi}>확인</button>
                     </div>
                 </div>
-                <GraphContainer2
-                    cardTradeInfos={cardTradeInfos}
-                />
-            </div>
-            <div className={styles.inputBody} >
-                <div className={styles.inputDate}>
-                    <input type="date" onChange={setBeginDates} value={beginTime} />
-                </div>
-                <div className={styles.inputDate}>
-                    <input type="date" onChange={setEndDates} value={endTime} />
-                </div>
-                <div className={styles.buttonContainer}>
-                    <button id={styles.submit} className={styles.submit} onClick={callTradeApi}>확인</button>
+                <div>
+                    <ul className={styles.cardListContainer}>
+                        {cardTradeInfos?.map(renderItems)}
+                    </ul>
                 </div>
             </div>
-            <div>
-                <ul className={styles.cardListContainer}>
-                    {cardTradeInfos?.map(renderItems)}
-                </ul>
-            </div>
-        </div >
+        </LoaderContainer>
     )
-}
-
-CardTrades2.getInitialProps = ({ query }) => {
-    return query;
 }
 
 export default CardTrades2

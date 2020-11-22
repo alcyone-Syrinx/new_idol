@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+
+    .card {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 8px;
+        border: 1px solid #333;
+        border-radius: 20px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
