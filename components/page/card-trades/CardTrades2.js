@@ -13,7 +13,9 @@ import CardList from './CardList/CardList';
 const CardTrades2 = ({ hash }) => {
     const [loading, setLoading] = useState(true)
     const [idolId, setIdolId] = useState()
+
     const [showCardList, setShowCardList] = useState(false)
+    const [showTradeChart, setShowTradeChart] = useState(false)
 
     const [cardName, setCardName] = useState('')
     const [cardTradeInfos, setCardTradeInfos] = useState([])
@@ -139,18 +141,23 @@ const CardTrades2 = ({ hash }) => {
         </div>
     ), [showCardList, idolId])
 
+    const renderTradeChart = useCallback(() => (
+        <div className={styles.idolCardsContainer}>
+            <div className={styles.idolCardsHeader}>
+                <div onClick={() => setShowTradeChart(!showTradeChart)}>거래내역 차트</div>
+                { showTradeChart ? <GraphContainer2 trades={cardTradeInfos} /> : null }
+            </div>
+        </div>
+    ), [showTradeChart, cardTradeInfos])
+
     return (
         <LoaderContainer loading={loading}>
             <div className={styles.tradeContainer}>
                 <div className={styles.header}>
                     <label>{cardName}</label>
                 </div>
-                <div>
-                    {renderCardList()}
-                    <GraphContainer2
-                        cardTradeInfos={cardTradeInfos}
-                    />
-                </div>
+                {renderCardList()}
+                {renderTradeChart()}
                 <div className={styles.inputBody} >
                     <div className={styles.inputDate}>
                         <input type="date" onChange={setBeginDates} value={beginTime} />
