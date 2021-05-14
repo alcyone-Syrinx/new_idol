@@ -32,6 +32,7 @@ function* searchCategory() {
 function* searchCardData(actParam) {
     try {
         delay(100)
+        console.log(actParam)
         const imgArr = yield call(searchCardApi, actParam.id)
         console.log(imgArr)
         yield put(searchAction.updateImgData(imgArr))

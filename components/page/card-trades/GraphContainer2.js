@@ -24,10 +24,10 @@ const parseDate = (dateString) => dateString?.substring(0, 10)
 
 const GraphContainer2 = ({ trades = [] }) => {
     const [energePerStamina, setEnergePerStamina] = useState(1.5)
-    
+
     const renderChart = useCallback(() => {
         const chartData = trades
-            .map(trade => ( { date: parseDate(trade.tradeTime), value: calculateCost(trade.item, energePerStamina) }))
+            .map(trade => ({ date: parseDate(trade.tradeTime), value: calculateCost(trade.item, energePerStamina) }))
             .filter(chartValue => chartValue.value)
             .reduce((acc, value) => {
                 if (!acc[value.date]) {
@@ -41,11 +41,9 @@ const GraphContainer2 = ({ trades = [] }) => {
             .map(costs => getAverage(costs))
             .reduce((acc, value) => Math.max(acc, value), 0)
 
-        console.log(maxCost)
-
         return (
             Object.keys(chartData).sort().map(date => (
-                <div className={styles.chartItem}>
+                <div className={styles.chartItem} key={date}>
                     <div className={styles.chartGraph}>
                         <div className={styles.chartLine} style={{ height: `${getAverage(chartData[date]) * 100 / maxCost}%` }}>
                             <div className={styles.chartCost}>{getAverage(chartData[date])}</div>
@@ -66,7 +64,7 @@ const GraphContainer2 = ({ trades = [] }) => {
                 xmin={1.0}
                 xmax={2.0}
                 x={energePerStamina}
-                onChange={({ x }) => setEnergePerStamina(x.toFixed(1)) }
+                onChange={({ x }) => setEnergePerStamina(x.toFixed(1))}
             />
             <div className={styles.chartContainer}>
                 {renderChart()}

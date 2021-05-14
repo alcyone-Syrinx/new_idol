@@ -1,9 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback } from 'react'
-/* External imports */
-import axios from 'axios'
-import moment from 'moment'
-import Router from 'next/router';
-
+import React, { useEffect, useCallback } from 'react'
 /* Internal imports */
 import styles from './CardTrades.scss'
 import GraphContainer2 from './GraphContainer2'
@@ -11,7 +6,6 @@ import LoaderContainer from '../../common/component/loader-container/LoaderConta
 import CardList from './CardList/CardList';
 import { useDispatch, useSelector } from 'react-redux';
 import action from '../../../store/action'
-
 
 const CardTrades2 = ({ hash }) => {
     const disPatch = useDispatch()
@@ -37,44 +31,25 @@ const CardTrades2 = ({ hash }) => {
         endTime
     } = tradeTimes
 
-    console.log(cardTradeInfos)
     useEffect(() => {
         disPatch(tradeAction.getCardBasicInfo(hash))
         disPatch(tradeAction.getCardTradeInfo(hash))
-    }, [hash])
+    }, [])
 
     const setBeginDates = async (date) => {
         const inputBeginTime = date.target.value
-
         if (inputBeginTime > endTime) {
             return
         }
-
-        await setBeginTime(beginTime)
+        await disPatch(tradeAction.updateTradeTimes({ ...tradeTimes, beginTime: inputBeginTime }))
     }
 
     const setEndDates = async (date) => {
         const inputEndTime = date.target.value
-
         if (beginTime > inputEndTime) {
             return
         }
-
-        await setEndTime(endTime)
-    }
-
-    const callTradeApi = async () => {
-        const body = {
-            beginTime: `${beginTime}T00:00:00`,
-            endTime: `${endTime}T00:00:00`
-        }
-
-        try {
-            const response = await axios.post(`/api/card-trades/${hash}`, body)
-            // setCardTradeInfos(response?.data?.content || [])
-        } catch (error) {
-            // setCardTradeInfos([])
-        }
+        await disPatch(tradeAction.updateTradeTimes({ ...tradeTimes, endTime: inputEndTime }))
     }
 
     const convertDate = (val) => {
@@ -108,10 +83,6 @@ const CardTrades2 = ({ hash }) => {
         }).join(', ')
     }
 
-    const dropDownTab = () => {
-        setIdolCardsView(idolCardsView === 'none' ? 'block' : 'none')
-    }
-
     const renderItems = (info) => {
         return (
             <li className={styles.cardItems}>
@@ -129,27 +100,32 @@ const CardTrades2 = ({ hash }) => {
                     </div>
                 </div>
             </li>
-
         )
     }
 
     const renderCardList = useCallback(() => (
         <div className={styles.idolCardsContainer}>
             <div className={styles.idolCardsHeader}>
-                <div onClick={() => setShowCardList(!showCardList)}>아이돌 리스트</div>
+                <div onClick={() => disPatch(tradeAction.updateDisplayHandler({
+                    ...displayHandler,
+                    showCardList: !showCardList,
+                }))}> 아이돌 리스트</div>
                 {showCardList ? <CardList idolId={idolId} /> : null}
             </div>
         </div>
-    ), [showCardList, idolId])
+    ), [displayHandler, idolId])
 
     const renderTradeChart = useCallback(() => (
         <div className={styles.idolCardsContainer}>
             <div className={styles.idolCardsHeader}>
-                <div onClick={() => setShowTradeChart(!showTradeChart)}>거래내역 차트</div>
+                <div onClick={() => disPatch(tradeAction.updateDisplayHandler({
+                    ...displayHandler,
+                    showTradeChart: !showTradeChart
+                }))}>거래내역 차트</div>
                 {showTradeChart ? <GraphContainer2 trades={cardTradeInfos} /> : null}
             </div>
         </div>
-    ), [showTradeChart, cardTradeInfos])
+    ), [displayHandler, cardTradeInfos])
 
     return (
         <LoaderContainer loading={loading}>
@@ -167,7 +143,7 @@ const CardTrades2 = ({ hash }) => {
                         <input type="date" onChange={setEndDates} value={endTime} />
                     </div>
                     <div className={styles.buttonContainer}>
-                        <button id={styles.submit} className={styles.submit} onClick={callTradeApi}>확인</button>
+                        <button id={styles.submit} className={styles.submit} onClick={() => disPatch(tradeAction.getCardTradeInfo(hash))}>확인</button>
                     </div>
                 </div>
                 <div>

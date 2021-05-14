@@ -24,10 +24,10 @@ function* findCardBasicInfo(action) {
     try {
         delay(100)
         const cardBasicInfo = yield call(searchCardInfoByHash, hash)
-        yield put(tradeAction.updateIdolId(cardBasicInfo?.data?.content?.[0].idolId))
+        yield put(tradeAction.updateIdolId(cardBasicInfo && cardBasicInfo[0]?.idolId))
         yield put(tradeAction.updateCardInfo({ ...cardInfo, cardName: cardBasicInfo?.data?.content[0].name }))
         yield put(tradeAction.updateDisplayHandler({ ...displayHandler, loading: false }))
-
+        console.log(displayHandler)
     } catch (error) {
         console.log(error)
         yield put(tradeAction.updateCardInfo({ ...cardInfo, cardName: '조회실패' }))
@@ -49,7 +49,6 @@ function* findCardTradeInfo(action) {
             endTime: `${endTime}T00:00:00`
         }
         const tradeInfos = yield call(searchCardTradeInfoByHash, hash, body)
-        console.log(tradeInfos)
         yield put(tradeAction.updateCardInfo({ ...cardInfo, cardTradeInfos: tradeInfos?.data?.content || [] }))
     } catch (error) {
         console.log(error)

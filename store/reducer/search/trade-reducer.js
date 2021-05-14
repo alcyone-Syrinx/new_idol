@@ -38,7 +38,7 @@ export const tradeReducer = (state = initState, action) => {
         case tradeAction.UPDATE_CARD_INFO: {
             return {
                 ...state,
-                cardInfo: payload.cardInfo
+                cardInfo: { ...payload.cardInfo }
             }
         }
         case tradeAction.UPDATE_DISPLAY_HANDLER: {
