@@ -8,16 +8,12 @@ import CardTrades from '../../components/page/card-trades'
 import NaveHeader from '../../components/common/component/navi-header'
 
 class CardTradesPage extends Component {
-    static getInitialProps({ query }) {
-        return { ...query }
-    }
-
     render() {
         const { hash } = this.props
 
         return (
             <Page>
-                <NaveHeader/>
+                <NaveHeader />
                 <CardTrades hash={hash} />
             </Page>
         )
