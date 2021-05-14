@@ -1,3 +1,4 @@
-# new_project
-# idol_trade
-# idol_trade
+#redux-saga
+#redux
+#next.js
+
