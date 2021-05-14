@@ -9,38 +9,39 @@ import styles from './CardTrades.scss'
 import GraphContainer2 from './GraphContainer2'
 import LoaderContainer from '../../common/component/loader-container/LoaderContainer'
 import CardList from './CardList/CardList';
+import { useDispatch, useSelector } from 'react-redux';
+import action from '../../../store/action'
+
 
 const CardTrades2 = ({ hash }) => {
-    const [loading, setLoading] = useState(true)
-    const [idolId, setIdolId] = useState()
+    const disPatch = useDispatch()
+    const { tradeAction } = action
+    const state = useSelector(state => state.trade)
+    const {
+        idolId,
+        displayHandler,
+        cardInfo,
+        tradeTimes
+    } = state
+    const {
+        loading,
+        showCardList,
+        showTradeChart
+    } = displayHandler
+    const {
+        cardName,
+        cardTradeInfos
+    } = cardInfo
+    const {
+        beginTime,
+        endTime
+    } = tradeTimes
 
-    const [showCardList, setShowCardList] = useState(false)
-    const [showTradeChart, setShowTradeChart] = useState(false)
-
-    const [cardName, setCardName] = useState('')
-    const [cardTradeInfos, setCardTradeInfos] = useState([])
-    const [beginTime, setBeginTime] = useState(moment().add("-30", "d").format('YYYY-MM-DD'))
-    const [endTime, setEndTime] = useState(moment().format('YYYY-MM-DD'))
-    const [idolCardsView, setIdolCardsView] = useState('none')
-
+    console.log(cardTradeInfos)
     useEffect(() => {
-        getCardBasicInfo()
-        callTradeApi()
+        disPatch(tradeAction.getCardBasicInfo(hash))
+        disPatch(tradeAction.getCardTradeInfo(hash))
     }, [hash])
-
-    const getCardBasicInfo = async () => {
-        try {
-            const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?hash=${hash}`)
-
-            setIdolId(cardSearchResult?.data?.content?.[0].idolId)
-            setCardName(cardSearchResult?.data?.content[0].name)
-
-            setLoading(false)
-        } catch (error) {
-            setCardName("조회실패")
-            setLoading(false)
-        }
-    }
 
     const setBeginDates = async (date) => {
         const inputBeginTime = date.target.value
@@ -70,9 +71,9 @@ const CardTrades2 = ({ hash }) => {
 
         try {
             const response = await axios.post(`/api/card-trades/${hash}`, body)
-            setCardTradeInfos(response?.data?.content || [])
+            // setCardTradeInfos(response?.data?.content || [])
         } catch (error) {
-            setCardTradeInfos([])
+            // setCardTradeInfos([])
         }
     }
 
@@ -136,7 +137,7 @@ const CardTrades2 = ({ hash }) => {
         <div className={styles.idolCardsContainer}>
             <div className={styles.idolCardsHeader}>
                 <div onClick={() => setShowCardList(!showCardList)}>아이돌 리스트</div>
-                { showCardList ? <CardList idolId={idolId} /> : null }
+                {showCardList ? <CardList idolId={idolId} /> : null}
             </div>
         </div>
     ), [showCardList, idolId])
@@ -145,7 +146,7 @@ const CardTrades2 = ({ hash }) => {
         <div className={styles.idolCardsContainer}>
             <div className={styles.idolCardsHeader}>
                 <div onClick={() => setShowTradeChart(!showTradeChart)}>거래내역 차트</div>
-                { showTradeChart ? <GraphContainer2 trades={cardTradeInfos} /> : null }
+                {showTradeChart ? <GraphContainer2 trades={cardTradeInfos} /> : null}
             </div>
         </div>
     ), [showTradeChart, cardTradeInfos])

@@ -26,6 +26,7 @@ class CardTrades extends Component {
     }
 
     async componentDidMount() {
+        console.log('here?')
         const { hash } = this.props
         await this.setState({ hash })
         await this.getCardBasicInfo()

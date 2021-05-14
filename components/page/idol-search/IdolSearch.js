@@ -16,7 +16,6 @@ const IdolSearch = () => {
         codeCategory,
     } = state
 
-
     const getClassColor = (val) => {
         switch (val) {
             case "Cute":
@@ -66,7 +65,6 @@ const IdolSearch = () => {
         disPatch(searchAction.updateLoadingDisplay('block'))
         disPatch(searchAction.searchCardData(id))
     }
-
 
     const onEnterPress = (e) => {
         if (e.key === 'Enter') {
