@@ -73,7 +73,13 @@ const IdolSearch = () => {
     }
 
     const renderIdolCards = (val) => {
-        const { cardHash, name, abilityEffect } = val
+        const {
+            cardHash,
+            name,
+            abilityEffect,
+            defaultAttack,
+            defaultDefence
+        } = val
         const { effect } = abilityEffect
         const transAbilityEffect = {
             scope: effect !== "0" && getCardEffectInfo("EffectScope", abilityEffect.scope),
@@ -81,7 +87,12 @@ const IdolSearch = () => {
             backMember: effect !== "0" && getCardEffectInfo("EffectBackMemberScope", abilityEffect.backMember),
             strength: effect !== "0" && getCardEffectInfo("EffectStrength", abilityEffect.strength),
         }
-        const { scope, backMember, type, strength } = transAbilityEffect
+        const {
+            scope,
+            backMember,
+            type,
+            strength,
+        } = transAbilityEffect
 
         return (
             <li key={val.cardMobageId} className={styles.cardItems} onClick={() => itemOnClick(cardHash)}>
@@ -107,10 +118,10 @@ const IdolSearch = () => {
                 <div className={styles.cardInfoBox}>
                     <ul>
                         <li>
-                            공격력:
+                            공격력:{defaultAttack}
                         </li>
                         <li>
-                            수비력:
+                            수비력:{defaultDefence}
                         </li>
                     </ul>
                 </div>

@@ -1,0 +1,1 @@
+DEV_DATABASE_URL=postgres://localhost:0000@127.0.0.1:5432/idol

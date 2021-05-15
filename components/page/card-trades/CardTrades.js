@@ -1,117 +1,58 @@
-/* External imports */
-import React, { Component } from 'react'
-import axios from 'axios'
-import autobind from 'autobind-decorator'
-import moment from 'moment'
-import Router from 'next/router';
-
+import React, { useEffect, useCallback } from 'react'
 /* Internal imports */
 import styles from './CardTrades.scss'
 import GraphContainer from './GraphContainer'
+import LoaderContainer from '../../common/component/loader-container/LoaderContainer'
+import CardList from './CardList/CardList';
+import { useDispatch, useSelector } from 'react-redux';
+import action from '../../../store/action'
 
-class CardTrades extends Component {
-    constructor(props) {
-        super(props)
+const CardTrades2 = ({ hash }) => {
+    const disPatch = useDispatch()
+    const { tradeAction } = action
+    const state = useSelector(state => state.trade)
+    const {
+        idolId,
+        displayHandler,
+        cardInfo,
+        tradeTimes
+    } = state
+    const {
+        loading,
+        showCardList,
+        showTradeChart
+    } = displayHandler
+    const {
+        cardName,
+        cardTradeInfos
+    } = cardInfo
+    const {
+        beginTime,
+        endTime
+    } = tradeTimes
 
-        this.state = {
-            hash: '',
-            cardName: '로드 중...',
-            cardTradeInfos: [],
-            beginTime: '',
-            endTime: '',
-            cardBasicData: '',
-            idolCardsInfo: [],
-            idolCardsView: 'none',
-        }
-    }
+    useEffect(() => {
+        disPatch(tradeAction.getCardBasicInfo(hash))
+        disPatch(tradeAction.getCardTradeInfo(hash))
+    }, [])
 
-    async componentDidMount() {
-        console.log('here?')
-        const { hash } = this.props
-        await this.setState({ hash })
-        await this.getCardBasicInfo()
-        await this.getIdolCardsInfo()
-        await this.getCardTradData()
-        await this.transToGraphData()
-    }
-
-    getCardBasicInfo = async () => {
-        const { hash } = this.props
-
-        try {
-            const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?hash=${hash}`)
-            this.setState({ cardName: cardSearchResult?.data?.content[0].name, idolId: cardSearchResult?.data?.content[0].idolId })
-        } catch (error) {
-            this.setState({ cardName: '조회실패' })
-
-        }
-    }
-
-    getIdolCardsInfo = async () => {
-        const { idolId } = this.state
-
-        try {
-            const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?id=${idolId}`)
-            this.setState({ idolCardsInfo: cardSearchResult?.data?.content })
-        } catch (error) {
-            this.setState({ idolCardsInfo: [] })
-
-        }
-    }
-
-    setBeginDate = async (date) => {
-        const beginTime = date.target.value
-        const { endTime } = this.state
-
-        if (beginTime > endTime) {
+    const setBeginDates = async (date) => {
+        const inputBeginTime = date.target.value
+        if (inputBeginTime > endTime) {
             return
         }
-
-        await this.setState({ beginTime })
+        await disPatch(tradeAction.updateTradeTimes({ ...tradeTimes, beginTime: inputBeginTime }))
     }
 
-    setEndDate = async (date) => {
-        const endTime = date.target.value
-        const { beginTime } = this.state
-
-        if (beginTime > endTime) {
+    const setEndDates = async (date) => {
+        const inputEndTime = date.target.value
+        if (beginTime > inputEndTime) {
             return
         }
-
-        this.setState({ endTime })
-
+        await disPatch(tradeAction.updateTradeTimes({ ...tradeTimes, endTime: inputEndTime }))
     }
 
-    getCardTradData = async () => {
-        const stateEndTime = moment().format('YYYY-MM-DD')
-        const stateBeginTime = moment().add("-30", "d").format('YYYY-MM-DD')
-
-        await this.setState({ beginTime: stateBeginTime, endTime: stateEndTime })
-        await this.callTradeApi()
-    }
-
-    callTradeApi = async () => {
-
-        const { beginTime, endTime, hash } = this.state
-        const body = {
-            beginTime: `${beginTime}T00:00:00`,
-            endTime: `${endTime}T00:00:00`
-        }
-
-        try {
-            this.setState({ cardTradeInfos: [] })
-            const response = await axios.post(`/api/card-trades/${hash}`, body)
-            this.setState({ cardTradeInfos: response?.data?.content || [] })
-        } catch (error) {
-            this.setState({ cardTradeInfos: [] })
-        }
-
-        await this.transToGraphData()
-        console.log('data ok')
-
-    }
-
-    convertDate(val) {
+    const convertDate = (val) => {
         const firstSplit = val.split("T");
         const seconedSplit = firstSplit[1].split("+");
 
@@ -121,7 +62,7 @@ class CardTrades extends Component {
         return (`${yyyyMMdd[0]}년 ${yyyyMMdd[1]}월 ${yyyyMMdd[2]}일 ${hhMMss[0]}시 ${hhMMss[1]}분 ${hhMMss[2]}초`)
     }
 
-    getItemType(val) {
+    const getItemType = (val) => {
         const itemType = {
             1: `스태미너 드링크`,
             2: `에너지 드링크`,
@@ -129,186 +70,90 @@ class CardTrades extends Component {
             11: `매니`,
             21: `카드`
         }
-        return itemType[val];
+        return itemType[val]
     }
 
-    getCostMessage(items) {
+    const getCostMessage = (items) => {
         return items.map(item => {
             if (item.cardName) {
                 return item.cardName
             } else {
-                return `${item.volume} ${this.getItemType(item.itemTypeId)}`
+                return `${item.volume} ${getItemType(item.itemTypeId)}`
             }
         }).join(', ')
     }
 
-    dropDownTab = (flag) => {
-        const { idolCardsView, graphView } = this.state
-
-        if (flag === 'cards') {
-            this.setState({ idolCardsView: idolCardsView === 'none' ? 'block' : 'none' })
-
-        } else {
-            this.setState({ graphView: graphView === 'none' ? 'block' : 'none' })
-
-        }
-    }
-
-    itemOnClick = (hash) => {
-        Router.push({ pathname: `/card-trades/${hash}` })
-    }
-
-    @autobind
-    renderItems(info) {
+    const renderItems = (info) => {
         return (
             <li className={styles.cardItems}>
                 <div key={info.mobageTradeHistoryDetailId} className={styles.cardContainer}>
                     <div className={styles.tradeCost}>
-                        {this.getCostMessage(info.item)}
+                        {getCostMessage(info.item)}
                     </div>
                     <div className={styles.tradeInfo}>
                         <div className={styles.tradeNames}>
                             {`${info.sourceProducerName} -> ${info.destProducerName}`}
                         </div>
                         <div className={styles.tradeTime}>
-                            {`${this.convertDate(info.tradeTime)}`}
+                            {`${convertDate(info.tradeTime)}`}
                         </div>
                     </div>
                 </div>
             </li>
-
         )
     }
 
-    renderCardList = (info) => {
-        const { cardHash } = info;
-        return (
-            <li onClick={() => this.itemOnClick(cardHash)}>
-                <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${cardHash}.jpg`} />
-            </li>
-        )
-    }
+    const renderCardList = useCallback(() => (
+        <div className={styles.idolCardsContainer}>
+            <div className={styles.idolCardsHeader}>
+                <div onClick={() => disPatch(tradeAction.updateDisplayHandler({
+                    ...displayHandler,
+                    showCardList: !showCardList,
+                }))}> 아이돌 리스트</div>
+                {showCardList ? <CardList idolId={idolId} /> : null}
+            </div>
+        </div>
+    ), [displayHandler, idolId])
 
-    transToGraphData = (eneDrink) => {
-        if (eneDrink) {
-            if (Number.isNaN(eneDrink)) return
-        }
-        let tradeDateList = []
-        let dateTradeData = {}
-        let dateCount = {}
-        let topPrice = 0;
+    const renderTradeChart = useCallback(() => (
+        <div className={styles.idolCardsContainer}>
+            <div className={styles.idolCardsHeader}>
+                <div onClick={() => disPatch(tradeAction.updateDisplayHandler({
+                    ...displayHandler,
+                    showTradeChart: !showTradeChart
+                }))}>거래내역 차트</div>
+                {showTradeChart ? <GraphContainer trades={cardTradeInfos} /> : null}
+            </div>
+        </div>
+    ), [displayHandler, cardTradeInfos])
 
-        const { cardTradeInfos } = this.state
-
-        for (let i of cardTradeInfos) {
-
-            if (tradeDateList.length > 29) {
-                break
-            }
-
-            const { item } = i
-            let price = 0;
-            let itemInclude = false
-            const tradeDate = i.tradeTime.split("T")[0]
-
-
-            for (let i of item) {
-                if (i.itemTypeId === 1) {
-                    price += i.volume
-                } else if (i.itemTypeId === 2) {
-                    price += i.volume * (eneDrink || 1.5)
-                } else {
-                    itemInclude = true
-                    break
-                }
-            }
-
-            if (itemInclude) {
-                continue
-            }
-
-            if (!tradeDateList.find(a => a === tradeDate)) {
-                tradeDateList.push(tradeDate)
-            }
-
-            dateCount[tradeDate] = (dateCount[tradeDate] || 0) + 1
-            dateTradeData[tradeDate] = (dateTradeData[tradeDate] || 0) + price
-        }
-
-        const result = tradeDateList.map(a => {
-            const value = Math.round(dateTradeData[a] / dateCount[a])
-
-            if (value > topPrice) {
-                topPrice = value
-            }
-
-            return {
-                date: a,
-                value
-            }
-        })
-
-        this.setState({
-            topPrice: topPrice,
-            graphData: result || []
-
-        })
-    }
-
-    render() {
-        const {
-            cardName,
-            cardTradeInfos,
-            beginTime,
-            endTime,
-            idolCardsView,
-            idolCardsInfo,
-            graphData,
-            topPrice
-        } = this.state
-
-        return (
+    return (
+        <LoaderContainer loading={loading}>
             <div className={styles.tradeContainer}>
                 <div className={styles.header}>
                     <label>{cardName}</label>
                 </div>
-                <div>
-                    <div className={styles.idolCardsContainer} >
-                        <div className={styles.idolCardsHeader} onClick={() => this.dropDownTab('cards')}>
-                            아이돌 리스트
-                        </div>
-                        <div className={styles.idolCardsList} style={{ display: idolCardsView }}>
-                            <ul >
-                                {idolCardsInfo?.map(item => this.renderCardList(item))}
-                            </ul>
-                        </div>
-                    </div>
-                    <GraphContainer
-                        topPrice={topPrice}
-                        graphData={graphData}
-                        cardTradeInfos={cardTradeInfos}
-                        transToGraphData={this.transToGraphData}
-                    />
-                </div>
+                {renderCardList()}
+                {renderTradeChart()}
                 <div className={styles.inputBody} >
                     <div className={styles.inputDate}>
-                        <input type="date" onChange={this.setBeginDate} value={beginTime} />
+                        <input type="date" onChange={setBeginDates} value={beginTime} />
                     </div>
                     <div className={styles.inputDate}>
-                        <input type="date" onChange={this.setEndDate} value={endTime} />
+                        <input type="date" onChange={setEndDates} value={endTime} />
                     </div>
                     <div className={styles.buttonContainer}>
-                        <button id={styles.submit} className={styles.submit} onClick={this.callTradeApi}>확인</button>
+                        <button id={styles.submit} className={styles.submit} onClick={() => disPatch(tradeAction.getCardTradeInfo(hash))}>확인</button>
                     </div>
                 </div>
                 <div>
                     <ul className={styles.cardListContainer}>
-                        {cardTradeInfos.map(this.renderItems)}
+                        {cardTradeInfos?.map(renderItems)}
                     </ul>
                 </div>
-            </div >
-        )
-    }
+            </div>
+        </LoaderContainer>
+    )
 }
 
-export default CardTrades
+export default CardTrades2

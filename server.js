@@ -7,11 +7,14 @@ const dev = process.env.NODE_ENV !== 'production'
 
 const app = next({ dev })
 const handle = app.getRequestHandler()
+const sequelize = require('./database/models').sequelize
 
 app.prepare().then(() => {
     const server = express()
     server.use(bodyParser.json())
     server.use(express.static(path.join(__dirname, '/public')))
+
+    sequelize.sync()
 
     server.get('/', (req, res) => {
         const page = '/index'
