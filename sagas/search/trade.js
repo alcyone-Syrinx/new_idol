@@ -36,9 +36,9 @@ function* findCardBasicInfo(action) {
 }
 
 function* findCardTradeInfo(action) {
+    const state = yield select(state => state.trade)
     const { payload } = action
     const { hash } = payload
-    const state = yield select(state => state.trade)
     const { cardInfo, tradeTimes } = state
     const { beginTime, endTime } = tradeTimes
 

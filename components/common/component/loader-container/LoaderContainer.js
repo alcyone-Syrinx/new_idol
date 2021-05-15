@@ -6,12 +6,12 @@ const LoaderContainer = ({ loading, className, children }) => {
     return (
         <div className={className}>
             {
-                loading 
+                loading
                     ? (
                         <div className={styles.container}>
                             <div className={styles.loader}>
                                 <svg className={styles.circular}>
-                                    <circle className={styles.path} cx="24" cy="24" r="20" fill="none" stroke-width="5" stroke-miterlimit="10"></circle>
+                                    <circle className={styles.path} cx="24" cy="24" r="20" fill="none" strokeWidth="5" strokeMiterlimit="10"></circle>
                                 </svg>
                             </div>
                         </div>
