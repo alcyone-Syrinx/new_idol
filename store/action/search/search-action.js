@@ -50,10 +50,10 @@ export const updateIdolColor = (idolColor) => {
     }
 }
 
-export const searchCardData = (id) => {
+export const searchCardData = (inputValue) => {
     return {
         type: SEARCH_CARD_DATA,
-        id
+        inputValue
     }
 }
 

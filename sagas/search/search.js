@@ -19,9 +19,15 @@ const apiCodes = async () => {
     }
 }
 
-const searchCardApi = async (id) => {
-    const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?id=${id}`)
-    return cardSearchResult?.data.content || []
+const searchCardApi = async (inputValue) => {
+    const result = await axios.get(`/query/translations/findCodeByName?name=${inputValue}`).then(rst => rst.data)
+    if (result.length === 0) {
+        return;
+    }
+
+    const { idol_id } = result[0]
+    const cardSearchResult = await axios.get(`http://localhost:3002/query/raw/findCardData?idol_id=${idol_id}`)
+    return cardSearchResult?.data || []
 }
 
 function* searchCategory() {
@@ -32,9 +38,7 @@ function* searchCategory() {
 function* searchCardData(actParam) {
     try {
         delay(100)
-        console.log(actParam)
-        const imgArr = yield call(searchCardApi, actParam.id)
-        console.log(imgArr)
+        const imgArr = yield call(searchCardApi, actParam.inputValue)
         yield put(searchAction.updateImgData(imgArr))
         yield put(searchAction.updateLoadingDisplay('none'))
     } catch (error) {
@@ -45,7 +49,6 @@ function* searchCardData(actParam) {
 function* searchIdolData() {
     try {
         delay(100)
-        console.log('??')
         const imgArr = yield call(searchIdolDataApi)
         yield put(searchAction.updateIdolData(imgArr))
     } catch (error) {
