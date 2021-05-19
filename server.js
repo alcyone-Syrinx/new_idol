@@ -8,12 +8,13 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()
 const sequelize = require('./database/models').sequelize
+const query = require('./query')
 
 app.prepare().then(() => {
     const server = express()
     server.use(bodyParser.json())
     server.use(express.static(path.join(__dirname, '/public')))
-
+    server.use('/query', query)
     sequelize.sync()
 
     server.get('/', (req, res) => {
@@ -25,6 +26,11 @@ app.prepare().then(() => {
         const page = '/item/idolSearch'
         const id = { id: req.query.hash }
         return app.render(req, res, page, id)
+    })
+
+    server.get('/admin', (req, res) => {
+        const page = '/admin/insertPage'
+        return app.render(req, res, page)
     })
 
     server.get('/card-trades/:hash', (req, res) => {

@@ -1,5 +1,4 @@
 import React, { Component, useEffect } from 'react'
-import mapping from '../../../mapping'
 import styles from './IdolSearch.scss'
 import { useDispatch, useSelector } from 'react-redux'
 import action from '../../../store/action'
@@ -8,26 +7,11 @@ const IdolSearch = () => {
     const disPatch = useDispatch()
     const state = useSelector(state => state.search)
     const {
-        idolData,
         imgData,
         inputValue,
         loadingDisplay,
         idolColor,
-        codeCategory,
     } = state
-
-    const getClassColor = (val) => {
-        switch (val) {
-            case "Cute":
-                return "#ff50ff"
-            case "Cool":
-                return "#081cd1"
-            case "Passion":
-                return "#d38219"
-            default:
-                return "080808"
-        }
-    }
 
     useEffect(() => {
         const { searchAction } = action
@@ -35,35 +19,15 @@ const IdolSearch = () => {
         disPatch(searchAction.codeApi())
     }, [])
 
-    const getCardEffectInfo = (categoryName, codeValue) => {
-        const data = codeCategory.filter(a => a.categoryKey === categoryName)[0]?.detail?.filter(item => item.codeValue === codeValue)[0] || []
-        return mapping.convertCategoryCode(categoryName, data.stringValue)
-    }
-
     const onChange = (val) => {
         disPatch(action.searchAction.updateInputvalue(val.target.value))
     }
 
     const onClick = async () => {
         const { searchAction } = action
-        const name = mapping.searchIdolName(inputValue)
-        const idolInfo = name && idolData?.filter(a => a.name === name)
-        console.log(idolInfo)
-        if (!idolInfo || idolInfo.length === 0) {
-            return
-        }
-
-        const { classification } = idolInfo[0]
-        disPatch(searchAction.updateIdolColor(getClassColor(classification)))
-        const id = idolInfo ? idolInfo[0].idolId : false
-
-        if (!id) {
-            disPatch(searchAction.updateImgData([]))
-            return
-        }
         disPatch(searchAction.updateImgData([]))
         disPatch(searchAction.updateLoadingDisplay('block'))
-        disPatch(searchAction.searchCardData(id))
+        disPatch(searchAction.searchCardData(inputValue))
     }
 
     const onEnterPress = (e) => {
@@ -74,54 +38,53 @@ const IdolSearch = () => {
 
     const renderIdolCards = (val) => {
         const {
-            cardHash,
-            name,
-            abilityEffect,
-            defaultAttack,
-            defaultDefence
+            ability_backmember,
+            ability_effect,
+            ability_name,
+            ability_scope,
+            ability_type,
+            card_atk,
+            card_def,
+            card_hash,
+            card_name,
+            card_rare,
+            db_backmember,
+            db_scope,
+            db_strength,
+            db_type,
         } = val
-        const { effect } = abilityEffect
-        const transAbilityEffect = {
-            scope: effect !== "0" && getCardEffectInfo("EffectScope", abilityEffect.scope),
-            type: effect !== "0" && getCardEffectInfo("EffectType", abilityEffect.type),
-            backMember: effect !== "0" && getCardEffectInfo("EffectBackMemberScope", abilityEffect.backMember),
-            strength: effect !== "0" && getCardEffectInfo("EffectStrength", abilityEffect.strength),
-        }
-        const {
-            scope,
-            backMember,
-            type,
-            strength,
-        } = transAbilityEffect
 
         return (
-            <li key={val.cardMobageId} className={styles.cardItems} onClick={() => itemOnClick(cardHash)}>
+            <li key={val.cardMobageId} className={styles.cardItems} onClick={() => itemOnClick(card_hash)}>
                 <div className={styles.cardImgBox}>
-                    <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${cardHash}.jpg`} />
+                    <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${card_hash}.jpg`} />
                 </div>
                 <div className={styles.cardInfoBox}>
                     <ul>
                         <li>
-                            카드명:{name}
+                            카드명:{card_name}
                         </li>
                         <li>
-                            특기: <label>{strength && `[${strength}]`}</label>{scope}{type}
+                            레어리티:{card_rare}
                         </li>
                         <li>
-                            백맴버: <label>{backMember && `[${strength}]`}</label>{backMember && scope}{backMember}{backMember && type}
+                            특기: <label>{ability_effect && `[${ability_effect}]`}</label>{ability_scope}{ability_type}
                         </li>
                         <li>
-                            특기원문 : {effect !== "0" && effect}
+                            백맴버: <label>{ability_backmember && `[${ability_effect}]`}</label>{ability_backmember && ability_scope}{ability_backmember}{ability_backmember && ability_type}
+                        </li>
+                        <li>
+                            특기명 : {ability_name && ability_name}
                         </li>
                     </ul>
                 </div>
                 <div className={styles.cardInfoBox}>
                     <ul>
                         <li>
-                            공격력:{defaultAttack}
+                            공격력:{card_atk}
                         </li>
                         <li>
-                            수비력:{defaultDefence}
+                            수비력:{card_def}
                         </li>
                     </ul>
                 </div>
