@@ -4,7 +4,7 @@ const sequelize = require('sequelize')
 const Op = sequelize.Op
 
 exports.findCode = (req, res) => {
-    model.TB_IDOLS.findAll().then(rst => {
+    model.TB_IDOLS_TRANSLATIONS.findAll().then(rst => {
         return res.json(rst)
     })
 }

@@ -19,11 +19,12 @@ const CardList = () => {
     const { imgData } = searchState
     const { searchAction, tradeAction } = action
 
-    useEffect(() => {
-        console.log(idolId)
-        dispatch(searchAction.searchCardData(idolId))
+    useEffect(async () => {
+        // console.log(idolId)
+        // dispatch(searchAction.searchCardData(idolId))
         try {
-            // const cardsResult = await axios.get(`http://localhost:3002/api/card-search?id=${idolId}`)
+            const cardsResult = await axios.get(`http://localhost:3002/query/cards/findByIdolId?idolId=${idolId}`)
+            dispatch(searchAction.updateImgData(cardsResult?.data))
             // setCards(cardsResult?.data?.content || [])
             // setLoading(false)
         } catch (error) {
@@ -36,14 +37,16 @@ const CardList = () => {
         <img
             key={card.cardHash}
             className={styles.card}
-            src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${card.cardHash}.jpg`}
-            onClick={() => onItemClick(card?.cardHash)}
+            src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${card.card_hash}.jpg`}
+            onClick={() => onItemClick(card?.card_hash)}
             alt={card.cardHash}
         />
     ), [])
 
     const renderCards = useCallback(() => (
         <LoaderContainer loading={loading}>
+            {console.log(imgData)}
+
             <div className={styles.container}>
                 {imgData.map(card => renderCard(card))}
             </div>

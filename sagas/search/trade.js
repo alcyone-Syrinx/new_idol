@@ -6,8 +6,8 @@ import actions from "../../store/action";
 const { tradeAction } = actions
 
 const searchCardInfoByHash = async (hash) => {
-    const cardSearchResult = await axios.get(`http://localhost:3002/api/card-search?hash=${hash}`)
-    return cardSearchResult?.data.content
+    const cardSearchResult = await axios.get(`http://localhost:3002/query/cards/findByHash?hash=${hash}`)
+    return cardSearchResult?.data
 }
 
 const searchCardTradeInfoByHash = async (hash, body) => {
@@ -24,8 +24,9 @@ function* findCardBasicInfo(action) {
     try {
         delay(100)
         const cardBasicInfo = yield call(searchCardInfoByHash, hash)
-        yield put(tradeAction.updateIdolId(cardBasicInfo && cardBasicInfo[0]?.idolId))
-        yield put(tradeAction.updateCardInfo({ ...cardInfo, cardName: cardBasicInfo?.data?.content[0].name }))
+        console.log(cardBasicInfo)
+        yield put(tradeAction.updateIdolId(cardBasicInfo && cardBasicInfo[0]?.idol_id))
+        yield put(tradeAction.updateCardInfo({ ...cardInfo, cardName: cardBasicInfo?.data?.content[0].card_name }))
         yield put(tradeAction.updateDisplayHandler({ ...displayHandler, loading: false }))
         console.log(displayHandler)
     } catch (error) {

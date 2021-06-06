@@ -9,6 +9,8 @@ const initState = {
     loadingDisplay: 'none',
     idolColor: '',
     codeCategory: [],
+    overlapIdols: [],
+    modalDisplay: false
 }
 
 export const searchReduecer = (state = initState, action) => {
@@ -44,6 +46,17 @@ export const searchReduecer = (state = initState, action) => {
                 ...state,
                 loadingDisplay: action.loadingDisplay
             }
+        case searchAction.UPDATE_MODAL_DISPLAY:
+            return {
+                ...state,
+                modalDisplay: action.modalDisplay
+            }
+        case searchAction.UPDATE_OVERLAP_IDOLS:
+            return {
+                ...state,
+                overlapIdols: action.overlapIdols
+            }
+
         case searchAction.SEARCH_CARD_DATA:
             return {
                 ...state,
@@ -55,6 +68,12 @@ export const searchReduecer = (state = initState, action) => {
         case searchAction.CODE_API:
             return {
                 ...state
+            }
+        case searchAction.RESET_MODAL:
+            return {
+                ...state,
+                overlapIdols: [],
+                modalDisplay: false
             }
         default:
             return {

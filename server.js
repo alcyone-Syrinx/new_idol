@@ -90,6 +90,24 @@ app.prepare().then(() => {
         }
     })
 
+    server.get('/api/rank', async (req, res) => {
+        const { id } = req.query
+
+        if (!id && !hash) {
+            res.json()
+        }
+
+        const queryUrl = id ? `?idolId=${id}` : `/${hash}`
+
+        try {
+            const data = await axios.get(`https://pink-check.school/api/v2/eventdetails/431/rankings/points?systemId=${id}&rankingTypeId=1`)
+            res.json(data.data)
+        } catch (error) {
+            console.log(error)
+            res.json()
+        }
+    })
+
     server.get('*', (req, res) => {
         return handle(req, res)
     })
