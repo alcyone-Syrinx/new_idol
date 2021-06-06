@@ -2,6 +2,7 @@ import React, { Component, useEffect } from 'react'
 import styles from './IdolSearch.scss'
 import { useDispatch, useSelector } from 'react-redux'
 import action from '../../../store/action'
+import SearchModal from './SearchModal'
 
 const IdolSearch = () => {
     const disPatch = useDispatch()
@@ -98,6 +99,7 @@ const IdolSearch = () => {
 
     return (
         <div className={styles.searchBody}>
+            <SearchModal />
             <div className={styles.inputBody}>
                 <label>검색</label><input onChange={onChange} onKeyPress={onEnterPress} value={inputValue} />
             </div>
@@ -114,6 +116,7 @@ const IdolSearch = () => {
                     {imgData?.map(item => renderIdolCards(item))}
                 </ul>
             </div>
+
         </div>
     )
 }

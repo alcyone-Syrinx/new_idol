@@ -1,6 +1,11 @@
 
 const model = require('../../database/models')
 
+exports.findById = (req, res) => {
+    const { idolId } = req.query
+    model.TB_IDOLS.findAll({ where: { idol_id: idolId } }).then(rst => { return res.json(rst) })
+}
+
 exports.findCode = (req, res) => {
     model.TB_IDOLS.findAll().then(rst => {
         return res.json(rst)

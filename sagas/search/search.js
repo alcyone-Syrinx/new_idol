@@ -22,12 +22,16 @@ const apiCodes = async () => {
 const searchCardApi = async (inputValue) => {
     const result = await axios.get(`/query/translations/findCodeByName?name=${inputValue}`).then(rst => rst.data)
     if (result.length === 0) {
-        return;
+        return { overLap: false, data: [] };
+    }
+
+    if (result.length > 1) {
+        return { overLap: true, data: result.map(a => a.idol_id) }
     }
 
     const { idol_id } = result[0]
     const cardSearchResult = await axios.get(`http://localhost:3002/query/raw/findCardData?idol_id=${idol_id}`)
-    return cardSearchResult?.data || []
+    return { overLap: false, data: cardSearchResult?.data || [] }
 }
 
 function* searchCategory() {
@@ -39,7 +43,13 @@ function* searchCardData(actParam) {
     try {
         delay(100)
         const imgArr = yield call(searchCardApi, actParam.inputValue)
-        yield put(searchAction.updateImgData(imgArr))
+        if (imgArr.overLap) {
+            yield put(searchAction.updateModalDisplay(true))
+            yield put(searchAction.updateOverLapIdols(imgArr.data))
+        } else {
+            yield put(searchAction.updateModalDisplay(false))
+            yield put(searchAction.updateImgData(imgArr.data))
+        }
         yield put(searchAction.updateLoadingDisplay('none'))
     } catch (error) {
         console.log(error)
