@@ -1,0 +1,1 @@
+npx sequelize-auto -o "./database/models" -d idol -h localhost -u postgres -p 5432 -x 0000 -e postgres

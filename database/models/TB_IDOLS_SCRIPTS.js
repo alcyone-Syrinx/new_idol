@@ -22,6 +22,10 @@ module.exports = function(sequelize, DataTypes) {
     card_script: {
       type: DataTypes.STRING(255),
       allowNull: false
+    },
+    trans_script: {
+      type: DataTypes.STRING(255),
+      allowNull: false
     }
   }, {
     sequelize,

@@ -15,7 +15,7 @@ app.prepare().then(() => {
     server.use(bodyParser.json())
     server.use(express.static(path.join(__dirname, '/public')))
     server.use('/query', query)
-    sequelize.sync()
+    // sequelize.sync()
 
     server.get('/', (req, res) => {
         const page = '/index'
@@ -31,6 +31,12 @@ app.prepare().then(() => {
     server.get('/admin', (req, res) => {
         const page = '/admin/insertPage'
         return app.render(req, res, page)
+    })
+
+    server.get('/card-info/:hash', (req, res) => {
+        const page = '/card-info/cardInfo'
+        const { hash } = req.params
+        return app.render(req, res, page, { hash })
     })
 
     server.get('/card-trades/:hash', (req, res) => {
@@ -117,6 +123,7 @@ app.prepare().then(() => {
 
         console.log('localhost 3002 listen')
     })
+
 }).catch((ex) => {
     console.log(ex.stack)
     process.exit(1)
