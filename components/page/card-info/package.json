@@ -1,0 +1,7 @@
+{
+    "name": "CardInfo",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./CardInfo.js"
+  }
+  
