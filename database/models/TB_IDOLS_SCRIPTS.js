@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-module.exports = function(sequelize, DataTypes) {
+module.exports = function (sequelize, DataTypes) {
   return sequelize.define('TB_IDOLS_SCRIPTS', {
     card_hash: {
       type: DataTypes.STRING(255),
@@ -24,6 +24,10 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     },
     trans_script: {
+      type: DataTypes.STRING(255),
+      allowNull: false
+    },
+    script_category: {
       type: DataTypes.STRING(255),
       allowNull: false
     }

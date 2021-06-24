@@ -56,9 +56,14 @@ const IdolSearch = () => {
         } = val
 
         return (
-            <li key={val.cardMobageId} className={styles.cardItems} onClick={() => itemOnClick(card_hash)}>
+            <li key={val.cardMobageId} className={styles.cardItems}>
                 <div className={styles.cardImgBox}>
                     <img src={`https://imas.gamedbs.jp/cg/image_sp/card/xs/${card_hash}.jpg`} />
+                    <div className={styles.buttonBox}>
+                        <button className={styles.normalBtn} onClick={() => { location.href = `/card-info/${card_hash}` }}>정보보기</button>
+                        <br />
+                        <button className={styles.normalBtn} onClick={() => itemOnClick(card_hash)}>거래내역</button>
+                    </div>
                 </div>
                 <div className={styles.cardInfoBox}>
                     <ul>

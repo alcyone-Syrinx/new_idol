@@ -74,6 +74,12 @@ ul {
     padding: 1rem 1rem 1rem 1rem;
     position: relative;
 
+    .cardImgBox{
+      .buttonBox{
+        text-align: center;
+      }
+    }
+
     .cardInfoBox {
       width: 35%;
       margin-left: 10px;
@@ -117,6 +123,19 @@ ul {
   font-weight: 400;
   font-size: 13px;
   padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.normalBtn {
+  width: 90px;
+  height: 30px;
+  display: inline-block;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 13px;
+  padding-top : 3px;
+  margin : 10px 0 0 0;
   border: none;
   cursor: pointer;
 }

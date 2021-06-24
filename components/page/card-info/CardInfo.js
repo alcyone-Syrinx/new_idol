@@ -16,6 +16,9 @@ const CardInfo = ({ hash }) => {
 
     const getInfo = async () => {
         const cardData = await axios.get(`/query/cards/findByHash?hash=${hash}`).then(rst => rst.data)
+
+        if (cardData.length === 0) return
+
         const { idol_id } = cardData[0]
         const idolData = await axios.get(`/query/idols/findById?idolId=${idol_id}`).then(rst => rst.data)
 
