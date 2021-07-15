@@ -98,7 +98,13 @@ app.prepare().then(() => {
     })
 
     server.get('/crowl/test', async (req, res) => {
-        const test = await crowl.test()
+        const { id } = req.query
+        const test = await crowl.test(id)
+        res.json(test)
+    })
+
+    server.get('/transTest', async (req, res) => {
+        const test = await crowl.trans()
         res.json(test)
     })
 

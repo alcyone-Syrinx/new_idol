@@ -4,7 +4,7 @@ module.exports = function (sequelize, DataTypes) {
     category_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      defaultValue: Sequelize.literal("nextVal('MASTER_CODE_ID')"),
+      defaultValue: Sequelize.literal("nextval('master_code_id')"),
       primaryKey: true
     },
     category: {
@@ -25,7 +25,7 @@ module.exports = function (sequelize, DataTypes) {
     },
     cd_v_meaning_trans: {
       type: DataTypes.STRING(255),
-      allowNull: false
+      allowNull: true
     }
   }, {
     sequelize,

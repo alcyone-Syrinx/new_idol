@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-module.exports = function (sequelize, DataTypes) {
+module.exports = function(sequelize, DataTypes) {
   return sequelize.define('TB_IDOLS_CARDS', {
     card_hash: {
       type: DataTypes.STRING(255),
@@ -31,7 +31,7 @@ module.exports = function (sequelize, DataTypes) {
       allowNull: true
     },
     card_seq: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.DECIMAL,
       allowNull: true
     }
   }, {

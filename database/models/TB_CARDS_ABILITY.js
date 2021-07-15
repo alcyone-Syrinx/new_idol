@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-module.exports = function (sequelize, DataTypes) {
+module.exports = function(sequelize, DataTypes) {
   return sequelize.define('TB_CARDS_ABILITY', {
     card_hash: {
       type: DataTypes.STRING(255),
@@ -23,7 +23,7 @@ module.exports = function (sequelize, DataTypes) {
       allowNull: false
     },
     ability_strength: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.DECIMAL,
       allowNull: false
     },
     ability_type: {
@@ -52,7 +52,7 @@ module.exports = function (sequelize, DataTypes) {
     },
     ability_name: {
       type: DataTypes.STRING(255),
-      allowNull: false
+      allowNull: true
     }
   }, {
     sequelize,
