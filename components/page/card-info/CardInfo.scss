@@ -1,29 +1,54 @@
 @import "../../../styles/colors.scss";
 @import "../../../styles/global.scss";
 
-$black-color: #222;
+$black-color : #222;
 $orange-color: #ff6801;
-$grey-light: #999;
+$grey-light  : #999;
 $border-color: #ebebeb;
+
+.scriptHeader {
+    line-height  : 2.5rem;
+    text-align   : left;
+    border-radius: 6px;
+    @extend %boxshadow;
+    margin-bottom   : 10px;
+    padding         : 2px 0 2px 0;
+    font-family     : "Montserrat";
+    font-weight     : 500;
+    font-size       : 13px;
+    background-color: $grey-light;
+}
+
+.scriptGroupHeader {
+    line-height  : 2.5rem;
+    text-align   : left;
+    border-radius: 6px;
+    @extend %boxshadow;
+    margin-bottom: 10px;
+    padding      : 2px 0 2px 0;
+    font-family  : "Montserrat";
+    font-weight  : 500;
+    font-size    : 13px;
+}
 
 .infoContainer {
     padding: 50px 100px 50px 70px;
-    width: 90%;
+    width  : 90%;
 
     .header {
-        line-height: 2.5rem;
-        text-align: left;
+        line-height  : 2.5rem;
+        text-align   : left;
         border-radius: 6px;
         @extend %boxshadow;
         margin-bottom: 10px;
-        padding: 2px 0 2px 5px;
-        font-family: "Montserrat";
-        font-weight: 500;
-        font-size: 13px;
+        padding      : 2px 0 2px 5px;
+        font-family  : "Montserrat";
+        font-weight  : 500;
+        font-size    : 13px;
     }
 
     .content {
-        width: 80%;
+        width  : 80%;
         display: flex;
 
         .cardInfo {
@@ -33,6 +58,6 @@ $border-color: #ebebeb;
 
     img {
         padding: 5px 0px 5px 20px;
-        width: 300px;
+        width  : 300px;
     }
 }

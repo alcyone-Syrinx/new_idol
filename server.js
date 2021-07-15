@@ -9,6 +9,7 @@ const app = next({ dev })
 const handle = app.getRequestHandler()
 const sequelize = require('./database/models').sequelize
 const query = require('./query')
+const crowl = require('./crowl')
 
 app.prepare().then(() => {
     const server = express()
@@ -94,6 +95,17 @@ app.prepare().then(() => {
         } catch (error) {
             res.json()
         }
+    })
+
+    server.get('/crowl/test', async (req, res) => {
+        const { id } = req.query
+        const test = await crowl.test(id)
+        res.json(test)
+    })
+
+    server.get('/transTest', async (req, res) => {
+        const test = await crowl.trans()
+        res.json(test)
     })
 
     server.get('/api/rank', async (req, res) => {

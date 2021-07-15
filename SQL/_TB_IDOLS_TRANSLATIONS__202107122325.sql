@@ -191,4 +191,5 @@ INSERT INTO public."TB_IDOLS_TRANSLATIONS" (idol_id,trans_name) VALUES
 	 (118,'나루미야 유메'),
 	 (210,'히사카와 하야테'),
 	 (121,'와키야마 타마미'),
-	 (32,'미야모토 프레데리카');
+	 (32,'미야모토 프레데리카'),
+	 (127,'아나스타샤');

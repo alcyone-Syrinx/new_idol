@@ -1,10 +1,9 @@
 const Sequelize = require('sequelize');
-module.exports = function(sequelize, DataTypes) {
+module.exports = function (sequelize, DataTypes) {
   return sequelize.define('TB_IDOLS_SCRIPTS', {
     card_hash: {
       type: DataTypes.STRING(255),
-      allowNull: false,
-      primaryKey: true
+      allowNull: false
     },
     idol_id: {
       type: DataTypes.INTEGER,
@@ -17,15 +16,24 @@ module.exports = function(sequelize, DataTypes) {
     script_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      unique: "tb_idols_scripts_script_id_unique"
+      primaryKey: true
     },
     card_script: {
       type: DataTypes.STRING(255),
-      allowNull: false
+      allowNull: false,
+      primaryKey: true
     },
     trans_script: {
       type: DataTypes.STRING(255),
-      allowNull: false
+      allowNull: true
+    },
+    script_category: {
+      type: DataTypes.STRING(255),
+      allowNull: true
+    },
+    script_group: {
+      type: DataTypes.STRING(255),
+      allowNull: true
     }
   }, {
     sequelize,
@@ -34,17 +42,10 @@ module.exports = function(sequelize, DataTypes) {
     timestamps: false,
     indexes: [
       {
-        name: "TB_IDOLS_SCRIPTS_pkey",
+        name: "card_script_pk",
         unique: true,
         fields: [
-          { name: "card_hash" },
-        ]
-      },
-      {
-        name: "tb_idols_scripts_script_id_unique",
-        unique: true,
-        fields: [
-          { name: "script_id" },
+          { name: "card_script", name: "script_id" },
         ]
       },
     ]

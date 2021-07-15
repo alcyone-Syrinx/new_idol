@@ -522,12 +522,11 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a710b7a14306c508b13c8069722867f4',157,10176,7800,'SR+','[ﾏｯｼｭｱｯﾌﾟ★ﾎﾞﾙﾃｰｼﾞ]星輝子+',35),
 	 ('c4633ae696a5cb8ed262841d66269e54',157,7680,7600,'SR','[ぱｰりぃｰ★ひゃっはｰ]星輝子',36),
 	 ('7dc3bbdf95b7349ea23f0d23fc7f2cea',157,9216,9120,'SR+','[ぱｰりぃｰ★ひゃっはｰ]星輝子+',37),
-	 ('5a32b53f2943c5c7b76b18c0e098f400',3,240,360,'N','水本ゆかり',0),
 	 ('1b1970e02f5855b63072777bcbb52293',14,1080,1320,'N+','柳瀬美由紀+',1),
 	 ('15eb02199aecce5e6f44cc03aedc29ac',24,2140,2180,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]大原みちる',4),
-	 ('46961adee0f631616278501c02e47d1b',24,3312,2472,'R+','[ｻﾏｰｼｰｽﾞﾝ]大原みちる+',7);
+	 ('46961adee0f631616278501c02e47d1b',24,3312,2472,'R+','[ｻﾏｰｼｰｽﾞﾝ]大原みちる+',7),
+	 ('8d53a401aa68e5910efeb40b42e63caf',24,4320,3080,'R+','[熱々ﾊﾟｲﾛｯﾄ]大原みちる+',16);
 INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
-	 ('8d53a401aa68e5910efeb40b42e63caf',24,4320,3080,'R+','[熱々ﾊﾟｲﾛｯﾄ]大原みちる+',16),
 	 ('65844372377e2a3527d49cf506b2f6fc',24,5680,5540,'SR','[ﾓｸﾞﾓｸﾞｵｰﾀﾑ]大原みちる',21),
 	 ('6982bf46c7bfa21df65e8b12044e9555',24,8640,6432,'SR+','[焼きたてﾊﾋﾟﾈｽ]大原みちる+',24),
 	 ('2b340c86e12f3ccc4120bbe831c5cbb5',24,6120,6072,'SR+','[ﾃﾞﾘｼｬｽﾃﾞｺ]大原みちる+',26),
@@ -536,9 +535,9 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2198eb80f3fc029ca19d09a514a66a30',180,7968,5520,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]向井拓海+',25),
 	 ('b07a09d2638cdbccb5260ef98b25d5e9',180,6340,6320,'SR','[ﾂｯﾊﾟﾘﾍﾞｲﾋﾞｰ]向井拓海',26),
 	 ('c72128bddbdc8ccacb0c639f8a680124',180,7608,7584,'SR+','[ﾂｯﾊﾟﾘﾍﾞｲﾋﾞｰ]向井拓海+',27),
-	 ('d25edbfc6c426ca916e43d8c979a232a',180,8440,6520,'SR','[熱風ﾛｰﾄﾞ]向井拓海',36);
+	 ('d25edbfc6c426ca916e43d8c979a232a',180,8440,6520,'SR','[熱風ﾛｰﾄﾞ]向井拓海',36),
+	 ('c5a1dae84e4ec491751ed4520b84f5d8',195,11950,10750,'SR+','[真面目ﾊﾞｶﾝｽ･S]冴島清美+',31);
 INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
-	 ('c5a1dae84e4ec491751ed4520b84f5d8',195,11950,10750,'SR+','[真面目ﾊﾞｶﾝｽ･S]冴島清美+',31),
 	 ('2beb573bfc1ce3114bdfe48750b30226',195,3860,3640,'R+','[ﾏﾘﾝｵｰﾀﾞｰ]冴島清美+',34),
 	 ('9e3bbf542345ebed15fb2032e1c837d7',145,744,1200,'N+','真鍋いつき+',1),
 	 ('a5f4297b7066dfc5f18b8542bc15c08a',145,3888,2640,'R+','[ｶﾞｰﾘｰｽﾀｲﾙ]真鍋いつき+',9),
@@ -547,9 +546,9 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('eb51346c4f238f2852f273429d96741e',145,3120,2180,'R','[T.B.ﾊﾟｲﾚｰﾂ]真鍋いつき',18),
 	 ('79e1d13046d857da5475354888c78179',145,3240,2120,'R','[ﾀﾞｯｼｭｲﾝｽﾄﾗｸﾄ]真鍋いつき',20),
 	 ('a4f446a8b78c3ea7fdbafe5866892169',145,5544,3600,'SR+','[ﾊｯﾋﾟｰﾌﾟﾚｼﾞｬｰ]真鍋いつき+',23),
-	 ('da00367c9a7e635fea850f2b7e4ac378',145,6800,6760,'SR','[ﾗﾌﾞﾘｰﾎｯﾊﾟｰ]真鍋いつき',28);
+	 ('da00367c9a7e635fea850f2b7e4ac378',145,6800,6760,'SR','[ﾗﾌﾞﾘｰﾎｯﾊﾟｰ]真鍋いつき',28),
+	 ('5ad56e582690cbfcf7ed5e201afb0d49',145,8160,8112,'SR+','[ﾗﾌﾞﾘｰﾎｯﾊﾟｰ]真鍋いつき+',29);
 INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
-	 ('5ad56e582690cbfcf7ed5e201afb0d49',145,8160,8112,'SR+','[ﾗﾌﾞﾘｰﾎｯﾊﾟｰ]真鍋いつき+',29),
 	 ('d43d25a428dd282462276f7ea893e15c',185,2000,2080,'R','[花火祭り]喜多日菜子',2),
 	 ('0de6cb9fa2f79c444b5a8bc6c80b126b',185,3888,2640,'R+','[ｸﾞﾘｯﾀｰｽﾃｰｼﾞ]喜多日菜子+',7),
 	 ('2282ba15a285c7df2a7f85f1bd3365b5',185,4620,4460,'SR','[ﾋﾞｭｰﾃｨﾌﾙﾄﾞﾘｰﾏｰ]喜多日菜子',16),
@@ -558,9 +557,9 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('07c7b962d538e859602c9c6859faf8fe',36,1632,1056,'R+','楊菲菲+',1),
 	 ('42a46e206d59587e6fbaab7bee5b30d3',69,1632,1536,'N+','[水泳大会]松本沙理奈+',3),
 	 ('b5e60c6af2179f38b31d551455402347',69,2280,3792,'R+','[浴衣祭り]松本沙理奈+',5),
-	 ('ce540cea8b2110611377d2d631c3e066',69,3648,2616,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙND]松本沙理奈+',9);
+	 ('ce540cea8b2110611377d2d631c3e066',69,3648,2616,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙND]松本沙理奈+',9),
+	 ('1f579c998c02a9776400a9f3d43c26ab',69,2688,3888,'R+','[ｽﾃｲｲﾝｼｪｲﾌﾟ]松本沙理奈+',11);
 INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
-	 ('1f579c998c02a9776400a9f3d43c26ab',69,2688,3888,'R+','[ｽﾃｲｲﾝｼｪｲﾌﾟ]松本沙理奈+',11),
 	 ('dc3d17ce8827254c7b49e013adfdd7d1',69,4260,4100,'SR','[ｻﾝｼｬｲﾝﾏﾘﾅｰ]松本沙理奈',15),
 	 ('37797d5f21558e63d2ddef76ca7754cb',69,4540,3980,'SR','[ｾｸｼｰｽﾘﾙ]松本沙理奈',17),
 	 ('2e3a40d67d49dc6574282976c7ede024',69,8448,6360,'SR+','[ｾｸｼｰｳｨｯﾁ]松本沙理奈+',20),
@@ -569,9 +568,9 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6c48744607124e475a8b578e5e1a2d6f',69,9800,9700,'SR','[ｴｷｿﾞﾁｯｸｽﾏｲﾙ]松本沙理奈',29),
 	 ('18e9b7045247d71ac7b48468c1517871',69,4032,2592,'R+','[ｾﾝｼｭｱﾙﾄﾗｯﾌﾟ]松本沙理奈+',32),
 	 ('569f02751f9ff485931fd93d5c1c81a3',175,2112,1344,'R+','槙原志保+',1),
-	 ('d3b1f19515db0f6b68de3891bca053aa',147,1080,1320,'N+','姫川友紀+',1);
+	 ('d3b1f19515db0f6b68de3891bca053aa',147,1080,1320,'N+','姫川友紀+',1),
+	 ('9cf7b202de8b66500945e79e2860f412',147,7080,5088,'SR+','[1番ｾﾝﾀｰ]姫川友紀+',23);
 INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
-	 ('9cf7b202de8b66500945e79e2860f412',147,7080,5088,'SR+','[1番ｾﾝﾀｰ]姫川友紀+',23),
 	 ('732db8a3c5364c55fba41ccba39ae41e',147,6768,6744,'SR+','[秋色ｾﾝﾀｰ]姫川友紀+',25),
 	 ('93e98bdad1fea731728b2c13f79782be',147,6340,6280,'SR','[満塁ﾊﾞﾚﾝﾀｲﾝ]姫川友紀',28),
 	 ('f3cadd1e1c42df0a994d69e88ac0ea2b',147,6660,4560,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]姫川友紀',30),
@@ -580,9 +579,9 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6ba2011266cd920f7b7a6cf71010ea47',147,8060,6260,'SR','[ﾌﾙｽｲﾝｸﾞ☆ｴｰﾙ]姫川友紀',38),
 	 ('441b9b9f4b04018bcc1d2afbbd90ad28',147,3340,2260,'R','[癒しの湯の香]姫川友紀',40),
 	 ('1778f58d1879872358a30cb8d4a00d48',147,8660,6640,'SR','[笑顔のｼｰｽﾞﾝ]姫川友紀',43),
-	 ('1c194b6eff0212700a8c284dce5b8251',147,9264,9168,'SR+','[ﾚｯﾂｺﾞｰ☆ﾊﾟﾚｰﾄﾞ]姫川友紀+',45);
+	 ('1c194b6eff0212700a8c284dce5b8251',147,9264,9168,'SR+','[ﾚｯﾂｺﾞｰ☆ﾊﾟﾚｰﾄﾞ]姫川友紀+',45),
+	 ('3d7ae831c66c150cd8df504d9ec2726c',184,2736,2160,'R+','[ﾒﾙﾍﾝ&ｺﾞｼｯｸ]杉坂海+',3);
 INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
-	 ('3d7ae831c66c150cd8df504d9ec2726c',184,2736,2160,'R+','[ﾒﾙﾍﾝ&ｺﾞｼｯｸ]杉坂海+',3),
 	 ('795d079f6a4cae7c0e83302f07753de1',184,3140,2220,'R','[ほのかな甘さ]杉坂海',6),
 	 ('14e16ee65ada054132b63a298a16f969',184,3020,2080,'R','[ﾃﾝﾀﾞｰﾊｰﾄ]杉坂海',10),
 	 ('5c592ca400291981781d86a7aecc6850',184,4280,3120,'R+','[運動会I.C]杉坂海+',16),
@@ -591,9 +590,9 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b15a029083439aac358a12f9e5c48ea5',184,3340,2560,'SR','[夏色情緒]杉坂海',23),
 	 ('caa08ae235a5cb1fcacdac027f8f9f2a',184,4008,3072,'SR+','[夏色情緒]杉坂海+',24),
 	 ('c86ab0ea4e0a1adf76e5c63eba0bffab',184,4400,3380,'SR','[闘志のｽﾋﾟﾘｯﾄ]杉坂海',27),
-	 ('6ca737a10d529fb71a1084d076430078',184,6288,5160,'SR+','[闘志の笑顔]杉坂海+',30);
+	 ('6ca737a10d529fb71a1084d076430078',184,6288,5160,'SR+','[闘志の笑顔]杉坂海+',30),
+	 ('1460159f41fbbcb36f51701ef83669d9',184,3240,2220,'R','[ｽｳｨｰﾄｷﾞﾌﾄ]杉坂海',31);
 INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
-	 ('1460159f41fbbcb36f51701ef83669d9',184,3240,2220,'R','[ｽｳｨｰﾄｷﾞﾌﾄ]杉坂海',31),
 	 ('0e07b2c3401f1ca79d57f50886846dd9',157,3300,2200,'R','[ﾊﾋﾟﾈｽｳｪﾃﾞｨﾝｸﾞ]星輝子',4),
 	 ('70b15d671e957c51bbcf418fab66baef',157,5568,5472,'SR+','[ﾌﾞﾗｯｸﾊﾞﾚﾝﾀｲﾝ]星輝子+',11),
 	 ('5c0203a4bfdf4ee9d147a04274cfa231',157,2860,2180,'SR','[CDﾃﾞﾋﾞｭｰ]星輝子',12),
@@ -602,10 +601,9 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6c3cedcaf10692458192b79ba6324334',157,11100,11200,'SR','[5thｱﾆﾊﾞｰｻﾘｰ]星輝子',22),
 	 ('e31e7e8fbb21d15ac5988da5ad79e9ef',157,9672,7344,'SR+','[ｺﾞｷｹﾞﾝｷﾉｺ]星輝子+',29),
 	 ('63838f10a93c8a0699fef839564fa775',157,10392,8088,'SR+','[魂のﾐﾁｼﾙﾍﾞ]星輝子+',33),
-	 ('af8c719781448b606b3b46c6d5166587',157,10392,8064,'SR+','[ﾀｶﾗﾓﾉﾌﾚｰﾊﾞｰ]星輝子+',39);
+	 ('af8c719781448b606b3b46c6d5166587',157,10392,8064,'SR+','[ﾀｶﾗﾓﾉﾌﾚｰﾊﾞｰ]星輝子+',39),
+	 ('4eac93743268759f36147deee87e59e9',3,3072,4008,'SR+','[誠実なる花嫁]水本ゆかり+',22);
 INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
-	 ('4b39f05563a8175f27b8d893561976ee',3,288,432,'N+','水本ゆかり+',1),
-	 ('4eac93743268759f36147deee87e59e9',3,3072,4008,'SR+','[誠実なる花嫁]水本ゆかり+',22),
 	 ('718d1b6bbb63606ba766256b8527b66c',3,6640,4780,'SR','[冬のﾊｰﾓﾆｰ]水本ゆかり',25),
 	 ('4cb935f4cee9ad752573a9d41f34d024',3,5960,5900,'SR','[ｴﾌｫｰﾄﾌﾞﾘﾗﾝﾃ]水本ゆかり',27),
 	 ('26a5e5f33df4a33d091793a2cdde1191',3,7580,5820,'SR','[華やぎのﾋﾞﾌﾞﾗｰﾄ]水本ゆかり',29),
@@ -613,10 +611,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7e5a8876eb6d25e8a11fa58d511ce768',3,9216,9120,'SR+','[向日葵色の音楽会]水本ゆかり+',34),
 	 ('9561157dddcfefb3edfcf2965e025edc',14,1200,1520,'R','[ﾃｰﾏﾊﾟｰｸ]柳瀬美由紀',2),
 	 ('727ec3b14e0bede0acfde0c345314419',14,3096,3048,'R+','[ﾌﾟﾘﾃｨ☆ｳｨｯﾁ]柳瀬美由紀+',5),
-	 ('3f10e5b72b8ec50b7d0661ed47518e05',14,1752,2712,'R+','[ひな祭り]柳瀬美由紀+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3f10e5b72b8ec50b7d0661ed47518e05',14,1752,2712,'R+','[ひな祭り]柳瀬美由紀+',7),
 	 ('8cde5ff1e02d37e807792a6423c9537d',14,3504,2568,'R+','[ｶﾆ☆ﾋﾟｰｽ]柳瀬美由紀+',9),
-	 ('9df9b80b17154f73174f72929415acdd',14,3280,2200,'R','[ﾋﾞﾀｰﾐﾙｷｰ]柳瀬美由紀',12),
+	 ('9df9b80b17154f73174f72929415acdd',14,3280,2200,'R','[ﾋﾞﾀｰﾐﾙｷｰ]柳瀬美由紀',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a6c7fd38a0f375a571248af4be5f7302',14,3696,2616,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙND]柳瀬美由紀+',15),
 	 ('face73d591e33ea649dfb00040334ed8',14,3792,2592,'R+','[ｷﾗｷﾗﾘｺﾒﾝﾄﾞ]柳瀬美由紀+',17),
 	 ('be4c5010d919efb2ed1fcbc34ff380c4',14,3312,3288,'R+','[教室のｱｲﾄﾞﾙ]柳瀬美由紀+',19),
@@ -624,10 +622,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('93ece2570b60750378fdaab24de3061e',14,3980,3860,'SR','[ﾗｽﾃｨｯｸﾋﾟｰｽ]柳瀬美由紀',24),
 	 ('901a17210d5dfaede55735b9f496a9c0',14,3260,2040,'R','[T.B.ｸﾘｽﾏｽ]柳瀬美由紀',26),
 	 ('2bface4824afc0662d3405304f2666b6',14,3912,2448,'R+','[T.B.ｸﾘｽﾏｽ]柳瀬美由紀+',27),
-	 ('c719beb653f9de9a87e2afa2a185df1c',14,5640,4176,'SR+','[南欧のひだまり]柳瀬美由紀+',29);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c719beb653f9de9a87e2afa2a185df1c',14,5640,4176,'SR+','[南欧のひだまり]柳瀬美由紀+',29),
 	 ('d7f04f4cbeb71a65eec06acff628651c',14,10000,9500,'SR','[南欧のほほえみ]柳瀬美由紀',30),
-	 ('a7df62ab3b2d5dcb35b548557ab11ec5',69,1900,3160,'R','[浴衣祭り]松本沙理奈',4),
+	 ('a7df62ab3b2d5dcb35b548557ab11ec5',69,1900,3160,'R','[浴衣祭り]松本沙理奈',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0de3d4c8622403e9d7229cd26280c9ef',69,2760,2680,'R','[ｱｯﾌﾟﾄｩﾃﾞｲﾄ]松本沙理奈',6),
 	 ('f1452a5449618b73378346046f8a8d68',69,4752,4848,'SR+','[ｾｸｼｰﾋﾞｭｰﾃｨｰ]松本沙理奈+',14),
 	 ('d94af1f2bbd1ee5cba11de0029345800',69,5112,4920,'SR+','[ｻﾝｼｬｲﾝﾏﾘﾅｰ]松本沙理奈+',16),
@@ -635,10 +633,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b66cc7e2ce0a6d9b22fb6339057ed8c8',69,6336,5136,'SR+','[ｾｸｼｰﾏﾐｰﾁｱｰ]松本沙理奈+',22),
 	 ('3d8f4dbae5e62ba55afa3e0d641069a5',69,4780,4860,'SR','[笑顔のﾌﾞﾙｰｷｬｯﾄ]松本沙理奈',25),
 	 ('a051beb825f0a20bca00bef8fb67fdf2',69,4660,3480,'SR','[ｴｷｿﾞﾁｯｸﾁｬｰﾑ]松本沙理奈',28),
-	 ('751246a37f3cd7226c574a279bd9aa51',69,3360,2160,'R','[ｾﾝｼｭｱﾙﾄﾗｯﾌﾟ]松本沙理奈',31);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('751246a37f3cd7226c574a279bd9aa51',69,3360,2160,'R','[ｾﾝｼｭｱﾙﾄﾗｯﾌﾟ]松本沙理奈',31),
 	 ('a2a63056e86de40133c03c82d3405b8a',69,8460,6560,'SR','[熱を帯びる時間]松本沙理奈',33),
-	 ('25efbdc5d98716f254d4b615ab27b120',175,1300,1880,'R','[ﾒｲﾄﾞｺﾚｸｼｮﾝ]槙原志保',2),
+	 ('25efbdc5d98716f254d4b615ab27b120',175,1300,1880,'R','[ﾒｲﾄﾞｺﾚｸｼｮﾝ]槙原志保',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a3b8047efc21fd4c75c213c46c6ef4ba',175,1860,1360,'R','[ﾃｨｰﾌﾚｰﾊﾞｰﾒｲﾄﾞ]槙原志保',6),
 	 ('70c0319dc14965836d47b43a0eb0231b',175,3200,2220,'R','[ﾁｪﾝｼﾞﾀｲﾑ]槙原志保',12),
 	 ('46622b85db85b604f09c7761c3c961e9',175,3540,4560,'SR','[甘いひととき]槙原志保',18),
@@ -646,10 +644,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3b1dc54e565ff387e33d1f1e1ccdcff8',175,2180,3300,'R','[あでやかｼﾌｫﾝ]槙原志保',26),
 	 ('97137d395be36a3359f8542c70e0e644',175,3984,2712,'R+','[ﾊﾟﾗﾀﾞｲｽｻﾏｰ]槙原志保+',29),
 	 ('e1d1e2125f47a113e3f713279449b89f',147,1600,1520,'R','[お花見]姫川友紀',2),
-	 ('9cc97855d3b407da47211b55983dfed2',147,3360,3192,'R+','[ｻﾏｰｼｰｽﾞﾝ]姫川友紀+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9cc97855d3b407da47211b55983dfed2',147,3360,3192,'R+','[ｻﾏｰｼｰｽﾞﾝ]姫川友紀+',9),
 	 ('b54d7f133cee9d01ae67eff3ba70d9ad',147,5400,3720,'SR','[ﾕｯｷ☆ﾚﾎﾞﾘｭｰｼｮﾝ]姫川友紀',16),
-	 ('be2d31e96f2501ddf6cca066da9a35f3',147,6480,4464,'SR+','[ﾕｯｷ☆ﾚﾎﾞﾘｭｰｼｮﾝ]姫川友紀+',17),
+	 ('be2d31e96f2501ddf6cca066da9a35f3',147,6480,4464,'SR+','[ﾕｯｷ☆ﾚﾎﾞﾘｭｰｼｮﾝ]姫川友紀+',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f7f85a3949cd94e6fe04a9b30189eb57',147,6648,4896,'SR+','[ﾊｯﾋﾟｰﾎｰﾑﾗﾝ]姫川友紀+',19),
 	 ('6f6a927a66ac554f5e790bcfe480f5ca',147,5900,4240,'SR','[1番ｾﾝﾀｰ]姫川友紀',22),
 	 ('9ff71f444262cc7258e36d981c1ac617',147,5640,5620,'SR','[秋色ｾﾝﾀｰ]姫川友紀',24),
@@ -657,10 +655,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('85688ae1cb65177f8acc8c407901267b',147,7608,7536,'SR+','[満塁ﾊﾞﾚﾝﾀｲﾝ]姫川友紀+',29),
 	 ('813407e7e0ece781086186ba7a37d6d7',147,7992,5472,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]姫川友紀+',31),
 	 ('b8470e05e5e683af5780655ae74c0844',147,7340,7280,'SR','[ﾋｯﾄｴﾝﾄﾞﾗﾝｳｪｲ]姫川友紀',36),
-	 ('27282e91195e52848d596183af7bf343',147,10392,7968,'SR+','[笑顔のｼｰｽﾞﾝ]姫川友紀+',42);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('27282e91195e52848d596183af7bf343',147,10392,7968,'SR+','[笑顔のｼｰｽﾞﾝ]姫川友紀+',42),
 	 ('506c7af5dd9e88a07d624b02e8b10477',184,2460,2520,'R','[ｴｷｿﾞﾁｯｸﾀﾞﾝｻｰ]杉坂海',4),
-	 ('c55d799ec6a7189b86c2c61309ff705e',159,920,1360,'N','堀裕子',0),
+	 ('c55d799ec6a7189b86c2c61309ff705e',159,920,1360,'N','堀裕子',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('57c3dca535e8b78bb9ba031c065690ed',3,2600,1800,'R','[純粋奏者]水本ゆかり',2),
 	 ('99994fd85c91d0c29fe5531d99fcf38d',3,3260,2180,'R','[自然なﾃﾝﾎﾟ]水本ゆかり',6),
 	 ('cdbe1c879b7bbb71c58e0d0b7d0161a1',3,3912,2616,'R+','[自然なﾃﾝﾎﾟ]水本ゆかり+',7),
@@ -668,10 +666,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5b7dadd172b0be5706880452acae23f0',3,2740,2680,'R','[夏島☆ｼｰｻｲﾄﾞ･S]水本ゆかり',13),
 	 ('8b5ab02f69baeab544d747cee305e0cc',3,3288,3216,'R+','[夏島☆ｼｰｻｲﾄﾞ･S]水本ゆかり+',14),
 	 ('36b04f9bf0aa3a07751364ba1660cddf',3,2560,3340,'SR','[誠実なる花嫁]水本ゆかり',21),
-	 ('7fdbcc0917346497b8c7fbf9241e9ce1',3,3680,4800,'SR','[誠実なる花嫁･S]水本ゆかり',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7fdbcc0917346497b8c7fbf9241e9ce1',3,3680,4800,'SR','[誠実なる花嫁･S]水本ゆかり',23),
 	 ('722d3107b2c4c73e3ca66ad25ba67cfa',3,4416,5760,'SR+','[誠実なる花嫁･S]水本ゆかり+',24),
-	 ('7a91e9a3863e2a4e83d819dcd3c468d2',3,2780,2740,'R','[爽やかｺﾝﾌｨﾁｭｰﾙ]水本ゆかり',31),
+	 ('7a91e9a3863e2a4e83d819dcd3c468d2',3,2780,2740,'R','[爽やかｺﾝﾌｨﾁｭｰﾙ]水本ゆかり',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b76617a1099b216004254eeeaee57846',14,1440,1824,'R+','[ﾃｰﾏﾊﾟｰｸ]柳瀬美由紀+',3),
 	 ('326c2f9e2f203f305f9436112b522034',14,3936,2640,'R+','[ﾋﾞﾀｰﾐﾙｷｰ]柳瀬美由紀+',13),
 	 ('8ec6cfce021cf00090bec4fca426fe41',14,3080,2180,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙND]柳瀬美由紀',14),
@@ -679,10 +677,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f0ef16a10c369e9d65726faf1c34688c',24,5100,5060,'SR','[ﾃﾞﾘｼｬｽﾃﾞｺ]大原みちる',25),
 	 ('f89db8a584ea701d8377f409dde90f58',24,3384,3312,'R+','[ﾄｩｲﾝｸﾙｼﾞｪﾑ]大原みちる+',28),
 	 ('2cd48b54401ff3ef8a81a753318705a9',29,780,520,'R','赤西瑛梨華',0),
-	 ('9629738a808b833c3c0d28938bf132e0',29,3312,3144,'R+','[おひろめﾎﾟｰｽﾞ]赤西瑛梨華+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9629738a808b833c3c0d28938bf132e0',29,3312,3144,'R+','[おひろめﾎﾟｰｽﾞ]赤西瑛梨華+',5),
 	 ('b0fca5a125b526c755eeec59253e3bb3',182,200,200,'R','ﾍﾞﾃﾗﾝﾄﾚｰﾅｰ',0),
-	 ('313b271eddfdc8c9d223cfc16fc55eb9',182,200,200,'R','[ﾊﾞﾚﾝﾀｲﾝ]ﾍﾞﾃﾗﾝﾄﾚｰﾅｰ',3),
+	 ('313b271eddfdc8c9d223cfc16fc55eb9',182,200,200,'R','[ﾊﾞﾚﾝﾀｲﾝ]ﾍﾞﾃﾗﾝﾄﾚｰﾅｰ',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('24d5423d9fe8deb825e29b8a516d39de',198,300,300,'SR','ﾏｽﾀｰﾄﾚｰﾅｰ',0),
 	 ('66a6a21d46da643503586a7a22df87dd',145,2800,2440,'R','[ﾚｯｽﾝ&ﾁｬﾚﾝｼﾞ]真鍋いつき',2),
 	 ('6b37e98cb7731439ed6f3cae9fee2306',145,2720,2720,'R','[ｼｪｲﾌﾟｱｯﾌﾟ]真鍋いつき',10),
@@ -690,10 +688,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ff4d10646fd683720b03ba75ee2ac087',145,2976,3456,'R+','[ｽﾏｲﾘｰﾊﾟﾌｫｰﾏｰ]真鍋いつき+',17),
 	 ('b1e85e7129774ed56c711bcebef2ee04',145,3744,2616,'R+','[T.B.ﾊﾟｲﾚｰﾂ]真鍋いつき+',19),
 	 ('225bede68ca747e37b99a65fad3a771c',145,3888,2544,'R+','[ﾀﾞｯｼｭｲﾝｽﾄﾗｸﾄ]真鍋いつき+',21),
-	 ('5ed37ce77056ed6867c6d70631496a34',145,4992,5064,'SR+','[拳舞酔客]真鍋いつき+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5ed37ce77056ed6867c6d70631496a34',145,4992,5064,'SR+','[拳舞酔客]真鍋いつき+',25),
 	 ('ce4ea40b0df3c2d7af34153ff9d00a69',145,4360,4500,'SR','[ふるき待ち人]真鍋いつき',26),
-	 ('b5bf065be5e5dfe2e6ef3aad6d8fa2d3',145,3384,3264,'R+','[ｸﾘｽﾏｽｽﾉｰ]真鍋いつき+',31),
+	 ('b5bf065be5e5dfe2e6ef3aad6d8fa2d3',145,3384,3264,'R+','[ｸﾘｽﾏｽｽﾉｰ]真鍋いつき+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('082fad78bf519ffc89d47a259e68a578',145,5620,4500,'SR','[ｽﾎﾟｰﾃｨ･ﾛﾜｲﾔﾙ]真鍋いつき',32),
 	 ('4efc876705241a31f7ecf57ae3dc8ef4',37,1140,1740,'R','桃井あずき',0),
 	 ('f8edf47fb60a0d249bb979d68211b8be',70,480,320,'N','桐野ｱﾔ',0),
@@ -701,10 +699,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d961c9e96664a1780df29863d264ac1f',175,1656,2616,'R+','[ﾊﾞﾘｽﾀｲﾙ]槙原志保+',5),
 	 ('8d214505b61bc523bb8d2c961f6cc893',175,1760,3260,'R','[ｸﾘｽﾏｽﾌﾟﾚｾﾞﾝﾄ]槙原志保',8),
 	 ('9627ead9b834427fda965a722669ff1f',175,2740,2800,'R','[ﾌﾚｯｼｭﾗｲﾌ]槙原志保',10),
-	 ('219b941411f0d170137aa0dbc575da04',175,3840,2664,'R+','[ﾁｪﾝｼﾞﾀｲﾑ]槙原志保+',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('219b941411f0d170137aa0dbc575da04',175,3840,2664,'R+','[ﾁｪﾝｼﾞﾀｲﾑ]槙原志保+',13),
 	 ('b2b089c4cb75471d8e24873800d34d05',175,3288,3240,'R+','[ぷちぷちﾌﾚｯｼｭ]槙原志保+',15),
-	 ('0910d356442beecf783049cf411d2a55',175,3816,2544,'R+','[T.B.ﾁｱｰｽﾞ]槙原志保+',17),
+	 ('0910d356442beecf783049cf411d2a55',175,3816,2544,'R+','[T.B.ﾁｱｰｽﾞ]槙原志保+',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('28333045bbce33e1dc610922ae42c0b3',175,4520,4000,'SR','[小悪魔ｳﾞｧﾝﾊﾟｲｱ]槙原志保',20),
 	 ('045dd1edac3495d38bb59e44b36b637e',175,6260,6160,'SR','[至福のﾎﾞﾘｭｰﾑ]槙原志保',22),
 	 ('cf33fe5e1a63397d31dd765fb6962eb0',175,5232,4128,'SR+','[ｺﾞｰﾙﾄﾞｼｰｽﾞﾝ]槙原志保+',25),
@@ -712,10 +710,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('49596a983a3633415ef8bc526bc3bf87',147,1920,1824,'R+','[お花見]姫川友紀+',3),
 	 ('1e7a035696e095ced606582c232843aa',147,1776,2664,'R+','[ｸｯｷﾝｸﾞﾁｬﾚﾝｼﾞ]姫川友紀+',5),
 	 ('c629d8330bbadfcaab5de5b4b1613e6b',147,2800,2660,'R','[ｻﾏｰｼｰｽﾞﾝ]姫川友紀',8),
-	 ('ee335947e8e5c66353550496c1ef76a9',147,3220,2240,'R','[全力ｲﾝﾀﾋﾞｭｰ]姫川友紀',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ee335947e8e5c66353550496c1ef76a9',147,3220,2240,'R','[全力ｲﾝﾀﾋﾞｭｰ]姫川友紀',10),
 	 ('74de50d140d29d3775b7b4d9b7dab726',147,4560,4560,'SR+','[全力ﾁｱｶﾞｰﾙ]姫川友紀+',13),
-	 ('244571d79f62f7e92f4864005d0c5b7f',147,4520,2860,'SR','[ﾁｱﾌﾙｴｰｽ]姫川友紀',14),
+	 ('244571d79f62f7e92f4864005d0c5b7f',147,4520,2860,'SR','[ﾁｱﾌﾙｴｰｽ]姫川友紀',14);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5b885f6976141113bc26b21c5a61ef35',147,3744,2904,'SR+','[CDﾃﾞﾋﾞｭｰ]姫川友紀+',21),
 	 ('e4ca80856602723aa2498d0322c09d4a',147,6900,5000,'SR','[GO!GO!ﾚｯﾂｺﾞｰ]姫川友紀',26),
 	 ('6b7b2b7bde69e463e18aed37d21e1df9',147,7520,5900,'SR','[聖夜の星]姫川友紀',32),
@@ -723,10 +721,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b3484b86731fa47b0a59f2d1fb3af249',189,1300,1260,'R','ｷｬｼｰ･ｸﾞﾗﾊﾑ',0),
 	 ('af03f83edd3f6081e7a94f7dee76c69c',159,1104,1632,'N+','堀裕子+',1),
 	 ('9549306aa4c5394f93ee2eb93809485d',159,7008,4824,'SR+','[大地のぱわｰ☆]堀裕子+',17),
-	 ('cd82605167df5280f7a1496dfb819801',159,6648,6600,'SR+','[ﾐﾗｸﾙﾊﾟﾃｨｼｴｰﾙ☆]堀裕子+',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('cd82605167df5280f7a1496dfb819801',159,6648,6600,'SR+','[ﾐﾗｸﾙﾊﾟﾃｨｼｴｰﾙ☆]堀裕子+',21),
 	 ('087f6dbd91ce36b87cede27e7d9979a4',159,7872,7824,'SR+','[月夜見ｴｽﾊﾟｰ]堀裕子+',27),
-	 ('41e0408ac7bf19a6fd0e65089e8e997a',159,7780,6100,'SR','[超常ﾊｲｽｸｰﾙ]堀裕子',28),
+	 ('41e0408ac7bf19a6fd0e65089e8e997a',159,7780,6100,'SR','[超常ﾊｲｽｸｰﾙ]堀裕子',28);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('42dceae39ac53e024fb6db76cc26f411',159,2928,3504,'R+','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ･S]堀裕子+',32),
 	 ('8c991c6f3c84bca4c63100d6cc99a040',159,2940,2160,'R','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ]堀裕子',33),
 	 ('e3ae28f9dae9077d49ff85eedf90d38d',3,3120,2160,'R+','[純粋奏者]水本ゆかり+',3),
@@ -734,10 +732,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7d5aa18aec3123ba1e95812ef0561f39',3,2660,3120,'R+','[ｳｪﾃﾞｨﾝｸﾞI.C]水本ゆかり+',8),
 	 ('1068a0adedbd74a596f77200e983813f',3,2720,2720,'R','[ｽｸｰﾙﾒﾛﾃﾞｨｰ]水本ゆかり',9),
 	 ('92fa3f617e27a7a0ae9e8d0ceb12b0c6',3,3504,2544,'R+','[ﾌﾙｰﾃｨｵｰﾀﾑ]水本ゆかり+',16),
-	 ('063b5513bbd62fb98cfab5b98edee7b6',3,4040,3700,'SR','[清純令嬢]水本ゆかり',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('063b5513bbd62fb98cfab5b98edee7b6',3,4040,3700,'SR','[清純令嬢]水本ゆかり',17),
 	 ('65b1614f1d60f9654a0e57ed0e157409',3,5352,4992,'SR+','[素顔のお嬢様]水本ゆかり+',20),
-	 ('19dca795d6ca96446f8949d9619c441d',3,7968,5736,'SR+','[冬のﾊｰﾓﾆｰ]水本ゆかり+',26),
+	 ('19dca795d6ca96446f8949d9619c441d',3,7968,5736,'SR+','[冬のﾊｰﾓﾆｰ]水本ゆかり+',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0ae0b50138bbf05741509420d5324943',3,7152,7080,'SR+','[ｴﾌｫｰﾄﾌﾞﾘﾗﾝﾃ]水本ゆかり+',28),
 	 ('e227df2dc57cb8d557c85d32227d8666',3,9096,6984,'SR+','[華やぎのﾋﾞﾌﾞﾗｰﾄ]水本ゆかり+',30),
 	 ('875760686e9f794e448b584946e4512c',3,7680,7600,'SR','[向日葵色の音楽会]水本ゆかり',33),
@@ -745,10 +743,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2ea41f369d3ef17a46c0bf7048b2503f',3,10368,8088,'SR+','[初春の慶び]水本ゆかり+',36),
 	 ('6a7eca54ae5c7fa44e5a6af92f3ae135',14,2580,2540,'R','[ﾌﾟﾘﾃｨ☆ｳｨｯﾁ]柳瀬美由紀',4),
 	 ('d85836d7aa213eeaa97637ced5f4c905',14,1460,2260,'R','[ひな祭り]柳瀬美由紀',6),
-	 ('bc8c093931062396a2f92c167729fe61',14,2920,2140,'R','[ｶﾆ☆ﾋﾟｰｽ]柳瀬美由紀',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bc8c093931062396a2f92c167729fe61',14,2920,2140,'R','[ｶﾆ☆ﾋﾟｰｽ]柳瀬美由紀',8),
 	 ('81dacc4c39b0dc0b7e01c2b8e7e04887',14,3180,2280,'R','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]柳瀬美由紀',10),
-	 ('a2b97d98b0f9ce2deec5a0e7cd0b8bc6',14,3816,2736,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]柳瀬美由紀+',11),
+	 ('a2b97d98b0f9ce2deec5a0e7cd0b8bc6',14,3816,2736,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]柳瀬美由紀+',11);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('136441a83e88fc515a7a4290933e4dbc',14,2760,2740,'R','[教室のｱｲﾄﾞﾙ]柳瀬美由紀',18),
 	 ('6a9e56a14c98a683a788a243c107c5be',14,3000,2460,'SR','[夏色ｶﾞｰﾙ]柳瀬美由紀',20),
 	 ('58176ddb838cc778720e4e3a388815ef',14,3600,2952,'SR+','[夏色ｶﾞｰﾙ]柳瀬美由紀+',21),
@@ -756,10 +754,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3856ad6632abff474524900b8c3b728e',14,4776,4632,'SR+','[ﾗｽﾃｨｯｸﾋﾟｰｽ]柳瀬美由紀+',25),
 	 ('15221e422106c89779baa628484077d1',14,4700,3480,'SR','[南欧のひだまり]柳瀬美由紀',28),
 	 ('8356bffcbf121ab9c93cc67eba6515ff',14,10000,9500,'SR+','[南欧のほほえみ]柳瀬美由紀+',31),
-	 ('45e99d9c3367c228d33f71058dd2f738',25,860,1420,'N','遊佐こずえ',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('45e99d9c3367c228d33f71058dd2f738',25,860,1420,'N','遊佐こずえ',0),
 	 ('aa2469f1804965e38a2a14d945c62b2a',25,3408,3168,'R+','[紅葉温泉]遊佐こずえ+',5),
-	 ('a31dfedbd032f4072ee37b8f5c0fcc9e',25,9720,7464,'SR+','[ﾏｰﾁﾝｸﾞ☆ﾄｰﾝ]遊佐こずえ+',27),
+	 ('a31dfedbd032f4072ee37b8f5c0fcc9e',25,9720,7464,'SR+','[ﾏｰﾁﾝｸﾞ☆ﾄｰﾝ]遊佐こずえ+',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d26a72d4693078771d62ed5120ab1fe8',25,8520,6600,'SR','[てんまでとどけ]遊佐こずえ',30),
 	 ('d3f5730a559b84333df073acc29d094d',29,936,624,'R+','赤西瑛梨華+',1),
 	 ('c7b48696b8c78ad11d3fb0f898b1343b',182,200,200,'R','[聖夜]ﾍﾞﾃﾗﾝﾄﾚｰﾅｰ',1),
@@ -767,10 +765,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('de348637cc18a3f5e4c81fa791580495',145,3360,2928,'R+','[ﾚｯｽﾝ&ﾁｬﾚﾝｼﾞ]真鍋いつき+',3),
 	 ('e25bfc4f11de8a6ae9c2039c90c21348',38,1600,1600,'R','涼宮星花',0),
 	 ('d7214775b8ad7a28a6fddcf512e9666c',70,576,384,'N+','桐野ｱﾔ+',1),
-	 ('87d826bbf263c5ed9692324810ecc77d',70,3200,2220,'R','[ﾌﾞﾚｲｸﾀｲﾑ]桐野ｱﾔ',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('87d826bbf263c5ed9692324810ecc77d',70,3200,2220,'R','[ﾌﾞﾚｲｸﾀｲﾑ]桐野ｱﾔ',10),
 	 ('9d94602d3641b0c6eede6dd3d1c2ebd3',70,3648,2688,'R+','[T.B.ﾁｱｰｽﾞ]桐野ｱﾔ+',13),
-	 ('ff20aaab91b22f73834c2ef399f2e860',70,4760,4840,'SR','[ﾌｧｲﾄ･ﾛﾜｲﾔﾙ]桐野ｱﾔ',21),
+	 ('ff20aaab91b22f73834c2ef399f2e860',70,4760,4840,'SR','[ﾌｧｲﾄ･ﾛﾜｲﾔﾙ]桐野ｱﾔ',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bea20680bc7d872342af77f9f921ce5b',70,5660,4440,'SR','[ｽﾄﾛﾝｸﾞﾁｱｰ]桐野ｱﾔ',23),
 	 ('da57276b8114b62e0baf4b45abe791c1',175,1380,2180,'R','[ﾊﾞﾘｽﾀｲﾙ]槙原志保',4),
 	 ('8c102de57f48bcbcf728f33a178490ab',175,2232,1632,'R+','[ﾃｨｰﾌﾚｰﾊﾞｰﾒｲﾄﾞ]槙原志保+',7),
@@ -778,10 +776,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c5f8a13d83c343ba3e671d9d48766c10',175,3288,3360,'R+','[ﾌﾚｯｼｭﾗｲﾌ]槙原志保+',11),
 	 ('d8cdf407e9f473221b46a24aefb9ff5f',175,2740,2700,'R','[ぷちぷちﾌﾚｯｼｭ]槙原志保',14),
 	 ('3bbb00ce1e042a30f1b87be42b66cec2',175,3180,2120,'R','[T.B.ﾁｱｰｽﾞ]槙原志保',16),
-	 ('a109b84c1e6b327f91f5844d4ae07435',175,4248,5472,'SR+','[甘いひととき]槙原志保+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a109b84c1e6b327f91f5844d4ae07435',175,4248,5472,'SR+','[甘いひととき]槙原志保+',19),
 	 ('c4aec86eca5285bc73297ce6233f9afc',175,5424,4800,'SR+','[小悪魔ｳﾞｧﾝﾊﾟｲｱ]槙原志保+',21),
-	 ('f11b52182cfce3fb6df70762c6504a75',175,4360,3440,'SR','[ｺﾞｰﾙﾄﾞｼｰｽﾞﾝ]槙原志保',24),
+	 ('f11b52182cfce3fb6df70762c6504a75',175,4360,3440,'SR','[ｺﾞｰﾙﾄﾞｼｰｽﾞﾝ]槙原志保',24);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('fb5b5ed0c87f69d3885c6f09c1a5abb5',175,3320,2260,'R','[ﾊﾟﾗﾀﾞｲｽｻﾏｰ]槙原志保',28),
 	 ('0a909c1a66f53d5148005a8a8d9f8ac2',147,1480,2220,'R','[ｸｯｷﾝｸﾞﾁｬﾚﾝｼﾞ]姫川友紀',4),
 	 ('3ff62a9466016547f90ed44c7840c560',147,1680,2040,'R','[ｸｯｷﾝｸﾞ･ｽﾏｲﾙ]姫川友紀',6),
@@ -789,10 +787,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6f1244bd2e41ac322ca9b745556c1dea',147,3864,2688,'R+','[全力ｲﾝﾀﾋﾞｭｰ]姫川友紀+',11),
 	 ('346a8fe47bf44812289254630a3246d7',147,3800,3800,'SR','[全力ﾁｱｶﾞｰﾙ]姫川友紀',12),
 	 ('bec7aaa5a179f7543cd32b81ee1791b1',147,5424,3432,'SR+','[ﾁｱﾌﾙｴｰｽ]姫川友紀+',15),
-	 ('36e3f8bdb6303b5bba63e1d38d487c44',147,5540,4080,'SR','[ﾊｯﾋﾟｰﾎｰﾑﾗﾝ]姫川友紀',18);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('36e3f8bdb6303b5bba63e1d38d487c44',147,5540,4080,'SR','[ﾊｯﾋﾟｰﾎｰﾑﾗﾝ]姫川友紀',18),
 	 ('12954acb6219dd4841a6d1f7f57d3f0a',147,3120,2420,'SR','[CDﾃﾞﾋﾞｭｰ]姫川友紀',20),
-	 ('6281e28f6c0329afee5e21958569c5a0',147,8808,8736,'SR+','[ﾋｯﾄｴﾝﾄﾞﾗﾝｳｪｲ]姫川友紀+',37),
+	 ('6281e28f6c0329afee5e21958569c5a0',147,8808,8736,'SR+','[ﾋｯﾄｴﾝﾄﾞﾗﾝｳｪｲ]姫川友紀+',37);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0455b92906c76d6d103ceefb1f8ae3be',147,9672,7512,'SR+','[ﾌﾙｽｲﾝｸﾞ☆ｴｰﾙ]姫川友紀+',39),
 	 ('456fb0a4cd589a26bac2ea282a98bb49',147,4008,2712,'R+','[癒しの湯の香]姫川友紀+',41),
 	 ('b4257dc89b246c3f0d4f3fd4de418587',147,7720,7640,'SR','[ﾚｯﾂｺﾞｰ☆ﾊﾟﾚｰﾄﾞ]姫川友紀',44),
@@ -800,10 +798,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1640d6c97421afa8d24c278527016fcc',189,3360,3264,'R+','[下町ﾊﾞｲﾌﾞｽ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',32),
 	 ('366697976ec9eadf5d9af8aa05627c06',159,1860,1760,'R','[ｽﾊﾟﾆｯｼｭｽﾀｲﾙ]堀裕子',2),
 	 ('ffb2c98591b0c9c025db8d210b9eceb7',159,3280,2240,'R','[ﾋﾞﾀｰ&ｽｳｨｰﾄ]堀裕子',6),
-	 ('1bad11e08f6d67660858e2a625af9706',159,3936,2688,'R+','[ﾋﾞﾀｰ&ｽｳｨｰﾄ]堀裕子+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1bad11e08f6d67660858e2a625af9706',159,3936,2688,'R+','[ﾋﾞﾀｰ&ｽｳｨｰﾄ]堀裕子+',7),
 	 ('0662af7af3c7bf97ba34266f06737dd4',159,4300,4360,'SR','[湯けむりｻｲｷｯｶｰ]堀裕子',10),
-	 ('753c417a7ec341db7cea1b1310039afe',159,2712,3360,'SR+','[CDﾃﾞﾋﾞｭｰ]堀裕子+',13),
+	 ('753c417a7ec341db7cea1b1310039afe',159,2712,3360,'SR+','[CDﾃﾞﾋﾞｭｰ]堀裕子+',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6b9c0707971d95fd191fea1138c10722',159,5260,4060,'SR','[ｻｲｷｯｸﾏｼﾞｼｬﾝ]堀裕子',14),
 	 ('4d914ac85a06f7643c5b327242a6c30b',159,5920,4220,'SR','[さいきっく☆ﾎﾞｲｽ]堀裕子',18),
 	 ('210300780515553e62e96bea844e9a8d',159,7104,5064,'SR+','[さいきっく☆ﾎﾞｲｽ]堀裕子+',19),
@@ -811,10 +809,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('12a16e06fe32d7bfec53eba8ca6f67de',3,2180,2140,'R','[ｳﾞｫﾔｰｼﾞｭ･ﾋｰﾗｰ]水本ゆかり',4),
 	 ('fadba85c75ef32f646b418281d2c4951',3,2440,2840,'R','[夏島☆ｼｰｻｲﾄﾞ]水本ゆかり',11),
 	 ('7dffeef7dc7ba53aadec729c22fe67cf',3,2928,3408,'R+','[夏島☆ｼｰｻｲﾄﾞ]水本ゆかり+',12),
-	 ('e252b0259eddadd23da5724094d01cf6',3,2920,2120,'R','[ﾌﾙｰﾃｨｵｰﾀﾑ]水本ゆかり',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e252b0259eddadd23da5724094d01cf6',3,2920,2120,'R','[ﾌﾙｰﾃｨｵｰﾀﾑ]水本ゆかり',15),
 	 ('39fcc8af5585b77a898d2b0a30ba7b9a',3,4848,4440,'SR+','[清純令嬢]水本ゆかり+',18),
-	 ('3916b51a4d2993ae85d4315532fb635c',3,4460,4160,'SR','[素顔のお嬢様]水本ゆかり',19),
+	 ('3916b51a4d2993ae85d4315532fb635c',3,4460,4160,'SR','[素顔のお嬢様]水本ゆかり',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1cefdef7df7c14eca803910b67e61dfc',15,640,960,'N','櫻井桃華',0),
 	 ('3144d1c17608aeeee8313c6cd507f9fb',25,1032,1704,'N+','遊佐こずえ+',1),
 	 ('efe818609edadb7a799cd5318a803c06',25,5320,3740,'SR','[ﾏｼﾞｶﾙｴﾝｼﾞｪﾙ]遊佐こずえ',8),
@@ -822,10 +820,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('da45338f44ff37ffe855b752bf0abbd3',25,7296,5520,'SR+','[はじめていっぱい]遊佐こずえ+',13),
 	 ('687b4206d88a37c16864b8f4d507f2cb',25,7608,7416,'SR+','[無垢なる魔王]遊佐こずえ+',17),
 	 ('bdf46fde71edd1fc9eae226f44e51764',25,8232,8136,'SR+','[おもちゃのゆめ]遊佐こずえ+',21),
-	 ('b4afd9a11fa475c2b560eeb3b955ce51',25,8020,6280,'SR','[あきいろせかい]遊佐こずえ',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b4afd9a11fa475c2b560eeb3b955ce51',25,8020,6280,'SR','[あきいろせかい]遊佐こずえ',22),
 	 ('e54813d7c3444c0f384179a3673eb3d2',25,9624,7536,'SR+','[あきいろせかい]遊佐こずえ+',23),
-	 ('13e6f261e13f120522d4a4675d3f38a9',29,2640,1840,'R','[ﾗﾌﾞﾘｰ☆ﾊﾞﾗﾄﾞﾙ]赤西瑛梨華',2),
+	 ('13e6f261e13f120522d4a4675d3f38a9',29,2640,1840,'R','[ﾗﾌﾞﾘｰ☆ﾊﾞﾗﾄﾞﾙ]赤西瑛梨華',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0522d77ea44cb013c8debaf5b042e606',29,3336,2472,'R+','[T.B.ｻｰｶｽ]赤西瑛梨華+',7),
 	 ('c2d987590968cc303bc14c008db97d75',29,3336,3264,'R+','[PROのｵｼｺﾞﾄ☆]赤西瑛梨華+',10),
 	 ('488ac97d9598d5f6b5ff26028d4a9fc8',29,3264,2664,'SR+','[ぷるるんｽﾎﾟｰﾃｨ]赤西瑛梨華+',14),
@@ -833,10 +831,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f50bddc7adbbe8f80099c87a4945fbc7',29,5664,5880,'SR+','[ﾄﾚﾝﾃﾞｨｰ乙女]赤西瑛梨華+',18),
 	 ('16df3c000e1bd9af11046666963cfdb9',182,200,200,'R','[新春]ﾍﾞﾃﾗﾝﾄﾚｰﾅｰ',2),
 	 ('6681d3a0c30f354a44317608a1d68971',198,300,300,'SR','[地獄の特訓]ﾏｽﾀｰﾄﾚｰﾅｰ',2),
-	 ('2432eb32593381cfec0f4f599fec4f36',145,2420,2620,'R','[ｶｼﾞｭｱﾙｽﾀｲﾙ]真鍋いつき',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2432eb32593381cfec0f4f599fec4f36',145,2420,2620,'R','[ｶｼﾞｭｱﾙｽﾀｲﾙ]真鍋いつき',4),
 	 ('fe2ffdada9697df45b8967e875f05fac',38,1920,1920,'R+','涼宮星花+',1),
-	 ('567ce108edd82a9b613abaa95e94c9a4',70,2960,1840,'R','[ｽﾎﾟｰﾂ祭]桐野ｱﾔ',2),
+	 ('567ce108edd82a9b613abaa95e94c9a4',70,2960,1840,'R','[ｽﾎﾟｰﾂ祭]桐野ｱﾔ',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bf0c13ce6019138ebaeff2f13d7ce662',70,2256,2088,'R+','[ﾊﾞﾘｽﾀｲﾙ]桐野ｱﾔ+',5),
 	 ('d2346216a10dc027b5ad981febe98200',70,3260,2220,'R','[不意の幸せ]桐野ｱﾔ',6),
 	 ('270f111f0adc50347ba9256756602680',70,3408,2400,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]桐野ｱﾔ+',9),
@@ -844,10 +842,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3dc9f6b43b8f09c2cd14427246204ab7',70,3460,4580,'SR','[ｴﾚｶﾞﾝﾄﾏﾘｵﾈｯﾄ]桐野ｱﾔ',17),
 	 ('45d7e0444687067fe30053e2047bb81d',70,4300,4300,'SR','[ｵｰﾌﾟﾝｽｲｰﾄ]桐野ｱﾔ',19),
 	 ('3e98fcf649a541da846b39ff4510592c',70,5712,5808,'SR+','[ﾌｧｲﾄ･ﾛﾜｲﾔﾙ]桐野ｱﾔ+',22),
-	 ('473457519e1c428b7a263a4b24affa77',70,6792,5328,'SR+','[ｽﾄﾛﾝｸﾞﾁｱｰ]桐野ｱﾔ+',24);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('473457519e1c428b7a263a4b24affa77',70,6792,5328,'SR+','[ｽﾄﾛﾝｸﾞﾁｱｰ]桐野ｱﾔ+',24),
 	 ('421870a18b78ade223c811fe38edf51e',178,720,1200,'R','双海真美',0),
-	 ('76e94c283b186a3461922f4ec21881ea',149,1060,700,'N','喜多見柚',0),
+	 ('76e94c283b186a3461922f4ec21881ea',149,1060,700,'N','喜多見柚',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('03e13b764bf732aa5f4f075a2d1e95b2',189,1680,1960,'R','[新春ｺﾚｸｼｮﾝ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',2),
 	 ('afe03e20c836f8ff906a253a56ee26b4',189,2200,2120,'R','[ｶﾞﾝｽﾘﾝｶﾞｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',6),
 	 ('b8ebb0a9955fa101aa15e6e1a5783a91',189,2640,2544,'R+','[ｶﾞﾝｽﾘﾝｶﾞｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',7),
@@ -855,10 +853,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('05fce5bf386ef6017a6682a7d150b3b2',189,2840,2620,'R','[ｳｪﾃﾞｨﾝｸﾞｾﾚﾓﾆｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',12),
 	 ('6ba750a1ecbc961392b6751f7a1bf65e',189,3336,3264,'R+','[ｽｸｰﾙﾌﾟｰﾙ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',15),
 	 ('7bb2b4e679c1254c989b4e09541a5324',189,4340,3060,'R+','[ｱﾊﾞﾝｷﾞｬﾙﾄﾞｵｰﾅｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',18),
-	 ('a1ef09b1d7d8da1b1d65872dc1e4fc1f',189,3220,2080,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]ｷｬｼｰ･ｸﾞﾗﾊﾑ',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a1ef09b1d7d8da1b1d65872dc1e4fc1f',189,3220,2080,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]ｷｬｼｰ･ｸﾞﾗﾊﾑ',19),
 	 ('afd21d0607cc0a99723267c0a5ca4625',189,5640,4608,'SR+','[ﾗﾌ&ｶﾞｰﾘｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',26),
-	 ('1770ac1f502f862edc4e9d03bc2f26ea',189,3980,3840,'SR','[ｼﾞｮｲﾌﾙﾍﾞｰｶｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',27),
+	 ('1770ac1f502f862edc4e9d03bc2f26ea',189,3980,3840,'SR','[ｼﾞｮｲﾌﾙﾍﾞｰｶｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7257d04c6b64058492bc0279c5b1da20',189,5688,5784,'SR+','[にっこりﾍﾞｰｶｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',30),
 	 ('0704a849a66af4661b4b5fca9bdd29d8',159,2232,2112,'R+','[ｽﾊﾟﾆｯｼｭｽﾀｲﾙ]堀裕子+',3),
 	 ('206627c86b320778aa94bb336021a57f',159,3600,2328,'R+','[おちゃめなｻｲｷｯｶｰ]堀裕子+',5),
@@ -866,10 +864,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7ccda474194bb3f8016aa424f79476e2',159,3912,2736,'R+','[ﾌﾙｰﾃｨｵｰﾀﾑ]堀裕子+',9),
 	 ('99264bf5143c8ef20d5799bcee877921',159,5840,4020,'SR','[大地のぱわｰ☆]堀裕子',16),
 	 ('fcadcbebe66c5cbafbfcda3fde7aed3c',159,6800,4960,'SR','[海のぱわｰ☆]堀裕子',22),
-	 ('b0c6e9c33f363fe1bfea05c3d007983c',159,7140,5340,'SR','[夕焼けﾃﾚﾊﾟｼｰ]堀裕子',24);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b0c6e9c33f363fe1bfea05c3d007983c',159,7140,5340,'SR','[夕焼けﾃﾚﾊﾟｼｰ]堀裕子',24),
 	 ('64bfd146a17bcae9c53f47b939d3199a',159,8568,6408,'SR+','[夕焼けﾃﾚﾊﾟｼｰ]堀裕子+',25),
-	 ('8b1951a846a99ccff84f6882fa764eef',159,10248,7896,'SR+','[心染まる念力]堀裕子+',35),
+	 ('8b1951a846a99ccff84f6882fa764eef',159,10248,7896,'SR+','[心染まる念力]堀裕子+',35);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1335d384f75d4edabbe3467fe7a235ce',159,9360,9072,'SR+','[奇跡を結ぶ手]堀裕子+',37),
 	 ('d3d024eae9523602a690e41a87628d41',159,7660,7580,'SR','[ｾｰｼｭﾝｴﾅｼﾞｰ]堀裕子',38),
 	 ('9e4c72332c4881ae0bdc40ed2ec88c89',4,320,480,'N','福山舞',0),
@@ -877,10 +875,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c4bd0a91ebc1f5f3d93eaf5daf488317',4,6192,6072,'SR+','[ﾌﾗｯﾌｨｰﾌﾗﾜｰ]福山舞+',35),
 	 ('fe2f3ecbf682014be99d3f94512a48bd',15,768,1152,'N+','櫻井桃華+',1),
 	 ('108c08141582e72f2e792c6587cbc3de',15,10176,7752,'SR+','[ﾌﾞﾙｰﾐﾝｸﾞｼｬｲﾝ]櫻井桃華+',35),
-	 ('d9f37d6cf95addd1b3965a4f0ce9b614',25,1960,1740,'R','[ｽﾍﾟｰｽｽﾀｲﾙ]遊佐こずえ',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d9f37d6cf95addd1b3965a4f0ce9b614',25,1960,1740,'R','[ｽﾍﾟｰｽｽﾀｲﾙ]遊佐こずえ',2),
 	 ('692f101a35f8d44b5cfdab20db41d07c',25,4860,4860,'SR','[ｽｳｨｰﾄﾌｪｱﾘｰ]遊佐こずえ',10),
-	 ('6a93319e207ac6a234f7ccb99ef3b8b8',25,7460,5780,'SR','[ふわふわﾄﾞｰﾙ]遊佐こずえ',18),
+	 ('6a93319e207ac6a234f7ccb99ef3b8b8',25,7460,5780,'SR','[ふわふわﾄﾞｰﾙ]遊佐こずえ',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bb2e0e21ac5953f72c8a4d3a0b9d3857',25,8952,6936,'SR+','[ふわふわﾄﾞｰﾙ]遊佐こずえ+',19),
 	 ('4768a3d0f0498637c034b4a21115777f',25,6860,6780,'SR','[おもちゃのゆめ]遊佐こずえ',20),
 	 ('e4b98c97390507289830a758aa4484ca',25,3280,2040,'R','[ﾋﾟｭｱﾘｰﾛﾘｰﾀ]遊佐こずえ',24),
@@ -888,10 +886,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6d515e6022088598ee53e452e64eadfd',29,2780,2060,'R','[T.B.ｻｰｶｽ]赤西瑛梨華',6),
 	 ('646d02993ce1aa9172a63d9e1fd68e0b',29,2780,2720,'R','[PROのｵｼｺﾞﾄ☆]赤西瑛梨華',9),
 	 ('c7505c5a90588420682e21ea18b53d38',29,3336,3264,'R+','[ｻﾏｰﾃﾝﾌﾟﾃｰｼｮﾝ]赤西瑛梨華+',12),
-	 ('b1983382c22766b75304de58da8ee781',29,4720,4900,'SR','[ﾄﾚﾝﾃﾞｨｰ乙女]赤西瑛梨華',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b1983382c22766b75304de58da8ee781',29,4720,4900,'SR','[ﾄﾚﾝﾃﾞｨｰ乙女]赤西瑛梨華',17),
 	 ('feee253df003e8b4b26f20fe14766269',29,2800,2740,'R','[ほっこり温泉]赤西瑛梨華',19),
-	 ('ded225525d77bc5e164da6ec41d0342e',186,920,980,'R','北川真尋',0),
+	 ('ded225525d77bc5e164da6ec41d0342e',186,920,980,'R','北川真尋',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f0627779554f7932ca75fba796816000',186,3552,2160,'R+','[ｽﾎﾟｰﾃｨｶﾞｰﾙ]北川真尋+',5),
 	 ('c2cee09440f26baf18469aa365b2df73',186,2976,2616,'R+','[ひな祭り]北川真尋+',7),
 	 ('5fa6e08fcfd6131e62fb9786747bb590',206,2100,2100,'R','夢見りあむ',0),
@@ -899,10 +897,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2b41c4a4cb28d37563feb07668337853',145,2780,2160,'R','[ｶｼﾞｭｱﾙﾁｱｰ]真鍋いつき',6),
 	 ('0b1e16ffc8a773f87a5ad8cc7f8bf0f8',145,3240,2200,'R','[ｶﾞｰﾘｰｽﾀｲﾙ]真鍋いつき',8),
 	 ('b3d0922a9fd538b1d6503904d0defc49',145,3264,3264,'R+','[ｼｪｲﾌﾟｱｯﾌﾟ]真鍋いつき+',11),
-	 ('3ccaaf0d3541e34f974b94e453c6a19f',145,3216,3216,'R+','[節分豆撒]真鍋いつき+',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3ccaaf0d3541e34f974b94e453c6a19f',145,3216,3216,'R+','[節分豆撒]真鍋いつき+',13),
 	 ('6327296e1442dcf684f2454f116b4d0f',145,3504,2592,'R+','[ｻｰｶｽﾊﾟﾌｫｰﾏｰ]真鍋いつき+',15),
-	 ('7f9a18fa7616eb1439f038c58b02f983',145,4620,3000,'SR','[ﾊｯﾋﾟｰﾌﾟﾚｼﾞｬｰ]真鍋いつき',22),
+	 ('7f9a18fa7616eb1439f038c58b02f983',145,4620,3000,'SR','[ﾊｯﾋﾟｰﾌﾟﾚｼﾞｬｰ]真鍋いつき',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6af497e47078dc8ea2c6691297cc7300',145,4160,4220,'SR','[拳舞酔客]真鍋いつき',24),
 	 ('7c175ee387814c3af476068126e9a693',39,1400,2120,'R','月宮雅',0),
 	 ('2ddcac167adb3e5f1a888b16483b9338',70,3552,2208,'R+','[ｽﾎﾟｰﾂ祭]桐野ｱﾔ+',3),
@@ -910,10 +908,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d182d50be9a4a09ce0ba65b085091f7e',70,3840,2664,'R+','[ﾌﾞﾚｲｸﾀｲﾑ]桐野ｱﾔ+',11),
 	 ('ed6e36f5388cca179f16884e7020f518',70,3040,2240,'R','[T.B.ﾁｱｰｽﾞ]桐野ｱﾔ',12),
 	 ('8c459a5114828673110c2061c2ae6bc5',70,3384,3192,'R+','[ﾊﾋﾟﾈｽｳｪﾃﾞｨﾝｸﾞ]桐野ｱﾔ+',15),
-	 ('81fd47cf40cbfb59f9dc779f0b2e6258',70,5160,5160,'SR+','[ｵｰﾌﾟﾝｽｲｰﾄ]桐野ｱﾔ+',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('81fd47cf40cbfb59f9dc779f0b2e6258',70,5160,5160,'SR+','[ｵｰﾌﾟﾝｽｲｰﾄ]桐野ｱﾔ+',20),
 	 ('0c5db62384a37573e07fe213f5de607b',70,2840,2780,'R','[癒しの湯の香]桐野ｱﾔ',25),
-	 ('ee397ecc1f873bb6d986acb05e5b9916',178,864,1440,'R+','双海真美+',1),
+	 ('ee397ecc1f873bb6d986acb05e5b9916',178,864,1440,'R+','双海真美+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('9ddb7f0e4c699e93d3735c56d163bc1b',149,1272,840,'N+','喜多見柚+',1),
 	 ('a687207d5948158046e24f5fb94f6821',189,2016,2352,'R+','[新春ｺﾚｸｼｮﾝ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',3),
 	 ('ab2bb97e46e8102de86579aff4b90518',189,1776,1656,'R+','[ﾌﾚｯｼｭﾏﾝﾀﾞﾘﾝ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',5),
@@ -921,10 +919,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8f06d715ec61652d3319aa6b5b598985',189,3336,3144,'R+','[お笑いｽﾀｲﾙ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',9),
 	 ('42ca5290aba119f9e690b169d75aedd8',189,3760,3720,'R+','[ﾍﾞｰｶﾘｰI.C]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',16),
 	 ('bb7e9b672f5c26d766b1ba530accd85f',189,3760,3740,'R+','[おもてなしﾊﾞﾗｴﾃｨ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',17),
-	 ('0d3851f868864d38f55fab0e9cd5b3e4',189,3864,2496,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0d3851f868864d38f55fab0e9cd5b3e4',189,3864,2496,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',20),
 	 ('273db82fa4d3ec9a7b8065f541094314',189,4824,4752,'SR+','[ｽﾍﾟｰｽｽﾀｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',22),
-	 ('e1da7a5efed1a5603f126ce01d6b7190',189,4700,3840,'SR','[ﾗﾌ&ｶﾞｰﾘｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',25),
+	 ('e1da7a5efed1a5603f126ce01d6b7190',189,4700,3840,'SR','[ﾗﾌ&ｶﾞｰﾘｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0851d1fa2ae859921bc702b404c67de7',189,4776,4608,'SR+','[ｼﾞｮｲﾌﾙﾍﾞｰｶｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',28),
 	 ('786235d566b59592b81ca34c53c5668b',189,4740,4820,'SR','[にっこりﾍﾞｰｶｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',29),
 	 ('8e63cd4a640f8f1d81aa58b0f5b965e1',159,3000,1940,'R','[おちゃめなｻｲｷｯｶｰ]堀裕子',4),
@@ -932,10 +930,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3d3269835487382b0df4e3c8579bb76a',159,2260,2800,'SR','[CDﾃﾞﾋﾞｭｰ]堀裕子',12),
 	 ('cab748d4dfb5cbe80afb594b3c3f3a2c',159,6312,4872,'SR+','[ｻｲｷｯｸﾏｼﾞｼｬﾝ]堀裕子+',15),
 	 ('c45a6475300f696474afa6e473eaef75',159,8160,5952,'SR+','[海のぱわｰ☆]堀裕子+',23),
-	 ('c37ad1a9f858e0a034cea14f390e4a8f',159,6560,6520,'SR','[月夜見ｴｽﾊﾟｰ]堀裕子',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c37ad1a9f858e0a034cea14f390e4a8f',159,6560,6520,'SR','[月夜見ｴｽﾊﾟｰ]堀裕子',26),
 	 ('d0522c5c2afa7c553596e8b78ba25c66',159,9336,7320,'SR+','[超常ﾊｲｽｸｰﾙ]堀裕子+',29),
-	 ('cefc8b04bb8f382379fa66d63aab3243',159,2440,2920,'R','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ･S]堀裕子',30),
+	 ('cefc8b04bb8f382379fa66d63aab3243',159,2440,2920,'R','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ･S]堀裕子',30);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('4201c7600dcea270874eacee8ecfd9c7',159,3528,2592,'R+','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ]堀裕子+',31),
 	 ('f0133fbfa13423e93f44b651e2feb2a3',159,8540,6580,'SR','[心染まる念力]堀裕子',34),
 	 ('112ca4e722edcaaf5461333ce42d5fce',159,7800,7560,'SR','[奇跡を結ぶ手]堀裕子',36),
@@ -943,10 +941,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4b7647610d30d56613fa83e5e9616afb',4,384,576,'N+','福山舞+',1),
 	 ('ebd6eb001f23da8db802a95ac4f0334f',4,3780,3120,'SR','[ちいさな秋]福山舞',28),
 	 ('02a5755a9e817844b01702bd71f8a68f',4,4536,3744,'SR+','[ちいさな秋]福山舞+',29),
-	 ('e96e1c02eb2fb23932f408010d12909a',4,5300,4260,'SR','[ｴﾝｼﾞｪﾙﾁｱｰ]福山舞',30);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e96e1c02eb2fb23932f408010d12909a',4,5300,4260,'SR','[ｴﾝｼﾞｪﾙﾁｱｰ]福山舞',30),
 	 ('2b676cf6e1bd042f04a6e8367ac47fdd',15,3040,2000,'R','[ﾒﾙﾍﾝ&ｺﾞｼｯｸ]櫻井桃華',2),
-	 ('0f6309b3a564f81155784e21c8c92bfe',15,3880,3720,'SR','[絢爛紅葉]櫻井桃華',8),
+	 ('0f6309b3a564f81155784e21c8c92bfe',15,3880,3720,'SR','[絢爛紅葉]櫻井桃華',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('eebd6e6b152f50a6c3bc18fabb54a0a0',15,4656,4464,'SR+','[絢爛紅葉]櫻井桃華+',9),
 	 ('fd5714748c23dee73f43176c8bd71f29',15,6480,4728,'SR+','[ﾛｾﾞ･ﾏﾄﾞﾓｱｾﾞﾙ]櫻井桃華+',13),
 	 ('287d93a6b5dcebe0774cc8dead51c237',15,6240,4680,'SR','[ｵｰﾌﾟﾝﾊｰﾄ]櫻井桃華',16),
@@ -954,10 +952,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('555df2682110f80cc57e2a745e812661',15,4640,3920,'SR','[4thｱﾆﾊﾞｰｻﾘｰ･S]櫻井桃華',22),
 	 ('ee70a56e781ee96f461da009805f49a8',15,5568,4704,'SR+','[4thｱﾆﾊﾞｰｻﾘｰ･S]櫻井桃華+',23),
 	 ('f78ca58df1e12f7fdbed9f567a9dfdc0',15,6100,6060,'SR','[ｻﾏｰﾏﾄﾞﾓｱｾﾞﾙ]櫻井桃華',24),
-	 ('5d82fdb0f6789af95438a9677b73123c',15,9792,7584,'SR+','[ｲﾓｰﾀﾙﾌﾞﾛｯｻﾑ]櫻井桃華+',33);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5d82fdb0f6789af95438a9677b73123c',15,9792,7584,'SR+','[ｲﾓｰﾀﾙﾌﾞﾛｯｻﾑ]櫻井桃華+',33),
 	 ('9d26767ec2bee81a2d044b4dfbf1d047',25,2352,2088,'R+','[ｽﾍﾟｰｽｽﾀｲﾙ]遊佐こずえ+',3),
-	 ('16c97cfaf2b0ed17ac59a0c545c80286',25,3336,3216,'R+','[ふしぎなちから]遊佐こずえ+',7),
+	 ('16c97cfaf2b0ed17ac59a0c545c80286',25,3336,3216,'R+','[ふしぎなちから]遊佐こずえ+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5b5d3128c049f92ebbe8402835496cf3',25,8100,6220,'SR','[ﾏｰﾁﾝｸﾞ☆ﾄｰﾝ]遊佐こずえ',26),
 	 ('12ad12dc54af0f2a7e77d83f41eb9871',25,8720,6540,'SR','[ﾌﾛｰﾗﾙｽﾀｰ]遊佐こずえ',28),
 	 ('66eea9f3a6fac950f5145ac96ba2244d',25,10464,7848,'SR+','[ﾌﾛｰﾗﾙｽﾀｰ]遊佐こずえ+',29),
@@ -965,10 +963,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0855654e3e72cb7a3920e2e064e8d204',29,4240,3140,'R+','[ﾌﾗｲﾄﾊﾞﾗｴﾃｨ]赤西瑛梨華+',8),
 	 ('74bc038e4a920dd57819cf7b4bdebc08',29,2780,2720,'R','[ｻﾏｰﾃﾝﾌﾟﾃｰｼｮﾝ]赤西瑛梨華',11),
 	 ('54e1a4a8f49210862d05524ef607b0f0',29,2720,2220,'SR','[ぷるるんｽﾎﾟｰﾃｨ]赤西瑛梨華',13),
-	 ('70053db7dd59312f3f5f2af3bd8fcbf5',29,4180,4400,'SR','[吸血貴族]赤西瑛梨華',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('70053db7dd59312f3f5f2af3bd8fcbf5',29,4180,4400,'SR','[吸血貴族]赤西瑛梨華',15),
 	 ('12a836b4dc99c10b9b063b8685e54c6f',29,3360,3288,'R+','[ほっこり温泉]赤西瑛梨華+',20),
-	 ('f17d6bd4caee1e6ace28eb66c2c0160c',186,1104,1176,'R+','北川真尋+',1),
+	 ('f17d6bd4caee1e6ace28eb66c2c0160c',186,1104,1176,'R+','北川真尋+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('11f6f9663ed16a035a7234c518ae7a49',206,2520,2520,'R+','夢見りあむ+',1),
 	 ('ce408b02973567997eb52f3e61c8bfec',145,3336,2592,'R+','[ｶｼﾞｭｱﾙﾁｱｰ]真鍋いつき+',7),
 	 ('b1e253723b1b2b4a276636717e943356',185,2400,2496,'R+','[花火祭り]喜多日菜子+',3),
@@ -976,10 +974,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('07030bb9c263382fb19cde7b091561a8',185,3240,2240,'R','[ふらふら☆ﾄﾘｯﾊﾟｰ]喜多日菜子',10),
 	 ('7a4ebbaebec98924f539d8b7214af1a4',70,1880,1740,'R','[ﾊﾞﾘｽﾀｲﾙ]桐野ｱﾔ',4),
 	 ('40302b38b4d6dabceef6db49a6bd646b',70,3912,2664,'R+','[不意の幸せ]桐野ｱﾔ+',7),
-	 ('51146fa9b3af304c14a84ac35abbd08d',70,4360,3040,'R+','[ﾌｨｽﾄﾃﾞｨｰﾊﾞ]桐野ｱﾔ+',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('51146fa9b3af304c14a84ac35abbd08d',70,4360,3040,'R+','[ﾌｨｽﾄﾃﾞｨｰﾊﾞ]桐野ｱﾔ+',16),
 	 ('35fdf29a4ff894128272306654735d50',70,4152,5496,'SR+','[ｴﾚｶﾞﾝﾄﾏﾘｵﾈｯﾄ]桐野ｱﾔ+',18),
-	 ('21b81fd8a43abb13ffb622979960c9a2',70,3408,3336,'R+','[癒しの湯の香]桐野ｱﾔ+',26),
+	 ('21b81fd8a43abb13ffb622979960c9a2',70,3408,3336,'R+','[癒しの湯の香]桐野ｱﾔ+',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cb92615dedf1df3d4b4971b256254d39',178,3470,2770,'SR','[ﾊﾟﾜﾌﾙ双子姉]双海真美',2),
 	 ('a64fe8b98f2e7b40a6a342368f412450',149,1040,1840,'R','[ﾊﾛｳｨﾝｳﾞｧﾝﾊﾟｲｱ]喜多見柚',2),
 	 ('43dc4ab01d267de125f55814e78d562d',149,2300,2280,'R','[ｲﾉｾﾝﾄｶｼﾞｭｱﾙ]喜多見柚',6),
@@ -987,10 +985,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('688a91e414403d1ce4dca71260eef0e1',149,5040,5088,'SR+','[ﾛﾜｲﾔﾙ･ｽｸｴｱ]喜多見柚+',17),
 	 ('4b14cd287e67145814d5ddb0c187ae8a',149,7992,5760,'SR+','[桃園花娘]喜多見柚+',21),
 	 ('3167011d1abe2746f7d717a4758f9b80',149,7460,5700,'SR','[ｼﾄﾛﾝﾃﾞｲｽﾞ]喜多見柚',24),
-	 ('c53d126688a5399d8cd4e18df4a94524',149,12050,10850,'SR','[ｳｷｳｷ☆ｶﾌｪ気分]喜多見柚',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c53d126688a5399d8cd4e18df4a94524',149,12050,10850,'SR','[ｳｷｳｷ☆ｶﾌｪ気分]喜多見柚',28),
 	 ('2acb6d34defd28519fd2bf3951045e8c',149,8688,8664,'SR+','[ﾊﾛｰ☆ｱｲﾗﾝﾄﾞ]喜多見柚+',31),
-	 ('fb2ea16c8046b80e844c4dd975abe7c0',149,8832,8688,'SR+','[ﾌﾞﾙｰﾐｰﾋﾛｲﾝ]喜多見柚+',33),
+	 ('fb2ea16c8046b80e844c4dd975abe7c0',149,8832,8688,'SR+','[ﾌﾞﾙｰﾐｰﾋﾛｲﾝ]喜多見柚+',33);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('06dae22589bd4519b3e06861ee8a565a',149,9168,9120,'SR+','[ﾊﾋﾟﾌﾙ☆ﾏｰﾒｲﾄﾞ]喜多見柚+',35),
 	 ('b625f2e8a25e839e2e5cb9664fb71b7a',189,1480,1380,'R','[ﾌﾚｯｼｭﾏﾝﾀﾞﾘﾝ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',4),
 	 ('d1f3863d47e6b365bfcaa26abc17bfd7',189,3384,3192,'R+','[ｵｰﾀﾑｺﾚｸｼｮﾝ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',11),
@@ -998,10 +996,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('99ad862dd87829dfeea90bff61767a6d',189,2780,2720,'R','[ｽｸｰﾙﾌﾟｰﾙ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',14),
 	 ('2dcce81c8d5ba61f3f882ed5dc1bb7c2',189,4020,3960,'SR','[ｽﾍﾟｰｽｽﾀｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',21),
 	 ('63b3d81129e7a3f06f0c2057752eeace',189,3000,2920,'SR','[お喋りﾁｱｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',23),
-	 ('608a40ac8502a9e202ff4a4e94172e1e',189,3600,3504,'SR+','[お喋りﾁｱｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',24);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('608a40ac8502a9e202ff4a4e94172e1e',189,3600,3504,'SR+','[お喋りﾁｱｰ]ｷｬｼｰ･ｸﾞﾗﾊﾑ+',24),
 	 ('8d44007c551534c443f8f4c09f86837b',189,2800,2720,'R','[下町ﾊﾞｲﾌﾞｽ]ｷｬｼｰ･ｸﾞﾗﾊﾑ',31),
-	 ('d1aa3bc716ff2f22ebf41c1fe9b83266',162,820,1460,'N','財前時子',0),
+	 ('d1aa3bc716ff2f22ebf41c1fe9b83266',162,820,1460,'N','財前時子',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('9ecc669d31c8b9eab25de1d9db1773ed',162,8480,6480,'SR','[ﾉｰﾌﾞﾙﾌﾟﾚｾﾞﾝｽ]財前時子',26),
 	 ('86ae96d60ebbd8e6bf41644b1aceec7e',162,10176,7776,'SR+','[ﾉｰﾌﾞﾙﾌﾟﾚｾﾞﾝｽ]財前時子+',27),
 	 ('432ad39240f6444c7b5f475a40b94cdd',4,1020,1140,'R','[ひな祭り]福山舞',2),
@@ -1009,10 +1007,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7afc67a566bd72f23eedb3a19bb3a982',4,2640,2600,'R+','[魔女っ娘I.C]福山舞+',8),
 	 ('fd3ac0d9e8392a40fd5f88a0f8f4a135',4,1760,3280,'R','[ｸﾘｽﾏｽﾅｲﾄ]福山舞',11),
 	 ('b8f180aef3da364b62a7d9d94c49f790',4,4260,3080,'R+','[ｺﾚｸｼｮﾝｽﾀｲﾙ]福山舞+',13),
-	 ('edce361a9f2a710fef400fd7eba0c52a',4,3000,2080,'R','[艶めく京の町]福山舞',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('edce361a9f2a710fef400fd7eba0c52a',4,3000,2080,'R','[艶めく京の町]福山舞',16),
 	 ('dd4aa631e4638e15303551eefacc7c3b',4,3600,2496,'R+','[艶めく京の町]福山舞+',17),
-	 ('3c2d9e52e351169f1668518cb83fdb6d',4,2976,3456,'R+','[微笑む京の町]福山舞+',19),
+	 ('3c2d9e52e351169f1668518cb83fdb6d',4,2976,3456,'R+','[微笑む京の町]福山舞+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('29b2e04c3b9aad43ab45f10697f24ee2',4,6456,6456,'SR+','[からふるﾀｲﾑ]福山舞+',27),
 	 ('d94b38b945f4db6660c1a02c244c3a9b',4,6360,5112,'SR+','[ｴﾝｼﾞｪﾙﾁｱｰ]福山舞+',31),
 	 ('21d48ab7d98d5800c7a8db34c89842cd',15,3648,2400,'R+','[ﾒﾙﾍﾝ&ｺﾞｼｯｸ]櫻井桃華+',3),
@@ -1020,10 +1018,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9e47b6134fcc68ce03f1e646032535f6',15,2760,3240,'SR','[薔薇色お姫様]櫻井桃華',6),
 	 ('7ec7a2ad5161e9618958f951fd4752e4',15,3240,3160,'SR','[4thｱﾆﾊﾞｰｻﾘｰ]櫻井桃華',20),
 	 ('940e4561030b7cb18e6f6f1d612618b7',15,3888,3792,'SR+','[4thｱﾆﾊﾞｰｻﾘｰ]櫻井桃華+',21),
-	 ('d32d219a3c0ad6dc84734d1fc3f9f94e',15,7320,7272,'SR+','[ｻﾏｰﾏﾄﾞﾓｱｾﾞﾙ]櫻井桃華+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d32d219a3c0ad6dc84734d1fc3f9f94e',15,7320,7272,'SR+','[ｻﾏｰﾏﾄﾞﾓｱｾﾞﾙ]櫻井桃華+',25),
 	 ('0e6f68a362d70c0272d2c0b78165c439',15,8136,8016,'SR+','[ひと夏の華]櫻井桃華+',27),
-	 ('39ad78da70be52e1f7efb5a636ee7d84',15,7180,7140,'SR','[ｱﾌﾀﾇｰﾝﾛｰｽﾞ]櫻井桃華',30),
+	 ('39ad78da70be52e1f7efb5a636ee7d84',15,7180,7140,'SR','[ｱﾌﾀﾇｰﾝﾛｰｽﾞ]櫻井桃華',30);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('203fea8d5570f9ccdb9c4bed8c5e0cc3',15,8616,8568,'SR+','[ｱﾌﾀﾇｰﾝﾛｰｽﾞ]櫻井桃華+',31),
 	 ('46351028a831c60ffa283dbd3483e44e',15,8480,6460,'SR','[ﾌﾞﾙｰﾐﾝｸﾞｼｬｲﾝ]櫻井桃華',34),
 	 ('49af3fc73d38dd1646199a33033965c5',15,8560,6780,'SR','[あなたのために]櫻井桃華',36),
@@ -1031,10 +1029,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3c51dba58851ac10b8c11fed3d7c089f',25,2840,2640,'R','[紅葉温泉]遊佐こずえ',4),
 	 ('3432d1de0c9fbb642ed0d612ea5525bc',25,2780,2680,'R','[ふしぎなちから]遊佐こずえ',6),
 	 ('113a747db67955abdf42f480d82bfd0c',25,6384,4488,'SR+','[ﾏｼﾞｶﾙｴﾝｼﾞｪﾙ]遊佐こずえ+',9),
-	 ('48ad4413bb8682b45c9dba484b79127d',25,6080,4600,'SR','[はじめていっぱい]遊佐こずえ',12);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('48ad4413bb8682b45c9dba484b79127d',25,6080,4600,'SR','[はじめていっぱい]遊佐こずえ',12),
 	 ('f54882d2d097483a70a35a82c42d40be',25,6580,4860,'SR','[ﾎﾜｲﾄﾃｲﾙ]遊佐こずえ',14),
-	 ('c50e292d766463d6113e97ee03cc6a38',25,7896,5832,'SR+','[ﾎﾜｲﾄﾃｲﾙ]遊佐こずえ+',15),
+	 ('c50e292d766463d6113e97ee03cc6a38',25,7896,5832,'SR+','[ﾎﾜｲﾄﾃｲﾙ]遊佐こずえ+',15);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('51d28dcc1cffaf374a73ed53f77e9476',25,6340,6180,'SR','[無垢なる魔王]遊佐こずえ',16),
 	 ('b145cec9865c62681a64b6a63020cb56',25,3936,2448,'R+','[ﾋﾟｭｱﾘｰﾛﾘｰﾀ]遊佐こずえ+',25),
 	 ('e3ea33837a3346f9a1dc1c4a627550ac',25,10224,7920,'SR+','[てんまでとどけ]遊佐こずえ+',31),
@@ -1042,10 +1040,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d11715682b54f3741316f3bc52ae3435',30,3360,2568,'R+','[自慢のﾎﾞﾃﾞｨ]松原早耶+',5),
 	 ('5d9bbfe79fb467cff5efcc33fe949228',186,1540,2820,'R','[ｽﾎﾟｰﾂ祭]北川真尋',2),
 	 ('276fb5e876944d35f8f7261be7464d58',186,2200,3200,'R','[ごきげんｽﾀｰﾀｰ]北川真尋',10),
-	 ('8063038338477f74dbd692f75dadb42b',39,1680,2544,'R+','月宮雅+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('8063038338477f74dbd692f75dadb42b',39,1680,2544,'R+','月宮雅+',1),
 	 ('25ea7fdd66fc6bd8e7209a4c0d2ba00c',135,240,160,'N','高森藍子',0),
-	 ('7174c14b3213a89f45cc5375eb1fff5a',178,4164,3324,'SR+','[ﾊﾟﾜﾌﾙ双子姉]双海真美+',3),
+	 ('7174c14b3213a89f45cc5375eb1fff5a',178,4164,3324,'SR+','[ﾊﾟﾜﾌﾙ双子姉]双海真美+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('100cd905a11b9720c2c2900c2d29cd24',149,1248,2208,'R+','[ﾊﾛｳｨﾝｳﾞｧﾝﾊﾟｲｱ]喜多見柚+',3),
 	 ('ca525a89021186705bef26286ca60aa0',149,2040,2352,'R+','[制服ｺﾚｸｼｮﾝ]喜多見柚+',5),
 	 ('6c5ed46ea8e57d875cee7a9a156f94dd',149,2760,2736,'R+','[ｲﾉｾﾝﾄｶｼﾞｭｱﾙ]喜多見柚+',7),
@@ -1053,10 +1051,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6784ca2ff27361baf60e5656d41aa7b3',149,4420,4260,'SR','[ﾌｰﾄﾞ☆ﾒｲﾄﾞ]喜多見柚',12),
 	 ('0bd28c1f2662bd35b68a149c97b2dc9d',149,4420,4540,'SR','[無防備☆ｶﾞｰﾙ]喜多見柚',14),
 	 ('e64f42e43c60813b610e0629287cf330',149,4200,4240,'SR','[ﾛﾜｲﾔﾙ･ｽｸｴｱ]喜多見柚',16),
-	 ('3d198b386e57e5d7982ef82b7347f39a',149,5560,5520,'SR','[ﾎｯﾌﾟｽﾃｯﾌﾟｻﾏｰ]喜多見柚',18);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3d198b386e57e5d7982ef82b7347f39a',149,5560,5520,'SR','[ﾎｯﾌﾟｽﾃｯﾌﾟｻﾏｰ]喜多見柚',18),
 	 ('201c8374336e2c79188ec5840052aecb',149,6660,4800,'SR','[桃園花娘]喜多見柚',20),
-	 ('d2f0b1423a844ac537fa255c1e383b22',149,8136,5688,'SR+','[ひらめき☆ｱﾝｻｰ]喜多見柚+',23),
+	 ('d2f0b1423a844ac537fa255c1e383b22',149,8136,5688,'SR+','[ひらめき☆ｱﾝｻｰ]喜多見柚+',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2c9cf9bf00e1b9e8849b317d54562410',149,8952,6840,'SR+','[ｼﾄﾛﾝﾃﾞｲｽﾞ]喜多見柚+',25),
 	 ('fac89ba30cb28088fdb3794df4aa6c9f',149,4776,4656,'SR+','[ﾄﾞｷﾄﾞｷ☆ｶﾌｪ気分]喜多見柚+',27),
 	 ('6e3732526da263ae42d0d3c07b7e0c2e',149,12050,10850,'SR+','[ｳｷｳｷ☆ｶﾌｪ気分]喜多見柚+',29),
@@ -1064,10 +1062,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('54ec8de3d2c98be85d21512748a0f8f7',149,7640,7600,'SR','[ﾊﾋﾟﾌﾙ☆ﾏｰﾒｲﾄﾞ]喜多見柚',34),
 	 ('cf238c2b30375066d52eec58849c645b',149,10176,7872,'SR+','[ﾒｲｸ☆ﾌﾘｰﾀﾞﾑ]喜多見柚+',37),
 	 ('43868973b8854862d7c02d14e3c03740',194,1280,800,'R','首藤葵',0),
-	 ('62fbdf5d61178972214ab660b8b71541',194,3984,5424,'SR+','[まごころ若女将]首藤葵+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('62fbdf5d61178972214ab660b8b71541',194,3984,5424,'SR+','[まごころ若女将]首藤葵+',15),
 	 ('f359083d4dd5ab80912ac670b4fcfa2a',194,2560,3320,'SR','[手鞠の芸達者]首藤葵',16),
-	 ('c0f2d0167e0d5623f5bbc035eb412c26',162,984,1752,'N+','財前時子+',1),
+	 ('c0f2d0167e0d5623f5bbc035eb412c26',162,984,1752,'N+','財前時子+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d719b0c580f9f18d3d63c7b58ef6c757',162,8760,8664,'SR+','[ｱｲｼｸﾙﾚｼﾞｰﾅ]財前時子+',25),
 	 ('0c68550b87309af5187acda60b128a25',162,8540,6540,'SR','[美しきｴﾋﾟｷｭｱ]財前時子',28),
 	 ('c7e09d78076a52fe3585aea1c6a8cd22',4,1224,1368,'R+','[ひな祭り]福山舞+',3),
@@ -1075,10 +1073,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ab388a028b0c06ac2b8ad7e5b87c14e9',4,2112,3936,'R+','[ｸﾘｽﾏｽﾅｲﾄ]福山舞+',12),
 	 ('1795c63d5c362fe01f69b2ff03031d34',4,5256,3936,'SR+','[ﾘﾄﾙﾌﾟﾘﾝｾｽ]福山舞+',21),
 	 ('64ceb0a3aba19347f000e9ea2e320c3e',4,2800,2720,'SR','[ﾏｼﾞｶﾙｶﾞｰﾙ･ｱｸｱ]福山舞',22),
-	 ('c141ec5c30df557ec8b4c70280222551',4,5380,5380,'SR','[からふるﾀｲﾑ]福山舞',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c141ec5c30df557ec8b4c70280222551',4,5380,5380,'SR','[からふるﾀｲﾑ]福山舞',26),
 	 ('6e20ae759fdde955812b5e5157b7a1a1',4,3984,2664,'R+','[ﾜｰｷﾝｸﾞ･ｷｬﾘｱ]福山舞+',32),
-	 ('eb1d6cdcf74fa0b5467bb4479fbcb819',15,2820,2680,'R','[迎春神楽]櫻井桃華',4),
+	 ('eb1d6cdcf74fa0b5467bb4479fbcb819',15,2820,2680,'R','[迎春神楽]櫻井桃華',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('188588430665ce152a5da1c7bef37766',15,3312,3888,'SR+','[薔薇色お姫様]櫻井桃華+',7),
 	 ('fe8cd968bd4ee6c8beaa758e650eee5d',15,4000,4140,'SR','[薔薇色花嫁]櫻井桃華',10),
 	 ('d31209b053eb49962fdea278ece7e26b',15,4800,4968,'SR+','[薔薇色花嫁]櫻井桃華+',11),
@@ -1086,10 +1084,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1db672f026cfc1e8a82037549477dccf',15,5200,5100,'SR','[ﾊﾞﾚﾝﾀｲﾝｽｳｨｰﾄ]櫻井桃華',14),
 	 ('81fc62c6d3dc7b6dd9ae05f2c9df4d31',15,6240,6120,'SR+','[ﾊﾞﾚﾝﾀｲﾝｽｳｨｰﾄ]櫻井桃華+',15),
 	 ('45e1c5533ba0e0a103511f58ee17f850',15,7488,5616,'SR+','[ｵｰﾌﾟﾝﾊｰﾄ]櫻井桃華+',17),
-	 ('77155375be053699373b3e7271072d5b',15,3180,2360,'SR','[CDﾃﾞﾋﾞｭｰ]櫻井桃華',18);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('77155375be053699373b3e7271072d5b',15,3180,2360,'SR','[CDﾃﾞﾋﾞｭｰ]櫻井桃華',18),
 	 ('8cc0137141db4ce048f0d92d2fe8b773',15,6780,6680,'SR','[ひと夏の華]櫻井桃華',26),
-	 ('7073bce2f3e2b4f05836245d7cead0c7',15,7620,5740,'SR','[綿雪の戯れ]櫻井桃華',28),
+	 ('7073bce2f3e2b4f05836245d7cead0c7',15,7620,5740,'SR','[綿雪の戯れ]櫻井桃華',28);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('37906fa7434d6c760555c5a58ff2ac9c',15,9144,6888,'SR+','[綿雪の戯れ]櫻井桃華+',29),
 	 ('e2ab52cc826ae9735799063b1ef02ab2',15,8160,6320,'SR','[ｲﾓｰﾀﾙﾌﾞﾛｯｻﾑ]櫻井桃華',32),
 	 ('28789186bef61a4dcdd8eff8ef59fe7f',26,1420,860,'N','大沼くるみ',0),
@@ -1097,10 +1095,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7e2a4f08a73c0bd5bf11ff7e387fc149',30,912,960,'R+','松原早耶+',1),
 	 ('a031a837934a23cd130171507ec1f055',30,2544,3984,'R+','[おねだりｶﾞｰﾙ]松原早耶+',7),
 	 ('be69d241fbd6bc8e3c465ce10a4f903d',30,2740,2660,'R','[かんぺきﾌﾟﾗﾝ]松原早耶',9),
-	 ('b534b9dc35bbdfbc3bfdeeca088ae705',30,3280,2180,'R','[ﾁｬｰﾐｰｷﾞﾌﾄ]松原早耶',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b534b9dc35bbdfbc3bfdeeca088ae705',30,3280,2180,'R','[ﾁｬｰﾐｰｷﾞﾌﾄ]松原早耶',13),
 	 ('031265a0bcba5ae2b98abc74314b92c2',30,3936,2616,'R+','[ﾁｬｰﾐｰｷﾞﾌﾄ]松原早耶+',14),
-	 ('32f1a9f3e6820547ca4c06a48afa28a0',30,4420,3400,'SR','[おめかしｻﾏｰ]松原早耶',19),
+	 ('32f1a9f3e6820547ca4c06a48afa28a0',30,4420,3400,'SR','[おめかしｻﾏｰ]松原早耶',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a49d2ce44927c252d39b05c3ec553044',186,1848,3384,'R+','[ｽﾎﾟｰﾂ祭]北川真尋+',3),
 	 ('53b74090a5ced2280a40b699017e80d2',186,2480,2180,'R','[ひな祭り]北川真尋',6),
 	 ('c4cbadee96999cfe3a34797d3ccff9a1',186,2088,3888,'R+','[ﾒﾙﾍﾝｱﾆﾏﾙｽﾞ]北川真尋+',9),
@@ -1108,10 +1106,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6f467273960ec577036f949d4422585d',186,2560,2420,'R','[ﾌﾗﾜｰﾌｪｱﾘｰｽﾞ]北川真尋',14),
 	 ('7ec7936571af537a32f0c8256789ab73',186,2544,3408,'SR+','[ﾃﾞｨｱﾝﾄﾞﾙｶﾞｰﾙ]北川真尋+',17),
 	 ('6facfc1c890c01ada655add731f9d797',186,4480,4040,'SR','[ﾊﾞｲﾀﾙｼｬｳﾄ]北川真尋',20),
-	 ('caa40a2b61e26c6bc67b7e8e19ef0050',186,4840,4000,'SR','[ﾀﾞｯｼｭ･ﾛﾜｲﾔﾙ]北川真尋',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('caa40a2b61e26c6bc67b7e8e19ef0050',186,4840,4000,'SR','[ﾀﾞｯｼｭ･ﾛﾜｲﾔﾙ]北川真尋',22),
 	 ('e17e197aeec1d040975fa0986a10b7a6',186,2840,2720,'R','[ﾜｰｷﾝｸﾞ･ｶｰﾄｩｰﾝ]北川真尋',29),
-	 ('2da87a57d9c1a6a7097ae0905e1fe44b',206,7640,7580,'SR','[水着商法]夢見りあむ',2),
+	 ('2da87a57d9c1a6a7097ae0905e1fe44b',206,7640,7580,'SR','[水着商法]夢見りあむ',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('83aa3c1928c1a0b2055c71ccd32ef090',145,5232,5400,'SR+','[ふるき待ち人]真鍋いつき+',27),
 	 ('b456637f16d0d5bdb55fc02f4dcff408',145,2820,2720,'R','[ｸﾘｽﾏｽｽﾉｰ]真鍋いつき',30),
 	 ('57bfd18f73cf672d05643716f74bbc48',135,288,192,'N+','高森藍子+',1),
@@ -1119,10 +1117,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6efffe43696b87d64380769c40a3f12d',135,4340,3160,'SR','[ゆるふわ乙女]高森藍子',10),
 	 ('55ef16cfd44a6fdfb3709337f27e595f',135,7320,5560,'SR','[ちいさなともだち]高森藍子',26),
 	 ('91056ece5730b448946fa9f5d1951de3',135,7560,5900,'SR','[白銀の歌声]高森藍子',28),
-	 ('b4bcd4a96f7cf55e96d9cfd6ce694ca9',135,9168,7224,'SR+','[ほんわか花嫁]高森藍子+',31);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b4bcd4a96f7cf55e96d9cfd6ce694ca9',135,9168,7224,'SR+','[ほんわか花嫁]高森藍子+',31),
 	 ('716d5b068391df79655b56bfa34a3ed5',135,3312,3288,'R+','[ぽかぽかｴｺﾛｼﾞｰ]高森藍子+',33),
-	 ('d6c9d65169ac9c2190ca07ae5f53d225',135,10488,7848,'SR+','[ｽﾊﾟｰｸﾙｽﾀｰ]高森藍子+',41),
+	 ('d6c9d65169ac9c2190ca07ae5f53d225',135,10488,7848,'SR+','[ｽﾊﾟｰｸﾙｽﾀｰ]高森藍子+',41);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7fb05b1390652c92dcf3fd41e065a76a',135,9192,9168,'SR+','[あたたかな居場所]高森藍子+',43),
 	 ('5d06736b102de0b7c12dc2ff98d00eec',181,1080,740,'R','水瀬伊織',0),
 	 ('9ff651d605c80ce711f075fac892e4ba',149,1700,1960,'R','[制服ｺﾚｸｼｮﾝ]喜多見柚',4),
@@ -1130,10 +1128,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0981d408ac65375660c7f0e6e9c9aacb',149,3312,3168,'R+','[ﾌﾚﾝｽﾞﾎﾘﾃﾞｰ]喜多見柚+',9),
 	 ('fccbc1e099783725061730d71f4f3c7f',149,1920,2400,'SR+','[お転婆ひな娘]喜多見柚+',11),
 	 ('1c54bb41c531be11a13a01ab43943f85',149,5304,5448,'SR+','[無防備☆ｶﾞｰﾙ]喜多見柚+',15),
-	 ('266fa426c7b00f75b3148cb82ad3ec05',149,6672,6624,'SR+','[ﾎｯﾌﾟｽﾃｯﾌﾟｻﾏｰ]喜多見柚+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('266fa426c7b00f75b3148cb82ad3ec05',149,6672,6624,'SR+','[ﾎｯﾌﾟｽﾃｯﾌﾟｻﾏｰ]喜多見柚+',19),
 	 ('93008f94a5c66e998d1a0e45e7bab89a',149,6780,4740,'SR','[ひらめき☆ｱﾝｻｰ]喜多見柚',22),
-	 ('bfd6b8ae41c496633b45332e11d5ffcd',149,3980,3880,'SR','[ﾄﾞｷﾄﾞｷ☆ｶﾌｪ気分]喜多見柚',26),
+	 ('bfd6b8ae41c496633b45332e11d5ffcd',149,3980,3880,'SR','[ﾄﾞｷﾄﾞｷ☆ｶﾌｪ気分]喜多見柚',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7393e75723a944e80d0f071c0f0ca117',149,7240,7220,'SR','[ﾊﾛｰ☆ｱｲﾗﾝﾄﾞ]喜多見柚',30),
 	 ('87b6ace986ba14cfc7451ed24cbec1ef',149,8480,6560,'SR','[ﾒｲｸ☆ﾌﾘｰﾀﾞﾑ]喜多見柚',36),
 	 ('cf3952309d0a044864fe64891a138a49',194,1536,960,'R+','首藤葵+',1),
@@ -1141,10 +1139,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('914aa8f542329e1039dd149af2501faa',194,3072,3984,'SR+','[手鞠の芸達者]首藤葵+',17),
 	 ('15bad0e239396c14ba25c714bfdc9f9e',162,2520,1960,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]財前時子',2),
 	 ('5e137bfe353c3f0d1425e32982c8f226',162,3240,2180,'R','[ﾚﾃﾞｨﾀｲﾗﾝﾄ]財前時子',6),
-	 ('37865a0f7f25d1f9f20b1b0932fd0a15',162,3888,2616,'R+','[ﾚﾃﾞｨﾀｲﾗﾝﾄ]財前時子+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('37865a0f7f25d1f9f20b1b0932fd0a15',162,3888,2616,'R+','[ﾚﾃﾞｨﾀｲﾗﾝﾄ]財前時子+',7),
 	 ('62e0388dff948bed0191ad5a3bbdc629',162,2260,3220,'R','[ﾏｼﾞｪｽﾃｨｯｸｵｰﾀﾞｰ]財前時子',10),
-	 ('1246fc9946f58b1ec2666ea6b4dca6f5',162,3960,2568,'R+','[高潔な指導者]財前時子+',13),
+	 ('1246fc9946f58b1ec2666ea6b4dca6f5',162,3960,2568,'R+','[高潔な指導者]財前時子+',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('79028ffc2d4dc2ab861d09cdaba8ba68',162,5440,3940,'SR','[ﾒﾃﾞｨｱの女王]財前時子',14),
 	 ('58168045d59dfff22581622400cb0b01',162,5280,4056,'SR+','[凍てつく炎暑]財前時子+',21),
 	 ('09c36b5c2accd0f976b069de8900033b',162,7660,5860,'SR','[ｴﾝﾌﾟﾚｽｼﾞｪｲﾗｰ]財前時子',22),
@@ -1152,10 +1150,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3bce49b8578a3244816aea3c4b946970',4,1900,2140,'R','[ﾋﾞｰﾁﾊﾟﾗﾀﾞｲｽ]福山舞',4),
 	 ('12a280521ddf493e5f868b618494392a',4,3144,2880,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]福山舞+',7),
 	 ('a626e8ea3402255c88c43fa7e35fb2ff',4,2960,2100,'R','[ﾌﾚﾝﾄﾞｼｯﾌﾟ]福山舞',9),
-	 ('ba304a7ee476e2e6f34d1d1380710dcf',4,3552,2520,'R+','[ﾌﾚﾝﾄﾞｼｯﾌﾟ]福山舞+',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ba304a7ee476e2e6f34d1d1380710dcf',4,3552,2520,'R+','[ﾌﾚﾝﾄﾞｼｯﾌﾟ]福山舞+',10),
 	 ('88261973e6dc33c1efcf5f13fd5024ad',4,3080,2200,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙND]福山舞',14),
-	 ('2ce3a5f3b4995d42f6e8e0687b189e11',4,3696,2640,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙND]福山舞+',15),
+	 ('2ce3a5f3b4995d42f6e8e0687b189e11',4,3696,2640,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙND]福山舞+',15);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cb8d8188357a1c87741fd20396cb8b44',4,2480,2880,'R','[微笑む京の町]福山舞',18),
 	 ('d59c444656b4257c797792a85ea7087b',4,4380,3280,'SR','[ﾘﾄﾙﾌﾟﾘﾝｾｽ]福山舞',20),
 	 ('7bab85379544f5baa52a0c14e399b63a',4,3360,3264,'SR+','[ﾏｼﾞｶﾙｶﾞｰﾙ･ｱｸｱ]福山舞+',23),
@@ -1163,10 +1161,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('186553b4e590e75736c7b2e3620abc8f',4,4872,4848,'SR+','[ﾏｼﾞｶﾙｶﾞｰﾙS･ｱｸｱ]福山舞+',25),
 	 ('d7df0d6ddd53c3ced369d9abfbbad179',4,3320,2220,'R','[ﾜｰｷﾝｸﾞ･ｷｬﾘｱ]福山舞',33),
 	 ('1b52629f3463de549e9e776fb9be9c73',16,990,990,'N','江上椿',0),
-	 ('98e729ca168828acbf2ba02d89feda8b',26,1704,1032,'N+','大沼くるみ+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('98e729ca168828acbf2ba02d89feda8b',26,1704,1032,'N+','大沼くるみ+',1),
 	 ('239499574a3170f40fa617e5e007ad72',26,2520,2460,'R','[まごころﾒｲﾄﾞ]大沼くるみ',8),
-	 ('ceb069e649a43f33fcd76f03df331740',26,5760,5856,'SR+','[だだもれｴﾓｰｼｮﾝ]大沼くるみ+',13),
+	 ('ceb069e649a43f33fcd76f03df331740',26,5760,5856,'SR+','[だだもれｴﾓｰｼｮﾝ]大沼くるみ+',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('38bcfcacb8cd201a38eda17602d517df',26,7104,5088,'SR+','[ぷるんぷるんB.B]大沼くるみ+',15),
 	 ('1d9706dbe3ab49249cc85a75865ce80e',26,3680,4820,'SR','[きらきらﾋﾞｰﾁｶﾞｰﾙ]大沼くるみ',18),
 	 ('f82efe93a5f1aee4ad8e31113b412881',26,5320,4240,'SR','[ふくらむ初夢]大沼くるみ',22),
@@ -1174,10 +1172,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9bff0a176fb7cc6ec70aa1851267c223',30,2480,2500,'R','[ｽｳｨｰﾄﾄﾞﾘｰﾏｰ]松原早耶',2),
 	 ('25ed69d5934054eb837213ce9373c0c3',30,3200,2200,'R','[ｶﾗﾌﾙﾘﾌﾚｯｼｭ]松原早耶',11),
 	 ('a7cc8e895c42ead2442b9492e36223d5',30,3696,2880,'SR+','[ﾛﾜｲﾔﾙﾊｰﾄ]松原早耶+',16),
-	 ('f4138dc94327dbcd4649e994dfa8cad0',30,3280,3120,'SR','[ｷｭｰﾃｨｰﾁｱｰ]松原早耶',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f4138dc94327dbcd4649e994dfa8cad0',30,3280,3120,'SR','[ｷｭｰﾃｨｰﾁｱｰ]松原早耶',17),
 	 ('489c17e944db0ad81e8d476c2158157d',30,2200,3300,'R','[ｸﾞｯﾄﾞﾅｲﾄﾏｼﾞｯｸ]松原早耶',21),
-	 ('abb1c7dc8d38ec78b3c94bc647789905',30,3340,2280,'R','[新春和心]松原早耶',23),
+	 ('abb1c7dc8d38ec78b3c94bc647789905',30,3340,2280,'R','[新春和心]松原早耶',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c37466d224d79ec5b4582a2e05865f5c',186,2960,1800,'R','[ｽﾎﾟｰﾃｨｶﾞｰﾙ]北川真尋',4),
 	 ('90f843c2f09a7ddc764aacce7fa7074f',186,1740,3240,'R','[ﾒﾙﾍﾝｱﾆﾏﾙｽﾞ]北川真尋',8),
 	 ('49a6ce840601ed73a794a8e286b8b92f',186,3072,2904,'R+','[ﾌﾗﾜｰﾌｪｱﾘｰｽﾞ]北川真尋+',15),
@@ -1185,10 +1183,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5a260e4dd152105385c08cf8fc4904ff',186,4032,3000,'SR+','[ｼﾞｮｲﾌﾙ･ﾛﾜｲﾔﾙ]北川真尋+',19),
 	 ('fc97ba28d3a4f9ba0863b15761df3403',40,1280,1720,'R','兵藤ﾚﾅ',0),
 	 ('8406433757bac86ef8134cd59ed4cd3b',135,840,1360,'N','[ﾊﾞﾚﾝﾀｲﾝ]高森藍子',2),
-	 ('d0289c681ff7668957a4d7a4198b61aa',135,1512,2160,'R+','[ｱﾆﾊﾞｰｻﾘｰｲｴﾛｰ]高森藍子+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d0289c681ff7668957a4d7a4198b61aa',135,1512,2160,'R+','[ｱﾆﾊﾞｰｻﾘｰｲｴﾛｰ]高森藍子+',7),
 	 ('b9c843a22dc3445a53c384de9948be97',135,4440,4180,'SR','[深緑の魔女]高森藍子',12),
-	 ('e82199f18a2886519aa98a1a5ef46043',135,3560,3540,'SR','[おさんぽ日和]高森藍子',18),
+	 ('e82199f18a2886519aa98a1a5ef46043',135,3560,3540,'SR','[おさんぽ日和]高森藍子',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('96372916d89edc657240f71836f7dbb9',135,6140,6100,'SR','[駿風のﾊﾞﾝﾃﾞｯﾄ]高森藍子',24),
 	 ('834bc411cf8455fcbd9aded00697fcba',135,9072,7080,'SR+','[白銀の歌声]高森藍子+',29),
 	 ('c827dabc28f2d3301d22ec465998046f',135,2760,2740,'R','[ぽかぽかｴｺﾛｼﾞｰ]高森藍子',32),
@@ -1196,10 +1194,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3b976772420919c2a89e064924ca5cd8',135,9360,9216,'SR+','[こころに春を]高森藍子+',39),
 	 ('a467728648a6215a8193ffed248b0f81',135,7660,7640,'SR','[あたたかな居場所]高森藍子',42),
 	 ('3ad04e62905e3fac4f2c1a40ec0b80a8',181,1296,888,'R+','水瀬伊織+',1),
-	 ('66fbc3ffdc1d467d4656be4e6a806c8d',153,1100,900,'N','及川雫',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('66fbc3ffdc1d467d4656be4e6a806c8d',153,1100,900,'N','及川雫',0),
 	 ('029c39ffd4a7437d563d418abb957075',194,1560,2320,'R','[ひな祭り]首藤葵',2),
-	 ('6f89d22c276f688ac37de02735b6e0a9',194,2540,1940,'R','[ｸﾞﾘｯﾀｰｽﾃｰｼﾞ]首藤葵',6),
+	 ('6f89d22c276f688ac37de02735b6e0a9',194,2540,1940,'R','[ｸﾞﾘｯﾀｰｽﾃｰｼﾞ]首藤葵',6);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d20bfddc69efae83bb4fe4b4f46f4ae9',194,3360,3216,'R+','[ｲﾝﾌﾟﾙｰﾌﾞｶﾞｰﾙ]首藤葵+',13),
 	 ('67e86f423d1bd82990e21e6e99d88425',194,3680,4720,'SR','[手鞠の芸達者･S]首藤葵',18),
 	 ('eea58dceca065bf2321c38cb03194094',194,7100,5140,'SR','[ﾁｬｷﾁｬｷ☆晴れ娘]首藤葵',24),
@@ -1207,10 +1205,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bd98f5687e9d441b6bad2b62a5900719',194,2616,3984,'R+','[ｱﾄﾞﾊﾞﾝｽﾌﾞﾙｰ]首藤葵+',28),
 	 ('cb073289e74cfc0d716acc5b642a18f7',194,2180,3360,'R','[ﾜｲﾙﾄﾞｱｲｽﾞ]首藤葵',30),
 	 ('a878dde61487baf7b31c28093da0df1b',162,3024,2352,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]財前時子+',3),
-	 ('3675545fba8738750a3f60c573dde3a6',162,3336,3192,'R+','[ｽｸｰﾙｶﾞｰﾙ]財前時子+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3675545fba8738750a3f60c573dde3a6',162,3336,3192,'R+','[ｽｸｰﾙｶﾞｰﾙ]財前時子+',5),
 	 ('8b9fcba48ed38f79114879a280024fd9',162,3300,2180,'R','[ｻﾏｰﾋﾞｰﾁ]財前時子',8),
-	 ('4ea2df5004456c968bdc36873337f71a',162,3960,2616,'R+','[ｻﾏｰﾋﾞｰﾁ]財前時子+',9),
+	 ('4ea2df5004456c968bdc36873337f71a',162,3960,2616,'R+','[ｻﾏｰﾋﾞｰﾁ]財前時子+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8b0c9ce3e5eb4ae076626729c5476784',162,6120,4600,'SR','[ﾍﾞﾙﾍﾞｯﾄｸｲｰﾝ]財前時子',16),
 	 ('19df0dce995f785d6347b7905879b11d',162,6460,4760,'SR','[ﾄﾞﾐﾈｲﾄｸﾘｽﾏｽ]財前時子',18),
 	 ('7ade063367ad652bc5d05aa008a75237',162,7752,5712,'SR+','[ﾄﾞﾐﾈｲﾄｸﾘｽﾏｽ]財前時子+',19),
@@ -1218,10 +1216,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bd08f9cb493f4d8ecab3328b30929033',162,10248,7848,'SR+','[美しきｴﾋﾟｷｭｱ]財前時子+',29),
 	 ('2c27422ff05ee7bb687d23d68b8e5437',5,500,500,'N','椎名法子',0),
 	 ('4b2406d9c6cdef7f6c02501ee20891b9',5,8304,8256,'SR+','[まんまるﾛｹｰｼｮﾝ]椎名法子+',31),
-	 ('1e86e0b6f39f032fabad83778239566b',5,7260,7240,'SR','[ﾎｰﾘｰﾌﾚｰﾊﾞｰ]椎名法子',32);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1e86e0b6f39f032fabad83778239566b',5,7260,7240,'SR','[ﾎｰﾘｰﾌﾚｰﾊﾞｰ]椎名法子',32),
 	 ('209c74c920b04b6aa1c88f2ae810c0ab',16,1188,1188,'N+','江上椿+',1),
-	 ('457370553d93e1da4d39ad3c2b742c27',16,5232,4944,'SR+','[ｶﾒﾘｱ･ﾛﾜｲﾔﾙ]江上椿+',18),
+	 ('457370553d93e1da4d39ad3c2b742c27',16,5232,4944,'SR+','[ｶﾒﾘｱ･ﾛﾜｲﾔﾙ]江上椿+',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f4d7801c6c3496ae294ad932267b26e6',16,3760,3100,'SR','[夏のゆらぎ]江上椿',19),
 	 ('beba5121254d967e0be4895fbe2fac3c',16,4512,3720,'SR+','[夏のゆらぎ]江上椿+',20),
 	 ('4d1ca7f4ecb2d1c02e68551e9bba2ab3',26,2500,1980,'R','[ﾄｰｸLIVEﾁｱｶﾞｰﾙ]大沼くるみ',2),
@@ -1229,10 +1227,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('577a4ccbccf53d1e9cd6eb1d4817a0c1',26,3504,2496,'R+','[ﾄｷﾒｷﾌﾞﾗｲﾀﾞﾙ]大沼くるみ+',11),
 	 ('3e40fa8beb3a767790257137865215b1',26,3420,2920,'SR','[もぎたてﾋﾞｰﾁｶﾞｰﾙ]大沼くるみ',16),
 	 ('16bcdd3845d6e3e7329a87b63e487adb',26,4104,3504,'SR+','[もぎたてﾋﾞｰﾁｶﾞｰﾙ]大沼くるみ+',17),
-	 ('2c56ab3ad72b1f245847fcc4e0bc94c8',26,4416,5784,'SR+','[きらきらﾋﾞｰﾁｶﾞｰﾙ]大沼くるみ+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2c56ab3ad72b1f245847fcc4e0bc94c8',26,4416,5784,'SR+','[きらきらﾋﾞｰﾁｶﾞｰﾙ]大沼くるみ+',19),
 	 ('a80b7a3dce6c300c9bf3d0f0dd7d415e',26,6820,4920,'SR','[大輪の華]大沼くるみ',20),
-	 ('d76492cb5a1cc1202e993013da0e48cd',26,8184,5904,'SR+','[大輪の華]大沼くるみ+',21),
+	 ('d76492cb5a1cc1202e993013da0e48cd',26,8184,5904,'SR+','[大輪の華]大沼くるみ+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7a5e17ab29ff6ab95f22c5e46beabcd7',26,7620,7620,'SR','[夏空わっしょい]大沼くるみ',26),
 	 ('53fecff8d9c96619537f2a33d0de84cd',26,9144,9144,'SR+','[夏空わっしょい]大沼くるみ+',27),
 	 ('eab228023c103ead474b39feec6f2a62',30,2976,3000,'R+','[ｽｳｨｰﾄﾄﾞﾘｰﾏｰ]松原早耶+',3),
@@ -1240,10 +1238,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('af6bea8a3d566501f70b1b128fa2788c',30,2640,3960,'R+','[ｸﾞｯﾄﾞﾅｲﾄﾏｼﾞｯｸ]松原早耶+',22),
 	 ('3c3268016f842163244ee103b090cd0d',186,3240,2180,'R','[ｼｪｲｷﾝｸﾞｱｰｼﾞ]北川真尋',12),
 	 ('19a197e4f1919434cd94bf3673044145',186,3888,2616,'R+','[ｼｪｲｷﾝｸﾞｱｰｼﾞ]北川真尋+',13),
-	 ('3f15212a15a1422e0a5cebff2094ee3a',186,2120,2840,'SR','[ﾃﾞｨｱﾝﾄﾞﾙｶﾞｰﾙ]北川真尋',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3f15212a15a1422e0a5cebff2094ee3a',186,2120,2840,'SR','[ﾃﾞｨｱﾝﾄﾞﾙｶﾞｰﾙ]北川真尋',16),
 	 ('73510215f3daefbf89a05623b83e3fd8',186,5808,4800,'SR+','[ﾀﾞｯｼｭ･ﾛﾜｲﾔﾙ]北川真尋+',23),
-	 ('b24f3818f1e1073ea376f64f62004d15',186,8640,6384,'SR+','[ﾍﾟｯﾋﾟｰｳｫｰｷﾝ☆]北川真尋+',25),
+	 ('b24f3818f1e1073ea376f64f62004d15',186,8640,6384,'SR+','[ﾍﾟｯﾋﾟｰｳｫｰｷﾝ☆]北川真尋+',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('00d0b60f1d30142f705774fafec9b8a5',186,3980,3900,'SR','[ｴﾈﾙｷﾞｯｼｭﾁｱｰ]北川真尋',26),
 	 ('9963998f7a877c2c7d4db9762cc09b58',186,3408,3264,'R+','[ﾜｰｷﾝｸﾞ･ｶｰﾄｩｰﾝ]北川真尋+',28),
 	 ('975bcf3fc2870cd763496ca77fc67843',206,9168,9096,'SR+','[水着商法]夢見りあむ+',3),
@@ -1251,10 +1249,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('de01bd005756ddc45569087214ffa088',185,2080,2000,'R','[花火祭りｽﾏｲﾙ]喜多日菜子',4),
 	 ('a16bd6a20aae0e2a289296b10faa0816',188,1560,2460,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙ]三好紗南',8),
 	 ('ebb3ac001f3f27dd4ae4303f9a68bb0d',188,3960,2640,'R+','[ﾋﾞｰﾁｻｲﾄﾞ]三好紗南+',11),
-	 ('1ef60a5f56267922ef2c087e52328d28',188,2592,3072,'R+','[春ｷｬﾝﾌﾟ]三好紗南+',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1ef60a5f56267922ef2c087e52328d28',188,2592,3072,'R+','[春ｷｬﾝﾌﾟ]三好紗南+',13),
 	 ('bc4fe5771be756b951a3bfe654de6c1a',188,2976,2976,'R+','[笑顔でｷｬﾝﾌﾟ]三好紗南+',15),
-	 ('0188bc58f63647f0b7862f81905b8698',188,3480,2544,'R+','[秋の学園祭]三好紗南+',18),
+	 ('0188bc58f63647f0b7862f81905b8698',188,3480,2544,'R+','[秋の学園祭]三好紗南+',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('55f34023e9d773f97afde9bb99574843',135,1008,1632,'N+','[ﾊﾞﾚﾝﾀｲﾝ]高森藍子+',3),
 	 ('d6dbb1e8e2c5e452026e993c5a8fde56',135,2496,2304,'R+','[ふんわりｶﾞｰﾙ]高森藍子+',5),
 	 ('a14b13704b20edf9834c27832fd1670f',135,1260,1800,'R','[ｱﾆﾊﾞｰｻﾘｰｲｴﾛｰ]高森藍子',6),
@@ -1262,10 +1260,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0321c8e5bf54a3c4602ee87bac727750',135,5208,3792,'SR+','[ゆるふわ乙女]高森藍子+',11),
 	 ('696e63ecba110164d3740efd5dab872a',135,2240,2080,'SR','[CDﾃﾞﾋﾞｭｰ]高森藍子',14),
 	 ('a6a1581237e6048bae08c63a85e50e87',135,5520,3520,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]高森藍子',16),
-	 ('1a30af5fa8c952b1424a1dbb60269ff0',135,4272,4248,'SR+','[おさんぽ日和]高森藍子+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1a30af5fa8c952b1424a1dbb60269ff0',135,4272,4248,'SR+','[おさんぽ日和]高森藍子+',19),
 	 ('0e80e42aa03acf28172a86a6113212e5',135,7176,5112,'SR+','[まごころﾌﾟﾚｾﾞﾝﾄ]高森藍子+',21),
-	 ('c2f3cd2bd710cebb14c84f6a64d9949a',135,6624,6552,'SR+','[放課後ｻﾏｰ]高森藍子+',23),
+	 ('c2f3cd2bd710cebb14c84f6a64d9949a',135,6624,6552,'SR+','[放課後ｻﾏｰ]高森藍子+',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c540be004bb579bdad7d76a4b77c8270',135,9168,9096,'SR+','[てづくりのしあわせ]高森藍子+',36),
 	 ('1cdd2ddaf342338e11ecd5fe7990466e',135,7800,7680,'SR','[こころに春を]高森藍子',38),
 	 ('953571fbea83b361e8d2a0ee086b71bb',181,3400,2760,'SR','[高飛車お嬢様]水瀬伊織',2),
@@ -1273,10 +1271,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('429bd4b9d09119bf50561fd585ff2a03',153,3400,3000,'SR','[たっぷりｸｯｷﾝｸﾞ]及川雫',23),
 	 ('559790e9b6e4de4ac9449d337663ddbb',153,4620,3940,'SR','[たっぷりｸｯｷﾝｸﾞ･S]及川雫',25),
 	 ('c68c5ef6c59aa24884cab075a33569cc',153,8064,5952,'SR+','[実りの季節]及川雫+',28),
-	 ('bc1a87fb25e1da16048f98be8a1d3610',153,6500,6460,'SR','[ﾊﾞｳﾝｼｰﾗｳﾝﾄﾞ]及川雫',29);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bc1a87fb25e1da16048f98be8a1d3610',153,6500,6460,'SR','[ﾊﾞｳﾝｼｰﾗｳﾝﾄﾞ]及川雫',29),
 	 ('70a9e97b879aa56984684b2b2a3f5194',153,7600,5940,'SR','[ひんやり超大作]及川雫',31),
-	 ('4892857b1fc93c08d5c93fab4c7aaee0',153,7340,7240,'SR','[新緑のめぐみ]及川雫',35),
+	 ('4892857b1fc93c08d5c93fab4c7aaee0',153,7340,7240,'SR','[新緑のめぐみ]及川雫',35);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cc199f2afe0f0d12beac51bc64e69c69',153,3960,2640,'R+','[ﾎｰﾘｰﾅｲﾄ]及川雫+',38),
 	 ('c8628f2b2d218d17901e67269b3de5ad',153,9192,9120,'SR+','[はつらつﾊｰｳﾞｪｽﾄ]及川雫+',40),
 	 ('d453b8b6edc12b7d723e1a1a2969d007',194,1872,2784,'R+','[ひな祭り]首藤葵+',3),
@@ -1284,10 +1282,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d52d6627d5a0add014631032375ae337',194,3048,2328,'R+','[ｸﾞﾘｯﾀｰｽﾃｰｼﾞ]首藤葵+',7),
 	 ('cbc90ee4ca8768d7149de05f4336e0fe',194,2540,2440,'R','[名月うさぎ]首藤葵',10),
 	 ('4ed0f848aed4157c5b84015baddb3b48',194,3048,2928,'R+','[名月うさぎ]首藤葵+',11),
-	 ('b91dddc951d13df4f5901c66b653a248',194,3420,2960,'SR','[ﾁｬｰﾐｰ･ﾛﾜｲﾔﾙ]首藤葵',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b91dddc951d13df4f5901c66b653a248',194,3420,2960,'SR','[ﾁｬｰﾐｰ･ﾛﾜｲﾔﾙ]首藤葵',20),
 	 ('f7457ada3cc849fac7b99099be1206b6',194,4104,3552,'SR+','[ﾁｬｰﾐｰ･ﾛﾜｲﾔﾙ]首藤葵+',21),
-	 ('a288f6905fe80b48ac93124a6ed086e2',194,5784,4800,'SR+','[ｻﾏｰｼﾞｬﾝﾋﾟﾝ]首藤葵+',23),
+	 ('a288f6905fe80b48ac93124a6ed086e2',194,5784,4800,'SR+','[ｻﾏｰｼﾞｬﾝﾋﾟﾝ]首藤葵+',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('301ab7ba03d5b6f94efd2993ae02e874',194,2180,3320,'R','[ｱﾄﾞﾊﾞﾝｽﾌﾞﾙｰ]首藤葵',29),
 	 ('4871129b0768bcb01d7e8ae30012eaaf',194,2616,4032,'R+','[ﾜｲﾙﾄﾞｱｲｽﾞ]首藤葵+',31),
 	 ('e99733454b58967e0160ccf1959de480',162,2780,2660,'R','[ｽｸｰﾙｶﾞｰﾙ]財前時子',4),
@@ -1295,10 +1293,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2512d64629214e1b6d467a0e7d152ff8',162,3300,2140,'R','[高潔な指導者]財前時子',12),
 	 ('838a4c6a770f35ab005c376a6e480316',162,6528,4728,'SR+','[ﾒﾃﾞｨｱの女王]財前時子+',15),
 	 ('d2c90e9e8f108c4d9d7e373ff21da35b',162,7344,5520,'SR+','[ﾍﾞﾙﾍﾞｯﾄｸｲｰﾝ]財前時子+',17),
-	 ('a8d8cff114fc3d238e9d077a62a3529e',162,4400,3380,'SR','[凍てつく炎暑]財前時子',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a8d8cff114fc3d238e9d077a62a3529e',162,4400,3380,'SR','[凍てつく炎暑]財前時子',20),
 	 ('8ff1a360efcadbe25cd17d768eebfeb4',162,9192,7032,'SR+','[ｴﾝﾌﾟﾚｽｼﾞｪｲﾗｰ]財前時子+',23),
-	 ('669f267f67b3953f80695d309c8f81b6',162,8540,6580,'SR','[甘美なる支配者]財前時子',30),
+	 ('669f267f67b3953f80695d309c8f81b6',162,8540,6580,'SR','[甘美なる支配者]財前時子',30);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('9afc857da9d69bf96e603bf8837a66ce',5,600,600,'N+','椎名法子+',1),
 	 ('2ce5e6e408dfc869ce57db8af79d7d74',5,6920,6880,'SR','[まんまるﾛｹｰｼｮﾝ]椎名法子',30),
 	 ('67271a7019c4303e2a6a3224273cb881',5,8712,8688,'SR+','[ﾎｰﾘｰﾌﾚｰﾊﾞｰ]椎名法子+',33),
@@ -1306,10 +1304,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5a01b67ab301b1c982c5fc6c2bb3bb01',16,1740,3260,'R','[秋色温泉]江上椿',6),
 	 ('b0bf971f90f59c9cfc79b6a166fe6aed',16,2088,3912,'R+','[秋色温泉]江上椿+',7),
 	 ('3875503a08289671c8354eed6119eff3',16,3672,2688,'R+','[ﾘﾚｲﾄｽﾄｰﾘｰ]江上椿+',10),
-	 ('4c3a6f602f71d98777443538887e4217',16,2580,2400,'R','[秋空ｽﾎﾟｰﾂ]江上椿',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4c3a6f602f71d98777443538887e4217',16,2580,2400,'R','[秋空ｽﾎﾟｰﾂ]江上椿',13),
 	 ('29fd2e3fe4ef7d71254228b73cba50eb',16,3096,2880,'R+','[秋空ｽﾎﾟｰﾂ]江上椿+',14),
-	 ('92b7a6ffc4084d14ed6af4dc45b41c92',16,4872,4752,'SR+','[ゆかしい花椿]江上椿+',16),
+	 ('92b7a6ffc4084d14ed6af4dc45b41c92',16,4872,4752,'SR+','[ゆかしい花椿]江上椿+',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d9df13a45167df9c256571780fdfa6c4',16,6384,5112,'SR+','[はりきり雪椿]江上椿+',22),
 	 ('e6c4a0064ad9de114bd1d812a7ecea5e',16,3552,2568,'R+','[深緑のせせらぎ]江上椿+',24),
 	 ('1667f9458f46939008f11948f521a5dd',16,2420,2940,'R','[笑顔のせせらぎ]江上椿',25),
@@ -1317,10 +1315,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d37d6a4498910c156f63189e2d40d6ed',26,3000,2376,'R+','[ﾄｰｸLIVEﾁｱｶﾞｰﾙ]大沼くるみ+',3),
 	 ('e0e1f48b20530c999a6b5a9559d6af6a',26,2740,2740,'R','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]大沼くるみ',6),
 	 ('a31c4b789e163d6300b58fe77258e56a',30,2800,2140,'R','[自慢のﾎﾞﾃﾞｨ]松原早耶',4),
-	 ('aae1c18ddab7a1cb39d017984294b8bc',30,2120,3320,'R','[おねだりｶﾞｰﾙ]松原早耶',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('aae1c18ddab7a1cb39d017984294b8bc',30,2120,3320,'R','[おねだりｶﾞｰﾙ]松原早耶',6),
 	 ('c73c7d84c4ec2b59495f658ee6e9f4fa',30,3288,3192,'R+','[かんぺきﾌﾟﾗﾝ]松原早耶+',10),
-	 ('d5ee7f424c9e5017b44623633cf2a1a1',30,3840,2640,'R+','[ｶﾗﾌﾙﾘﾌﾚｯｼｭ]松原早耶+',12),
+	 ('d5ee7f424c9e5017b44623633cf2a1a1',30,3840,2640,'R+','[ｶﾗﾌﾙﾘﾌﾚｯｼｭ]松原早耶+',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8cfe9ef767466eb45c547062a317718b',30,3080,2400,'SR','[ﾛﾜｲﾔﾙﾊｰﾄ]松原早耶',15),
 	 ('eab519121d4491eb02a6ba19010da935',30,3936,3744,'SR+','[ｷｭｰﾃｨｰﾁｱｰ]松原早耶+',18),
 	 ('81b1222c3eacc5f48b4af0b59f52c464',30,5304,4080,'SR+','[おめかしｻﾏｰ]松原早耶+',20),
@@ -1328,10 +1326,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bccd086a6baf5aa7c9836b1744b2961b',186,5376,4848,'SR+','[ﾊﾞｲﾀﾙｼｬｳﾄ]北川真尋+',21),
 	 ('f70f143d7bb856a67cb7bbd175dc7829',135,2080,1920,'R','[ふんわりｶﾞｰﾙ]高森藍子',4),
 	 ('dab9960d2db1424d77af7ba448c77039',135,5328,5016,'SR+','[深緑の魔女]高森藍子+',13),
-	 ('e3d9a2ea1b5c8caec4250f08f4f5cc95',135,2688,2496,'SR+','[CDﾃﾞﾋﾞｭｰ]高森藍子+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e3d9a2ea1b5c8caec4250f08f4f5cc95',135,2688,2496,'SR+','[CDﾃﾞﾋﾞｭｰ]高森藍子+',15),
 	 ('77828bac52f87e72db028e70a0338c11',135,6624,4224,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]高森藍子+',17),
-	 ('39c5e502a5ec2c962e1610098b6317cc',135,5980,4260,'SR','[まごころﾌﾟﾚｾﾞﾝﾄ]高森藍子',20),
+	 ('39c5e502a5ec2c962e1610098b6317cc',135,5980,4260,'SR','[まごころﾌﾟﾚｾﾞﾝﾄ]高森藍子',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('775f8939d540b7b1c169ba72be9ca25e',135,5520,5460,'SR','[放課後ｻﾏｰ]高森藍子',22),
 	 ('cd741e8ee6028bb578bcbc5d55475390',135,7368,7320,'SR+','[駿風のﾊﾞﾝﾃﾞｯﾄ]高森藍子+',25),
 	 ('4d91dd57c123958c50421bb04076c240',135,8784,6672,'SR+','[ちいさなともだち]高森藍子+',27),
@@ -1339,10 +1337,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('497db13df6dbfa90dd87102e6c2134bc',135,8904,8664,'SR+','[かさなる思い出]高森藍子+',34),
 	 ('71bfc30cbdfd0c7ef9960605fdca7012',135,7640,7580,'SR','[てづくりのしあわせ]高森藍子',37),
 	 ('62b77041b55917d75269c6daadb0b8c8',135,8740,6540,'SR','[ｽﾊﾟｰｸﾙｽﾀｰ]高森藍子',40),
-	 ('933333b6f15c88a6e8564a2dee2f125a',181,4080,3312,'SR+','[高飛車お嬢様]水瀬伊織+',3);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('933333b6f15c88a6e8564a2dee2f125a',181,4080,3312,'SR+','[高飛車お嬢様]水瀬伊織+',3),
 	 ('07d404f5b5197204f9664334fa255730',153,1600,2840,'R','[ﾏｰﾒｲﾄﾞﾊﾟﾗﾀﾞｲｽ]及川雫',2),
-	 ('a9916b3a3bfdeee7e137a0fe098260bc',153,2460,2340,'R','[ﾋﾞｰﾁｶﾞｰﾙ]及川雫',8),
+	 ('a9916b3a3bfdeee7e137a0fe098260bc',153,2460,2340,'R','[ﾋﾞｰﾁｶﾞｰﾙ]及川雫',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cb6e0046c38105c34bf814d7de9faf54',153,2952,2808,'R+','[ﾋﾞｰﾁｶﾞｰﾙ]及川雫+',9),
 	 ('64a0bb938d41f1029525df2e503ac1c4',153,4220,3160,'R+','[ﾊﾞﾚﾝﾀｲﾝI.C]及川雫+',12),
 	 ('e70d367d497a566cf2c90eba7cf20acc',153,4140,3920,'SR','[ｺﾛｯｾｵｸｲｰﾝ]及川雫',15),
@@ -1350,10 +1348,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b0b2836b44bcc84f30cb2a0b4ee95811',153,6984,4800,'SR+','[真夏の果実]及川雫+',22),
 	 ('06eb2a01d94dbc499b79359b3cff0fea',153,4080,3600,'SR+','[たっぷりｸｯｷﾝｸﾞ]及川雫+',24),
 	 ('762c6f767cc7b89ce574045855010b18',153,3300,2200,'R','[ﾎｰﾘｰﾅｲﾄ]及川雫',37),
-	 ('691a120fee71557075e20c43e508b5c7',153,7660,7600,'SR','[はつらつﾊｰｳﾞｪｽﾄ]及川雫',39);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('691a120fee71557075e20c43e508b5c7',153,7660,7600,'SR','[はつらつﾊｰｳﾞｪｽﾄ]及川雫',39),
 	 ('125e79210d611f733e9664b3563b97e9',153,8500,6560,'SR','[朝焼けの音色]及川雫',41),
-	 ('a428515798abc1514df83ae3066cb0c6',194,2520,2460,'R','[はいから料理娘]首藤葵',4),
+	 ('a428515798abc1514df83ae3066cb0c6',194,2520,2460,'R','[はいから料理娘]首藤葵',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8079dc0e0dea63c3571ae36597c62b20',194,2580,3080,'R+','[新春I.C]首藤葵+',8),
 	 ('a788612caf23b550865996cab821698f',194,3440,3280,'R+','[ﾊﾟﾜﾌﾙﾒｲﾄ]首藤葵+',9),
 	 ('616eb08677efb12fc166fdc535729ba4',194,2800,2680,'R','[ｲﾝﾌﾟﾙｰﾌﾞｶﾞｰﾙ]首藤葵',12),
@@ -1361,10 +1359,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4a8c3fded5624bb3fd188663949c599f',194,4820,4000,'SR','[ｻﾏｰｼﾞｬﾝﾋﾟﾝ]首藤葵',22),
 	 ('b55c0b1bb4d08a833d7ae0fbbd248731',194,8520,6168,'SR+','[ﾁｬｷﾁｬｷ☆晴れ娘]首藤葵+',25),
 	 ('b48904e8f1569bb19033783933d17d4c',194,6768,5304,'SR+','[潮風ﾁｱｰ]首藤葵+',27),
-	 ('7fa02e42c440b57785448072345ef8e0',165,760,800,'R','浜川愛結奈',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7fa02e42c440b57785448072345ef8e0',165,760,800,'R','浜川愛結奈',0),
 	 ('8d83c2c10b5dda3a24ab3fd2d2d5a65e',5,1360,840,'N','[ﾊﾞﾚﾝﾀｲﾝ]椎名法子',2),
-	 ('600d9532a365f51b484cde2e1968dbb0',5,2240,1280,'R','[ｽﾏｲﾙﾊﾞﾚﾝﾀｲﾝ]椎名法子',6),
+	 ('600d9532a365f51b484cde2e1968dbb0',5,2240,1280,'R','[ｽﾏｲﾙﾊﾞﾚﾝﾀｲﾝ]椎名法子',6);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ed5efe1f4f7f8fab7501b684faa673f5',5,2688,1536,'R+','[ｽﾏｲﾙﾊﾞﾚﾝﾀｲﾝ]椎名法子+',7),
 	 ('5f4163ebaa3db4ae6a40335feeab9d05',5,3360,2140,'R','[ｽｸｰﾙｶﾞｰﾙ]椎名法子',10),
 	 ('b830925d4da9a4ebb45aad7b456f68a6',5,3264,3288,'R+','[なかよし☆ﾄﾞｰﾅｯﾂ]椎名法子+',13),
@@ -1372,10 +1370,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f2a2dfca90f836b1d98d889179daad59',5,6240,6240,'SR','[あま～い★誘惑]椎名法子',24),
 	 ('06f18e9f5532d8fd04e01d1a64c16df4',5,7488,7488,'SR+','[あま～い★誘惑]椎名法子+',25),
 	 ('119254cf8fabbb0873bc694bf8c10338',5,6780,6740,'SR','[満点ﾓﾁﾍﾞｰｼｮﾝ]椎名法子',28),
-	 ('777a32b1aeb947a37879611e25ab417a',5,5664,4152,'SR+','[8thｱﾆﾊﾞｰｻﾘｰ]椎名法子+',35);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('777a32b1aeb947a37879611e25ab417a',5,5664,4152,'SR+','[8thｱﾆﾊﾞｰｻﾘｰ]椎名法子+',35),
 	 ('1cbdbb54f6cd31763bf23cc59e1f7e58',5,8560,6800,'SR','[秋色名湯ﾃﾞｺﾚｰｼｮﾝ]椎名法子',38),
-	 ('f172e8d5a8a50a8cecf29d9e939b015d',16,2688,2208,'R+','[新春ｺﾚｸｼｮﾝ]江上椿+',3),
+	 ('f172e8d5a8a50a8cecf29d9e939b015d',16,2688,2208,'R+','[新春ｺﾚｸｼｮﾝ]江上椿+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('664c40149a8f2c88ea211c5e7ccc5857',16,3528,2352,'R+','[ﾊｯﾋﾟｰﾒﾓﾘｱﾙ]江上椿+',5),
 	 ('5d97a337e5c70a470e14a590a104ebed',16,3480,3460,'R+','[ｼｬｲﾆｰｶｰﾏｲﾝ]江上椿+',8),
 	 ('0627d85acc8c4c074c16f85e2e638446',16,3060,2240,'R','[ﾘﾚｲﾄｽﾄｰﾘｰ]江上椿',9),
@@ -1383,10 +1381,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b8f040ade84d43170ba0ef6b2cde9e5a',16,4060,3960,'SR','[ゆかしい花椿]江上椿',15),
 	 ('31d156c612061d073479ff4cde4b312b',16,2960,2140,'R','[深緑のせせらぎ]江上椿',23),
 	 ('66f135ec677fc6141ada012bbfcd01d7',26,2840,2100,'R','[大粒のﾄﾞﾛｯﾌﾟ]大沼くるみ',4),
-	 ('2ad0b3283dc5a010db5f158eb287e9fc',26,3288,3288,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]大沼くるみ+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2ad0b3283dc5a010db5f158eb287e9fc',26,3288,3288,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]大沼くるみ+',7),
 	 ('d0a4e5cf0c89f68276f7099b2d7d2c51',26,2920,2080,'R','[ﾄｷﾒｷﾌﾞﾗｲﾀﾞﾙ]大沼くるみ',10),
-	 ('a4bbadf9252089f4d2d9ebd59b48ce7d',26,4800,4880,'SR','[だだもれｴﾓｰｼｮﾝ]大沼くるみ',12),
+	 ('a4bbadf9252089f4d2d9ebd59b48ce7d',26,4800,4880,'SR','[だだもれｴﾓｰｼｮﾝ]大沼くるみ',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0b09d531c78b583e59cf03cef7673ea8',26,5920,4240,'SR','[ぷるんぷるんB.B]大沼くるみ',14),
 	 ('b2f561f009b751af2a7718ef55b8cab8',26,6384,5088,'SR+','[ふくらむ初夢]大沼くるみ+',23),
 	 ('fda2b047f6f1fc32dff4a98fc1b39b41',26,8784,8712,'SR+','[ぽわぽわﾌﾟﾛﾐｽ]大沼くるみ+',25),
@@ -1394,10 +1392,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('766ebc989270280df6d71abeaf6c1a21',125,3192,2184,'R+','[不器用少女]松尾千鶴+',5),
 	 ('9e96cd2d370b50c67771f9b742f212fa',125,3792,2688,'R+','[ｽﾃｷなお手本]松尾千鶴+',8),
 	 ('bd7cf06d5d7c639edf939648639dab81',125,2616,3864,'R+','[ｶﾞｰﾘｰｵﾈｽﾄ]松尾千鶴+',14),
-	 ('c2eeee6221357a07f8de0467e22f2588',125,3624,2472,'R+','[ﾛｼｱﾝｸｯｷﾝｸﾞ]松尾千鶴+',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c2eeee6221357a07f8de0467e22f2588',125,3624,2472,'R+','[ﾛｼｱﾝｸｯｷﾝｸﾞ]松尾千鶴+',16),
 	 ('2932b50dc47ebda648893528a978f393',125,2952,3480,'R+','[ﾛｼｱﾝｸｯｷﾝｸﾞ･S]松尾千鶴+',18),
-	 ('52a617fd8f60c1aec0b3d22d3cb1c944',141,580,820,'N','沢田麻理菜',0),
+	 ('52a617fd8f60c1aec0b3d22d3cb1c944',141,580,820,'N','沢田麻理菜',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('461c0f642b5623fcd0df84af1de98fc7',183,1400,1400,'R','市原仁奈',0),
 	 ('69a5fd83ed2443c3bd79c2cc133c6334',153,1920,3408,'R+','[ﾏｰﾒｲﾄﾞﾊﾟﾗﾀﾞｲｽ]及川雫+',3),
 	 ('88101417f347a5f1a8f3eb488c36e8d2',153,3648,2448,'R+','[浴衣祭り]及川雫+',5),
@@ -1405,10 +1403,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('578c221979eb9c273dcce7b3582c1cbd',153,3160,2160,'R','[ﾛﾜｲﾔﾙNC]及川雫',13),
 	 ('b2864cc9c43c55e8ab062d92e4102b12',153,3792,2592,'R+','[ﾛﾜｲﾔﾙNC]及川雫+',14),
 	 ('aa3c25c011a1152a9af8e920df5533c5',153,5240,3820,'SR','[愛の癒し系]及川雫',17),
-	 ('3b35a7be62c1baf6d0320e704af57c35',153,5820,4000,'SR','[真夏の果実]及川雫',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3b35a7be62c1baf6d0320e704af57c35',153,5820,4000,'SR','[真夏の果実]及川雫',21),
 	 ('14c5a8ec192752cbd093a8f6273d2b1e',153,5544,4728,'SR+','[たっぷりｸｯｷﾝｸﾞ･S]及川雫+',26),
-	 ('94dfe2ab2254e7a85df7372c4da5992a',153,8020,6300,'SR','[愛情しぼりたて]及川雫',33),
+	 ('94dfe2ab2254e7a85df7372c4da5992a',153,8020,6300,'SR','[愛情しぼりたて]及川雫',33);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d1aa09d9499a0e178ef5eadc76729e73',153,8808,8688,'SR+','[新緑のめぐみ]及川雫+',36),
 	 ('45610f57689e22d74c03b226484d4431',153,10200,7872,'SR+','[朝焼けの音色]及川雫+',42),
 	 ('d9a0ec5b2f49514b8f6fdbc2b3771f44',197,2040,1560,'R','佐藤心',0),
@@ -1416,10 +1414,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('df4914c7a9d1da0c7113ff56dfff3175',165,3240,3216,'R+','[ｻﾏｰｶﾞｰﾙ]浜川愛結奈+',14),
 	 ('8fbbd5839c17e25ecd03c0e3db77204e',165,3072,2880,'R+','[ﾄｷﾒｷﾌﾞﾗｲﾀﾞﾙ]浜川愛結奈+',17),
 	 ('447b6056924998cacf744688697a4f1d',165,4656,4896,'SR+','[ｾｸｼｰﾃﾞｨｰｳﾞｧ]浜川愛結奈+',19),
-	 ('e8a3517e4e352e1a355526953320449b',165,3440,3500,'SR','[ｱﾝﾙｰﾘｨﾁｱｰ]浜川愛結奈',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e8a3517e4e352e1a355526953320449b',165,3440,3500,'SR','[ｱﾝﾙｰﾘｨﾁｱｰ]浜川愛結奈',22),
 	 ('b9829ad7b5c0852f91b4d9c0829973eb',165,7480,5760,'SR','[ｱｰﾊﾞﾝｽﾃｨｰﾄﾞ]浜川愛結奈',24),
-	 ('2d7f56adcb8e42df364bddba291fd33c',165,2860,2600,'R','[ｹﾞﾚﾝﾃﾞの美女]浜川愛結奈',26),
+	 ('2d7f56adcb8e42df364bddba291fd33c',165,2860,2600,'R','[ｹﾞﾚﾝﾃﾞの美女]浜川愛結奈',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('93917a715e96a0ed275f0bc15236ce9d',5,1632,1008,'N+','[ﾊﾞﾚﾝﾀｲﾝ]椎名法子+',3),
 	 ('f662c0d2f39ebe7c9f6f2b5801a5637f',5,2472,1776,'R+','[ﾊｯﾋﾟｰﾊﾞﾚﾝﾀｲﾝ]椎名法子+',5),
 	 ('f342a9da146eba2799e8451dab7c0a22',5,1600,2480,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]椎名法子',8),
@@ -1427,10 +1425,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('75d17e59127cb32465dd5f4cf7a35f69',5,2240,1600,'SR','[ｽｲｰﾄｻﾏｰ]椎名法子',16),
 	 ('d4d7df4f74b6612da8f3b9256354039e',5,2688,1920,'SR+','[ｽｲｰﾄｻﾏｰ]椎名法子+',17),
 	 ('6d3ed0a7f03b9b5fd51721010eaf81f1',5,7056,5256,'SR+','[目覚めし勇者]椎名法子+',21),
-	 ('380c5bc88f6fc5c34164164c8b721e66',5,4700,3860,'SR','[ｽｳｨｰﾄｻｰｸﾙ]椎名法子',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('380c5bc88f6fc5c34164164c8b721e66',5,4700,3860,'SR','[ｽｳｨｰﾄｻｰｸﾙ]椎名法子',22),
 	 ('dc6e0c115703aeb2faf7e2acd68a0298',5,8136,8088,'SR+','[満点ﾓﾁﾍﾞｰｼｮﾝ]椎名法子+',29),
-	 ('0a52e41d678f999d9d162ec6808d9382',5,4720,3460,'SR','[8thｱﾆﾊﾞｰｻﾘｰ]椎名法子',34),
+	 ('0a52e41d678f999d9d162ec6808d9382',5,4720,3460,'SR','[8thｱﾆﾊﾞｰｻﾘｰ]椎名法子',34);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0cb78fe96c8892809cbbd048c4b92a2d',5,10272,8160,'SR+','[秋色名湯ﾃﾞｺﾚｰｼｮﾝ]椎名法子+',39),
 	 ('40aa9ec43d952fd28e1cce41237b5622',16,2940,1960,'R','[ﾊｯﾋﾟｰﾒﾓﾘｱﾙ]江上椿',4),
 	 ('001bc924082b813b62446c61e7fac81f',16,3160,2140,'R','[T.B.ﾁｱｰｽﾞ]江上椿',11),
@@ -1438,10 +1436,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c90679c5cea5b6c55f792fd1bba384c0',16,5320,4260,'SR','[はりきり雪椿]江上椿',21),
 	 ('dad249d2193e48fede1efb6b86ce152f',27,860,1480,'N','一ﾉ瀬志希',0),
 	 ('87b9ce294ee324ef107117cd775e3e41',27,2940,2100,'R','[ﾀﾞﾝｼﾝｸﾞｶﾞｰﾙ]一ﾉ瀬志希',4),
-	 ('4ba0d4b0bc5a9b119b12309ca4b87b55',27,9360,9048,'SR+','[＝ME? or…]一ﾉ瀬志希+',31);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4ba0d4b0bc5a9b119b12309ca4b87b55',27,9360,9048,'SR+','[＝ME? or…]一ﾉ瀬志希+',31),
 	 ('f0183ec9ca380a316b1058dd19e4b49f',27,8740,6540,'SR','[ﾌﾛｰﾗﾙｽﾀｰ]一ﾉ瀬志希',34),
-	 ('c934cdde656ee3dd7456abbffdcc16f7',125,1320,1176,'R+','松尾千鶴+',1),
+	 ('c934cdde656ee3dd7456abbffdcc16f7',125,1320,1176,'R+','松尾千鶴+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('152d472f4e2ac23df690fde0685bb3f6',186,7200,5320,'SR','[ﾍﾟｯﾋﾟｰｳｫｰｷﾝ☆]北川真尋',24),
 	 ('16080d9fa0ee3687ed6ef1788a777526',186,4776,4680,'SR+','[ｴﾈﾙｷﾞｯｼｭﾁｱｰ]北川真尋+',27),
 	 ('bad59f9bff3c8fbcf2c887429e4dfd4e',206,8640,6640,'SR','[ぶちあがれ感情]夢見りあむ',4),
@@ -1449,10 +1447,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c1bb3d0591ba0ff7d0f8c6d3aaf19186',185,3888,2688,'R+','[ふらふら☆ﾄﾘｯﾊﾟｰ]喜多日菜子+',11),
 	 ('1a1d4bdd3145e5fec11094585f8d5e25',185,3920,3160,'SR','[妄想☆暴走★]喜多日菜子',14),
 	 ('3941f572ab28142e287098298b0dc886',188,3880,2840,'R+','[ｺﾚｸｼｮﾝｽﾀｲﾙ]三好紗南+',16),
-	 ('2ab75dd71457f0166f20c35cbd9e9a74',188,3780,3700,'R+','[宇宙のｴｰｽ]三好紗南+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2ab75dd71457f0166f20c35cbd9e9a74',188,3780,3700,'R+','[宇宙のｴｰｽ]三好紗南+',19),
 	 ('008dfb4279896adf547835f3f11a408f',188,6420,4600,'SR','[ﾐｯｼｮﾝ☆ｺﾝﾌﾟﾘｰﾄ]三好紗南',24),
-	 ('dca3fed6718b0a88528a6c1482136d79',188,7704,5520,'SR+','[ﾐｯｼｮﾝ☆ｺﾝﾌﾟﾘｰﾄ]三好紗南+',25),
+	 ('dca3fed6718b0a88528a6c1482136d79',188,7704,5520,'SR+','[ﾐｯｼｮﾝ☆ｺﾝﾌﾟﾘｰﾄ]三好紗南+',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b846ca20d60def0f3b6d9164fc6b48f0',188,7960,6280,'SR','[絆の共有者]三好紗南',30),
 	 ('18a54553fb93171f9624e4ee2d8b6412',188,9216,9048,'SR+','[ﾊｲｽｺｱ☆ﾁｬﾚﾝｼﾞ]三好紗南+',35),
 	 ('cd69885d092a98d204ca206665fd39fd',188,9216,9144,'SR+','[ｳｪｲｸ･ﾜﾝ･ｱｯﾌﾟ]三好紗南+',37),
@@ -1460,10 +1458,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8bf6d88f7be269f26ecc0a82120d6c0d',31,1272,1272,'R+','[ｺﾞｽﾍﾟﾙﾄﾞﾚｽ]相原雪乃+',3),
 	 ('3ea19a7a283d7ccf8d67ebcecb3e9b03',31,3900,2800,'R+','[ﾁｬｰﾐﾝｸﾞﾒｲﾄ]相原雪乃+',6),
 	 ('cf38d99062a9637022571c1f26584083',31,2520,2440,'R','[ﾀﾗﾝ･ｱﾌｪｰﾙ]相原雪乃',7),
-	 ('a68c0b41bacb7dfc6f6c3cbd65a08fe4',31,2220,3220,'R','[ｷｭﾘｵｽﾚﾃﾞｨ]相原雪乃',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a68c0b41bacb7dfc6f6c3cbd65a08fe4',31,2220,3220,'R','[ｷｭﾘｵｽﾚﾃﾞｨ]相原雪乃',9),
 	 ('347047c370cb38c9d6a418bdccadc94b',31,2664,3864,'R+','[ｷｭﾘｵｽﾚﾃﾞｨ]相原雪乃+',10),
-	 ('379f16f5b227b81c72e2ccc4994bc538',31,3560,4540,'SR','[ﾌﾘﾙﾄﾞｳｪｽﾀﾝ]相原雪乃',11),
+	 ('379f16f5b227b81c72e2ccc4994bc538',31,3560,4540,'SR','[ﾌﾘﾙﾄﾞｳｪｽﾀﾝ]相原雪乃',11);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2e42528040b5fad260f931b71e04f0f4',31,3340,2540,'SR','[ｴﾚｶﾞﾝﾄ･ﾛﾜｲﾔﾙ]相原雪乃',13),
 	 ('58a0923135a9fcd5da1cedc3ccace8ba',31,4008,3048,'SR+','[ｴﾚｶﾞﾝﾄ･ﾛﾜｲﾔﾙ]相原雪乃+',14),
 	 ('b19bd4403fc12200e4ebb45a72a949bf',31,4240,4360,'SR','[笑門福来]相原雪乃',15),
@@ -1471,10 +1469,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('101a6b754f02d297fac368dd7644cc16',183,1680,1680,'R+','市原仁奈+',1),
 	 ('5c393f00c7cca8fffb369c91099f15d4',183,6336,4416,'SR+','[にゅｰきぐるみ]市原仁奈+',11),
 	 ('a79bdcc89bd7b9fdcd59f0c3e42caddc',183,5180,5080,'SR','[にゅｰいやｰ]市原仁奈',14),
-	 ('6b7b27756e32560ebd97a01021ce4b9d',183,2952,3672,'SR+','[CDﾃﾞﾋﾞｭｰ]市原仁奈+',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6b7b27756e32560ebd97a01021ce4b9d',183,2952,3672,'SR+','[CDﾃﾞﾋﾞｭｰ]市原仁奈+',17),
 	 ('1676fb40ccf5df3f3ee58a16e2cddae6',183,3000,2940,'SR','[わくわくきゃんぷ]市原仁奈',18),
-	 ('320a45ed640a34b288113d3745e88f70',183,3600,3528,'SR+','[わくわくきゃんぷ]市原仁奈+',19),
+	 ('320a45ed640a34b288113d3745e88f70',183,3600,3528,'SR+','[わくわくきゃんぷ]市原仁奈+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('89df1bfca5012ae06d8b214eedba6a73',183,6620,4820,'SR','[もふもふうぃんたｰ]市原仁奈',22),
 	 ('966af1bfc59670c22a6005a9ea61670d',183,7944,5784,'SR+','[もふもふうぃんたｰ]市原仁奈+',23),
 	 ('18197892c34249d75d985645aec8e49f',183,5920,5900,'SR','[わんつｰ☆ﾏｰﾁﾝｸﾞ]市原仁奈',24),
@@ -1482,10 +1480,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f63941ccd79f748e2f72b8149c0edff8',183,9072,6960,'SR+','[のびのびちっく]市原仁奈+',29),
 	 ('d571335b6d27b5c039dc22607030da30',183,7020,4800,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]市原仁奈',32),
 	 ('3f31ce9061a4c463a90da3bdaef13778',183,8424,5760,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]市原仁奈+',33),
-	 ('6e35b42e385c8c1ba43173498fb1e76f',153,3040,2040,'R','[浴衣祭り]及川雫',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6e35b42e385c8c1ba43173498fb1e76f',153,3040,2040,'R','[浴衣祭り]及川雫',4),
 	 ('bb05e3e826f6b264c9b9fab8920f40ca',153,3288,3240,'R+','[ﾐﾙｷｰB.B]及川雫+',7),
-	 ('f3339d2dacbd08cab3248fed296c152e',153,2920,2060,'R','[ﾋﾞｰﾁｶﾞｰﾙ･S]及川雫',10),
+	 ('f3339d2dacbd08cab3248fed296c152e',153,2920,2060,'R','[ﾋﾞｰﾁｶﾞｰﾙ･S]及川雫',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('330125851af71481cec10cd6c08ead5d',153,3504,2472,'R+','[ﾋﾞｰﾁｶﾞｰﾙ･S]及川雫+',11),
 	 ('7ce85c1cb569dab668f55c5019084f36',153,6288,4584,'SR+','[愛の癒し系]及川雫+',18),
 	 ('04b085f6025a0db0dd34223ff1ecefbd',153,5360,3960,'SR','[癒しの満月]及川雫',19),
@@ -1493,10 +1491,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bbbfa253851f09e73d360a8d7e870e8c',153,6720,4960,'SR','[実りの季節]及川雫',27),
 	 ('8f67ec464f14c69c9abff99d4e5c4eae',153,7800,7752,'SR+','[ﾊﾞｳﾝｼｰﾗｳﾝﾄﾞ]及川雫+',30),
 	 ('f8c1ba4f70188487a8d1f69256e28bec',153,9120,7128,'SR+','[ひんやり超大作]及川雫+',32),
-	 ('e5e4bc670595ca8099cd9516aab0f96f',153,9624,7560,'SR+','[愛情しぼりたて]及川雫+',34);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e5e4bc670595ca8099cd9516aab0f96f',153,9624,7560,'SR+','[愛情しぼりたて]及川雫+',34),
 	 ('340ab00d64a6d94dfc46bdc4ceb2cc5f',197,2448,1872,'R+','佐藤心+',1),
-	 ('5041107d9f74a0719ed4c66d7945f270',165,3000,1800,'R','[浴衣祭り]浜川愛結奈',2),
+	 ('5041107d9f74a0719ed4c66d7945f270',165,3000,1800,'R','[浴衣祭り]浜川愛結奈',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e82a880bb685e3fd108f1720cdc27959',165,2700,2680,'R','[ｻﾏｰｶﾞｰﾙ]浜川愛結奈',13),
 	 ('dec1007c6dc06d01e61a7bf2ff65e44b',165,3780,3700,'R+','[ﾊｲｶﾗｶﾞﾝﾅｰ]浜川愛結奈+',15),
 	 ('a0eeed80ba2aaa6504ee0cf77521bedb',165,2560,2400,'R','[ﾄｷﾒｷﾌﾞﾗｲﾀﾞﾙ]浜川愛結奈',16),
@@ -1504,10 +1502,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('793ec38f8b533bb37b67cb20c09f5b8a',165,3432,3120,'R+','[ｹﾞﾚﾝﾃﾞの美女]浜川愛結奈+',27),
 	 ('191714b1a00287365e7f2c3e63d1fa90',165,3864,2544,'R+','[ﾀﾞｲﾅﾐｯｸｽﾀｲﾙ]浜川愛結奈+',29),
 	 ('6a3760f4ae142edb4fa79c55c0711f16',5,2060,1480,'R','[ﾊｯﾋﾟｰﾊﾞﾚﾝﾀｲﾝ]椎名法子',4),
-	 ('5bd608ecda1c88289f543f740fa31798',5,4032,2568,'R+','[ｽｸｰﾙｶﾞｰﾙ]椎名法子+',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5bd608ecda1c88289f543f740fa31798',5,4032,2568,'R+','[ｽｸｰﾙｶﾞｰﾙ]椎名法子+',11),
 	 ('df0842fcb37dca93468e740e24134f38',5,2720,2740,'R','[なかよし☆ﾄﾞｰﾅｯﾂ]椎名法子',12),
-	 ('53aa3e20e3981711db5c1c9c00490217',5,3864,2760,'R+','[ﾊｲｶﾗｶﾞｰﾙ]椎名法子+',15),
+	 ('53aa3e20e3981711db5c1c9c00490217',5,3864,2760,'R+','[ﾊｲｶﾗｶﾞｰﾙ]椎名法子+',15);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6639dfcca711df063ea40a7e8e423a5d',5,4840,3400,'SR','[ﾄﾞｰﾅｯﾂ☆ﾏｰﾒｲﾄﾞ]椎名法子',18),
 	 ('c5686d14889a1c7a421a38304dc8f88c',5,5808,4080,'SR+','[ﾄﾞｰﾅｯﾂ☆ﾏｰﾒｲﾄﾞ]椎名法子+',19),
 	 ('7a53687160966f6fc639e8581c961d45',5,5880,4380,'SR','[目覚めし勇者]椎名法子',20),
@@ -1515,10 +1513,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c6e0e9ac726d8b09a19f833255f8ca38',5,6380,6340,'SR','[できたてｼｭｶﾞｰ]椎名法子',26),
 	 ('6e42fd90357609b6d27c0afa237f117b',5,7656,7608,'SR+','[できたてｼｭｶﾞｰ]椎名法子+',27),
 	 ('e8c9cfc4df7eb7ec9c972cb36b94c6fa',5,9300,9300,'SR','[8thｱﾆﾊﾞｰｻﾘｰ･S]椎名法子',36),
-	 ('9507ea7c5b9d356fbde6f8465e2fa164',5,9300,9300,'SR+','[8thｱﾆﾊﾞｰｻﾘｰ･S]椎名法子+',37);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9507ea7c5b9d356fbde6f8465e2fa164',5,9300,9300,'SR+','[8thｱﾆﾊﾞｰｻﾘｰ･S]椎名法子+',37),
 	 ('4d2e995945e069c1c219d6c6b45edfce',17,1100,900,'N','長富蓮実',0),
-	 ('6ab4b420570dd2342cb8807d5adcf179',17,1840,1380,'R','[ｼｬｲﾆｰﾋﾞｰﾁ]長富蓮実',4),
+	 ('6ab4b420570dd2342cb8807d5adcf179',17,1840,1380,'R','[ｼｬｲﾆｰﾋﾞｰﾁ]長富蓮実',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2c885ccae440c5c059ee8098121b620c',17,3696,2544,'R+','[ｳｫｰﾐﾝｸﾞﾌﾗﾜｰ]長富蓮実+',9),
 	 ('9820c330da30a1f41d14f220a384af70',17,2940,2100,'R','[ﾌｪﾘｰﾁｪ･ﾁｮｺﾗｰﾀ]長富蓮実',10),
 	 ('c5cd49f83efb6b86adf40f3ab137f835',17,3260,2180,'R','[手のひらの憧れ]長富蓮実',12),
@@ -1526,10 +1524,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('cd8477548a634299e065cc223b70eb74',17,8016,5664,'SR+','[ｺｰﾙ･ﾐｰ･ﾒｲﾋﾞｰ]長富蓮実+',19),
 	 ('7784bc00fbe28a0288bcb1c76a87878c',17,9750,9550,'SR+','[異国のほほえみ]長富蓮実+',25),
 	 ('b9e2f6db7e3b84a0319b31c875323c03',27,1032,1776,'N+','一ﾉ瀬志希+',1),
-	 ('df09853dd69726803c595f8a99e084fb',27,3220,2200,'R','[ﾐﾗｸﾙｷｭｱｰ]一ﾉ瀬志希',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('df09853dd69726803c595f8a99e084fb',27,3220,2200,'R','[ﾐﾗｸﾙｷｭｱｰ]一ﾉ瀬志希',8),
 	 ('aa3d9312403ed3e40e7f92b771676ea9',27,3000,3672,'SR+','[CDﾃﾞﾋﾞｭｰ]一ﾉ瀬志希+',17),
-	 ('f4add4b54fc6ff462caf154441e049cf',27,6460,4540,'SR','[夜の匂い]一ﾉ瀬志希',18),
+	 ('f4add4b54fc6ff462caf154441e049cf',27,6460,4540,'SR','[夜の匂い]一ﾉ瀬志希',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('44b0359478c5fbc5a8dcb0d7d91a3776',27,6460,6420,'SR','[新春ﾊﾟﾙﾌｧﾑ]一ﾉ瀬志希',20),
 	 ('72d55843964f96936428ae58e3f38277',27,7800,7540,'SR','[＝ME? or…]一ﾉ瀬志希',30),
 	 ('151acd77d2529e360f319cd1b40b038b',27,10488,7848,'SR+','[ﾌﾛｰﾗﾙｽﾀｰ]一ﾉ瀬志希+',35),
@@ -1537,10 +1535,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('eebfb715a3029f2e64c7127188fe05a8',125,2840,2620,'R','[ﾗﾌﾞﾘｰﾒｲﾄﾞ]松尾千鶴',9),
 	 ('af9bfa83d7b23c199747d652a625b6fb',125,2840,2660,'R','[ﾌｪﾘｰﾁｪ･ﾁｮｺﾗｰﾀ]松尾千鶴',11),
 	 ('32d76086494821219e8e969ce1995df3',125,2180,3220,'R','[ｶﾞｰﾘｰｵﾈｽﾄ]松尾千鶴',13),
-	 ('9a0f0835a438f5d4013a84b532afe2e2',141,1760,1360,'R','[ｽﾎﾟｰﾂ祭]沢田麻理菜',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9a0f0835a438f5d4013a84b532afe2e2',141,1760,1360,'R','[ｽﾎﾟｰﾂ祭]沢田麻理菜',2),
 	 ('ca24c8bd42c3d13dbfa7557b1c1372eb',141,1740,3180,'R','[ﾊｯﾋﾟｰｳｪﾃﾞｨﾝｸﾞ]沢田麻理菜',6),
-	 ('96d272441983405ba34c23b46e6c2227',141,3792,2736,'R+','[ｳｫｰﾐｰﾘｯﾌﾟﾙ]沢田麻理菜+',9),
+	 ('96d272441983405ba34c23b46e6c2227',141,3792,2736,'R+','[ｳｫｰﾐｰﾘｯﾌﾟﾙ]沢田麻理菜+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2c3ff03cbadf8efa3f71ad6b7612ca08',141,3408,2424,'R+','[ﾌｧﾝｻｰｷｯﾄ]沢田麻理菜+',11),
 	 ('983cae3294b4064433b11698c624e6c3',141,3336,3288,'R+','[ｻﾝﾃﾞｨｰﾋﾞｰﾁ]沢田麻理菜+',13),
 	 ('c908f6fbdc042fbc50430d13a69a3057',141,4160,4260,'SR','[ｸﾞﾙｰﾋﾞｰ･ﾛﾜｲﾔﾙ]沢田麻理菜',16),
@@ -1548,10 +1546,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e27a43d681805008f55469904c953aca',141,4940,3900,'SR','[ﾌﾛｰｽﾞﾝﾀﾞﾝｻｰ]沢田麻理菜',20),
 	 ('9faa36546b9144e9a2a4392587b9d603',141,8016,7968,'SR+','[ｼｬｲﾝｴｽｺｰﾄ]沢田麻理菜+',23),
 	 ('17012b82b05a5f9c7a6f8d8fcaded847',141,4400,3000,'R+','[華麗なる術剣士]沢田麻理菜+',26),
-	 ('adadb3b14b7683de9c83013764926065',141,4008,2616,'R+','[ｴﾝｼﾞｮｲﾌﾚｯｼｭ]沢田麻理菜+',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('adadb3b14b7683de9c83013764926065',141,4008,2616,'R+','[ｴﾝｼﾞｮｲﾌﾚｯｼｭ]沢田麻理菜+',28),
 	 ('16c84938d5bc45ce243e3c42a00ca98f',183,1240,1560,'R','[ｱﾆﾏﾙﾊﾟｰｸ]市原仁奈',2),
-	 ('a6babedb100170e974c49456628b367f',183,4400,3000,'SR','[きぐるみもふもふ]市原仁奈',6),
+	 ('a6babedb100170e974c49456628b367f',183,4400,3000,'SR','[きぐるみもふもふ]市原仁奈',6);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5482291c15f4a0b26b81eac4702b255b',183,5280,3600,'SR+','[きぐるみもふもふ]市原仁奈+',7),
 	 ('18a4aaa5bcd5dc6fddd2d01ec7e0f526',183,5928,3936,'SR+','[うみのいきもの]市原仁奈+',9),
 	 ('9ce5c63b01d63ae3a72544427e599088',183,6216,6096,'SR+','[にゅｰいやｰ]市原仁奈+',15),
@@ -1559,10 +1557,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('190125c60157b1943b89c47e92fe6493',183,4380,4080,'SR','[うきうききゃんぷ]市原仁奈',20),
 	 ('fcad0b83c13c9d2ce611c181a8ac16f8',183,5256,4896,'SR+','[うきうききゃんぷ]市原仁奈+',21),
 	 ('ea3503c100442dae6d2bd0959a68046e',183,7104,7080,'SR+','[わんつｰ☆ﾏｰﾁﾝｸﾞ]市原仁奈+',25),
-	 ('6b23c2fa9aaa385717a346f4bbb6d6b6',183,6300,6260,'SR','[はるかぜぶんぶん]市原仁奈',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6b23c2fa9aaa385717a346f4bbb6d6b6',183,6300,6260,'SR','[はるかぜぶんぶん]市原仁奈',26),
 	 ('b6e8b7c274fcc70390cc9f510bb00e71',183,5060,5100,'SR','[きぐるみ･ﾛﾜｲﾔﾙ]市原仁奈',30),
-	 ('468816f4a3d5cadd5b5b8b5db2e0e70d',183,6072,6120,'SR+','[きぐるみ･ﾛﾜｲﾔﾙ]市原仁奈+',31),
+	 ('468816f4a3d5cadd5b5b8b5db2e0e70d',183,6072,6120,'SR+','[きぐるみ･ﾛﾜｲﾔﾙ]市原仁奈+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('15dc9fe6a208051df8d111b7aa7345eb',183,7300,7260,'SR','[ともだちたくさん]市原仁奈',34),
 	 ('71e3d7878abc8e6c634c41f6df3dccea',183,5180,5040,'SR','[ふしぎなぼうけん]市原仁奈',37),
 	 ('d304d26764eb5914d1606e6472105e87',183,8400,6560,'SR','[きらきらのせかい]市原仁奈',38),
@@ -1570,10 +1568,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c9e9b869be6e4d8b500f800793636dce',197,2600,1920,'R','[T.B.ｽｳｨｰﾃｨｰ]佐藤心',2),
 	 ('e1488e5ae3ac05066a970d9944e8a3a9',197,2112,3888,'R+','[ﾜｰｷﾝｸﾞ･ｽｳｨｰﾃｨｰ]佐藤心+',6),
 	 ('e4312ec25c1a71e1e6a6f813ee481471',197,5900,4260,'SR','[えんじぇるはぁと]佐藤心',13),
-	 ('70d4fbc5a0fdde7d00431fcebd27ef00',197,6320,4600,'SR','[はぁとの嫁入り]佐藤心',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('70d4fbc5a0fdde7d00431fcebd27ef00',197,6320,4600,'SR','[はぁとの嫁入り]佐藤心',15),
 	 ('6c4b16f4c3351cd74d4f757ba7e67a5e',197,5040,5256,'SR+','[ｽｳｨｰﾃｨｰ･ﾛﾜｲﾔﾙ]佐藤心+',18),
-	 ('00a73075d65a7d0c56ceef9dd11c7a06',197,8136,5928,'SR+','[常夏ﾊﾟﾗﾀﾞｲｽ]佐藤心+',20),
+	 ('00a73075d65a7d0c56ceef9dd11c7a06',197,8136,5928,'SR+','[常夏ﾊﾟﾗﾀﾞｲｽ]佐藤心+',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b1fbfcd06f67af156d9c66e617fab6b5',197,11700,11350,'SR','[6thｱﾆﾊﾞｰｻﾘｰ･S]佐藤心',23),
 	 ('4461aa5bd53fc26b4df7a8ef2862ad0a',197,8280,8184,'SR+','[ふぉｰりんはぁと]佐藤心+',26),
 	 ('5e319586d22bcd20960cd18630bf7f11',197,8736,8712,'SR+','[新春はぁとふる]佐藤心+',28),
@@ -1581,10 +1579,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('eebc454842b132d670dbba8a80e3f55a',197,8580,6780,'SR','[ﾒﾘｸﾘ☆ﾊｰﾄ]佐藤心',33),
 	 ('da62089ea524fd4255801e539746c146',165,3600,2160,'R+','[浴衣祭り]浜川愛結奈+',3),
 	 ('1c2b58322ae59b405e3147536884ac99',165,3600,2376,'R+','[ｴﾚｶﾞﾝﾄJKT]浜川愛結奈+',5),
-	 ('3c1c4486f502c31f1da9502917400d14',165,3120,2304,'R+','[ﾋﾞｰﾁｻｲﾄﾞ]浜川愛結奈+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3c1c4486f502c31f1da9502917400d14',165,3120,2304,'R+','[ﾋﾞｰﾁｻｲﾄﾞ]浜川愛結奈+',7),
 	 ('53b5cd0bd501f09c4c6a209b3b2ef963',165,3912,2712,'R+','[ｼﾞｮｯｷｰｽﾀｲﾙ]浜川愛結奈+',9),
-	 ('098b55088316d0bd6eb28bdea008654d',165,2260,3200,'R','[自信の裏側]浜川愛結奈',11),
+	 ('098b55088316d0bd6eb28bdea008654d',165,2260,3200,'R','[自信の裏側]浜川愛結奈',11);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ed6aeeec0997ee6943d1791c228c1ec7',6,600,600,'N','今井加奈',0),
 	 ('62618351b0bcde86f002c3bcec730148',6,2500,1920,'R','[ｸﾘｽﾏｽﾊﾟｰﾃｨｰ]今井加奈',4),
 	 ('721cc7394dc5b4e9eb376993a5b673b2',6,2940,2140,'R','[名湯探訪]今井加奈',8),
@@ -1592,10 +1590,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2443422535f988e8e6a19e358b7232df',17,1320,1080,'N+','長富蓮実+',1),
 	 ('6455518732d768b065bbd827ec98b400',17,3080,2120,'R','[ｳｫｰﾐﾝｸﾞﾌﾗﾜｰ]長富蓮実',8),
 	 ('49f0f052f1dae481fa53872899b098ed',17,3528,2520,'R+','[ﾌｪﾘｰﾁｪ･ﾁｮｺﾗｰﾀ]長富蓮実+',11),
-	 ('749918764164a20ffd9548b6e3329cb7',27,2460,1860,'R','[ｶﾞﾝｽﾘﾝｶﾞｰ]一ﾉ瀬志希',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('749918764164a20ffd9548b6e3329cb7',27,2460,1860,'R','[ｶﾞﾝｽﾘﾝｶﾞｰ]一ﾉ瀬志希',2),
 	 ('27fa9a5d9820c3587dfed43d52d01d93',27,3864,2640,'R+','[ﾐﾗｸﾙｷｭｱｰ]一ﾉ瀬志希+',9),
-	 ('fdf5b5e967d72bb2b7acf1b43953dbd2',27,2500,3060,'SR','[CDﾃﾞﾋﾞｭｰ]一ﾉ瀬志希',16),
+	 ('fdf5b5e967d72bb2b7acf1b43953dbd2',27,2500,3060,'SR','[CDﾃﾞﾋﾞｭｰ]一ﾉ瀬志希',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('abe06fbcf68900a285b0f2244403214e',27,7752,5448,'SR+','[夜の匂い]一ﾉ瀬志希+',19),
 	 ('3f7c71119ba2d2a52eea91026bf64741',27,9048,7104,'SR+','[ﾄﾞﾗﾏﾁｯｸｼﾅｼﾞｰ]一ﾉ瀬志希+',23),
 	 ('924ba34f567420135c3dce1cec0bee40',27,9672,7752,'SR+','[紅匂ふ秋]一ﾉ瀬志希+',27),
@@ -1603,10 +1601,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5fa39e583d32f69301740b638da55ccd',125,3180,2500,'R+','[ﾈｸｽﾄｽﾀｰI.C]松尾千鶴+',6),
 	 ('7a9ba0f7ded5e0bfd49c5ce5f7190ce7',125,3408,3144,'R+','[ﾗﾌﾞﾘｰﾒｲﾄﾞ]松尾千鶴+',10),
 	 ('e7dd22bc2f19ee2b07e113894d4c8605',125,3408,3192,'R+','[ﾌｪﾘｰﾁｪ･ﾁｮｺﾗｰﾀ]松尾千鶴+',12),
-	 ('7a8a0d1bb3a09c97d125ea87ee8c0e33',125,2460,2900,'R','[ﾛｼｱﾝｸｯｷﾝｸﾞ･S]松尾千鶴',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7a8a0d1bb3a09c97d125ea87ee8c0e33',125,2460,2900,'R','[ﾛｼｱﾝｸｯｷﾝｸﾞ･S]松尾千鶴',17),
 	 ('6be36c841286361dee0ab1ec7aabe3e0',125,3624,2760,'SR+','[素顔の幸せ]松尾千鶴+',20),
-	 ('7d1819de186cf8f9528fca6f1d4aa39a',125,5592,5544,'SR+','[乙女の晴れ舞台]松尾千鶴+',22),
+	 ('7d1819de186cf8f9528fca6f1d4aa39a',125,5592,5544,'SR+','[乙女の晴れ舞台]松尾千鶴+',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2fc6d78808a0fc99c2f87af1b407a0bc',125,3888,2760,'SR+','[ﾎﾟｯﾌﾟ･ﾓﾃﾞﾙ]松尾千鶴+',24),
 	 ('2f9882ba5bf9bf2a98e4c9f6be3bb4d0',141,2112,1632,'R+','[ｽﾎﾟｰﾂ祭]沢田麻理菜+',3),
 	 ('6bc46ded8c72c0dcf0c755cf1030fd32',141,2904,2592,'R+','[素顔のお姉さん]沢田麻理菜+',5),
@@ -1614,10 +1612,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('15ee9f0c9ebcc5d43e060efb4cc379df',141,2840,2020,'R','[ﾌｧﾝｻｰｷｯﾄ]沢田麻理菜',10),
 	 ('eb09240cde51e95274439a0fe9798a8b',141,2780,2740,'R','[ｻﾝﾃﾞｨｰﾋﾞｰﾁ]沢田麻理菜',12),
 	 ('f1d924650d28a57e713a8bf1acacaa54',141,4032,5376,'SR+','[ｾｸｼｰｻｰﾌｧｰ]沢田麻理菜+',15),
-	 ('1714cda17ded0f8215ee4c0f217a2c91',141,5928,4680,'SR+','[ﾌﾛｰｽﾞﾝﾀﾞﾝｻｰ]沢田麻理菜+',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1714cda17ded0f8215ee4c0f217a2c91',141,5928,4680,'SR+','[ﾌﾛｰｽﾞﾝﾀﾞﾝｻｰ]沢田麻理菜+',21),
 	 ('cdcc8876937ad8cc8ae4ad0e215b2244',141,6360,5136,'SR+','[ｱﾃﾝﾃｨﾌﾞﾁｱｰ]沢田麻理菜+',25),
-	 ('373178c8cac8f998af6b1b10e5b65754',183,1488,1872,'R+','[ｱﾆﾏﾙﾊﾟｰｸ]市原仁奈+',3),
+	 ('373178c8cac8f998af6b1b10e5b65754',183,1488,1872,'R+','[ｱﾆﾏﾙﾊﾟｰｸ]市原仁奈+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a5eb9579a8a4bb7ae8d334d1d744e2d2',183,3984,2640,'R+','[名月うさぎ]市原仁奈+',5),
 	 ('c4d48bdb3ffa6f6d408619a0a34fe9f4',183,4940,3280,'SR','[うみのいきもの]市原仁奈',8),
 	 ('78df21dcef6a0526a64a6d9cac16b48c',154,1440,1200,'N+','小関麗奈+',1),
@@ -1625,10 +1623,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fe7d620ce56df7c02ee7e73ed787dab5',154,8328,8280,'SR+','[ﾀｲﾃﾞｨｰﾉｰﾃｨ]小関麗奈+',33),
 	 ('6fae58f558b1d16482d71119741f9e32',154,3936,2712,'R+','[新年晴姿]小関麗奈+',35),
 	 ('97f9fb8f9bf728f75d26d1c22f49477c',197,3120,2304,'R+','[T.B.ｽｳｨｰﾃｨｰ]佐藤心+',3),
-	 ('6385fb5d76d87acc8a5ba8595a7acf6d',197,1760,3240,'R','[ﾜｰｷﾝｸﾞ･ｽｳｨｰﾃｨｰ]佐藤心',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6385fb5d76d87acc8a5ba8595a7acf6d',197,1760,3240,'R','[ﾜｰｷﾝｸﾞ･ｽｳｨｰﾃｨｰ]佐藤心',5),
 	 ('b4f0b6752da23051ae62d105fd8e635a',197,3360,3240,'R+','[ﾁｸｯとｽｳｨｰﾃｨｰ]佐藤心+',8),
-	 ('44f999f95a88e0041b321292f5db456c',197,3480,3216,'SR+','[ﾊｰﾄ･ﾓﾃﾞﾙ]佐藤心+',10),
+	 ('44f999f95a88e0041b321292f5db456c',197,3480,3216,'SR+','[ﾊｰﾄ･ﾓﾃﾞﾙ]佐藤心+',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('fdf75acee757844ae1c7ec62cc122b95',197,5016,5040,'SR+','[ﾊｰﾄ･ﾓﾃﾞﾙ･S]佐藤心+',12),
 	 ('789f1a503d40faaf26a0035c6cc3c407',197,7080,5112,'SR+','[えんじぇるはぁと]佐藤心+',14),
 	 ('f5507a6ede55324eade6917c61cf9d95',197,7584,5520,'SR+','[はぁとの嫁入り]佐藤心+',16),
@@ -1636,10 +1634,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7b3d60bcbd0adbcb23aeb91978ccd35c',197,4340,3460,'SR','[6thｱﾆﾊﾞｰｻﾘｰ]佐藤心',21),
 	 ('89089263c863f9be59d2c331bc2f802b',197,11700,11350,'SR+','[6thｱﾆﾊﾞｰｻﾘｰ･S]佐藤心+',24),
 	 ('9dc3e41438c2755677a70f049af9dad8',197,7280,7260,'SR','[新春はぁとふる]佐藤心',27),
-	 ('c1f1c7b9a8f5a2dd45a5c3c57f1201f7',197,8600,6760,'SR','[夏色はぁと]佐藤心',29);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c1f1c7b9a8f5a2dd45a5c3c57f1201f7',197,8600,6760,'SR','[夏色はぁと]佐藤心',29),
 	 ('e84cc9a8257508be1e29d0443da75cb1',197,9288,9216,'SR+','[ｽｳｨｰﾃｨｰ･ﾆｭｰｲﾔｰ]佐藤心+',32),
-	 ('18303720c0d458d42f75000b7a801f94',165,3000,1980,'R','[ｴﾚｶﾞﾝﾄJKT]浜川愛結奈',4),
+	 ('18303720c0d458d42f75000b7a801f94',165,3000,1980,'R','[ｴﾚｶﾞﾝﾄJKT]浜川愛結奈',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('fb666de8cb248a5cb534465aad1a1ee6',165,2600,1920,'R','[ﾋﾞｰﾁｻｲﾄﾞ]浜川愛結奈',6),
 	 ('a0e1b3d2ecd96234e3477d67e302d240',165,3260,2260,'R','[ｼﾞｮｯｷｰｽﾀｲﾙ]浜川愛結奈',8),
 	 ('9db33f824b8d4ecb038436a2e7399d57',165,3480,3240,'R+','[ｸｯｷﾝｸﾞﾊﾞﾗｴﾃｨ]浜川愛結奈+',10),
@@ -1647,10 +1645,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bd8544d7fee8e557f5b223836d20ff0d',165,3880,4080,'SR','[ｾｸｼｰﾃﾞｨｰｳﾞｧ]浜川愛結奈',18),
 	 ('688413c83d5f09927ee6ab46b0247988',165,3220,2360,'SR','[ﾊﾟﾅｼｪ･ﾛﾜｲﾔﾙ]浜川愛結奈',20),
 	 ('0ff15c0dd87a8d2bed9916f45007d884',165,3864,2832,'SR+','[ﾊﾟﾅｼｪ･ﾛﾜｲﾔﾙ]浜川愛結奈+',21),
-	 ('49215f037df9340f7be223ddbe619177',165,8976,6912,'SR+','[ｱｰﾊﾞﾝｽﾃｨｰﾄﾞ]浜川愛結奈+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('49215f037df9340f7be223ddbe619177',165,8976,6912,'SR+','[ｱｰﾊﾞﾝｽﾃｨｰﾄﾞ]浜川愛結奈+',25),
 	 ('bef80e074429398250e6b9e42c5439de',165,3220,2120,'R','[ﾀﾞｲﾅﾐｯｸｽﾀｲﾙ]浜川愛結奈',28),
-	 ('f3f2597ca67e9fc3058a86fc5394c6ef',6,720,720,'N+','今井加奈+',1),
+	 ('f3f2597ca67e9fc3058a86fc5394c6ef',6,720,720,'N+','今井加奈+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2f5762635183f75a5be435de3a0c58b4',6,2352,2496,'R+','[ﾌﾗﾜｰｶﾞｰﾃﾞﾝ]今井加奈+',7),
 	 ('21cbe674f4e044fc02ea66304fd563e4',6,3528,2568,'R+','[名湯探訪]今井加奈+',9),
 	 ('b3f7f977204777e72293d54969efd9b4',6,2460,2900,'R','[名湯探訪･S]今井加奈',10),
@@ -1658,10 +1656,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5d1e7b399154bdf492febc326a51a8bb',6,5424,3456,'SR+','[ﾌｧﾝｼｰｶﾞｰﾙ]今井加奈+',15),
 	 ('2c5a5b78471f6d6c40dbe61cd3e9900d',6,4180,4220,'SR','[こぼれるｽﾏｲﾙ]今井加奈',16),
 	 ('5f9fdc0febde1ca6beb90cfdbb90f565',17,1700,1940,'R','[湯けむり温泉]長富蓮実',2),
-	 ('955aa295eb3a76e87605c67cc2042b9e',17,3312,2448,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]長富蓮実+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('955aa295eb3a76e87605c67cc2042b9e',17,3312,2448,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]長富蓮実+',7),
 	 ('23e7989e812ce2c789242acd8b1d8472',17,4000,4020,'SR','[ﾌｨｰﾁｬｰｽｲｰﾄﾋﾟｰ]長富蓮実',14),
-	 ('56070f7414e85b8412e83ccc0c78184a',17,3140,3220,'SR','[素肌のﾁｱｰ]長富蓮実',16),
+	 ('56070f7414e85b8412e83ccc0c78184a',17,3140,3220,'SR','[素肌のﾁｱｰ]長富蓮実',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('416e3e705b08bbf389a6f2f18f5c69d4',17,6680,4720,'SR','[ｺｰﾙ･ﾐｰ･ﾒｲﾋﾞｰ]長富蓮実',18),
 	 ('f4295bc7074c7b4dc3ca5344e19c064d',17,5360,4220,'SR','[心染まる季節]長富蓮実',20),
 	 ('6bf2200201bd219871ef7e8acb60d947',17,4460,3360,'SR','[異国のぬくもり]長富蓮実',22),
@@ -1669,10 +1667,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e9ef400d688dd7d44bcc27488afbc8a1',17,2200,3320,'R','[ﾃﾞｲﾄﾚｽﾋﾟｰｽ]長富蓮実',26),
 	 ('7201847b09966cda3c59783a6e910724',17,9192,9168,'SR+','[夜空に祈りを]長富蓮実+',29),
 	 ('06e634647cb9db3a1ae3cd4f0f8c1fdc',27,2952,2232,'R+','[ｶﾞﾝｽﾘﾝｶﾞｰ]一ﾉ瀬志希+',3),
-	 ('ae2a65d68ad26995c036e4a212c15f18',27,2928,3480,'R+','[ﾀﾞﾝｼﾝｸﾞｶﾞｰﾙ･S]一ﾉ瀬志希+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ae2a65d68ad26995c036e4a212c15f18',27,2928,3480,'R+','[ﾀﾞﾝｼﾝｸﾞｶﾞｰﾙ･S]一ﾉ瀬志希+',7),
 	 ('3055dffe2520e6a28427482ae61582e9',27,4620,4740,'SR','[ｾﾌﾞﾝｽﾍﾌﾞﾝ]一ﾉ瀬志希',10),
-	 ('403297028737ce2c944bfc812dba6c94',27,5680,4200,'SR','[ﾊﾟﾌｭｰﾑﾄﾘｯﾊﾟｰ]一ﾉ瀬志希',12),
+	 ('403297028737ce2c944bfc812dba6c94',27,5680,4200,'SR','[ﾊﾟﾌｭｰﾑﾄﾘｯﾊﾟｰ]一ﾉ瀬志希',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c827cb0a7ab82a4395250ab254d6fbcf',27,7632,5448,'SR+','[文明開花]一ﾉ瀬志希+',15),
 	 ('bb156a253fc247462a87b20eee8770f5',27,7752,7704,'SR+','[新春ﾊﾟﾙﾌｧﾑ]一ﾉ瀬志希+',21),
 	 ('b693bd0e54ba93faec0ea887d456197f',27,8180,6200,'SR','[花舞うﾄﾎﾟﾛｼﾞｰ]一ﾉ瀬志希',28),
@@ -1680,10 +1678,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0fa2b130740aac2e0c2a03514c384087',141,2420,2160,'R','[素顔のお姉さん]沢田麻理菜',4),
 	 ('7a53b24d9a77a46b09d23ffea844c323',141,3160,2280,'R','[ｳｫｰﾐｰﾘｯﾌﾟﾙ]沢田麻理菜',8),
 	 ('742203c0a8436f9ff6bdee1a338d0347',141,3360,4480,'SR','[ｾｸｼｰｻｰﾌｧｰ]沢田麻理菜',14),
-	 ('7ad648beefa0778eae89938851dc6e61',141,4992,5112,'SR+','[ｸﾞﾙｰﾋﾞｰ･ﾛﾜｲﾔﾙ]沢田麻理菜+',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7ad648beefa0778eae89938851dc6e61',141,4992,5112,'SR+','[ｸﾞﾙｰﾋﾞｰ･ﾛﾜｲﾔﾙ]沢田麻理菜+',17),
 	 ('ae593e0a2d8887e74430c883147e51f5',141,4128,3552,'SR+','[祝餐の淑女]沢田麻理菜+',19),
-	 ('533ec0cbd61a7c566fa4dc2115303b39',141,6680,6640,'SR','[ｼｬｲﾝｴｽｺｰﾄ]沢田麻理菜',22),
+	 ('533ec0cbd61a7c566fa4dc2115303b39',141,6680,6640,'SR','[ｼｬｲﾝｴｽｺｰﾄ]沢田麻理菜',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ca38c676da38dc80d4ae8b7a0498f381',141,5300,4280,'SR','[ｱﾃﾝﾃｨﾌﾞﾁｱｰ]沢田麻理菜',24),
 	 ('bb74147cd0e28c6673186a419972fd2a',141,3340,2180,'R','[ｴﾝｼﾞｮｲﾌﾚｯｼｭ]沢田麻理菜',27),
 	 ('3f6c44b2cb2180dfb673fead15e48a07',183,3320,2200,'R','[名月うさぎ]市原仁奈',4),
@@ -1691,10 +1689,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('81ce951e49b513921c0fc0aa91889e59',183,5000,4920,'SR','[きぐるみわｰく]市原仁奈',12),
 	 ('d8f0b946466ef70a0f705364696a8b09',183,6000,5904,'SR+','[きぐるみわｰく]市原仁奈+',13),
 	 ('ecf62dfcc35bf3ffa742772763c16702',183,7560,5800,'SR','[のびのびちっく]市原仁奈',28),
-	 ('9a395175ecd6df62d9e27736285c48fd',183,8760,8712,'SR+','[ともだちたくさん]市原仁奈+',35);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9a395175ecd6df62d9e27736285c48fd',183,8760,8712,'SR+','[ともだちたくさん]市原仁奈+',35),
 	 ('af05ea039ddafc64a772b66264dba456',183,6216,6048,'SR+','[ふしぎなぼうけん]市原仁奈+',36),
-	 ('c4cf19f6b581f37841a1fec06871c18f',183,10080,7872,'SR+','[きらきらのせかい]市原仁奈+',39),
+	 ('c4cf19f6b581f37841a1fec06871c18f',183,10080,7872,'SR+','[きらきらのせかい]市原仁奈+',39);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('14a463ebd0706f1db075f8cccb392178',154,1680,2560,'R','[ｲﾀｽﾞﾗっ子]小関麗奈',2),
 	 ('d89af5643544548c921520265fa69492',154,3144,3048,'R+','[ｲﾀｽﾞﾗｺﾞｼｯｸ]小関麗奈+',5),
 	 ('c48cd2738311b6a1f088e92adb23dab6',154,2940,2340,'R+','[魔女っ娘I.C]小関麗奈+',6),
@@ -1702,10 +1700,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3a09dcfe3af2d7bfba567bb4d0eba840',154,2952,3456,'R+','[ﾉﾙｳｪｰ紀行･S]小関麗奈+',12),
 	 ('037fba15808ccc155155baa5294fc88b',154,3264,3240,'R+','[ｽﾗｲﾘｰﾎﾞｽ]小関麗奈+',14),
 	 ('d13fdca2d55d09b223e4a9a896a780e9',154,2200,3260,'R','[ﾄﾗﾌﾞﾙｽﾀｰ]小関麗奈',16),
-	 ('cf9738e0a6277c8199423e64327f9a0b',154,4224,5016,'SR+','[ｽｸｰﾙﾃﾞﾋﾞﾙ]小関麗奈+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('cf9738e0a6277c8199423e64327f9a0b',154,4224,5016,'SR+','[ｽｸｰﾙﾃﾞﾋﾞﾙ]小関麗奈+',19),
 	 ('89154211f3d3df8c15937f18b01c8641',154,3180,2340,'SR','[ﾏｼﾞｶﾙｶﾞｰﾙ･ﾌﾚｲﾑ]小関麗奈',22),
-	 ('f1bdc15bec53fd74b3e11de6e3a77eab',154,3816,2808,'SR+','[ﾏｼﾞｶﾙｶﾞｰﾙ･ﾌﾚｲﾑ]小関麗奈+',23),
+	 ('f1bdc15bec53fd74b3e11de6e3a77eab',154,3816,2808,'SR+','[ﾏｼﾞｶﾙｶﾞｰﾙ･ﾌﾚｲﾑ]小関麗奈+',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3c37b1a01265b61ac9fe41f006a58536',154,7032,5232,'SR+','[ｲﾀｽﾞﾗ☆ｸｲｰﾝ]小関麗奈+',27),
 	 ('2c28f7721ac9396626a999e6339b2c88',154,3720,3180,'SR','[ﾗｲﾌﾞﾘｰｼﾞｮｰｶｰ]小関麗奈',30),
 	 ('cdceb0dfe0fec4db665891b8afbf6de4',154,7360,7340,'SR','[ﾜﾅﾋﾞｰﾃﾞﾋﾞﾙ]小関麗奈',36),
@@ -1713,10 +1711,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2d067cd983148c41ec37a279bfa8486d',197,2880,2760,'R+','[ﾈｸｽﾄｽﾀｰI.C]佐藤心+',4),
 	 ('7fce9acadfec04fbcaeffd38ee89a37c',197,2800,2700,'R','[ﾁｸｯとｽｳｨｰﾃｨｰ]佐藤心',7),
 	 ('694a57d1825e26a2132b02becd9912ed',197,2900,2680,'SR','[ﾊｰﾄ･ﾓﾃﾞﾙ]佐藤心',9),
-	 ('e35da96f170e1b96f8e95725f0134d1a',197,4180,4200,'SR','[ﾊｰﾄ･ﾓﾃﾞﾙ･S]佐藤心',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e35da96f170e1b96f8e95725f0134d1a',197,4180,4200,'SR','[ﾊｰﾄ･ﾓﾃﾞﾙ･S]佐藤心',11),
 	 ('494edfe064b8fb4d35d104020969742d',197,4200,4380,'SR','[ｽｳｨｰﾃｨｰ･ﾛﾜｲﾔﾙ]佐藤心',17),
-	 ('7ed3a6842560adc759e21fe7c0981e8f',197,5208,4152,'SR+','[6thｱﾆﾊﾞｰｻﾘｰ]佐藤心+',22),
+	 ('7ed3a6842560adc759e21fe7c0981e8f',197,5208,4152,'SR+','[6thｱﾆﾊﾞｰｻﾘｰ]佐藤心+',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e9ac9bff68255712d2a20cb190249455',197,6900,6820,'SR','[ふぉｰりんはぁと]佐藤心',25),
 	 ('77115e05051e5079b6dfb65eeb917f12',197,7740,7680,'SR','[ｽｳｨｰﾃｨｰ･ﾆｭｰｲﾔｰ]佐藤心',31),
 	 ('8e572241ed5b654dd6bca06c713408fa',197,10296,8136,'SR+','[ﾒﾘｸﾘ☆ﾊｰﾄ]佐藤心+',34),
@@ -1724,10 +1722,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5013bb8c3861ccf38077eb5222cb2282',168,3288,3264,'R+','[ﾊｲｶﾗｻｸﾗ]城ヶ崎莉嘉+',7),
 	 ('6ea43f0179614b007603260b8bdf8fe1',168,1440,1080,'SR','[CDﾃﾞﾋﾞｭｰ]城ヶ崎莉嘉',9),
 	 ('98998d4de666be93b4e9667965b80808',168,3520,3600,'SR','[ｶﾘｽﾏちびｷﾞｬﾙ]城ヶ崎莉嘉',11),
-	 ('59b6132bdb66f678941338690c3eca2f',168,4920,4440,'SR+','[ﾊｯﾋﾟｰ☆ｸﾘｽﾏｽ]城ヶ崎莉嘉+',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('59b6132bdb66f678941338690c3eca2f',168,4920,4440,'SR+','[ﾊｯﾋﾟｰ☆ｸﾘｽﾏｽ]城ヶ崎莉嘉+',14),
 	 ('b67b9f2b0751ff7104544f92e91151b9',168,7080,5208,'SR+','[ｳｨﾝﾀｰ☆ﾓｰﾄﾞ]城ヶ崎莉嘉+',20),
-	 ('efc88c60acb3ff739690c459246d436b',168,6816,6792,'SR+','[ちょこっと☆ｷﾞｬﾙ]城ヶ崎莉嘉+',27),
+	 ('efc88c60acb3ff739690c459246d436b',168,6816,6792,'SR+','[ちょこっと☆ｷﾞｬﾙ]城ヶ崎莉嘉+',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('44d249234243ecd62758f1119e59670e',168,7000,5360,'SR','[とびきり☆ﾆｭｰｲﾔｰ]城ヶ崎莉嘉',30),
 	 ('df3f785780e5f202c34a65b760fad499',168,7500,5900,'SR','[ﾊｼﾞｹﾙ☆ｻﾝｼｬｲﾝ]城ヶ崎莉嘉',32),
 	 ('a68d94b6138181e2b7680864608ae02d',168,9168,6864,'SR+','[ｽﾊﾟｰｸﾙ☆ｵﾝｱｲｽ]城ヶ崎莉嘉+',35),
@@ -1735,10 +1733,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('eb2f24f2e825a2a492e71d0424a2834e',168,5200,5020,'SR','[絆のﾒﾓﾘｰ☆]城ヶ崎莉嘉',40),
 	 ('0e2115b7d0c4b106d3f1609615100213',168,9240,9168,'SR+','[ｻｰｸﾙ☆ｵﾌﾞ☆ﾌﾚﾝｽﾞ]城ヶ崎莉嘉+',43),
 	 ('ba32b49a158314a1fca1cc2183fccd4b',6,2000,1800,'R','[ｽﾎﾟｰﾂ祭]今井加奈',2),
-	 ('898a7b7cee8c3554b096fb44fbf1c6e5',6,3000,2304,'R+','[ｸﾘｽﾏｽﾊﾟｰﾃｨｰ]今井加奈+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('898a7b7cee8c3554b096fb44fbf1c6e5',6,3000,2304,'R+','[ｸﾘｽﾏｽﾊﾟｰﾃｨｰ]今井加奈+',5),
 	 ('39fcd5305b6fdb6f8be8aca17d86458e',6,3840,2520,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]今井加奈+',13),
-	 ('21aafbfb633a28a9bd5a24f0e75efe80',6,2960,2960,'SR','[ﾌﾚﾝﾄﾞﾘｰﾁｱｰ]今井加奈',18),
+	 ('21aafbfb633a28a9bd5a24f0e75efe80',6,2960,2960,'SR','[ﾌﾚﾝﾄﾞﾘｰﾁｱｰ]今井加奈',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('436039c361c04185b59793ac385a5d82',6,6280,4540,'SR','[ｺｰﾗｽﾘｰﾀﾞｰ]今井加奈',20),
 	 ('9525aeca682cb5138adfad2b93165509',6,7656,5472,'SR+','[南国ﾊﾞｹｰｼｮﾝ]今井加奈+',23),
 	 ('d4bee022093890359552c612a72b9b89',6,5256,5352,'SR+','[ﾗｲｸｱﾊﾞｯﾄﾞｶﾞｰﾙ]今井加奈+',25),
@@ -1746,10 +1744,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('96616c8ff1a737fa3448016728c8737b',6,7260,7220,'SR','[ﾅﾁｭﾗﾙﾌﾞﾛｯｻﾑ]今井加奈',30),
 	 ('bd45e9f20cbcea1f7ad7a876d62dcc85',6,10224,7896,'SR+','[いやしのﾗｸﾞｰﾝ]今井加奈+',33),
 	 ('1515860fd22175a20c99d8007cf8faae',146,1080,720,'N','大槻唯',0),
-	 ('ca56d3f1c3dfddc86c3e2d5c12c12747',191,1080,740,'R','浜口あやめ',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ca56d3f1c3dfddc86c3e2d5c12c12747',191,1080,740,'R','浜口あやめ',0),
 	 ('20500acb55c3d5d486308c993316b64a',154,2016,3072,'R+','[ｲﾀｽﾞﾗっ子]小関麗奈+',3),
-	 ('822067804b45cef47ecf9c2a870d2338',154,3504,2544,'R+','[ﾉﾙｳｪｰ紀行]小関麗奈+',10),
+	 ('822067804b45cef47ecf9c2a870d2338',154,3504,2544,'R+','[ﾉﾙｳｪｰ紀行]小関麗奈+',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b8546cf7912612caf25933c15242f9e1',154,2460,2880,'R','[ﾉﾙｳｪｰ紀行･S]小関麗奈',11),
 	 ('1450cb40e9291f7b9da2581ab121abd3',154,2720,2700,'R','[ｽﾗｲﾘｰﾎﾞｽ]小関麗奈',13),
 	 ('1ea77064b2e69011cac2b271cea19e49',154,3100,2380,'SR','[ﾛﾜｲﾔﾙｼﾞｮｰｶｰ]小関麗奈',20),
@@ -1757,10 +1755,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('aeaa5782beec126061a02b18ddb73d77',154,4120,3940,'SR','[ﾏｼﾞｶﾙｶﾞｰﾙS･ﾌﾚｲﾑ]小関麗奈',24),
 	 ('e2a0fb6aa0a659039f7f426e68ba3d5b',154,5860,4360,'SR','[ｲﾀｽﾞﾗ☆ｸｲｰﾝ]小関麗奈',26),
 	 ('6f4015168a5dd90b7c312c398ea46a7b',154,6160,4620,'SR','[ﾏｰﾁﾝｸﾞ☆ﾗｳﾄﾞ]小関麗奈',28),
-	 ('ddf7d3e8d751523496c1bb75a1aa2124',200,1180,1160,'N','依田芳乃',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ddf7d3e8d751523496c1bb75a1aa2124',200,1180,1160,'N','依田芳乃',0),
 	 ('2e78f311230052d2ccf604dc941ebc8c',168,2760,1512,'R+','城ヶ崎莉嘉+',1),
-	 ('086e26928b30bbc058eb89c453157284',6,2400,2160,'R+','[ｽﾎﾟｰﾂ祭]今井加奈+',3),
+	 ('086e26928b30bbc058eb89c453157284',6,2400,2160,'R+','[ｽﾎﾟｰﾂ祭]今井加奈+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('78c348ee69a886457da80ac238317a5c',6,1960,2080,'R','[ﾌﾗﾜｰｶﾞｰﾃﾞﾝ]今井加奈',6),
 	 ('b8be7d4c484a73c2a972ada630d400ad',6,3200,2100,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]今井加奈',12),
 	 ('e84038818af54434a5dade1f5e257738',6,3552,3552,'SR+','[ﾌﾚﾝﾄﾞﾘｰﾁｱｰ]今井加奈+',19),
@@ -1768,10 +1766,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0d75122abd7d6be852284b94fbedf2ea',6,4380,4460,'SR','[ﾗｲｸｱﾊﾞｯﾄﾞｶﾞｰﾙ]今井加奈',24),
 	 ('db115e1ba38a17d275397d1b00513ddb',6,6920,5160,'SR','[ﾜﾝﾀﾞｰﾎｰﾘｰﾅｲﾄ]今井加奈',26),
 	 ('bfeabe8ce248029ca357f27def74126b',6,7520,5900,'SR','[まごころこめて]今井加奈',28),
-	 ('9b2063049abaf629250199fedba3fd2f',6,8712,8664,'SR+','[ﾅﾁｭﾗﾙﾌﾞﾛｯｻﾑ]今井加奈+',31);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9b2063049abaf629250199fedba3fd2f',6,8712,8664,'SR+','[ﾅﾁｭﾗﾙﾌﾞﾛｯｻﾑ]今井加奈+',31),
 	 ('3891aa855b3f5bc0974be8fc200edf5d',6,8520,6580,'SR','[いやしのﾗｸﾞｰﾝ]今井加奈',32),
-	 ('8253386575ab1a9138e7d522620e42a4',17,2040,2328,'R+','[湯けむり温泉]長富蓮実+',3),
+	 ('8253386575ab1a9138e7d522620e42a4',17,2040,2328,'R+','[湯けむり温泉]長富蓮実+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('81fcd084769a29d996613f500af1f511',17,2760,2040,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]長富蓮実',6),
 	 ('8bd62d14e7ae5a19612cb4f63e7bc910',27,3528,2520,'R+','[ﾀﾞﾝｼﾝｸﾞｶﾞｰﾙ]一ﾉ瀬志希+',5),
 	 ('46b8c7e64644fefca3f9c7836f2c8f40',27,2440,2900,'R','[ﾀﾞﾝｼﾝｸﾞｶﾞｰﾙ･S]一ﾉ瀬志希',6),
@@ -1779,10 +1777,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('be20e1ce2d5b116f0b9fecbecf298a48',27,6816,5040,'SR+','[ﾊﾟﾌｭｰﾑﾄﾘｯﾊﾟｰ]一ﾉ瀬志希+',13),
 	 ('af0f233de4c2dfbac1e5a8bf1768dcf6',27,6360,4540,'SR','[文明開花]一ﾉ瀬志希',14),
 	 ('0c124be126082f0e4dce8d404eb538dd',27,7540,5920,'SR','[ﾄﾞﾗﾏﾁｯｸｼﾅｼﾞｰ]一ﾉ瀬志希',22),
-	 ('dee9c4ef7a73af8209eb2f5e4024e0f2',27,7820,6140,'SR','[純白の化学式]一ﾉ瀬志希',24);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('dee9c4ef7a73af8209eb2f5e4024e0f2',27,7820,6140,'SR','[純白の化学式]一ﾉ瀬志希',24),
 	 ('2002e5edd75e141a883e9d93c4c5de5f',27,9384,7368,'SR+','[純白の化学式]一ﾉ瀬志希+',25),
-	 ('1622bfbb2378494857c6fca81bac6d63',27,8060,6460,'SR','[紅匂ふ秋]一ﾉ瀬志希',26),
+	 ('1622bfbb2378494857c6fca81bac6d63',27,8060,6460,'SR','[紅匂ふ秋]一ﾉ瀬志希',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f1def983dbaa47b2c3017643a48ca207',27,9816,7440,'SR+','[花舞うﾄﾎﾟﾛｼﾞｰ]一ﾉ瀬志希+',29),
 	 ('d080fa7055610e3a821e87ca1ffabe89',27,8420,6580,'SR','[ｲﾝﾋﾞﾃｰｼｮﾝ･ﾀﾞｲﾌﾞ]一ﾉ瀬志希',32),
 	 ('3f400d879ea41a6d09d71814b1760d31',27,10104,7896,'SR+','[ｲﾝﾋﾞﾃｰｼｮﾝ･ﾀﾞｲﾌﾞ]一ﾉ瀬志希+',33),
@@ -1790,10 +1788,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('44a8cbbd7175a5031b9c5d5a1b8df1e4',125,5184,4848,'SR+','[ﾎﾟｯﾌﾟ･ﾓﾃﾞﾙ･S]松尾千鶴+',26),
 	 ('49313322c5fd3c9bed6e752b20b7dcd9',125,7080,7032,'SR+','[一心入魂]松尾千鶴+',28),
 	 ('3747da2200d1fee8380842145ebb5940',125,4020,3840,'SR','[恥じらい桜乙女]松尾千鶴',29),
-	 ('981843c62010419ba465420262c9550f',187,2000,1200,'R','小松伊吹',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('981843c62010419ba465420262c9550f',187,2000,1200,'R','小松伊吹',0),
 	 ('220f83f980eec9c9351bed10645e0405',187,1536,2304,'R+','[ﾊｯﾋﾟｰﾊﾞﾚﾝﾀｲﾝ]小松伊吹+',5),
-	 ('fbbfc8130fff846c3e712282ca7f841b',187,1480,1740,'R','[ｽﾏｲﾙﾊﾞﾚﾝﾀｲﾝ]小松伊吹',6),
+	 ('fbbfc8130fff846c3e712282ca7f841b',187,1480,1740,'R','[ｽﾏｲﾙﾊﾞﾚﾝﾀｲﾝ]小松伊吹',6);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('66a35e542777658570fd3b0579538e63',187,1776,2088,'R+','[ｽﾏｲﾙﾊﾞﾚﾝﾀｲﾝ]小松伊吹+',7),
 	 ('3a15a87af190354ae89fca368b35b69e',134,160,240,'N','本田未央',0),
 	 ('59e76dff218b3cfd6f752c96020b77b9',134,2496,3120,'R+','[2ndｱﾆﾊﾞｰｻﾘｰ･ｽﾏｲﾙ]本田未央+',5),
@@ -1801,10 +1799,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e7dff1dc1ec6419e323c4816b8a85dcd',185,8904,6864,'SR+','[ﾌﾛｰﾃｨﾝｸﾞﾌｧﾝﾀｼﾞｰ]喜多日菜子+',25),
 	 ('1beebf9b3233b846d12097702e41778a',185,9768,7752,'SR+','[ﾌｧﾝｼｰﾎﾟﾘｽ]喜多日菜子+',30),
 	 ('eebf74831ddc6095a525d0162cdf05fb',185,8140,6460,'SR','[ﾌｧﾝｼｰﾎﾟﾘｽ]喜多日菜子',31),
-	 ('caa73baab8d257bdfee5787ca7eefe4b',185,8560,6480,'SR','[どうぞ､お手を…]喜多日菜子',34);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('caa73baab8d257bdfee5787ca7eefe4b',185,8560,6480,'SR','[どうぞ､お手を…]喜多日菜子',34),
 	 ('7e318d7290da68dd33c9c312042da379',188,4420,4040,'SR','[ﾋﾟｺﾋﾟｺ☆ｹﾞｰﾏｰ]三好紗南',20),
-	 ('8e9bd7c98e4c86491db3a28af15d607b',188,5660,3980,'SR','[ｹﾞｰﾑﾄｰｸﾅｲﾄ]三好紗南',22),
+	 ('8e9bd7c98e4c86491db3a28af15d607b',188,5660,3980,'SR','[ｹﾞｰﾑﾄｰｸﾅｲﾄ]三好紗南',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5caedbb13727f0afdd234d8e73a40a32',188,6432,6432,'SR+','[冒険者]三好紗南+',27),
 	 ('40db6313ec46a5238745541b279ce6a0',188,7160,5320,'SR','[ﾊﾟｰﾌｪｸﾄｹﾞｰﾏｰ]三好紗南',28),
 	 ('fde1780939dd4fd817c6a48c5fe558c1',188,3960,2448,'R+','[ﾌﾗﾜｰﾊﾟｰﾃｨｰ]三好紗南+',32),
@@ -1812,10 +1810,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fe1ec011929547cd07d17bfa91432bd3',31,620,940,'R','相原雪乃',0),
 	 ('13c9b6c8cc387ff80d3dd1197d827093',31,3040,2280,'R','[ｽｳｨｰﾄｽﾉｰ]相原雪乃',4),
 	 ('68945ac1a86d518a4ba0d7d3b6cf4242',31,3648,2736,'R+','[ｽｳｨｰﾄｽﾉｰ]相原雪乃+',5),
-	 ('110c4dcacd7c8645e9dd950465d5c451',31,3024,2928,'R+','[ﾀﾗﾝ･ｱﾌｪｰﾙ]相原雪乃+',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('110c4dcacd7c8645e9dd950465d5c451',31,3024,2928,'R+','[ﾀﾗﾝ･ｱﾌｪｰﾙ]相原雪乃+',8),
 	 ('b948b75ab52fd655f62eae3a3556e5ac',31,4272,5448,'SR+','[ﾌﾘﾙﾄﾞｳｪｽﾀﾝ]相原雪乃+',12),
-	 ('120b0acaa2c1419c3de79c1e6ef6890a',146,1296,864,'N+','大槻唯+',1),
+	 ('120b0acaa2c1419c3de79c1e6ef6890a',146,1296,864,'N+','大槻唯+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3e3e38c568131760139d1f45652aad07',146,8140,6160,'SR','[ﾌｪﾘｼﾃｨﾊﾝﾀｰ]大槻唯',45),
 	 ('d9f01afac7d7620ae8965e558e9eeea0',146,9840,7728,'SR+','[あこがれﾏﾘｱｰｼﾞｭ]大槻唯+',47),
 	 ('3acb602ef53c3ed58bc984ed7c37536d',146,6096,6096,'SR+','[ｱﾆﾊﾞｰｻﾘｰｼﾞｮｲ]大槻唯+',50),
@@ -1823,10 +1821,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('792bcdf081da623dd1fdbac58b9e4399',191,1296,888,'R+','浜口あやめ+',1),
 	 ('006b31b74f05473ef9f96d9da18aad5b',191,4840,3320,'SR','[華麗なくのいち]浜口あやめ',16),
 	 ('8479a11885622091deeb77207c85c369',191,4752,4872,'SR+','[筆術くのいち]浜口あやめ+',19),
-	 ('889a7a96129faba04a608bf55171c80c',191,3360,3312,'SR+','[助太刀☆ﾁｱｰ]浜口あやめ+',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('889a7a96129faba04a608bf55171c80c',191,3360,3312,'SR+','[助太刀☆ﾁｱｰ]浜口あやめ+',21),
 	 ('eae651188d4cdbac6e4773e9587cdd77',191,6864,4752,'SR+','[海風の使者]浜口あやめ+',23),
-	 ('bafd37229535e91c6103b32b90bbd970',191,7344,5544,'SR+','[秘伝☆くのいち]浜口あやめ+',25),
+	 ('bafd37229535e91c6103b32b90bbd970',191,7344,5544,'SR+','[秘伝☆くのいち]浜口あやめ+',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ac99882834472fa2caf60e75690f8aca',191,6576,6552,'SR+','[純真☆変化]浜口あやめ+',27),
 	 ('fc4b0d7524dab986a0d4a97f5eab93ff',191,8568,6384,'SR+','[月影の刺客]浜口あやめ+',29),
 	 ('2b1f8664a25551bc9e310092b7c0f024',191,9072,6912,'SR+','[ｽﾍﾟｰｽくのいち]浜口あやめ+',31),
@@ -1834,10 +1832,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('37709b95b40e62f7d715e388278a899c',154,2620,2540,'R','[ｲﾀｽﾞﾗｺﾞｼｯｸ]小関麗奈',4),
 	 ('8cb9abd592c10bbf1255a9d404541b5b',154,3360,2160,'R','[秋色温泉]小関麗奈',7),
 	 ('48121be6ac23c40b833653f041f850e6',154,4032,2592,'R+','[秋色温泉]小関麗奈+',8),
-	 ('9ba86333fbd3b7a1cd8f911f32c767db',154,3820,3660,'R+','[ｽﾊﾟｰｷｰﾊﾟｯｸ]小関麗奈+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9ba86333fbd3b7a1cd8f911f32c767db',154,3820,3660,'R+','[ｽﾊﾟｰｷｰﾊﾟｯｸ]小関麗奈+',15),
 	 ('eb318e19d27b01617900d29b380e9173',154,2640,3912,'R+','[ﾄﾗﾌﾞﾙｽﾀｰ]小関麗奈+',17),
-	 ('0fcdc2e5ed21fa7c29cc526213ddf9f7',154,3520,4180,'SR','[ｽｸｰﾙﾃﾞﾋﾞﾙ]小関麗奈',18),
+	 ('0fcdc2e5ed21fa7c29cc526213ddf9f7',154,3520,4180,'SR','[ｽｸｰﾙﾃﾞﾋﾞﾙ]小関麗奈',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c8bfa6571c1447a4a3eacf97e2233006',154,4944,4728,'SR+','[ﾏｼﾞｶﾙｶﾞｰﾙS･ﾌﾚｲﾑ]小関麗奈+',25),
 	 ('6ebb6a6bb44de19413523eb7e59051b7',154,7392,5544,'SR+','[ﾏｰﾁﾝｸﾞ☆ﾗｳﾄﾞ]小関麗奈+',29),
 	 ('7a6241e17fd1ea20a78aa28efaffb6e4',154,6940,6900,'SR','[ﾀｲﾃﾞｨｰﾉｰﾃｨ]小関麗奈',32),
@@ -1845,10 +1843,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f0e1b067bed96bbab9931940185af75f',154,8832,8808,'SR+','[ﾜﾅﾋﾞｰﾃﾞﾋﾞﾙ]小関麗奈+',37),
 	 ('11c416ae4a1c012924921f60e8865ba5',154,9312,9120,'SR+','[ｳｪﾙｶﾑﾌｧﾝﾀｲﾑ]小関麗奈+',39),
 	 ('3217691d80f41d408aa0def73b17b549',200,1416,1392,'N+','依田芳乃+',1),
-	 ('d8d930d28b4ce932041240e81f907905',168,2200,2120,'R','[夏休み]城ヶ崎莉嘉',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d8d930d28b4ce932041240e81f907905',168,2200,2120,'R','[夏休み]城ヶ崎莉嘉',2),
 	 ('fb731622d7dbb239f5877d838b883c02',168,2740,2720,'R','[ﾊｲｶﾗｻｸﾗ]城ヶ崎莉嘉',6),
-	 ('7dd777b8459bafb9f9f342e93a21da03',168,3820,3660,'R+','[ﾋﾞｰｽﾄﾃﾞｨｰﾊﾞ]城ヶ崎莉嘉+',8),
+	 ('7dd777b8459bafb9f9f342e93a21da03',168,3820,3660,'R+','[ﾋﾞｰｽﾄﾃﾞｨｰﾊﾞ]城ヶ崎莉嘉+',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f4a121eb8de314497224aed4155c7291',168,1728,1296,'SR+','[CDﾃﾞﾋﾞｭｰ]城ヶ崎莉嘉+',10),
 	 ('d9b090bc9ba7b6b5cf9004ac1014fde3',168,4100,3700,'SR','[ﾊｯﾋﾟｰ☆ｸﾘｽﾏｽ]城ヶ崎莉嘉',13),
 	 ('e3990a65bbb99ede5a0fd7cd3ce57100',168,6072,4392,'SR+','[ｼｰｸﾚｯﾄ☆ﾓｰﾄﾞ]城ヶ崎莉嘉+',16),
@@ -1856,10 +1854,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c412e6116df1c59a54a022a2e4c0ae2a',168,4120,3440,'SR+','[DONDOKOﾘｽﾞﾑ]城ヶ崎莉嘉+',21),
 	 ('4850054db6e522f5a192e1bbef55e563',168,5800,5220,'SR+','[G4U！]城ヶ崎莉嘉+',23),
 	 ('e254aad0347bd2ef9680f7313b26dbe9',168,7608,5472,'SR+','[ﾅｲﾄ☆ﾊﾞﾆｰｷﾞｬﾙ]城ヶ崎莉嘉+',25),
-	 ('71e2444ffa964bc4222f3afcb11af6b7',168,6620,4640,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]城ヶ崎莉嘉',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('71e2444ffa964bc4222f3afcb11af6b7',168,6620,4640,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]城ヶ崎莉嘉',28),
 	 ('00bdc69778aff8f6d2d75eab1937bfca',168,7640,5720,'SR','[ｽﾊﾟｰｸﾙ☆ｵﾝｱｲｽ]城ヶ崎莉嘉',34),
-	 ('ebe0b98a0f9921d53de2b51ccb09b68f',168,9624,7512,'SR+','[ｷﾗﾃﾞｺ☆ﾊﾟﾚｰﾄﾞ]城ヶ崎莉嘉+',37),
+	 ('ebe0b98a0f9921d53de2b51ccb09b68f',168,9624,7512,'SR+','[ｷﾗﾃﾞｺ☆ﾊﾟﾚｰﾄﾞ]城ヶ崎莉嘉+',37);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('260980079391a19ede17cc5a5ab660a3',168,9792,7560,'SR+','[ひらふわ☆ﾊﾟﾋﾟﾖﾝ]城ヶ崎莉嘉+',39),
 	 ('a445a50c0d5fb02ff4f82c959384d750',6,5016,5064,'SR+','[こぼれるｽﾏｲﾙ]今井加奈+',17),
 	 ('6d640f84d12ca279bca2fe4f10d6e4ec',6,7536,5448,'SR+','[ｺｰﾗｽﾘｰﾀﾞｰ]今井加奈+',21),
@@ -1867,10 +1865,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7df1bd2cf8c6d5ea189f8436feefaf2d',6,7780,7560,'SR','[ｶﾗﾌﾙﾋﾟｰｽ]今井加奈',34),
 	 ('aead0fd84dd19b7a9bb0c06623f8053a',6,9336,9072,'SR+','[ｶﾗﾌﾙﾋﾟｰｽ]今井加奈+',35),
 	 ('7cf254cf32563bd2bba7b9b621085ca7',17,2208,1656,'R+','[ｼｬｲﾆｰﾋﾞｰﾁ]長富蓮実+',5),
-	 ('79676bd37a4a49fa4d0beb7f9b01f80a',17,3912,2616,'R+','[手のひらの憧れ]長富蓮実+',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('79676bd37a4a49fa4d0beb7f9b01f80a',17,3912,2616,'R+','[手のひらの憧れ]長富蓮実+',13),
 	 ('129dff6ad85473683b876ba9171588bc',17,4800,4824,'SR+','[ﾌｨｰﾁｬｰｽｲｰﾄﾋﾟｰ]長富蓮実+',15),
-	 ('9e53c193c20b4507c60a02dfe7c9cb48',17,6432,5064,'SR+','[心染まる季節]長富蓮実+',21),
+	 ('9e53c193c20b4507c60a02dfe7c9cb48',17,6432,5064,'SR+','[心染まる季節]長富蓮実+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('dc810f752bc7d5fbaa3aa5ccb8a8c43f',17,5352,4032,'SR+','[異国のぬくもり]長富蓮実+',23),
 	 ('f9044800cdc5d8e36f231b6e528d42b4',17,2640,3984,'R+','[ﾃﾞｲﾄﾚｽﾋﾟｰｽ]長富蓮実+',27),
 	 ('323ff1898a9f5e8f197a2accd227aada',17,7660,7640,'SR','[夜空に祈りを]長富蓮実',28),
@@ -1878,10 +1876,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b47ef631aaaa60b10106b8f2d9b53481',28,2220,3180,'R','[ﾌﾞﾗｯｸｷｬｯﾄ]前川みく',4),
 	 ('d4756fbf7ff04813ee44a35a24c776f2',28,2664,3816,'R+','[ﾌﾞﾗｯｸｷｬｯﾄ]前川みく+',5),
 	 ('fe6e6f03157fbdd74ec000f057c601cb',28,3360,4032,'SR+','[ｾｸｼｰｷｬｯﾄ]前川みく+',7),
-	 ('eb4d3e4770dcfcccd6bf03b637d4e311',125,3020,2060,'R','[ﾛｼｱﾝｸｯｷﾝｸﾞ]松尾千鶴',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('eb4d3e4770dcfcccd6bf03b637d4e311',125,3020,2060,'R','[ﾛｼｱﾝｸｯｷﾝｸﾞ]松尾千鶴',15),
 	 ('d79715c5a47f812c15d888e6edc2099d',125,3020,2300,'SR','[素顔の幸せ]松尾千鶴',19),
-	 ('d886ae7d2ee6c6e75d64f0cac3395f1a',125,4660,4620,'SR','[乙女の晴れ舞台]松尾千鶴',21),
+	 ('d886ae7d2ee6c6e75d64f0cac3395f1a',125,4660,4620,'SR','[乙女の晴れ舞台]松尾千鶴',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c462145536f0ea29247d2fcdca22d5f0',125,3240,2300,'SR','[ﾎﾟｯﾌﾟ･ﾓﾃﾞﾙ]松尾千鶴',23),
 	 ('0ce11b5368f190c1c49d1d35f557a2ae',125,3984,2424,'R+','[羽ばたき日和]松尾千鶴+',32),
 	 ('212bb3e0d7f2ba5bcdeced90bf48561b',146,820,1380,'N','[お花見]大槻唯',2),
@@ -1889,10 +1887,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('69c82c51bd137b4225908435cb8455e4',146,1650,1450,'R+','[ｻﾏｰｼｮｯﾋﾟﾝｸﾞｸﾞﾘｰﾝ]大槻唯+',9),
 	 ('0dcfcc73c8e1fe5f8c2afded0838cff5',146,1980,2080,'R','[ﾚｲﾝﾄﾞﾛｯﾌﾟ]大槻唯',13),
 	 ('79b5a5fe045e3d04bd7fe1045a280011',146,3320,2220,'R','[ﾊﾞﾚﾝﾀｲﾝﾃﾞﾋﾞﾙ]大槻唯',17),
-	 ('b1d4347b0562c9b9257a1bbfe8007256',146,3900,3340,'SR','[湯けむりｷﾞｬﾙ]大槻唯',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b1d4347b0562c9b9257a1bbfe8007256',146,3900,3340,'SR','[湯けむりｷﾞｬﾙ]大槻唯',23),
 	 ('c77f15a9ae5b41cab5c25dd81fc8b439',146,5240,5120,'SR','[きまぐれｱﾗｶﾙﾄ]大槻唯',29),
-	 ('7b4aaee0f26206451ecfa1d472badb1a',146,7608,5544,'SR+','[ﾌﾘｰﾀﾞﾑﾉｰﾂ]大槻唯+',32),
+	 ('7b4aaee0f26206451ecfa1d472badb1a',146,7608,5544,'SR+','[ﾌﾘｰﾀﾞﾑﾉｰﾂ]大槻唯+',32);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('16bc1b80f078bbbcee22f54b02ffde34',146,12000,10500,'SR','[5thｱﾆﾊﾞｰｻﾘｰ]大槻唯',35),
 	 ('ebd89ca488c46fd5f7ffcae59c61f2e0',146,12000,10500,'SR+','[5thｱﾆﾊﾞｰｻﾘｰ･S]大槻唯+',38),
 	 ('69037d2f27cad423e0af6eb26d28a728',146,7500,5900,'SR','[幸せつかみどり☆]大槻唯',41),
@@ -1900,10 +1898,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9f221e53168c21925ff336e2c2331eff',191,2360,1720,'R','[くのいち忍ﾄﾞﾙ]浜口あやめ',2),
 	 ('16912bf56b6bdeb5720986c2865f0c9d',191,2800,2680,'R','[ﾘｿﾞｰﾄ忍ﾄﾞﾙ]浜口あやめ',6),
 	 ('0f1161d9c1966cb505756ca600be8d8e',191,3360,3216,'R+','[ﾘｿﾞｰﾄ忍ﾄﾞﾙ]浜口あやめ+',7),
-	 ('aba42cf3647de7baed67ea72dfafe288',191,2400,2860,'R','[ﾛｺｶﾞｰﾙ]浜口あやめ',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('aba42cf3647de7baed67ea72dfafe288',191,2400,2860,'R','[ﾛｺｶﾞｰﾙ]浜口あやめ',10),
 	 ('b2f583b8ab6e0e38ff6b5eac684b30fc',191,3240,3240,'R+','[ｵﾘ･ﾛｺｶﾞｰﾙ]浜口あやめ+',13),
-	 ('b87dd23cc34603944cd75e87db7435d8',158,1320,960,'N','片桐早苗',0),
+	 ('b87dd23cc34603944cd75e87db7435d8',158,1320,960,'N','片桐早苗',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('351c45b33901b324a5a827d191de82f4',200,2620,1900,'R','[T.B.ﾁｱｰｽﾞ]依田芳乃',2),
 	 ('4774371e15f23136d1bd20eb453c9c17',200,5832,5856,'SR+','[湯浴みの踊子]依田芳乃+',7),
 	 ('10e4d88969fd0d9e4b366ea9e3fccdb7',200,7200,5440,'SR','[黄昏の映し人]依田芳乃',14),
@@ -1911,10 +1909,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7fc5098f9c6cabab3b8a4d2fd6901253',200,4776,4632,'SR+','[6thｱﾆﾊﾞｰｻﾘｰ]依田芳乃+',19),
 	 ('6eec6216f0ee6fd13a7c49ba8b9c7240',200,7360,7320,'SR','[つはものの道]依田芳乃',22),
 	 ('191f20f4f7bd7fc95cc0408902a3d642',200,8080,6340,'SR','[山眠るかみのくら]依田芳乃',24),
-	 ('dff760de08c9bb804006c63db0d17e31',200,7440,7200,'SR','[めぐみの甘雨]依田芳乃',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('dff760de08c9bb804006c63db0d17e31',200,7440,7200,'SR','[めぐみの甘雨]依田芳乃',26),
 	 ('0cf59e662a887564aff3a0cb7a323297',200,8640,6640,'SR','[いのりの六花]依田芳乃',28),
-	 ('90804b58fc6485188db10c7231cbe449',200,7700,7580,'SR','[闇照らすともしび]依田芳乃',30),
+	 ('90804b58fc6485188db10c7231cbe449',200,7700,7580,'SR','[闇照らすともしび]依田芳乃',30);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6fa185302ff476ad1ed15c48648eb773',200,9288,9072,'SR+','[ことほぎの祈り]依田芳乃+',33),
 	 ('78f52e2a15799e1e06822dfe51d3eaa3',168,2640,2544,'R+','[夏休み]城ヶ崎莉嘉+',3),
 	 ('a8164aee777ecd0f1802e98e5acaeaef',168,3360,2544,'R+','[笑顔の夏休み]城ヶ崎莉嘉+',5),
@@ -1922,10 +1920,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5f884308996c7f7369f304379ac028cc',168,5060,3660,'SR','[ｼｰｸﾚｯﾄ☆ﾓｰﾄﾞ]城ヶ崎莉嘉',15),
 	 ('4ecd248e0f400d89b150c7d9c6f125ae',168,5320,3840,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]城ヶ崎莉嘉',17),
 	 ('5ae975e8058ac9fa8dfe9fdabe6d9249',168,5900,4340,'SR','[ｳｨﾝﾀｰ☆ﾓｰﾄﾞ]城ヶ崎莉嘉',19),
-	 ('79455fc3b740c160d1c1dc6d652b551a',168,4700,4420,'SR+','[凸ﾚｰｼｮﾝ]城ヶ崎莉嘉+',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('79455fc3b740c160d1c1dc6d652b551a',168,4700,4420,'SR+','[凸ﾚｰｼｮﾝ]城ヶ崎莉嘉+',22),
 	 ('1cf8e7776ccc0f5695f30fc7fced834d',168,6340,4560,'SR','[ﾅｲﾄ☆ﾊﾞﾆｰｷﾞｬﾙ]城ヶ崎莉嘉',24),
-	 ('8bcbc5887f1256838f7ea35c8cd3d351',168,5680,5660,'SR','[ちょこっと☆ｷﾞｬﾙ]城ヶ崎莉嘉',26),
+	 ('8bcbc5887f1256838f7ea35c8cd3d351',168,5680,5660,'SR','[ちょこっと☆ｷﾞｬﾙ]城ヶ崎莉嘉',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('10b54a98f80b3573f8a64e1f4f1517e8',168,7944,5568,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]城ヶ崎莉嘉+',29),
 	 ('2c6f68904c5e8c886b60fcc1c01682df',168,8400,6432,'SR+','[とびきり☆ﾆｭｰｲﾔｰ]城ヶ崎莉嘉+',31),
 	 ('0d7b91c44862bfc08c91643a8f44ab10',168,9000,7080,'SR+','[ﾊｼﾞｹﾙ☆ｻﾝｼｬｲﾝ]城ヶ崎莉嘉+',33),
@@ -1933,10 +1931,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('641271d965e65b716fc9c235318f40bf',168,6240,6024,'SR+','[絆のﾒﾓﾘｰ☆]城ヶ崎莉嘉+',41),
 	 ('d32df0c84cb28582c2b2da3c46eb1180',6,7640,7580,'SR','[ﾒﾓﾘｱﾙﾃﾞｲｽﾞ]今井加奈',36),
 	 ('4df31d5288e203645df1dae4d008642d',6,9168,9096,'SR+','[ﾒﾓﾘｱﾙﾃﾞｲｽﾞ]今井加奈+',37),
-	 ('33e0fe9d3980f8fcc0146acf93b1527c',18,1000,1000,'N','横山千佳',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('33e0fe9d3980f8fcc0146acf93b1527c',18,1000,1000,'N','横山千佳',0),
 	 ('19e6e1f54b5b9fccc005269962b858d0',18,3504,2592,'R+','[ﾗﾌﾞﾘｰ魔女っ娘]横山千佳+',5),
-	 ('d490c4ebdef3decd4748762da0218b41',18,6144,6096,'SR+','[ﾏｼﾞｶﾙﾌﾞﾛｯｻﾑ]横山千佳+',27),
+	 ('d490c4ebdef3decd4748762da0218b41',18,6144,6096,'SR+','[ﾏｼﾞｶﾙﾌﾞﾛｯｻﾑ]横山千佳+',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6b130d0ebbb4049cc313d8c2bb204f21',18,3820,3700,'R+','[ﾏｼﾞｶﾙﾊﾟｲﾛｯﾄ]横山千佳+',28),
 	 ('b22b6d458e6da02da4717fee2cbb5095',28,792,768,'R+','前川みく+',1),
 	 ('c9f7539dc29fc32ea84e5d86153ec745',28,3980,3840,'SR','[ﾁｬｰﾐﾝｸﾞｷｬｯﾄ]前川みく',10),
@@ -1944,10 +1942,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fa0ecd35b0feef83d385a13de23d7234',28,3660,2880,'SR','[ｱﾆﾊﾞｰｻﾘｰｷｬｯﾄ･S]前川みく',16),
 	 ('0fb854d9551451b3f1cd518348c520f4',28,6624,4224,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]前川みく+',19),
 	 ('34a453e835e1cf2f197a43cdc18c0c65',28,7560,5448,'SR+','[ﾑｰﾝﾅｲﾄｷｬｯﾄ]前川みく+',23),
-	 ('92e0e3e2f3feede92f76570968a1b2b4',28,6880,4820,'SR','[ﾌﾏｼﾞﾒ／ﾈｺﾁｬﾝ]前川みく',27);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('92e0e3e2f3feede92f76570968a1b2b4',28,6880,4820,'SR','[ﾌﾏｼﾞﾒ／ﾈｺﾁｬﾝ]前川みく',27),
 	 ('4a8327071a01faaba17eb11b4fcd4ebb',28,7700,6020,'SR','[ﾎｰﾘｰﾅｲﾄｷｬｯﾄ]前川みく',29),
-	 ('6724a26861ab887b140c1a51f0e29ece',28,8000,6240,'SR','[ﾊﾞﾛﾝｻﾞｷｬｯﾄ]前川みく',33),
+	 ('6724a26861ab887b140c1a51f0e29ece',28,8000,6240,'SR','[ﾊﾞﾛﾝｻﾞｷｬｯﾄ]前川みく',33);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1f12deed69f1ec3e24042945968de5bf',125,4320,4040,'SR','[ﾎﾟｯﾌﾟ･ﾓﾃﾞﾙ･S]松尾千鶴',25),
 	 ('c614169557b2369b2eaa6a9b1c2bf286',125,5900,5860,'SR','[一心入魂]松尾千鶴',27),
 	 ('93bca25a64befb0c092915ed7ed2eabb',125,4824,4608,'SR+','[恥じらい桜乙女]松尾千鶴+',30),
@@ -1955,10 +1953,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('dfb65b80dbdb7746d7eb0b0037744684',187,3060,2280,'R','[ｶｼﾞｭｱﾙ&ﾌﾘﾙ]小松伊吹',10),
 	 ('c8e7deaf2263a700b6f7d41902770f41',146,984,1656,'N+','[お花見]大槻唯+',3),
 	 ('01501d1215a4b5d6a9260a2a13acd4cf',146,1200,1100,'R','[ｻﾏｰｶﾞｰﾙｸﾞﾘｰﾝ]大槻唯',5),
-	 ('df467ee38a2c1a4b771029f24a419529',146,1750,1550,'R+','[ｻﾏｰｼｮｯﾋﾟﾝｸﾞﾌﾞﾗｳﾝ]大槻唯+',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('df467ee38a2c1a4b771029f24a419529',146,1750,1550,'R+','[ｻﾏｰｼｮｯﾋﾟﾝｸﾞﾌﾞﾗｳﾝ]大槻唯+',11),
 	 ('91f1b140eec2747dd2a2cb31c005d37f',146,2080,1980,'R','[ﾚｲﾝﾄﾞﾛｯﾌﾟｽﾏｲﾙ]大槻唯',15),
-	 ('bda80f1fe71cef7ba31a51521b1ec5dc',146,3984,2664,'R+','[ﾊﾞﾚﾝﾀｲﾝﾃﾞﾋﾞﾙ]大槻唯+',18),
+	 ('bda80f1fe71cef7ba31a51521b1ec5dc',146,3984,2664,'R+','[ﾊﾞﾚﾝﾀｲﾝﾃﾞﾋﾞﾙ]大槻唯+',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b6d13d92ef2602a297f285d0b08fdead',146,3360,3216,'R+','[ｾﾚｸﾃｯﾄﾞ]大槻唯+',20),
 	 ('161aba59d0e7079677a6344345b890a1',146,2448,2352,'SR+','[ｻﾏｰｽﾌﾟﾗｯｼｭ]大槻唯+',22),
 	 ('9894ac29d3d2f85e6a8e9a2975710ede',146,4520,4440,'SR','[ｸﾘｽﾏｽ☆ｷﾞｬﾙ]大槻唯',25),
@@ -1966,10 +1964,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5be7e798333d3df7bae2151d64547659',146,6288,6144,'SR+','[きまぐれｱﾗｶﾙﾄ]大槻唯+',30),
 	 ('958ee39a6a98210ef9e12bb51af82a99',146,3220,2340,'SR','[CDﾃﾞﾋﾞｭｰ]大槻唯',33),
 	 ('d8d934b5f927a10360e68a68f0ebe00b',146,12000,10500,'SR+','[5thｱﾆﾊﾞｰｻﾘｰ]大槻唯+',36),
-	 ('3989619894f357d64debb55929ca0edc',146,8664,6648,'SR+','[おねだりｻﾎﾞﾀｰｼﾞｭ]大槻唯+',40);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3989619894f357d64debb55929ca0edc',146,8664,6648,'SR+','[おねだりｻﾎﾞﾀｰｼﾞｭ]大槻唯+',40),
 	 ('424deb4c22d95ea15609f51dadadeb90',146,9000,7080,'SR+','[幸せつかみどり☆]大槻唯+',42),
-	 ('544f54df8976e9dd2cae7f4b5a94609e',146,9768,7392,'SR+','[ﾌｪﾘｼﾃｨﾊﾝﾀｰ]大槻唯+',46),
+	 ('544f54df8976e9dd2cae7f4b5a94609e',146,9768,7392,'SR+','[ﾌｪﾘｼﾃｨﾊﾝﾀｰ]大槻唯+',46);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ccdb2a150e8ad10ffe6c5cace027183a',146,8200,6440,'SR','[あこがれﾏﾘｱｰｼﾞｭ]大槻唯',48),
 	 ('1e0703fed4ea6fe6f01ad0de3a9e4397',146,7740,7580,'SR','[ｼｱﾜｾ空模様]大槻唯',51),
 	 ('d83bfa4497e4845889ee18636a691f11',146,10296,7800,'SR+','[ｻﾏｰﾀｲﾑ☆ﾊｲ]大槻唯+',54),
@@ -1977,10 +1975,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7b0a05b33bd4ab2cff635918cdf66049',191,3624,2424,'R+','[制服ｺﾚｸｼｮﾝ]浜口あやめ+',5),
 	 ('aeae61e9c8eadfbaa9a18d4d1957f02c',191,2800,2660,'R','[春風ｽﾎﾟｰﾂ]浜口あやめ',8),
 	 ('8bb4775d1c95510634789152546fb595',191,3360,3192,'R+','[春風ｽﾎﾟｰﾂ]浜口あやめ+',9),
-	 ('2d98a7e094c260031ee63b340bcb4ffd',191,3864,2616,'R+','[ｸﾞﾛｰｲﾝｸﾞﾚｯﾄﾞ]浜口あやめ+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2d98a7e094c260031ee63b340bcb4ffd',191,3864,2616,'R+','[ｸﾞﾛｰｲﾝｸﾞﾚｯﾄﾞ]浜口あやめ+',15),
 	 ('56297f6f253dada7215cdc52fa5ecbe5',191,5720,3960,'SR','[海風の使者]浜口あやめ',22),
-	 ('6ce3af540ca2b7a1c77c6fc26794a4cc',191,5480,5460,'SR','[純真☆変化]浜口あやめ',26),
+	 ('6ce3af540ca2b7a1c77c6fc26794a4cc',191,5480,5460,'SR','[純真☆変化]浜口あやめ',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1d71db748957b5c2a6d9e01a4757a7f9',191,7140,5320,'SR','[月影の刺客]浜口あやめ',28),
 	 ('afdd91cbc6b8508cd7e925db4336d612',191,7560,5760,'SR','[ｽﾍﾟｰｽくのいち]浜口あやめ',30),
 	 ('f91e6b03ab7b8dd4246284a0cdb171ab',191,7660,6000,'SR','[紅忍ぶ皐月姫]浜口あやめ',32),
@@ -1988,10 +1986,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c793d26096564df02139a948b4fc02d8',191,2800,2800,'R','[しとやか夏花]浜口あやめ',36),
 	 ('b6eb884b8d0efe9f17d8740929ca61d1',191,9144,9096,'SR+','[くのいちのいろは]浜口あやめ+',39),
 	 ('fbc70efe03d1bd54fbd28175460510a8',158,1584,1152,'N+','片桐早苗+',1),
-	 ('c6ff9a0175541cf5b01457fc595d4aa7',158,9400,9000,'SR+','[7thｱﾆﾊﾞｰｻﾘｰ･S]片桐早苗+',40);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c6ff9a0175541cf5b01457fc595d4aa7',158,9400,9000,'SR+','[7thｱﾆﾊﾞｰｻﾘｰ･S]片桐早苗+',40),
 	 ('a4662eeeb44431065a30205b2115ad88',158,9840,7416,'SR+','[はつらつお姉さん]片桐早苗+',42),
-	 ('f4a6ec31a35b0b3cb04e4af306db5aec',158,10224,7824,'SR+','[ときめきお姉さん]片桐早苗+',44),
+	 ('f4a6ec31a35b0b3cb04e4af306db5aec',158,10224,7824,'SR+','[ときめきお姉さん]片桐早苗+',44);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('568341e99b63d1cee6dbb601e96bf8d6',158,10200,7920,'SR+','[ﾉﾘﾉﾘお姉さん]片桐早苗+',46),
 	 ('d7d7bfee2160054f5bd522c3f2d212af',200,3144,2280,'R+','[T.B.ﾁｱｰｽﾞ]依田芳乃+',3),
 	 ('640c775e1aa6d19d4498c15ab3d52875',200,3936,2712,'R+','[ﾗﾌﾞﾘｰﾒｲﾄﾞ]依田芳乃+',5),
@@ -1999,10 +1997,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3f57a6b17e176fb96686d081f79e3231',200,6840,4940,'SR','[春光の少女]依田芳乃',10),
 	 ('5bc53e5cbba34aff18f7009d50c17f0e',200,3460,2940,'SR','[ひと結び]依田芳乃',12),
 	 ('86045c8c5c85b81aa51156dbcdb0e1a5',200,8640,6528,'SR+','[黄昏の映し人]依田芳乃+',15),
-	 ('9c72bae61a8d3f2451bec1ddac1ddd19',200,9120,7104,'SR+','[水影のうなさか]依田芳乃+',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9c72bae61a8d3f2451bec1ddac1ddd19',200,9120,7104,'SR+','[水影のうなさか]依田芳乃+',17),
 	 ('09896f9fa20e4cfe4b49ea0ccd7a87d6',200,12250,10300,'SR','[6thｱﾆﾊﾞｰｻﾘｰ･S]依田芳乃',20),
-	 ('2bf14ba07faaf8d3d96c2a299db40c84',200,12250,10300,'SR+','[6thｱﾆﾊﾞｰｻﾘｰ･S]依田芳乃+',21),
+	 ('2bf14ba07faaf8d3d96c2a299db40c84',200,12250,10300,'SR+','[6thｱﾆﾊﾞｰｻﾘｰ･S]依田芳乃+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('626d49bf0499cc6c50f47c5d3ab1ea2a',200,9696,7608,'SR+','[山眠るかみのくら]依田芳乃+',25),
 	 ('f3fb7c5fecf793bb45de1b12ea3a9f96',200,10368,7968,'SR+','[いのりの六花]依田芳乃+',29),
 	 ('7adcfc7258831785ce0f855a13f244a6',168,2800,2120,'R','[笑顔の夏休み]城ヶ崎莉嘉',4),
@@ -2010,10 +2008,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bb74192d2815e42c51cbf484f0e7c57b',7,700,700,'N','持田亜里沙',0),
 	 ('a837b5db80a3b8a16ca290a20d18251d',18,1200,1200,'N+','横山千佳+',1),
 	 ('784b0d08e971844537fafc49e94341f8',18,3672,2568,'R+','[T.B.ﾁｱｰｽﾞ]横山千佳+',9),
-	 ('911de1e40e95c58e35d00eff5fb783f0',18,4008,2592,'R+','[ﾎｰﾘｰｺｰﾗｽ]横山千佳+',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('911de1e40e95c58e35d00eff5fb783f0',18,4008,2592,'R+','[ﾎｰﾘｰｺｰﾗｽ]横山千佳+',11),
 	 ('0a95aaec4051add9a1dd0a4d5060de06',18,3340,2100,'R','[ﾊﾟﾜﾌﾙﾋﾛｲﾝ]横山千佳',14),
-	 ('e194a3fabb57c40d442a1922eb36d09a',18,5136,4488,'SR+','[小さなおひな様]横山千佳+',17),
+	 ('e194a3fabb57c40d442a1922eb36d09a',18,5136,4488,'SR+','[小さなおひな様]横山千佳+',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c7e31c5643afd8ae07eca3b1ab6373a7',18,4340,4100,'SR','[朱きﾂﾜﾓﾉ]横山千佳',20),
 	 ('f315e1967fd8d3f76d9605387c4a4bb8',18,6420,6360,'SR','[おしゃれのまほう]横山千佳',24),
 	 ('4355a0e400d64478e92262d218a2c1bf',28,2760,2040,'R','[ﾊｲｶﾗｻｸﾗ]前川みく',2),
@@ -2021,10 +2019,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8a73c424553e716484886472e9ef92f9',28,8184,6024,'SR+','[まちぶせｷｬｯﾄ]前川みく+',26),
 	 ('e4195c31b93d24dad60c5525aaddcf9c',28,7700,6000,'SR','[ﾄﾞﾗﾏﾁｯｸﾈｺﾁｬﾝ]前川みく',31),
 	 ('e9ce28c43198927c2afb9c4c36ee3197',28,9912,7824,'SR+','[和ごころﾈｺﾁｬﾝ]前川みく+',36),
-	 ('0a552a3a0ed0adf065dab410a9aac2db',125,3320,2020,'R','[羽ばたき日和]松尾千鶴',31);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0a552a3a0ed0adf065dab410a9aac2db',125,3320,2020,'R','[羽ばたき日和]松尾千鶴',31),
 	 ('71acc3f7453e1a9821d89a1d545f5c94',187,1260,1860,'R','[学園祭]小松伊吹',2),
-	 ('9a21c3eaede2b44ea3fbeb6c46f631f5',146,1000,1000,'R','[ｻﾏｰｶﾞｰﾙｵﾚﾝｼﾞ]大槻唯',4),
+	 ('9a21c3eaede2b44ea3fbeb6c46f631f5',146,1000,1000,'R','[ｻﾏｰｶﾞｰﾙｵﾚﾝｼﾞ]大槻唯',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bdfb3cab23611b7efcf2a0d26d6241c0',146,1250,1150,'R','[ｻﾏｰｶﾞｰﾙﾌﾞﾙｰ]大槻唯',6),
 	 ('653b7a8fbbfbad90d029a8ab600f056b',146,1600,1400,'R+','[ｻﾏｰｼｮｯﾋﾟﾝｸﾞｲｴﾛｰ]大槻唯+',8),
 	 ('9929a169843d9f7e7312eca020caf3cc',146,1700,1500,'R+','[ｻﾏｰｼｮｯﾋﾟﾝｸﾞﾋﾟﾝｸ]大槻唯+',10),
@@ -2032,10 +2030,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('aa671e6aed1e53e554f9b9589de70d48',146,2376,2496,'R+','[ﾚｲﾝﾄﾞﾛｯﾌﾟ]大槻唯+',14),
 	 ('915507cb01b608f92add67390ad849c3',146,2496,2376,'R+','[ﾚｲﾝﾄﾞﾛｯﾌﾟｽﾏｲﾙ]大槻唯+',16),
 	 ('589a124c4fa6098a722264d6e676341a',146,2800,2680,'R','[ｾﾚｸﾃｯﾄﾞ]大槻唯',19),
-	 ('252492330a944c5dcb457bb2683c07dc',146,2040,1960,'SR','[ｻﾏｰｽﾌﾟﾗｯｼｭ]大槻唯',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('252492330a944c5dcb457bb2683c07dc',146,2040,1960,'SR','[ｻﾏｰｽﾌﾟﾗｯｼｭ]大槻唯',21),
 	 ('e2e85e351b7f8739d4c1f2f132ef2ef3',146,4680,4008,'SR+','[湯けむりｷﾞｬﾙ]大槻唯+',24),
-	 ('cc195ea8b89a4c42db5db2054f3e512f',146,5424,5328,'SR+','[ｸﾘｽﾏｽ☆ｷﾞｬﾙ]大槻唯+',26),
+	 ('cc195ea8b89a4c42db5db2054f3e512f',146,5424,5328,'SR+','[ｸﾘｽﾏｽ☆ｷﾞｬﾙ]大槻唯+',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('50e4cbc50998270b16051eb4c3eb98aa',146,6816,4848,'SR+','[自由の海姫]大槻唯+',28),
 	 ('d98730214d1599bdf4c6da1e9baeb783',146,6340,4620,'SR','[ﾌﾘｰﾀﾞﾑﾉｰﾂ]大槻唯',31),
 	 ('6e869ad95d0b0c12b200342730b0c8d2',146,3864,2808,'SR+','[CDﾃﾞﾋﾞｭｰ]大槻唯+',34),
@@ -2043,10 +2041,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7d61e916c1009fe5c94281bb2804ca3b',146,7220,5540,'SR','[おねだりｻﾎﾞﾀｰｼﾞｭ]大槻唯',39),
 	 ('c650d56740a6a5938554582c9155f17b',146,9312,6936,'SR+','[ﾊﾋﾟﾌﾙｶﾗﾌﾙ]大槻唯+',44),
 	 ('e4449cec7f0e0121d20bab6f702dab60',146,5080,5080,'SR','[ｱﾆﾊﾞｰｻﾘｰｼﾞｮｲ]大槻唯',49),
-	 ('e8b566fe28cc92134f6c32d686d0b710',146,9288,9096,'SR+','[ｼｱﾜｾ空模様]大槻唯+',52);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e8b566fe28cc92134f6c32d686d0b710',146,9288,9096,'SR+','[ｼｱﾜｾ空模様]大槻唯+',52),
 	 ('66004323a3b953d2e44968f078de54ab',191,3020,2020,'R','[制服ｺﾚｸｼｮﾝ]浜口あやめ',4),
-	 ('cdfbd3cc796f86bd72bfbc59ddb0d37a',191,2880,3432,'R+','[ﾛｺｶﾞｰﾙ]浜口あやめ+',11),
+	 ('cdfbd3cc796f86bd72bfbc59ddb0d37a',191,2880,3432,'R+','[ﾛｺｶﾞｰﾙ]浜口あやめ+',11);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('346bf79369d960b64b2687a91743526d',191,2700,2700,'R','[ｵﾘ･ﾛｺｶﾞｰﾙ]浜口あやめ',12),
 	 ('287ec123aac5bdc46005414c6f540eae',191,3220,2180,'R','[ｸﾞﾛｰｲﾝｸﾞﾚｯﾄﾞ]浜口あやめ',14),
 	 ('71558cd2e1d7a1664f22956ce2b3a358',191,5808,3984,'SR+','[華麗なくのいち]浜口あやめ+',17),
@@ -2054,10 +2052,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bb55ef853d7164b8b6d29a4b28be3c3e',191,2800,2760,'SR','[助太刀☆ﾁｱｰ]浜口あやめ',20),
 	 ('0c892e7b0943a2914287dfa8bb44bc9b',191,6120,4620,'SR','[秘伝☆くのいち]浜口あやめ',24),
 	 ('946b0c9949178ed9ef5ed7e8063f1568',191,9192,7200,'SR+','[紅忍ぶ皐月姫]浜口あやめ+',33),
-	 ('e7bcb3b62ac8b4c2e7cb7bb8ab9b8e70',191,3888,2472,'R+','[T.B.ﾁｱｰｽﾞ]浜口あやめ+',35);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e7bcb3b62ac8b4c2e7cb7bb8ab9b8e70',191,3888,2472,'R+','[T.B.ﾁｱｰｽﾞ]浜口あやめ+',35),
 	 ('ef68effc2d4275e8f0835e4af6dba704',191,7620,7580,'SR','[くのいちのいろは]浜口あやめ',38),
-	 ('ecffbe70cac95bf6992918d5e652a8f7',158,3020,2080,'R','[ﾊｲﾚｸﾞﾏｰﾒｲﾄﾞ]片桐早苗',2),
+	 ('ecffbe70cac95bf6992918d5e652a8f7',158,3020,2080,'R','[ﾊｲﾚｸﾞﾏｰﾒｲﾄﾞ]片桐早苗',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ef3322348ca2d2ea6fe9667562652fbd',158,3168,2880,'R+','[ﾜｰｷﾝｸﾞ･ﾀﾞｰﾃｨ]片桐早苗+',9),
 	 ('e752c3b2e14d3d50dce6c8218aa6e1a7',158,3240,2560,'R+','[ｳｪﾃﾞｨﾝｸﾞI.C]片桐早苗+',10),
 	 ('f0c2e711d5f1c4d49bfcd612c0903e33',158,4020,4140,'SR','[酔いどれお姉さん]片桐早苗',13),
@@ -2065,10 +2063,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('60f7cf692d9c64ad96e43a115b9e9a76',158,5720,3960,'SR','[ﾃﾞﾝｼﾞｬﾗｽｱﾀﾞﾙﾃｨ]片桐早苗',17),
 	 ('8d93c8ee952ca04150a7dd645b4be51f',158,5280,4896,'SR+','[はりきり花嫁･S]片桐早苗+',24),
 	 ('6967d76548f6c4bcefbdea44d9f0058a',158,3480,3216,'SR+','[CDﾃﾞﾋﾞｭｰ]片桐早苗+',26),
-	 ('d6f4c8132723e974386c6f16355d77b3',158,6900,5140,'SR','[深秋いろは]片桐早苗',29);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d6f4c8132723e974386c6f16355d77b3',158,6900,5140,'SR','[深秋いろは]片桐早苗',29),
 	 ('6d97cb9bb465d14cde626b232bb59928',158,7220,5280,'SR','[ｷﾞﾙﾃｨｸﾞﾛｰﾘｰ]片桐早苗',31),
-	 ('c28e1707af95249b5b67568cfb748a50',158,8664,6336,'SR+','[ｷﾞﾙﾃｨｸﾞﾛｰﾘｰ]片桐早苗+',32),
+	 ('c28e1707af95249b5b67568cfb748a50',158,8664,6336,'SR+','[ｷﾞﾙﾃｨｸﾞﾛｰﾘｰ]片桐早苗+',32);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2683c23d32108879f31da8e772c30e1e',158,8424,5760,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]片桐早苗+',36),
 	 ('29ba6a32a1ed5d9c7cff70a6f1bcf951',158,9400,9000,'SR','[7thｱﾆﾊﾞｰｻﾘｰ･S]片桐早苗',39),
 	 ('0547d328cdbccff00ea7599b29030d2c',158,8500,6600,'SR','[ﾉﾘﾉﾘお姉さん]片桐早苗',45),
@@ -2076,10 +2074,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fbb5477c8bd9c2c96d1ab988bc13176a',200,4860,4880,'SR','[湯浴みの踊子]依田芳乃',6),
 	 ('680348a16a23bd1ab4b7a2bca513b4fb',200,7344,5376,'SR+','[詩詠みの赤ずきん]依田芳乃+',9),
 	 ('38f60f4a3ee2a8ada8fed10044b64ea4',200,8208,5928,'SR+','[春光の少女]依田芳乃+',11),
-	 ('db65dbfc1d0326aaacab3176a4160e90',200,4152,3528,'SR+','[ひと結び]依田芳乃+',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('db65dbfc1d0326aaacab3176a4160e90',200,4152,3528,'SR+','[ひと結び]依田芳乃+',13),
 	 ('eb7a09bbd02d7729ebdec293f5de5ea7',200,7600,5920,'SR','[水影のうなさか]依田芳乃',16),
-	 ('e053118e1d1317c1d96b24289f73c927',200,8832,8784,'SR+','[つはものの道]依田芳乃+',23),
+	 ('e053118e1d1317c1d96b24289f73c927',200,8832,8784,'SR+','[つはものの道]依田芳乃+',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('db373c0d09c25ea3bc17eff111f4f45b',200,8928,8640,'SR+','[めぐみの甘雨]依田芳乃+',27),
 	 ('cd13da849fc3396216a25dfd5b4b7b4b',200,9240,9096,'SR+','[闇照らすともしび]依田芳乃+',31),
 	 ('0a4abfc7198e7e26465f165fada1b15e',200,7740,7560,'SR','[ことほぎの祈り]依田芳乃',32),
@@ -2087,10 +2085,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ded71c9bb18c1052fb0640e53f40ea04',171,8496,6264,'SR+','[ぷちっと☆ｽｳｨｰﾄ]諸星きらり+',28),
 	 ('e34a8cecd07eb4a178c622a6d45f7f50',171,6280,6280,'SR','[ろまんすｼﾞｪｯﾄ]諸星きらり',29),
 	 ('d5d01a505a212461f49c618591073cf5',171,7536,7536,'SR+','[ろまんすｼﾞｪｯﾄ]諸星きらり+',30),
-	 ('590ea3d4692769eab56d96af4d5c6298',7,840,840,'N+','持田亜里沙+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('590ea3d4692769eab56d96af4d5c6298',7,840,840,'N+','持田亜里沙+',1),
 	 ('0f9eefd5d70b48f20f8816530e6d7d73',18,1540,1920,'R','[ﾏｰﾒｲﾄﾞﾊﾟﾗﾀﾞｲｽ]横山千佳',2),
-	 ('78c1db8e016621883e2b0dc239e8ebc0',18,3340,2160,'R','[ﾎｰﾘｰｺｰﾗｽ]横山千佳',10),
+	 ('78c1db8e016621883e2b0dc239e8ebc0',18,3340,2160,'R','[ﾎｰﾘｰｺｰﾗｽ]横山千佳',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('dcf125a593ea8f63a0641cb5610a195d',18,4008,2520,'R+','[ﾊﾟﾜﾌﾙﾋﾛｲﾝ]横山千佳+',15),
 	 ('d3ae6c8c118597de7131a46a7a98e3b8',18,4280,3740,'SR','[小さなおひな様]横山千佳',16),
 	 ('f11481993da76a38d7f289c35cae41f5',151,1100,900,'N','海老原菜帆',0),
@@ -2098,10 +2096,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a37cd388993bc752c3145e815649c566',193,2440,1980,'R','[ｼﾞｭｰﾝﾌﾞﾗｲﾄﾞ]土屋亜子',4),
 	 ('80452b67b1eed6240a01c5b71b98f539',193,2424,3960,'R+','[ｻﾙﾌｧｰﾌﾞﾗｲﾄ]土屋亜子+',7),
 	 ('6bd4684e21d43d1bd95105c7501ea253',193,3960,2664,'R+','[ﾌｧﾝｻｰｷｯﾄ]土屋亜子+',12),
-	 ('84a7939aa0a5aa34c2fe619cb7c3b684',193,2860,2140,'R','[ｽｲｰﾄｵｰﾀﾑ]土屋亜子',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('84a7939aa0a5aa34c2fe619cb7c3b684',193,2860,2140,'R','[ｽｲｰﾄｵｰﾀﾑ]土屋亜子',15),
 	 ('1ccf6c5fb84658fd7a4fb00da1fd4984',193,2780,2680,'R','[ﾔﾑﾔﾑﾃﾞｨｰﾙｽﾞ]土屋亜子',17),
-	 ('cc587b5c006d330d28dd586f5aa01ab5',193,3980,4000,'SR','[ｻﾙﾌｧｰｳｪｰﾌﾞ]土屋亜子',19),
+	 ('cc587b5c006d330d28dd586f5aa01ab5',193,3980,4000,'SR','[ｻﾙﾌｧｰｳｪｰﾌﾞ]土屋亜子',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('dea4197fb41bc0d916debf2f4263c8a5',193,5640,5496,'SR+','[黄金の好運]土屋亜子+',22),
 	 ('17a8da8f1b09741e0cad2f3f5ccd323e',193,5016,5208,'SR+','[ｼｬｲﾆｰﾁｱｰ]土屋亜子+',24),
 	 ('bd055ba043dc7166491f48b3587b1984',193,5280,5352,'SR+','[魔科学ﾄﾞｸﾄﾙ]土屋亜子+',26),
@@ -2109,10 +2107,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d5622930911cee8dfb082a6144ab24b9',158,3624,2496,'R+','[ﾊｲﾚｸﾞﾏｰﾒｲﾄﾞ]片桐早苗+',3),
 	 ('86dab11a4ee3cf83fe7e3e3a5372fc09',158,2496,1824,'R+','[桜祭り]片桐早苗+',5),
 	 ('d9dd32e691096c60b1c0601c95925066',158,2640,2400,'R','[ﾜｰｷﾝｸﾞ･ﾀﾞｰﾃｨ]片桐早苗',8),
-	 ('41828c6114091713176d8f841add07d0',158,2200,3220,'R','[ﾃﾞﾝｼﾞｬｰﾌﾚｯｼｭ]片桐早苗',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('41828c6114091713176d8f841add07d0',158,2200,3220,'R','[ﾃﾞﾝｼﾞｬｰﾌﾚｯｼｭ]片桐早苗',11),
 	 ('411086d51c041d47c644c4acb2bcbb8f',158,2640,3864,'R+','[ﾃﾞﾝｼﾞｬｰﾌﾚｯｼｭ]片桐早苗+',12),
-	 ('9205795bcfa72efcbaf3fbc3d3ed2507',158,4340,4080,'SR','[ﾎﾞﾝﾊﾞｰ･ﾛﾜｲﾔﾙ]片桐早苗',19),
+	 ('9205795bcfa72efcbaf3fbc3d3ed2507',158,4340,4080,'SR','[ﾎﾞﾝﾊﾞｰ･ﾛﾜｲﾔﾙ]片桐早苗',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5c6a7d91faf763f00693b4571c4ea210',158,5208,4896,'SR+','[ﾎﾞﾝﾊﾞｰ･ﾛﾜｲﾔﾙ]片桐早苗+',20),
 	 ('570d11792a06edcd84948256ea98650c',158,4080,3000,'SR+','[はりきり花嫁]片桐早苗+',22),
 	 ('c0b85368c419f35c0f544181e7b07d0c',158,7104,6984,'SR+','[極楽お姉さん]片桐早苗+',28),
@@ -2120,10 +2118,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e72d3855350a579a8a30d5a372a0b42e',158,7500,5880,'SR','[狂宴ｳﾞｧﾝﾊﾟｲｱ]片桐早苗',33),
 	 ('7e910ed8f82277471d09ff6953966e51',158,7020,4800,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]片桐早苗',35),
 	 ('f0beede21acc4e679a58a05d8eec3c26',158,4680,3440,'SR','[7thｱﾆﾊﾞｰｻﾘｰ]片桐早苗',37),
-	 ('74bfb36578411126f56d04baeb48212d',203,2700,2660,'R','[聖夜のｷｾｷ]秋月涼',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('74bfb36578411126f56d04baeb48212d',203,2700,2660,'R','[聖夜のｷｾｷ]秋月涼',0),
 	 ('67fb7b5c31807c904c0fac573a185733',171,2544,1680,'R+','諸星きらり+',1),
-	 ('45cb660714f8f59460d315604f53b314',171,7080,5220,'SR','[ぷちっと☆ｽｳｨｰﾄ]諸星きらり',27),
+	 ('45cb660714f8f59460d315604f53b314',171,7080,5220,'SR','[ぷちっと☆ｽｳｨｰﾄ]諸星きらり',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('23643a4806d04438bf284b76b6c4030e',171,7660,5980,'SR','[めいぷるｽﾃｰｼﾞ]諸星きらり',31),
 	 ('41d25d608290fc153b24c84990503ef9',171,3984,2688,'R+','[ﾄｩｲﾝｸﾙｼﾞｪﾑ]諸星きらり+',37),
 	 ('498768de38b51ae8203636e6d574c38f',171,8460,6480,'SR','[ｸﾞﾚｲﾄﾌﾟﾚｾﾞﾝﾄ]諸星きらり',39),
@@ -2131,10 +2129,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('393b6b1b2e28e60508ecfc9f13769c3c',7,2952,2352,'R+','[浴衣祭り]持田亜里沙+',5),
 	 ('28351f2aa36a19be5e71535a9da90df2',7,3320,2180,'R','[ﾊﾟﾗﾀﾞｲｽﾘｿﾞｰﾄ]持田亜里沙',6),
 	 ('dfaef83aefde74600203a567895707b1',7,3960,2640,'R+','[ｵｰﾀﾑｺﾚｸｼｮﾝ]持田亜里沙+',9),
-	 ('10eb25907e2fde670537cd4fa553b8ff',7,3320,2100,'R','[まごころﾒｲﾄﾞ]持田亜里沙',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('10eb25907e2fde670537cd4fa553b8ff',7,3320,2100,'R','[まごころﾒｲﾄﾞ]持田亜里沙',11),
 	 ('47485521c3ae3874a86f0454741e475f',7,3840,2544,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]持田亜里沙+',14),
-	 ('5b22bf84b28a80e6bc9bba507cb475ca',7,4400,4560,'SR','[うたのおねえさん]持田亜里沙',17),
+	 ('5b22bf84b28a80e6bc9bba507cb475ca',7,4400,4560,'SR','[うたのおねえさん]持田亜里沙',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('545f910a45bcaf27bf287cf9ae8149e5',7,3888,2832,'SR+','[甲斐のｳｻﾄﾗ]持田亜里沙+',20),
 	 ('a4b95d602f54ab58070cacc27508ccc0',7,3576,3528,'SR+','[ｳｻｺちゃんとﾁｱｰ]持田亜里沙+',22),
 	 ('ab230b11f6a1d816f09e09d220d47773',7,4488,3768,'SR+','[たのしくｸﾗｲﾏｰ]持田亜里沙+',24),
@@ -2142,10 +2140,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('baf115536838f243cc9a52df9853fb22',7,7536,7512,'SR+','[ｸﾗｯｼｰﾙｰｼﾞｭ]持田亜里沙+',28),
 	 ('d1e0964f0fa8cd344a6a643020ffca30',7,5680,4420,'SR','[おねえさん･ﾛﾜｲﾔﾙ]持田亜里沙',31),
 	 ('9f4d7887576ff3a07becf232ea6427af',7,6816,5304,'SR+','[おねえさん･ﾛﾜｲﾔﾙ]持田亜里沙+',32),
-	 ('d5afe53e9eb4629197f42e744720cfa8',18,1848,2304,'R+','[ﾏｰﾒｲﾄﾞﾊﾟﾗﾀﾞｲｽ]横山千佳+',3);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d5afe53e9eb4629197f42e744720cfa8',18,1848,2304,'R+','[ﾏｰﾒｲﾄﾞﾊﾟﾗﾀﾞｲｽ]横山千佳+',3),
 	 ('66e4c9f29760c0b9c779dae9cec7555b',18,2520,2460,'R','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]横山千佳',6),
-	 ('a7e07a4479fdecf1f54fef8a23bf6bca',18,3024,2952,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]横山千佳+',7),
+	 ('a7e07a4479fdecf1f54fef8a23bf6bca',18,3024,2952,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]横山千佳+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1a5c40592d5a168e785ff6ddb49ba6c3',18,6552,4704,'SR+','[ﾏｼﾞｶﾙ☆ﾌﾟﾘﾃｨｰﾊｰﾄ]横山千佳+',19),
 	 ('b52bf3eaf6e1188fd72efe0e5d9b6d70',18,7704,7632,'SR+','[おしゃれのまほう]横山千佳+',25),
 	 ('521d08134bd68c69fb0393e8c264af7a',28,3312,2448,'R+','[ﾊｲｶﾗｻｸﾗ]前川みく+',3),
@@ -2153,10 +2151,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c6de2d6bb237d224734e0448ae6f153a',28,2064,1440,'SR+','[CDﾃﾞﾋﾞｭｰ]前川みく+',9),
 	 ('f369a4d2863096f6482270bf86392140',28,4460,4100,'SR','[ｼｰｻｲﾄﾞｷｬｯﾄ]前川みく',12),
 	 ('583d7a939c2f8d984fd5a45328019764',28,5352,4920,'SR+','[ｼｰｻｲﾄﾞｷｬｯﾄ]前川みく+',13),
-	 ('4aa6cbe5d08e58debf0adfd32f3c5dcd',28,4392,3456,'SR+','[ｱﾆﾊﾞｰｻﾘｰｷｬｯﾄ･S]前川みく+',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4aa6cbe5d08e58debf0adfd32f3c5dcd',28,4392,3456,'SR+','[ｱﾆﾊﾞｰｻﾘｰｷｬｯﾄ･S]前川みく+',17),
 	 ('bb2eb7f4b69f14c0cf2e438079234201',28,4840,4840,'SR','[ﾏｼﾞﾒ／ﾈｺﾁｬﾝ]前川みく',20),
-	 ('cbf6c6a6ba50576f7be5b9f273d0484d',28,6300,4540,'SR','[ﾑｰﾝﾅｲﾄｷｬｯﾄ]前川みく',22),
+	 ('cbf6c6a6ba50576f7be5b9f273d0484d',28,6300,4540,'SR','[ﾑｰﾝﾅｲﾄｷｬｯﾄ]前川みく',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f78629c8772962a9690611d3b3363906',28,6820,5020,'SR','[まちぶせｷｬｯﾄ]前川みく',25),
 	 ('e863deaf923d0239d7d118503386c7c4',28,8256,5784,'SR+','[ﾌﾏｼﾞﾒ／ﾈｺﾁｬﾝ]前川みく+',28),
 	 ('3fc26759609e48f6c80354cc88fe4886',28,9240,7224,'SR+','[ﾎｰﾘｰﾅｲﾄｷｬｯﾄ]前川みく+',30),
@@ -2164,10 +2162,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6393963b2feeb36881d4263c72bfa0cd',151,1320,1080,'N+','海老原菜帆+',1),
 	 ('2e4405c20b2ef8458796c8efe0e0a592',193,1944,1800,'R+','[ﾆｭｰｳｪｰﾌﾞ]土屋亜子+',1),
 	 ('e9f5d3a721a4e8b8dbbbab8eb237d7de',158,2080,1520,'R','[桜祭り]片桐早苗',4),
-	 ('377fbdfb1d83aa9567368f6f6859ba59',158,2260,1320,'R','[桜祭りｽﾏｲﾙ]片桐早苗',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('377fbdfb1d83aa9567368f6f6859ba59',158,2260,1320,'R','[桜祭りｽﾏｲﾙ]片桐早苗',6),
 	 ('d721cc2ce2e66a6b1e23fce55363a5cf',158,2712,1584,'R+','[桜祭りｽﾏｲﾙ]片桐早苗+',7),
-	 ('698e43a20181b5d63fde302f85247b21',158,4824,4968,'SR+','[酔いどれお姉さん]片桐早苗+',14),
+	 ('698e43a20181b5d63fde302f85247b21',158,4824,4968,'SR+','[酔いどれお姉さん]片桐早苗+',14);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0dbb918c0150f688583630318d8e5cf0',158,5000,3840,'SR','[やりすぎお姉さん]片桐早苗',15),
 	 ('7f6090794a05cb3592915bf8b5be2d6a',158,6864,4752,'SR+','[ﾃﾞﾝｼﾞｬﾗｽｱﾀﾞﾙﾃｨ]片桐早苗+',18),
 	 ('1683444bf90b1c5b16e8d8cf56a46191',158,3400,2500,'SR','[はりきり花嫁]片桐早苗',21),
@@ -2175,10 +2173,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('40e5ce644fe9b9d8d4db3797c8df1636',158,2900,2680,'SR','[CDﾃﾞﾋﾞｭｰ]片桐早苗',25),
 	 ('bf738f2f9689ce80fd3c885b1baf80f7',158,5920,5820,'SR','[極楽お姉さん]片桐早苗',27),
 	 ('5627b731d3ac5e07cdc33a68dd9202cd',158,9000,7056,'SR+','[狂宴ｳﾞｧﾝﾊﾟｲｱ]片桐早苗+',34),
-	 ('d2265679d4de84ffaf5ee89f47917fc9',158,5616,4128,'SR+','[7thｱﾆﾊﾞｰｻﾘｰ]片桐早苗+',38);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d2265679d4de84ffaf5ee89f47917fc9',158,5616,4128,'SR+','[7thｱﾆﾊﾞｰｻﾘｰ]片桐早苗+',38),
 	 ('45e3b703a24857c13045c16eab9f3a45',158,8200,6180,'SR','[はつらつお姉さん]片桐早苗',41),
-	 ('f0ec53075c403216bb8c21f623bd2669',158,8520,6520,'SR','[ときめきお姉さん]片桐早苗',43),
+	 ('f0ec53075c403216bb8c21f623bd2669',158,8520,6520,'SR','[ときめきお姉さん]片桐早苗',43);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c79b5a90e44cbca6c6b31c566e8b0878',203,3240,3192,'R+','[聖夜のｷｾｷ]秋月涼+',1),
 	 ('27768e59fb3f6273046deb807ed464d1',171,1960,1780,'R','[京町乙女]諸星きらり',2),
 	 ('13d35f865ec01a0b67bd9298ce18fde1',171,3120,2580,'SR','[ﾗﾌﾞﾘｰﾌﾟﾘﾝｾｽ]諸星きらり',6),
@@ -2186,10 +2184,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('681565d6931e8942e07aa96914bae78a',171,4080,3160,'SR','[ｷｭｰﾃｨｰﾒｲﾄﾞ]諸星きらり',10),
 	 ('4ce06aedcdc3452d744898d33dacf148',171,5520,3720,'SR+','[ｺﾞｼｯｸﾌﾟﾘﾝｾｽ]諸星きらり+',13),
 	 ('eccdc3e012a96c6c4f69cebfb8774946',171,5472,5448,'SR+','[ﾆｭｰｲﾔｰﾌﾟﾘﾝｾｽ]諸星きらり+',15),
-	 ('5dda31240aff8ba47ce49dc2b381009e',171,5640,5544,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]諸星きらり+',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5dda31240aff8ba47ce49dc2b381009e',171,5640,5544,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]諸星きらり+',17),
 	 ('db62b848e999ac5f02979ed4a00c2f9e',171,5980,4360,'SR','[はぴはぴﾃﾞﾋﾞﾙ]諸星きらり',20),
-	 ('8318239c3aa1500c359147deafe04495',171,5820,5800,'SR','[ぐれいと博士]諸星きらり',23),
+	 ('8318239c3aa1500c359147deafe04495',171,5820,5800,'SR','[ぐれいと博士]諸星きらり',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2d2bd33c37a21e558eb0c9fab16a8776',171,6984,6960,'SR+','[ぐれいと博士]諸星きらり+',24),
 	 ('2726872f85e9ca83e70c9897d833cbbe',7,1824,2736,'R+','[ｳｻｺちゃんと]持田亜里沙+',3),
 	 ('5284e8ed9804a5f52178ffad4654693c',7,4280,3100,'R+','[ｸﾗｲﾑI.C]持田亜里沙+',10),
@@ -2197,10 +2195,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0c4879afb1fa9dedcf8bae1295fab7bd',7,3200,2120,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]持田亜里沙',13),
 	 ('02e6e6ca1a87c6990997bd7e95004bf2',7,3900,3780,'SR','[ﾊﾛｳｨﾝｸｲｰﾝ]持田亜里沙',15),
 	 ('b4ce1229bd3669f873535993c78119a4',7,4680,4536,'SR+','[ﾊﾛｳｨﾝｸｲｰﾝ]持田亜里沙+',16),
-	 ('7ff72968fd3f03a494d52e24b597be01',7,5280,5472,'SR+','[うたのおねえさん]持田亜里沙+',18);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7ff72968fd3f03a494d52e24b597be01',7,5280,5472,'SR+','[うたのおねえさん]持田亜里沙+',18),
 	 ('3cc897e17eb9ec00935c3f09dd790b44',7,3240,2360,'SR','[甲斐のｳｻﾄﾗ]持田亜里沙',19),
-	 ('1ca5b0c45103639cf0269381b7c00758',7,2980,2940,'SR','[ｳｻｺちゃんとﾁｱｰ]持田亜里沙',21),
+	 ('1ca5b0c45103639cf0269381b7c00758',7,2980,2940,'SR','[ｳｻｺちゃんとﾁｱｰ]持田亜里沙',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('125e81ee1827f6f200d28b40aa1be60c',7,3740,3140,'SR','[たのしくｸﾗｲﾏｰ]持田亜里沙',23),
 	 ('9d21319e84f61ca87cc24dfd1aa511dc',7,5880,4680,'SR+','[にこにこｸﾗｲﾏｰ]持田亜里沙+',26),
 	 ('0bafd8a70b95838077ee10b32b1c12e6',7,6280,6260,'SR','[ｸﾗｯｼｰﾙｰｼﾞｭ]持田亜里沙',27),
@@ -2208,10 +2206,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0a55494fafe73df2035f17c70ed79af8',18,2920,2160,'R','[ﾗﾌﾞﾘｰ魔女っ娘]横山千佳',4),
 	 ('7df797b6cd664971b45bd3087277b078',18,3060,2140,'R','[T.B.ﾁｱｰｽﾞ]横山千佳',8),
 	 ('57181c3deee9e8202016cd1707eb4217',18,3260,2260,'R','[ﾊﾞﾚﾝﾀｲﾝﾓｰﾄﾞ]横山千佳',12),
-	 ('80f0cb447927cd8690b35be075337257',18,3912,2712,'R+','[ﾊﾞﾚﾝﾀｲﾝﾓｰﾄﾞ]横山千佳+',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('80f0cb447927cd8690b35be075337257',18,3912,2712,'R+','[ﾊﾞﾚﾝﾀｲﾝﾓｰﾄﾞ]横山千佳+',13),
 	 ('8932419ffa9d909cd881aa9093b1e487',18,5460,3920,'SR','[ﾏｼﾞｶﾙ☆ﾌﾟﾘﾃｨｰﾊｰﾄ]横山千佳',18),
-	 ('35e6178d1175a2acbe7c1fed4f8d04e1',18,5120,5080,'SR','[ﾏｼﾞｶﾙﾌﾞﾛｯｻﾑ]横山千佳',26),
+	 ('35e6178d1175a2acbe7c1fed4f8d04e1',18,5120,5080,'SR','[ﾏｼﾞｶﾙﾌﾞﾛｯｻﾑ]横山千佳',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6866eec24a7825980b3325dfc6297b33',28,4776,4608,'SR+','[ﾁｬｰﾐﾝｸﾞｷｬｯﾄ]前川みく+',11),
 	 ('6c41f4d6efea96e2fb3f34e6fea1de77',28,2904,4032,'SR+','[ｱﾆﾊﾞｰｻﾘｰｷｬｯﾄ]前川みく+',15),
 	 ('665a9ad6cf25489e7e4a11429abed954',28,5520,3520,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]前川みく',18),
@@ -2219,10 +2217,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f0f2405e8f2bbf462ed96d2a47eac58b',28,4660,4500,'SR+','[ｱｽﾀﾘｽｸ]前川みく+',24),
 	 ('252326436da6125e042e62f8433351fe',28,9600,7488,'SR+','[ﾊﾞﾛﾝｻﾞｷｬｯﾄ]前川みく+',34),
 	 ('4deeb267f8399ec9bbf08dcab655f4f8',28,8620,6660,'SR','[ほっこりﾈｺﾁｬﾝ]前川みく',37),
-	 ('9959ba843aab66caba0b6fee0adecc90',125,4340,3100,'R+','[銀河のﾊﾝﾀｰ]松尾千鶴+',33);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9959ba843aab66caba0b6fee0adecc90',125,4340,3100,'R+','[銀河のﾊﾝﾀｰ]松尾千鶴+',33),
 	 ('d82c7d5601b6218d47b3f619d13bfe55',187,1512,2232,'R+','[学園祭]小松伊吹+',3),
-	 ('3a2aa4fc0fb6337f9451d4efad5b9916',187,3648,2736,'R+','[ﾀﾞﾝｼﾝｸﾞﾌﾞﾗｲﾄﾞ]小松伊吹+',9),
+	 ('3a2aa4fc0fb6337f9451d4efad5b9916',187,3648,2736,'R+','[ﾀﾞﾝｼﾝｸﾞﾌﾞﾗｲﾄﾞ]小松伊吹+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7dc7df39668d17d3e6aefc45dad172c8',187,3672,2736,'R+','[ｶｼﾞｭｱﾙ&ﾌﾘﾙ]小松伊吹+',11),
 	 ('0dbc072b0335f879d112086ca78ad77a',187,4260,3100,'R+','[ｻﾊﾞｹﾞｰI.C]小松伊吹+',15),
 	 ('804b115656386639daea4c52420f7105',187,3912,2688,'R+','[ｽﾄﾘｰﾄｽﾊﾟｰｸﾙ]小松伊吹+',17),
@@ -2230,10 +2228,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1af95abc44fe62d8324257c1f6290018',187,5928,5880,'SR+','[ﾌｪｲﾊﾞﾘｯﾄ☆ﾀｲﾑ]小松伊吹+',25),
 	 ('d23f88fda4981caa35655e6be23fc54c',187,3720,3140,'SR','[ﾌﾚｯｼｭｿﾙｼﾞｬｰ]小松伊吹',26),
 	 ('ce41501e26f10c602104c8ea99058fac',155,940,1260,'N','衛藤美紗希',0),
-	 ('a9b3485ee109892c4a263b990ed57be6',151,1360,1820,'R','[浴衣祭り]海老原菜帆',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a9b3485ee109892c4a263b990ed57be6',151,1360,1820,'R','[浴衣祭り]海老原菜帆',2),
 	 ('393c6cafd2d14a97c4949f0bf386bb03',151,2680,1860,'R','[ぷにぷにｻﾏｰ]海老原菜帆',6),
-	 ('5feee873f7f71f93bc9c64f7488223ee',151,2820,2120,'R','[あまあまﾎﾞﾃﾞｨ]海老原菜帆',8),
+	 ('5feee873f7f71f93bc9c64f7488223ee',151,2820,2120,'R','[あまあまﾎﾞﾃﾞｨ]海老原菜帆',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a0d8f9c70a90965f5383f23fc9297e73',151,1780,3260,'R','[紅葉温泉]海老原菜帆',11),
 	 ('07db6378f0e35643cac8d82235b68123',151,4260,3120,'R+','[ﾗﾝﾌﾟの魔神]海老原菜帆+',13),
 	 ('0c0461a143ad72796617456bf046359e',151,3480,2544,'R+','[ｻﾏｰﾃﾝﾌﾟﾃｰｼｮﾝ]海老原菜帆+',15),
@@ -2241,10 +2239,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('63bca4c7ba8800505ce5a061d4aee09c',151,3648,2904,'SR+','[ﾌﾟﾆｮﾌﾜ乙女]海老原菜帆+',19),
 	 ('b469418a2073c780c8641fe2a23c7224',151,5184,4872,'SR+','[ぷにむにﾌｨｰﾘﾝｸﾞ]海老原菜帆+',21),
 	 ('6561e1ef73f3ae607ff507d0cb6596c6',151,6280,6200,'SR','[ふわっと艶乙女]海老原菜帆',24),
-	 ('2854561838dcf0828c8b30053c596148',151,4420,3380,'SR','[ほんわか福招き]海老原菜帆',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2854561838dcf0828c8b30053c596148',151,4420,3380,'SR','[ほんわか福招き]海老原菜帆',26),
 	 ('2918c246a76e54025637caa0fe810cef',151,5660,4460,'SR','[炎天のりずむ]海老原菜帆',30),
-	 ('b22058d3eb900c919dc0c48711d34618',193,2140,1700,'R','[ｱﾒﾘｶﾝｽﾀｲﾙ]土屋亜子',2),
+	 ('b22058d3eb900c919dc0c48711d34618',193,2140,1700,'R','[ｱﾒﾘｶﾝｽﾀｲﾙ]土屋亜子',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2c344452271d9b3ace6f5f815025a7a7',193,2928,2376,'R+','[ｼﾞｭｰﾝﾌﾞﾗｲﾄﾞ]土屋亜子+',5),
 	 ('2d1449e0672588d77f37bd725f5cd491',193,2720,2720,'R','[振袖まつり]土屋亜子',8),
 	 ('474d81de241426873715c3d2e2a7d006',193,3880,2880,'R+','[LIVEﾊﾞﾗｴﾃｨ]土屋亜子+',10),
@@ -2252,10 +2250,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('234fe63e5b5193320b6287835716d46a',193,3432,2568,'R+','[ｽｲｰﾄｵｰﾀﾑ]土屋亜子+',16),
 	 ('ac255218527c66da503ce302badf7723',193,3336,3216,'R+','[ﾔﾑﾔﾑﾃﾞｨｰﾙｽﾞ]土屋亜子+',18),
 	 ('67e21e4b8d91d5a75e1810c40a58f2d2',193,4700,4580,'SR','[黄金の好運]土屋亜子',21),
-	 ('90e1a482a68770c0117ff910db7209c2',160,1360,920,'N','西島櫂',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('90e1a482a68770c0117ff910db7209c2',160,1360,920,'N','西島櫂',0),
 	 ('8528eab7689a81e088cc8b537a7308b3',203,3120,2200,'R','[夜桜奇譚]秋月涼',2),
-	 ('cb10db1e0bcf18c7ae8b49edee29eea2',203,5328,5376,'SR+','[ﾗﾌﾞｷｭﾝﾊﾞﾚﾝﾀｲﾝ]秋月涼+',5),
+	 ('cb10db1e0bcf18c7ae8b49edee29eea2',203,5328,5376,'SR+','[ﾗﾌﾞｷｭﾝﾊﾞﾚﾝﾀｲﾝ]秋月涼+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a74873ccc242d5b4fc98dd7e5e1575a4',203,4340,3080,'R+','[絆のﾌﾟﾛﾄｺﾙ]秋月涼+',7),
 	 ('d114ead173608ffaaa6d3865c7cf001b',171,2352,2136,'R+','[京町乙女]諸星きらり+',3),
 	 ('91323eeabe7830ac1134cb7cd640abed',171,3888,2736,'R+','[ﾅｲﾄﾊﾟｰﾃｨｰ]諸星きらり+',5),
@@ -2263,10 +2261,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('805521caf23ffffe33935a44a3c3bb9f',171,2040,1488,'SR+','[CDﾃﾞﾋﾞｭｰ]諸星きらり+',9),
 	 ('e4cf30032d3151909b22ee89cdc5a16d',171,4700,4620,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]諸星きらり',16),
 	 ('3f3e317ba9be747dc17321a725664108',171,4920,4880,'SR','[びびっど☆ﾓﾃﾞﾙ]諸星きらり',18),
-	 ('90977ab9ab78e092fa509d5313e532b4',171,5904,5856,'SR+','[びびっど☆ﾓﾃﾞﾙ]諸星きらり+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('90977ab9ab78e092fa509d5313e532b4',171,5904,5856,'SR+','[びびっど☆ﾓﾃﾞﾙ]諸星きらり+',19),
 	 ('076806b1ad6aeae0acb06132c6bb6929',171,7296,7248,'SR+','[はぴはぴｳｪﾃﾞｨﾝｸﾞ]諸星きらり+',26),
-	 ('379d27d8034e096cda3cbfcb2086dcfb',171,9192,7176,'SR+','[めいぷるｽﾃｰｼﾞ]諸星きらり+',32),
+	 ('379d27d8034e096cda3cbfcb2086dcfb',171,9192,7176,'SR+','[めいぷるｽﾃｰｼﾞ]諸星きらり+',32);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c594cbbc689ad01cecd2a429029add32',171,8208,8160,'SR+','[ふわふわ☆ﾌﾞﾛｯｻﾑ]諸星きらり+',34),
 	 ('af0500a5260d527ed59a4db8ab221ba8',171,9696,7776,'SR+','[きらりん☆ｸﾛｰｽ]諸星きらり+',36),
 	 ('d86165087d8074338b8af95707b93163',171,3320,2240,'R','[ﾄｩｲﾝｸﾙｼﾞｪﾑ]諸星きらり',38),
@@ -2274,10 +2272,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3a5cea2097ff90ae223296f6c68ef3ac',171,9264,9072,'SR+','[めろめろｻﾏｰ]諸星きらり+',42),
 	 ('c38e02af7867d399dc755701470f8fb6',7,2460,1960,'R','[浴衣祭り]持田亜里沙',4),
 	 ('e62386d71c2fd0d5ad4dd47207df9b39',7,3984,2616,'R+','[ﾊﾟﾗﾀﾞｲｽﾘｿﾞｰﾄ]持田亜里沙+',7),
-	 ('8e287b6e2675f27792f7c11ae46cdbcd',7,3300,2200,'R','[ｵｰﾀﾑｺﾚｸｼｮﾝ]持田亜里沙',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('8e287b6e2675f27792f7c11ae46cdbcd',7,3300,2200,'R','[ｵｰﾀﾑｺﾚｸｼｮﾝ]持田亜里沙',8),
 	 ('f5bf0e0e151369e1260425bad7f6c2e8',7,2200,3280,'R','[ふんわりまごころ]持田亜里沙',29),
-	 ('9c1564701693706a61651bb2b3faaa61',7,2640,3936,'R+','[ふんわりまごころ]持田亜里沙+',30),
+	 ('9c1564701693706a61651bb2b3faaa61',7,2640,3936,'R+','[ふんわりまごころ]持田亜里沙+',30);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('114f6d44d27dbb63a72f6f4621741c87',7,3280,2220,'R','[癒しの湯の香]持田亜里沙',33),
 	 ('6d85b413db065fb9ecbcd80f348d53e6',18,5208,4920,'SR+','[朱きﾂﾜﾓﾉ]横山千佳+',21),
 	 ('f7024ca8bc11f488de049b9316cdae6b',18,6720,4880,'SR','[雨のまほう]横山千佳',22),
@@ -2285,10 +2283,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1c5a995a27a745ffb3fb1196ad350e00',28,9240,7200,'SR+','[ﾄﾞﾗﾏﾁｯｸﾈｺﾁｬﾝ]前川みく+',32),
 	 ('099d7365bfd987a9a2c29089b9b4dbb7',28,8260,6520,'SR','[和ごころﾈｺﾁｬﾝ]前川みく',35),
 	 ('a0104e1ecbb0a22937e3465955d57a8e',127,1160,1480,'R','ｱﾅｽﾀｼｱ',0),
-	 ('738f07ff43a54898e66aa9a103da018e',127,3288,3240,'R+','[ｾﾚｸﾃｯﾄﾞ]ｱﾅｽﾀｼｱ+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('738f07ff43a54898e66aa9a103da018e',127,3288,3240,'R+','[ｾﾚｸﾃｯﾄﾞ]ｱﾅｽﾀｼｱ+',5),
 	 ('4cf046b2e4af1a4be1528e73de51c253',127,5040,3440,'SR','[ｽﾀｰﾘｰﾋﾞｰﾁ]ｱﾅｽﾀｼｱ',8),
-	 ('8f65c4a7c44238a8c40c97bb372de437',127,2904,2112,'SR+','[CDﾃﾞﾋﾞｭｰ]ｱﾅｽﾀｼｱ+',11),
+	 ('8f65c4a7c44238a8c40c97bb372de437',127,2904,2112,'SR+','[CDﾃﾞﾋﾞｭｰ]ｱﾅｽﾀｼｱ+',11);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7b34edac94a0b9ac186db1cef78e6566',127,5544,5472,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]ｱﾅｽﾀｼｱ+',15),
 	 ('4597cb9d276c25fe9f6bde7354a1edef',127,7128,5112,'SR+','[ｽﾀｰﾗｲﾄｽｸｰﾙ]ｱﾅｽﾀｼｱ+',17),
 	 ('00d81330baf84ea61b34e6d88f8bd8a3',127,6320,4520,'SR','[宿星ﾛﾏﾈｽｸ]ｱﾅｽﾀｼｱ',20),
@@ -2296,10 +2294,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('44d3cac1ccd47a7efb02ab95f2e41f81',127,7540,5780,'SR','[雨上がりのｴｰﾃﾙ]ｱﾅｽﾀｼｱ',26),
 	 ('5db14c19e8b039b774014b612efeebb0',127,8640,8592,'SR+','[ﾉｽﾀﾙｼﾞｯｸﾏｷﾞﾔ]ｱﾅｽﾀｼｱ+',29),
 	 ('13a57237ec6fd60bb03adfe3fac3ba1a',127,8880,8640,'SR+','[美しき桃源郷]ｱﾅｽﾀｼｱ+',31),
-	 ('3898a787efde7980863b5186376e8712',127,10272,7872,'SR+','[花開くﾂｧﾚｰｳﾞﾅ]ｱﾅｽﾀｼｱ+',33);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3898a787efde7980863b5186376e8712',127,10272,7872,'SR+','[花開くﾂｧﾚｰｳﾞﾅ]ｱﾅｽﾀｼｱ+',33),
 	 ('230c5b5ec92445aaed128c7508cb8356',187,1280,1920,'R','[ﾊｯﾋﾟｰﾊﾞﾚﾝﾀｲﾝ]小松伊吹',4),
-	 ('d8bc3c2d3dc0cff584279852792d7a95',187,3040,2280,'R','[ﾀﾞﾝｼﾝｸﾞﾌﾞﾗｲﾄﾞ]小松伊吹',8),
+	 ('d8bc3c2d3dc0cff584279852792d7a95',187,3040,2280,'R','[ﾀﾞﾝｼﾝｸﾞﾌﾞﾗｲﾄﾞ]小松伊吹',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('882d09cd56864c6f8e27e24437215b42',151,1632,2184,'R+','[浴衣祭り]海老原菜帆+',3),
 	 ('721088da0e9e7de67a903eea16dd5b4c',151,2232,3792,'R+','[ﾃﾞﾋﾞﾘｯｼｭｺﾞｼｯｸ]海老原菜帆+',5),
 	 ('ad08ca71aac4affbd98e2c8613e2ef72',151,3216,2232,'R+','[ぷにぷにｻﾏｰ]海老原菜帆+',7),
@@ -2307,10 +2305,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('edc726ca8c756384a88415b7a3caf667',151,2136,3912,'R+','[紅葉温泉]海老原菜帆+',12),
 	 ('8ec5ab8e098ef3d0df8ae18ae2595f13',151,2900,2120,'R','[ｻﾏｰﾃﾝﾌﾟﾃｰｼｮﾝ]海老原菜帆',14),
 	 ('322962fdcf32dd19ff02fc6cb50077a8',151,4320,4060,'SR','[ぷにむにﾌｨｰﾘﾝｸﾞ]海老原菜帆',20),
-	 ('82e103ab4c545dc25fd404a6ff80ba59',151,5616,4656,'SR+','[ぷにっとﾁｱｰ]海老原菜帆+',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('82e103ab4c545dc25fd404a6ff80ba59',151,5616,4656,'SR+','[ぷにっとﾁｱｰ]海老原菜帆+',23),
 	 ('f918315bf0b28276e87d685d545c8145',151,7536,7440,'SR+','[ふわっと艶乙女]海老原菜帆+',25),
-	 ('4fd17aac095035cb5413f8c767d36595',151,5304,4056,'SR+','[ほんわか福招き]海老原菜帆+',27),
+	 ('4fd17aac095035cb5413f8c767d36595',151,5304,4056,'SR+','[ほんわか福招き]海老原菜帆+',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('72215185c0b684ed0272202c518e500c',151,3936,2520,'R+','[冬空ｽﾎﾟｰﾂ]海老原菜帆+',29),
 	 ('07288a321d758444cb8b4d80bcb77948',193,2568,2040,'R+','[ｱﾒﾘｶﾝｽﾀｲﾙ]土屋亜子+',3),
 	 ('90653f94871586fd61fb3c1f3a6363ef',193,2020,3300,'R','[ｻﾙﾌｧｰﾌﾞﾗｲﾄ]土屋亜子',6),
@@ -2318,10 +2316,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ccf090e74a63bbd02c4adbcc61062c0c',193,3300,2220,'R','[ﾌｧﾝｻｰｷｯﾄ]土屋亜子',11),
 	 ('ba8adbf8b689ab078caddbc7cba45fd6',193,3288,3216,'R+','[ｻﾙﾌｧｰｼﾞｮﾘｰ]土屋亜子+',14),
 	 ('d0511dd81329bcff9ae0bd87dd0f7daf',193,4180,4340,'SR','[ｼｬｲﾆｰﾁｱｰ]土屋亜子',23),
-	 ('9b8c49c88c689859176c103c9624c131',193,4400,4460,'SR','[魔科学ﾄﾞｸﾄﾙ]土屋亜子',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9b8c49c88c689859176c103c9624c131',193,4400,4460,'SR','[魔科学ﾄﾞｸﾄﾙ]土屋亜子',25),
 	 ('a71403e21d4ba06e59542c7fde8a471e',193,6192,6024,'SR+','[ｽﾀﾃﾞｨｰﾌﾚﾝｽﾞ]土屋亜子+',28),
-	 ('0ed32d39f64b48771acf9e1aa553a5da',193,3360,3288,'R+','[ﾅｲｽﾌﾟﾗｲｽﾞ]土屋亜子+',30),
+	 ('0ed32d39f64b48771acf9e1aa553a5da',193,3360,3288,'R+','[ﾅｲｽﾌﾟﾗｲｽﾞ]土屋亜子+',30);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2deaaf0de326f04174e4c0187d20d1e2',160,1632,1104,'N+','西島櫂+',1),
 	 ('9ec1db535f6c5277ab50ffd22d33953c',203,3744,2640,'R+','[夜桜奇譚]秋月涼+',3),
 	 ('e04bccbc3c0032fbfd431eed79b24a1f',203,3820,3680,'R+','[魔法のｺﾝﾁｪﾙﾄ]秋月涼+',6),
@@ -2329,10 +2327,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c838c2b59f98bf1c5a788e6f735da0b1',171,4896,3792,'SR+','[ｷｭｰﾃｨｰﾒｲﾄﾞ]諸星きらり+',11),
 	 ('f4932a6e93017b3dde0189c4b2c765af',171,4600,3100,'SR','[ｺﾞｼｯｸﾌﾟﾘﾝｾｽ]諸星きらり',12),
 	 ('a913d3efecf382ac9179ba1073df905c',171,4560,4540,'SR','[ﾆｭｰｲﾔｰﾌﾟﾘﾝｾｽ]諸星きらり',14),
-	 ('c10030d3b38bd695450f91a5177e5eb4',171,7176,5232,'SR+','[はぴはぴﾃﾞﾋﾞﾙ]諸星きらり+',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c10030d3b38bd695450f91a5177e5eb4',171,7176,5232,'SR+','[はぴはぴﾃﾞﾋﾞﾙ]諸星きらり+',21),
 	 ('a289fc73aa922d84f7917c8eb21428e0',171,4880,4180,'SR+','[凸ﾚｰｼｮﾝ]諸星きらり+',22),
-	 ('885b27d2b03761b4a9dc6fbaa438b094',171,6080,6040,'SR','[はぴはぴｳｪﾃﾞｨﾝｸﾞ]諸星きらり',25),
+	 ('885b27d2b03761b4a9dc6fbaa438b094',171,6080,6040,'SR','[はぴはぴｳｪﾃﾞｨﾝｸﾞ]諸星きらり',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d4d16221db30a4226a575f2958e0facc',171,6840,6800,'SR','[ふわふわ☆ﾌﾞﾛｯｻﾑ]諸星きらり',33),
 	 ('dc7cf881d0c9194df38d0358b3ebc4bb',171,8080,6480,'SR','[きらりん☆ｸﾛｰｽ]諸星きらり',35),
 	 ('5f24a87304d0f2e43e5ae49f8ee2c17f',171,7720,7560,'SR','[めろめろｻﾏｰ]諸星きらり',41),
@@ -2340,10 +2338,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7d18e2ff6cd21590d906226efafb777c',171,10368,8088,'SR+','[思い出がきらりん]諸星きらり+',44),
 	 ('9934868123e14bccac84dfb85f7ecd8a',8,820,580,'N','三村かな子',0),
 	 ('a62ddac0bbdf7507192e5ed73698a4be',19,900,1100,'N','関裕美',0),
-	 ('c2796e3d650b904810108ee398953baf',19,3648,2640,'R+','[ﾌｧﾝｼｰｽﾊﾟｲﾘｰｱ]関裕美+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c2796e3d650b904810108ee398953baf',19,3648,2640,'R+','[ﾌｧﾝｼｰｽﾊﾟｲﾘｰｱ]関裕美+',5),
 	 ('fe7a70caed6fe7087a172ca4d1545f7c',19,1900,2320,'R','[夏休み]関裕美',6),
-	 ('37214f0d7ec9a461beda96125f9071cf',19,1740,3280,'R','[ﾗﾌﾞﾘｰﾒｲﾄﾞ]関裕美',10),
+	 ('37214f0d7ec9a461beda96125f9071cf',19,1740,3280,'R','[ﾗﾌﾞﾘｰﾒｲﾄﾞ]関裕美',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('23e50b6726c740a3f455f7fdcdf607a5',19,2220,3240,'R','[ｶﾞｰﾘｰﾌﾞﾚｲﾌﾞ]関裕美',12),
 	 ('49ece644aa45d424edba7b9c1fdef6c5',19,2352,3072,'SR+','[ｽﾊﾟﾆｯｼｭﾀﾞﾝｻｰ]関裕美+',15),
 	 ('312b2c5020efdf60d43ba04e2830e58c',19,5760,4040,'SR','[ｲﾉｾﾝﾄﾌﾞﾗｲﾄﾞ]関裕美',18),
@@ -2351,10 +2349,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2ed81a3a0badd66417a9d8dac2380dcd',187,2780,2020,'R','[さわやかｽﾎﾟｰﾂ]小松伊吹',12),
 	 ('2f113b28d941cd9250d02f9491e2425a',187,3336,2424,'R+','[さわやかｽﾎﾟｰﾂ]小松伊吹+',13),
 	 ('e026a9a2e9fdd0cb527ab89ce1ac8b62',187,3980,2920,'R+','[ﾃﾞｨﾗｲﾄﾀｲﾑ]小松伊吹+',14),
-	 ('f6286fec3a1a32deadabc695e7ce2385',187,3936,2688,'R+','[ﾌﾗﾜｰﾌｪｱﾘｰｽﾞ]小松伊吹+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f6286fec3a1a32deadabc695e7ce2385',187,3936,2688,'R+','[ﾌﾗﾜｰﾌｪｱﾘｰｽﾞ]小松伊吹+',19),
 	 ('768b1f44dfcd83560a8ff4795198838c',187,2760,2700,'R','[ﾊﾟﾜﾌﾙﾌｪｽﾀ]小松伊吹',20),
-	 ('08cd13a051d1962fee067b9e38acd6c4',187,3336,2592,'SR+','[ﾄﾛﾋﾟｶﾙﾀﾞﾝｻｰ]小松伊吹+',23),
+	 ('08cd13a051d1962fee067b9e38acd6c4',187,3336,2592,'SR+','[ﾄﾛﾋﾟｶﾙﾀﾞﾝｻｰ]小松伊吹+',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b10fd90bb903b8dc9cb1ecd8311c2868',187,5300,4240,'SR','[ｶﾐﾝｸﾞｳｪｰﾌﾞ]小松伊吹',32),
 	 ('391fe67f6afdf4b4596b930089abc828',187,6744,5376,'SR+','[ｽﾄﾘｰﾄ･ﾛﾜｲﾔﾙ]小松伊吹+',35),
 	 ('5e267fb909e71c7d6f01c9e20a1b1fc4',187,4240,4120,'SR','[ﾍﾚﾆｯｸﾛﾏﾝ]小松伊吹',36),
@@ -2362,10 +2360,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2a524726cb9a9c8591a99a1e9156c950',187,10128,7848,'SR+','[映画のように突然に]小松伊吹+',41),
 	 ('dfea059243990fd0d1902e55aefda8ea',134,2440,1680,'R','[2ndｱﾆﾊﾞｰｻﾘｰ]本田未央',2),
 	 ('91fcfc8ea99e57db7e57a9c254399d1e',134,4480,3160,'SR','[ﾆｭｰｼﾞｪﾈﾚｰｼｮﾝ]本田未央',8),
-	 ('b9e3d2ab769bbd4f02d9a86aa4963480',134,1460,1980,'SR','[CDﾃﾞﾋﾞｭｰ]本田未央',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b9e3d2ab769bbd4f02d9a86aa4963480',134,1460,1980,'SR','[CDﾃﾞﾋﾞｭｰ]本田未央',10),
 	 ('d70342d50a456e6ea28c793fd32fded8',134,5280,5232,'SR+','[ﾊﾟｰﾌｪｸﾄｽﾀｰ]本田未央+',13),
-	 ('837e90baff2cb4e1b8d83b52bd204974',134,5900,4280,'SR','[放課後ﾊﾟｰﾃｨｰ]本田未央',16),
+	 ('837e90baff2cb4e1b8d83b52bd204974',134,5900,4280,'SR','[放課後ﾊﾟｰﾃｨｰ]本田未央',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7686210ae4c41b15170fb51774c0a19b',134,5580,5480,'SR+','[G4U！]本田未央+',19),
 	 ('87958f4f873116edfb0a6ea544368e75',134,4040,4040,'SR','[ｱﾆﾊﾞｰｻﾘｰｽﾀｰ]本田未央',22),
 	 ('873323df410644a760d965d7ece54bd7',134,7080,6960,'SR+','[ｵﾝﾘｰﾏｲｽﾀｰ]本田未央+',25),
@@ -2373,10 +2371,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2801a1e061cc7bd20fd826efef86e591',151,3420,3300,'R+','[自慢の一皿]海老原菜帆+',10),
 	 ('99b821d31a15f23c1d75f907f18588c7',151,3180,2120,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]海老原菜帆',16),
 	 ('c86d7c82683d60607bc5d143515334af',151,3040,2420,'SR','[ﾌﾟﾆｮﾌﾜ乙女]海老原菜帆',18),
-	 ('4b48f10d4de9328c9c106f9077981894',151,4680,3880,'SR','[ぷにっとﾁｱｰ]海老原菜帆',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4b48f10d4de9328c9c106f9077981894',151,4680,3880,'SR','[ぷにっとﾁｱｰ]海老原菜帆',22),
 	 ('18a58eb015fd69f3f9849ae5007ba056',151,3280,2100,'R','[冬空ｽﾎﾟｰﾂ]海老原菜帆',28),
-	 ('1e4651de0b0ae82623811b7fcd23b66b',151,6792,5352,'SR+','[炎天のりずむ]海老原菜帆+',31),
+	 ('1e4651de0b0ae82623811b7fcd23b66b',151,6792,5352,'SR+','[炎天のりずむ]海老原菜帆+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('40b0bf0485405d6fe0253371c92c0932',193,4776,4800,'SR+','[ｻﾙﾌｧｰｳｪｰﾌﾞ]土屋亜子+',20),
 	 ('278f748ca21e533fa84d48fabde7fbf4',193,5160,5020,'SR','[ｽﾀﾃﾞｨｰﾌﾚﾝｽﾞ]土屋亜子',27),
 	 ('0b1ae65a3b03dee995aca0b1fb33d046',193,2800,2740,'R','[ﾅｲｽﾌﾟﾗｲｽﾞ]土屋亜子',29),
@@ -2384,10 +2382,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9d3b68f92212bd2b95d73a5ba2358b4e',160,1920,2120,'R','[浴衣祭り]西島櫂',2),
 	 ('115667c89bcb3a1e593ccddf15bb1709',160,2740,2700,'R','[ﾊﾟﾗﾀﾞｲｽﾘｿﾞｰﾄ]西島櫂',6),
 	 ('6d5fe6750042dc9c21589f254b91e1e5',160,3240,2160,'R','[ｾﾙﾌｾﾚｸﾄ]西島櫂',8),
-	 ('0ed637b2de3041121021c52989c82533',160,3888,2592,'R+','[ｾﾙﾌｾﾚｸﾄ]西島櫂+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0ed637b2de3041121021c52989c82533',160,3888,2592,'R+','[ｾﾙﾌｾﾚｸﾄ]西島櫂+',9),
 	 ('3615fdeb23d847c39fb844c9bf446ff9',160,4176,5472,'SR+','[人波のｽｲﾏｰ]西島櫂+',16),
-	 ('427b561348d55eed4db451a497176f95',160,4180,4300,'SR','[ﾄﾞﾙﾌｨﾝﾁｱｰ]西島櫂',17),
+	 ('427b561348d55eed4db451a497176f95',160,4180,4300,'SR','[ﾄﾞﾙﾌｨﾝﾁｱｰ]西島櫂',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d97b128c8dbc9235834e5e045e75339c',160,8064,5688,'SR+','[ﾎｯﾄｸﾙｰｼﾞﾝｸﾞ]西島櫂+',20),
 	 ('dd34bfe74931aeab10c7aaafe2832d86',160,5640,5832,'SR+','[ｸﾞﾘﾙﾄﾞｽﾋﾟﾘｯﾄ]西島櫂+',22),
 	 ('10903d5f8eeaeee0b697153162537935',160,6192,6000,'SR+','[ﾀﾞｲﾅﾐｯｸｸﾗﾌﾄ]西島櫂+',24),
@@ -2395,10 +2393,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3b618f0273fecf8b47e9c4b5fd9366a4',203,4440,4480,'SR','[ﾗﾌﾞｷｭﾝﾊﾞﾚﾝﾀｲﾝ]秋月涼',4),
 	 ('df8b4a9675f16bdc8379a8e5f59a20ad',174,1540,2300,'R','相馬夏美',0),
 	 ('4a82a002228540b7fb96ca744599f1b1',8,984,696,'N+','三村かな子+',1),
-	 ('c2f5b454d115252ca5b31db8454abd31',19,1080,1320,'N+','関裕美+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c2f5b454d115252ca5b31db8454abd31',19,1080,1320,'N+','関裕美+',1),
 	 ('6ed6b0f5c83df2e71e99998dbafe53fc',127,3000,1780,'R','[ｽﾀｰﾕﾆﾊﾞｰｽ]ｱﾅｽﾀｼｱ',2),
-	 ('1434c2b1e8ac2b9526af0dbc0be53e53',127,6048,4128,'SR+','[ｽﾀｰﾘｰﾋﾞｰﾁ]ｱﾅｽﾀｼｱ+',9),
+	 ('1434c2b1e8ac2b9526af0dbc0be53e53',127,6048,4128,'SR+','[ｽﾀｰﾘｰﾋﾞｰﾁ]ｱﾅｽﾀｼｱ+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('815728ce55ae99bd7b40a1d229133dad',127,6288,4584,'SR+','[ｽﾉｰﾌｪｱﾘｰ]ｱﾅｽﾀｼｱ+',13),
 	 ('c882ebcbdd8a554dcd903c1db47972b2',127,5940,4260,'SR','[ｽﾀｰﾗｲﾄｽｸｰﾙ]ｱﾅｽﾀｼｱ',16),
 	 ('72fd3eb6b6c8a3b1755193c55760938d',127,5500,5600,'SR+','[G4U！]ｱﾅｽﾀｼｱ+',19),
@@ -2406,10 +2404,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1afd8342d44293052f586fcf12e4eb8d',127,7080,5380,'SR','[雪梅の羽衣]ｱﾅｽﾀｼｱ',24),
 	 ('816c47170869cc9647216536a1013b02',127,9048,6936,'SR+','[雨上がりのｴｰﾃﾙ]ｱﾅｽﾀｼｱ+',27),
 	 ('ec21f29b6b33e1e8b3a624825cc5da15',127,7400,7200,'SR','[美しき桃源郷]ｱﾅｽﾀｼｱ',30),
-	 ('7f5265af14ee02a2f800b45aa718ce09',127,8540,6800,'SR','[輝く夏飛沫]ｱﾅｽﾀｼｱ',34);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7f5265af14ee02a2f800b45aa718ce09',127,8540,6800,'SR','[輝く夏飛沫]ｱﾅｽﾀｼｱ',34),
 	 ('94bff0502f041e4baae4b676e3468a23',187,3260,2240,'R','[ｽﾄﾘｰﾄｽﾊﾟｰｸﾙ]小松伊吹',16),
-	 ('e23c489491ab4cc44fa0d702a7617f2e',187,3280,2240,'R','[ﾌﾗﾜｰﾌｪｱﾘｰｽﾞ]小松伊吹',18),
+	 ('e23c489491ab4cc44fa0d702a7617f2e',187,3280,2240,'R','[ﾌﾗﾜｰﾌｪｱﾘｰｽﾞ]小松伊吹',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('89b93355ff6c42827696c3cf996ae030',187,3312,3240,'R+','[ﾊﾟﾜﾌﾙﾌｪｽﾀ]小松伊吹+',21),
 	 ('56fb7869be014b15e2daccaf1dc6d4dc',187,4940,4900,'SR','[ﾌｪｲﾊﾞﾘｯﾄ☆ﾀｲﾑ]小松伊吹',24),
 	 ('14b9f5fc5395420c5fba5f8f9b6982ae',187,4820,3980,'SR','[ﾌﾚｯｼｭｿﾙｼﾞｬｰ･S]小松伊吹',28),
@@ -2417,10 +2415,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e7c911c4474a811ce6ebe3db7f34b2bd',187,10800,8300,'SR+','[ﾍﾚﾆｯｸｽﾏｲﾙ]小松伊吹+',39),
 	 ('5bc8615e9e1c4d44265bd5e804fb30da',134,2928,2016,'R+','[2ndｱﾆﾊﾞｰｻﾘｰ]本田未央+',3),
 	 ('a5c1e539fc8decf8bc8344d4da523d75',134,3168,3168,'R+','[2ndｱﾆﾊﾞｰｻﾘｰ･ﾈｺﾐﾐ]本田未央+',7),
-	 ('36c8ad2730641ca613e6bce46f958c86',134,1752,2376,'SR+','[CDﾃﾞﾋﾞｭｰ]本田未央+',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('36c8ad2730641ca613e6bce46f958c86',134,1752,2376,'SR+','[CDﾃﾞﾋﾞｭｰ]本田未央+',11),
 	 ('3f0e274eb39fa06ec90066815ebcce3f',134,4400,4360,'SR','[ﾊﾟｰﾌｪｸﾄｽﾀｰ]本田未央',12),
-	 ('ef8c42dd6a0e040d19677ae449f1c61e',134,7080,5136,'SR+','[放課後ﾊﾟｰﾃｨｰ]本田未央+',17),
+	 ('ef8c42dd6a0e040d19677ae449f1c61e',134,7080,5136,'SR+','[放課後ﾊﾟｰﾃｨｰ]本田未央+',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('20d57207fb5680675a1ee2c01974781a',134,4600,4600,'SR+','[ﾄﾞﾘｰﾑｽﾄｰﾘｰ]本田未央+',18),
 	 ('e8e30ac23663842999f4057639a470fb',134,4848,4848,'SR+','[ｱﾆﾊﾞｰｻﾘｰｽﾀｰ]本田未央+',23),
 	 ('753de37bd2cf3a4f2c089eeaa9d1bd78',134,5900,5800,'SR','[ｵﾝﾘｰﾏｲｽﾀｰ]本田未央',24),
@@ -2428,10 +2426,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('15c67cce325cc4f17bc477b08e3285fc',134,7220,7180,'SR','[ﾄｩｲﾝｸﾙｽﾀｰ]本田未央',33),
 	 ('dde23eaf6bebff27c8d1e3802c08e18a',134,8820,6740,'SR','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]本田未央',41),
 	 ('8a35394bd39f38e4a8f5202af3c7b262',134,10224,8184,'SR+','[ｼｰｸﾚｯﾄﾕｱﾒｲﾄﾞ]本田未央+',44),
-	 ('9b84bbcea8121a56969c15b2173a4e41',155,1128,1512,'N+','衛藤美紗希+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9b84bbcea8121a56969c15b2173a4e41',155,1128,1512,'N+','衛藤美紗希+',1),
 	 ('74a5d336821a3ccbb0e27083910eb4a2',188,2000,1200,'R','三好紗南',0),
-	 ('035f0fe78149312386a6359970285410',188,3648,2304,'R+','[ﾊﾞﾚﾝﾀｲﾝﾊﾟｰﾃｨｰ]三好紗南+',5),
+	 ('035f0fe78149312386a6359970285410',188,3648,2304,'R+','[ﾊﾞﾚﾝﾀｲﾝﾊﾟｰﾃｨｰ]三好紗南+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('39462197c42755367ed51077cd00d7d0',188,3600,2160,'R+','[ﾄﾞﾘｰﾑﾌﾟﾚｲﾔｰ]三好紗南+',7),
 	 ('1b31aa81142324e6e5817be4e32a26a8',188,6792,4776,'SR+','[ｹﾞｰﾑﾄｰｸﾅｲﾄ]三好紗南+',23),
 	 ('12294135f86976c08cd019bd74bb9617',188,5360,5360,'SR','[冒険者]三好紗南',26),
@@ -2439,10 +2437,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c29cb41862fd80a9c49491b85d8c79be',188,9552,7536,'SR+','[絆の共有者]三好紗南+',31),
 	 ('8c37a0bf970194335da754a6ed4f513f',188,3300,2040,'R','[ﾌﾗﾜｰﾊﾟｰﾃｨｰ]三好紗南',33),
 	 ('886e0e6ddf996f029d572480ab02dd81',156,1540,1100,'N','[水泳大会]ﾒｱﾘｰ･ｺｸﾗﾝ',0),
-	 ('8e9bb5d91c1612e5a4962aed94f45a78',196,2540,2480,'R','[等身大の素顔]南条光',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('8e9bb5d91c1612e5a4962aed94f45a78',196,2540,2480,'R','[等身大の素顔]南条光',0),
 	 ('bb91c7a10a12b5a3ed01557f161ba4a1',160,2304,2544,'R+','[浴衣祭り]西島櫂+',3),
-	 ('d84b4a1cfb08637667606e72446d417b',160,2952,2280,'R+','[ｽﾍﾟｰｽｽﾀｲﾙ]西島櫂+',5),
+	 ('d84b4a1cfb08637667606e72446d417b',160,2952,2280,'R+','[ｽﾍﾟｰｽｽﾀｲﾙ]西島櫂+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d3a6e3bf2a9fa94c1acfb5b91dccce53',160,3288,3240,'R+','[ﾊﾟﾗﾀﾞｲｽﾘｿﾞｰﾄ]西島櫂+',7),
 	 ('2dd54667369628560e906717044d5d92',160,3840,2920,'R+','[人狼将軍]西島櫂+',10),
 	 ('52c255a5b12b4a0ff833f819209c43a1',160,3048,2904,'R+','[ｸﾘｽﾏｽﾎﾘﾃﾞｰ]西島櫂+',12),
@@ -2450,10 +2448,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2ab8abfbcbada4e1877149d06f200fad',160,5016,5160,'SR+','[ﾄﾞﾙﾌｨﾝﾁｱｰ]西島櫂+',18),
 	 ('c4956742e83de544e7bb1f10bf4362e4',160,6720,4740,'SR','[ﾎｯﾄｸﾙｰｼﾞﾝｸﾞ]西島櫂',19),
 	 ('34b8e0f986aee243ba0df6508febd43a',160,2616,4008,'R+','[ｱﾄﾞﾊﾞﾝｽﾓｰﾄﾞ]西島櫂+',25),
-	 ('0b5e26614aa7ded4e50d7aa77440382c',160,9750,9750,'SR','[ｷﾞｬﾗｸｼｰｽﾏｲﾙ]西島櫂',27);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0b5e26614aa7ded4e50d7aa77440382c',160,9750,9750,'SR','[ｷﾞｬﾗｸｼｰｽﾏｲﾙ]西島櫂',27),
 	 ('1543cd2a1a76c30b5d6902b5b237e14a',160,9750,9750,'SR+','[ｷﾞｬﾗｸｼｰｽﾏｲﾙ]西島櫂+',28),
-	 ('5efc18b0168eb1b8a7dcd60f8e834b4c',207,5760,4360,'SR','[大いなる夢路]桜井夢子',0),
+	 ('5efc18b0168eb1b8a7dcd60f8e834b4c',207,5760,4360,'SR','[大いなる夢路]桜井夢子',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ba2d9fc0c2d88014e875358f245b6e05',174,1848,2760,'R+','相馬夏美+',1),
 	 ('9c9fb21dc78b7642279e08ce560b9326',8,3300,2200,'R','[春風ｽﾎﾟｰﾂ]三村かな子',2),
 	 ('122f54f43bfd96b80f258791833da3d9',8,4140,3140,'R+','[夏島☆ｼｰｻｲﾄﾞ]三村かな子+',6),
@@ -2461,10 +2459,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('98d99f1382acbdcffbdf1f2c2b878c86',8,1140,1400,'SR','[CDﾃﾞﾋﾞｭｰ]三村かな子',10),
 	 ('5f3df9ce0891daba5ad5462315bc6542',8,2120,1800,'SR','[LIVEｹﾞｽﾄ]三村かな子',12),
 	 ('9d95cb4e0a29f5df3d19ce03bab584a5',8,5328,3504,'SR+','[ﾒﾙﾃｨｽｲｰﾄ]三村かな子+',15),
-	 ('9be2474eed1f4bb918def97edd402d7b',8,5200,3200,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]三村かな子',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9be2474eed1f4bb918def97edd402d7b',8,5200,3200,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]三村かな子',16),
 	 ('b3b00bc958af646c2c96a1c9235117ff',8,7152,5136,'SR+','[桜色の華姫]三村かな子+',23),
-	 ('a7c2006bb177f730e7b13d57fb1b5665',8,6280,4500,'SR','[ｸﾘｰﾐｨﾄﾗｲﾌﾙ]三村かな子',25),
+	 ('a7c2006bb177f730e7b13d57fb1b5665',8,6280,4500,'SR','[ｸﾘｰﾐｨﾄﾗｲﾌﾙ]三村かな子',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cd54aefae560f9a4d6673b77eece7e09',8,8088,7992,'SR+','[水辺のﾃｨﾀｰﾆｱ]三村かな子+',32),
 	 ('094c1160b6ca53e25f33c4db6a3f8f3b',8,9696,7368,'SR+','[ｽｲｰﾄﾏﾘｱｰｼﾞｭ]三村かな子+',36),
 	 ('c973f973871817cabd17877199356fd1',8,8880,8712,'SR+','[お喋りﾃｨｰﾊﾟｰﾃｨｰ]三村かな子+',38),
@@ -2472,10 +2470,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3656160c6a0de5035d0ce51801b17929',19,6140,4440,'SR','[ﾊﾋﾟﾈｽﾌﾟﾘｽﾞﾑ]関裕美',20),
 	 ('839f27df591c223de347c63503e44191',19,5680,5480,'SR','[手のひらの宝物]関裕美',22),
 	 ('18e29d6f25535be40fa370323e9e899e',19,6816,6576,'SR+','[手のひらの宝物]関裕美+',23),
-	 ('6f26798de79180c3bc5aad8a14b31b34',19,5832,4800,'SR+','[ｼｮｺﾗﾄﾞｩｴﾀﾒｰﾙ]関裕美+',27);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6f26798de79180c3bc5aad8a14b31b34',19,5832,4800,'SR+','[ｼｮｺﾗﾄﾞｩｴﾀﾒｰﾙ]関裕美+',27),
 	 ('9e3a010674f9466807138247851bc3a1',19,4760,4880,'SR','[微笑みﾁｱｰ]関裕美',30),
-	 ('f4d879bcd1d626348fdc1f15f85d9742',19,5064,4944,'SR+','[7thｱﾆﾊﾞｰｻﾘｰ]関裕美+',33),
+	 ('f4d879bcd1d626348fdc1f15f85d9742',19,5064,4944,'SR+','[7thｱﾆﾊﾞｰｻﾘｰ]関裕美+',33);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f743b2a721e8992db0bb42494774c532',19,7660,7620,'SR','[神秘の花しずく]関裕美',36),
 	 ('ac77d4dcdfc07b0b6a23d8ca43cbbafa',19,8580,6460,'SR','[雨の日の笑顔]関裕美',38),
 	 ('32034ab33c661e1b0b910a5c498f8def',19,10296,7752,'SR+','[雨の日の笑顔]関裕美+',39),
@@ -2483,10 +2481,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9ddffd8e72408df4dfa6929feea3949c',127,4200,3080,'R+','[ﾛｼｱﾝｸｯｷﾝｸﾞ]ｱﾅｽﾀｼｱ+',6),
 	 ('cea357fbbe19630ed0a4cbb91a582717',127,7584,5424,'SR+','[宿星ﾛﾏﾈｽｸ]ｱﾅｽﾀｼｱ+',21),
 	 ('c0e1d6f4481ba3fabd64f9c6c9675156',127,8496,6456,'SR+','[雪梅の羽衣]ｱﾅｽﾀｼｱ+',25),
-	 ('64765fd2a7760ab7c85ff530a7ee1014',187,4464,3768,'SR+','[ﾌﾚｯｼｭｿﾙｼﾞｬｰ]小松伊吹+',27);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('64765fd2a7760ab7c85ff530a7ee1014',187,4464,3768,'SR+','[ﾌﾚｯｼｭｿﾙｼﾞｬｰ]小松伊吹+',27),
 	 ('93ff417b98647caf533179ef85083542',187,5784,4776,'SR+','[ﾌﾚｯｼｭｿﾙｼﾞｬｰ･S]小松伊吹+',29),
-	 ('c49c6d77d6640d6be62d4f0043739f4f',187,6840,4940,'SR','[月夜のﾀﾞﾝｻｰ]小松伊吹',30),
+	 ('c49c6d77d6640d6be62d4f0043739f4f',187,6840,4940,'SR','[月夜のﾀﾞﾝｻｰ]小松伊吹',30);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('fedb723cf98c9034a956008f1fa644d0',187,6360,5088,'SR+','[ｶﾐﾝｸﾞｳｪｰﾌﾞ]小松伊吹+',33),
 	 ('9abaee61c9f768b6c8075eb31a035ad0',187,5620,4480,'SR','[ｽﾄﾘｰﾄ･ﾛﾜｲﾔﾙ]小松伊吹',34),
 	 ('1de833e571ee6b7f4f749a84fee986aa',187,10800,8300,'SR','[ﾍﾚﾆｯｸｽﾏｲﾙ]小松伊吹',38),
@@ -2494,10 +2492,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('47b205617b851c0339d5d48feef363a8',134,2080,2600,'R','[2ndｱﾆﾊﾞｰｻﾘｰ･ｽﾏｲﾙ]本田未央',4),
 	 ('f30ed6c8625b249877623ce153a6ee42',134,2640,2640,'R','[2ndｱﾆﾊﾞｰｻﾘｰ･ﾈｺﾐﾐ]本田未央',6),
 	 ('d080f0c1cd8fe5edd66a70752ad330f9',155,2940,2120,'R','[ｼｮｰﾋﾞｽﾞｶﾞｰﾙ]衛藤美紗希',2),
-	 ('ed18ec00d1882aab7d3bffd12eeb6ff7',155,2580,2360,'R','[ｶﾞｰﾙｽﾞﾓｰﾄﾞ]衛藤美紗希',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ed18ec00d1882aab7d3bffd12eeb6ff7',155,2580,2360,'R','[ｶﾞｰﾙｽﾞﾓｰﾄﾞ]衛藤美紗希',10),
 	 ('af02f2cc9eff0cc1b65cdfb25c4d7e46',155,3864,2664,'R+','[ﾌﾚｯｼｭPG]衛藤美紗希+',14),
-	 ('b9b6f531ca95bef6cfb3c51ce50befaa',155,3360,2060,'R','[ｳｨﾝﾀｰﾃﾝﾌﾟﾃｰｼｮﾝ]衛藤美紗希',17),
+	 ('b9b6f531ca95bef6cfb3c51ce50befaa',155,3360,2060,'R','[ｳｨﾝﾀｰﾃﾝﾌﾟﾃｰｼｮﾝ]衛藤美紗希',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3d652688429abc27f23dfe08203c0a2c',155,4320,4608,'SR+','[ﾋﾞﾀｰﾊﾞﾚﾝﾀｲﾝ]衛藤美紗希+',20),
 	 ('80d9025585c14a2d82acfed3696ed523',155,4344,5688,'SR+','[あたしの磨き方]衛藤美紗希+',22),
 	 ('1bf6398daee19fd22d81891ea63f807d',155,4464,5760,'SR+','[華道の大和撫子･S]衛藤美紗希+',26),
@@ -2505,10 +2503,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7b95eee4202b9c3265ba5a41194b1d34',155,5856,4776,'SR+','[ﾌｪﾐﾆﾝﾁｱｰ]衛藤美紗希+',30),
 	 ('6321656d18f821b39212c9cfd5627023',155,10750,8450,'SR','[ｽﾏｲﾙｶﾞｰﾙｽﾞｶﾞｲﾄﾞ]衛藤美紗希',37),
 	 ('6975abbc1acbd11dc0761db34100eeff',188,2400,1440,'R+','三好紗南+',1),
-	 ('7eadf1a32f2acd16c352cc821d3edd11',188,1872,2952,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙ]三好紗南+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7eadf1a32f2acd16c352cc821d3edd11',188,1872,2952,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙ]三好紗南+',9),
 	 ('3e0a6ce679f6f028f72df476ee639a2d',156,1848,1320,'N+','[水泳大会]ﾒｱﾘｰ･ｺｸﾗﾝ+',1),
-	 ('4651350df55caf44e7f2cab5de005a4e',156,3576,2328,'R+','[ﾘﾄﾙｱｸﾄﾚｽ]ﾒｱﾘｰ･ｺｸﾗﾝ+',7),
+	 ('4651350df55caf44e7f2cab5de005a4e',156,3576,2328,'R+','[ﾘﾄﾙｱｸﾄﾚｽ]ﾒｱﾘｰ･ｺｸﾗﾝ+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bf401761087be840072f8fabc7f3b073',156,2760,2740,'R','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]ﾒｱﾘｰ･ｺｸﾗﾝ',12),
 	 ('85a7ea785a22004aa555a587a4ea9647',156,3180,2140,'R','[T.B.ﾊﾛｳｨﾝ]ﾒｱﾘｰ･ｺｸﾗﾝ',14),
 	 ('eabcfd8ee79889adba48d73ad1f69c79',156,2500,2020,'SR','[おませなﾘﾄﾙｶﾞｰﾙ]ﾒｱﾘｰ･ｺｸﾗﾝ',16),
@@ -2516,10 +2514,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('dec0c48fb7ff2cea33acedc86d60ed77',156,2380,3120,'SR','[学園の魔女]ﾒｱﾘｰ･ｺｸﾗﾝ',20),
 	 ('81f2b25fee15cd052eb46e500a139a58',156,4000,4060,'SR','[学園の魔女･S]ﾒｱﾘｰ･ｺｸﾗﾝ',22),
 	 ('1cff2e692e16e4a5080e58d376ac647a',156,6792,4968,'SR+','[碧眼の姫君]ﾒｱﾘｰ･ｺｸﾗﾝ+',25),
-	 ('571191f721985c5482bbb81971f25b98',156,6380,6360,'SR','[ﾌﾟﾘﾃｨﾌﾞﾛﾝﾄﾞ]ﾒｱﾘｰ･ｺｸﾗﾝ',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('571191f721985c5482bbb81971f25b98',156,6380,6360,'SR','[ﾌﾟﾘﾃｨﾌﾞﾛﾝﾄﾞ]ﾒｱﾘｰ･ｺｸﾗﾝ',28),
 	 ('3280a136dcbee4f742df57abd5fa2062',156,5784,5760,'SR+','[ﾘﾄﾙｶﾞｰﾙｽｶｳﾄ]ﾒｱﾘｰ･ｺｸﾗﾝ+',31),
-	 ('272aeecc016e36b8a9733e5fbd7c07ea',156,5040,4968,'SR+','[おてんば弓術]ﾒｱﾘｰ･ｺｸﾗﾝ+',34),
+	 ('272aeecc016e36b8a9733e5fbd7c07ea',156,5040,4968,'SR+','[おてんば弓術]ﾒｱﾘｰ･ｺｸﾗﾝ+',34);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1ef8e61bbe8444744972a7762c292248',156,3240,2080,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNB]ﾒｱﾘｰ･ｺｸﾗﾝ',37),
 	 ('3c3c58aa3056c75b8139189c71d2afa5',196,3048,2976,'R+','[等身大の素顔]南条光+',1),
 	 ('c996e8c27de072d99879b307e536a874',160,2460,1900,'R','[ｽﾍﾟｰｽｽﾀｲﾙ]西島櫂',4),
@@ -2527,10 +2525,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('375d9a5f22d0a3fd8ade6fafe3c47b2e',160,2900,2100,'R','[ｼｭﾃﾙﾝｸﾞ･ｼｪﾙﾂ]西島櫂',13),
 	 ('99f6f71b43706e8920cf77b34a0f99bb',160,3480,2520,'R+','[ｼｭﾃﾙﾝｸﾞ･ｼｪﾙﾂ]西島櫂+',14),
 	 ('6f5389395cfeec54633e3bd18ab02bd6',160,4700,4860,'SR','[ｸﾞﾘﾙﾄﾞｽﾋﾟﾘｯﾄ]西島櫂',21),
-	 ('26f650a6e158a37ddd3e263c22f04c13',160,5160,5000,'SR','[ﾀﾞｲﾅﾐｯｸｸﾗﾌﾄ]西島櫂',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('26f650a6e158a37ddd3e263c22f04c13',160,5160,5000,'SR','[ﾀﾞｲﾅﾐｯｸｸﾗﾌﾄ]西島櫂',23),
 	 ('1e0eac4c2a21276b3b0ce899220fb5d3',207,6912,5232,'SR+','[大いなる夢路]桜井夢子+',1),
-	 ('54f6c52057b1ee155af0f9b3d9675a25',174,2240,2320,'R','[ｽﾄｲｯｸﾋﾞｭｰﾃｨ]相馬夏美',2),
+	 ('54f6c52057b1ee155af0f9b3d9675a25',174,2240,2320,'R','[ｽﾄｲｯｸﾋﾞｭｰﾃｨ]相馬夏美',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('29afbffb42d6fabb1c7cd796b1bec5db',174,3240,2180,'R','[ｱﾀﾞﾙﾃｨﾌｪﾐﾆﾝ]相馬夏美',6),
 	 ('2dff8b1eb623fe157e9994f11a8c4272',174,3000,2952,'R+','[ｻﾏｰﾋﾞｰﾁ]相馬夏美+',13),
 	 ('5cdaef85b672564c81aae4d446c0d1fe',174,3260,2160,'R','[湯けむり紀行]相馬夏美',14),
@@ -2538,10 +2536,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('32fa865d0dbd768fc33cafa25dfe9ff0',174,2976,3480,'R+','[笑顔のﾊﾟﾘｼﾞｪﾝﾇ]相馬夏美+',19),
 	 ('caa77dc7a7f1de14f95233f4f6fab724',174,4060,3940,'SR','[明日へのﾌﾗｲﾄ]相馬夏美',22),
 	 ('1b437d9ca380059cc9b380c5f2354511',174,4872,4728,'SR+','[明日へのﾌﾗｲﾄ]相馬夏美+',23),
-	 ('d1cfa90c794c23adafaf041857efd1be',174,5100,5100,'SR','[ﾓｰﾄﾞの翼]相馬夏美',30);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d1cfa90c794c23adafaf041857efd1be',174,5100,5100,'SR','[ﾓｰﾄﾞの翼]相馬夏美',30),
 	 ('18b4950d4a1e09aa063f10707c1ce3bb',174,6120,6120,'SR+','[ﾓｰﾄﾞの翼]相馬夏美+',31),
-	 ('a4e16ebe27838b975e37bfe74c84ddc2',8,3960,2640,'R+','[春風ｽﾎﾟｰﾂ]三村かな子+',3),
+	 ('a4e16ebe27838b975e37bfe74c84ddc2',8,3960,2640,'R+','[春風ｽﾎﾟｰﾂ]三村かな子+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('82aa4935c95e87e5a62185d63a42dd2c',8,3336,3240,'R+','[ﾜｲﾙﾄﾞﾌﾚﾝｽﾞ]三村かな子+',5),
 	 ('5bc1016a4121d230bcadb3e57ae9becc',8,3070,3240,'SR','[ふわふわｽﾏｲﾙ]三村かな子',8),
 	 ('a58abdbbc7258e54993ab40137c6cd78',8,3684,3888,'SR+','[ふわふわｽﾏｲﾙ]三村かな子+',9),
@@ -2549,10 +2547,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1af7bfaac9ee148dd2e9046e761a5430',8,4440,2920,'SR','[ﾒﾙﾃｨｽｲｰﾄ]三村かな子',14),
 	 ('67f12e31fbef152f316ccab074033751',8,6240,3840,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]三村かな子+',17),
 	 ('1690e6ca3699ea1491a93ac6ad33f835',8,4680,4660,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]三村かな子',20),
-	 ('29c61e62f922a8da71ff6782d757b18e',8,5616,5592,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]三村かな子+',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('29c61e62f922a8da71ff6782d757b18e',8,5616,5592,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]三村かな子+',21),
 	 ('b0cc22595859cf3a35cb7fad726acf0c',8,5640,5600,'SR','[ﾒﾙﾃｨｽﾉｰ]三村かな子',27),
-	 ('a971864b897eb298bf98410917dcff59',8,6940,5140,'SR','[ｽｲｰﾄｻﾏｰﾀｲﾑ]三村かな子',29),
+	 ('a971864b897eb298bf98410917dcff59',8,6940,5140,'SR','[ｽｲｰﾄｻﾏｰﾀｲﾑ]三村かな子',29);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c8c44f8080c9c5fe57633092232f5dee',8,8328,6168,'SR+','[ｽｲｰﾄｻﾏｰﾀｲﾑ]三村かな子+',30),
 	 ('4cef8da9ead5ecd1a89726d57e86d7be',8,8256,8208,'SR+','[包みこむ幸せ]三村かな子+',34),
 	 ('11fe10702e6f3beaacf63a5c794a0927',8,9120,9120,'SR+','[ﾄﾞﾙﾁｪ･ｸﾗｼｶ]三村かな子+',40),
@@ -2560,10 +2558,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a86cee85cb782f99f6c9e04d01d26437',8,10368,8112,'SR+','[ときめきﾌﾙｽｲﾝｸﾞ]三村かな子+',44),
 	 ('d4ebad4f68b4f6c1d3e14aedd0e1fb70',19,1536,2256,'R+','[ﾊﾛｳｨﾝｳﾞｧﾝﾊﾟｲｱ]関裕美+',3),
 	 ('d85152d27e941ab28409e1ce28515aa0',19,2280,2784,'R+','[夏休み]関裕美+',7),
-	 ('cd6dbe35df150439d6641aefa0eae7a9',19,2760,2688,'R+','[笑顔の夏休み]関裕美+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('cd6dbe35df150439d6641aefa0eae7a9',19,2760,2688,'R+','[笑顔の夏休み]関裕美+',9),
 	 ('5ca334dd65bac13411c63caa54f0227f',19,2088,3936,'R+','[ﾗﾌﾞﾘｰﾒｲﾄﾞ]関裕美+',11),
-	 ('ae708b4006b536e7c436f68dc046479b',19,6912,4848,'SR+','[ｲﾉｾﾝﾄﾌﾞﾗｲﾄﾞ]関裕美+',19),
+	 ('ae708b4006b536e7c436f68dc046479b',19,6912,4848,'SR+','[ｲﾉｾﾝﾄﾌﾞﾗｲﾄﾞ]関裕美+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1709855b07591c6bdd5bfb57c427e439',19,6880,6880,'SR','[ｵｰﾀﾑｸﾗﾌﾄ]関裕美',28),
 	 ('33608a0fc87790746433e3dfc82d4829',19,8256,8256,'SR+','[ｵｰﾀﾑｸﾗﾌﾄ]関裕美+',29),
 	 ('edb1e523a42a82ea0b49679980fceb0f',19,9192,9144,'SR+','[神秘の花しずく]関裕美+',37),
@@ -2571,10 +2569,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4a3d126ea1b9b958f86053014546c111',19,9312,9096,'SR+','[ﾌﾗｯﾌｨｰｶﾞｰﾙ]関裕美+',41),
 	 ('7679180dde14659b8809695272ab08ae',127,2740,2700,'R','[ｾﾚｸﾃｯﾄﾞ]ｱﾅｽﾀｼｱ',4),
 	 ('1d7c81bcd1fc24ea204a55e7c3c380e6',127,4260,3140,'R+','[ﾛｼｱﾝｸｯｷﾝｸﾞ･S]ｱﾅｽﾀｼｱ+',7),
-	 ('46785dbdd571559db51149de02e3337e',127,2420,1760,'SR','[CDﾃﾞﾋﾞｭｰ]ｱﾅｽﾀｼｱ',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('46785dbdd571559db51149de02e3337e',127,2420,1760,'SR','[CDﾃﾞﾋﾞｭｰ]ｱﾅｽﾀｼｱ',10),
 	 ('53fcb80b6fc212d322bdf05f433d3bce',127,5240,3820,'SR','[ｽﾉｰﾌｪｱﾘｰ]ｱﾅｽﾀｼｱ',12),
-	 ('18489764f5cbce4a977c80ee9d7783a1',156,1600,2720,'R','ﾒｱﾘｰ･ｺｸﾗﾝ',2),
+	 ('18489764f5cbce4a977c80ee9d7783a1',156,1600,2720,'R','ﾒｱﾘｰ･ｺｸﾗﾝ',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d26384fd64b2ba4dd1c1d86cfb67b8a0',156,2980,1940,'R','[ﾘﾄﾙｱｸﾄﾚｽ]ﾒｱﾘｰ･ｺｸﾗﾝ',6),
 	 ('c59d82869331715bcd9d9f0a8b9a1c06',196,3860,2860,'R+','[ﾚｼﾞｪﾝﾄﾞｼｰﾌ]南条光+',2),
 	 ('995b17b51822879f3a9164b334589b92',196,3288,3264,'R+','[明日への自分]南条光+',8),
@@ -2582,10 +2580,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bbcc7d08ecafb83fa87d6eb23346d512',196,6648,4584,'SR+','[ﾐﾝﾅﾉﾐｶﾀ]南条光+',12),
 	 ('8432ce06dd84a3f33614b76f658051e7',196,6456,5040,'SR+','[ﾁｪﾝｼﾞﾌｫｰﾑ]南条光+',18),
 	 ('af2df0372ae794483c2315c62f2f1417',196,5688,4128,'SR+','[8thｱﾆﾊﾞｰｻﾘｰ]南条光+',24),
-	 ('af64f16df0293b28f4bd8fd8e213b98a',163,660,640,'R','相葉夕美',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('af64f16df0293b28f4bd8fd8e213b98a',163,660,640,'R','相葉夕美',0),
 	 ('dd7b4d4e1769b447ee6fc98e317fb666',136,240,360,'N','並木芽衣子',0),
-	 ('f00fcf5ddeafeaa2451d5ba27d270ba8',174,2688,2784,'R+','[ｽﾄｲｯｸﾋﾞｭｰﾃｨ]相馬夏美+',3),
+	 ('f00fcf5ddeafeaa2451d5ba27d270ba8',174,2688,2784,'R+','[ｽﾄｲｯｸﾋﾞｭｰﾃｨ]相馬夏美+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8693753c14c0e5dbff7021c880c8b4ad',174,1968,3432,'R+','[ﾊﾞﾆｰｶﾞｰﾙ]相馬夏美+',5),
 	 ('dacd3782cc330619e7b2505008e4527a',174,2880,2120,'R','[T.B.ﾁｱｰｽﾞ]相馬夏美',8),
 	 ('08c8021dd356090cf6e6c67ce364c6c5',174,2820,2020,'R','[ﾋﾞﾀｰ&ｽｳｨｰﾄ]相馬夏美',10),
@@ -2593,10 +2591,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6cde9c56bc222c220fe02deb87a8cb72',174,2480,2900,'R','[笑顔のﾊﾟﾘｼﾞｪﾝﾇ]相馬夏美',18),
 	 ('497bf3092363f016268cf298c5b99146',174,3888,2808,'SR+','[紅葉色の風]相馬夏美+',25),
 	 ('53c6e0d594d07c777aa0cceeb7e425b8',174,3984,3096,'SR+','[ｽﾄｲｯｸ･ﾛﾜｲﾔﾙ]相馬夏美+',27),
-	 ('bf660cf6616951b45ce0b978814057e8',174,6700,6660,'SR','[ﾋｰﾘﾝｸﾞｽﾌｨｱ]相馬夏美',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bf660cf6616951b45ce0b978814057e8',174,6700,6660,'SR','[ﾋｰﾘﾝｸﾞｽﾌｨｱ]相馬夏美',28),
 	 ('16d9293bf83ba6bf24a6852f8d34c0a7',8,2780,2700,'R','[ﾜｲﾙﾄﾞﾌﾚﾝｽﾞ]三村かな子',4),
-	 ('207845571c37f60aa09865f7ad5684d4',8,1368,1680,'SR+','[CDﾃﾞﾋﾞｭｰ]三村かな子+',11),
+	 ('207845571c37f60aa09865f7ad5684d4',8,1368,1680,'SR+','[CDﾃﾞﾋﾞｭｰ]三村かな子+',11);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('885560563387d31c9c3df18f4acf5b65',8,3160,2960,'SR','[LIVEｹﾞｽﾄ･ｽﾏｲﾙ]三村かな子',18),
 	 ('70626858ff6676ee4f1eafbf6d52706f',8,3792,3552,'SR+','[LIVEｹﾞｽﾄ･ｽﾏｲﾙ]三村かな子+',19),
 	 ('28bcf7054852b0cc022339a29fbab508',8,5960,4280,'SR','[桜色の華姫]三村かな子',22),
@@ -2604,10 +2602,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a96314dfbb8bddd68b73adaff44f5261',8,7536,5400,'SR+','[ｸﾘｰﾐｨﾄﾗｲﾌﾙ]三村かな子+',26),
 	 ('de08ee30102b9de8473d24f8cab704d1',8,6768,6720,'SR+','[ﾒﾙﾃｨｽﾉｰ]三村かな子+',28),
 	 ('020d6a4d53e3b162cc50df02932b50a2',8,6740,6660,'SR','[水辺のﾃｨﾀｰﾆｱ]三村かな子',31),
-	 ('b81851ec95688a8f66835053c399b429',8,6880,6840,'SR','[包みこむ幸せ]三村かな子',33);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b81851ec95688a8f66835053c399b429',8,6880,6840,'SR','[包みこむ幸せ]三村かな子',33),
 	 ('e008525e4fb7d53f0f9b598e493cdfdf',8,8080,6140,'SR','[ｽｲｰﾄﾏﾘｱｰｼﾞｭ]三村かな子',35),
-	 ('b6471331cc5644bd9f51345460a7a919',8,7400,7260,'SR','[お喋りﾃｨｰﾊﾟｰﾃｨｰ]三村かな子',37),
+	 ('b6471331cc5644bd9f51345460a7a919',8,7400,7260,'SR','[お喋りﾃｨｰﾊﾟｰﾃｨｰ]三村かな子',37);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a4148118acb5d136b55cbb1aabc7c063',8,7600,7600,'SR','[ﾄﾞﾙﾁｪ･ｸﾗｼｶ]三村かな子',39),
 	 ('d5683a48238a85061a27b06627d61cb4',8,8580,6440,'SR','[あなたのﾊﾆｰｼｭｶﾞｰ]三村かな子',41),
 	 ('2ab93a6ad0ceb9d9389969cbda050e12',8,8640,6760,'SR','[ときめきﾌﾙｽｲﾝｸﾞ]三村かな子',43),
@@ -2615,10 +2613,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8555c01eca24269514623464e978ebd7',19,2300,2240,'R','[笑顔の夏休み]関裕美',8),
 	 ('5995c6f6b336e0ebafbfc9a41034b306',19,2664,3888,'R+','[ｶﾞｰﾘｰﾌﾞﾚｲﾌﾞ]関裕美+',13),
 	 ('eaaecb4e719c48f55b564a275f4eb705',19,1960,2560,'SR','[ｽﾊﾟﾆｯｼｭﾀﾞﾝｻｰ]関裕美',14),
-	 ('8254b5bd71ea17452086dba763e4844f',19,4280,4300,'SR','[ﾌｫｰﾁｭﾝﾊﾞﾆｰ]関裕美',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('8254b5bd71ea17452086dba763e4844f',19,4280,4300,'SR','[ﾌｫｰﾁｭﾝﾊﾞﾆｰ]関裕美',16),
 	 ('e30940ae9dcda36d0d5b06baec45646d',19,5136,5160,'SR+','[ﾌｫｰﾁｭﾝﾊﾞﾆｰ]関裕美+',17),
-	 ('5301aa1b9c5b7f0acdad5d280323b120',19,7368,5328,'SR+','[ﾊﾋﾟﾈｽﾌﾟﾘｽﾞﾑ]関裕美+',21),
+	 ('5301aa1b9c5b7f0acdad5d280323b120',19,7368,5328,'SR+','[ﾊﾋﾟﾈｽﾌﾟﾘｽﾞﾑ]関裕美+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('66b1b474a97ac4e1b17d8522254223ce',19,6800,4980,'SR','[笑顔のｶﾞｰﾃﾞｨｱﾝ]関裕美',24),
 	 ('c34d484a61ea8f7be3cfc5ede01b11e3',19,8160,5976,'SR+','[笑顔のｶﾞｰﾃﾞｨｱﾝ]関裕美+',25),
 	 ('7a16a01f4a544cba2168a69382f3de40',19,4860,4000,'SR','[ｼｮｺﾗﾄﾞｩｴﾀﾒｰﾙ]関裕美',26),
@@ -2626,10 +2624,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('60ee52739f611c2aad21f6c4ff734fc0',19,4220,4120,'SR','[7thｱﾆﾊﾞｰｻﾘｰ]関裕美',32),
 	 ('d959f4864d6e5fef4764123917b03d4c',19,10500,7600,'SR','[7thｱﾆﾊﾞｰｻﾘｰ･S]関裕美',34),
 	 ('549c1f40c2996a1983073a02f650099c',19,10500,7600,'SR+','[7thｱﾆﾊﾞｰｻﾘｰ･S]関裕美+',35),
-	 ('36b6b86a58b5c91a83b3912f744f5cef',127,4620,4560,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]ｱﾅｽﾀｼｱ',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('36b6b86a58b5c91a83b3912f744f5cef',127,4620,4560,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]ｱﾅｽﾀｼｱ',14),
 	 ('a24996fcc1421174481c3333b8ea5218',127,4920,4080,'SR+','[ﾗﾌﾞﾗｲｶ]ｱﾅｽﾀｼｱ+',18),
-	 ('efd7280a739ca96a7c72c49612eab0aa',127,7200,7160,'SR','[ﾉｽﾀﾙｼﾞｯｸﾏｷﾞﾔ]ｱﾅｽﾀｼｱ',28),
+	 ('efd7280a739ca96a7c72c49612eab0aa',127,7200,7160,'SR','[ﾉｽﾀﾙｼﾞｯｸﾏｷﾞﾔ]ｱﾅｽﾀｼｱ',28);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c281c0cabbd1c1c2d422ced58598acc2',127,8560,6560,'SR','[花開くﾂｧﾚｰｳﾞﾅ]ｱﾅｽﾀｼｱ',32),
 	 ('114b1b224205c92a2e611e3acca55085',127,10248,8160,'SR+','[輝く夏飛沫]ｱﾅｽﾀｼｱ+',35),
 	 ('462788ef215a343a2f7ea3cdf5a79fd3',190,940,880,'R','難波笑美',0),
@@ -2637,10 +2635,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('14fe0cc1973b33542f4cd53504468157',190,3336,2424,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]難波笑美+',7),
 	 ('c05926c2d7da68d179163a9e38251cfe',190,6432,5088,'SR+','[笑顔のﾀﾋﾞｰｷｬｯﾄ]難波笑美+',29),
 	 ('503aaecdf1e5528fe624424370c4017e',190,3300,2100,'R','[ﾄｩｲﾝｸﾙｼﾞｪﾑ]難波笑美',32),
-	 ('840758c3b33b96d12e0b6f83e55be644',190,10152,7824,'SR+','[本日の主役]難波笑美+',35);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('840758c3b33b96d12e0b6f83e55be644',190,10152,7824,'SR+','[本日の主役]難波笑美+',35),
 	 ('ac84c61ce8af6cbd8ecdb3099e87b29f',134,5376,3792,'SR+','[ﾆｭｰｼﾞｪﾈﾚｰｼｮﾝ]本田未央+',9),
-	 ('b10e7156c968f1c10e931fb39437b555',134,4640,4640,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]本田未央',14),
+	 ('b10e7156c968f1c10e931fb39437b555',134,4640,4640,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]本田未央',14);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('728ea914619eaaaf809574f0134816ee',134,5568,5568,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]本田未央+',15),
 	 ('65101cc645b1b98eba948fe54046ff6f',156,1920,3264,'R+','ﾒｱﾘｰ･ｺｸﾗﾝ+',3),
 	 ('e92cc31ad73eaa57f553a47e360d33cf',156,2088,3912,'R+','[ﾌﾞﾗｲﾀﾞﾙｾﾚｸｼｮﾝ]ﾒｱﾘｰ･ｺｸﾗﾝ+',9),
@@ -2648,10 +2646,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3390b977532c2288bfeaf47e57853643',156,3000,2424,'SR+','[おませなﾘﾄﾙｶﾞｰﾙ]ﾒｱﾘｰ･ｺｸﾗﾝ+',17),
 	 ('860470aa8c2a41e31fb01ef84b3ff1fa',156,2856,3744,'SR+','[学園の魔女]ﾒｱﾘｰ･ｺｸﾗﾝ+',21),
 	 ('990199c5bd44be16361a787dda7e5ec2',156,5660,4140,'SR','[碧眼の姫君]ﾒｱﾘｰ･ｺｸﾗﾝ',24),
-	 ('21aedb74f5d55532af0ec8d9405eb4d7',156,4680,3860,'SR','[ｽｰﾊﾟｰﾘﾄﾙﾋｰﾛｰ]ﾒｱﾘｰ･ｺｸﾗﾝ',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('21aedb74f5d55532af0ec8d9405eb4d7',156,4680,3860,'SR','[ｽｰﾊﾟｰﾘﾄﾙﾋｰﾛｰ]ﾒｱﾘｰ･ｺｸﾗﾝ',26),
 	 ('cda5c513974a4e22bdafa7fb7e662c56',156,7656,7632,'SR+','[ﾌﾟﾘﾃｨﾌﾞﾛﾝﾄﾞ]ﾒｱﾘｰ･ｺｸﾗﾝ+',29),
-	 ('dc188ce8aad3b8c26003ad093003f36e',156,3780,3700,'R+','[流鏑馬I.C]ﾒｱﾘｰ･ｺｸﾗﾝ+',32),
+	 ('dc188ce8aad3b8c26003ad093003f36e',156,3780,3700,'R+','[流鏑馬I.C]ﾒｱﾘｰ･ｺｸﾗﾝ+',32);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6b4d9a677a8d02e54714413b5eced209',156,5100,5080,'SR','[笑顔の弓術]ﾒｱﾘｰ･ｺｸﾗﾝ',35),
 	 ('4dd5d7a8d40be1d52b24783c46f5fe99',156,3888,2496,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNB]ﾒｱﾘｰ･ｺｸﾗﾝ+',38),
 	 ('ab06c2777617f9bcff312f943cc6f866',196,3200,2240,'R','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]南条光',3),
@@ -2659,10 +2657,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ff71788719801959a4f1238329020c0c',196,2740,2720,'R','[明日への自分]南条光',7),
 	 ('abbbabfa5e9a819053742de3ca99ba21',196,1920,2640,'SR','[小さな英雄]南条光',9),
 	 ('c9de774c074706e3b00f4c57bcaf19fb',196,5540,3820,'SR','[ﾐﾝﾅﾉﾐｶﾀ]南条光',11),
-	 ('90704fe71aac46fb8a34b98a0d4dd7f4',196,6620,4660,'SR','[無限大の夢]南条光',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('90704fe71aac46fb8a34b98a0d4dd7f4',196,6620,4660,'SR','[無限大の夢]南条光',13),
 	 ('afc890c6cbb5ba31bd2c0b60baa3fb15',196,7080,5280,'SR','[ｼﾞｬｽﾃｨｽﾌﾞﾚｲｽﾞ]南条光',15),
-	 ('ff0d8fe687c92b55d44f4656485cf5e4',196,5380,4200,'SR','[ﾁｪﾝｼﾞﾌｫｰﾑ]南条光',17),
+	 ('ff0d8fe687c92b55d44f4656485cf5e4',196,5380,4200,'SR','[ﾁｪﾝｼﾞﾌｫｰﾑ]南条光',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('23f6fd5a09ac844018f64dd10320739e',196,8664,8640,'SR+','[ﾋﾛｲｯｸｽｲｰﾂ]南条光+',20),
 	 ('a8605c2be205a1c8a4846fc5c5032844',196,6840,5280,'SR+','[夢の始まり]南条光+',22),
 	 ('76397c49e942f18f2047d163dbe69e15',196,9500,9200,'SR','[8thｱﾆﾊﾞｰｻﾘｰ･S]南条光',25),
@@ -2670,10 +2668,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('62a630da32528b0c6c0bbb2c0af7675d',163,6400,6360,'SR','[祝福の花]相葉夕美',35),
 	 ('8a61a6a9d3166281ed9bc64e53e3eded',163,7720,5780,'SR','[憩いの花香]相葉夕美',37),
 	 ('3f8c2c97b935fc03c174977ca3d8b6f3',163,8440,6460,'SR','[束ねた気持ち]相葉夕美',41),
-	 ('c68ff69d48d97bdf2ff493c071d08844',163,10128,7752,'SR+','[束ねた気持ち]相葉夕美+',42);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c68ff69d48d97bdf2ff493c071d08844',163,10128,7752,'SR+','[束ねた気持ち]相葉夕美+',42),
 	 ('95c09b333fcb72c27dfd558c1734f451',163,7720,7620,'SR','[重ねた花びら]相葉夕美',45),
-	 ('d88a41865dc231e4770c0d915f2cd17a',136,288,432,'N+','並木芽衣子+',1),
+	 ('d88a41865dc231e4770c0d915f2cd17a',136,288,432,'N+','並木芽衣子+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('4e273575f8490fbb863c2dbe132ab673',136,2740,2680,'R','[ﾜﾝﾀﾞｰﾊﾞﾆｰ]並木芽衣子',6),
 	 ('b40d53ca759a5c49e316149907b16324',136,3288,3216,'R+','[ﾜﾝﾀﾞｰﾊﾞﾆｰ]並木芽衣子+',7),
 	 ('6aa24dae832c588c383c1699d97f19b6',136,1960,1880,'R','[めろめろｺｺﾒﾛﾝ]並木芽衣子',8),
@@ -2681,10 +2679,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f36f9067bd023981ae6ec8081920ac3c',174,3888,2616,'R+','[ｱﾀﾞﾙﾃｨﾌｪﾐﾆﾝ]相馬夏美+',7),
 	 ('cdc01ceb8c597ab043e4a0c4b1d611f5',174,3456,2544,'R+','[T.B.ﾁｱｰｽﾞ]相馬夏美+',9),
 	 ('73aafeafe35337515de4a8ea14811e4b',174,2500,2460,'R','[ｻﾏｰﾋﾞｰﾁ]相馬夏美',12),
-	 ('cae2391c1b618fc95dd8b35d508b240e',174,3912,2592,'R+','[湯けむり紀行]相馬夏美+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('cae2391c1b618fc95dd8b35d508b240e',174,3912,2592,'R+','[湯けむり紀行]相馬夏美+',15),
 	 ('f85d536e81b0d0713033650c0ea3b0ea',174,2980,2100,'R','[華のﾊﾟﾘｼﾞｪﾝﾇ]相馬夏美',16),
-	 ('e9c2584cc19fefff441087b6c88da1e4',174,3240,2080,'R','[ｾﾙﾌｱｯﾌﾟｸﾞﾚｰﾄﾞ]相馬夏美',20),
+	 ('e9c2584cc19fefff441087b6c88da1e4',174,3240,2080,'R','[ｾﾙﾌｱｯﾌﾟｸﾞﾚｰﾄﾞ]相馬夏美',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c6b677919b97cc2e26d009390f767628',174,3888,2496,'R+','[ｾﾙﾌｱｯﾌﾟｸﾞﾚｰﾄﾞ]相馬夏美+',21),
 	 ('9086936700dd75591e0cfa109819e211',174,3240,2340,'SR','[紅葉色の風]相馬夏美',24),
 	 ('f9c3a2a5ede2924c4dc5b9829481e789',174,3320,2580,'SR','[ｽﾄｲｯｸ･ﾛﾜｲﾔﾙ]相馬夏美',26),
@@ -2692,10 +2690,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('38a291915756608ead79b2b3e5035773',174,2820,2820,'R','[新春和心]相馬夏美',32),
 	 ('ced193327cab5bec1b7803aca715f7f6',174,3384,3384,'R+','[新春和心]相馬夏美+',33),
 	 ('2bc8b92d3444429e10e29e7fd056aaab',9,520,920,'N','奥山沙織',0),
-	 ('499bcaf9ec86b7f1ebda4f6aff7b7815',9,3720,2616,'R+','[ﾌﾞﾙｰﾛｰｾﾞｽ]奥山沙織+',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('499bcaf9ec86b7f1ebda4f6aff7b7815',9,3720,2616,'R+','[ﾌﾞﾙｰﾛｰｾﾞｽ]奥山沙織+',14),
 	 ('968454d2d888cba54601af388d0bd810',9,2760,2660,'R','[ﾎﾟｯﾌﾟｽｸﾘｰﾝ]奥山沙織',15),
-	 ('38c57cd7da3c5bcaed4eff8316836069',9,3336,3264,'R+','[ｼｭﾃﾙﾝｸﾞ･ｸﾘﾝｹﾞ]奥山沙織+',18),
+	 ('38c57cd7da3c5bcaed4eff8316836069',9,3336,3264,'R+','[ｼｭﾃﾙﾝｸﾞ･ｸﾘﾝｹﾞ]奥山沙織+',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f8fecd863bd847cb1a36312f50bca69c',9,3440,2920,'SR','[ｲﾉｾﾝﾄｱﾐｭｰｽﾞ]奥山沙織',23),
 	 ('023595e6e78966d19f2d24dec78a235b',9,5260,4300,'SR','[ﾆｭｰﾏｲｾﾙﾌ]奥山沙織',25),
 	 ('c49dcd21100176bf11fe162ee77ecb14',9,2840,2620,'R','[ﾎｯﾄﾎﾟｯﾄｶﾝﾄﾘｰ]奥山沙織',27),
@@ -2703,10 +2701,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bd75cdaf7d77b14fca1d6f6c65dc88da',20,1380,1320,'N','[ﾑｰﾝﾗｲﾄﾊﾞﾆｰ]池袋晶葉',0),
 	 ('22a3924b57af6ad84167ec6aab0cff9b',20,2976,2304,'R+','[ﾆｭｰｲﾔｰｽﾀｲﾙ]池袋晶葉+',5),
 	 ('ad5ccce9185e2d6423e6a9c36d41a03f',20,2820,2040,'R','[春風ｽﾎﾟｰﾂ]池袋晶葉',7),
-	 ('4631474fd525ac81e51808b0bface6a2',131,1680,1600,'R','二宮飛鳥',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4631474fd525ac81e51808b0bface6a2',131,1680,1600,'R','二宮飛鳥',0),
 	 ('76de9e9451a8de5a9ffb41c3e52c9ba6',131,2880,2736,'R+','[ｻﾌｧﾘｱﾄﾞﾍﾞﾝﾁｬｰ]二宮飛鳥+',5),
-	 ('4b2a471b95bdaa8f7618eb7c4fd9c9d3',131,4120,3140,'R+','[ﾛｺｶﾞｰﾙ]二宮飛鳥+',8),
+	 ('4b2a471b95bdaa8f7618eb7c4fd9c9d3',131,4120,3140,'R+','[ﾛｺｶﾞｰﾙ]二宮飛鳥+',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2c156cdf5c956999318cf46708f1fad0',131,6624,4608,'SR+','[ﾐｯｼﾝｸﾞ･ﾋﾟｰｽ]二宮飛鳥+',11),
 	 ('f029377df33b0c281856b7e879be1c96',131,7104,5160,'SR+','[ｱﾌﾞｿﾘｭｰﾄ･ｾﾞﾛ]二宮飛鳥+',13),
 	 ('14d9fc31f58df5da5bbddc246775e1bd',131,4080,2976,'SR+','[桜風ﾘﾌﾚｲﾝ]二宮飛鳥+',15),
@@ -2714,10 +2712,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bd4274434813bd239fc7ea3c76f536c5',156,1640,2920,'R','[湯けむり温泉]ﾒｱﾘｰ･ｺｸﾗﾝ',4),
 	 ('e94f806191848660212e2e8d5cf8e788',156,1968,3504,'R+','[湯けむり温泉]ﾒｱﾘｰ･ｺｸﾗﾝ+',5),
 	 ('dee7d5cc58fb28e3a1e115ca1c86fd4c',156,1740,3260,'R','[ﾌﾞﾗｲﾀﾞﾙｾﾚｸｼｮﾝ]ﾒｱﾘｰ･ｺｸﾗﾝ',8),
-	 ('75e021f7d250349ad9200dc8a41078cc',156,3140,2120,'R','[ﾚﾃﾞｨｽﾀｲﾙ]ﾒｱﾘｰ･ｺｸﾗﾝ',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('75e021f7d250349ad9200dc8a41078cc',156,3140,2120,'R','[ﾚﾃﾞｨｽﾀｲﾙ]ﾒｱﾘｰ･ｺｸﾗﾝ',10),
 	 ('f2661e2d6e1a47730b985c6d3346b2bd',156,3312,3288,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]ﾒｱﾘｰ･ｺｸﾗﾝ+',13),
-	 ('1b6d96121f16a33812b4cfdf49f0434a',156,3816,2568,'R+','[T.B.ﾊﾛｳｨﾝ]ﾒｱﾘｰ･ｺｸﾗﾝ+',15),
+	 ('1b6d96121f16a33812b4cfdf49f0434a',156,3816,2568,'R+','[T.B.ﾊﾛｳｨﾝ]ﾒｱﾘｰ･ｺｸﾗﾝ+',15);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('92fb772d2d95efadf4b23d64a88d9598',156,4776,4848,'SR+','[ｵﾄﾒのお勉強]ﾒｱﾘｰ･ｺｸﾗﾝ+',19),
 	 ('1a5a05e3855800ce1bd8a029a381d3ae',156,4800,4872,'SR+','[学園の魔女･S]ﾒｱﾘｰ･ｺｸﾗﾝ+',23),
 	 ('f9e2aa124e090e96d8f60f125f9ff172',156,5616,4632,'SR+','[ｽｰﾊﾟｰﾘﾄﾙﾋｰﾛｰ]ﾒｱﾘｰ･ｺｸﾗﾝ+',27),
@@ -2725,10 +2723,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('cdfd75153c05cdedab4ad47c05197a18',156,4200,4140,'SR','[おてんば弓術]ﾒｱﾘｰ･ｺｸﾗﾝ',33),
 	 ('129a7272afebf8ba099b08e9a5e3f4e5',156,6120,6096,'SR+','[笑顔の弓術]ﾒｱﾘｰ･ｺｸﾗﾝ+',36),
 	 ('469b6a4ccbd38b20234c7709cfa14637',196,3840,2688,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]南条光+',4),
-	 ('a2a18aad6f03d8eff6eb539a3f7d1b63',196,3360,3216,'R+','[まごころﾒｲﾄﾞ]南条光+',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a2a18aad6f03d8eff6eb539a3f7d1b63',196,3360,3216,'R+','[まごころﾒｲﾄﾞ]南条光+',6),
 	 ('a3697dced0815fc5f72fdbabdcc000ff',196,7944,5592,'SR+','[無限大の夢]南条光+',14),
-	 ('6cdda5b7a8549133166ba9eb9be99096',196,8496,6336,'SR+','[ｼﾞｬｽﾃｨｽﾌﾞﾚｲｽﾞ]南条光+',16),
+	 ('6cdda5b7a8549133166ba9eb9be99096',196,8496,6336,'SR+','[ｼﾞｬｽﾃｨｽﾌﾞﾚｲｽﾞ]南条光+',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('77aac63299251548bf8b548c30e98333',196,7220,7200,'SR','[ﾋﾛｲｯｸｽｲｰﾂ]南条光',19),
 	 ('d2adba2bfb14df18b9ac4c1a395ff74c',196,5700,4400,'SR','[夢の始まり]南条光',21),
 	 ('e28b516d9d2bb10431395b0ca420bc52',196,4740,3440,'SR','[8thｱﾆﾊﾞｰｻﾘｰ]南条光',23),
@@ -2736,10 +2734,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ea1c96b7284f8fbf531f1c7a17565d01',163,2640,1760,'R','[ﾌﾗﾜｰﾌﾞｰｹ]相葉夕美',2),
 	 ('a004ebf66be0062d592367afaa9df9c6',163,1300,1200,'R','[ｶﾞｰﾘｰｽﾀｲﾙｸﾞﾘｰﾝ]相葉夕美',6),
 	 ('88d68028d63bd897115d57cb468133a2',163,1780,1680,'R+','[ｽﾀｲﾙｾﾚｸﾄｸﾞﾚｰ]相葉夕美+',10),
-	 ('5de0ef2c7289a92299b5870d38c2e290',163,1950,1750,'R+','[ｽﾀｲﾙｾﾚｸﾄﾎﾜｲﾄ]相葉夕美+',12);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5de0ef2c7289a92299b5870d38c2e290',163,1950,1750,'R+','[ｽﾀｲﾙｾﾚｸﾄﾎﾜｲﾄ]相葉夕美+',12),
 	 ('bbfc9a2a3da6610cc97d463a625d420a',163,3912,2688,'R+','[ｸﾘｽﾏｽﾎﾘﾃﾞｰ]相葉夕美+',16),
-	 ('05977029f17dd39831b673314a817238',163,5320,3720,'SR','[甘い花束]相葉夕美',21),
+	 ('05977029f17dd39831b673314a817238',163,5320,3720,'SR','[甘い花束]相葉夕美',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3b24b0c37eaa7e5b936d38660580ddeb',163,7536,5352,'SR+','[ふんわり花乙女]相葉夕美+',28),
 	 ('1fd2e753404d29ba95066c277f752db7',163,6860,4860,'SR','[花しずく]相葉夕美',33),
 	 ('8db14e33022099eb6c523b2983aeeaa6',163,8160,6520,'SR','[ひらり花紅葉]相葉夕美',39),
@@ -2747,10 +2745,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2be497b9005c4c64d25ff518339cc6a6',136,2220,1840,'R','[ﾒｲﾄﾞｺﾚｸｼｮﾝ]並木芽衣子',2),
 	 ('18478a5af695d30770b15fe0d47c6643',136,4008,2640,'R+','[さわやかｽﾎﾟｰﾂ]並木芽衣子+',11),
 	 ('798448d3e64f5cc1fff7179d377471fd',136,2220,3220,'R','[ﾄﾗﾍﾞﾙﾚﾀｰ]並木芽衣子',13),
-	 ('463d606a3dc453aa44e9db6bb70852a9',136,3840,3620,'R+','[ﾊﾛｳｨﾝI.C]並木芽衣子+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('463d606a3dc453aa44e9db6bb70852a9',136,3840,3620,'R+','[ﾊﾛｳｨﾝI.C]並木芽衣子+',15),
 	 ('bd10f2d8edda8e2a65d08a8dde4f3d2c',136,3312,3264,'R+','[艶めき紅葉]並木芽衣子+',17),
-	 ('99bb88ff7b093701659eabbb897808e4',136,4824,4704,'SR+','[ﾄﾗﾍﾞﾙﾀﾞﾝｻｰ]並木芽衣子+',19),
+	 ('99bb88ff7b093701659eabbb897808e4',136,4824,4704,'SR+','[ﾄﾗﾍﾞﾙﾀﾞﾝｻｰ]並木芽衣子+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('81730ca2c7a398b66e1ff4693de7f751',136,6864,5088,'SR+','[秋色のお出かけ]並木芽衣子+',21),
 	 ('42484da391a105442dc3523e303fff9d',136,7968,5616,'SR+','[ｶﾝﾄﾘｰﾛｰﾄﾞ]並木芽衣子+',23),
 	 ('bce23786ce8903092e17371ca5003061',136,4176,4152,'SR+','[おめかしｳｨｯﾁ]並木芽衣子+',25),
@@ -2758,10 +2756,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ba662b3c65fe0e7c7a840ac32e71040b',136,4040,3840,'SR','[愉快なﾊﾟｻｼﾞｰﾙ]並木芽衣子',30),
 	 ('5063014a1752b871d0e498829c9816ed',136,10450,8700,'SR+','[笑顔のﾊﾟｻｼﾞｰﾙ]並木芽衣子+',33),
 	 ('3c3b14da571bb701dd9a5a407ac9f572',208,2120,2100,'R','黒埼ちとせ',0),
-	 ('8617333c94b6505b0e39c62dbbd7239b',9,624,1104,'N+','奥山沙織+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('8617333c94b6505b0e39c62dbbd7239b',9,624,1104,'N+','奥山沙織+',1),
 	 ('1d00a1b541167b75e92acf127b30351a',9,3100,2180,'R','[ﾌﾞﾙｰﾛｰｾﾞｽ]奥山沙織',13),
-	 ('5b7e98ea91e703b48b6f44353c1933f8',9,3312,3192,'R+','[ﾎﾟｯﾌﾟｽｸﾘｰﾝ]奥山沙織+',16),
+	 ('5b7e98ea91e703b48b6f44353c1933f8',9,3312,3192,'R+','[ﾎﾟｯﾌﾟｽｸﾘｰﾝ]奥山沙織+',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('697b8f00afc7840f3ab4dccd1a2d1456',20,1656,1584,'N+','[ﾑｰﾝﾗｲﾄﾊﾞﾆｰ]池袋晶葉+',1),
 	 ('d3b7cfc6576419c59e677e6cf6067e36',20,3240,2220,'R','[ﾛﾎﾞﾃｨｯｸｶﾞｰﾙ]池袋晶葉',9),
 	 ('05533b7c1971f954c4ce5d1af1487281',20,1992,1848,'SR+','[天才ﾛﾎﾞ少女]池袋晶葉+',12),
@@ -2769,10 +2767,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0aae1c480ec4ee5619b67a1a02731bfe',20,3624,3480,'SR+','[異才のお嬢様]池袋晶葉+',18),
 	 ('a7f7f6600d4db2e4c78e0cf90ff44d43',20,5064,5088,'SR+','[異才のお嬢様･S]池袋晶葉+',20),
 	 ('0cf8b99a662d263b1019cfdaca236a25',20,4680,4880,'SR','[機巧の匠]池袋晶葉',23),
-	 ('f9e6ecece17ec1a248208c6adfef4187',20,9048,7056,'SR+','[ﾀﾞﾝｼﾝｸﾞｳｨｽﾞﾛﾎﾞ]池袋晶葉+',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f9e6ecece17ec1a248208c6adfef4187',20,9048,7056,'SR+','[ﾀﾞﾝｼﾝｸﾞｳｨｽﾞﾛﾎﾞ]池袋晶葉+',26),
 	 ('83c386a28d4ea6cc5b266fb95e6ccbe0',20,3312,3312,'R+','[ﾒｶﾒｶﾎﾘｯｸ]池袋晶葉+',29),
-	 ('80fe5c541b236167c76d3ecea04b09f8',20,8480,6560,'SR','[ﾏｼｰﾅﾘｰ☆ﾄﾞｰﾙ]池袋晶葉',31),
+	 ('80fe5c541b236167c76d3ecea04b09f8',20,8480,6560,'SR','[ﾏｼｰﾅﾘｰ☆ﾄﾞｰﾙ]池袋晶葉',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ea626ec14e1ea9cb308e7f1481ab38ed',20,8260,6340,'SR+','[ﾌﾗｯﾀｰ☆ｽﾏｲﾙ]池袋晶葉+',36),
 	 ('7ca085178b2e427f1840e2ba4ea64319',131,2016,1920,'R+','二宮飛鳥+',1),
 	 ('0c755957e7a21af1c343c8976620b90e',190,1128,1056,'R+','難波笑美+',1),
@@ -2780,10 +2778,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b1a3cc28c90185948cc52fd0031c95dc',134,7848,5688,'SR+','[秋夜の乙女]本田未央+',21),
 	 ('3ac0d8a5dbef390ae80d5055585ff040',134,7260,5500,'SR','[ﾁｬｰﾑﾌｫｰﾊﾋﾟﾈｽ]本田未央',26),
 	 ('11028dfe6cc79489fc79496365e28d7c',134,8016,7968,'SR+','[星祭の織姫]本田未央+',29),
-	 ('d95254e127a889746034022f82cb5798',161,1420,860,'N','的場梨沙',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d95254e127a889746034022f82cb5798',161,1420,860,'N','的場梨沙',0),
 	 ('f8c5c2664ca76f4aa84b267300290d54',199,3240,2200,'R','[ﾎｰﾘｰｶﾞｰﾙ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',0),
-	 ('7c983cf4f268272d5ff3fbc72e20477f',163,3168,2112,'R+','[ﾌﾗﾜｰﾌﾞｰｹ]相葉夕美+',3),
+	 ('7c983cf4f268272d5ff3fbc72e20477f',163,3168,2112,'R+','[ﾌﾗﾜｰﾌﾞｰｹ]相葉夕美+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cc13b2455d70284fa028ffbc71109f3c',163,1250,1150,'R','[ｶﾞｰﾘｰｽﾀｲﾙﾋﾟﾝｸ]相葉夕美',5),
 	 ('e2d746d67b2f486c24276cfdd6c04b91',163,1350,1250,'R','[ｶﾞｰﾘｰｽﾀｲﾙﾎﾜｲﾄ]相葉夕美',7),
 	 ('a145b90c3b7a076a742f1243fc934c36',163,1720,1520,'R+','[ｽﾀｲﾙｾﾚｸﾄﾋﾟﾝｸ]相葉夕美+',9),
@@ -2791,10 +2789,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6d85e7f52925d9aeb18f207ea86023de',163,2040,1340,'R','[ﾆｭｰｲﾔｰ]相葉夕美',13),
 	 ('95ba18994b3ce8e3813555db19788762',163,3260,2240,'R','[ｸﾘｽﾏｽﾎﾘﾃﾞｰ]相葉夕美',15),
 	 ('33f1fa5b1d518cf7c16da1d7d9090aa8',163,2472,2328,'SR+','[ﾑｰﾝﾗｲﾄﾌﾗﾜｰ]相葉夕美+',18),
-	 ('37589decfcf637e2c37feeee7ddc5ad8',163,5136,5136,'SR+','[真夏のﾌﾗﾜｰｶﾞｰﾙ]相葉夕美+',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('37589decfcf637e2c37feeee7ddc5ad8',163,5136,5136,'SR+','[真夏のﾌﾗﾜｰｶﾞｰﾙ]相葉夕美+',20),
 	 ('172930f3ec38def704b5d886c7109aa6',163,6384,4464,'SR+','[甘い花束]相葉夕美+',22),
-	 ('5bc2eb8496976790007a468b9029038b',163,5480,5480,'SR','[さくらふわり]相葉夕美',25),
+	 ('5bc2eb8496976790007a468b9029038b',163,5480,5480,'SR','[さくらふわり]相葉夕美',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a1a5ad34d1f639456d074faf6cbee8fd',163,6576,6576,'SR+','[さくらふわり]相葉夕美+',26),
 	 ('3ee0da58a0a9b42484666b12293bcc11',163,7872,5760,'SR+','[ｽﾌﾟﾘﾝｸﾞﾌﾗﾜｰ]相葉夕美+',30),
 	 ('37c34a83da57161eb7ebe0ad62d4b144',163,2480,3100,'SR','[CDﾃﾞﾋﾞｭｰ]相葉夕美',31),
@@ -2802,10 +2800,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f4e7b3ceeac980d73dfa889f583cf5dd',163,7680,7632,'SR+','[祝福の花]相葉夕美+',36),
 	 ('9780891fbaf4bfa02e18378e4442d22a',163,9264,6936,'SR+','[憩いの花香]相葉夕美+',38),
 	 ('322bd58fd7ee75f83c441f9840f57f1a',163,9792,7824,'SR+','[ひらり花紅葉]相葉夕美+',40),
-	 ('bf1a491027975b5658c68ea075aef6d1',163,7700,7600,'SR','[花綵の歌姫]相葉夕美',43);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bf1a491027975b5658c68ea075aef6d1',163,7700,7600,'SR','[花綵の歌姫]相葉夕美',43),
 	 ('847a362d9e6e286f93132c02c8f44c64',136,2664,2208,'R+','[ﾒｲﾄﾞｺﾚｸｼｮﾝ]並木芽衣子+',3),
-	 ('db0cdefb3e1d797d392546c121df8aa3',136,2904,1992,'R+','[ﾄﾗﾍﾞﾙ☆ｶﾞｰﾙ]並木芽衣子+',5),
+	 ('db0cdefb3e1d797d392546c121df8aa3',136,2904,1992,'R+','[ﾄﾗﾍﾞﾙ☆ｶﾞｰﾙ]並木芽衣子+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0398b0c40f4c26e445c17dad6f18d6e2',136,2352,2256,'R+','[めろめろｺｺﾒﾛﾝ]並木芽衣子+',9),
 	 ('ef03539e18ee2eaa6cf1fd87bf04a0f6',136,4160,2880,'R+','[ﾌﾚｯｼｭｶﾞｰﾙ]並木芽衣子+',12),
 	 ('e3926356fb48d480b2f2f25b4c74ce70',136,2664,3864,'R+','[ﾄﾗﾍﾞﾙﾚﾀｰ]並木芽衣子+',14),
@@ -2813,10 +2811,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c51198aab9b189eb750ee55fb5902d3b',136,6640,4680,'SR','[ｶﾝﾄﾘｰﾛｰﾄﾞ]並木芽衣子',22),
 	 ('b94786b47c7d37e1c02f31aa0cadbd4b',136,4420,4440,'SR','[にっこりｳｨｯﾁ]並木芽衣子',26),
 	 ('9a07422c4498c97ae7b7a9d9117fe9fd',136,4728,4656,'SR+','[ﾄﾗﾍﾞﾙﾁｱｰ]並木芽衣子+',29),
-	 ('311a59fcbe44be7aaf53b9ad476acc56',136,4848,4608,'SR+','[愉快なﾊﾟｻｼﾞｰﾙ]並木芽衣子+',31);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('311a59fcbe44be7aaf53b9ad476acc56',136,4848,4608,'SR+','[愉快なﾊﾟｻｼﾞｰﾙ]並木芽衣子+',31),
 	 ('451fa1ac3acb2c81c245b40e9aee5a8a',136,3280,2200,'R','[ﾏﾘｯｼﾞｺﾚｸｼｮﾝ]並木芽衣子',34),
-	 ('50c0167b69983362d2c65089710d5924',136,8460,6580,'SR','[ｷﾗｷﾗを探して]並木芽衣子',36),
+	 ('50c0167b69983362d2c65089710d5924',136,8460,6580,'SR','[ｷﾗｷﾗを探して]並木芽衣子',36);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('446f36f4433d4d8a580a84a55c0575cf',208,2544,2520,'R+','黒埼ちとせ+',1),
 	 ('12a84ee0f8802a28922bea40d190b1d3',9,2500,1860,'R','[浴衣祭り]奥山沙織',2),
 	 ('6bcc7d82ba156c52ffefe1389c7aa795',9,3072,2400,'R+','[ﾗｲﾗｯｸｶﾞｰﾘｰ]奥山沙織+',5),
@@ -2824,10 +2822,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('50127e06e323eda201d204a8ec4ae63d',9,3456,2400,'R+','[学園の生徒･H]奥山沙織+',9),
 	 ('b3ef5644d3ea4f71b6c07f4b6ced0142',9,2780,2080,'R','[T.B.ﾁｱｰｽﾞ]奥山沙織',10),
 	 ('ed07eefde06a0e74f9ef6a51f097542f',20,1380,2160,'R','[ひな祭り]池袋晶葉',2),
-	 ('eb23608b1c3bdac0aa81a981e8336178',131,2620,2420,'R','[ｸﾞﾘｯﾀｰｽﾃｰｼﾞ]二宮飛鳥',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('eb23608b1c3bdac0aa81a981e8336178',131,2620,2420,'R','[ｸﾞﾘｯﾀｰｽﾃｰｼﾞ]二宮飛鳥',2),
 	 ('0802e6c069e5eb587b99f54a91c3b35f',190,1280,1920,'R','[ﾊﾛｳｨﾝﾊﾟｰﾃｨｰ]難波笑美',2),
-	 ('7c668cd224c4b1481a50265b2fad07ba',190,3860,2900,'R+','[ｺﾚｸｼｮﾝｽﾀｲﾙ]難波笑美+',10),
+	 ('7c668cd224c4b1481a50265b2fad07ba',190,3860,2900,'R+','[ｺﾚｸｼｮﾝｽﾀｲﾙ]難波笑美+',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('050e89beb3f1842a800a5ccf05677926',190,3300,2120,'R','[あまあめｶﾞｰﾙ]難波笑美',13),
 	 ('52ec115b1506dde3333ae07cca550e7d',190,3312,3216,'R+','[新春初笑い]難波笑美+',16),
 	 ('06ab397c7df69732c1952897a4b3a7f8',190,4704,4848,'SR+','[浪速の派手娘]難波笑美+',19),
@@ -2835,10 +2833,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fb7a1d3372d90b77934921dee6fb6e93',190,4400,3420,'SR','[陽気なﾀﾋﾞｰｷｬｯﾄ]難波笑美',26),
 	 ('a69cc50dc5c2fa455b430263560dc570',134,6680,6640,'SR','[星祭の織姫]本田未央',28),
 	 ('a858baf764f88d4554231debf9a83235',134,7800,6120,'SR','[光のﾌﾟﾘﾝｾｽﾅｲﾄ]本田未央',31),
-	 ('97e5cc8071da1a70dc764c8861f6c9d7',134,8664,8616,'SR+','[ﾄｩｲﾝｸﾙｽﾀｰ]本田未央+',34);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('97e5cc8071da1a70dc764c8861f6c9d7',134,8664,8616,'SR+','[ﾄｩｲﾝｸﾙｽﾀｰ]本田未央+',34),
 	 ('c0dc8d84eeca3eca56e127f92ac84ac1',134,9264,9264,'SR+','[ｼﾝﾃﾞﾚﾗｶﾞｰﾙ]本田未央+',38),
-	 ('5bdb472df171503b5b1525a315dcfbc3',134,8720,6540,'SR','[ｽﾊﾟｰｸﾙｽﾀｰ]本田未央',39),
+	 ('5bdb472df171503b5b1525a315dcfbc3',134,8720,6540,'SR','[ｽﾊﾟｰｸﾙｽﾀｰ]本田未央',39);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('11c15104d7999e6f18f959a5959525c1',155,3528,2544,'R+','[ｼｮｰﾋﾞｽﾞｶﾞｰﾙ]衛藤美紗希+',3),
 	 ('78f0e9e484234a2349b36a911138382b',155,2280,2260,'R','[ｼｰﾊﾟｲﾚｰﾂ]衛藤美紗希',8),
 	 ('6a45bdcaacbacf08ace0cdf463f8564c',155,3096,2832,'R+','[ｶﾞｰﾙｽﾞﾓｰﾄﾞ]衛藤美紗希+',11),
@@ -2846,10 +2844,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('739a8a33e8f7e4dc29c4c5b92b61c45d',155,3768,2592,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙND]衛藤美紗希+',16),
 	 ('5d714716503f34d64e3793fd1a2f3d16',155,3600,3840,'SR','[ﾋﾞﾀｰﾊﾞﾚﾝﾀｲﾝ]衛藤美紗希',19),
 	 ('c3dee40a36c07b80e0ac30fc33656961',155,2740,3600,'SR','[華道の大和撫子]衛藤美紗希',23),
-	 ('a7a27109f7578b5ce87588c613000daf',155,3720,4800,'SR','[華道の大和撫子･S]衛藤美紗希',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a7a27109f7578b5ce87588c613000daf',155,3720,4800,'SR','[華道の大和撫子･S]衛藤美紗希',25),
 	 ('2dc7b60647c7602b90c9424e99a4e8a2',155,4840,3980,'SR','[ｶﾞｰﾙｽﾞｱﾄﾞﾊﾞﾝｽ]衛藤美紗希',27),
-	 ('1140d12b67b6e6c91affe86172ec0eb5',155,5300,4300,'SR','[ｶﾞｰﾙｽﾞｼﾞｪﾆｯｸ]衛藤美紗希',31),
+	 ('1140d12b67b6e6c91affe86172ec0eb5',155,5300,4300,'SR','[ｶﾞｰﾙｽﾞｼﾞｪﾆｯｸ]衛藤美紗希',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5fd2939e3e1b4403ed6f3886c48a1d32',161,1704,1032,'N+','的場梨沙+',1),
 	 ('b886108b5b598273662056ff15dc76cb',199,3888,2640,'R+','[ﾎｰﾘｰｶﾞｰﾙ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',1),
 	 ('e6bb167e1d2b4ce631ae2d81df13c8b0',199,5640,4460,'SR','[ﾃﾞｨｱｴﾝｼﾞｪﾙ･S]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',27),
@@ -2857,10 +2855,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('91bf66e462541654840ad63b590f7a92',163,1000,1000,'R','[ｶﾞｰﾘｰｽﾀｲﾙﾌﾞﾙｰ]相葉夕美',4),
 	 ('bc13d4418e9a47ce43493ee837c079f7',163,1650,1450,'R+','[ｽﾀｲﾙｾﾚｸﾄｳﾞｧｲｵﾚｯﾄ]相葉夕美+',8),
 	 ('e387585b395a759ba2774b9a49921303',163,2448,1608,'R+','[ﾆｭｰｲﾔｰ]相葉夕美+',14),
-	 ('142f146366609731aa64a5c2c2a1a912',163,2060,1940,'SR','[ﾑｰﾝﾗｲﾄﾌﾗﾜｰ]相葉夕美',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('142f146366609731aa64a5c2c2a1a912',163,2060,1940,'SR','[ﾑｰﾝﾗｲﾄﾌﾗﾜｰ]相葉夕美',17),
 	 ('9e89c636ff5da917444ca1cabe028fc9',163,4280,4280,'SR','[真夏のﾌﾗﾜｰｶﾞｰﾙ]相葉夕美',19),
-	 ('ab9d06b633142cecac28895ff15b7106',163,4840,4840,'SR','[花の小悪魔]相葉夕美',23),
+	 ('ab9d06b633142cecac28895ff15b7106',163,4840,4840,'SR','[花の小悪魔]相葉夕美',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('27dc4499bc995e764ee5277377a7ad11',163,5808,5808,'SR+','[花の小悪魔]相葉夕美+',24),
 	 ('e60349af525f22282f0cce54d5ddfc39',163,6280,4460,'SR','[ふんわり花乙女]相葉夕美',27),
 	 ('ba6e73113054aad2140a54f733256d17',163,6560,4800,'SR','[ｽﾌﾟﾘﾝｸﾞﾌﾗﾜｰ]相葉夕美',29),
@@ -2868,10 +2866,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('972a2bb99e8206a482fddca3aab64313',163,9264,9144,'SR+','[重ねた花びら]相葉夕美+',46),
 	 ('b84dce89a3a135fcb166cb2639ff184e',136,2420,1660,'R','[ﾄﾗﾍﾞﾙ☆ｶﾞｰﾙ]並木芽衣子',4),
 	 ('fe782525f82eec7f9c6c2f39ad51207c',136,3340,2200,'R','[さわやかｽﾎﾟｰﾂ]並木芽衣子',10),
-	 ('5897090f150180bf2a556a330ca078ba',136,2760,2720,'R','[艶めき紅葉]並木芽衣子',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5897090f150180bf2a556a330ca078ba',136,2760,2720,'R','[艶めき紅葉]並木芽衣子',16),
 	 ('7695d88a4ae65b8c0ed64f30f3601790',136,4020,3920,'SR','[ﾄﾗﾍﾞﾙﾀﾞﾝｻｰ]並木芽衣子',18),
-	 ('c2f06ed8aee7c5930381f61ed9988a6b',136,3480,3460,'SR','[おめかしｳｨｯﾁ]並木芽衣子',24),
+	 ('c2f06ed8aee7c5930381f61ed9988a6b',136,3480,3460,'SR','[おめかしｳｨｯﾁ]並木芽衣子',24);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('01169e17d4d7c870bd60b0454d091706',136,3940,3880,'SR','[ﾄﾗﾍﾞﾙﾁｱｰ]並木芽衣子',28),
 	 ('ba53c66f8276d48316cf84b831ed225e',136,10450,8700,'SR','[笑顔のﾊﾟｻｼﾞｰﾙ]並木芽衣子',32),
 	 ('950069281cd84fa0d9b49922bdfafde3',136,3936,2640,'R+','[ﾏﾘｯｼﾞｺﾚｸｼｮﾝ]並木芽衣子+',35),
@@ -2879,10 +2877,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('588b164f5281d4c62ab5c53991dc1b86',208,5740,4400,'SR','[ｸﾘﾑｿﾞﾝｾﾚﾆﾃｨｰ]黒埼ちとせ',2),
 	 ('fd16eb68d5aa1b68d4301ade853b1b82',9,3000,2232,'R+','[浴衣祭り]奥山沙織+',3),
 	 ('0cc148d8ef200b2482c77d0b249d682f',9,2472,2448,'R+','[学園の生徒]奥山沙織+',7),
-	 ('2d5c37db9e10793884e2649a98d18af1',9,2880,2000,'R','[学園の生徒･H]奥山沙織',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2d5c37db9e10793884e2649a98d18af1',9,2880,2000,'R','[学園の生徒･H]奥山沙織',8),
 	 ('9d0e515e9a0f87f9fbf510d5db8972a0',9,3336,2496,'R+','[T.B.ﾁｱｰｽﾞ]奥山沙織+',11),
-	 ('48f052c21de4a7b3f2414314364ccc40',9,4740,3460,'SR','[ﾋﾟｭｱﾘｰｶﾞｰﾙ]奥山沙織',19),
+	 ('48f052c21de4a7b3f2414314364ccc40',9,4740,3460,'SR','[ﾋﾟｭｱﾘｰｶﾞｰﾙ]奥山沙織',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ce5c146a7f092ebd7b118ec5ad736c7d',9,5688,4152,'SR+','[ﾋﾟｭｱﾘｰｶﾞｰﾙ]奥山沙織+',20),
 	 ('a6f51bce5e094052da09c95b382edbc8',9,4280,4100,'SR','[ﾋﾟｭｱﾘｰ･ﾛﾜｲﾔﾙ]奥山沙織',21),
 	 ('33c1f059acc1311a5f74820b875be8ba',9,5136,4920,'SR+','[ﾋﾟｭｱﾘｰ･ﾛﾜｲﾔﾙ]奥山沙織+',22),
@@ -2890,10 +2888,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ee50c5ea099be8622819ba79974e0227',20,1656,2592,'R+','[ひな祭り]池袋晶葉+',3),
 	 ('e43755a547736e9b339caa808f96de7f',20,3384,2448,'R+','[春風ｽﾎﾟｰﾂ]池袋晶葉+',8),
 	 ('53cac9bfd084f9b278d6d1757698f995',20,1660,1540,'SR','[天才ﾛﾎﾞ少女]池袋晶葉',11),
-	 ('3b636158419583d38a6509dc474a955c',20,5256,4776,'SR+','[ﾊｯﾋﾟｰ☆ｼﾞｰﾆｱｽ]池袋晶葉+',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3b636158419583d38a6509dc474a955c',20,5256,4776,'SR+','[ﾊｯﾋﾟｰ☆ｼﾞｰﾆｱｽ]池袋晶葉+',14),
 	 ('2d6b4f52e2a52bce202c7c9913fec8bc',20,3020,2900,'SR','[異才のお嬢様]池袋晶葉',17),
-	 ('ff2d88dddcb499d5b89335b94f798535',20,4220,4240,'SR','[異才のお嬢様･S]池袋晶葉',19),
+	 ('ff2d88dddcb499d5b89335b94f798535',20,4220,4240,'SR','[異才のお嬢様･S]池袋晶葉',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f14270b8f9920a77b665767587d06b48',20,5616,5856,'SR+','[機巧の匠]池袋晶葉+',24),
 	 ('87154c146ac9b4f648be6846a01f6ceb',20,7540,5880,'SR','[ﾀﾞﾝｼﾝｸﾞｳｨｽﾞﾛﾎﾞ]池袋晶葉',25),
 	 ('8ecc0e42005fb7a89ebc7b10fefdf400',20,2760,2760,'R','[ﾒｶﾒｶﾎﾘｯｸ]池袋晶葉',30),
@@ -2901,10 +2899,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fd1af9576091c84136b3bea3dea36334',20,8260,6340,'SR','[ﾌﾗｯﾀｰ☆ｽﾏｲﾙ]池袋晶葉',35),
 	 ('f84359de4c315c3ca147d07099e188ed',131,3144,2904,'R+','[ｸﾞﾘｯﾀｰｽﾃｰｼﾞ]二宮飛鳥+',3),
 	 ('862d52f01e41b00da8b5e28509617ab4',131,2840,2080,'R','[ｻﾌｧﾘｱﾄﾞﾍﾞﾝﾁｬｰ･S]二宮飛鳥',6),
-	 ('0007e6f742de588da035f27181ba2b70',131,4220,3180,'R+','[ｵﾘ･ﾛｺｶﾞｰﾙ]二宮飛鳥+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0007e6f742de588da035f27181ba2b70',131,4220,3180,'R+','[ｵﾘ･ﾛｺｶﾞｰﾙ]二宮飛鳥+',9),
 	 ('ba8a9663527dafc77bf3e9ac4615c3cf',131,8232,5952,'SR+','[ﾛｽﾄ･ﾊﾞﾚﾝﾀｲﾝ]二宮飛鳥+',17),
-	 ('b1bed12bc96443d7f3906f35594cbedd',131,3504,3216,'SR+','[CDﾃﾞﾋﾞｭｰ]二宮飛鳥+',19),
+	 ('b1bed12bc96443d7f3906f35594cbedd',131,3504,3216,'SR+','[CDﾃﾞﾋﾞｭｰ]二宮飛鳥+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('58efb2db39c23d19a4c7dca78d31edbc',131,8040,5928,'SR+','[楽園-ｴﾃﾞﾝ-の入口]二宮飛鳥+',21),
 	 ('f069c36e4de862aadd81791d55f1f7d8',131,6360,6240,'SR','[碧落のﾘﾍﾞﾚｲﾀｰ]二宮飛鳥',22),
 	 ('1b188aa58696b86361a40ddb02367905',131,7480,5860,'SR','[黄昏の詩]二宮飛鳥',24),
@@ -2912,10 +2910,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('93d7d0b2b828eaf1b1c1ccec22486e2f',131,8100,6500,'SR','[暁の邂逅]二宮飛鳥',28),
 	 ('90d2d5f29c26101c17565ae6c2c88787',131,9720,7800,'SR+','[暁の邂逅]二宮飛鳥+',29),
 	 ('db230fcfdcc37846836cfbb1c4663916',131,8760,8712,'SR+','[《偶像》のﾌﾗｸﾞﾒﾝﾄ]二宮飛鳥+',31),
-	 ('2b06b2edf824f2f09068fa9b20d0b946',131,10272,7752,'SR+','[黒翼ﾃﾞｽﾃｨﾈｰｼｮﾝ]二宮飛鳥+',33);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2b06b2edf824f2f09068fa9b20d0b946',131,10272,7752,'SR+','[黒翼ﾃﾞｽﾃｨﾈｰｼｮﾝ]二宮飛鳥+',33),
 	 ('722ce114a2b78aa7826399264f5ac557',131,7720,7580,'SR','[ｷﾞﾌﾄ･ﾚﾐﾆｾﾝｽ]二宮飛鳥',34),
-	 ('b386b36cfbd52fb5b05068f4b5a1a917',131,9264,9096,'SR+','[ｷﾞﾌﾄ･ﾚﾐﾆｾﾝｽ]二宮飛鳥+',35),
+	 ('b386b36cfbd52fb5b05068f4b5a1a917',131,9264,9096,'SR+','[ｷﾞﾌﾄ･ﾚﾐﾆｾﾝｽ]二宮飛鳥+',35);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bb52abee7d193df4509214cbf2f94f34',131,8440,6600,'SR','[ﾊﾟﾚｽ･ｵﾌﾞ･ﾌｧﾝﾀｼﾞｱ]二宮飛鳥',36),
 	 ('91d84bb565062b321b0656140a64229e',190,1536,2304,'R+','[ﾊﾛｳｨﾝﾊﾟｰﾃｨｰ]難波笑美+',3),
 	 ('27886dda8120d9992e0bde75d3132487',161,1980,1740,'R','[ﾆｭｰｲﾔｰｽﾀｲﾙ]的場梨沙',2),
@@ -2923,10 +2921,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1868d1975710558fe8bdea18220ce69f',161,3264,3264,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]的場梨沙+',12),
 	 ('a359fec5dab9111bd47ece3ed934d82f',161,3336,3288,'R+','[ﾊﾞﾚﾝﾀｲﾝﾓｰﾄﾞ]的場梨沙+',16),
 	 ('5c68f5a84cbeaee1a887b7a1691577b4',161,6336,4512,'SR+','[ｾｸｼｰﾊﾟﾝｻｰ]的場梨沙+',18),
-	 ('3a71223fc974c44985da17ab245e9401',161,6624,4656,'SR+','[ｽｳｨｰﾄﾊﾆｰﾊｰﾄ]的場梨沙+',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3a71223fc974c44985da17ab245e9401',161,6624,4656,'SR+','[ｽｳｨｰﾄﾊﾆｰﾊｰﾄ]的場梨沙+',20),
 	 ('258f6b36adac5b6da65d8cf1ebf8a5a8',161,3200,3200,'SR','[どきどきｸﾘｽﾏｽ]的場梨沙',23),
-	 ('9a8d92a67b66329fb01f13f151d0f9fb',161,4240,4340,'SR','[どきどきｸﾘｽﾏｽ･S]的場梨沙',25),
+	 ('9a8d92a67b66329fb01f13f151d0f9fb',161,4240,4340,'SR','[どきどきｸﾘｽﾏｽ･S]的場梨沙',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8311d865f81f1063978d094431e038d4',161,7512,7440,'SR+','[ｵﾄﾒのﾎﾟﾘｼｰ]的場梨沙+',28),
 	 ('9bf6bf61efe2c87a3a583d3a0f36f42d',161,7240,7160,'SR','[ｱﾝﾋﾞｼｬｽﾃｨｰﾝ]的場梨沙',31),
 	 ('03164846ca8ef2b66025ffeba5bf719d',161,2760,2760,'R','[ｼﾞｭｰｼｰﾚﾄﾛ]的場梨沙',33),
@@ -2934,10 +2932,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0ff9b7eb5f9cfb16e7ec798cd4fdbde0',161,10296,8136,'SR+','[ﾏｼﾞｶﾙﾅｲﾄﾒｱ]的場梨沙+',38),
 	 ('dcff5e9cd819b35a6b69bda106b754bc',199,3300,2160,'R','[ﾌﾟﾚｼﾞｬｰﾒｯｾｰｼﾞ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',2),
 	 ('4aecdc034fc76ca31243603d3fdfbca8',199,3400,3280,'SR','[渚のﾏｰﾒｲﾄﾞ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',6),
-	 ('9aa5c47cb237eca12686c8310a9a1617',199,6264,4488,'SR+','[ﾊｯﾋﾟｰﾎｰﾘｰﾅｲﾄ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9aa5c47cb237eca12686c8310a9a1617',199,6264,4488,'SR+','[ﾊｯﾋﾟｰﾎｰﾘｰﾅｲﾄ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',11),
 	 ('86e560efafce2bd5b91d2da5fa9a9649',199,6120,6168,'SR+','[ふわふわﾎｰﾘｰﾅｲﾄ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',13),
-	 ('b4157ceea09c89490bcefdf47e81f2c8',199,7728,5496,'SR+','[ﾏｼﾞｶﾙﾎｰﾘｰﾅｲﾄ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',15),
+	 ('b4157ceea09c89490bcefdf47e81f2c8',199,7728,5496,'SR+','[ﾏｼﾞｶﾙﾎｰﾘｰﾅｲﾄ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',15);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('119dde0ac0e12b0b56f534691dec441b',199,11500,11400,'SR+','[ごきげん天女]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',21),
 	 ('0ed566857e81f945455e5614d5b745eb',199,4640,3500,'SR','[ﾃﾞｨｱｴﾝｼﾞｪﾙ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',25),
 	 ('54b95ee1c443f1ad27747d774c7952bf',199,8560,6520,'SR','[祈りの先に]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',31),
@@ -2945,10 +2943,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0534bded8c74fa792bde6f3c5692c187',138,500,500,'N','木村夏樹',0),
 	 ('4b515defc6574e86c54e25c952463a40',208,6888,5280,'SR+','[ｸﾘﾑｿﾞﾝｾﾚﾆﾃｨｰ]黒埼ちとせ+',3),
 	 ('80334ec678333541b423f0cfe2c6b8a4',9,2560,2000,'R','[ﾗｲﾗｯｸｶﾞｰﾘｰ]奥山沙織',4),
-	 ('cb38626d995af7e002dd35bb675d9094',9,3760,3680,'R+','[純朴ﾈｽﾞﾐ]奥山沙織+',12);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('cb38626d995af7e002dd35bb675d9094',9,3760,3680,'R+','[純朴ﾈｽﾞﾐ]奥山沙織+',12),
 	 ('d1e86f85931db33566dd00ac3cf0e971',9,2780,2720,'R','[ｼｭﾃﾙﾝｸﾞ･ｸﾘﾝｹﾞ]奥山沙織',17),
-	 ('d5524d87d135dae077956ca332579a7e',9,4128,3504,'SR+','[ｲﾉｾﾝﾄｱﾐｭｰｽﾞ]奥山沙織+',24),
+	 ('d5524d87d135dae077956ca332579a7e',9,4128,3504,'SR+','[ｲﾉｾﾝﾄｱﾐｭｰｽﾞ]奥山沙織+',24);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b22bbe980bdf473ff81494b2b0a865ec',9,3408,3144,'R+','[ﾎｯﾄﾎﾟｯﾄｶﾝﾄﾘｰ]奥山沙織+',28),
 	 ('b3b17612d0a2524d3c1a643a5ab64685',9,3380,2140,'R','[ﾅﾁｭﾗﾙﾌﾟﾘﾃｨ]奥山沙織',29),
 	 ('9ee2d80d09ebbb1c2ae6031cc9127cce',20,2480,1920,'R','[ﾆｭｰｲﾔｰｽﾀｲﾙ]池袋晶葉',4),
@@ -2956,10 +2954,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0de2eecb0cc7557f01bc2960c1357848',20,3888,2664,'R+','[ﾛﾎﾞﾃｨｯｸｶﾞｰﾙ]池袋晶葉+',10),
 	 ('50f27e1fb1c584b25268a6cc542b4eee',20,2840,2720,'SR','[ﾛﾎﾞﾃｨｯｸﾁｱｰ]池袋晶葉',15),
 	 ('d26af3a2ad88b76b7f13dfa31e5258c2',20,3408,3264,'SR+','[ﾛﾎﾞﾃｨｯｸﾁｱｰ]池袋晶葉+',16),
-	 ('d8d9d6c2d5505244c48d772004ffd9e1',20,6340,4480,'SR','[ﾌﾞﾚｲﾝ☆ｽﾀｰ]池袋晶葉',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d8d9d6c2d5505244c48d772004ffd9e1',20,6340,4480,'SR','[ﾌﾞﾚｲﾝ☆ｽﾀｰ]池袋晶葉',21),
 	 ('df97d20cf2ca9e3ec842401b5c6c91f7',20,7608,5376,'SR+','[ﾌﾞﾚｲﾝ☆ｽﾀｰ]池袋晶葉+',22),
-	 ('daf68d68508fb2a17a7e76fca5970990',20,5620,4440,'SR','[頭脳派ﾗｲﾊﾞﾙ]池袋晶葉',27),
+	 ('daf68d68508fb2a17a7e76fca5970990',20,5620,4440,'SR','[頭脳派ﾗｲﾊﾞﾙ]池袋晶葉',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('39a9856162bd913d12b286529c0eecd8',20,6744,5328,'SR+','[頭脳派ﾗｲﾊﾞﾙ]池袋晶葉+',28),
 	 ('2ed285cb79637821e8d6c4d08d049042',20,4500,4360,'SR','[ﾌﾗｯﾀｰ☆ｺｲﾙ]池袋晶葉',33),
 	 ('3e588e0e019d6147564bd8b377701c5b',20,5400,5232,'SR+','[ﾌﾗｯﾀｰ☆ｺｲﾙ]池袋晶葉+',34),
@@ -2967,10 +2965,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1bcb8bfa56a99fdaabd33c1657a492bd',131,3408,2496,'R+','[ｻﾌｧﾘｱﾄﾞﾍﾞﾝﾁｬｰ･S]二宮飛鳥+',7),
 	 ('42027e0a6ed923a0b6bb8eb4b8e5eff3',131,5520,3840,'SR','[ﾐｯｼﾝｸﾞ･ﾋﾟｰｽ]二宮飛鳥',10),
 	 ('aff88d81c2ac012a0e9beca15e36200f',131,5920,4300,'SR','[ｱﾌﾞｿﾘｭｰﾄ･ｾﾞﾛ]二宮飛鳥',12),
-	 ('1114c352cd5b0ad6e635009fb34808cb',131,3400,2480,'SR','[桜風ﾘﾌﾚｲﾝ]二宮飛鳥',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1114c352cd5b0ad6e635009fb34808cb',131,3400,2480,'SR','[桜風ﾘﾌﾚｲﾝ]二宮飛鳥',14),
 	 ('1a62a0aeafb9ded1cc66e67f3ce178db',131,6860,4960,'SR','[ﾛｽﾄ･ﾊﾞﾚﾝﾀｲﾝ]二宮飛鳥',16),
-	 ('07b3459a7103dd863816f12b68181a27',131,8976,7032,'SR+','[黄昏の詩]二宮飛鳥+',25),
+	 ('07b3459a7103dd863816f12b68181a27',131,8976,7032,'SR+','[黄昏の詩]二宮飛鳥+',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('25f0f565ca162c6739139a6ecc6138ba',131,8040,5424,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]二宮飛鳥+',27),
 	 ('7caeece0cbb3d018fe8a09bdb981e2b1',131,7300,7260,'SR','[《偶像》のﾌﾗｸﾞﾒﾝﾄ]二宮飛鳥',30),
 	 ('2c534b1284f41395baad36dfe778d53f',190,3600,2712,'R+','[ﾒﾃﾞﾀｲｶﾞｰﾙ]難波笑美+',5),
@@ -2978,10 +2976,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0b90d9ced62058b2ebd6346f901ee365',190,2520,2460,'R','[湯けむり紀行]難波笑美',11),
 	 ('caebf5d1a396e1507d7af512b560f696',190,3960,2544,'R+','[あまあめｶﾞｰﾙ]難波笑美+',14),
 	 ('7df9c2850f57fdc30bfc774d57502738',190,4240,3160,'R+','[ﾈｺﾁｬﾝI.C]難波笑美+',17),
-	 ('0811dd9530eb29e539e0eaec1b603a30',190,5320,3960,'SR','[お笑い☆伝道師]難波笑美',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0811dd9530eb29e539e0eaec1b603a30',190,5320,3960,'SR','[お笑い☆伝道師]難波笑美',20),
 	 ('7ca0bf3dd109857d28f794f7772d3729',190,3864,3816,'SR+','[爆笑ﾁｱｰ]難波笑美+',23),
-	 ('557803a0324c4d494b78d83b42174e61',190,8016,5808,'SR+','[花盛り☆乙女]難波笑美+',25),
+	 ('557803a0324c4d494b78d83b42174e61',190,8016,5808,'SR+','[花盛り☆乙女]難波笑美+',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d9660606615306ea2e4a43124983b425',190,5360,4240,'SR','[笑顔のﾀﾋﾞｰｷｬｯﾄ]難波笑美',28),
 	 ('f4fd39c2fa14cbd5ba3bf395235708d7',190,3340,2160,'R','[生粋のお笑い娘]難波笑美',31),
 	 ('61d2e37001d4c0fc161a6e76e8663ae6',211,2520,2544,'R+','久川凪+',1),
@@ -2989,10 +2987,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('01a473d058eccb980f44c6cf2b07b540',161,2544,2952,'R+','[ｻﾌｧﾘｱﾄﾞﾍﾞﾝﾁｬｰ]的場梨沙+',5),
 	 ('9378c5e537cb2acc360dd0bdb0dfdd70',161,2440,2420,'R','[乙女武将]的場梨沙',8),
 	 ('b7b438513131f3e40cd1bad252c38d1a',161,3420,3260,'R+','[ｻﾝﾀI.C]的場梨沙+',10),
-	 ('a6ecf61d193635fdecc690600112784f',161,3264,3264,'R+','[ﾌﾞｰｽﾀｰｶﾞｰﾙ]的場梨沙+',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a6ecf61d193635fdecc690600112784f',161,3264,3264,'R+','[ﾌﾞｰｽﾀｰｶﾞｰﾙ]的場梨沙+',14),
 	 ('8ad64acb66ae95edb5e955375d51b90b',161,5280,3760,'SR','[ｾｸｼｰﾊﾟﾝｻｰ]的場梨沙',17),
-	 ('5ab593bd5d05f2e496f088706687f7da',161,5520,3880,'SR','[ｽｳｨｰﾄﾊﾆｰﾊｰﾄ]的場梨沙',19),
+	 ('5ab593bd5d05f2e496f088706687f7da',161,5520,3880,'SR','[ｽｳｨｰﾄﾊﾆｰﾊｰﾄ]的場梨沙',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c94eb2410c0f5c98643fa4cc5dc00a2d',161,7560,5472,'SR+','[ﾌｧﾝﾄﾑﾚﾃﾞｨ]的場梨沙+',22),
 	 ('3902966b6611ebad08386b3e8e1665c9',161,3840,3840,'SR+','[どきどきｸﾘｽﾏｽ]的場梨沙+',24),
 	 ('70e4a170e6d8ac1de9f6f103c9c3dfd1',161,5088,5208,'SR+','[どきどきｸﾘｽﾏｽ･S]的場梨沙+',26),
@@ -3000,10 +2998,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('eed243bf41ac7b4e6ccd9a74e2e8ea18',161,8688,8592,'SR+','[ｱﾝﾋﾞｼｬｽﾃｨｰﾝ]的場梨沙+',32),
 	 ('c3c00255afe8e524226cb2f8949ac603',161,3312,3312,'R+','[ｼﾞｭｰｼｰﾚﾄﾛ]的場梨沙+',34),
 	 ('077c02cb32cc1de50c8af45460b2ec39',161,8580,6780,'SR','[ﾏｼﾞｶﾙﾅｲﾄﾒｱ]的場梨沙',37),
-	 ('4de757b4d0c8bc4e8fc4e846bbe77efa',199,3960,2592,'R+','[ﾌﾟﾚｼﾞｬｰﾒｯｾｰｼﾞ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',3);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4de757b4d0c8bc4e8fc4e846bbe77efa',199,3960,2592,'R+','[ﾌﾟﾚｼﾞｬｰﾒｯｾｰｼﾞ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',3),
 	 ('106db7ae8a02839fbaac3658a11cf2b9',199,3360,3360,'SR+','[聖夜の使者]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',5),
-	 ('657a35f18d07f00a1dc67170ef05ca36',199,4500,3140,'SR','[温泉郷の救世主]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',8),
+	 ('657a35f18d07f00a1dc67170ef05ca36',199,4500,3140,'SR','[温泉郷の救世主]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ead06a92514b67ede47e8b0ff2d7ec36',199,5220,3740,'SR','[ﾊｯﾋﾟｰﾎｰﾘｰﾅｲﾄ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',10),
 	 ('7b4c4efa720fb207fccb3a7161c73360',199,6440,6400,'SR','[幸せのお届け人]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',16),
 	 ('655df0cefc181544445b16dcb4be2c6d',199,4340,3440,'SR','[極楽天女]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',18),
@@ -3011,10 +3009,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('94965cf5b640d4b285aeb48ebb3889c7',199,3980,3860,'SR','[ｻﾝﾀﾁｱｰ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',22),
 	 ('9fdc72187aaf98fa7b2a9ce5ef421c08',199,4300,3100,'R+','[ﾊﾞﾚﾝﾀｲﾝI.C]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',24),
 	 ('aeed90627f00bd22dca766f74cba96b7',166,744,1128,'R+','若林智香+',1),
-	 ('95eca02219ea79f8580e430b77051710',166,3720,2592,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙND]若林智香+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('95eca02219ea79f8580e430b77051710',166,3720,2592,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙND]若林智香+',15),
 	 ('b8211f7586b45e14aecb31ace286840f',166,3336,3216,'R+','[ｽﾅｯﾋﾟｰｴｰﾙ]若林智香+',18),
-	 ('00bea124dc35973d55b52fa765ad9668',166,5400,3744,'SR+','[ﾌﾚｯｼｭﾁｱｶﾞｰﾙ]若林智香+',20),
+	 ('00bea124dc35973d55b52fa765ad9668',166,5400,3744,'SR+','[ﾌﾚｯｼｭﾁｱｶﾞｰﾙ]若林智香+',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0a37155927a181d59ee7979bf5f98698',166,4848,4704,'SR+','[ﾊｯﾋﾟｰﾁｱｰ]若林智香+',22),
 	 ('d072b96acd476cccdb2b94bd8199a5d8',166,4992,5184,'SR+','[ﾁｱﾌﾙ･ﾛﾜｲﾔﾙ]若林智香+',24),
 	 ('11ec488213acc6ce27e93739ad402501',166,3920,3920,'SR','[唐傘ｶﾞｰﾙ]若林智香',27),
@@ -3022,10 +3020,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('85554f31a128e2b7cd80c7baf0c226fe',166,2340,2940,'R','[神秘のｴｰｹﾞ海]若林智香',35),
 	 ('66db6412d0f716cebdb923136609e6ff',138,600,600,'N+','木村夏樹+',1),
 	 ('eb50645fe29a490498a1cc937acd9bdf',138,3960,2688,'R+','[ｸﾘｽﾏｽﾅｲﾄ]木村夏樹+',15),
-	 ('39ec2283379f1fd2d494ba14b6addbc6',138,4220,3180,'R+','[ｸﾘｴｲﾃｨﾌﾞI.C]木村夏樹+',18);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('39ec2283379f1fd2d494ba14b6addbc6',138,4220,3180,'R+','[ｸﾘｴｲﾃｨﾌﾞI.C]木村夏樹+',18),
 	 ('468cdc31777a7a884927fb3ca0db52f5',138,4608,3672,'SR+','[ﾍﾞﾆﾄｱｲﾄﾛﾝｷﾞﾝｸﾞ]木村夏樹+',32),
-	 ('59af084173d77dc7657f85e162dbc4b6',138,4900,3960,'SR','[ﾍﾞﾆﾄｱｲﾄﾛﾝｷﾞﾝｸﾞ･S]木村夏樹',33),
+	 ('59af084173d77dc7657f85e162dbc4b6',138,4900,3960,'SR','[ﾍﾞﾆﾄｱｲﾄﾛﾝｷﾞﾝｸﾞ･S]木村夏樹',33);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f3a9f6ffd1b7e0ed7bad2d27cb3604af',138,5880,4752,'SR+','[ﾍﾞﾆﾄｱｲﾄﾛﾝｷﾞﾝｸﾞ･S]木村夏樹+',34),
 	 ('f5bcba82ae72466fcf3415faa0a5f1f9',138,6860,6820,'SR','[ﾈｵﾝﾅｲﾄｷﾞｸﾞ]木村夏樹',37),
 	 ('4d9df4c761bded5f1cd7729a33d9aba9',138,9648,7560,'SR+','[ﾘｰｳﾞｽﾊﾞｲﾌﾞﾚｰｼｮﾝ]木村夏樹+',40),
@@ -3033,10 +3031,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('13a5f25e79c944d50a0cf28fc95256ca',138,8520,6560,'SR','[ｴﾓｰｼｮﾅﾙﾋﾞｰﾄ]木村夏樹',43),
 	 ('584a425a831400931cf57d62760902d8',212,5740,4380,'SR','[ﾊﾞｰﾁｬﾙｴｸｽﾊﾟｰﾄ]ｻｲﾈﾘｱ',0),
 	 ('729dbe34998bc4505ec54c4a91d6274c',10,920,680,'N','間中美里',0),
-	 ('54ae8e0c640c6a7b14cb72b9395ea0fd',21,920,1280,'N','太田優',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('54ae8e0c640c6a7b14cb72b9395ea0fd',21,920,1280,'N','太田優',0),
 	 ('4c47dddab9272c5836546473bce0bc56',21,3192,2976,'R+','[ﾊﾞﾆｰｶﾞｰﾙ]太田優+',5),
-	 ('5bbad382b5722462d5c5dd5fe6926a51',131,6700,4940,'SR','[楽園-ｴﾃﾞﾝ-の入口]二宮飛鳥',20),
+	 ('5bbad382b5722462d5c5dd5fe6926a51',131,6700,4940,'SR','[楽園-ｴﾃﾞﾝ-の入口]二宮飛鳥',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3f93733e01fed8506d57f0c5894586f6',131,7632,7488,'SR+','[碧落のﾘﾍﾞﾚｲﾀｰ]二宮飛鳥+',23),
 	 ('55afd806ea338f7e9f9090ffd11f4639',131,8560,6460,'SR','[黒翼ﾃﾞｽﾃｨﾈｰｼｮﾝ]二宮飛鳥',32),
 	 ('a890d6aea45cf39e58caf68a508b3153',131,10128,7920,'SR+','[ﾊﾟﾚｽ･ｵﾌﾞ･ﾌｧﾝﾀｼﾞｱ]二宮飛鳥+',37),
@@ -3044,10 +3042,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2248a6d3a1dc713c0369a1d7341e6086',190,2112,3912,'R+','[ｻﾏｰﾊﾞｹｰｼｮﾝ]難波笑美+',9),
 	 ('aebaafab9c096221c76d6f101a84bcab',190,3024,2952,'R+','[湯けむり紀行]難波笑美+',12),
 	 ('288c56f8f951c442b7fa3b113b0405c1',190,2760,2680,'R','[新春初笑い]難波笑美',15),
-	 ('201ebec439117f0f54102f5846e86c12',190,3920,4040,'SR','[浪速の派手娘]難波笑美',18);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('201ebec439117f0f54102f5846e86c12',190,3920,4040,'SR','[浪速の派手娘]難波笑美',18),
 	 ('52c8883ccd2ca956eaa81d9b55b4c04b',190,6384,4752,'SR+','[お笑い☆伝道師]難波笑美+',21),
-	 ('00f30f05193ace2cf45ee2e131248543',190,6680,4840,'SR','[花盛り☆乙女]難波笑美',24),
+	 ('00f30f05193ace2cf45ee2e131248543',190,6680,4840,'SR','[花盛り☆乙女]難波笑美',24);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('67bb699e12426f7bd597a73d1af6f649',190,5280,4104,'SR+','[陽気なﾀﾋﾞｰｷｬｯﾄ]難波笑美+',27),
 	 ('2525c74e2cf19ee9f0024a90e8a46a16',190,4008,2592,'R+','[生粋のお笑い娘]難波笑美+',30),
 	 ('8ae5906413207803fff04fc47e4b973d',190,3960,2520,'R+','[ﾄｩｲﾝｸﾙｼﾞｪﾑ]難波笑美+',33),
@@ -3055,10 +3053,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('da2577c3c6e142e7d0e4de14bee28538',31,744,1128,'R+','相原雪乃+',1),
 	 ('81884ba2df20b5ecab3e6db70413b9c3',161,2120,2460,'R','[ｻﾌｧﾘｱﾄﾞﾍﾞﾝﾁｬｰ]的場梨沙',4),
 	 ('1b7a0a4e902ae4dcdcc7f2045f241656',161,2976,2928,'R+','[ｻﾌｧﾘｱﾄﾞﾍﾞﾝﾁｬｰ･S]的場梨沙+',7),
-	 ('4c786bf74a7f7bf25daa7b91fe7c7e0a',161,2928,2904,'R+','[乙女武将]的場梨沙+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4c786bf74a7f7bf25daa7b91fe7c7e0a',161,2928,2904,'R+','[乙女武将]的場梨沙+',9),
 	 ('3e9ae5337b2b5222c5270c9561fbf0b8',161,2720,2720,'R','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]的場梨沙',11),
-	 ('08dc0c49edcba55f4b989df16b605c39',161,2720,2720,'R','[ﾌﾞｰｽﾀｰｶﾞｰﾙ]的場梨沙',13),
+	 ('08dc0c49edcba55f4b989df16b605c39',161,2720,2720,'R','[ﾌﾞｰｽﾀｰｶﾞｰﾙ]的場梨沙',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8176cad269fc35ee8a3222d8db1de2ce',161,2780,2740,'R','[ﾊﾞﾚﾝﾀｲﾝﾓｰﾄﾞ]的場梨沙',15),
 	 ('23c506cfa1119f316cd9b7e07e30b490',161,6300,4560,'SR','[ﾌｧﾝﾄﾑﾚﾃﾞｨ]的場梨沙',21),
 	 ('64698d63ae6f12f30ac46ff5e61550f7',161,6260,6200,'SR','[ｵﾄﾒのﾎﾟﾘｼｰ]的場梨沙',27),
@@ -3066,10 +3064,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('01834a0a9e9e9400c02249b0a04e5474',161,9264,9120,'SR+','[わがままｳｪﾃﾞｨﾝｸﾞ]的場梨沙+',36),
 	 ('49f6fd4549adcb500dcc21d87297e5bb',199,2800,2800,'SR','[聖夜の使者]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',4),
 	 ('c9d1b3f76a38a9e4b8897028c4430754',199,4080,3936,'SR+','[渚のﾏｰﾒｲﾄﾞ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',7),
-	 ('266483313283264643bb92cfdb9b520f',199,5400,3768,'SR+','[温泉郷の救世主]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('266483313283264643bb92cfdb9b520f',199,5400,3768,'SR+','[温泉郷の救世主]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',9),
 	 ('13cd8e91ab44bed6a0eb3ad73ac98d55',199,5100,5140,'SR','[ふわふわﾎｰﾘｰﾅｲﾄ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',12),
-	 ('8700eb37ea90c08296384294dcba8f0b',199,6440,4580,'SR','[ﾏｼﾞｶﾙﾎｰﾘｰﾅｲﾄ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',14),
+	 ('8700eb37ea90c08296384294dcba8f0b',199,6440,4580,'SR','[ﾏｼﾞｶﾙﾎｰﾘｰﾅｲﾄ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ',14);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('876fb43ce5ef639022ddf7ce233a859a',199,7728,7680,'SR+','[幸せのお届け人]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',17),
 	 ('c41e0c9b7b82bf69b94b28c2220478d8',199,5208,4128,'SR+','[極楽天女]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',19),
 	 ('e2dc319adb86a78e613cf1560ac9fac7',199,4776,4632,'SR+','[ｻﾝﾀﾁｱｰ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',23),
@@ -3077,10 +3075,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d5c8e88f351f50be0f8c3a9b27eded7b',199,6768,5352,'SR+','[ﾃﾞｨｱｴﾝｼﾞｪﾙ･S]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',28),
 	 ('49d7b41ff848d0e0a9e97b5632876a51',199,10200,7800,'SR+','[ﾒﾘｰﾊﾞｹｰｼｮﾝ]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',30),
 	 ('cac4e44899990ee26148463a6324ce9b',199,10272,7824,'SR+','[祈りの先に]ｲｳﾞ･ｻﾝﾀｸﾛｰｽ+',32),
-	 ('131c89b09553e3b1adf8211a825bef94',166,1600,2680,'R','[ﾊﾟｼﾞｬﾏﾊﾟｰﾃｨｰ]若林智香',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('131c89b09553e3b1adf8211a825bef94',166,1600,2680,'R','[ﾊﾟｼﾞｬﾏﾊﾟｰﾃｨｰ]若林智香',2),
 	 ('f08432b1b1ed5f779e4a05950da2869b',166,1760,2280,'R','[ｻﾏｰﾊﾞｹｰｼｮﾝ]若林智香',6),
-	 ('38d77ce3afc38411d2dae8c5fe362cd9',166,2112,2736,'R+','[ｻﾏｰﾊﾞｹｰｼｮﾝ]若林智香+',7),
+	 ('38d77ce3afc38411d2dae8c5fe362cd9',166,2112,2736,'R+','[ｻﾏｰﾊﾞｹｰｼｮﾝ]若林智香+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('752bf582313e7183b20823fdcfaf64db',166,2240,3180,'R','[ﾈｸｻｽｶﾞｰﾙ]若林智香',10),
 	 ('22177b0b3d43621ab1f291b07ad87c2f',166,3456,2544,'R+','[ｽｸｰﾙﾌﾟｰﾙ]若林智香+',13),
 	 ('cdb51d58743eed84230167094b26d0e1',166,4500,3120,'SR','[ﾌﾚｯｼｭﾁｱｶﾞｰﾙ]若林智香',19),
@@ -3088,10 +3086,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ddc8de0a56ccd002651239c12bdee940',166,5640,5856,'SR+','[唐傘ｽﾏｲﾙ]若林智香+',30),
 	 ('da25cd1b8ca420184ff788595c888b92',166,8280,8232,'SR+','[色めきｴｰﾙ]若林智香+',32),
 	 ('aa6dcdf381eb5e7234a93729f16727a3',166,3528,2520,'R+','[ほっこり温泉]若林智香+',34),
-	 ('df382a4e6fa1c82f7863108e7e6b0216',166,2808,3528,'R+','[神秘のｴｰｹﾞ海]若林智香+',36);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('df382a4e6fa1c82f7863108e7e6b0216',166,2808,3528,'R+','[神秘のｴｰｹﾞ海]若林智香+',36),
 	 ('b11840d679d28be700d95e49ee17a12b',166,3360,3120,'R+','[笑顔のｴｰｹﾞ海]若林智香+',38),
-	 ('d1ed6ed8f4ef807bff62625a579c2d27',138,1400,1660,'R','[制服ｺﾚｸｼｮﾝ]木村夏樹',2),
+	 ('d1ed6ed8f4ef807bff62625a579c2d27',138,1400,1660,'R','[制服ｺﾚｸｼｮﾝ]木村夏樹',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('9bdac3127034352eeb54915995ed2be4',138,3000,2000,'R','[新春ｺﾚｸｼｮﾝ]木村夏樹',6),
 	 ('2b66d0a66eaefce284d6ff1724116cda',138,3600,2400,'R+','[新春ｺﾚｸｼｮﾝ]木村夏樹+',7),
 	 ('33a9936da2d8a89bf45c8c247667da3b',138,2440,1880,'R','[ｳﾞｫﾔｰｼﾞｭ･ｼｰﾌ]木村夏樹',10),
@@ -3099,10 +3097,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('49bbaee0b5da4e747f6a30f047aa53a3',138,4220,3840,'SR','[ﾊｰﾄﾋﾞｰﾄﾛｯｶｰ]木村夏樹',21),
 	 ('b732fa6c81f1f4a53dd0f3eaf9573b0e',138,4860,3340,'SR','[ﾛｯｷﾝｸﾞﾗｳﾞｧｰ]木村夏樹',23),
 	 ('f66b8072a4bde3415f62c74ec5991d05',138,4140,4240,'SR','[ﾗｷﾞｯﾄﾞﾁｱｰ]木村夏樹',25),
-	 ('03b304d0171758d025ed2dd02bd01c28',138,6528,6504,'SR+','[華夜紅炎]木村夏樹+',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('03b304d0171758d025ed2dd02bd01c28',138,6528,6504,'SR+','[華夜紅炎]木村夏樹+',28),
 	 ('27d5c3b652aa05efe6e8c3400a3294ea',138,6600,4800,'SR','[ﾛｯｷﾝｸﾞﾒｲﾄﾞ]木村夏樹',29),
-	 ('f49e05f82490227b4f583127a87454db',138,8232,8184,'SR+','[ﾈｵﾝﾅｲﾄｷﾞｸﾞ]木村夏樹+',38),
+	 ('f49e05f82490227b4f583127a87454db',138,8232,8184,'SR+','[ﾈｵﾝﾅｲﾄｷﾞｸﾞ]木村夏樹+',38);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bc90585aafa6d81137e0d91378c72b4b',138,8040,6300,'SR','[ﾘｰｳﾞｽﾊﾞｲﾌﾞﾚｰｼｮﾝ]木村夏樹',39),
 	 ('0dae03154f963469ad8da853f9886d61',138,10296,8016,'SR+','[ﾛｯｸｻﾞﾐｽﾄﾚｽ]木村夏樹+',42),
 	 ('74ae1c65281151d972a274a7ba78963a',138,10224,7872,'SR+','[ｴﾓｰｼｮﾅﾙﾋﾞｰﾄ]木村夏樹+',44),
@@ -3110,10 +3108,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6655d43d8c1acde40cdc1740c3096403',10,1104,816,'N+','間中美里+',1),
 	 ('5070ff91ff6e35dfd983aaa23d49c4f8',10,3168,2256,'R+','[ｽｸｰﾙｶﾞｰﾙ]間中美里+',7),
 	 ('239a7383564dda0b8581c60fd9e91d19',10,3060,2160,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]間中美里',10),
-	 ('94fd4428f828cd3dea11d81b2458d472',10,3220,2100,'R','[T.B.ﾊﾞﾚﾝﾀｲﾝ]間中美里',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('94fd4428f828cd3dea11d81b2458d472',10,3220,2100,'R','[T.B.ﾊﾞﾚﾝﾀｲﾝ]間中美里',13),
 	 ('11083f0179de5f87511b226d92a4da8c',10,2540,2440,'R','[ｻﾝﾃﾞｨｰﾋﾞｰﾁ]間中美里',15),
-	 ('25e806c420f2dee6469ede4403e177eb',10,5616,5880,'SR+','[ｸﾞﾗｯﾄﾞﾘｰ･ﾛﾜｲﾔﾙ]間中美里+',22),
+	 ('25e806c420f2dee6469ede4403e177eb',10,5616,5880,'SR+','[ｸﾞﾗｯﾄﾞﾘｰ･ﾛﾜｲﾔﾙ]間中美里+',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('753e3e1d55fec03ac0355d390ecab888',21,1104,1536,'N+','太田優+',1),
 	 ('3301ddcd3460f7d6e8525580ec595ec5',21,2240,3200,'R','[ｱｯﾌﾟﾄｩﾃﾞｲﾄ]太田優',8),
 	 ('4d9a24cc8b10be07a95dfaf48f9f3320',21,4080,5448,'SR+','[ﾌﾟﾘﾃｨｰﾆｭｰｲﾔｰ]太田優+',16),
@@ -3121,10 +3119,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2763a2afd43cf1d265c968e8a9711692',21,8448,6168,'SR+','[ﾗﾌﾞﾘｰﾏｲﾍﾞｲﾋﾞｰ]太田優+',20),
 	 ('3d5441d51a3d93214ed9798cdb5b0fe1',33,2300,1540,'R','小早川紗枝',0),
 	 ('bb90dd3425c2e096e9b48a928e734b8b',164,780,520,'R','野々村そら',0),
-	 ('6bd01496d9b00da9563c7e92b6a40257',137,480,320,'N','龍崎薫',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6bd01496d9b00da9563c7e92b6a40257',137,480,320,'N','龍崎薫',0),
 	 ('108bc0c3aa328e2ac67782b356672155',166,1920,3216,'R+','[ﾊﾟｼﾞｬﾏﾊﾟｰﾃｨｰ]若林智香+',3),
-	 ('ec7057af8940d714ad8af9f3ae8300ea',166,2088,2304,'R+','[ﾊﾞﾚﾝﾀｲﾝﾊﾟｰﾃｨｰ]若林智香+',5),
+	 ('ec7057af8940d714ad8af9f3ae8300ea',166,2088,2304,'R+','[ﾊﾞﾚﾝﾀｲﾝﾊﾟｰﾃｨｰ]若林智香+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ad51b71ac5197e926d54027ee34c5439',166,2460,2440,'R','[青春のありか]若林智香',8),
 	 ('53ef3721dd9737e2ff8d88136230886b',166,2952,2928,'R+','[青春のありか]若林智香+',9),
 	 ('9c9bd76b06bada99f133ffe795d63d51',166,3100,2160,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙND]若林智香',14),
@@ -3132,10 +3130,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('83066f9afcc78881998003810d38a3ab',166,2780,2680,'R','[ｽﾅｯﾋﾟｰｴｰﾙ]若林智香',17),
 	 ('83d9e2030ef0d1c4ab0f46e104bebe2d',166,4040,3920,'SR','[ﾊｯﾋﾟｰﾁｱｰ]若林智香',21),
 	 ('fd801652029b6d929ee53d416b4e8ec0',166,4160,4320,'SR','[ﾁｱﾌﾙ･ﾛﾜｲﾔﾙ]若林智香',23),
-	 ('90acff12db7ec8895021c3726ee2ab58',166,8016,5664,'SR+','[春うらら]若林智香+',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('90acff12db7ec8895021c3726ee2ab58',166,8016,5664,'SR+','[春うらら]若林智香+',26),
 	 ('49543dee66abf36e88d18b85c542bec2',166,4704,4704,'SR+','[唐傘ｶﾞｰﾙ]若林智香+',28),
-	 ('0822455fd16d2fc329aa7f567e8ce774',166,6900,6860,'SR','[色めきｴｰﾙ]若林智香',31),
+	 ('0822455fd16d2fc329aa7f567e8ce774',166,6900,6860,'SR','[色めきｴｰﾙ]若林智香',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2304d649834890e8663e8fe4ddc8fde1',166,2940,2100,'R','[ほっこり温泉]若林智香',33),
 	 ('455460b0d55b5ce67cb60703858e41b9',166,2800,2600,'R','[笑顔のｴｰｹﾞ海]若林智香',37),
 	 ('770f6f299f10bbe5d17ef25bd8db5ee9',138,1680,1992,'R+','[制服ｺﾚｸｼｮﾝ]木村夏樹+',3),
@@ -3143,10 +3141,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('dfb6cfa4b823cae2b1e3347f16dcbafc',138,2120,1960,'R','[ﾛｯｷﾝｸﾞｾｯｼｮﾝ]木村夏樹',8),
 	 ('b72b7f9db952c2c0581b218fa61a73bb',138,2544,2352,'R+','[ﾛｯｷﾝｸﾞｾｯｼｮﾝ]木村夏樹+',9),
 	 ('5036702242079676623aab404c834930',138,3984,2640,'R+','[ﾛｯｸｳｨｽﾞﾕｰ]木村夏樹+',13),
-	 ('c1f7f8f5ef1cba3392af0e747b26fc9d',138,3260,2240,'R','[夏風ｽﾎﾟｰﾂ]木村夏樹',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c1f7f8f5ef1cba3392af0e747b26fc9d',138,3260,2240,'R','[夏風ｽﾎﾟｰﾂ]木村夏樹',16),
 	 ('299fef4852147871cdd00ca8c0124599',138,3912,2688,'R+','[夏風ｽﾎﾟｰﾂ]木村夏樹+',17),
-	 ('c06051977e4c90478509d188e6f23a7e',138,2720,2760,'R','[ﾜｲﾙﾄﾞﾌﾚﾝｽﾞ]木村夏樹',19),
+	 ('c06051977e4c90478509d188e6f23a7e',138,2720,2760,'R','[ﾜｲﾙﾄﾞﾌﾚﾝｽﾞ]木村夏樹',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a7a8fdea40caf917c330796c9d55da16',138,5064,4608,'SR+','[ﾊｰﾄﾋﾞｰﾄﾛｯｶｰ]木村夏樹+',22),
 	 ('fd399f8c029ebfb373556f8a66d4d0a6',138,5832,4008,'SR+','[ﾛｯｷﾝｸﾞﾗｳﾞｧｰ]木村夏樹+',24),
 	 ('cb5056ce89a2e9060f6d411eebdfbe30',138,3840,3060,'SR','[ﾍﾞﾆﾄｱｲﾄﾛﾝｷﾞﾝｸﾞ]木村夏樹',31),
@@ -3154,10 +3152,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5b85ccd2e62127d71edeb18ca68a43b6',201,3080,2240,'R','[ﾗﾌﾞｷｭﾝﾊﾞﾚﾝﾀｲﾝ]日高愛',0),
 	 ('2f69d0c03220e324a6ef7c3a6f3cddd0',10,1240,1440,'R','[ﾊﾟｼﾞｬﾏﾊﾟｰﾃｨｰ]間中美里',2),
 	 ('fb5049ce7e308b41e7b7ff194b4d4c8c',10,2640,1880,'R','[ｽｸｰﾙｶﾞｰﾙ]間中美里',6),
-	 ('9f456971110744b4582cdc908daff847',10,2720,2820,'R','[ﾌﾞﾗｲﾀﾞﾙｾﾚｸｼｮﾝ]間中美里',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9f456971110744b4582cdc908daff847',10,2720,2820,'R','[ﾌﾞﾗｲﾀﾞﾙｾﾚｸｼｮﾝ]間中美里',8),
 	 ('789d621e2350e2918f7de22eaa885ce5',10,3264,3384,'R+','[ﾌﾞﾗｲﾀﾞﾙｾﾚｸｼｮﾝ]間中美里+',9),
-	 ('5ab55ff49657ecf0bea39c26f40adb81',10,3048,2928,'R+','[ｻﾝﾃﾞｨｰﾋﾞｰﾁ]間中美里+',16),
+	 ('5ab55ff49657ecf0bea39c26f40adb81',10,3048,2928,'R+','[ｻﾝﾃﾞｨｰﾋﾞｰﾁ]間中美里+',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cb4e1c148328058812fcfe4981b0abb0',10,4680,4900,'SR','[ｸﾞﾗｯﾄﾞﾘｰ･ﾛﾜｲﾔﾙ]間中美里',21),
 	 ('f4d6767aeb7dd02ac99f8e6f35f3fb17',21,2260,2300,'R','[ｽﾌﾟﾘﾝｸﾞｽｲｰﾄﾋﾟｰ]太田優',2),
 	 ('f9a1ac1703ec5ddf5a2a55a5c94191c3',21,2688,3840,'R+','[ｱｯﾌﾟﾄｩﾃﾞｲﾄ]太田優+',9),
@@ -3165,10 +3163,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('79e03f380e9df0b3d95bb82a3c1f133b',21,5328,4056,'SR+','[ｽｳｨｰﾄｽﾌﾟﾗｯｼｭ]太田優+',22),
 	 ('a56eb6dc57b1182822de0b3b067859a7',21,4056,2544,'R+','[ｶﾞｰﾘｰﾊﾟｰﾃｨ]太田優+',24),
 	 ('d7dec3c58513c892ae28ce692f1d9c06',132,2760,2700,'R','[運気上昇]鷹富士茄子',0),
-	 ('358368dbd0dc56c11cf93069d1d75911',132,5040,3984,'SR+','[強運の才女]鷹富士茄子+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('358368dbd0dc56c11cf93069d1d75911',132,5040,3984,'SR+','[強運の才女]鷹富士茄子+',5),
 	 ('74e89f860577c5ea2cb8256aad3cf6a8',190,8460,6520,'SR','[本日の主役]難波笑美',34),
-	 ('ebf15b57ea8404a8e2eb51c0d69752a8',134,9360,7344,'SR+','[光のﾌﾟﾘﾝｾｽﾅｲﾄ]本田未央+',32),
+	 ('ebf15b57ea8404a8e2eb51c0d69752a8',134,9360,7344,'SR+','[光のﾌﾟﾘﾝｾｽﾅｲﾄ]本田未央+',32);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ced68aba0d3ee31e85b7e6f2edfb4cab',134,8040,6240,'SR','[ｽﾃｰｼﾞｵﾌﾞﾏｼﾞｯｸ]本田未央',35),
 	 ('19a24b1c6c197cd257fde5ea5cc1f6e8',134,9648,7488,'SR+','[ｽﾃｰｼﾞｵﾌﾞﾏｼﾞｯｸ]本田未央+',36),
 	 ('dbb617d6d27ceb065d062a3b7261f5db',134,7720,7720,'SR','[ｼﾝﾃﾞﾚﾗｶﾞｰﾙ]本田未央',37),
@@ -3176,10 +3174,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9f1562a6d1c1dd05666e0c961ffc99db',134,10584,8088,'SR+','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]本田未央+',42),
 	 ('7be48c2ed9379adca4df06944de4c6a3',134,8520,6820,'SR','[ｼｰｸﾚｯﾄﾕｱﾒｲﾄﾞ]本田未央',43),
 	 ('7397b8aef0b374bfda98b7585fa5975a',155,2700,1940,'R','[ｴﾚｶﾞﾝﾄｽﾀｲﾙ]衛藤美紗希',4),
-	 ('eccdb961c4d022c046a8769df1db6ebb',155,2160,3744,'R+','[ｾﾚｸﾄﾒｲﾄﾞ]衛藤美紗希+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('eccdb961c4d022c046a8769df1db6ebb',155,2160,3744,'R+','[ｾﾚｸﾄﾒｲﾄﾞ]衛藤美紗希+',7),
 	 ('166ad2526f16cba6d1e8a184de405385',155,6360,5160,'SR+','[ｶﾞｰﾙｽﾞｼﾞｪﾆｯｸ]衛藤美紗希+',32),
-	 ('dd4c82c76998ab0944c851fe0a5cd1b5',155,3384,3168,'R+','[ｼｯｸﾊﾟｯｼｮﾆｽﾀ]衛藤美紗希+',34),
+	 ('dd4c82c76998ab0944c851fe0a5cd1b5',155,3384,3168,'R+','[ｼｯｸﾊﾟｯｼｮﾆｽﾀ]衛藤美紗希+',34);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1817c9a81785e58343365d7161c46b0f',155,5088,4992,'SR+','[ﾚｲﾆｰｶﾞｰﾙｽﾞｶﾞｲﾄﾞ]衛藤美紗希+',36),
 	 ('3803a74d0f634db183715a7af336e069',155,10750,8450,'SR+','[ｽﾏｲﾙｶﾞｰﾙｽﾞｶﾞｲﾄﾞ]衛藤美紗希+',38),
 	 ('a2c76c7c3d6cd4ed9bfae16a519606e3',188,1700,1300,'R','[ｻﾏｰﾗｲﾌﾞ]三好紗南',2),
@@ -3187,10 +3185,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('80da596b54eb817257cb71dded0880da',188,7680,7620,'SR','[ｳｪｲｸ･ﾜﾝ･ｱｯﾌﾟ]三好紗南',36),
 	 ('45650571d209eeb3c0f459e9ae7b1489',211,5720,4420,'SR','[凪の道をゆく]久川凪',2),
 	 ('8feac8e96c99be975a2dcedd499734d3',31,1060,1060,'R','[ｺﾞｽﾍﾟﾙﾄﾞﾚｽ]相原雪乃',2),
-	 ('20867159bc2a902527f5dc0efa76d68b',34,2160,2160,'R','西園寺琴歌',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('20867159bc2a902527f5dc0efa76d68b',34,2160,2160,'R','西園寺琴歌',0),
 	 ('91a74c8b18e013ecb8a341d4586aa8f5',164,936,624,'R+','野々村そら+',1),
-	 ('ce9be94eb3291a7f91c73a7824eb388c',137,576,384,'N+','龍崎薫+',1),
+	 ('ce9be94eb3291a7f91c73a7824eb388c',137,576,384,'N+','龍崎薫+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5804656c2c53a974b9dfd2df368f4309',166,1740,1920,'R','[ﾊﾞﾚﾝﾀｲﾝﾊﾟｰﾃｨｰ]若林智香',4),
 	 ('2c4e927cadd73b11da5c722e6b32019a',166,2688,3816,'R+','[ﾈｸｻｽｶﾞｰﾙ]若林智香+',11),
 	 ('4fb0aa129a4ecd3a5ae5fb262c77dd5a',166,2880,2120,'R','[ｽｸｰﾙﾌﾟｰﾙ]若林智香',12),
@@ -3198,10 +3196,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8c3374d0b42f60c4f071ebd612f6c93f',138,2928,2256,'R+','[ｳﾞｫﾔｰｼﾞｭ･ｼｰﾌ]木村夏樹+',11),
 	 ('8a7f88c33ed6f745ff82a214a58fbf6c',138,3300,2240,'R','[ｸﾘｽﾏｽﾅｲﾄ]木村夏樹',14),
 	 ('567a9c6803e3b4e420b47912a1699bf5',138,3264,3312,'R+','[ﾜｲﾙﾄﾞﾌﾚﾝｽﾞ]木村夏樹+',20),
-	 ('d53f71d5d96617cb898d079671603d0c',138,4968,5088,'SR+','[ﾗｷﾞｯﾄﾞﾁｱｰ]木村夏樹+',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d53f71d5d96617cb898d079671603d0c',138,4968,5088,'SR+','[ﾗｷﾞｯﾄﾞﾁｱｰ]木村夏樹+',26),
 	 ('ad4aeac42d563895be2f638167d74b79',138,5440,5420,'SR','[華夜紅炎]木村夏樹',27),
-	 ('e6d82a7805702869c9beb24e37d66411',138,7920,5760,'SR+','[ﾛｯｷﾝｸﾞﾒｲﾄﾞ]木村夏樹+',30),
+	 ('e6d82a7805702869c9beb24e37d66411',138,7920,5760,'SR+','[ﾛｯｷﾝｸﾞﾒｲﾄﾞ]木村夏樹+',30);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ff9e6f3a55a104303e9629ad05868570',138,8016,5448,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]木村夏樹+',36),
 	 ('caa9df35d41ce022727122458d34a5b3',201,3696,2688,'R+','[ﾗﾌﾞｷｭﾝﾊﾞﾚﾝﾀｲﾝ]日高愛+',1),
 	 ('e57b36e27f8f7a01204a79a4d8556424',10,1488,1728,'R+','[ﾊﾟｼﾞｬﾏﾊﾟｰﾃｨｰ]間中美里+',3),
@@ -3209,10 +3207,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a008d980b8fa78799cba20ca9ca26ba1',10,3672,2592,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]間中美里+',11),
 	 ('5910b23711ad9fad1d4b0422bdcb6e34',10,3820,3640,'R+','[ﾌﾟﾘﾃｨｰ助手]間中美里+',12),
 	 ('c8f11a68e06e1f4e983aed12d02117c5',10,3864,2520,'R+','[T.B.ﾊﾞﾚﾝﾀｲﾝ]間中美里+',14),
-	 ('98b0ed321a6ffcbd43865235bcddfeaf',10,2300,2280,'SR','[ﾌﾟﾘﾏｳﾞｪｰﾗﾋﾞｱｯｼﾞｮ]間中美里',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('98b0ed321a6ffcbd43865235bcddfeaf',10,2300,2280,'SR','[ﾌﾟﾘﾏｳﾞｪｰﾗﾋﾞｱｯｼﾞｮ]間中美里',17),
 	 ('5a92ba70490bbfcc2beb6da09a4bfe49',10,2760,2736,'SR+','[ﾌﾟﾘﾏｳﾞｪｰﾗﾋﾞｱｯｼﾞｮ]間中美里+',18),
-	 ('4e23cc6a906719f5abd9c071f6a951f3',10,4220,4220,'SR','[ﾎﾜｲﾄﾋﾟｸｼｰ]間中美里',19),
+	 ('4e23cc6a906719f5abd9c071f6a951f3',10,4220,4220,'SR','[ﾎﾜｲﾄﾋﾟｸｼｰ]間中美里',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bd77e3aa1b781fed0b474a070e939eab',10,5064,5064,'SR+','[ﾎﾜｲﾄﾋﾟｸｼｰ]間中美里+',20),
 	 ('c68e3249a192693c4f6b0f09eee97624',21,2712,2760,'R+','[ｽﾌﾟﾘﾝｸﾞｽｲｰﾄﾋﾟｰ]太田優+',3),
 	 ('4e34fc26b435f80d3bbba9f8bd0d7045',21,2112,3864,'R+','[ﾊﾞﾚﾝﾀｲﾝﾃﾞﾋﾞﾙ]太田優+',7),
@@ -3220,10 +3218,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b2514999ea881a683df17ae3573014d6',21,2664,3840,'R+','[お出かけｴｱﾘｰ]太田優+',12),
 	 ('945f8d7abce7ba007da0f824ea843d90',21,3504,2520,'R+','[ﾌﾗﾜｰﾌｪｱﾘｰｽﾞ]太田優+',14),
 	 ('0b4cdaa5fcca59418bb865e30954f746',21,4440,3380,'SR','[ｽｳｨｰﾄｽﾌﾟﾗｯｼｭ]太田優',21),
-	 ('b6aefc384f1010b66c4abc55cc7de700',21,3380,2120,'R','[ｶﾞｰﾘｰﾊﾟｰﾃｨ]太田優',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b6aefc384f1010b66c4abc55cc7de700',21,3380,2120,'R','[ｶﾞｰﾘｰﾊﾟｰﾃｨ]太田優',23),
 	 ('89bfa866799f61e56ef2e9ad90df0abd',132,3312,3240,'R+','[運気上昇]鷹富士茄子+',1),
-	 ('98f83a297189bc85c6b368df4c369af8',132,5940,4360,'SR','[多芸の才女]鷹富士茄子',8),
+	 ('98f83a297189bc85c6b368df4c369af8',132,5940,4360,'SR','[多芸の才女]鷹富士茄子',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('715b793aa4d3b15051658c0100f70bde',132,7512,7488,'SR+','[慶福の雪路]鷹富士茄子+',13),
 	 ('b6bfc286e6325b05e4413ab6c373e428',132,7660,5720,'SR','[至幸の甘味]鷹富士茄子',16),
 	 ('0dfbaed28d6c4f5f9acfc3a2ca137678',132,7680,6060,'SR','[碧海の幸神]鷹富士茄子',18),
@@ -3231,10 +3229,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2edad54e62689135a26604ddefb9c9e8',132,10320,8016,'SR+','[幸運の使い魔]鷹富士茄子+',23),
 	 ('adec465ec42a1e7ca8f05209aa26596c',132,10800,8400,'SR','[笑顔の成果]鷹富士茄子',26),
 	 ('52a9739a10a91ce69139bb28d742e99e',192,1080,1000,'R','村上巴',0),
-	 ('1b8738bbc354106b60524b170c267ff3',192,2040,3432,'R+','[ｸﾘｽﾏｽﾊﾟｰﾃｨｰ]村上巴+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1b8738bbc354106b60524b170c267ff3',192,2040,3432,'R+','[ｸﾘｽﾏｽﾊﾟｰﾃｨｰ]村上巴+',5),
 	 ('07c2d6b8c01f0d27c672c634c98a3336',192,9720,7584,'SR+','[大海の緋石]村上巴+',34),
-	 ('5b48c5daf66b8e74ed358d39be598854',192,7740,7580,'SR','[花燃ゆる頃]村上巴',37),
+	 ('5b48c5daf66b8e74ed358d39be598854',192,7740,7580,'SR','[花燃ゆる頃]村上巴',37);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d7eb1b97b7cc5d256ceb95118ffae977',142,520,920,'N','矢口美羽',0),
 	 ('14cc48fd8eb6548c8dcfb39dfc1d7bbc',142,2280,2064,'R+','[ﾊﾜｲｱﾝｽﾀｲﾙ]矢口美羽+',5),
 	 ('532af3fcc507a3fb7951ad57b0761e90',142,3180,2220,'R','[ﾄｷﾒｷﾊﾞﾚﾝﾀｲﾝ]矢口美羽',6),
@@ -3242,10 +3240,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3c57816bba9f19f1f2071a0676b369ff',142,3360,2448,'R+','[T.B.ﾁｱｰｽﾞ]矢口美羽+',11),
 	 ('5ffa669a358970560494aeac24b77c2a',142,3816,2568,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]矢口美羽+',19),
 	 ('f8c0017a5ca2ef4fc7cd0d07151994ac',142,2440,1900,'SR','[悩めるお年頃]矢口美羽',22),
-	 ('d24774d9639553e63860f5b854d944a4',142,2928,2280,'SR+','[悩めるお年頃]矢口美羽+',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d24774d9639553e63860f5b854d944a4',142,2928,2280,'SR+','[悩めるお年頃]矢口美羽+',23),
 	 ('b72ccff36b410011b79a299f01d25674',142,2840,2740,'SR','[楽しい夏休み]矢口美羽',24),
-	 ('f4c1ba3dea892b20c3d94e1dfcc479b2',142,5680,4400,'SR','[ｲﾉｾﾝﾄﾁｱｰ]矢口美羽',34),
+	 ('f4c1ba3dea892b20c3d94e1dfcc479b2',142,5680,4400,'SR','[ｲﾉｾﾝﾄﾁｱｰ]矢口美羽',34);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ab27820c74a8a95767edfd16a8682dca',142,3960,2640,'R+','[お屋敷ｾﾚｸｼｮﾝ]矢口美羽+',37),
 	 ('2fcfc69158f584eda0c93f680cea3b9c',155,3240,2328,'R+','[ｴﾚｶﾞﾝﾄｽﾀｲﾙ]衛藤美紗希+',5),
 	 ('77254317d91c39c769bb9ea89a4dd7a9',155,1800,3120,'R','[ｾﾚｸﾄﾒｲﾄﾞ]衛藤美紗希',6),
@@ -3253,10 +3251,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('45d8d8a1d481ed88a1b379ae38724496',155,3080,3620,'R+','[ﾅﾃﾞｼｺI.C]衛藤美紗希+',12),
 	 ('45e13b2555f8f3715a5b1f81d62a9d9e',155,3140,2160,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙND]衛藤美紗希',15),
 	 ('5163c1283e641fc56050e902cbd2fbab',155,4032,2472,'R+','[ｳｨﾝﾀｰﾃﾝﾌﾟﾃｰｼｮﾝ]衛藤美紗希+',18),
-	 ('6c2a19b5543568e87ea94e385348ae09',155,3620,4740,'SR','[あたしの磨き方]衛藤美紗希',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6c2a19b5543568e87ea94e385348ae09',155,3620,4740,'SR','[あたしの磨き方]衛藤美紗希',21),
 	 ('d13a2d0afa9cf52d1649abe6cfb8d90c',155,3288,4320,'SR+','[華道の大和撫子]衛藤美紗希+',24),
-	 ('b52cc985711baa1789287d1e8aa54152',155,4880,3980,'SR','[ﾌｪﾐﾆﾝﾁｱｰ]衛藤美紗希',29),
+	 ('b52cc985711baa1789287d1e8aa54152',155,4880,3980,'SR','[ﾌｪﾐﾆﾝﾁｱｰ]衛藤美紗希',29);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('55f4201ee5b5f40f49f375d912ca5a48',188,2040,1560,'R+','[ｻﾏｰﾗｲﾌﾞ]三好紗南+',3),
 	 ('a2b68b8474b5286d60a33891113e57df',164,1840,1780,'R','[ｲﾀﾘｱﾝｽﾀｲﾙ]野々村そら',2),
 	 ('2dbac60081ce8d246d03957ff5c8337d',164,2740,2060,'R','[T.B.ﾊﾛｳｨﾝ]野々村そら',8),
@@ -3264,10 +3262,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5a3f49b98c1c6eed21a5554324df93a4',164,3200,2280,'SR','[ろでお☆がｰる]野々村そら',19),
 	 ('4549aa1570a45b094e0c93f87e7456a8',164,3840,2736,'SR+','[ろでお☆がｰる]野々村そら+',20),
 	 ('9f7bcd2b186da54f58a6c708b6673e2b',164,4440,5712,'SR+','[わいるどしゃうと]野々村そら+',22),
-	 ('6367fd95b58d609ed2645a43e671abd5',164,4740,4880,'SR','[はっぴｰ･ﾛﾜｲﾔﾙ]野々村そら',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6367fd95b58d609ed2645a43e671abd5',164,4740,4880,'SR','[はっぴｰ･ﾛﾜｲﾔﾙ]野々村そら',25),
 	 ('8d9a78c85de5f9c744289ea2b95091f5',164,3300,2020,'R','[らふりふれっしゅ]野々村そら',27),
-	 ('5be9bf88188f36e181fbe96ea1341c41',137,1430,950,'R','[新春]龍崎薫',2),
+	 ('5be9bf88188f36e181fbe96ea1341c41',137,1430,950,'R','[新春]龍崎薫',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('386eb2f9064e3658c5de712c36f4b685',137,1488,1488,'R+','[ｺﾞｽﾍﾟﾙﾄﾞﾚｽ]龍崎薫+',5),
 	 ('39647db5da91cae2322aafcfb93b2832',137,2680,2680,'R','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]龍崎薫',6),
 	 ('3c64d5dad75b33a0fb0cc5d12e4d8505',137,3300,2220,'R','[ｳｨﾝﾀｰﾊﾞｶﾝｽ]龍崎薫',9),
@@ -3275,10 +3273,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('14e6d29781c35dd5217e785e6be2e9c9',137,3760,3740,'R+','[ｸﾚｰﾌﾟI.C]龍崎薫+',13),
 	 ('18a54dc6c29dfb7bed490cec88e04c69',137,3384,3240,'R+','[秋空ｽﾎﾟｰﾂ]龍崎薫+',15),
 	 ('2175109269fe3e11706218748d8a2d9a',137,4560,4320,'SR+','[ｻﾝﾌﾗﾜｰｲｴﾛｰ]龍崎薫+',17),
-	 ('51a61c8fc7c098dd3f0c4c9ed938e1a8',137,2376,3048,'SR+','[桜色少女]龍崎薫+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('51a61c8fc7c098dd3f0c4c9ed938e1a8',137,2376,3048,'SR+','[桜色少女]龍崎薫+',19),
 	 ('effb92325b6736f30e59c8ca440592d8',137,3360,3384,'SR+','[桜色ｽﾏｲﾙ]龍崎薫+',21),
-	 ('b7bb5571402b624ffde22149b35d812c',137,5376,5328,'SR+','[ちびっこﾎﾟﾘｽ]龍崎薫+',23),
+	 ('b7bb5571402b624ffde22149b35d812c',137,5376,5328,'SR+','[ちびっこﾎﾟﾘｽ]龍崎薫+',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7ac839de7d770abf38f7c1980d26faaa',137,3360,2520,'SR','[ﾊﾂﾗﾂお嬢様]龍崎薫',26),
 	 ('16879ab349989f30795c5a4aaf1f5b24',137,4360,4080,'SR','[ﾊﾂﾗﾂお嬢様･S]龍崎薫',28),
 	 ('db033d61f283a9b24cd8fb229961d6e4',137,5064,5208,'SR+','[元気のみなもと]龍崎薫+',31),
@@ -3286,10 +3284,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f7eccd2ac20d9fc681312e87592c47f3',137,4000,3860,'SR','[げんきに手作り]龍崎薫',36),
 	 ('13e427135872a0aa727bee86270a6e80',137,4760,4860,'SR','[えがおで手作り]龍崎薫',38),
 	 ('231c6649a44f431a6bea1a00c028967c',137,8120,6360,'SR','[ちいさなﾏﾄﾞﾓｱｾﾞﾙ]龍崎薫',40),
-	 ('165628f1b5bf74afad4156ecc118ec33',137,10248,7776,'SR+','[つよさの決め手]龍崎薫+',45);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('165628f1b5bf74afad4156ecc118ec33',137,10248,7776,'SR+','[つよさの決め手]龍崎薫+',45),
 	 ('2ba9aa6bf49a8d75a1cf6ae3a131de74',170,2560,1840,'R','日野茜',0),
-	 ('a264ec914168a4e0fa2be2774b4213f5',140,700,700,'N','斉藤洋子',0),
+	 ('a264ec914168a4e0fa2be2774b4213f5',140,700,700,'N','斉藤洋子',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c3dc039dbb8e4e3b2ea2ce70dcc0279a',201,2660,2700,'R','[夜桜奇譚]日高愛',2),
 	 ('a931f2ce86f9dd7f94e56a4f2298c427',201,3820,3680,'R+','[魔法のｺﾝﾁｪﾙﾄ]日高愛+',6),
 	 ('da37673cb29940724a44320a4eb5b9c7',10,2600,2560,'R','[ﾃﾞﾋﾞﾘｯｼｭｺﾞｼｯｸ]間中美里',4),
@@ -3297,10 +3295,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e48ec25f5ab0a1d3a195d15b43fae1f4',10,6168,6048,'SR+','[ｳﾞｨﾝﾃｰｼﾞﾄﾘｯﾌﾟ]間中美里+',24),
 	 ('5bfd32a645f44a242129e896b4d97896',10,3860,3640,'R+','[お祭りﾊﾞﾗｴﾃｨ]間中美里+',25),
 	 ('5b400c51e77b1d23d6aa5b163c72356a',21,2660,2480,'R','[ﾊﾞﾆｰｶﾞｰﾙ]太田優',4),
-	 ('aac128fdb81a96c932708fd67bde9f9e',21,1760,3220,'R','[ﾊﾞﾚﾝﾀｲﾝﾃﾞﾋﾞﾙ]太田優',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('aac128fdb81a96c932708fd67bde9f9e',21,1760,3220,'R','[ﾊﾞﾚﾝﾀｲﾝﾃﾞﾋﾞﾙ]太田優',6),
 	 ('5be600651b1a50c4ff0eac6bb50a0049',21,2220,3200,'R','[お出かけｴｱﾘｰ]太田優',11),
-	 ('da6a8f7bf3ca40bab81dd29416beeb29',21,3400,4540,'SR','[ﾌﾟﾘﾃｨｰﾆｭｰｲﾔｰ]太田優',15),
+	 ('da6a8f7bf3ca40bab81dd29416beeb29',21,3400,4540,'SR','[ﾌﾟﾘﾃｨｰﾆｭｰｲﾔｰ]太田優',15);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6f373139364ab88fb2546aa671e71ac2',21,3384,3288,'SR+','[わんﾀﾞﾌﾙﾁｱｰ]太田優+',18),
 	 ('7bb355ad1b34e66736bcf328c92dfa6b',21,7040,5140,'SR','[ﾗﾌﾞﾘｰﾏｲﾍﾞｲﾋﾞｰ]太田優',19),
 	 ('6f70cdba579b575f5ec4cbe47074918d',21,3432,3312,'R+','[ﾎｰﾘｰﾅｲﾄ]太田優+',26),
@@ -3308,10 +3306,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('46fc14a63a4822541cca86f95ea2cf76',132,7128,5232,'SR+','[多芸の才女]鷹富士茄子+',9),
 	 ('f6b971137b54ffdbd6f9b1671ccdb7bc',132,7992,5664,'SR+','[雪月花]鷹富士茄子+',11),
 	 ('4c51644cc4960982b30add70ff241fcf',132,6720,6640,'SR','[福果の雫]鷹富士茄子',14),
-	 ('e33517a33f65a55053ec46806f4f9de9',132,9216,7272,'SR+','[碧海の幸神]鷹富士茄子+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e33517a33f65a55053ec46806f4f9de9',132,9216,7272,'SR+','[碧海の幸神]鷹富士茄子+',19),
 	 ('688fc4bae0cc1de8e43317a5def6c3a6',132,8600,6680,'SR','[幸運の使い魔]鷹富士茄子',22),
-	 ('00d667b0ceea1c5119bbb26e127be2cc',132,5088,4968,'SR+','[理運の成果]鷹富士茄子+',25),
+	 ('00d667b0ceea1c5119bbb26e127be2cc',132,5088,4968,'SR+','[理運の成果]鷹富士茄子+',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e104bb799ff765c82e1be6be6fba6291',192,1296,1200,'R+','村上巴+',1),
 	 ('ca6c5513c5e2fa0020de3baca8b6a0ef',192,3312,3264,'R+','[ｾﾚｸﾄﾒｲﾄﾞ]村上巴+',7),
 	 ('7c46a92d5aed4d00fadb147482537d7b',192,3280,3920,'SR','[新春花道]村上巴',9),
@@ -3319,10 +3317,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('08507b1415aac3425a832f673c3de275',192,5208,4944,'SR+','[緋桜宵一刻]村上巴+',18),
 	 ('0274b29c98fd5fb1b83903f2b6a184d6',192,3460,3460,'SR','[情熱ｸﾗｲﾏｰ]村上巴',21),
 	 ('9f856d31ab13638093c2bae804bda29d',192,4152,4152,'SR+','[情熱ｸﾗｲﾏｰ]村上巴+',22),
-	 ('56d28fdbe680efdacbfee5769b324d16',192,4320,4540,'SR','[笑顔でｸﾗｲﾏｰ]村上巴',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('56d28fdbe680efdacbfee5769b324d16',192,4320,4540,'SR','[笑顔でｸﾗｲﾏｰ]村上巴',23),
 	 ('2b4c976f81116b339212cd46e5ecf3ce',192,4280,3120,'R+','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ･S]村上巴+',32),
-	 ('d638fcc2c396e20650826f34a63f9343',192,9288,9096,'SR+','[花燃ゆる頃]村上巴+',38),
+	 ('d638fcc2c396e20650826f34a63f9343',192,9288,9096,'SR+','[花燃ゆる頃]村上巴+',38);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cd29b7fda8167b0f4dbd63f347c1e961',142,624,1104,'N+','矢口美羽+',1),
 	 ('68b35585d39dafaba5d9cf38c0b9f083',142,4920,4920,'SR','[天魔降臨]矢口美羽',28),
 	 ('d2170d41b184072934a9fff773547cd0',142,5904,5904,'SR+','[天魔降臨]矢口美羽+',29),
@@ -3330,10 +3328,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('835306fe3729c8c904e6a5b2b1092735',155,2820,2640,'R','[ｼｯｸﾊﾟｯｼｮﾆｽﾀ]衛藤美紗希',33),
 	 ('7e0ed063ef4ca093cf2bada5fa0a851a',155,4240,4160,'SR','[ﾚｲﾆｰｶﾞｰﾙｽﾞｶﾞｲﾄﾞ]衛藤美紗希',35),
 	 ('e1e647efe2dc11ccc84bd244ced05c06',164,2208,2136,'R+','[ｲﾀﾘｱﾝｽﾀｲﾙ]野々村そら+',3),
-	 ('bf38507a985eb502dc11b0669c035668',164,2928,2304,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙ]野々村そら+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bf38507a985eb502dc11b0669c035668',164,2928,2304,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙ]野々村そら+',5),
 	 ('ba7243eb399089267666d8b44f3eb6a2',164,3216,3120,'R+','[はっぴｰはっぴｰ]野々村そら+',7),
-	 ('cd3b73854b58929671aa432ab259417e',164,3288,2472,'R+','[T.B.ﾊﾛｳｨﾝ]野々村そら+',9),
+	 ('cd3b73854b58929671aa432ab259417e',164,3288,2472,'R+','[T.B.ﾊﾛｳｨﾝ]野々村そら+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7ef301dfd58f3bb7ce5d82667ade6bf4',164,3760,3700,'R+','[ﾌﾗｲﾄﾊﾞﾗｴﾃｨ]野々村そら+',12),
 	 ('1d29378f827b4812188d1c7cecc2d43e',164,3360,3240,'R+','[ﾄﾛﾋﾟｶﾙﾘｿﾞｰﾄ]野々村そら+',14),
 	 ('9ed6ef9917f3c9bb4b18862c0a3a4f2f',164,2880,3456,'R+','[ﾛｼｱﾝｸｯｷﾝｸﾞ]野々村そら+',16),
@@ -3341,10 +3339,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ac00fc26dcf39db7b99b0dbd25fba25d',164,3700,4760,'SR','[わいるどしゃうと]野々村そら',21),
 	 ('c9ff2aa64967a2cbc5455bb32ebc02ec',164,4400,4480,'SR','[ぷりむすたいる]野々村そら',23),
 	 ('ac2e3bc0823e579ea9432aff4d47d00f',164,5688,5856,'SR+','[はっぴｰ･ﾛﾜｲﾔﾙ]野々村そら+',26),
-	 ('40090637381bfb36601ca6a97d51e45d',164,3960,2424,'R+','[らふりふれっしゅ]野々村そら+',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('40090637381bfb36601ca6a97d51e45d',164,3960,2424,'R+','[らふりふれっしゅ]野々村そら+',28),
 	 ('446514874e3c985fa57d6447cdd803d1',137,1716,1140,'R+','[新春]龍崎薫+',3),
-	 ('0bf03f5221911fc5b1abf9eb9f296865',137,3960,2664,'R+','[ｳｨﾝﾀｰﾊﾞｶﾝｽ]龍崎薫+',10),
+	 ('0bf03f5221911fc5b1abf9eb9f296865',137,3960,2664,'R+','[ｳｨﾝﾀｰﾊﾞｶﾝｽ]龍崎薫+',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ae3ba85f888597f52c2744eeac3d9ace',137,3800,3600,'SR','[ｻﾝﾌﾗﾜｰｲｴﾛｰ]龍崎薫',16),
 	 ('8c37d3680b260969d28f66934d928c0a',137,1980,2540,'SR','[桜色少女]龍崎薫',18),
 	 ('ca52997de1baa2ce1074885bf86e0124',137,2880,2700,'SR','[ﾊﾋﾟﾈｽﾁｱｰ]龍崎薫',24),
@@ -3352,10 +3350,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('cb3c489425af1e21d1754e2005d980f9',137,8040,8064,'SR+','[ともだちのちから]龍崎薫+',35),
 	 ('cf07fa8df1b2c507272ca59de01e4ec9',137,4800,4632,'SR+','[げんきに手作り]龍崎薫+',37),
 	 ('9e9ba959df3e786dfaf2ae3ec849342c',137,5712,5832,'SR+','[えがおで手作り]龍崎薫+',39),
-	 ('7f85b34a383e96d91c45da544c6634ab',137,5100,5120,'SR','[太陽さんさん]龍崎薫',42);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7f85b34a383e96d91c45da544c6634ab',137,5100,5120,'SR','[太陽さんさん]龍崎薫',42),
 	 ('4661db63638521428179d6dfedb7d2f4',137,8540,6480,'SR','[つよさの決め手]龍崎薫',44),
-	 ('3d0085be5f6add9c2d1eb2b484a02fbf',170,3072,2208,'R+','日野茜+',1),
+	 ('3d0085be5f6add9c2d1eb2b484a02fbf',170,3072,2208,'R+','日野茜+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e24e9a4d94ecff4e3b24d87642d54ca4',140,840,840,'N+','斉藤洋子+',1),
 	 ('63e3fed9d083a1311df1964f1095b84c',140,4280,4320,'SR','[ｱｸﾃｨﾌﾞ･ﾛﾜｲﾔﾙ]斉藤洋子',24),
 	 ('b442544a8f105b1ef78ed232c0ffda34',140,6360,5064,'SR+','[ﾊﾞｲﾀﾙﾁｱｰ]斉藤洋子+',27),
@@ -3363,10 +3361,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5cf1a235fc45740912ab67019127d9cd',140,3384,3360,'R+','[ﾊｯﾋﾟｰﾊﾛｳｨﾝ]斉藤洋子+',31),
 	 ('acb21dca7cfc523e0a041f32c92f0c8e',201,3192,3240,'R+','[夜桜奇譚]日高愛+',3),
 	 ('e39015d925db23fa7c4a5fbfeaf09534',201,5352,5352,'SR+','[聖夜のｷｾｷ]日高愛+',5),
-	 ('48ca10d1c5ddf027b8f7b1ef7181255e',201,4340,3080,'R+','[絆のﾌﾟﾛﾄｺﾙ]日高愛+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('48ca10d1c5ddf027b8f7b1ef7181255e',201,4340,3080,'R+','[絆のﾌﾟﾛﾄｺﾙ]日高愛+',7),
 	 ('bef9093335fbcbe9e92a41d2d68a206d',11,1020,780,'N','小日向美穂',0),
-	 ('b94927a057fb675a16ca25d45a682294',21,2860,2760,'R','[ﾎｰﾘｰﾅｲﾄ]太田優',25),
+	 ('b94927a057fb675a16ca25d45a682294',21,2860,2760,'R','[ﾎｰﾘｰﾅｲﾄ]太田優',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6b856c4fa2d4b26fd50a8169f19ebb51',132,3600,3600,'SR+','[幸運の女神]鷹富士茄子+',3),
 	 ('88f8892b760b11a663e8403c3870763a',132,5280,5256,'SR+','[謹賀新年]鷹富士茄子+',7),
 	 ('589576f7046af0d21e6b5ac6113b91a2',132,8064,7968,'SR+','[福果の雫]鷹富士茄子+',15),
@@ -3374,10 +3372,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ddd83e5593c4a80b0c706106a86ae184',132,7360,7300,'SR','[満点の高志]鷹富士茄子',20),
 	 ('f2e6bbe47372fa38a05e0938fbb4d3b7',132,4240,4140,'SR','[理運の成果]鷹富士茄子',24),
 	 ('9229fa2ac5d27d5ff9cb61c3edd49baa',192,2340,1740,'R','[緋桜お嬢]村上巴',2),
-	 ('9ea724a88193776de79ef5f2dc68deed',192,3160,2320,'SR','[緋色の一皿]村上巴',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9ea724a88193776de79ef5f2dc68deed',192,3160,2320,'SR','[緋色の一皿]村上巴',13),
 	 ('204d94633810b7fc3d886f04802acadd',192,3792,2784,'SR+','[緋色の一皿]村上巴+',14),
-	 ('1bbf65958a8b15249f7b3ded9686ba8a',192,4340,4120,'SR','[緋桜宵一刻]村上巴',17),
+	 ('1bbf65958a8b15249f7b3ded9686ba8a',192,4340,4120,'SR','[緋桜宵一刻]村上巴',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d663200d41b0a9411ce984ffa964cfc5',192,7100,5400,'SR','[義理と愛情]村上巴',25),
 	 ('1c6ff2bbe0458219764965de70302d56',192,8520,6480,'SR+','[義理と愛情]村上巴+',26),
 	 ('435b88ad03add9b8ba0ef9760199cfe7',192,6900,6900,'SR','[燃え盛る錦秋]村上巴',27),
@@ -3385,10 +3383,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8cf81b294f2bd48461e6630ce3ca6be1',142,1840,1560,'R','[制服ｺﾚｸｼｮﾝ]矢口美羽',2),
 	 ('fd4af187e405c3da71775e047edce414',142,3280,2220,'R','[ﾄｷﾒｷﾌﾞﾗｲﾀﾞﾙ]矢口美羽',20),
 	 ('ae1aad73ca06da2093e63cd443c081be',142,3936,2664,'R+','[ﾄｷﾒｷﾌﾞﾗｲﾀﾞﾙ]矢口美羽+',21),
-	 ('3e8e8f242d248978458d505a2edad10a',142,3408,3288,'SR+','[楽しい夏休み]矢口美羽+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3e8e8f242d248978458d505a2edad10a',142,3408,3288,'SR+','[楽しい夏休み]矢口美羽+',25),
 	 ('4bd5fe670a9e8d3d764432448fcd5221',142,8976,7032,'SR+','[ﾋﾞｰﾏｲｳｪｲ]矢口美羽+',33),
-	 ('35ed8cc4e33cec53aea016cb9e2f0f22',185,1320,1320,'R','喜多日菜子',0),
+	 ('35ed8cc4e33cec53aea016cb9e2f0f22',185,1320,1320,'R','喜多日菜子',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('71bf844f9d6bba187861e9a94c4d1a2a',185,2496,2400,'R+','[花火祭りｽﾏｲﾙ]喜多日菜子+',5),
 	 ('965f5c538bbd1baa8ba16e8a092d0921',185,3864,2592,'R+','[ﾄﾞﾘｰﾑﾍﾟｲﾝﾄ]喜多日菜子+',9),
 	 ('bddbbf700738b76daca74173b181733a',185,2200,1600,'SR','[妄想お姫様]喜多日菜子',12),
@@ -3396,10 +3394,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('dc63d553aea48ddd20cb3623f8a85308',185,5544,5352,'SR+','[ﾋﾞｭｰﾃｨﾌﾙﾄﾞﾘｰﾏｰ]喜多日菜子+',17),
 	 ('8885845534e6d6e29cb32c72d6eb2165',185,7056,5232,'SR+','[妄想☆わんだふる]喜多日菜子+',19),
 	 ('b3b1fa6ac4889d1847f4af965b3fe390',185,5920,5920,'SR','[ひらひらふわり]喜多日菜子',22),
-	 ('cc1415432540a7819d1d3a00390e4e7c',185,9096,7152,'SR+','[ﾊﾟﾝｼﾞｰｽﾞﾌｪｱﾘｰ]喜多日菜子+',27);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('cc1415432540a7819d1d3a00390e4e7c',185,9096,7152,'SR+','[ﾊﾟﾝｼﾞｰｽﾞﾌｪｱﾘｰ]喜多日菜子+',27),
 	 ('a8a10459cf737db15898ea00feac8229',185,7160,7160,'SR','[見果てぬ夢]喜多日菜子',28),
-	 ('34e17a7520e04ccaae1cda2993ee3d99',185,10104,7776,'SR+','[夢みるﾌﾟﾘﾝｾｽ]喜多日菜子+',33),
+	 ('34e17a7520e04ccaae1cda2993ee3d99',185,10104,7776,'SR+','[夢みるﾌﾟﾘﾝｾｽ]喜多日菜子+',33);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a912475f262c6610d16fd01a89b67b4f',188,3040,1920,'R','[ﾊﾞﾚﾝﾀｲﾝﾊﾟｰﾃｨｰ]三好紗南',4),
 	 ('9305d01a77298c6ccd1dc85c31312ed6',164,2440,1920,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙ]野々村そら',4),
 	 ('76e96d82a4a7800e7f41379167f70830',164,2680,2600,'R','[はっぴｰはっぴｰ]野々村そら',6),
@@ -3407,10 +3405,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ac84d4d34bca1fb65b66233fc5b864b6',164,3360,2424,'R+','[ﾗﾌﾞﾘｰﾒｲﾄﾞ]野々村そら+',11),
 	 ('32c820b449706b1cc55d8427d2e65006',164,2800,2700,'R','[ﾄﾛﾋﾟｶﾙﾘｿﾞｰﾄ]野々村そら',13),
 	 ('e037a96be01e8b8355b0f2abd54abe08',164,2740,2660,'R','[ﾛｼｱﾝｸｯｷﾝｸﾞ･S]野々村そら',17),
-	 ('3c9777fee6bd72b52c4700f384987b3a',164,5280,5376,'SR+','[ぷりむすたいる]野々村そら+',24);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3c9777fee6bd72b52c4700f384987b3a',164,5280,5376,'SR+','[ぷりむすたいる]野々村そら+',24),
 	 ('c5cfd776209d261d147d40a122fbce6d',137,1240,1240,'R','[ｺﾞｽﾍﾟﾙﾄﾞﾚｽ]龍崎薫',4),
-	 ('c468fb201eda84cf94cd2ddca45ea09f',137,3216,3216,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]龍崎薫+',7),
+	 ('c468fb201eda84cf94cd2ddca45ea09f',137,3216,3216,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]龍崎薫+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('eb7c81a65fd7e6298c860ee07e8d3d97',137,3220,2580,'R+','[ｴﾚｶﾞﾝﾄI.C]龍崎薫+',8),
 	 ('4260fa0cfa9d7f4580c26b03aeeba068',137,4008,2616,'R+','[ﾌｪﾘｰﾁｪ･ﾁｮｺﾗｰﾀ]龍崎薫+',12),
 	 ('7535c821285df91429edaed9e9e5e651',137,2820,2700,'R','[秋空ｽﾎﾟｰﾂ]龍崎薫',14),
@@ -3418,10 +3416,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('94f468204a314b13c221bc2ff351a15a',137,4480,4440,'SR','[ちびっこﾎﾟﾘｽ]龍崎薫',22),
 	 ('e31308f0895ca49eed17a2418b4533b1',137,3456,3240,'SR+','[ﾊﾋﾟﾈｽﾁｱｰ]龍崎薫+',25),
 	 ('344f0b05bd380ef7190f06c0bc636968',137,4032,3024,'SR+','[ﾊﾂﾗﾂお嬢様]龍崎薫+',27),
-	 ('8eff69e4d99a16ba0ab8d8808b1dcfce',137,5232,4896,'SR+','[ﾊﾂﾗﾂお嬢様･S]龍崎薫+',29);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('8eff69e4d99a16ba0ab8d8808b1dcfce',137,5232,4896,'SR+','[ﾊﾂﾗﾂお嬢様･S]龍崎薫+',29),
 	 ('b30dceee4b25e7fac98eb13236b79333',137,5880,5880,'SR','[じょいふるｽﾃｯﾌﾟ]龍崎薫',32),
-	 ('9a5fd59d7adfad8fd054a4522d9a820c',137,6700,6720,'SR','[ともだちのちから]龍崎薫',34),
+	 ('9a5fd59d7adfad8fd054a4522d9a820c',137,6700,6720,'SR','[ともだちのちから]龍崎薫',34);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('471614c6ae3704bae82a4f039ed4b97f',137,9744,7632,'SR+','[ちいさなﾏﾄﾞﾓｱｾﾞﾙ]龍崎薫+',41),
 	 ('50a8b461665e37aadf3705703bf8f538',137,6120,6144,'SR+','[太陽さんさん]龍崎薫+',43),
 	 ('0fea5846d80145b07c4a992b77c85922',170,3320,2180,'R','[湯けむり紀行]日野茜',2),
@@ -3429,10 +3427,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('363a16627a484afd5d6a40db7fc761e8',170,5040,3120,'SR+','[全力熱血]日野茜+',7),
 	 ('8f54ab4a77270d5799c31edff371e945',170,4960,3360,'SR','[暴走☆花嫁]日野茜',10),
 	 ('1c048cc1b02c25f972f8147b14c2c19b',170,6024,4248,'SR+','[ﾊﾞｰﾆﾝｸﾞﾊｰﾄ]日野茜+',13),
-	 ('0a49238fa8e0451304135adbc957705c',170,4640,4700,'SR','[ﾌﾟｰﾙｻｲﾄﾞｸｲｰﾝ]日野茜',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0a49238fa8e0451304135adbc957705c',170,4640,4700,'SR','[ﾌﾟｰﾙｻｲﾄﾞｸｲｰﾝ]日野茜',14),
 	 ('bd500c4da4d4b7e1ca5e54f813177ed6',170,3640,4800,'SR','[3rdｱﾆﾊﾞｰｻﾘｰ･S]日野茜',18),
-	 ('e27d096696fd3ffd8baaf504f526864d',170,4368,5760,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ･S]日野茜+',19),
+	 ('e27d096696fd3ffd8baaf504f526864d',170,4368,5760,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ･S]日野茜+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c3eca737aebfe22448304ff91b552b4e',170,6600,4680,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]日野茜',22),
 	 ('9c04faffee708181d50dca5884d3fb1e',170,7032,7008,'SR+','[ｼｬｲﾆｰﾌﾞﾙｰﾑ]日野茜+',25),
 	 ('18bd72bb7f023181fa3424c7b9e87cd1',170,8112,8064,'SR+','[爆裂ｴｰﾙ]日野茜+',27),
@@ -3440,10 +3438,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a17546d8d0f025cdaa20916fd07bdb33',170,7620,7580,'SR','[ﾉﾝｽﾄｯﾌﾟﾌｧｲﾔｰ]日野茜',32),
 	 ('85064c6705464b0068d62a8a0c7fecc4',170,9144,9096,'SR+','[ﾉﾝｽﾄｯﾌﾟﾌｧｲﾔｰ]日野茜+',33),
 	 ('8377108a0c370eda41dfc4fe9129a512',170,10080,7920,'SR+','[呼び覚ませ炎]日野茜+',37),
-	 ('bbb2c000d43ea2a15adbed784595add3',140,1520,1200,'R','[ﾃｰﾏﾊﾟｰｸ]斉藤洋子',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bbb2c000d43ea2a15adbed784595add3',140,1520,1200,'R','[ﾃｰﾏﾊﾟｰｸ]斉藤洋子',2),
 	 ('aa81549cf0a3cee335c64d20e9386635',140,2760,1940,'R','[ｱｸﾃｨﾌﾞﾁｱｰ]斉藤洋子',6),
-	 ('40ac7b999dd928719947512fff5f57fd',140,1740,3240,'R','[ﾅｲﾄﾊﾟｰﾃｨｰ]斉藤洋子',8),
+	 ('40ac7b999dd928719947512fff5f57fd',140,1740,3240,'R','[ﾅｲﾄﾊﾟｰﾃｨｰ]斉藤洋子',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('9086b74e92fcb074c154a8aa5ad516d2',140,2740,2720,'R','[ｳｪﾙﾈｽﾃﾞｲｽﾞ]斉藤洋子',10),
 	 ('8010afc200495c069ca1c340ec365798',140,2520,2480,'R','[ﾌｪﾘｰﾁｪ･ﾁｮｺﾗｰﾀ]斉藤洋子',12),
 	 ('dac5475fe90480756d56bfd8a894f38f',140,2880,2140,'R','[新春浪漫]斉藤洋子',14),
@@ -3451,10 +3449,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d86f212dc2bd0b2aff150597954ae65c',140,3220,2360,'SR','[ﾛﾜｲﾔﾙｻﾏｰ]斉藤洋子',20),
 	 ('6d7bec74730f62497406933a724deeb7',140,3864,2832,'SR+','[ﾛﾜｲﾔﾙｻﾏｰ]斉藤洋子+',21),
 	 ('4270223bf3b0fa1fe9ad07050b397f65',201,4460,4460,'SR','[聖夜のｷｾｷ]日高愛',4),
-	 ('d25ce47acff65352ce0a24e20ff15178',11,1224,936,'N+','小日向美穂+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d25ce47acff65352ce0a24e20ff15178',11,1224,936,'N+','小日向美穂+',1),
 	 ('668df5f627110fb638fed98ab6f0efdb',22,1340,940,'N','棟方愛海',0),
-	 ('21ae6f0acb669b55fe9470adf2d7781d',22,1632,2640,'R+','[ﾊﾜｲｱﾝｽﾀｲﾙ]棟方愛海+',5),
+	 ('21ae6f0acb669b55fe9470adf2d7781d',22,1632,2640,'R+','[ﾊﾜｲｱﾝｽﾀｲﾙ]棟方愛海+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5b1bae277355a1691544753b57fac1d0',132,4200,3320,'SR','[強運の才女]鷹富士茄子',4),
 	 ('8f88bb5ffa40b4935ef04257ba4ba0d1',67,240,160,'N','渋谷凛',0),
 	 ('17a125ea352bda654afef2d07eb1ebc7',132,4400,4380,'SR','[謹賀新年]鷹富士茄子',6),
@@ -3462,10 +3460,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a6becd927cf9c07c6f8a3a0675cb5eee',132,6260,6240,'SR','[慶福の雪路]鷹富士茄子',12),
 	 ('dee223341d9eb5797cd0cb08bb932e5f',132,10800,8400,'SR+','[笑顔の成果]鷹富士茄子+',27),
 	 ('324a9f368dfba1870822807887b3ba7f',192,2808,2088,'R+','[緋桜お嬢]村上巴+',3),
-	 ('c6dac2259d77a69bee5cdc6948f96642',192,2760,2720,'R','[ｾﾚｸﾄﾒｲﾄﾞ]村上巴',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c6dac2259d77a69bee5cdc6948f96642',192,2760,2720,'R','[ｾﾚｸﾄﾒｲﾄﾞ]村上巴',6),
 	 ('9322735592db663dcc49f60e49f3183f',192,3800,3660,'R+','[ｸﾗｲﾑI.C]村上巴+',8),
-	 ('b1fedfbdbeb47a1cd00a555204dc42bc',192,5352,4968,'SR+','[緋色のﾌﾟﾘﾝｾｽ]村上巴+',12),
+	 ('b1fedfbdbeb47a1cd00a555204dc42bc',192,5352,4968,'SR+','[緋色のﾌﾟﾘﾝｾｽ]村上巴+',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bede574c4a9a90ab62205799fd9139ef',192,5760,4160,'SR','[紅の一指し]村上巴',15),
 	 ('4bea26175c846e829776dea3b708ea5e',192,6912,4992,'SR+','[紅の一指し]村上巴+',16),
 	 ('a650400bccc96acbad5fc99134e25f89',192,4220,3060,'R+','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ]村上巴+',33),
@@ -3473,10 +3471,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('aaec4ebc80f9b5528297dc019b9ca0ae',192,3912,2472,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNB]村上巴+',36),
 	 ('ac83a1675befe192bae8063a8862af2c',142,2208,1872,'R+','[制服ｺﾚｸｼｮﾝ]矢口美羽+',3),
 	 ('73eea87bdec62f29de318e50e84f021d',167,1520,2080,'R','城ヶ崎美嘉',0),
-	 ('7674301daa6c75a7321b726f9571ead2',139,600,600,'N','松山久美子',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7674301daa6c75a7321b726f9571ead2',139,600,600,'N','松山久美子',0),
 	 ('d963e9624da72e02228195db55a89219',170,3984,2616,'R+','[湯けむり紀行]日野茜+',3),
-	 ('99b5d77e0a6d8e66de7822514bdb12b8',170,3288,3288,'R+','[ﾊｲﾊﾟｰﾌｨｰﾊﾞｰ]日野茜+',5),
+	 ('99b5d77e0a6d8e66de7822514bdb12b8',170,3288,3288,'R+','[ﾊｲﾊﾟｰﾌｨｰﾊﾞｰ]日野茜+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('36ba64d4547b90ed4a529998022f112f',170,2180,1640,'SR','[CDﾃﾞﾋﾞｭｰ]日野茜',8),
 	 ('3c7d9f82c5984e67fc79749cfe3869cc',170,2616,1968,'SR+','[CDﾃﾞﾋﾞｭｰ]日野茜+',9),
 	 ('99e843a15f7f2073232bb045f5f59baf',170,3300,2340,'SR','[3rdｱﾆﾊﾞｰｻﾘｰ]日野茜',16),
@@ -3484,10 +3482,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2149410a8b10577676fd93962e65e72d',170,5860,5840,'SR','[ｼｬｲﾆｰﾌﾞﾙｰﾑ]日野茜',24),
 	 ('ded7ec6c65a68d8e27aa29dd8afa76ae',170,6760,6720,'SR','[爆裂ｴｰﾙ]日野茜',26),
 	 ('e32b37b5855fbcc3a800974d19465db3',170,8080,6320,'SR','[一炎入魂]日野茜',30),
-	 ('50002f607432c8d8437199a5104e6524',170,9696,7584,'SR+','[一炎入魂]日野茜+',31);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('50002f607432c8d8437199a5104e6524',170,9696,7584,'SR+','[一炎入魂]日野茜+',31),
 	 ('492306445058595421d34fc75077dbe6',170,8500,6560,'SR','[ﾎﾟｼﾞﾃｨﾌﾞﾊﾟｯｼｮﾝ]日野茜',34),
-	 ('9020331d9ecd41587bf1e72eff784106',170,8400,6600,'SR','[呼び覚ませ炎]日野茜',36),
+	 ('9020331d9ecd41587bf1e72eff784106',170,8400,6600,'SR','[呼び覚ませ炎]日野茜',36);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e02a44f2de1e821a4dfff0b3d3db681f',140,1824,1440,'R+','[ﾃｰﾏﾊﾟｰｸ]斉藤洋子+',3),
 	 ('d3b714b42d67360598b8c8c9a28d3ef1',140,2976,2328,'R+','[湯けむり月夜]斉藤洋子+',5),
 	 ('60d7e7fa4af2462132d22b339b0df55e',140,3312,2328,'R+','[ｱｸﾃｨﾌﾞﾁｱｰ]斉藤洋子+',7),
@@ -3495,10 +3493,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('645befcc6e4768dd22934277bd7e98cf',140,3288,3264,'R+','[ｳｪﾙﾈｽﾃﾞｲｽﾞ]斉藤洋子+',11),
 	 ('6493f1eb3bfcb583cff1e74961039d42',140,4040,3960,'SR','[ｱｸﾃｨﾌﾞﾋﾞｭｰﾃｨｰ]斉藤洋子',18),
 	 ('f8ba08532e70a89d22a0b58a01cedd4a',140,4848,4752,'SR+','[ｱｸﾃｨﾌﾞﾋﾞｭｰﾃｨｰ]斉藤洋子+',19),
-	 ('87ddcb0644b65e0e0f77a0b8b40e2e9e',140,3700,4800,'SR','[ﾊﾟﾝﾌﾟｱｯﾌﾟ]斉藤洋子',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('87ddcb0644b65e0e0f77a0b8b40e2e9e',140,3700,4800,'SR','[ﾊﾟﾝﾌﾟｱｯﾌﾟ]斉藤洋子',22),
 	 ('cb6adb2ef51829eefa317195281124fa',140,5600,4480,'SR','[ﾌｨｱﾚｽﾒｶﾆｯｸ]斉藤洋子',28),
-	 ('0217583dc5d375d1d75e484ac1fc0261',140,6720,5376,'SR+','[ﾌｨｱﾚｽﾒｶﾆｯｸ]斉藤洋子+',29),
+	 ('0217583dc5d375d1d75e484ac1fc0261',140,6720,5376,'SR+','[ﾌｨｱﾚｽﾒｶﾆｯｸ]斉藤洋子+',29);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('32d6d9a214188e6b30e70ee584e44e42',204,2320,1880,'R','辻野あかり',0),
 	 ('4907a5097709ffb270d71d19a4535cee',11,1270,840,'R','[聖夜]小日向美穂',2),
 	 ('4f6605f1390ff27296abf8072f06d1a7',11,3680,3360,'SR','[はにかみ乙女]小日向美穂',5),
@@ -3506,10 +3504,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('255795031bff51e2289b75d660d2d292',11,1820,1680,'SR','[CDﾃﾞﾋﾞｭｰ]小日向美穂',9),
 	 ('dfc136bcf818e927b74615613332e737',11,5320,3840,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]小日向美穂',13),
 	 ('136657fa4a63321ec624a82fb10e97a4',11,6384,4608,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]小日向美穂+',14),
-	 ('7a9aeb6c91fce6a201f9249503875b6e',11,4340,4100,'SR','[3rdｱﾆﾊﾞｰｻﾘｰ･S]小日向美穂',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7a9aeb6c91fce6a201f9249503875b6e',11,4340,4100,'SR','[3rdｱﾆﾊﾞｰｻﾘｰ･S]小日向美穂',17),
 	 ('3166f21cb4b0a33660bc162146a7d129',11,6600,6528,'SR+','[ﾌﾟﾚｼｬｽｴﾓｰｼｮﾝ]小日向美穂+',20),
-	 ('658b39b8d4cebd6c30cfc5e2d7dd04c6',11,5660,5640,'SR','[ﾎﾜｲﾄﾆｭｰｲﾔｰ]小日向美穂',21),
+	 ('658b39b8d4cebd6c30cfc5e2d7dd04c6',11,5660,5640,'SR','[ﾎﾜｲﾄﾆｭｰｲﾔｰ]小日向美穂',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('06634f09752a3c79a39c537123cd9f95',11,7920,5616,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]小日向美穂+',24),
 	 ('319223e824af7aed34094925be62c94c',11,7536,7368,'SR+','[ｷｰﾌﾟｵﾝｺﾞｰｲﾝｸﾞ]小日向美穂+',26),
 	 ('e5ecf5e5a08ee0c4b64b2a16b672d5bd',11,7500,5880,'SR','[もみじ色の舞姫]小日向美穂',29),
@@ -3517,10 +3515,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a5d5c9e712c04d0012919fe35ee25776',11,5184,5184,'SR+','[ｱﾆﾊﾞｰｻﾘｰﾛﾏﾝｽ]小日向美穂+',34),
 	 ('458dbe35da00fb337bf37d735cc8f54c',11,8180,6280,'SR','[やさしい木漏れ日]小日向美穂',35),
 	 ('d4736da35edea145573f178013f37575',11,4140,3160,'R+','[深緑のせせらぎ]小日向美穂+',37),
-	 ('3f24bf3b3adf66cca03962c234c7e16d',11,9816,7536,'SR+','[やさしい木漏れ日]小日向美穂+',38);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3f24bf3b3adf66cca03962c234c7e16d',11,9816,7536,'SR+','[やさしい木漏れ日]小日向美穂+',38),
 	 ('6367f3615073e606df4997ce60c07cc0',11,9168,9096,'SR+','[P.C.S]小日向美穂+',40),
-	 ('dffba4af62e6c806706ae927d6aa3a63',22,1608,1128,'N+','棟方愛海+',1),
+	 ('dffba4af62e6c806706ae927d6aa3a63',22,1608,1128,'N+','棟方愛海+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6e82ddd934172c1ddfd40da18b541538',22,2460,2400,'R','[ｲｹﾅｲｵｵｶﾐ]棟方愛海',8),
 	 ('297cab43151aa6dacc6873fb79fe7c25',22,3680,4860,'SR','[わきわきｸﾘｽﾏｽ･S]棟方愛海',21),
 	 ('7eed576c2e8dbd09f8240ec36f8bd6d7',22,4360,4520,'SR','[おさわりﾁｱｰ]棟方愛海',25),
@@ -3528,10 +3526,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('063ffec0aa97792c72174763408ba1fb',192,1700,2860,'R','[ｸﾘｽﾏｽﾊﾟｰﾃｨｰ]村上巴',4),
 	 ('a357bf9e03b66e27cbfe061765e9d1cc',192,3936,4704,'SR+','[新春花道]村上巴+',10),
 	 ('f61ce6f523670d1df4811683c3d88932',192,6280,4720,'SR','[紅染まる情景]村上巴',19),
-	 ('9ed607c190b8f31085a90adb4b333564',192,7536,5664,'SR+','[紅染まる情景]村上巴+',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9ed607c190b8f31085a90adb4b333564',192,7536,5664,'SR+','[紅染まる情景]村上巴+',20),
 	 ('83b53b4dceb9b7022e17587ced38dc4e',192,5184,5448,'SR+','[笑顔でｸﾗｲﾏｰ]村上巴+',24),
-	 ('5155dbfe48d0aad7270847f4177a0923',192,8280,8280,'SR+','[燃え盛る錦秋]村上巴+',28),
+	 ('5155dbfe48d0aad7270847f4177a0923',192,8280,8280,'SR+','[燃え盛る錦秋]村上巴+',28);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e275bfe5941fd3959de60c5d5c5cacef',67,288,192,'N+','渋谷凛+',1),
 	 ('dd660fd46a020f202d0bf7eff01e30ef',192,7960,6200,'SR','[真紅の生き様]村上巴',29),
 	 ('bbbca4ce266b04e6b833dc32997b02e5',192,9552,7440,'SR+','[真紅の生き様]村上巴+',30),
@@ -3539,10 +3537,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('36563d1fcd7ab0070dbd2ca0a269e380',142,3384,2424,'R+','[ｸﾘｽﾏｽﾅｲﾄ]矢口美羽+',13),
 	 ('f04dac9c82d71a897241138a4f42caec',142,2880,2140,'R','[ﾜｲﾙﾄﾞﾌﾚﾝｽﾞ]矢口美羽',16),
 	 ('4d8997fc3f94ac70311fa9f92408655a',142,3456,2568,'R+','[ﾜｲﾙﾄﾞﾌﾚﾝｽﾞ]矢口美羽+',17),
-	 ('5b073af22fb3cd6adcc1e9e319fa67f6',142,5040,4656,'SR+','[賑やか夏休み]矢口美羽+',27);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5b073af22fb3cd6adcc1e9e319fa67f6',142,5040,4656,'SR+','[賑やか夏休み]矢口美羽+',27),
 	 ('c0bb1ce2f048f36f6397fc8dd094cc23',142,7008,6960,'SR+','[ふわふわﾌｧｸﾄﾘｰ]矢口美羽+',31),
-	 ('7a7b2c7147b358d3bb3119200d83c339',142,6816,5280,'SR+','[ｲﾉｾﾝﾄﾁｱｰ]矢口美羽+',35),
+	 ('7a7b2c7147b358d3bb3119200d83c339',142,6816,5280,'SR+','[ｲﾉｾﾝﾄﾁｱｰ]矢口美羽+',35);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f8a558fb4f4a7f89bf07a98af643a1df',142,3300,2200,'R','[お屋敷ｾﾚｸｼｮﾝ]矢口美羽',36),
 	 ('61a1dfc4c713b5d5a094a19923bacc08',167,1824,2496,'R+','城ヶ崎美嘉+',1),
 	 ('f69052165dc006c8bc15558a299ef1b7',139,720,720,'N+','松山久美子+',1),
@@ -3550,10 +3548,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1d1b4eba1b4f97930d41cd9bd6e8c45e',170,5952,4032,'SR+','[暴走☆花嫁]日野茜+',11),
 	 ('1a41c58580b5f380f9ae1080f1bd01c5',170,5020,3540,'SR','[ﾊﾞｰﾆﾝｸﾞﾊｰﾄ]日野茜',12),
 	 ('50a3f572c3c17067f6a37ba5b2b58da4',170,5568,5640,'SR+','[ﾌﾟｰﾙｻｲﾄﾞｸｲｰﾝ]日野茜+',15),
-	 ('b5432fa0d132d27b02039aea00da87d3',170,3960,2808,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ]日野茜+',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b5432fa0d132d27b02039aea00da87d3',170,3960,2808,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ]日野茜+',17),
 	 ('bdc9cebae8d2f4aa75cbe2ac77876726',170,6340,4400,'SR','[放課後ﾄﾗｲ]日野茜',20),
-	 ('40577520ba74911e5233e36f28eac68d',170,7608,5280,'SR+','[放課後ﾄﾗｲ]日野茜+',21),
+	 ('40577520ba74911e5233e36f28eac68d',170,7608,5280,'SR+','[放課後ﾄﾗｲ]日野茜+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f0e6f7b8e5ccd1bffc1aa59648685d14',170,6960,6960,'SR','[突撃☆ﾊﾞﾚﾝﾀｲﾝ]日野茜',28),
 	 ('9be0dd1e54bd229c12424dc7ed63b7b7',170,10200,7872,'SR+','[ﾎﾟｼﾞﾃｨﾌﾞﾊﾟｯｼｮﾝ]日野茜+',35),
 	 ('d96ef4cbddf04a780a4af8082a4081e2',140,2480,1940,'R','[湯けむり月夜]斉藤洋子',4),
@@ -3561,10 +3559,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1071bfb308b6b8a1f34be93a8da42c55',140,3456,2568,'R+','[新春浪漫]斉藤洋子+',15),
 	 ('0024aced791b7de9c49ca8185b6c7dde',140,2180,3260,'R','[ﾍﾙｼｰﾌﾞﾚｲﾝ]斉藤洋子',16),
 	 ('6404ed97807a171fa347f103f3a1ed80',140,4440,5760,'SR+','[ﾊﾟﾝﾌﾟｱｯﾌﾟ]斉藤洋子+',23),
-	 ('1013f20a456ce20449239b3e587bb424',140,5136,5184,'SR+','[ｱｸﾃｨﾌﾞ･ﾛﾜｲﾔﾙ]斉藤洋子+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1013f20a456ce20449239b3e587bb424',140,5136,5184,'SR+','[ｱｸﾃｨﾌﾞ･ﾛﾜｲﾔﾙ]斉藤洋子+',25),
 	 ('b79ddc7d8c30b9cf74ca16fd0c2115f8',140,5300,4220,'SR','[ﾊﾞｲﾀﾙﾁｱｰ]斉藤洋子',26),
-	 ('62bed96415861bc7ab032f39b4c57076',204,2784,2256,'R+','辻野あかり+',1),
+	 ('62bed96415861bc7ab032f39b4c57076',204,2784,2256,'R+','辻野あかり+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('892b6b0c9aa3f3edbf2ea1b05e3c70ea',11,1524,1008,'R+','[聖夜]小日向美穂+',3),
 	 ('d6ddb3065b0006be872bc532d29297ec',11,4416,4032,'SR+','[はにかみ乙女]小日向美穂+',6),
 	 ('94d3ea2fc6d661ab277e492432568e22',11,4200,3360,'SR','[聖夜のﾌﾟﾚｾﾞﾝﾄ]小日向美穂',7),
@@ -3572,10 +3570,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d8acf685442132547a1c399fd9d342bc',11,6288,4512,'SR+','[ﾊﾛｳｨﾝうぃっち]小日向美穂+',12),
 	 ('8a42faefd560fa7d67825f9922b0a5c9',11,2820,2820,'SR','[3rdｱﾆﾊﾞｰｻﾘｰ]小日向美穂',15),
 	 ('086525ca98f96b889095348482203f98',11,3384,3384,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ]小日向美穂+',16),
-	 ('4b123c9565147d559a1900bc29cc143e',11,6600,4680,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]小日向美穂',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4b123c9565147d559a1900bc29cc143e',11,6600,4680,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]小日向美穂',23),
 	 ('f141ceb9eba3cea79e5aa27a643c3c92',11,8328,8232,'SR+','[くるくるﾘﾝｸﾒｲﾄ]小日向美穂+',32),
-	 ('abbe52ff16730a445dd85e701907925c',11,4320,4320,'SR','[ｱﾆﾊﾞｰｻﾘｰﾛﾏﾝｽ]小日向美穂',33),
+	 ('abbe52ff16730a445dd85e701907925c',11,4320,4320,'SR','[ｱﾆﾊﾞｰｻﾘｰﾛﾏﾝｽ]小日向美穂',33);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('432ef4f18eff2a541435fc4c8c3ff592',11,4280,3140,'R+','[笑顔のせせらぎ]小日向美穂+',36),
 	 ('1134a3f86da064c661b788764441c421',11,7640,7580,'SR','[P.C.S]小日向美穂',39),
 	 ('4f87920cd3009e0575828fb8380a7baa',11,8600,6480,'SR','[陽のあたる場所へ]小日向美穂',41),
@@ -3583,10 +3581,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('73728f37f018acb8ac26efd204e3ebd1',22,3020,2040,'R','[ﾃﾞﾋﾞﾘｯｼｭｺﾞｼｯｸ]棟方愛海',2),
 	 ('24c92596b0ec15c3144510f5a0e1a931',22,2952,2880,'R+','[ｲｹﾅｲｵｵｶﾐ]棟方愛海+',9),
 	 ('4278a96f12fa7a381b660192cd958f3f',22,3060,3640,'R+','[ｻﾝﾀI.C]棟方愛海+',12),
-	 ('cc1557c930d15940c0c5d35d7d69ee7a',22,3960,2664,'R+','[ﾄﾛﾋﾟｶﾙﾘｿﾞｰﾄ]棟方愛海+',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('cc1557c930d15940c0c5d35d7d69ee7a',22,3960,2664,'R+','[ﾄﾛﾋﾟｶﾙﾘｿﾞｰﾄ]棟方愛海+',14),
 	 ('69fe9277fb8bad6c807c0fcb58ec7f4c',22,6912,4800,'SR+','[愛の手]棟方愛海+',18),
-	 ('3a0dc8a0ffb83f0e7d739b9b38dacd2b',22,6620,4860,'SR','[やわらかな夢]棟方愛海',23),
+	 ('3a0dc8a0ffb83f0e7d739b9b38dacd2b',22,6620,4860,'SR','[やわらかな夢]棟方愛海',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6522a738eabfd30e56843fb2def9f22c',22,7560,5940,'SR','[あま～いおねだり]棟方愛海',27),
 	 ('b552532109e93057a45f3175c60a709f',22,7260,7240,'SR','[まんまるｾﾝﾁﾒﾝﾀﾙ]棟方愛海',29),
 	 ('65eae9a5645e79e8a7a20a94989bcb85',22,7280,7240,'SR','[やわらかﾍﾌﾞﾝ]棟方愛海',32),
@@ -3594,10 +3592,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('11db690ef5aec1cd0cd9c9e2aedfb2cd',177,1440,864,'R+','双海亜美+',1),
 	 ('697e19df704f2ef4b9aca8fb57aa39d2',195,1340,1880,'R','冴島清美',0),
 	 ('60aac231822dea54e7042584603fc4d8',195,2448,2472,'R+','[ｼｮｺﾗﾌﾚｰﾊﾞｰ]冴島清美+',5),
-	 ('8917cbf796fc48c5a8e55d383339eba5',195,2700,2720,'R','[ｱｲﾄﾞﾙ取締係]冴島清美',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('8917cbf796fc48c5a8e55d383339eba5',195,2700,2720,'R','[ｱｲﾄﾞﾙ取締係]冴島清美',9),
 	 ('94c08885da41d1fc80e33b8e7e23ea6b',195,2840,2620,'R','[ﾀﾗﾝ･ｱﾅﾘｰｽﾞ]冴島清美',11),
-	 ('b0dc1521b2a797bcd2b0a702ea1d338f',195,3780,3720,'R+','[雪像ﾊﾞﾗｴﾃｨ]冴島清美+',13),
+	 ('b0dc1521b2a797bcd2b0a702ea1d338f',195,3780,3720,'R+','[雪像ﾊﾞﾗｴﾃｨ]冴島清美+',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8dd85e79dbfde7f5888c4aabd5805d4b',195,5280,4000,'SR','[学園の超☆新星]冴島清美',16),
 	 ('db755eae0641bef500fb12fda1026268',195,2808,3816,'SR+','[ｶﾞｰﾙｽﾞﾛｯｶｰ]冴島清美+',19),
 	 ('07e0aefc7c9c5fbb79cca7355977460e',195,2840,2780,'SR','[ﾍﾞﾘｰﾒﾘｰﾁｱｰ]冴島清美',22),
@@ -3605,10 +3603,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d6be32a4312ef65e6697fbd4da5b3926',195,5256,5424,'SR+','[超☆風紀･ﾛﾜｲﾔﾙ]冴島清美+',27),
 	 ('4631f0706acca0cd72bb928ea0508d5a',195,11950,10750,'SR','[真面目ﾊﾞｶﾝｽ･S]冴島清美',30),
 	 ('b970ebc965b269077472e101842c0a3e',195,5640,4104,'SR+','[青雲の超☆志]冴島清美+',33),
-	 ('104ec8d4883bf49b54e2c41340624341',142,3816,2664,'R+','[ﾄｷﾒｷﾊﾞﾚﾝﾀｲﾝ]矢口美羽+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('104ec8d4883bf49b54e2c41340624341',142,3816,2664,'R+','[ﾄｷﾒｷﾊﾞﾚﾝﾀｲﾝ]矢口美羽+',7),
 	 ('2afe4a5af0037435ffd47489846a4701',142,2040,2000,'R','[ﾌﾗﾜｰｶﾞｰﾃﾞﾝ]矢口美羽',8),
-	 ('b332fa15c09b8ef0f2946c26b9a128e4',142,2448,2400,'R+','[ﾌﾗﾜｰｶﾞｰﾃﾞﾝ]矢口美羽+',9),
+	 ('b332fa15c09b8ef0f2946c26b9a128e4',142,2448,2400,'R+','[ﾌﾗﾜｰｶﾞｰﾃﾞﾝ]矢口美羽+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ec23ead4dad0294e7f859e7180c216fa',67,1640,2480,'R','[2ndｱﾆﾊﾞｰｻﾘｰ]渋谷凛',2),
 	 ('f99103eb03994da80bd9b905ca9f0950',67,3200,3070,'SR','[ﾆｭｰｼﾞｪﾈﾚｰｼｮﾝ]渋谷凛',8),
 	 ('e0ad66fd1b1f4a0d8793edcfe8b63a1c',67,5472,3744,'SR+','[ﾋﾟｭｱﾊﾞﾚﾝﾀｲﾝ]渋谷凛+',14),
@@ -3616,10 +3614,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('78dc475f1775fa007c1a659db07a383a',67,6144,6144,'SR+','[ｼﾝﾃﾞﾚﾗｶﾞｰﾙ]渋谷凛+',20),
 	 ('c407e2e483b9ff36689e486dfbd847e4',167,2560,2380,'R','[ｷﾞｬﾙﾌﾞﾛｯｻﾑ]城ヶ崎美嘉',2),
 	 ('7fe0b25036ad4318f240e85827e4ba96',167,3312,3264,'R+','[ﾆｭｰｳﾞｫｰｸﾞ]城ヶ崎美嘉+',5),
-	 ('30fe4887cbc082bf375169d6f83a1ffa',167,3720,3320,'SR','[ｶﾘｽﾏｷﾞｬﾙ]城ヶ崎美嘉',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('30fe4887cbc082bf375169d6f83a1ffa',167,3720,3320,'SR','[ｶﾘｽﾏｷﾞｬﾙ]城ヶ崎美嘉',6),
 	 ('7af6cc3d2ca1f5d15230f2366280a444',167,1220,1720,'SR','[CDﾃﾞﾋﾞｭｰ]城ヶ崎美嘉',8),
-	 ('f6e5a4e341770463ef088e55921596fa',167,4120,3880,'SR','[ｼｰｸﾚｯﾄ★ﾊｰﾄ]城ヶ崎美嘉',10),
+	 ('f6e5a4e341770463ef088e55921596fa',167,4120,3880,'SR','[ｼｰｸﾚｯﾄ★ﾊｰﾄ]城ヶ崎美嘉',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c34d79efd9030ebf948a18cbf9df7bf3',167,5300,3840,'SR','[ﾗﾌﾞ★ｸﾘｽﾏｽ]城ヶ崎美嘉',12),
 	 ('4a3abe4cfb93b694333cddf0c8521f64',167,5340,3800,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]城ヶ崎美嘉',14),
 	 ('76c2eb6eac6f3d975264dfaac44157c7',167,5700,4100,'SR','[夏のﾕｳﾜｸ]城ヶ崎美嘉',16),
@@ -3627,10 +3625,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('942ee9cb2a6140de3f7f35122ebe7e00',167,4400,4080,'SR','[3rdｱﾆﾊﾞｰｻﾘｰ･S]城ヶ崎美嘉',20),
 	 ('f84e6d3c1d11b46d7efe8e53e1013eb4',167,7584,5376,'SR+','[ﾗﾌﾞ★ｻﾏｰﾅｲﾄ]城ヶ崎美嘉+',23),
 	 ('7523568f90f1dabbcacf633f6f178729',167,6840,5040,'SR','[ﾗﾌﾞ★ﾄﾞｸﾀｰ]城ヶ崎美嘉',25),
-	 ('4de072a494475aa83d7ee9eca92de2bb',167,7160,5240,'SR','[ﾕｱ★ｳｫｰﾑ]城ヶ崎美嘉',27);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4de072a494475aa83d7ee9eca92de2bb',167,7160,5240,'SR','[ﾕｱ★ｳｫｰﾑ]城ヶ崎美嘉',27),
 	 ('062f663090a8424fca1a20133b774120',167,7360,7360,'SR+','[たたいてご褒美]城ヶ崎美嘉+',29),
-	 ('fb4cc781aad74552c60bf5c8d1d8adb4',167,8952,6912,'SR+','[ﾆｱﾐｰ★ｱﾝｾﾑ]城ヶ崎美嘉+',31),
+	 ('fb4cc781aad74552c60bf5c8d1d8adb4',167,8952,6912,'SR+','[ﾆｱﾐｰ★ｱﾝｾﾑ]城ヶ崎美嘉+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e4ed9b9f97f6058a7e16620faa7d750f',167,8100,6460,'SR','[ｾﾝｼｭｱﾙ★ｻﾏｰ]城ヶ崎美嘉',34),
 	 ('25aeb7e9618f9f27c140030cc9b0805b',167,8220,6520,'SR','[ｵﾝﾘｰﾜﾝﾊｰﾄ]城ヶ崎美嘉',36),
 	 ('ba08a714f973a21c37367f32085ef8d7',167,10200,7920,'SR+','[ｼｰｻｲﾄﾞ★ﾍﾌﾞﾝ]城ヶ崎美嘉+',39),
@@ -3638,10 +3636,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('604b434174cd1f069de9b869d0448554',139,1100,1500,'N','[ｼﾞｭｰﾝﾌﾞﾗｲﾄﾞ]松山久美子',2),
 	 ('1f906f0ee9f495fda81757e9ebabbc6b',139,3080,2260,'R','[ﾌﾚｯｼｭJKT]松山久美子',6),
 	 ('1cf3856ba48a3db590710a6fe6906ccb',139,3336,2400,'R+','[ﾊﾞﾚﾝﾀｲﾝﾃﾞﾋﾞﾙ]松山久美子+',9),
-	 ('56359b75053466aeeeb9e8f91719ef5a',139,3240,3312,'R+','[やわらかな音]松山久美子+',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('56359b75053466aeeeb9e8f91719ef5a',139,3240,3312,'R+','[やわらかな音]松山久美子+',11),
 	 ('1fd744aae06fd371147881713dd1421b',139,2640,3888,'R+','[ｱﾄﾞｩｼｰﾙﾎｲｯﾌﾟ]松山久美子+',14),
-	 ('61987ec6972c1ac539f65eb25e89e97a',139,2928,3624,'SR+','[南国の舞姫]松山久美子+',16),
+	 ('61987ec6972c1ac539f65eb25e89e97a',139,2928,3624,'SR+','[南国の舞姫]松山久美子+',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('624fd0a55c5e957c9634dd6e2188f7ce',139,6700,4860,'SR','[ﾌﾗｲﾊｲ!]松山久美子',19),
 	 ('e23409154c61e745d3e92fe075d8d7e8',139,8568,6144,'SR+','[心吹き抜ける風]松山久美子+',22),
 	 ('fb174b8c51752dc3513b204bd0ff2ba6',139,11700,11500,'SR','[微笑む青藍]松山久美子',25),
@@ -3649,10 +3647,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f382a774439acb0a89167e8d2923b630',173,1920,1920,'R','ﾅﾀｰﾘｱ',0),
 	 ('a398078875ab4c504e9a1bf8881f1611',148,100,100,'N','ﾄﾚｰﾅｰ',0),
 	 ('1f76626f4f2ecfb1b36564866dd37c34',204,5200,5000,'SR','[もぎたて･ﾛﾜｲﾔﾙ]辻野あかり',2),
-	 ('d375327a08bebf119fc03fd808193538',204,8520,6640,'SR','[すくx2あかりんご]辻野あかり',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d375327a08bebf119fc03fd808193538',204,8520,6640,'SR','[すくx2あかりんご]辻野あかり',6),
 	 ('4e3d3fff0f7f0e1fe8d87c32b307a956',204,10224,7968,'SR+','[すくx2あかりんご]辻野あかり+',7),
-	 ('213cd7f559705b44c698667a11aadae8',204,11500,8500,'SR','[9thｱﾆﾊﾞｰｻﾘｰ･S]辻野あかり',10),
+	 ('213cd7f559705b44c698667a11aadae8',204,11500,8500,'SR','[9thｱﾆﾊﾞｰｻﾘｰ･S]辻野あかり',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2d5bc0c5df458224606809495dc1afcd',11,1540,1540,'SR+','[戦国姫]小日向美穂+',4),
 	 ('4666ad388b7ba759654a7299eb302356',11,5240,3760,'SR','[ﾊﾛｳｨﾝうぃっち]小日向美穂',11),
 	 ('aa66da9ab10d44dc6b422f12befbfbb8',11,5208,4920,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ･S]小日向美穂+',18),
@@ -3660,10 +3658,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4b4e748d60b9a1b78aec215fb49c2227',11,6792,6768,'SR+','[ﾎﾜｲﾄﾆｭｰｲﾔｰ]小日向美穂+',22),
 	 ('ed3895ce9f0156ac1a737b5f52c229e3',11,6280,6140,'SR','[ｷｰﾌﾟｵﾝｺﾞｰｲﾝｸﾞ]小日向美穂',25),
 	 ('9b6f3d979994b95c68ec9a6057ff9681',11,7240,5260,'SR','[つなげてﾄﾞﾛｯﾌﾟｽ]小日向美穂',27),
-	 ('6c7bab6998ae7b616fc1598308ba201b',11,8688,6312,'SR+','[つなげてﾄﾞﾛｯﾌﾟｽ]小日向美穂+',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6c7bab6998ae7b616fc1598308ba201b',11,8688,6312,'SR+','[つなげてﾄﾞﾛｯﾌﾟｽ]小日向美穂+',28),
 	 ('9fa5d09da97ae06c6d031df5821b25ae',11,9000,7056,'SR+','[もみじ色の舞姫]小日向美穂+',30),
-	 ('0b28b028f17e2f263ac80636f58636f0',11,10320,7776,'SR+','[陽のあたる場所へ]小日向美穂+',42),
+	 ('0b28b028f17e2f263ac80636f58636f0',11,10320,7776,'SR+','[陽のあたる場所へ]小日向美穂+',42);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a45065367c81cb1974b79c3cdb9a2472',11,7760,7580,'SR','[乙女の帰還]小日向美穂',43),
 	 ('e3a357bb24fc6171859cc7d79ff8ebb1',22,3624,2448,'R+','[ﾃﾞﾋﾞﾘｯｼｭｺﾞｼｯｸ]棟方愛海+',3),
 	 ('428e1ebab8c7e5ebec444ddd9c702208',22,3912,2616,'R+','[ﾜｰｷﾝｸﾞ･おさわり]棟方愛海+',7),
@@ -3671,10 +3669,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8574629f91e3265a5b2aeb40d80cfc84',22,3300,2220,'R','[ﾄﾛﾋﾟｶﾙﾘｿﾞｰﾄ]棟方愛海',13),
 	 ('74f8f1da4f14be396b8e97914b4394d5',22,6192,4440,'SR+','[わきわきﾊﾝﾀｰ]棟方愛海+',16),
 	 ('23924fe986972d26ed597b7116b81d70',22,2720,3660,'SR','[わきわきｸﾘｽﾏｽ]棟方愛海',19),
-	 ('e46d59be9f46daa789cb0fac05660407',22,4416,5832,'SR+','[わきわきｸﾘｽﾏｽ･S]棟方愛海+',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e46d59be9f46daa789cb0fac05660407',22,4416,5832,'SR+','[わきわきｸﾘｽﾏｽ･S]棟方愛海+',22),
 	 ('00a24b06c95da5f54b0b000c9eed1c7c',22,7944,5832,'SR+','[やわらかな夢]棟方愛海+',24),
-	 ('6266ac4f14b93b3859953ec5f6e94cb4',22,5232,5424,'SR+','[おさわりﾁｱｰ]棟方愛海+',26),
+	 ('6266ac4f14b93b3859953ec5f6e94cb4',22,5232,5424,'SR+','[おさわりﾁｱｰ]棟方愛海+',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a96f9b34c4ada9d75c199faea7e2ea60',22,8712,8688,'SR+','[まんまるｾﾝﾁﾒﾝﾀﾙ]棟方愛海+',30),
 	 ('53e44f2e4f94fe2fd4b6d0a4059b153c',22,8736,8688,'SR+','[やわらかﾍﾌﾞﾝ]棟方愛海+',31),
 	 ('82550457b85d898689813affbafd338d',22,10700,8450,'SR+','[いとしのﾏｲｴﾝｼﾞｪﾙ]棟方愛海+',36),
@@ -3682,10 +3680,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a795675b428cf7cc384eedde31c6258a',195,1608,2256,'R+','冴島清美+',1),
 	 ('2986dbc55d810b89275600447c9369af',142,2820,2020,'R','[ｸﾘｽﾏｽﾅｲﾄ]矢口美羽',12),
 	 ('45be8be35629c6e28aabb419da97dd2f',142,2720,2680,'R','[ｵｰﾀﾑﾀｲﾑ]矢口美羽',14),
-	 ('4f4bc793b515a5c802b9ab7e0a9198e8',167,3072,2856,'R+','[ｷﾞｬﾙﾌﾞﾛｯｻﾑ]城ヶ崎美嘉+',3);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4f4bc793b515a5c802b9ab7e0a9198e8',167,3072,2856,'R+','[ｷﾞｬﾙﾌﾞﾛｯｻﾑ]城ヶ崎美嘉+',3),
 	 ('53a89429c64132c4d0058aea4b233fca',167,1464,2064,'SR+','[CDﾃﾞﾋﾞｭｰ]城ヶ崎美嘉+',9),
-	 ('70ca98bb88391ddbaf3841e5912c7367',167,6360,4608,'SR+','[ﾗﾌﾞ★ｸﾘｽﾏｽ]城ヶ崎美嘉+',13),
+	 ('70ca98bb88391ddbaf3841e5912c7367',167,6360,4608,'SR+','[ﾗﾌﾞ★ｸﾘｽﾏｽ]城ヶ崎美嘉+',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('eb38818dc3fd59a5cae7f69a4f743f6c',167,6840,4920,'SR+','[夏のﾕｳﾜｸ]城ヶ崎美嘉+',17),
 	 ('e6bafa973570753123cd686c18c2b975',167,5280,4896,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ･S]城ヶ崎美嘉+',21),
 	 ('8d9c26ea00d4d16b952f129ce7c80034',167,5840,5140,'SR+','[G4U！]城ヶ崎美嘉+',24),
@@ -3693,10 +3691,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d503c404573adf2e40c77e0d4e06c058',167,7460,5760,'SR','[ﾆｱﾐｰ★ｱﾝｾﾑ]城ヶ崎美嘉',30),
 	 ('7873c0801760a4290db920b5e1b19db4',167,9264,7248,'SR+','[見つめて★ﾆｭｰｲﾔｰ]城ヶ崎美嘉+',33),
 	 ('9159993bdcb5c6e4eb6914dde0cf1955',167,9720,7752,'SR+','[ｾﾝｼｭｱﾙ★ｻﾏｰ]城ヶ崎美嘉+',35),
-	 ('e00c68555765850d1ca786cd3f8a48c4',167,9864,7824,'SR+','[ｵﾝﾘｰﾜﾝﾊｰﾄ]城ヶ崎美嘉+',37);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e00c68555765850d1ca786cd3f8a48c4',167,9864,7824,'SR+','[ｵﾝﾘｰﾜﾝﾊｰﾄ]城ヶ崎美嘉+',37),
 	 ('6cb558d20f14ddb700065515c862a66e',167,8680,6740,'SR','[ｱﾀｼ★ｽﾀｲﾙ]城ヶ崎美嘉',40),
-	 ('990d4c7b388f9a05cbb860b1a385a2cc',167,10416,8064,'SR+','[ﾉﾝｽﾄｯﾌﾟ★ﾏｲｳｪｲ]城ヶ崎美嘉+',43),
+	 ('990d4c7b388f9a05cbb860b1a385a2cc',167,10416,8064,'SR+','[ﾉﾝｽﾄｯﾌﾟ★ﾏｲｳｪｲ]城ヶ崎美嘉+',43);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8711647291f4ed0a44bea640aa273a4e',139,1320,1800,'N+','[ｼﾞｭｰﾝﾌﾞﾗｲﾄﾞ]松山久美子+',3),
 	 ('e64ebec9e56c38e90e5d327430fbeced',139,2880,2616,'R+','[ﾌﾟﾘﾑﾗﾌﾞﾙｰﾑ]松山久美子+',5),
 	 ('dc08ed4d9a27c637264bf09fbafb4325',139,2780,2000,'R','[ﾊﾞﾚﾝﾀｲﾝﾃﾞﾋﾞﾙ]松山久美子',8),
@@ -3704,10 +3702,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c023aaab4cb1a06929ef073eef6321b9',139,4180,3220,'R+','[美しき挑戦]松山久美子+',12),
 	 ('fde6b9e07ded5dfe6b368d37d4e5df8b',139,2440,3020,'SR','[南国の舞姫]松山久美子',15),
 	 ('565af6911e5cf6ba5de1e56023e00349',139,4280,4080,'SR','[ｱﾚｸﾞﾛ気分]松山久美子',17),
-	 ('3fc83fbe66b63aaff06e8c8d1bf27da5',139,8040,5832,'SR+','[ﾌﾗｲﾊｲ!]松山久美子+',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3fc83fbe66b63aaff06e8c8d1bf27da5',139,8040,5832,'SR+','[ﾌﾗｲﾊｲ!]松山久美子+',20),
 	 ('3a0ca4fc39bc76ecfe0fb28a9657f777',139,4380,3440,'SR','[芳しき青藍]松山久美子',23),
-	 ('50231680f5e6b6114e4f482f9e2bbc66',139,11700,11500,'SR+','[微笑む青藍]松山久美子+',26),
+	 ('50231680f5e6b6114e4f482f9e2bbc66',139,11700,11500,'SR+','[微笑む青藍]松山久美子+',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2c433e60c4f064575576ccf636c5debf',139,3200,2120,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]松山久美子',29),
 	 ('6099b368b8bf9782cebecb0e44a41232',173,2304,2304,'R+','ﾅﾀｰﾘｱ+',1),
 	 ('641de8e01bf4bcb53165e17e145c394c',173,6400,4700,'SR','[熱情のﾒｲﾄﾞ]ﾅﾀｰﾘｱ',30),
@@ -3715,10 +3713,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7e45488eae44f7eb770e7e863deea1dc',173,7260,7260,'SR','[ひたむきｳｨｯｼｭ]ﾅﾀｰﾘｱ',40),
 	 ('a7ae2b359f6fc53552e97e7148b5e5ff',173,8660,6720,'SR','[ﾐｯﾄﾞﾅｲﾄｶｰﾆﾊﾞﾙ]ﾅﾀｰﾘｱ',42),
 	 ('40bde0c1e2ed01b2ab839ff3de879efd',173,7760,7580,'SR','[見つめてﾌｪﾘｽ]ﾅﾀｰﾘｱ',44),
-	 ('f1548abbf5cef04264ae79f0ee8d8045',173,8580,6560,'SR','[ｷﾐがくれる笑顔]ﾅﾀｰﾘｱ',46);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f1548abbf5cef04264ae79f0ee8d8045',173,8580,6560,'SR','[ｷﾐがくれる笑顔]ﾅﾀｰﾘｱ',46),
 	 ('a7673fe01d9509ff3e9aba10cb5b2cb2',148,100,100,'N','[聖夜]ﾄﾚｰﾅｰ',1),
-	 ('03e056d3b97f64394b708d4d2816bc0e',204,6240,6000,'SR+','[もぎたて･ﾛﾜｲﾔﾙ]辻野あかり+',3),
+	 ('03e056d3b97f64394b708d4d2816bc0e',204,6240,6000,'SR+','[もぎたて･ﾛﾜｲﾔﾙ]辻野あかり+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a9709ce18c221fa9b18d063fb5105e6a',204,6816,5352,'SR+','[ｱｯﾌﾟﾙﾁｱｰ]辻野あかり+',5),
 	 ('5ebcee2f25344a39e2c19fb3e1c4725a',204,4480,4360,'SR','[9thｱﾆﾊﾞｰｻﾘｰ]辻野あかり',8),
 	 ('371632f2b676637a6ff38ee8c624a8f9',204,5376,5232,'SR+','[9thｱﾆﾊﾞｰｻﾘｰ]辻野あかり+',9),
@@ -3726,10 +3724,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f32aa981899a3e4f8367b6346e59e8c8',12,5520,5580,'SR+','[G4U！]緒方智絵里+',24),
 	 ('7b2d41d513acc6f434bc29bacca28529',12,6880,4980,'SR','[ﾊﾋﾟﾈｽﾁｭｰﾝ]緒方智絵里',25),
 	 ('6705b0f6fa31815de3a3a9a24186c172',22,1360,2200,'R','[ﾊﾜｲｱﾝｽﾀｲﾙ]棟方愛海',4),
-	 ('c5859dbe3018a61d6edafe6d4adff04d',22,3260,2180,'R','[ﾜｰｷﾝｸﾞ･おさわり]棟方愛海',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c5859dbe3018a61d6edafe6d4adff04d',22,3260,2180,'R','[ﾜｰｷﾝｸﾞ･おさわり]棟方愛海',6),
 	 ('0657fcbc084dbe53351150271defb5a4',22,2664,3840,'R+','[あなたのｴﾝｼﾞｪﾙ]棟方愛海+',11),
-	 ('d3ee0211663368dab63f46d1a466ff68',22,5160,3700,'SR','[わきわきﾊﾝﾀｰ]棟方愛海',15),
+	 ('d3ee0211663368dab63f46d1a466ff68',22,5160,3700,'SR','[わきわきﾊﾝﾀｰ]棟方愛海',15);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('7ee306b8ce0265d3797de7fca6e0ee90',67,1968,2976,'R+','[2ndｱﾆﾊﾞｰｻﾘｰ]渋谷凛+',3),
 	 ('4ad2264b26f6edfd36e29e62c0d70e81',67,2880,2832,'R+','[2ndｱﾆﾊﾞｰｻﾘｰ･ｽﾏｲﾙ]渋谷凛+',5),
 	 ('f48ee90e70c822c07e06aefe3b8ee743',67,3696,2640,'R+','[2ndｱﾆﾊﾞｰｻﾘｰ･ﾈｺﾐﾐ]渋谷凛+',7),
@@ -3737,10 +3735,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f7b0292baa798bfe74929c8e7c05092d',67,2400,2400,'SR+','[ｱｲｵﾗｲﾄｺﾞｼｯｸ]渋谷凛+',12),
 	 ('f95d822e4847009291d67450017969c9',67,5280,3800,'SR','[夜宴の歌姫]渋谷凛',15),
 	 ('b94a98f20c407684429e56fb7a343797',67,6408,4824,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]渋谷凛+',18),
-	 ('9e5333adbd10808d6211cd7e3c3737f8',67,3520,3480,'SR+','[ｸｰﾙｻﾏｰﾊﾞｹｰｼｮﾝ]渋谷凛+',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9e5333adbd10808d6211cd7e3c3737f8',67,3520,3480,'SR+','[ｸｰﾙｻﾏｰﾊﾞｹｰｼｮﾝ]渋谷凛+',21),
 	 ('716d4021bcc8ed6d35c14e54dcd8df3a',67,4220,4940,'SR+','[ﾄﾞﾘｰﾑｽﾄｰﾘｰ]渋谷凛+',24),
-	 ('0f60bcd6c790b9dd47a8979281d73d82',67,5560,5520,'SR+','[G4U！]渋谷凛+',27),
+	 ('0f60bcd6c790b9dd47a8979281d73d82',67,5560,5520,'SR+','[G4U！]渋谷凛+',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3f49451db48570813fd26cec984a44f6',67,4060,4060,'SR','[ｱﾆﾊﾞｰｻﾘｰｳｨｽﾞﾒﾓﾘｰ]渋谷凛',30),
 	 ('d23d1231815c1bcbc9c026393523f2bc',67,9024,6840,'SR+','[ｼﾙﾊﾞｰｽﾋﾟﾘｯﾄ]渋谷凛+',33),
 	 ('85fccca5baed225b8d8d103f0772320f',67,9696,7728,'SR+','[ﾌﾞﾙｰｲﾝﾌｨﾆﾃｨ]渋谷凛+',36),
@@ -3748,10 +3746,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('416a9220b4d897a0d37e72bfce386031',67,10320,8016,'SR+','[春､神和ぎ]渋谷凛+',42),
 	 ('45a7902898278b46aeb15740845d9471',22,5760,4000,'SR','[愛の手]棟方愛海',17),
 	 ('8428e141a0f19853238dd295ba9c8122',22,3264,4392,'SR+','[わきわきｸﾘｽﾏｽ]棟方愛海+',20),
-	 ('5a4a2a891f4b43655980f7bcb1a01aed',22,9072,7128,'SR+','[あま～いおねだり]棟方愛海+',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5a4a2a891f4b43655980f7bcb1a01aed',22,9072,7128,'SR+','[あま～いおねだり]棟方愛海+',28),
 	 ('6b18069ad7ecc5f4385dfd71015c2c01',22,7360,5060,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]棟方愛海',33),
-	 ('10588a1050f26ef0bb01d54209cc4df3',22,8832,6072,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]棟方愛海+',34),
+	 ('10588a1050f26ef0bb01d54209cc4df3',22,8832,6072,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]棟方愛海+',34);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d6fdc4c2a992ea8b249d6015d1186e6c',167,2760,2720,'R','[ﾆｭｰｳﾞｫｰｸﾞ]城ヶ崎美嘉',4),
 	 ('6ccf37a6cfdd206dc34434a1be3d56b8',167,4464,3984,'SR+','[ｶﾘｽﾏｷﾞｬﾙ]城ヶ崎美嘉+',7),
 	 ('f9385a42acabcfae3013c79d5466edf4',167,4944,4656,'SR+','[ｼｰｸﾚｯﾄ★ﾊｰﾄ]城ヶ崎美嘉+',11),
@@ -3759,10 +3757,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5f0ff7b6385298516aedd9b4e334a018',167,3816,3528,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ]城ヶ崎美嘉+',19),
 	 ('3ea30b1c14dafc422ae4b4eb46aaa54e',167,6320,4480,'SR','[ﾗﾌﾞ★ｻﾏｰﾅｲﾄ]城ヶ崎美嘉',22),
 	 ('cd1aaa15207932e56aaa449c14daa578',167,8592,6288,'SR+','[ﾕｱ★ｳｫｰﾑ]城ヶ崎美嘉+',28),
-	 ('bdabbcb884eb70243537ab82b60c6af3',167,7720,6040,'SR','[見つめて★ﾆｭｰｲﾔｰ]城ヶ崎美嘉',32);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bdabbcb884eb70243537ab82b60c6af3',167,7720,6040,'SR','[見つめて★ﾆｭｰｲﾔｰ]城ヶ崎美嘉',32),
 	 ('ca52aa2e1917478c4642deeba2ea7643',167,8500,6600,'SR','[ｼｰｻｲﾄﾞ★ﾍﾌﾞﾝ]城ヶ崎美嘉',38),
-	 ('f99aa70007b3d201a586252a246488f3',167,8680,6720,'SR','[ﾉﾝｽﾄｯﾌﾟ★ﾏｲｳｪｲ]城ヶ崎美嘉',42),
+	 ('f99aa70007b3d201a586252a246488f3',167,8680,6720,'SR','[ﾉﾝｽﾄｯﾌﾟ★ﾏｲｳｪｲ]城ヶ崎美嘉',42);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b5ec0f44a42c1c9f6ced51deeb325d43',139,2400,2180,'R','[ﾌﾟﾘﾑﾗﾌﾞﾙｰﾑ]松山久美子',4),
 	 ('dc863484f599dc76a895efecf840298f',139,3696,2712,'R+','[ﾌﾚｯｼｭJKT]松山久美子+',7),
 	 ('00f73e2db42e5bd424b5217927b81660',139,2200,3240,'R','[ｱﾄﾞｩｼｰﾙﾎｲｯﾌﾟ]松山久美子',13),
@@ -3770,10 +3768,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('478e26b19bf1a88474dc0ffb92717954',139,7140,5120,'SR','[心吹き抜ける風]松山久美子',21),
 	 ('756ee557296e488ef74e4b8d3c8a92d4',139,5256,4128,'SR+','[芳しき青藍]松山久美子+',24),
 	 ('83dc5f470d754c5da67c3494c99d90b6',139,7280,7260,'SR','[艶めきの語らい]松山久美子',27),
-	 ('8712eeec1ae551182db2059f29693fd3',139,3840,2544,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]松山久美子+',30);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('8712eeec1ae551182db2059f29693fd3',139,3840,2544,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]松山久美子+',30),
 	 ('440a03665b455c7bcfd3dc0d98b824ff',173,1080,1080,'R','[聖夜]ﾅﾀｰﾘｱ',2),
-	 ('4c715aaa8d5e67763d6331346aa91542',173,1460,1020,'R','[ﾄﾗﾍﾞﾙｽﾀｲﾙ ｸﾞﾘｰﾝ]ﾅﾀｰﾘｱ',5),
+	 ('4c715aaa8d5e67763d6331346aa91542',173,1460,1020,'R','[ﾄﾗﾍﾞﾙｽﾀｲﾙ ｸﾞﾘｰﾝ]ﾅﾀｰﾘｱ',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6f18bdce1306af0aee712f91b24e5dab',173,1710,1290,'R','[ﾄﾗﾍﾞﾙｽﾀｲﾙ ﾋﾟﾝｸ]ﾅﾀｰﾘｱ',6),
 	 ('3272befd917e2a1d74d75acb4a64ce7f',173,2420,2010,'R+','[ｱﾗﾋﾞｱﾝﾄﾞﾚｽ ﾌﾞﾙｰ]ﾅﾀｰﾘｱ+',9),
 	 ('7a208c090db9ec7b3dab29117f4346a5',173,3360,2550,'R+','[ｱﾗﾋﾞｱﾝﾄﾞﾚｽ ﾌﾞﾗｯｸ]ﾅﾀｰﾘｱ+',11),
@@ -3781,10 +3779,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c4a29e8352983896995614c8183ab42d',173,3820,3680,'R+','[無人島ﾊﾞﾗｴﾃｨ]ﾅﾀｰﾘｱ+',19),
 	 ('21fe7b8165a5785bf25cce6710551f3d',173,3000,2000,'SR+','[千夜一夜舞姫]ﾅﾀｰﾘｱ+',23),
 	 ('b5a925908f8d9e107c00ed5da3053525',173,4800,3360,'SR','[ｶｰﾆﾊﾞﾙｽﾀｰ]ﾅﾀｰﾘｱ',24),
-	 ('e565c552c27db943ad6db5ba2a7240da',173,5712,5616,'SR+','[ｳﾞｫﾔｰｼﾞｭ･ﾌﾟﾘﾝｾｽ]ﾅﾀｰﾘｱ+',27);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e565c552c27db943ad6db5ba2a7240da',173,5712,5616,'SR+','[ｳﾞｫﾔｰｼﾞｭ･ﾌﾟﾘﾝｾｽ]ﾅﾀｰﾘｱ+',27),
 	 ('eb1010945d948fdbdef7deff5dd0f069',173,5832,4728,'SR+','[おいしい笑顔]ﾅﾀｰﾘｱ+',35),
-	 ('6dc2df6837dff054aaaf63c93f92256b',173,8520,6360,'SR+','[真冬の太陽]ﾅﾀｰﾘｱ+',37),
+	 ('6dc2df6837dff054aaaf63c93f92256b',173,8520,6360,'SR+','[真冬の太陽]ﾅﾀｰﾘｱ+',37);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e1bcd7081670a0d4d323c29a7027f790',148,100,100,'N','[新春]ﾄﾚｰﾅｰ',2),
 	 ('482e1656837564097f3aa1105bd201c6',204,5680,4460,'SR','[ｱｯﾌﾟﾙﾁｱｰ]辻野あかり',4),
 	 ('483827a76b0b3c9a0b2cbec61723a833',204,11500,8500,'SR+','[9thｱﾆﾊﾞｰｻﾘｰ･S]辻野あかり+',11),
@@ -3792,10 +3790,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('cdf131bfe5c184dbc3decfc85773a8fa',12,5880,4260,'SR','[ふわふわうさぎ]緒方智絵里',18),
 	 ('5bc43718ce56eb04476f0e60a08eca4f',12,7056,5112,'SR+','[ふわふわうさぎ]緒方智絵里+',19),
 	 ('fbf203c786aef175dc76a2aa8227a5d9',12,6380,4640,'SR','[ﾌﾞﾗｲﾀﾞﾙｴﾝｼﾞｪﾙ]緒方智絵里',20),
-	 ('986579406645926e00ee0cf4857fb25d',12,6640,4600,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]緒方智絵里',29);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('986579406645926e00ee0cf4857fb25d',12,6640,4600,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]緒方智絵里',29),
 	 ('aab77d68d6c72c73efda675edbd387a8',12,7968,5520,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]緒方智絵里+',30),
-	 ('7bed1bf9ce119ef3efdd9690e6b8c2af',12,6820,6700,'SR','[ﾃﾝﾀﾞｰﾋﾟｭｰﾘﾃｨ]緒方智絵里',31),
+	 ('7bed1bf9ce119ef3efdd9690e6b8c2af',12,6820,6700,'SR','[ﾃﾝﾀﾞｰﾋﾟｭｰﾘﾃｨ]緒方智絵里',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c97ce434496c6f9c964c1f08ae1965c7',12,8640,6720,'SR','[ｱﾝｼﾞｪﾘｯｸﾒｲﾄﾞ]緒方智絵里',39),
 	 ('96d21d461e2a76b7c5e7e37ebc2f4af5',12,9240,9048,'SR+','[ﾏｲ･ﾌｪｱﾘｰﾃｲﾙ]緒方智絵里+',42),
 	 ('34ed45ffa45b470bbf1a0556e14a83ad',12,8620,6740,'SR','[奇跡に触れて]緒方智絵里',45),
@@ -3803,10 +3801,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d2e5c0c476cfc344fce7fe03c8c9a4fb',23,900,1380,'N','藤本里奈',0),
 	 ('550797c200a26c62d2a2d27fbfff83fa',23,3648,2472,'R+','[ﾋﾞｰﾁﾊﾟﾗﾀﾞｲｽ]藤本里奈+',5),
 	 ('d604961da03fd554556bf5ec24eae13a',177,3336,4152,'SR+','[ﾊﾟﾜﾌﾙ双子妹]双海亜美+',3),
-	 ('0b195865a262327e4732c68aeff5456c',195,3060,2240,'R','[湯けむり月夜]冴島清美',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0b195865a262327e4732c68aeff5456c',195,3060,2240,'R','[湯けむり月夜]冴島清美',2),
 	 ('1d8fc0d491ca864c126ce13cff71e55b',195,2420,2840,'R+','[ﾛｯｸI.C]冴島清美+',8),
-	 ('1e76e42ee33ba9edc8868984b88dbc0c',195,2180,3280,'R','[正しき身嗜み]冴島清美',14),
+	 ('1e76e42ee33ba9edc8868984b88dbc0c',195,2180,3280,'R','[正しき身嗜み]冴島清美',14);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('789218d49debfd49fe6ea42ed26e7839',195,6336,4800,'SR+','[学園の超☆新星]冴島清美+',17),
 	 ('65358f57a96b392c90e1b573723939e1',195,2340,3180,'SR','[ｶﾞｰﾙｽﾞﾛｯｶｰ]冴島清美',18),
 	 ('8e832b807804f4f50dc1bba42ef61426',195,3408,3336,'SR+','[ﾍﾞﾘｰﾒﾘｰﾁｱｰ]冴島清美+',23),
@@ -3814,10 +3812,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('57bb56d1f69582541a8010dd167d8889',142,3264,3216,'R+','[ｵｰﾀﾑﾀｲﾑ]矢口美羽+',15),
 	 ('344883e0cfd06f9242ebb78ded2c9f61',142,3180,2140,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]矢口美羽',18),
 	 ('4b273e3aaed3bafe748f94c4a850f230',142,4200,3880,'SR','[賑やか夏休み]矢口美羽',26),
-	 ('abaaa742271422287de508d58e2640c8',142,7480,5860,'SR','[ﾋﾞｰﾏｲｳｪｲ]矢口美羽',32);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('abaaa742271422287de508d58e2640c8',142,7480,5860,'SR','[ﾋﾞｰﾏｲｳｪｲ]矢口美羽',32),
 	 ('f6db9a4a1e364bf7da838ed3dce77f97',35,2300,1660,'R','双葉杏',0),
-	 ('a1ed6e1e9fdf5dc0a23d07ce0802f595',67,2400,2360,'R','[2ndｱﾆﾊﾞｰｻﾘｰ･ｽﾏｲﾙ]渋谷凛',4),
+	 ('a1ed6e1e9fdf5dc0a23d07ce0802f595',67,2400,2360,'R','[2ndｱﾆﾊﾞｰｻﾘｰ･ｽﾏｲﾙ]渋谷凛',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('59205400ae6b04749bb99aae38d7cc71',67,3080,2200,'R','[2ndｱﾆﾊﾞｰｻﾘｰ･ﾈｺﾐﾐ]渋谷凛',6),
 	 ('c44c3c58ab6e06f5068b5c459cc5ecdc',67,3840,3684,'SR+','[ﾆｭｰｼﾞｪﾈﾚｰｼｮﾝ]渋谷凛+',9),
 	 ('9ffc7c24c1e76bcb922e7b8c1b40fd66',169,1140,1740,'R','仙崎恵磨',0),
@@ -3825,10 +3823,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('266144cbb02edc5958e0568f11557c93',173,1296,1296,'R+','[聖夜]ﾅﾀｰﾘｱ+',3),
 	 ('16ddd10637f3d70cd0d3b670be191dc3',173,2800,2280,'R+','[ｱﾗﾋﾞｱﾝﾄﾞﾚｽ ﾚｯﾄﾞ]ﾅﾀｰﾘｱ+',10),
 	 ('e7643a2c9f27cad76554e8aab9c3bb93',173,4010,2820,'R+','[ｱﾗﾋﾞｱﾝﾄﾞﾚｽ ｺﾞｰﾙﾄﾞ]ﾅﾀｰﾘｱ+',12),
-	 ('5be5890f3317c441ebc4e2ad70cf75ae',173,3072,2952,'R+','[新春ｺﾚｸｼｮﾝ]ﾅﾀｰﾘｱ+',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5be5890f3317c441ebc4e2ad70cf75ae',173,3072,2952,'R+','[新春ｺﾚｸｼｮﾝ]ﾅﾀｰﾘｱ+',14),
 	 ('f2b082328617efad27ef7189c8f93e41',173,3264,3312,'R+','[ﾌｧｰﾊﾞｰｽﾀｲﾙ]ﾅﾀｰﾘｱ+',16),
-	 ('6956a4c5068b8ec07566023db2560730',173,3264,3264,'R+','[ｿﾙﾌｫﾙﾁ]ﾅﾀｰﾘｱ+',18),
+	 ('6956a4c5068b8ec07566023db2560730',173,3264,3264,'R+','[ｿﾙﾌｫﾙﾁ]ﾅﾀｰﾘｱ+',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bd67c595320eec896b20adab8246cb8e',173,3400,3400,'SR','[ﾊｯﾋﾟｰﾌﾞﾗｲﾀﾞﾙ]ﾅﾀｰﾘｱ',20),
 	 ('1724e54c47dc1c5ea2665d24939bf5ae',173,2400,1600,'SR','[千夜一夜舞姫]ﾅﾀｰﾘｱ',22),
 	 ('22df606bb7b17d4cf58ace3ebcfcc1b2',173,5760,4032,'SR+','[ｶｰﾆﾊﾞﾙｽﾀｰ]ﾅﾀｰﾘｱ+',25),
@@ -3836,10 +3834,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e03ea585a3b44cc59e7f35e478f6aad6',173,6864,5376,'SR+','[南国ｵﾆむすめ]ﾅﾀｰﾘｱ+',29),
 	 ('930037884bb22ac36fac0509dba6b7c1',173,7680,5640,'SR+','[熱情のﾒｲﾄﾞ]ﾅﾀｰﾘｱ+',31),
 	 ('af2db88bb0e5382e09ddab757998481c',173,4860,3940,'SR','[おいしい笑顔]ﾅﾀｰﾘｱ',34),
-	 ('abf2f8a95cd00b2ab4314b7caa4b1764',173,7620,5960,'SR','[ﾄﾛﾋﾟｶﾙﾊﾟﾆｯｸ]ﾅﾀｰﾘｱ',38);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('abf2f8a95cd00b2ab4314b7caa4b1764',173,7620,5960,'SR','[ﾄﾛﾋﾟｶﾙﾊﾟﾆｯｸ]ﾅﾀｰﾘｱ',38),
 	 ('ce988897c0461486e83f88c6b7ec6cd3',173,8712,8712,'SR+','[ひたむきｳｨｯｼｭ]ﾅﾀｰﾘｱ+',41),
-	 ('5122d1b7eca4fe9a1e670345563f372c',173,10392,8064,'SR+','[ﾐｯﾄﾞﾅｲﾄｶｰﾆﾊﾞﾙ]ﾅﾀｰﾘｱ+',43),
+	 ('5122d1b7eca4fe9a1e670345563f372c',173,10392,8064,'SR+','[ﾐｯﾄﾞﾅｲﾄｶｰﾆﾊﾞﾙ]ﾅﾀｰﾘｱ+',43);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('45f63805d8cf76d3bdc44db69dd95f92',173,10296,7872,'SR+','[ｷﾐがくれる笑顔]ﾅﾀｰﾘｱ+',47),
 	 ('d33a56bef548f47c75d4b9a857031ceb',148,100,100,'N','[ﾊﾞﾚﾝﾀｲﾝ]ﾄﾚｰﾅｰ',3),
 	 ('35298581105317744d50303a73e59816',148,180,180,'R','[ｽｲﾐﾝｸﾞﾚｯｽﾝ]ﾄﾚｰﾅｰ',5),
@@ -3847,10 +3845,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4c51173ad96349b44354060477ee821d',12,1800,1760,'R','[ﾊﾞﾚﾝﾀｲﾝ]緒方智絵里',2),
 	 ('1c4243ff6b135d3a6ad27e1fa4bb3a2c',12,1980,1320,'R','[京町乙女]緒方智絵里',6),
 	 ('7b98a6c56f9eeb63d49689d3afa516e8',12,2376,1584,'R+','[京町乙女]緒方智絵里+',7),
-	 ('5440e9e9c4cfbc57188213c0aff1639e',12,5000,3380,'SR','[浴衣の華姫]緒方智絵里',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5440e9e9c4cfbc57188213c0aff1639e',12,5000,3380,'SR','[浴衣の華姫]緒方智絵里',10),
 	 ('da5e0614a354a5c21a1afc915a91ba97',12,2088,2928,'SR+','[CDﾃﾞﾋﾞｭｰ]緒方智絵里+',13),
-	 ('80d79214f75af36736b7bd2e55a76cc2',12,3040,3040,'SR','[冬のﾒﾛﾃﾞｨｰ]緒方智絵里',14),
+	 ('80d79214f75af36736b7bd2e55a76cc2',12,3040,3040,'SR','[冬のﾒﾛﾃﾞｨｰ]緒方智絵里',14);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f9c770b61a35768542faa7ef959070e6',12,4660,4660,'SR','[ｸﾛｰﾊﾞｰｴﾝｼﾞｪﾙ]緒方智絵里',16),
 	 ('93dfb2c011a794668c1653f097a4b464',12,4860,4220,'SR+','[ｷｬﾝﾃﾞｨｱｲﾗﾝﾄﾞ]緒方智絵里+',22),
 	 ('277f54caf12509c27e2a04db25fb43c1',12,6400,6360,'SR','[ｽｸｰﾙﾃﾞｲｽﾞ]緒方智絵里',27),
@@ -3858,10 +3856,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0c00e51b146a997409da5208435b23a2',12,8856,8664,'SR+','[ﾌﾙｰﾘｯｼｭﾎｰﾌﾟ]緒方智絵里+',37),
 	 ('17dfc3a665a0263e5b922f1c47a7667b',12,7760,7560,'SR','[ﾌﾞﾚｲﾌﾞｽﾃｰｼﾞ]緒方智絵里',43),
 	 ('34aa24ff4f61784a233e4c8e6270e073',12,9312,9072,'SR+','[ﾌﾞﾚｲﾌﾞｽﾃｰｼﾞ]緒方智絵里+',44),
-	 ('c896423b38ed849a1ef973c5c7f369de',23,1080,1656,'N+','藤本里奈+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c896423b38ed849a1ef973c5c7f369de',23,1080,1656,'N+','藤本里奈+',1),
 	 ('ef7004b6df4b22ebdd71f04a4f820b83',23,2680,2760,'R','[夏ﾌｪｽ☆ｷﾞｬﾙ]藤本里奈',8),
-	 ('8674ed103d2815c946c660323ab72720',23,3220,2120,'R','[ﾗｳﾞみえｶﾞｰﾘｰ]藤本里奈',12),
+	 ('8674ed103d2815c946c660323ab72720',23,3220,2120,'R','[ﾗｳﾞみえｶﾞｰﾘｰ]藤本里奈',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2319725cfcde4156036a3da376d0e304',23,4620,4620,'SR','[ﾗｳﾞﾘｰ☆ﾊｰﾄ]藤本里奈',14),
 	 ('807e430846171e03e0490d4519e44b8c',23,3660,4780,'SR','[ﾗｳﾞﾘｰ･ﾛﾜｲﾔﾙ]藤本里奈',18),
 	 ('9e83c80d3589ef5b8f21452a1d5288cd',23,4128,3528,'SR+','[4thｱﾆﾊﾞｰｻﾘｰ]藤本里奈+',21),
@@ -3869,10 +3867,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('61d3b1a5f147a18b96e3fbde814c059e',23,6740,6700,'SR','[盛りｱｹﾞ☆ｵﾊﾞｹっち]藤本里奈',26),
 	 ('4b008bf61db20cc18ea47f52bb549ac9',23,7920,6160,'SR','[おしゃんちｰ☆ｸﾗﾌﾞ]藤本里奈',28),
 	 ('851d41d49c8e138e2818794223d01ab4',67,1296,1728,'SR+','[CDﾃﾞﾋﾞｭｰ]渋谷凛+',11),
-	 ('5245301299ebe8e1e0a46ccadf6bb57c',67,4560,3120,'SR','[ﾋﾟｭｱﾊﾞﾚﾝﾀｲﾝ]渋谷凛',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5245301299ebe8e1e0a46ccadf6bb57c',67,4560,3120,'SR','[ﾋﾟｭｱﾊﾞﾚﾝﾀｲﾝ]渋谷凛',13),
 	 ('5ef4284b0c62f564a54c532512615b11',67,6336,4560,'SR+','[夜宴の歌姫]渋谷凛+',16),
-	 ('c96e0729d1075d90a0dc35b9dc76c3ab',67,5120,5120,'SR','[ｼﾝﾃﾞﾚﾗｶﾞｰﾙ]渋谷凛',19),
+	 ('c96e0729d1075d90a0dc35b9dc76c3ab',67,5120,5120,'SR','[ｼﾝﾃﾞﾚﾗｶﾞｰﾙ]渋谷凛',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('fc7743180eca7195b9d2a04b251b3276',67,5920,4400,'SR','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]渋谷凛',22),
 	 ('ec3d7440265ee3dd41046a803068117f',67,6520,4720,'SR','[ﾄﾗｽﾄﾌﾟﾚｾﾞﾝﾄ]渋谷凛',25),
 	 ('621bcb5474139a8cbd98232034679147',67,6860,5060,'SR','[ﾌﾞﾙｰｳｨﾝﾄﾞ]渋谷凛',28),
@@ -3880,10 +3878,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ab1672e538ef67ce4d42ce16f70c9306',67,5000,4700,'SR+','[Memorial Party]渋谷凛+',34),
 	 ('837809da2c13d495a717732a73abe9aa',67,8140,6160,'SR','[蒼き信念]渋谷凛',37),
 	 ('6c3fdd17f8cb24e95d338e546a8856d9',67,9672,7512,'SR+','[ｽﾃｰｼﾞｵﾌﾞﾏｼﾞｯｸ]渋谷凛+',40),
-	 ('7edc83560614acc14bb7529840209983',67,8460,6540,'SR','[ﾄﾜｲﾗｲﾄ･ﾎﾜｲﾄﾗｲﾄ]渋谷凛',43);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7edc83560614acc14bb7529840209983',67,8460,6540,'SR','[ﾄﾜｲﾗｲﾄ･ﾎﾜｲﾄﾗｲﾄ]渋谷凛',43),
 	 ('77b22849875485ec682100006e9cf3fd',23,10200,7800,'SR+','[ﾗｳﾞ☆ﾐｭｰｼﾞｯｸ]藤本里奈+',33),
-	 ('ad97b6e53445017b75d634c5ad99667a',23,9144,9072,'SR+','[ﾗﾌﾞﾓﾘ☆ﾊﾟｰﾘｨｰ]藤本里奈+',35),
+	 ('ad97b6e53445017b75d634c5ad99667a',23,9144,9072,'SR+','[ﾗﾌﾞﾓﾘ☆ﾊﾟｰﾘｨｰ]藤本里奈+',35);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('20f58f004dad13ba670869c921dc32b9',180,1040,1040,'R','向井拓海',0),
 	 ('7a94d2b2aa7c63db4e6653313a31546a',180,3168,2976,'R+','[ﾋﾞｰﾁﾊﾟﾗﾀﾞｲｽ]向井拓海+',5),
 	 ('f3186c8e8aafb4bc748f8eb08ced1d45',180,5184,2232,'SR+','[硬派乙女]向井拓海+',7),
@@ -3891,10 +3889,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b9b7cc2cbce8aaf53fe3bda1a44996ff',180,7104,5088,'SR+','[百獣の女王]向井拓海+',13),
 	 ('d76f5e3183e18f6bdc72e2c29842942b',169,1368,2088,'R+','仙崎恵磨+',1),
 	 ('e0b836342a1aee295a7ccbab0a16fd87',143,1104,816,'N+','赤城みりあ+',1),
-	 ('f74d7d0df85a6c2ef23e42c972c9a793',143,3360,3240,'R+','[ｽｲｰﾄｳｨﾝﾀｰ]赤城みりあ+',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f74d7d0df85a6c2ef23e42c972c9a793',143,3360,3240,'R+','[ｽｲｰﾄｳｨﾝﾀｰ]赤城みりあ+',11),
 	 ('b6c652c77203c6836a0489af5a37662c',143,2000,2500,'SR','[ﾆｭｰｽﾏｲﾙ]赤城みりあ',14),
-	 ('ef781662f1714c3f272954635d794a5f',143,4944,4776,'SR+','[ちびっこｱｸﾏ]赤城みりあ+',17),
+	 ('ef781662f1714c3f272954635d794a5f',143,4944,4776,'SR+','[ちびっこｱｸﾏ]赤城みりあ+',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b1189784b88e5fd4438eebc83b08daad',143,1580,2220,'SR','[CDﾃﾞﾋﾞｭｰ]赤城みりあ',18),
 	 ('f9823071fb73c76c8e0ad947e4374c76',143,4680,4640,'SR','[ｷﾗｷﾗ☆ｼﾞｬﾝﾌﾟ]赤城みりあ',24),
 	 ('98c52238c3f897072403599574115094',143,5700,5480,'SR','[ちびっこﾅｰｽ]赤城みりあ',29),
@@ -3902,10 +3900,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4f13969786ada70d41d9a32820908e7a',143,7540,5700,'SR','[おりこうﾒｲﾄﾞさん]赤城みりあ',35),
 	 ('72be684836fbbe49e71428f1c39a5891',143,8592,8544,'SR+','[夏のはじまり]赤城みりあ+',38),
 	 ('adde3dffd9264ca44418eb0be8265211',143,10152,7872,'SR+','[おともだちｷｬﾛﾙ]赤城みりあ+',44),
-	 ('efa6d6607cc1a82d8a87acf0a8169655',173,1200,900,'R','[ﾄﾗﾍﾞﾙｽﾀｲﾙ ﾌﾞﾗｳﾝ]ﾅﾀｰﾘｱ',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('efa6d6607cc1a82d8a87acf0a8169655',173,1200,900,'R','[ﾄﾗﾍﾞﾙｽﾀｲﾙ ﾌﾞﾗｳﾝ]ﾅﾀｰﾘｱ',4),
 	 ('b5b11e6049d261c4d9dba48f90a74c4a',173,1980,1560,'R','[ﾄﾗﾍﾞﾙｽﾀｲﾙ ﾌﾞﾗｯｸ]ﾅﾀｰﾘｱ',7),
-	 ('1df9b2a1e81a015409d89ec644398a92',173,2250,1730,'R+','[ｱﾗﾋﾞｱﾝﾄﾞﾚｽ ｸﾞﾘｰﾝ]ﾅﾀｰﾘｱ+',8),
+	 ('1df9b2a1e81a015409d89ec644398a92',173,2250,1730,'R+','[ｱﾗﾋﾞｱﾝﾄﾞﾚｽ ｸﾞﾘｰﾝ]ﾅﾀｰﾘｱ+',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('282db7b7a41863a84f27da47ee75e6ad',173,2720,2760,'R','[ﾌｧｰﾊﾞｰｽﾀｲﾙ]ﾅﾀｰﾘｱ',15),
 	 ('b7c1e55680675e8d265c856a252e59ce',173,2720,2720,'R','[ｿﾙﾌｫﾙﾁ]ﾅﾀｰﾘｱ',17),
 	 ('f6e881bd45b483f16c9c307a6f5fa9d5',173,4080,4080,'SR+','[ﾊｯﾋﾟｰﾌﾞﾗｲﾀﾞﾙ]ﾅﾀｰﾘｱ+',21),
@@ -3913,10 +3911,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('110ecffefb66009043e02b1e6a502ee8',173,4176,4104,'SR+','[おいしい体験]ﾅﾀｰﾘｱ+',33),
 	 ('7c92b21376459ee6864ed24def650fcf',173,7100,5300,'SR','[真冬の太陽]ﾅﾀｰﾘｱ',36),
 	 ('3a771aa484b1d4187bd8be115845649d',173,9144,7152,'SR+','[ﾄﾛﾋﾟｶﾙﾊﾟﾆｯｸ]ﾅﾀｰﾘｱ+',39),
-	 ('227deb2e30c9c7826bf3e5da48749b4c',173,9312,9096,'SR+','[見つめてﾌｪﾘｽ]ﾅﾀｰﾘｱ+',45);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('227deb2e30c9c7826bf3e5da48749b4c',173,9312,9096,'SR+','[見つめてﾌｪﾘｽ]ﾅﾀｰﾘｱ+',45),
 	 ('b20beba7135aeafec64debff48a007d6',148,150,150,'N','[ｻﾏｰｽﾀｲﾙ]ﾄﾚｰﾅｰ',4),
-	 ('798ed3093c682f20234934cef65c2106',1,192,288,'N+','島村卯月+',1),
+	 ('798ed3093c682f20234934cef65c2106',1,192,288,'N+','島村卯月+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0027e1321a3549e1b0b236aa0684c385',1,9672,7512,'SR+','[ｽﾃｰｼﾞｵﾌﾞﾏｼﾞｯｸ]島村卯月+',39),
 	 ('2464efe1395ad1c657286357f4a2b206',1,8700,6680,'SR','[聖夜の魔法]島村卯月',40),
 	 ('d6867f217c2897bb89bfa96d419b8200',1,10440,8016,'SR+','[聖夜の魔法]島村卯月+',41),
@@ -3924,10 +3922,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a1efe353a69781c9b79c3755f2f39ed4',12,2160,2112,'R+','[ﾊﾞﾚﾝﾀｲﾝ]緒方智絵里+',3),
 	 ('f6a64a87bff96b4a2e0f53edb6779af6',12,3456,1920,'R+','[ﾊﾟｼﾞｬﾏﾊﾟｰﾃｨｰ]緒方智絵里+',5),
 	 ('41da088536def062d420ebad260e37c2',12,4100,3920,'SR','[ﾊﾞﾚﾝﾀｲﾝｴﾝｼﾞｪﾙ]緒方智絵里',8),
-	 ('56e0f5e7c766e4719720b824f51e5a55',12,4920,4704,'SR+','[ﾊﾞﾚﾝﾀｲﾝｴﾝｼﾞｪﾙ]緒方智絵里+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('56e0f5e7c766e4719720b824f51e5a55',12,4920,4704,'SR+','[ﾊﾞﾚﾝﾀｲﾝｴﾝｼﾞｪﾙ]緒方智絵里+',9),
 	 ('265938c96a3a1d74ccbc5cc7577fa546',12,5592,5592,'SR+','[ｸﾛｰﾊﾞｰｴﾝｼﾞｪﾙ]緒方智絵里+',17),
-	 ('fc04f9389656bde489e65ae8d36e6a2e',12,7656,5568,'SR+','[ﾌﾞﾗｲﾀﾞﾙｴﾝｼﾞｪﾙ]緒方智絵里+',21),
+	 ('fc04f9389656bde489e65ae8d36e6a2e',12,7656,5568,'SR+','[ﾌﾞﾗｲﾀﾞﾙｴﾝｼﾞｪﾙ]緒方智絵里+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('89d14a4ef29eabee5f88b05e4c133846',12,7680,7632,'SR+','[ｽｸｰﾙﾃﾞｲｽﾞ]緒方智絵里+',28),
 	 ('eca4b5c8d0d020e5e3f66e79070e9f3e',12,8184,8040,'SR+','[ﾃﾝﾀﾞｰﾋﾟｭｰﾘﾃｨ]緒方智絵里+',32),
 	 ('6ad3d8d8d4e20276d27a010772f1fa5a',12,7380,7220,'SR','[ﾌﾙｰﾘｯｼｭﾎｰﾌﾟ]緒方智絵里',38),
@@ -3935,10 +3933,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f59aaa560cef68c29c7f00179373ea16',12,7700,7540,'SR','[ﾏｲ･ﾌｪｱﾘｰﾃｲﾙ]緒方智絵里',41),
 	 ('673b753d25d3f34cc74f4e66ff70a5ef',23,2440,1640,'R','[ﾗｳﾞﾘｰｷﾞｬﾙ]藤本里奈',2),
 	 ('f0b132cb5b9924dd4b152fb7be41e15d',23,2280,3200,'R','[ちｰぷり☆ﾃｲｽﾄ]藤本里奈',10),
-	 ('a98cd69ad87bc017b0b7a5ab1719bbb7',23,5544,5544,'SR+','[ﾗｳﾞﾘｰ☆ﾊｰﾄ]藤本里奈+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a98cd69ad87bc017b0b7a5ab1719bbb7',23,5544,5544,'SR+','[ﾗｳﾞﾘｰ☆ﾊｰﾄ]藤本里奈+',15),
 	 ('e4a4576044b3998542c3e03cba2b5ce0',23,4440,5808,'SR+','[4thｱﾆﾊﾞｰｻﾘｰ･S]藤本里奈+',23),
-	 ('746f35295f4f371ec9b71219fb1224ce',23,8160,5880,'SR+','[砂漠のﾌﾟﾘﾝｾｽ]藤本里奈+',25),
+	 ('746f35295f4f371ec9b71219fb1224ce',23,8160,5880,'SR+','[砂漠のﾌﾟﾘﾝｾｽ]藤本里奈+',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c1d79d18f4bc1587933cafa4d684ac76',23,2820,2740,'R','[ｽｳｨｰﾄｷﾞﾌﾄ]藤本里奈',30),
 	 ('70414ce1a0192dddb16dbd0613684797',23,8500,6500,'SR','[ﾗｳﾞ☆ﾐｭｰｼﾞｯｸ]藤本里奈',32),
 	 ('27e353edac293c257de38e4b67df6449',23,7620,7560,'SR','[ﾗﾌﾞﾓﾘ☆ﾊﾟｰﾘｨｰ]藤本里奈',34),
@@ -3946,10 +3944,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0e90856cd6e941b956af90027490d868',180,4320,1860,'SR','[硬派乙女]向井拓海',6),
 	 ('f87ee02a7edd0c6e4ec18b561de3979d',180,5448,3408,'SR+','[はにかみﾊﾞﾚﾝﾀｲﾝ]向井拓海+',9),
 	 ('a017f0aeb84bba360795e5c8ff59bcdd',180,5920,4240,'SR','[百獣の女王]向井拓海',12),
-	 ('c59fb577d23dbfce5a08c9b53e6947c8',180,6420,4680,'SR','[炎天の女王]向井拓海',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c59fb577d23dbfce5a08c9b53e6947c8',180,6420,4680,'SR','[炎天の女王]向井拓海',16),
 	 ('f00fb6b6b7eb49b5ebaae24580a0b917',180,7704,5616,'SR+','[炎天の女王]向井拓海+',17),
-	 ('b0f137bebf1a85a9e07a83ee645abae2',180,4600,3940,'SR','[4thｱﾆﾊﾞｰｻﾘｰ･S]向井拓海',20),
+	 ('b0f137bebf1a85a9e07a83ee645abae2',180,4600,3940,'SR','[4thｱﾆﾊﾞｰｻﾘｰ･S]向井拓海',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('edecc7f8cfda4fdf6274a9bd2754d2b8',180,8184,5808,'SR+','[ﾜﾝ･ｻﾏｰ･ｶｰﾆﾊﾞﾙ]向井拓海+',23),
 	 ('08ff5e6975b001ff6821e3540c9191f6',180,6740,6740,'SR','[威心伝心]向井拓海',28),
 	 ('ea9812e8c88fe57df306041cd6f885b4',180,9216,9072,'SR+','[三千世界･紅]向井拓海+',35),
@@ -3957,10 +3955,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e96c0d9f1bc2c591042ff10001a3e28e',195,2860,2020,'R','[ｼｮｺﾗﾌﾚｰﾊﾞｰ･S]冴島清美',6),
 	 ('39802652866ea5548a61d257a6d787c3',195,3240,3264,'R+','[ｱｲﾄﾞﾙ取締係]冴島清美+',10),
 	 ('f9adb6b00e178dc8dbddd07a8c9d3629',195,3408,3144,'R+','[ﾀﾗﾝ･ｱﾅﾘｰｽﾞ]冴島清美+',12),
-	 ('95f215e70e1bcf2d255ba093a53fc51a',169,1300,1900,'R','[UKｽﾀｲﾙ]仙崎恵磨',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('95f215e70e1bcf2d255ba093a53fc51a',169,1300,1900,'R','[UKｽﾀｲﾙ]仙崎恵磨',2),
 	 ('1eb173041b3bf713cef78c219d521b76',169,2720,2660,'R','[ｽﾘｰﾋﾟｰｽﾊﾟﾝｸｽ]仙崎恵磨',6),
-	 ('287daffde22b976c189b75a094c22f5f',169,2660,1860,'R','[秋色温泉]仙崎恵磨',8),
+	 ('287daffde22b976c189b75a094c22f5f',169,2660,1860,'R','[秋色温泉]仙崎恵磨',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('666eb91120a9f541f59a97b2bd627518',169,2640,3864,'R+','[ｱｸﾞﾚｯｼﾌﾞｹﾞｲｽﾞ]仙崎恵磨+',16),
 	 ('e2a70fe60dc4dc6706d36fe88abf39da',169,3336,3216,'R+','[ﾌﾗｯｼｰｼｰｽﾞﾝ]仙崎恵磨+',18),
 	 ('5106e3a24d812aa9ed097708c9166f18',169,4728,4824,'SR+','[ｱｯﾊﾟｰﾃﾝｼｮﾝ]仙崎恵磨+',20),
@@ -3968,10 +3966,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0e774d014113bff2b761defb30953a4c',169,5016,5016,'SR+','[ﾊﾟﾜﾌﾙﾁｱｰ]仙崎恵磨+',28),
 	 ('10da168b4b369bc6ffa72e78e93071be',143,1720,1400,'R','[ﾊﾞﾚﾝﾀｲﾝ]赤城みりあ',2),
 	 ('89e9e5b0a1b6e15b0fff88744901f461',143,2260,3200,'R','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]赤城みりあ',6),
-	 ('0f1b57bb36e56e4ecfb13b3e1954b368',143,2712,3840,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]赤城みりあ+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0f1b57bb36e56e4ecfb13b3e1954b368',143,2712,3840,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]赤城みりあ+',7),
 	 ('8109a4ac1c65efa9906f314f523b9916',143,4240,3160,'R+','[ｽﾏｲﾘｰﾊﾟﾌｫｰﾏｰ]赤城みりあ+',9),
-	 ('d44aa4f47e363eea2e35a73f54fc6379',143,2400,3000,'SR+','[ﾆｭｰｽﾏｲﾙ]赤城みりあ+',15),
+	 ('d44aa4f47e363eea2e35a73f54fc6379',143,2400,3000,'SR+','[ﾆｭｰｽﾏｲﾙ]赤城みりあ+',15);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0793eaf891f21d96424137f2fb375650',143,4120,3980,'SR','[ちびっこｱｸﾏ]赤城みりあ',16),
 	 ('b408f15906c6b54d17985d285f98dee7',143,1896,2664,'SR+','[CDﾃﾞﾋﾞｭｰ]赤城みりあ+',19),
 	 ('ec0b6fa7958a83eb2e758c36dd8fc26b',143,6240,3840,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]赤城みりあ+',21),
@@ -3979,10 +3977,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4868d8e9411de3f444c270c04bcaec1a',143,6220,4460,'SR','[ないしょのｽﾃｯﾌﾟ]赤城みりあ',26),
 	 ('03160f702f45fbdd3c17d910d80306d6',143,4120,5060,'SR+','[凸ﾚｰｼｮﾝ]赤城みりあ+',28),
 	 ('3e573ed0cc4873adfe4b882e4330bd7f',143,6740,4760,'SR','[お花のﾌﾟﾘﾝｾｽ]赤城みりあ',31),
-	 ('f2713603ccfb1afc09437a853b864ccd',143,8448,6480,'SR+','[おてんばﾋﾟｴﾚｯﾀ]赤城みりあ+',34);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f2713603ccfb1afc09437a853b864ccd',143,8448,6480,'SR+','[おてんばﾋﾟｴﾚｯﾀ]赤城みりあ+',34),
 	 ('b409348547a972c10f0024f39c31be94',143,9048,6840,'SR+','[おりこうﾒｲﾄﾞさん]赤城みりあ+',36),
-	 ('e01a1807c67d2fc57825c3acbb06bb0f',176,1000,600,'R','萩原雪歩',0),
+	 ('e01a1807c67d2fc57825c3acbb06bb0f',176,1000,600,'R','萩原雪歩',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d20b8ca340a2b6ee42797c966f3a79b3',150,720,1080,'N','上田鈴帆',0),
 	 ('250645af5bca76120314f21e69b0caca',1,2060,2060,'R','[2ndｱﾆﾊﾞｰｻﾘｰ]島村卯月',2),
 	 ('09b1b846d0f89dc251b0bcac4e497e14',1,2544,3792,'R+','[2ndｱﾆﾊﾞｰｻﾘｰ･ﾈｺﾐﾐ]島村卯月+',7),
@@ -3990,10 +3988,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('aa559b2b0e83b4b98c5372b171b2e9f7',1,1488,2016,'SR+','[CDﾃﾞﾋﾞｭｰ]島村卯月+',11),
 	 ('eb58e141b268cd2c22134a8572fb14bc',1,5424,3768,'SR+','[新春の華姫]島村卯月+',13),
 	 ('15159f0ac1f58bdd90ddd0532faaa4d1',1,6336,4416,'SR+','[はじけて♪ｻﾏｰ]島村卯月+',15),
-	 ('865bdc197f5ee49d902694d6ebfc9022',1,6552,4800,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]島村卯月+',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('865bdc197f5ee49d902694d6ebfc9022',1,6552,4800,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]島村卯月+',17),
 	 ('a9377e14d83aad99d635f52da5bdaaee',1,4000,4000,'SR','[ｱﾆﾊﾞｰｻﾘｰﾌｫｰﾕｰ]島村卯月',19),
-	 ('34e7b232ee8887d3561285595ce8ce8b',1,4840,4280,'SR+','[ﾄﾞﾘｰﾑｽﾄｰﾘｰ]島村卯月+',21),
+	 ('34e7b232ee8887d3561285595ce8ce8b',1,4840,4280,'SR+','[ﾄﾞﾘｰﾑｽﾄｰﾘｰ]島村卯月+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c7424c2f32ffb2348a2fe5f7bb9d70ba',1,6440,4700,'SR','[ﾜﾝﾀﾞｰﾒｲﾄﾞ]島村卯月',23),
 	 ('700fb803afd6413117dcd8d4b499745b',1,7728,5640,'SR+','[ﾜﾝﾀﾞｰﾒｲﾄﾞ]島村卯月+',24),
 	 ('ba0bdaa1002fbe32da508725212d1f92',1,6880,5080,'SR','[笑顔の原点]島村卯月',25),
@@ -4001,10 +3999,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8b1ad6b6bd53c893b9107819c9bd0495',1,7320,5440,'SR','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]島村卯月',29),
 	 ('1338de950f95214e111dad2943f191c8',1,8784,6528,'SR+','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]島村卯月+',30),
 	 ('0baa54a9d5eb9fa91c4ac7ca8998ec6d',1,8976,6864,'SR+','[ごきげんｽﾌﾟﾗｯｼｭ]島村卯月+',32),
-	 ('7ec963346cffec2606a2d91b98aa2d88',1,8060,6260,'SR','[ｽﾃｰｼﾞｵﾌﾞﾏｼﾞｯｸ]島村卯月',38);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7ec963346cffec2606a2d91b98aa2d88',1,8060,6260,'SR','[ｽﾃｰｼﾞｵﾌﾞﾏｼﾞｯｸ]島村卯月',38),
 	 ('ebebf61d07519929b9f718585b057aa8',1,8500,6840,'SR','[笑顔のｴﾀｰﾅﾙｻﾏｰ]島村卯月',42),
-	 ('76d8828c447915a4dc60fff5907a58a7',12,2880,1600,'R','[ﾊﾟｼﾞｬﾏﾊﾟｰﾃｨｰ]緒方智絵里',4),
+	 ('76d8828c447915a4dc60fff5907a58a7',12,2880,1600,'R','[ﾊﾟｼﾞｬﾏﾊﾟｰﾃｨｰ]緒方智絵里',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('56b9e10a10d166583011ef60a58a9c82',12,6000,4056,'SR+','[浴衣の華姫]緒方智絵里+',11),
 	 ('e0bc2a1ae04cb1a3e0045ece2eb6935f',12,1740,2440,'SR','[CDﾃﾞﾋﾞｭｰ]緒方智絵里',12),
 	 ('f3a4a141eb2c9ec791d984c1655ed24d',12,3648,3648,'SR+','[冬のﾒﾛﾃﾞｨｰ]緒方智絵里+',15),
@@ -4012,10 +4010,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7881ef1cb6cf776ed071272ca3dbf5e7',12,8256,5976,'SR+','[ﾊﾋﾟﾈｽﾁｭｰﾝ]緒方智絵里+',26),
 	 ('eec920fdca2b3d860e257bc664a4a972',12,9312,7296,'SR+','[花びら日和]緒方智絵里+',34),
 	 ('ca1740e95cb9ac19d354d4720f0f3fb4',12,7340,7300,'SR','[ﾊｰﾓﾆｱｽｼｰｻｲﾄﾞ]緒方智絵里',35),
-	 ('6c854bfa68ef78e7e087c7c5f8a982d4',67,7104,5280,'SR+','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]渋谷凛+',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6c854bfa68ef78e7e087c7c5f8a982d4',67,7104,5280,'SR+','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]渋谷凛+',23),
 	 ('8830118c3b6b08eb9bed30f5aa4eea50',67,7824,5664,'SR+','[ﾄﾗｽﾄﾌﾟﾚｾﾞﾝﾄ]渋谷凛+',26),
-	 ('f38a7d396e4d373572359acd4f1bfecf',67,8232,6072,'SR+','[ﾌﾞﾙｰｳｨﾝﾄﾞ]渋谷凛+',29),
+	 ('f38a7d396e4d373572359acd4f1bfecf',67,8232,6072,'SR+','[ﾌﾞﾙｰｳｨﾝﾄﾞ]渋谷凛+',29);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1e03472526f0b76c70842da8648a538b',67,7520,5700,'SR','[ｼﾙﾊﾞｰｽﾋﾟﾘｯﾄ]渋谷凛',32),
 	 ('26c698d5564f4d530687a6ab2f98252a',67,8080,6440,'SR','[ﾌﾞﾙｰｲﾝﾌｨﾆﾃｨ]渋谷凛',35),
 	 ('1e18530acf0c4351d89b0cab70e40717',67,9768,7392,'SR+','[蒼き信念]渋谷凛+',38),
@@ -4023,10 +4021,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2bf6deba164890ac8f749a02ca735452',67,10152,7848,'SR+','[ﾄﾜｲﾗｲﾄ･ﾎﾜｲﾄﾗｲﾄ]渋谷凛+',44),
 	 ('b7e3dacde949e4a714d4969fc3295df3',12,8808,8760,'SR+','[ﾊｰﾓﾆｱｽｼｰｻｲﾄﾞ]緒方智絵里+',36),
 	 ('1099c469420259169802a9a27d79ff58',23,3040,2060,'R','[ﾋﾞｰﾁﾊﾟﾗﾀﾞｲｽ]藤本里奈',4),
-	 ('25d34e8c4e8e6db5267c90e5d66ff8c8',23,2820,2620,'R','[ｸﾘｽﾏｽﾌﾟﾚｾﾞﾝﾄ]藤本里奈',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('25d34e8c4e8e6db5267c90e5d66ff8c8',23,2820,2620,'R','[ｸﾘｽﾏｽﾌﾟﾚｾﾞﾝﾄ]藤本里奈',6),
 	 ('c89cbf65ba71e62e7dcde1ad925c3c28',23,3216,3312,'R+','[夏ﾌｪｽ☆ｷﾞｬﾙ]藤本里奈+',9),
-	 ('d6058e099d434e6a55b6c7db8011f43e',31,5088,5232,'SR+','[笑門福来]相原雪乃+',16),
+	 ('d6058e099d434e6a55b6c7db8011f43e',31,5088,5232,'SR+','[笑門福来]相原雪乃+',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('974f37b767c5ae944bbf1fe91b5664ac',31,3888,2688,'R+','[春のお茶会]相原雪乃+',21),
 	 ('fdc9243ab0e8c4572c2edce020ecd68e',31,3240,2240,'R','[春のお茶会]相原雪乃',22),
 	 ('4c54b931268517a3746f98911166b113',74,580,820,'N','神谷奈緒',0),
@@ -4034,10 +4032,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('823b2fe51a82ecb9819b0d8a28cbb05d',74,4968,4680,'SR+','[ｱﾄﾗｸﾄｺﾞｼｯｸ]神谷奈緒+',11),
 	 ('1eb1e04b6ccae476e2fa494da8dc8d62',74,4600,4600,'SR','[夜宴のﾒｲﾄﾞ]神谷奈緒',12),
 	 ('6bde4d4ab925d40189957d22816238bc',83,2000,3280,'R','[ﾒﾀﾘｯｸﾚﾃﾞｨｳﾙﾌ]木場真奈美',4),
-	 ('de63eaf145ae085f3d2ab0ddc6dc00a1',83,1720,3260,'R','[ｽｸｰﾙｶﾞｰﾙ]木場真奈美',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('de63eaf145ae085f3d2ab0ddc6dc00a1',83,1720,3260,'R','[ｽｸｰﾙｶﾞｰﾙ]木場真奈美',6),
 	 ('6e339e821d7c05c10d8bde8f6657c7e0',83,2700,2660,'R','[ｸﾗｲﾑﾚﾃﾞｨ]木場真奈美',11),
-	 ('cba13f10079f879dc0fe7fb85aec759c',83,3240,3192,'R+','[ｸﾗｲﾑﾚﾃﾞｨ]木場真奈美+',12),
+	 ('cba13f10079f879dc0fe7fb85aec759c',83,3240,3192,'R+','[ｸﾗｲﾑﾚﾃﾞｨ]木場真奈美+',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('10ce5d9464f76399b529fd6caf18a6ee',83,2800,2700,'R','[ﾄｷﾒｷﾌﾞﾗｲﾀﾞﾙ]木場真奈美',17),
 	 ('f2a0900bb8db3d317c6177c8b7615909',83,2620,2440,'SR','[ﾋﾞｰﾁｸｲｰﾝ]木場真奈美',19),
 	 ('3d81aebd94a339f3bbbd89c7c943abd7',83,3400,2980,'SR','[迫真のｸﾘｽﾏｽ]木場真奈美',23),
@@ -4045,10 +4043,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('47c91aff4355bed136e3cebc24c72aa6',83,6840,5256,'SR+','[冬空の戯れ]木場真奈美+',30),
 	 ('a1432f07870b768fbb65fac3fb044ccd',93,3120,2256,'R+','[ｲﾀﾘｱﾝｽﾀｲﾙ]ﾍﾚﾝ+',3),
 	 ('6c847b7c95a48dab0fc61b45b6c66522',93,2520,1960,'R','[T.B.ﾁｱｰｽﾞ]ﾍﾚﾝ',6),
-	 ('d66165c8ec5795a58dfddd75ea490ce4',93,3340,2180,'R','[SUHADAｽﾀｲﾙ]ﾍﾚﾝ',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d66165c8ec5795a58dfddd75ea490ce4',93,3340,2180,'R','[SUHADAｽﾀｲﾙ]ﾍﾚﾝ',8),
 	 ('79df8bef976ffbffa161c1640c2e5f54',93,2220,3240,'R','[ｳﾞｨｸﾄﾘｱの微笑]ﾍﾚﾝ',12),
-	 ('cc0698a6cf2cb1334013fe8b8ade9708',93,8136,5928,'SR+','[飽くなき挑戦者]ﾍﾚﾝ+',23),
+	 ('cc0698a6cf2cb1334013fe8b8ade9708',93,8136,5928,'SR+','[飽くなき挑戦者]ﾍﾚﾝ+',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('44d15aeefb0802ad8de4ce567c746c13',93,3912,2448,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]ﾍﾚﾝ+',27),
 	 ('f97d5b0725a0179653bf91589c171f68',93,7420,7340,'SR','[ｴﾌﾞﾘｼﾝｸﾞｲｽﾞﾏｲﾝ]ﾍﾚﾝ',30),
 	 ('70cdd1add523e358191d5af81ed40a2d',103,2200,1800,'R','[ﾏｰﾒｲﾄﾞﾊﾟﾗﾀﾞｲｽ]瀬名詩織',2),
@@ -4056,10 +4054,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('80915acce997c1b086f972db5fb6dd5f',103,3840,2544,'R+','[T.B.ｸﾘｽﾏｽ]瀬名詩織+',12),
 	 ('4f633a15de48a0fa130e88ee15cf85bd',103,4340,3040,'R+','[ﾌｫﾄｼﾞｪﾆｯｸﾊﾞﾗｴﾃｨ]瀬名詩織+',13),
 	 ('0dc5884d45b9079149a2097b63dece18',103,3280,2120,'R','[潮風の便り]瀬名詩織',22),
-	 ('50c55d0af3a11182abe43b252e25b8ed',103,3936,2544,'R+','[潮風の便り]瀬名詩織+',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('50c55d0af3a11182abe43b252e25b8ed',103,3936,2544,'R+','[潮風の便り]瀬名詩織+',23),
 	 ('8b7fce105c3d588ac3f32396be6d63a9',113,1080,740,'R','梅木音葉',0),
-	 ('d5a7bb3feb7b36be43c88f12a22ab0ed',113,2620,1860,'R','[春風の使者]梅木音葉',4),
+	 ('d5a7bb3feb7b36be43c88f12a22ab0ed',113,2620,1860,'R','[春風の使者]梅木音葉',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cdcf96c094a50a50e60362c02f4dfa50',113,3144,2232,'R+','[春風の使者]梅木音葉+',5),
 	 ('767925f33c033fafccf24de1a5270440',113,3260,2220,'R','[春色温泉]梅木音葉',8),
 	 ('83e5007f4db7e14f5fd0dc9e5de94648',113,3940,4040,'SR','[涼風のﾐﾝｽﾄﾚﾙ]梅木音葉',12),
@@ -4067,10 +4065,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b55aedfa29207ec7783d03157a425dc0',113,5940,5880,'SR','[ﾒﾛﾃﾞｨｱｽﾜｰﾙﾄﾞ]梅木音葉',18),
 	 ('231690c9220f172ca864ae237da742ac',113,6760,6840,'SR','[いとしき福音]梅木音葉',22),
 	 ('addeb97fac43f59ea040b91102e7a6fd',202,3060,2260,'R','[聖夜のｷｾｷ]水谷絵理',0),
-	 ('2c578bcb320f60bfd692e097bff03291',202,5376,5328,'SR+','[夜桜奇譚]水谷絵理+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2c578bcb320f60bfd692e097bff03291',202,5376,5328,'SR+','[夜桜奇譚]水谷絵理+',5),
 	 ('cbb8818bd27d3391e77bbff12bd978cd',123,2280,2448,'R+','[ﾊｯﾋﾟｰﾊﾞﾚﾝﾀｲﾝ]速水奏+',3),
-	 ('ab4dfb0bebdc39a536b7f008fa041052',123,3240,3288,'R+','[ｾﾚｸﾃｯﾄﾞ]速水奏+',7),
+	 ('ab4dfb0bebdc39a536b7f008fa041052',123,3240,3288,'R+','[ｾﾚｸﾃｯﾄﾞ]速水奏+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bed2e9671e9378d70ba5e073180c7adc',123,6096,4512,'SR+','[夜色の花嫁]速水奏+',11),
 	 ('d96d08d63893c62dde9015bf1efe1554',123,6432,4392,'SR+','[ﾁｱﾘﾝｸﾞｽﾀｰ]速水奏+',13),
 	 ('95d9d50a1d7378f34aaa25491b1fd0ec',123,7464,7416,'SR+','[天光の乙女]速水奏+',23),
@@ -4078,10 +4076,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a03496280fbdbbb8c8652a7618f75278',123,9528,7368,'SR+','[明闇のｲﾃﾞｱﾘｽﾄ]速水奏+',29),
 	 ('9dd55e069167d399839a9adba5cfc4d5',123,8540,6720,'SR','[朱夏の果実]速水奏',32),
 	 ('7c68e69ccce9570e761e468fac1d0e1e',123,9312,9096,'SR+','[ｴﾝﾄﾞﾚｽﾅｲﾄ]速水奏+',35),
-	 ('4dca0c21e5859981c0e9c239dc90f1ab',31,3520,3420,'SR','[ｴﾚｶﾞﾝﾄﾁｱｰ]相原雪乃',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4dca0c21e5859981c0e9c239dc90f1ab',31,3520,3420,'SR','[ｴﾚｶﾞﾝﾄﾁｱｰ]相原雪乃',17),
 	 ('5c9829879b7d4d585fc6b1e3faa5830e',31,5320,4280,'SR','[ﾏｲﾙﾄﾞ･ﾛﾜｲﾔﾙ]相原雪乃',19),
-	 ('06a7cb5dff7350e37d97e6b9d6207148',74,696,984,'N+','神谷奈緒+',1),
+	 ('06a7cb5dff7350e37d97e6b9d6207148',74,696,984,'N+','神谷奈緒+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5ed8a511f1c7bd01ac963eabd5aaf3f2',74,1488,2112,'R+','[京町乙女]神谷奈緒+',5),
 	 ('dca33b6f2bbf361004273bc203ffeccd',74,3624,2448,'R+','[制服ｺﾚｸｼｮﾝ]神谷奈緒+',7),
 	 ('64a140b725d7907a0cf8ad1ea556206e',74,2840,2220,'SR','[CDﾃﾞﾋﾞｭｰ]神谷奈緒',14),
@@ -4089,10 +4087,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b3e05599926adc80d58c1ab78e987a78',74,7488,5472,'SR+','[純真の花嫁]神谷奈緒+',19),
 	 ('ff60a2cf4d0f69d2c7b34929a354a11b',74,6768,6576,'SR+','[ﾄｩﾌﾟﾛﾐｽ]神谷奈緒+',21),
 	 ('8511ad8903a41ce65a867c7d1d9fb90a',74,8616,6312,'SR+','[気まぐれにゃんこ]神谷奈緒+',25),
-	 ('9887c3ba80c4c4c3eef0e88f4d9b008b',74,7680,6000,'SR','[澄天の湯華]神谷奈緒',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9887c3ba80c4c4c3eef0e88f4d9b008b',74,7680,6000,'SR','[澄天の湯華]神谷奈緒',26),
 	 ('77b434f6dc23c738834a2caa106a2351',74,3840,3640,'R+','[ﾌﾟﾗｳﾄﾞﾚｼﾞｽﾀﾝｽ]神谷奈緒+',30),
-	 ('811b7393e373afe2d707fe8d06327baa',74,9840,7416,'SR+','[ﾌﾟﾘｽﾃｨｰﾝｴｲﾑ]神谷奈緒+',32),
+	 ('811b7393e373afe2d707fe8d06327baa',74,9840,7416,'SR+','[ﾌﾟﾘｽﾃｨｰﾝｴｲﾑ]神谷奈緒+',32);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('aaa4abbc7a9ceaf41bfce5f001b5b3f1',74,10850,7350,'SR','[8thｱﾆﾊﾞｰｻﾘｰ･S]神谷奈緒',35),
 	 ('f85d8ee46b15fc220b9f6f46d1b47d4a',74,8480,6860,'SR','[ﾋﾟｭｱﾗｲﾄｽｶｲ]神谷奈緒',37),
 	 ('50f53b8bae68c432456604aa421dfce9',84,1000,1000,'N','藤原肇',0),
@@ -4100,10 +4098,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fe622a9df6d27c14fe21f524b0814f93',93,1880,2160,'R','[ﾊﾞﾆｰｶﾞｰﾙ]ﾍﾚﾝ',4),
 	 ('c2c0c4be7dd2a5321b7d31af6e510da6',93,4008,2616,'R+','[SUHADAｽﾀｲﾙ]ﾍﾚﾝ+',9),
 	 ('82c55a45c33211e07f84a2194e7c37c1',93,3384,3144,'R+','[ﾋﾞﾀｰ&ｽｳｨｰﾄ]ﾍﾚﾝ+',11),
-	 ('6a82c3aa225dd4352788e2c9edff4933',93,2664,3888,'R+','[ｳﾞｨｸﾄﾘｱの微笑]ﾍﾚﾝ+',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6a82c3aa225dd4352788e2c9edff4933',93,2664,3888,'R+','[ｳﾞｨｸﾄﾘｱの微笑]ﾍﾚﾝ+',13),
 	 ('82dcbf34aab62375cb06bb5e96a54c53',93,2592,3936,'R+','[ﾗﾃﾞｨｶﾙﾗｲﾌ]ﾍﾚﾝ+',17),
-	 ('7175e4b23da69f4db80c2721b4010a14',93,4824,4776,'SR+','[ﾜｰﾙﾄﾞｲｽﾞﾏｲﾝ]ﾍﾚﾝ+',19),
+	 ('7175e4b23da69f4db80c2721b4010a14',93,4824,4776,'SR+','[ﾜｰﾙﾄﾞｲｽﾞﾏｲﾝ]ﾍﾚﾝ+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6a2e07a28b5eb41aba421027c684c0dc',93,5256,4944,'SR+','[ﾊﾟｰﾌｪｸﾄﾃｨｰﾁｬｰ]ﾍﾚﾝ+',21),
 	 ('67fe1ce7065e24e2e872035e0cf17557',93,5256,4104,'SR+','[世界の夜明け]ﾍﾚﾝ+',25),
 	 ('3bfdd43bed9438273cd3e7018e9cdd12',103,2640,2160,'R+','[ﾏｰﾒｲﾄﾞﾊﾟﾗﾀﾞｲｽ]瀬名詩織+',3),
@@ -4111,10 +4109,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c2b247795dc4ab5555062010e1f49218',103,3640,4720,'SR','[ﾗｯｼｭ･ﾛﾜｲﾔﾙ]瀬名詩織',16),
 	 ('12327daf4fd261820750b0cdd031c72f',103,4368,5664,'SR+','[ﾗｯｼｭ･ﾛﾜｲﾔﾙ]瀬名詩織+',17),
 	 ('244059b494c5908fa68fdb2b02fa04f0',103,4600,3520,'SR','[ｽﾘｰｸｽﾄﾘﾝｸﾞｽ]瀬名詩織',20),
-	 ('a774d41a69eb44d15423615658b97bb3',113,1296,888,'R+','梅木音葉+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a774d41a69eb44d15423615658b97bb3',113,1296,888,'R+','梅木音葉+',1),
 	 ('dfdfcbd7c55fedc975299b2c11190acc',113,3320,2120,'R','[そよ風のﾄﾘﾋﾞｭｰﾄ]梅木音葉',10),
-	 ('7a01f73afd6bf9881c91b0a2d4a37280',113,4728,4848,'SR+','[涼風のﾐﾝｽﾄﾚﾙ]梅木音葉+',13),
+	 ('7a01f73afd6bf9881c91b0a2d4a37280',113,4728,4848,'SR+','[涼風のﾐﾝｽﾄﾚﾙ]梅木音葉+',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('72869a0f6b17cf9ae3770b0b2cbdcb01',113,3912,2808,'SR+','[ﾒﾛﾃﾞｨ･ﾛﾜｲﾔﾙ]梅木音葉+',15),
 	 ('13aa1769ac8d68b287197d5af32b439f',113,3888,2472,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]梅木音葉+',25),
 	 ('4ff1e97c188a31e681f47940481fd2e4',202,3672,2712,'R+','[聖夜のｷｾｷ]水谷絵理+',1),
@@ -4122,10 +4120,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2c187df2b259b1e01d46c2868304cd17',123,2700,2740,'R','[ｾﾚｸﾃｯﾄﾞ]速水奏',6),
 	 ('0231e453de83dea96397acc7f45b7731',123,5080,3760,'SR','[夜色の花嫁]速水奏',10),
 	 ('9f20eaddbc42ec976f862e83d7d6cf5d',123,5360,3660,'SR','[ﾁｱﾘﾝｸﾞｽﾀｰ]速水奏',12),
-	 ('a528c4946a755e454146149b4c5afc34',123,5060,4900,'SR','[追憶のｳﾞｧﾆﾀｽ]速水奏',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a528c4946a755e454146149b4c5afc34',123,5060,4900,'SR','[追憶のｳﾞｧﾆﾀｽ]速水奏',14),
 	 ('c7fecadb9feb6558ebe7320a7fbaa902',123,3024,3624,'SR+','[CDﾃﾞﾋﾞｭｰ]速水奏+',17),
-	 ('8b1c20dd3e050fb08648f0216adf4186',123,6264,6192,'SR+','[ﾐｯﾄﾞﾅｲﾄﾚｲｳﾞ]速水奏+',19),
+	 ('8b1c20dd3e050fb08648f0216adf4186',123,6264,6192,'SR+','[ﾐｯﾄﾞﾅｲﾄﾚｲｳﾞ]速水奏+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('738af1adc4839585781bb40c338ad956',123,6220,6180,'SR','[天光の乙女]速水奏',22),
 	 ('6a8251cbab71a6c3b012ecc9dc1e1e1c',123,7992,5472,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]速水奏+',25),
 	 ('c52715342fe945c803364e78f4ddba1e',123,7940,6140,'SR','[明闇のｲﾃﾞｱﾘｽﾄ]速水奏',28),
@@ -4133,10 +4131,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('99f6b58151ae3d0a121a049fc9cc18a9',123,7760,7580,'SR','[ｴﾝﾄﾞﾚｽﾅｲﾄ]速水奏',34),
 	 ('cfc329e650e8c8f39600ad33229d97db',31,4224,4104,'SR+','[ｴﾚｶﾞﾝﾄﾁｱｰ]相原雪乃+',18),
 	 ('5bc8d2485cafd22b80764980a506c7b4',31,6384,5136,'SR+','[ﾏｲﾙﾄﾞ･ﾛﾜｲﾔﾙ]相原雪乃+',20),
-	 ('1593bfefaa649ce28d0b586bbcee2c81',32,1520,2080,'R','宮本ﾌﾚﾃﾞﾘｶ',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1593bfefaa649ce28d0b586bbcee2c81',32,1520,2080,'R','宮本ﾌﾚﾃﾞﾘｶ',0),
 	 ('f80b6b94319b514fc4da98bd63edf140',32,1824,2496,'R+','宮本ﾌﾚﾃﾞﾘｶ+',1),
-	 ('653b56a1fafbb180fe1bc54e289e6168',32,2580,2500,'R','[湯けむり月夜]宮本ﾌﾚﾃﾞﾘｶ',2),
+	 ('653b56a1fafbb180fe1bc54e289e6168',32,2580,2500,'R','[湯けむり月夜]宮本ﾌﾚﾃﾞﾘｶ',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8e14eb789abc0919c31084da84df7dfd',32,3096,3000,'R+','[湯けむり月夜]宮本ﾌﾚﾃﾞﾘｶ+',3),
 	 ('8b2b95f91390863d0aefcce275216963',32,3280,2220,'R','[新春ｶﾞｰﾙ]宮本ﾌﾚﾃﾞﾘｶ',4),
 	 ('f34fc01bea3aa407c5ce2a6d3f9bd90d',32,3936,2664,'R+','[新春ｶﾞｰﾙ]宮本ﾌﾚﾃﾞﾘｶ+',5),
@@ -4144,10 +4142,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a60c0162b8daf326ed298d470ef883a2',32,3312,3216,'R+','[ｾﾚｸﾃｯﾄﾞ]宮本ﾌﾚﾃﾞﾘｶ+',7),
 	 ('04b1bbc35c958d5b9415e1421c6e3dd0',32,4160,3120,'R+','[華のﾊﾟﾘｼﾞｪﾝﾇ]宮本ﾌﾚﾃﾞﾘｶ+',8),
 	 ('2781e8dc46ae2017f26eb9c1fc92e53d',32,4260,3160,'R+','[笑顔のﾊﾟﾘｼﾞｪﾝﾇ]宮本ﾌﾚﾃﾞﾘｶ+',9),
-	 ('98ba7be0650ef8626d67e2402aa665eb',32,3560,3200,'SR','[小悪魔ﾒｲﾄﾞ]宮本ﾌﾚﾃﾞﾘｶ',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('98ba7be0650ef8626d67e2402aa665eb',32,3560,3200,'SR','[小悪魔ﾒｲﾄﾞ]宮本ﾌﾚﾃﾞﾘｶ',10),
 	 ('85c3f8d385513b9044698c7bd20056de',32,4272,3840,'SR+','[小悪魔ﾒｲﾄﾞ]宮本ﾌﾚﾃﾞﾘｶ+',11),
-	 ('731660756ad8c37fca4639324f94cd3e',32,2240,3080,'SR','[ｼｮｺﾗﾊﾞﾚﾝﾀｲﾝ]宮本ﾌﾚﾃﾞﾘｶ',12),
+	 ('731660756ad8c37fca4639324f94cd3e',32,2240,3080,'SR','[ｼｮｺﾗﾊﾞﾚﾝﾀｲﾝ]宮本ﾌﾚﾃﾞﾘｶ',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f8a00b18927c827e005cb9e6f6dd68a4',32,2688,3696,'SR+','[ｼｮｺﾗﾊﾞﾚﾝﾀｲﾝ]宮本ﾌﾚﾃﾞﾘｶ+',13),
 	 ('d05bfa40e5b0eea86f7dc67e65d3b5cd',32,3680,3840,'SR','[ｼｮｺﾗ･ｽﾏｲﾙ]宮本ﾌﾚﾃﾞﾘｶ',14),
 	 ('c2e4546518d66324acc7e20c0296ea51',32,4416,4608,'SR+','[ｼｮｺﾗ･ｽﾏｲﾙ]宮本ﾌﾚﾃﾞﾘｶ+',15),
@@ -4155,10 +4153,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2302f78e3b6c45755ac806fcda036bf7',32,6360,4776,'SR+','[ﾘｰﾌﾞﾙ･ﾐﾆﾖﾝ]宮本ﾌﾚﾃﾞﾘｶ+',17),
 	 ('3c65d08696e1a10087ad8c9f7c8460ce',32,5780,4020,'SR','[渚のﾏﾄﾞﾓﾜｾﾞﾙ]宮本ﾌﾚﾃﾞﾘｶ',18),
 	 ('5196bf41a2d9d73524e78bd6164559e5',32,6936,4824,'SR+','[渚のﾏﾄﾞﾓﾜｾﾞﾙ]宮本ﾌﾚﾃﾞﾘｶ+',19),
-	 ('cf269d80bd21af84f56b57b48d21388d',32,5180,5100,'SR','[ｶﾄﾞｰ･ﾄﾞ･ﾉｴﾙ]宮本ﾌﾚﾃﾞﾘｶ',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('cf269d80bd21af84f56b57b48d21388d',32,5180,5100,'SR','[ｶﾄﾞｰ･ﾄﾞ･ﾉｴﾙ]宮本ﾌﾚﾃﾞﾘｶ',20),
 	 ('5c4c3e1c99e854f47febc5ef5ae40d74',32,6216,6120,'SR+','[ｶﾄﾞｰ･ﾄﾞ･ﾉｴﾙ]宮本ﾌﾚﾃﾞﾘｶ+',21),
-	 ('a86180b82411166bce9e0ee90f02b578',32,2860,2700,'SR','[CDﾃﾞﾋﾞｭｰ]宮本ﾌﾚﾃﾞﾘｶ',22),
+	 ('a86180b82411166bce9e0ee90f02b578',32,2860,2700,'SR','[CDﾃﾞﾋﾞｭｰ]宮本ﾌﾚﾃﾞﾘｶ',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1570d7a1a0edd19717633e5df8c19842',32,3432,3240,'SR+','[CDﾃﾞﾋﾞｭｰ]宮本ﾌﾚﾃﾞﾘｶ+',23),
 	 ('1a58043805ce26870464007a4c92eb3d',32,6240,4440,'SR','[ﾚｰﾌﾞﾙ･ｶﾌﾟﾘｼｭｰ]宮本ﾌﾚﾃﾞﾘｶ',24),
 	 ('9115963613f19ebcacb3378f581f8246',32,7488,5328,'SR+','[ﾚｰﾌﾞﾙ･ｶﾌﾟﾘｼｭｰ]宮本ﾌﾚﾃﾞﾘｶ+',25),
@@ -4166,10 +4164,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('235d561428433ff56c4f2debd8316d7d',32,8040,5736,'SR+','[気まぐれｱﾘｽ]宮本ﾌﾚﾃﾞﾘｶ+',27),
 	 ('1189876e0b701fb5f80f8f4a36a19c87',32,6620,4640,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]宮本ﾌﾚﾃﾞﾘｶ',28),
 	 ('ab148b33c781fb0345cd41403adb0424',32,7944,5568,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]宮本ﾌﾚﾃﾞﾘｶ+',29),
-	 ('610702181bdfb81ec803df4813886aee',32,7020,5380,'SR','[ﾏｼﾞｰﾄﾞｩﾗﾈｰｼﾞｭ]宮本ﾌﾚﾃﾞﾘｶ',30);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('610702181bdfb81ec803df4813886aee',32,7020,5380,'SR','[ﾏｼﾞｰﾄﾞｩﾗﾈｰｼﾞｭ]宮本ﾌﾚﾃﾞﾘｶ',30),
 	 ('09346bd07794d16a01ebdf62ea8fd570',32,8424,6456,'SR+','[ﾏｼﾞｰﾄﾞｩﾗﾈｰｼﾞｭ]宮本ﾌﾚﾃﾞﾘｶ+',31),
-	 ('6e8aaf2b95c25749c3b0e0cb30c387ec',32,7540,5940,'SR','[お気に召すまま]宮本ﾌﾚﾃﾞﾘｶ',32),
+	 ('6e8aaf2b95c25749c3b0e0cb30c387ec',32,7540,5940,'SR','[お気に召すまま]宮本ﾌﾚﾃﾞﾘｶ',32);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('89e0c550a69afb655275039c74cb0b2b',32,9048,7128,'SR+','[お気に召すまま]宮本ﾌﾚﾃﾞﾘｶ+',33),
 	 ('c1cf7bb9bba48f1c55c2a886b3ca07da',32,7700,6080,'SR','[ﾍﾞﾙｼﾞｮﾜｰｽﾞ]宮本ﾌﾚﾃﾞﾘｶ',34),
 	 ('135c78249734a3b98154f662adb4b623',32,9240,7296,'SR+','[ﾍﾞﾙｼﾞｮﾜｰｽﾞ]宮本ﾌﾚﾃﾞﾘｶ+',35),
@@ -4177,10 +4175,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f19dab62490f2077f55a56b69048d054',32,8856,8736,'SR+','[ﾊｰﾄﾛｲﾔﾘﾃｨ]宮本ﾌﾚﾃﾞﾘｶ+',37),
 	 ('d543f740f1c4ea3826fb5fdd19f5923e',32,7620,7600,'SR','[真夏のｱﾊﾞﾝﾁｭｰﾙ]宮本ﾌﾚﾃﾞﾘｶ',38),
 	 ('1cbd5358e5b8d5a0f3c77f6f04acfe65',32,9144,9120,'SR+','[真夏のｱﾊﾞﾝﾁｭｰﾙ]宮本ﾌﾚﾃﾞﾘｶ+',39),
-	 ('b28b3ab1dc086af6f808ad6efd58914f',32,8460,6500,'SR','[ｱﾍﾞﾆｭｰ･ﾓｰﾄﾞ]宮本ﾌﾚﾃﾞﾘｶ',40);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b28b3ab1dc086af6f808ad6efd58914f',32,8460,6500,'SR','[ｱﾍﾞﾆｭｰ･ﾓｰﾄﾞ]宮本ﾌﾚﾃﾞﾘｶ',40),
 	 ('79d00523cc3c5c7c8bd98bf64c73f004',32,10152,7800,'SR+','[ｱﾍﾞﾆｭｰ･ﾓｰﾄﾞ]宮本ﾌﾚﾃﾞﾘｶ+',41),
-	 ('b4b5b177a0146a13c8bd76eefa3e1257',32,8420,6600,'SR','[ﾘｭﾐｴｰﾙ･ｴﾄﾜｰﾙ]宮本ﾌﾚﾃﾞﾘｶ',42),
+	 ('b4b5b177a0146a13c8bd76eefa3e1257',32,8420,6600,'SR','[ﾘｭﾐｴｰﾙ･ｴﾄﾜｰﾙ]宮本ﾌﾚﾃﾞﾘｶ',42);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('533da3a9ee97c0de7cbc8311d929d938',32,10104,7920,'SR+','[ﾘｭﾐｴｰﾙ･ｴﾄﾜｰﾙ]宮本ﾌﾚﾃﾞﾘｶ+',43),
 	 ('00855389a2e307b18ddc7a716c4cd7ec',33,2760,1848,'R+','小早川紗枝+',1),
 	 ('b75a1f1e9000341b7e348532de188052',33,2140,1560,'R','[花火祭り]小早川紗枝',2),
@@ -4188,10 +4186,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5eb012ecd9dbc691372a60f46636dd34',33,2320,1360,'R','[花火祭りｽﾏｲﾙ]小早川紗枝',4),
 	 ('f5e8cb985dc1a29eb8f6342718b34cd4',33,4180,3100,'R+','[艶めく京の町]小早川紗枝+',6),
 	 ('c11a4d7a4d358ed43d08d96c1ff356e7',33,4240,3160,'R+','[微笑む京の町]小早川紗枝+',7),
-	 ('ff5c24d7d8bf90932a79915818e7472c',33,4512,4272,'SR+','[夏の夜の天女]小早川紗枝+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ff5c24d7d8bf90932a79915818e7472c',33,4512,4272,'SR+','[夏の夜の天女]小早川紗枝+',9),
 	 ('519e953aad9d655e2d34f86a8d0ec5b8',33,4920,3320,'SR','[はんなり京娘]小早川紗枝',10),
-	 ('418d73386126d2687fb901deddea1ef8',33,5904,3984,'SR+','[はんなり京娘]小早川紗枝+',11),
+	 ('418d73386126d2687fb901deddea1ef8',33,5904,3984,'SR+','[はんなり京娘]小早川紗枝+',11);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ff87a7aa4b5d9bf8401f1ae6e4e256fb',33,2700,2340,'SR','[CDﾃﾞﾋﾞｭｰ]小早川紗枝',14),
 	 ('e601a27731e9218244b7171b8350314b',33,3240,2808,'SR+','[CDﾃﾞﾋﾞｭｰ]小早川紗枝+',15),
 	 ('5734c19bfc0b30b167ec301ed3c8644b',33,4880,4880,'SR','[天衣の織姫]小早川紗枝',16),
@@ -4199,10 +4197,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a979654b88d8c984848c4da8bf8e27c4',33,2784,1632,'R+','[花火祭りｽﾏｲﾙ]小早川紗枝+',5),
 	 ('ecf899616d8c2e0975790388263ef67e',33,3760,3560,'SR','[夏の夜の天女]小早川紗枝',8),
 	 ('fe9fbbd7f57c090d38e2188a25300ebf',33,4440,4340,'SR','[はんなりﾒｲﾄﾞ]小早川紗枝',12),
-	 ('7f76cdc6826e9972671f90f9cad737ac',33,5328,5208,'SR+','[はんなりﾒｲﾄﾞ]小早川紗枝+',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7f76cdc6826e9972671f90f9cad737ac',33,5328,5208,'SR+','[はんなりﾒｲﾄﾞ]小早川紗枝+',13),
 	 ('1eaaea63a6986091fd536f7fc5aa13ae',33,6040,3680,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]小早川紗枝',18),
-	 ('4e99233eb7bec767f87545c9b24b84c9',33,7248,4416,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]小早川紗枝+',19),
+	 ('4e99233eb7bec767f87545c9b24b84c9',33,7248,4416,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]小早川紗枝+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d5790f3f26a34f04e6dca27719fa49b6',33,6240,4360,'SR','[白妙の絢姫]小早川紗枝',20),
 	 ('929adee0a81b91f00b5faca2c6726ea1',33,7480,5800,'SR','[夢幻のあめつち]小早川紗枝',30),
 	 ('7244e221b0db43fd9b2126cb2084b421',33,8100,6340,'SR','[楚々の星明り]小早川紗枝',34),
@@ -4210,10 +4208,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8641ad39e2e9ffcca3f4423ef6cce121',33,7720,7540,'SR','[寿ぎの逢瀬]小早川紗枝',38),
 	 ('7010f212a698d6d71b534b4f3b29fd2f',33,9264,9048,'SR+','[寿ぎの逢瀬]小早川紗枝+',39),
 	 ('5c419c811839302329ff4f6fd97004a5',33,10080,7944,'SR+','[華ほころびる宴]小早川紗枝+',41),
-	 ('226ea5730b69cb31b721f24fe9db2ff3',74,850,1270,'R','[聖夜]神谷奈緒',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('226ea5730b69cb31b721f24fe9db2ff3',74,850,1270,'R','[聖夜]神谷奈緒',2),
 	 ('2fc4f435264d5f7543ed27ff5bc3b333',74,3040,3280,'SR','[恥じらい乙女]神谷奈緒',8),
-	 ('71f3529076561f0938fcd40266bba205',74,5520,5520,'SR+','[夜宴のﾒｲﾄﾞ]神谷奈緒+',13),
+	 ('71f3529076561f0938fcd40266bba205',74,5520,5520,'SR+','[夜宴のﾒｲﾄﾞ]神谷奈緒+',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d889a0c65040761fe74dae4bd35fc22d',74,8112,5904,'SR+','[夏空ｻﾌﾟﾗｲｽﾞ]神谷奈緒+',23),
 	 ('2a2e90f8c8265b515e2e60cfccf072b7',74,6880,6800,'SR','[光風に吹かれて]神谷奈緒',28),
 	 ('d2df33267bc460521691516fbc709c59',74,9264,9096,'SR+','[ﾄﾞﾚｽｱｯﾌﾟﾅｲﾄ]神谷奈緒+',40),
@@ -4221,10 +4219,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4a259c46fb712d428bf4bc195756b61a',84,3240,2260,'R','[教室のｱｲﾄﾞﾙ]藤原肇',8),
 	 ('3167283ee6e0766c23f79d2b0cdf6de6',84,5472,5280,'SR+','[憧憬の絵姿]藤原肇+',15),
 	 ('0f422ef5edfbb203d4b3f21da7a62f54',84,6456,4728,'SR+','[九天の玄女]藤原肇+',17),
-	 ('fdb92acf167d4c4fab46507c6a8ebc87',84,5480,5360,'SR','[小さな息吹]藤原肇',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('fdb92acf167d4c4fab46507c6a8ebc87',84,5480,5360,'SR','[小さな息吹]藤原肇',20),
 	 ('1f2016bdb7310af8adb7149ca0564a23',84,3912,3768,'SR+','[ﾎﾜｲﾄｼﾞｬｰﾆｰ]藤原肇+',23),
-	 ('f916a26a64839b6530f579d34dbfd699',84,7120,5160,'SR','[ｸﾜｲｴｯﾄ･ｽﾞｨｰﾙ]藤原肇',26),
+	 ('f916a26a64839b6530f579d34dbfd699',84,7120,5160,'SR','[ｸﾜｲｴｯﾄ･ｽﾞｨｰﾙ]藤原肇',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3f68cdef0f193b7bff1299d5c8d6c75a',84,9024,7104,'SR+','[待ちて玉桂]藤原肇+',29),
 	 ('b9eaf6080f791744a74e817a7090cb90',84,8784,8688,'SR+','[光彩の芸術]藤原肇+',31),
 	 ('d4e4c6fdfe401258d97dcc40caea0c89',84,10344,8088,'SR+','[楽園の佳景]藤原肇+',33),
@@ -4232,10 +4230,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0352375f84d599a56ba8216c2ceb9d5b',84,10320,8112,'SR+','[清らかな秋陽]藤原肇+',37),
 	 ('259ea6a1a4bfe54feafe3adea84e09fc',94,780,520,'R','松永涼',0),
 	 ('4f126d663ceb6c43a28ea7b8ca06698c',94,2688,2232,'R+','[ﾊﾛｳｨﾝﾊﾟｰﾃｨｰ]松永涼+',5),
-	 ('81d108a67d9d1c4e1d850886c8b4e5f6',94,2680,1960,'R','[ﾛｯｷﾝｳﾞｫｰｶﾙ]松永涼',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('81d108a67d9d1c4e1d850886c8b4e5f6',94,2680,1960,'R','[ﾛｯｷﾝｳﾞｫｰｶﾙ]松永涼',6),
 	 ('01c2160e64c52a3951f9beb6bd18b7ae',94,3180,2180,'R','[熱気の中で]松永涼',8),
-	 ('e4f66d8edf006f5f00a7098cadc49f7a',94,4240,3120,'R+','[ｲｶした帽子屋]松永涼+',12),
+	 ('e4f66d8edf006f5f00a7098cadc49f7a',94,4240,3120,'R+','[ｲｶした帽子屋]松永涼+',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f8b86ed000791b83276ea40a9e06916a',94,3384,3168,'R+','[ｻﾏｰﾋﾞｰﾁ]松永涼+',14),
 	 ('c6803990cf321f09db09d1270f3e7141',94,3440,2900,'SR','[ﾐｭｰｼﾞｯｸｽｸﾘｰﾑ]松永涼',17),
 	 ('7c6d691dff4f6353fdf2ab67ccea3e35',94,8472,6120,'SR+','[ｾﾄﾙﾀﾞｳﾝｿｳﾙ]松永涼+',20),
@@ -4243,10 +4241,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e3422411b1d5eab04c6bded0d42bd3d3',94,4752,4704,'SR+','[雨音の佳人]松永涼+',26),
 	 ('95aebc0b4f5ce012884fce916b3005da',94,2800,2760,'R','[新年晴姿]松永涼',29),
 	 ('a66eb1f0bdbd95a1704b61702f199195',94,6168,6096,'SR+','[ﾃﾞｨｰﾌﾟ･ﾛﾜｲﾔﾙ]松永涼+',32),
-	 ('c5fe53e9e75145b9e155df1133f562b9',103,2580,1900,'R','[ﾊｯﾋﾟｰｳｪﾃﾞｨﾝｸﾞ]瀬名詩織',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c5fe53e9e75145b9e155df1133f562b9',103,2580,1900,'R','[ﾊｯﾋﾟｰｳｪﾃﾞｨﾝｸﾞ]瀬名詩織',4),
 	 ('7e27f0eb3f898113a98097901e421c25',103,4140,2900,'R+','[ﾚﾃﾞｨﾛｯｻ]瀬名詩織+',6),
-	 ('2f1fec2362b65429cfbdbfa86c0e4fc6',103,2740,2680,'R','[ｵｰｼｬﾝｽﾞｷﾞﾌﾄ]瀬名詩織',9),
+	 ('2f1fec2362b65429cfbdbfa86c0e4fc6',103,2740,2680,'R','[ｵｰｼｬﾝｽﾞｷﾞﾌﾄ]瀬名詩織',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('492654aed867cdcad6f852b3f2c644ea',103,5424,3480,'SR+','[白波の歌姫]瀬名詩織+',15),
 	 ('4298819e543828c4fe4d52415ce2b7a2',103,3740,3120,'SR','[ﾄﾞﾘｰﾑﾌﾞﾗｲﾄ]瀬名詩織',18),
 	 ('8518eb7db20611b6e579e44780f6fe24',103,4488,3744,'SR+','[ﾄﾞﾘｰﾑﾌﾞﾗｲﾄ]瀬名詩織+',19),
@@ -4254,10 +4252,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9ae3b84090af8490fa4d771857a708b6',113,3912,2664,'R+','[春色温泉]梅木音葉+',9),
 	 ('e46c9723e0af70b50cea3bbf1af79359',113,5352,4848,'SR+','[ﾀﾞｰｸﾊﾞﾄﾗｰ]梅木音葉+',17),
 	 ('a4823a0b9ffad08844c7e603e69013cd',113,3960,3860,'SR','[新芽の調べ]梅木音葉',20),
-	 ('10875d59874eee26445bc19096dacae9',113,8112,8208,'SR+','[いとしき福音]梅木音葉+',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('10875d59874eee26445bc19096dacae9',113,8112,8208,'SR+','[いとしき福音]梅木音葉+',23),
 	 ('ec9c871826845f3e908abe0eb19b53c1',113,5640,4480,'SR','[彩りのﾗﾌﾟｿﾃﾞｨ]梅木音葉',26),
-	 ('d97896d3049467df44fb4e7286b401d5',113,6768,5376,'SR+','[彩りのﾗﾌﾟｿﾃﾞｨ]梅木音葉+',27),
+	 ('d97896d3049467df44fb4e7286b401d5',113,6768,5376,'SR+','[彩りのﾗﾌﾟｿﾃﾞｨ]梅木音葉+',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e9e3e22a50cb40f14e8af378610d8827',202,2680,2680,'R','[ﾗﾌﾞｷｭﾝﾊﾞﾚﾝﾀｲﾝ]水谷絵理',2),
 	 ('ba9570ecd97a1d4a7525fabdcc6b0c98',202,4340,3080,'R+','[絆のﾌﾟﾛﾄｺﾙ]水谷絵理+',7),
 	 ('5e2ce56ce241f77692f5ba6723149452',126,1440,920,'R','森久保乃々',0),
@@ -4265,10 +4263,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('91c804725622c458fb9ab4978c12c0f2',126,2740,2720,'R','[ﾒﾙﾍﾝﾌﾞｯｸ]森久保乃々',6),
 	 ('6283db813b3078f4fbc784a13be0de07',126,3936,2688,'R+','[ｻﾏｰﾘｿﾞｰﾄ]森久保乃々+',9),
 	 ('41149651c1bab97e7affc92db00e41a8',126,5232,4920,'SR+','[おどおど狩人]森久保乃々+',19),
-	 ('8843edbf60141fe58688c10800de5de5',126,7920,5808,'SR+','[ｲｰｽﾀｰﾊﾌﾟﾆﾝｸﾞ]森久保乃々+',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('8843edbf60141fe58688c10800de5de5',126,7920,5808,'SR+','[ｲｰｽﾀｰﾊﾌﾟﾆﾝｸﾞ]森久保乃々+',23),
 	 ('1d63c4a42d028283013611414cb2bb8d',126,11900,10450,'SR','[6thｱﾆﾊﾞｰｻﾘｰ･S]森久保乃々',30),
-	 ('bcfc346a8bebc8b91b6c2a4db68af955',33,7488,5232,'SR+','[白妙の絢姫]小早川紗枝+',21),
+	 ('bcfc346a8bebc8b91b6c2a4db68af955',33,7488,5232,'SR+','[白妙の絢姫]小早川紗枝+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('943bd10489f8c2681b5cfc48f9168190',33,5880,5840,'SR','[銀幕の綺羅星]小早川紗枝',24),
 	 ('13f68f7a37bdcbf6eb4292f0f1473ef3',33,6320,6280,'SR','[万代の藤波]小早川紗枝',28),
 	 ('d2612b52c629e6a5ffcb5de8c6c77c1f',74,1020,1524,'R+','[聖夜]神谷奈緒+',3),
@@ -4276,10 +4274,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('21db51dfd598fc78744050f3bd726b6c',74,5860,4380,'SR','[魔法のｴｰﾙ]神谷奈緒',16),
 	 ('6605ee3d07ad7a750c55492215c2df86',74,6240,4560,'SR','[純真の花嫁]神谷奈緒',18),
 	 ('90340a72d8990fb4ae7171feeef246b4',74,6760,4920,'SR','[夏空ｻﾌﾟﾗｲｽﾞ]神谷奈緒',22),
-	 ('224d562032e630fa1cc8d555dbb2c553',74,7180,5260,'SR','[気まぐれにゃんこ]神谷奈緒',24);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('224d562032e630fa1cc8d555dbb2c553',74,7180,5260,'SR','[気まぐれにゃんこ]神谷奈緒',24),
 	 ('6bc7ed519cc960dc274b6bd92597b937',74,9216,7200,'SR+','[澄天の湯華]神谷奈緒+',27),
-	 ('60ebcfd8416a9313d1310f7005514731',74,8256,8160,'SR+','[光風に吹かれて]神谷奈緒+',29),
+	 ('60ebcfd8416a9313d1310f7005514731',74,8256,8160,'SR+','[光風に吹かれて]神谷奈緒+',29);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6407e6c65d751a7bf8df2462ebb84734',74,4260,4100,'SR','[8thｱﾆﾊﾞｰｻﾘｰ]神谷奈緒',33),
 	 ('4f5b004fa5fb6ddffd8f983a017a411d',74,5112,4920,'SR+','[8thｱﾆﾊﾞｰｻﾘｰ]神谷奈緒+',34),
 	 ('f46c6342576f0ae7305bca3d935470f6',74,7720,7580,'SR','[ﾄﾞﾚｽｱｯﾌﾟﾅｲﾄ]神谷奈緒',39),
@@ -4287,10 +4285,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5c5d2f9c500966d1c6637c089d6c57f3',84,3888,2712,'R+','[教室のｱｲﾄﾞﾙ]藤原肇+',9),
 	 ('e523d0a3f90a44554d3702b1320957c5',84,4656,3936,'SR+','[夢の使者]藤原肇+',11),
 	 ('979595d903dfaafad36539c8b075f19a',84,4560,4400,'SR','[憧憬の絵姿]藤原肇',14),
-	 ('ad166bff62c60b26fa74b6aa60802a77',84,5380,3940,'SR','[九天の玄女]藤原肇',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ad166bff62c60b26fa74b6aa60802a77',84,5380,3940,'SR','[九天の玄女]藤原肇',16),
 	 ('517be5a4998a30862dd638566ca6f499',84,6576,6432,'SR+','[小さな息吹]藤原肇+',21),
-	 ('67e57c34ab643e525c72ff31317bbe29',84,3260,3140,'SR','[ﾎﾜｲﾄｼﾞｬｰﾆｰ]藤原肇',22),
+	 ('67e57c34ab643e525c72ff31317bbe29',84,3260,3140,'SR','[ﾎﾜｲﾄｼﾞｬｰﾆｰ]藤原肇',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('eb1d57f9b906de305439f9ab26c6cdcf',84,8544,6192,'SR+','[ｸﾜｲｴｯﾄ･ｽﾞｨｰﾙ]藤原肇+',27),
 	 ('96067017486cbfce169a8ca73d96f90a',84,7680,7560,'SR','[ただひとつの器]藤原肇',34),
 	 ('46ae683a3d17532498e4115c5b27b543',84,8600,6760,'SR','[清らかな秋陽]藤原肇',36),
@@ -4298,10 +4296,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('86972ac887ef7cdbd493b5c04cdfd8ae',104,1540,2300,'R','綾瀬穂乃香',0),
 	 ('a5794d6e6f993dad76d41c59f7564169',104,3552,2304,'R+','[ﾌﾟﾘﾏ･ｶﾞｰﾙ]綾瀬穂乃香+',5),
 	 ('89abb5eb2a87fa7139ae8a92c5d53de3',104,3320,2200,'R','[迎春神楽]綾瀬穂乃香',9),
-	 ('acfd757cd1d818e44a257bab42cbc34f',104,4240,3160,'R+','[ﾍﾞｰｶﾘｰI.C]綾瀬穂乃香+',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('acfd757cd1d818e44a257bab42cbc34f',104,4240,3160,'R+','[ﾍﾞｰｶﾘｰI.C]綾瀬穂乃香+',11),
 	 ('253d0f89024fe368063bc20f49aca60b',104,3280,2160,'R','[懐かしきｴﾄﾜｰﾙ]綾瀬穂乃香',12),
-	 ('6bacd661e77f7646ae508d68f55b642a',104,3936,2592,'R+','[懐かしきｴﾄﾜｰﾙ]綾瀬穂乃香+',13),
+	 ('6bacd661e77f7646ae508d68f55b642a',104,3936,2592,'R+','[懐かしきｴﾄﾜｰﾙ]綾瀬穂乃香+',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('9165c2689a8b2dc898abea7c588bf4fb',104,4160,4240,'SR','[ｸﾛﾈｺﾁｱｰ]綾瀬穂乃香',18),
 	 ('4c7ad97f4e839bcc5a54b54bd69b731b',104,4992,5088,'SR+','[ｸﾛﾈｺﾁｱｰ]綾瀬穂乃香+',19),
 	 ('735912142ede0bd3c2379e81506ebf51',104,6440,4460,'SR','[ｸｰﾘｯｼｭﾗﾌﾞﾘｰ]綾瀬穂乃香',22),
@@ -4309,10 +4307,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c21c6c27910575d31d8a02f59dac2362',104,9648,7536,'SR+','[耀きのﾋﾟﾙｴｯﾄ]綾瀬穂乃香+',29),
 	 ('9eaac4183340ba4f2439b1f5d9a372b1',104,8500,6540,'SR','[星降るｴｽﾊﾟｽ]綾瀬穂乃香',32),
 	 ('fc9e599c52e561c8376c92aa9bf3f76b',113,1992,2352,'R+','[ﾊﾛｳｨﾝﾊﾟｰﾃｨｰ]梅木音葉+',3),
-	 ('f436a23041b6b2dfce6c7487572b39d2',113,2740,2620,'R','[風の語り手]梅木音葉',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f436a23041b6b2dfce6c7487572b39d2',113,2740,2620,'R','[風の語り手]梅木音葉',6),
 	 ('83836550ad64aaa3694b396d5d3fdacb',113,3288,3144,'R+','[風の語り手]梅木音葉+',7),
-	 ('5e21903192e2179e480b0684afc509ed',113,7128,7056,'SR+','[ﾒﾛﾃﾞｨｱｽﾜｰﾙﾄﾞ]梅木音葉+',19),
+	 ('5e21903192e2179e480b0684afc509ed',113,7128,7056,'SR+','[ﾒﾛﾃﾞｨｱｽﾜｰﾙﾄﾞ]梅木音葉+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('725a7367f2c8c08fa9f88fb14c58786a',113,4752,4632,'SR+','[新芽の調べ]梅木音葉+',21),
 	 ('70927bba624b93645c5e3d510c8efa69',202,3216,3216,'R+','[ﾗﾌﾞｷｭﾝﾊﾞﾚﾝﾀｲﾝ]水谷絵理+',3),
 	 ('d44829498be6cbc5877ecdc32b7b46fa',202,3820,3680,'R+','[魔法のｺﾝﾁｪﾙﾄ]水谷絵理+',6),
@@ -4320,10 +4318,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1ec11feb35f4b8aa22a14e8fd8763a96',126,5784,3912,'SR+','[ﾈｶﾞﾃｨｳﾞ乙女]森久保乃々+',11),
 	 ('b88133ff50c072f82fd693cd978fb5b1',126,4680,4720,'SR','[困惑の小ﾘｽ]森久保乃々',16),
 	 ('8272eb1670965488afb2cec0ff3ad314',126,7512,5520,'SR+','[迷々ｴｽｹｰﾌﾟ]森久保乃々+',21),
-	 ('a55383925d3c72058386acb662f47aa2',126,7536,7392,'SR+','[ｴｽｹｰﾌﾟﾌﾞﾗｲﾄﾞ]森久保乃々+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a55383925d3c72058386acb662f47aa2',126,7536,7392,'SR+','[ｴｽｹｰﾌﾟﾌﾞﾗｲﾄﾞ]森久保乃々+',25),
 	 ('323901218db4adb11070ca80dbaa2339',126,8616,6408,'SR+','[小さなかくれんぼ]森久保乃々+',27),
-	 ('c7baddc04dfc4f1e5c87dce6e79d3e5e',126,10248,7800,'SR+','[夢のささやき]森久保乃々+',36),
+	 ('c7baddc04dfc4f1e5c87dce6e79d3e5e',126,10248,7800,'SR+','[夢のささやき]森久保乃々+',36);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c8543757f2537f22c13e39998c652da4',33,6300,4640,'SR','[大和のこころ]小早川紗枝',22),
 	 ('76301262a0d6d164f8d35b6148bc96cb',33,7584,7536,'SR+','[万代の藤波]小早川紗枝+',29),
 	 ('8eabbc84aaa0c91e10cee3644d739b3e',33,8760,8712,'SR+','[花舞うまほろば]小早川紗枝+',37),
@@ -4331,10 +4329,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9c9c15601b70b9001c558d79df7f2795',74,1240,1760,'R','[京町乙女]神谷奈緒',4),
 	 ('42ccfcf77765fe187c5b01a39b83b62b',74,4140,3900,'SR','[ｱﾄﾗｸﾄｺﾞｼｯｸ]神谷奈緒',10),
 	 ('65c6332be6031ac00cab0de46cd8b679',74,3408,2664,'SR+','[CDﾃﾞﾋﾞｭｰ]神谷奈緒+',15),
-	 ('2c7cf0f30845f13b7794d96367f6f37a',74,5640,5480,'SR','[ﾄｩﾌﾟﾛﾐｽ]神谷奈緒',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2c7cf0f30845f13b7794d96367f6f37a',74,5640,5480,'SR','[ﾄｩﾌﾟﾛﾐｽ]神谷奈緒',20),
 	 ('851ace49d5eabd4fa1afbf37c4f1ae9e',74,8200,6180,'SR','[ﾌﾟﾘｽﾃｨｰﾝｴｲﾑ]神谷奈緒',31),
-	 ('de024fa9d354be06cdd8278ee45acce5',74,10850,7350,'SR+','[8thｱﾆﾊﾞｰｻﾘｰ･S]神谷奈緒+',36),
+	 ('de024fa9d354be06cdd8278ee45acce5',74,10850,7350,'SR+','[8thｱﾆﾊﾞｰｻﾘｰ･S]神谷奈緒+',36);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('567744d5142a9fb527fce3d4e2b25d45',74,10176,8232,'SR+','[ﾋﾟｭｱﾗｲﾄｽｶｲ]神谷奈緒+',38),
 	 ('4ee7b16973889716589be41a7d7c5735',84,2208,3624,'R+','[浴衣祭り]藤原肇+',3),
 	 ('46db0d085f1d31bd2f46f794311f1a74',84,3960,2664,'R+','[紅葉温泉]藤原肇+',7),
@@ -4342,10 +4340,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e07d0ce249c886d712cb8558e9058843',94,8460,6520,'SR','[SOUND A ROUND]松永涼',33),
 	 ('829397535a2dda749dc533961eae03e1',104,1848,2760,'R+','綾瀬穂乃香+',1),
 	 ('d533b3523931222e49a7c7814e06888c',113,3984,2544,'R+','[そよ風のﾄﾘﾋﾞｭｰﾄ]梅木音葉+',11),
-	 ('df2c2bd1d61b057e0bce6f34d13e5b09',113,4460,4040,'SR','[ﾀﾞｰｸﾊﾞﾄﾗｰ]梅木音葉',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('df2c2bd1d61b057e0bce6f34d13e5b09',113,4460,4040,'SR','[ﾀﾞｰｸﾊﾞﾄﾗｰ]梅木音葉',16),
 	 ('e8139df33fb922b3d9b02dab89ca6456',113,3240,2060,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]梅木音葉',24),
-	 ('7ad6bd146fe2c0a9d7f4d1d70e85339a',202,4480,4440,'SR','[夜桜奇譚]水谷絵理',4),
+	 ('7ad6bd146fe2c0a9d7f4d1d70e85339a',202,4480,4440,'SR','[夜桜奇譚]水谷絵理',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('560577bc6c3151c185624adb2d10b427',126,1680,2960,'R','[ﾒﾙﾍﾝ&ｺﾞｼｯｸ]森久保乃々',2),
 	 ('ffe272a5090faa227b489ea020f69a00',33,7560,5568,'SR+','[大和のこころ]小早川紗枝+',23),
 	 ('183e353992ea4ae9795f5951b56cbd14',33,7056,7008,'SR+','[銀幕の綺羅星]小早川紗枝+',25),
@@ -4353,10 +4351,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d5e657f5ec28629effc2da211cd79455',33,8520,6264,'SR+','[風光る乙姫]小早川紗枝+',27),
 	 ('67f718dfb03e338ba76c322b1970258e',75,920,680,'N','上条春菜',0),
 	 ('90d5b268954cd457fa650376fb7c37fe',75,2424,1632,'R+','[ｱﾆﾊﾞｰｻﾘｰﾌﾞﾙｰ]上条春菜+',5),
-	 ('f64ea05ba41f018d4c5fc08e4e4e0c10',84,2820,2020,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]藤原肇',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f64ea05ba41f018d4c5fc08e4e4e0c10',84,2820,2020,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNP]藤原肇',4),
 	 ('bf005e32b739ebbcd648280ba8050bc1',84,3300,2220,'R','[紅葉温泉]藤原肇',6),
-	 ('bee91878694ccf9ac29f98bf6b4b5a3e',84,3880,3280,'SR','[夢の使者]藤原肇',10),
+	 ('bee91878694ccf9ac29f98bf6b4b5a3e',84,3880,3280,'SR','[夢の使者]藤原肇',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('879e77d88385679197491d5ed4ed7e6f',84,4520,3100,'SR','[夜桜小町]藤原肇',12),
 	 ('5245f9a8bbfc8c00e913bd84078d1947',84,5424,3720,'SR+','[夜桜小町]藤原肇+',13),
 	 ('4c90bd7715d2326f6029a18a181e2785',84,5680,3920,'SR','[新たな色]藤原肇',18),
@@ -4364,10 +4362,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f76606e958186ed0c7abf674357fc6e4',84,4660,3900,'SR','[ﾎﾜｲﾄｼﾞｬｰﾆｰ･S]藤原肇',24),
 	 ('017bb5285930bc6789dabf9bd1dde176',84,5592,4680,'SR+','[ﾎﾜｲﾄｼﾞｬｰﾆｰ･S]藤原肇+',25),
 	 ('68568b39c7f08ee70eed314d248580db',84,7520,5920,'SR','[待ちて玉桂]藤原肇',28),
-	 ('768836d17f37cd2fe691186b228481bc',84,7320,7240,'SR','[光彩の芸術]藤原肇',30);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('768836d17f37cd2fe691186b228481bc',84,7320,7240,'SR','[光彩の芸術]藤原肇',30),
 	 ('5407b218969b1b0b0a139066e9cc502a',84,8620,6740,'SR','[楽園の佳景]藤原肇',32),
-	 ('d925b1db151da01b386045506ea410bf',94,1632,1632,'R+','[ﾃｰﾏﾊﾟｰｸ]松永涼+',3),
+	 ('d925b1db151da01b386045506ea410bf',94,1632,1632,'R+','[ﾃｰﾏﾊﾟｰｸ]松永涼+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8de0a568c134685e6c62b1c1ce5904fe',94,3216,2352,'R+','[ﾛｯｷﾝｳﾞｫｰｶﾙ]松永涼+',7),
 	 ('bf035f7688283058e98bcf8488a05dcc',94,2760,2700,'R','[さわやかｽﾎﾟｰﾂ]松永涼',10),
 	 ('a30f4d848b8bef6dfe1da50c4358f73a',94,3120,2360,'SR','[ﾛｯｷﾝｳﾞｫｰｶﾘｽﾄ]松永涼',15),
@@ -4375,10 +4373,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b798ef55b62294c76f858d8e4698b5af',94,4020,3800,'SR','[ｿｳﾙﾌﾙﾁｱｰ]松永涼',21),
 	 ('b463fb297c3459dc85f3a1a44a61b7ab',94,8016,5448,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]松永涼+',24),
 	 ('63861d3e845172c5c8881406e66bfe78',94,12050,10900,'SR','[微笑みの佳人]松永涼',27),
-	 ('c4a50cfdffa7e5ecd730241aaf5a83dc',94,3360,3312,'R+','[新年晴姿]松永涼+',30);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c4a50cfdffa7e5ecd730241aaf5a83dc',94,3360,3312,'R+','[新年晴姿]松永涼+',30),
 	 ('e2fa19e51b793a88860a1fa01d773b5d',104,1880,3160,'R','[制服ｺﾚｸｼｮﾝ]綾瀬穂乃香',2),
-	 ('0ad081c3907847d493a7affac9507fe7',104,3220,2200,'R','[努力のﾒｿｯﾄﾞ]綾瀬穂乃香',7),
+	 ('0ad081c3907847d493a7affac9507fe7',104,3220,2200,'R','[努力のﾒｿｯﾄﾞ]綾瀬穂乃香',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5fe1faaee0a52e41f24eea585a682df5',114,1840,2560,'R','白坂小梅',0),
 	 ('7a1a52d2d04ab51452a17d8a0fa13deb',114,1020,1460,'R','[ｳｨﾝﾀｰﾎﾗｰﾈｲﾋﾞｰ]白坂小梅',5),
 	 ('b298709e4e9b623a243f4c260ce67039',114,2280,2800,'R+','[ｳｨﾝﾀｰｽﾀｲﾙｲﾔｰﾏﾌ]白坂小梅+',10),
@@ -4386,10 +4384,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f05381161e3760b235eece970659c13c',114,4560,4080,'SR+','[ﾊﾛｳｨﾝﾅｲﾄﾒｱ]白坂小梅+',17),
 	 ('5078a4011745218d0c969cad3bf3c169',114,1600,2400,'SR','[ﾎﾜｲﾄﾅｲﾄﾒｱ]白坂小梅',18),
 	 ('6f3c920d53e4f0ed7eb1cbe9482cd7d3',114,2208,2832,'SR+','[CDﾃﾞﾋﾞｭｰ]白坂小梅+',23),
-	 ('f74c99a3dba8770ce827fd3ceee60a10',114,5140,3680,'SR','[ｺﾞｼｯｸﾎﾗｰﾅｲﾄﾒｱ]白坂小梅',24);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f74c99a3dba8770ce827fd3ceee60a10',114,5140,3680,'SR','[ｺﾞｼｯｸﾎﾗｰﾅｲﾄﾒｱ]白坂小梅',24),
 	 ('7784c97bce5a0e14bcd3d9aa63cb3ecf',114,7248,4416,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]白坂小梅+',29),
-	 ('7efa533684a2dd156d50e2ce4a59136d',114,6400,4540,'SR','[ｽﾃｯﾌﾟﾊﾞｲｽﾃｯﾌﾟ]白坂小梅',30),
+	 ('7efa533684a2dd156d50e2ce4a59136d',114,6400,4540,'SR','[ｽﾃｯﾌﾟﾊﾞｲｽﾃｯﾌﾟ]白坂小梅',30);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('da1764a3a75a36f036c830770c0fa508',114,5040,5280,'SR+','[4thｱﾆﾊﾞｰｻﾘｰ･S]白坂小梅+',35),
 	 ('58b52532b2a4c66aae460c87e2f19a7f',114,6280,6200,'SR','[ﾂﾅｶﾞﾙｳﾜｻ]白坂小梅',36),
 	 ('305278ef5f9fd46a04e29910e2cc07fd',114,9144,7128,'SR+','[溟海の使者]白坂小梅+',39),
@@ -4397,10 +4395,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('db1c7f62f1e0a0ea2f77ce1e3307c80f',114,7220,7220,'SR','[ｸﾘｰﾋﾟｰﾌﾚﾝｽﾞ]白坂小梅',44),
 	 ('01598c2bb829b8a6bedfe5fb3a2400c6',114,8180,6340,'SR','[ﾊｽﾘﾝｸﾞｺｰﾙ]白坂小梅',46),
 	 ('754e0875bad44951b0346b5ac037e0e0',114,7600,7580,'SR','[ｾﾝﾘﾂﾉﾖﾙ]白坂小梅',50),
-	 ('b1f7ec0fde48b37bea7b1a396c9afbf1',114,8460,6600,'SR','[ﾖﾓｽｶﾞﾗ･ﾊﾟｰﾃｨｰ]白坂小梅',52);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b1f7ec0fde48b37bea7b1a396c9afbf1',114,8460,6600,'SR','[ﾖﾓｽｶﾞﾗ･ﾊﾟｰﾃｨｰ]白坂小梅',52),
 	 ('31f1b04a5f27c0d7f550cd9221f93596',205,1860,2340,'R','砂塚あきら',0),
-	 ('4509b83518e74893bc06b51e3f3867e1',205,10200,7992,'SR+','[#seaside_color]砂塚あきら+',5),
+	 ('4509b83518e74893bc06b51e3f3867e1',205,10200,7992,'SR+','[#seaside_color]砂塚あきら+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d3596c108c2e5d1a2c5fba20653d3964',126,2016,3552,'R+','[ﾒﾙﾍﾝ&ｺﾞｼｯｸ]森久保乃々+',3),
 	 ('5e21c7da84afb19648a4e1b0805ee208',126,3280,2240,'R','[ｻﾏｰﾘｿﾞｰﾄ]森久保乃々',8),
 	 ('2ff046908bbb217d3032a291e9ce7b50',126,2760,2760,'SR','[ｼｮｺﾗﾊﾞﾚﾝﾀｲﾝ]森久保乃々',12),
@@ -4408,10 +4406,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3c540d8876286f851cd0094779fff4f3',126,4360,4100,'SR','[おどおど狩人]森久保乃々',18),
 	 ('fe787e19422e90f906eb7776da2f8615',126,7180,5340,'SR','[小さなかくれんぼ]森久保乃々',26),
 	 ('6cfa82a115d97c96ecddbf9c9887a7e3',126,4632,4800,'SR+','[6thｱﾆﾊﾞｰｻﾘｰ]森久保乃々+',29),
-	 ('78fa573c88235b1755433d4cb5b0b241',126,8140,6200,'SR','[ﾎﾜｲﾄｱｳﾄ]森久保乃々',32);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('78fa573c88235b1755433d4cb5b0b241',126,8140,6200,'SR','[ﾎﾜｲﾄｱｳﾄ]森久保乃々',32),
 	 ('faeeb2f0fb08463bd30f5f6ae61cc382',126,8832,6072,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]森久保乃々+',35),
-	 ('ba9990d5eaf7d09f6470987649cb1dc5',126,8440,6640,'SR','[めぐりあう夏]森久保乃々',38),
+	 ('ba9990d5eaf7d09f6470987649cb1dc5',126,8440,6640,'SR','[めぐりあう夏]森久保乃々',38);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5ad76ec4859e2738528fcb9f9275e34f',33,8976,6960,'SR+','[夢幻のあめつち]小早川紗枝+',31),
 	 ('dd3fbb9901ca08bfd607ec990443539e',33,6880,6840,'SR','[鏡花のかんばせ]小早川紗枝',32),
 	 ('b3ae4a271dbf36363693d6ea25dbe90b',33,8256,8208,'SR+','[鏡花のかんばせ]小早川紗枝+',33),
@@ -4419,10 +4417,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('68d5be6e1422d20d4577bfd9fb25929d',34,2592,2592,'R+','西園寺琴歌+',1),
 	 ('88337a408516e2ea72ba8a25b69d3739',34,2020,2080,'R','[ｸｯｷﾝｸﾞﾁｬﾚﾝｼﾞ]西園寺琴歌',2),
 	 ('b0fc0a3b34f1dc4d7015ff992748d787',34,2424,2496,'R+','[ｸｯｷﾝｸﾞﾁｬﾚﾝｼﾞ]西園寺琴歌+',3),
-	 ('50f91b233f108e33aca3854c2131ce91',34,2496,2424,'R+','[ｸｯｷﾝｸﾞ･ｽﾏｲﾙ]西園寺琴歌+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('50f91b233f108e33aca3854c2131ce91',34,2496,2424,'R+','[ｸｯｷﾝｸﾞ･ｽﾏｲﾙ]西園寺琴歌+',5),
 	 ('891d3b2a397131fe10041331ec76579f',34,2580,2440,'R','[ﾄｷﾒｷﾊﾞﾚﾝﾀｲﾝ]西園寺琴歌',6),
-	 ('02b77809766989d951dbd71427bc8b4e',34,3096,2928,'R+','[ﾄｷﾒｷﾊﾞﾚﾝﾀｲﾝ]西園寺琴歌+',7),
+	 ('02b77809766989d951dbd71427bc8b4e',34,3096,2928,'R+','[ﾄｷﾒｷﾊﾞﾚﾝﾀｲﾝ]西園寺琴歌+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2ca808c34dd608a715ca7dc12abd7e61',34,3280,2220,'R','[ｻﾏｰｼｰｽﾞﾝ]西園寺琴歌',8),
 	 ('5a3472d22bd7713b226d50f93fd35010',34,3936,2664,'R+','[ｻﾏｰｼｰｽﾞﾝ]西園寺琴歌+',9),
 	 ('1f7fa813db72e818458b9ba0574ca464',34,3220,2080,'R','[T.B.ｵｰｼｬﾝ]西園寺琴歌',11),
@@ -4430,10 +4428,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a12d2df2bf89c7eb4c9c79c85589d4bf',34,3940,3140,'SR','[はりきりお嬢様]西園寺琴歌',13),
 	 ('916bedb06316876a193675b005b9e65d',34,4728,3768,'SR+','[はりきりお嬢様]西園寺琴歌+',14),
 	 ('67aeacd0ecebf79e4dff4b81b17933ea',34,5640,4120,'SR','[ｺｺﾛ晴れ模様]西園寺琴歌',17),
-	 ('6a0ab809266438988129412e3b3c0a2f',34,6768,4944,'SR+','[ｺｺﾛ晴れ模様]西園寺琴歌+',18);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6a0ab809266438988129412e3b3c0a2f',34,6768,4944,'SR+','[ｺｺﾛ晴れ模様]西園寺琴歌+',18),
 	 ('f8e37de970056cb819e9b634f5ed3b50',34,5240,5040,'SR','[絢爛華麗]西園寺琴歌',19),
-	 ('b94d27f8bf6ebca0baf1ddc7f0b58cd1',34,6288,6048,'SR+','[絢爛華麗]西園寺琴歌+',20),
+	 ('b94d27f8bf6ebca0baf1ddc7f0b58cd1',34,6288,6048,'SR+','[絢爛華麗]西園寺琴歌+',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('4432b1bb442fe24e22c44557b583eab5',34,6320,6320,'SR','[ｾﾚﾌﾞﾘﾃｨﾛｰﾄﾞ]西園寺琴歌',23),
 	 ('37f641a6738f8d5735db957a37b781ae',34,7584,7584,'SR+','[ｾﾚﾌﾞﾘﾃｨﾛｰﾄﾞ]西園寺琴歌+',24),
 	 ('266e48327969a08b378e9f8c00aff640',34,4760,4820,'SR','[ｿﾘﾁｭｰﾄﾞﾌﾟﾘﾝｾｽ]西園寺琴歌',25),
@@ -4441,10 +4439,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5ac30600dc561a08f244e01b41e5ee59',34,6864,5256,'SR+','[うららか夢心地]西園寺琴歌+',28),
 	 ('0fbb10218379c55e5dc8d1af72a78183',34,3320,2080,'R','[ﾏﾘｯｼﾞｺﾚｸｼｮﾝ]西園寺琴歌',29),
 	 ('da1a988efb0f6ed45205f3306a8629ea',34,8440,6560,'SR','[ﾉｰﾌﾞﾙ･ﾃﾞｨｼｼﾞｮﾝ]西園寺琴歌',31),
-	 ('c981552913cad2107b2a42c40b42f200',75,1104,816,'N+','上条春菜+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c981552913cad2107b2a42c40b42f200',75,1104,816,'N+','上条春菜+',1),
 	 ('c7f5f73ba58581b6d42b967bcef3b33b',75,4032,2616,'R+','[ｸﾘｽﾏｽﾌﾟﾚｾﾞﾝﾄ]上条春菜+',9),
-	 ('f14572d2a0e0cc9e5e76c6eb0e06a48c',75,3840,2544,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]上条春菜+',13),
+	 ('f14572d2a0e0cc9e5e76c6eb0e06a48c',75,3840,2544,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]上条春菜+',13);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bbfd336e241f96dcc83e272d597cb3ef',75,4200,4392,'SR+','[眼鏡ﾌﾟﾘﾝｾｽ]上条春菜+',15),
 	 ('f804a8ac60ea75d39b243b1878fd2e2d',75,5376,4992,'SR+','[ﾎﾜｲﾄﾌﾟﾘﾝｾｽ]上条春菜+',17),
 	 ('33ac3decf73adafad8301c26188e74c8',75,6960,5280,'SR+','[ﾒﾓﾘｱﾙ･ﾌﾞﾙｰ]上条春菜+',21),
@@ -4452,10 +4450,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b0758853c8f9ac6ba7d3ee21fd73d0d8',75,5660,4400,'SR','[ｻﾊﾞｲﾊﾞﾙﾚﾝｽﾞ]上条春菜',26),
 	 ('fd90997589821e4af447f0df5fb230c6',75,8140,6320,'SR','[満開のﾊﾟﾉﾗﾏ]上条春菜',28),
 	 ('ce2ce0a2bd000425b91fd7050b733ab3',75,7740,7600,'SR','[ひみつの行き先]上条春菜',32),
-	 ('2bada7af6dfab066132d050923a513eb',85,980,1220,'N','新田美波',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2bada7af6dfab066132d050923a513eb',85,980,1220,'N','新田美波',0),
 	 ('1a1fe1f5075423ba48922da4fe12dfe2',85,2136,3864,'R+','[ﾊｲｶﾗｻｸﾗ]新田美波+',5),
-	 ('db6604d22bb5f0f5dc9debc86ffd2c0e',94,2240,1860,'R','[ﾊﾛｳｨﾝﾊﾟｰﾃｨｰ]松永涼',4),
+	 ('db6604d22bb5f0f5dc9debc86ffd2c0e',94,2240,1860,'R','[ﾊﾛｳｨﾝﾊﾟｰﾃｨｰ]松永涼',4);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('631a32c8f240c49e29c4c8ca97c92a8d',94,3816,2616,'R+','[熱気の中で]松永涼+',9),
 	 ('5dd271c659752103724376c0a30163ce',94,3312,3240,'R+','[さわやかｽﾎﾟｰﾂ]松永涼+',11),
 	 ('bb8965c51ea8824c9ed23b586af4c99e',94,2820,2640,'R','[ｻﾏｰﾋﾞｰﾁ]松永涼',13),
@@ -4463,10 +4461,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('55fe8f7624359d534974ec4f3bac7ea9',94,7060,5100,'SR','[ｾﾄﾙﾀﾞｳﾝｿｳﾙ]松永涼',19),
 	 ('999f4692ebf2a1728609adbe61b27926',94,4824,4560,'SR+','[ｿｳﾙﾌﾙﾁｱｰ]松永涼+',22),
 	 ('580577cd04d130226003bcadfef58e42',94,3960,3920,'SR','[雨音の佳人]松永涼',25),
-	 ('d9eb533c4a7ef04b4ae532d555d5e894',94,12050,10900,'SR+','[微笑みの佳人]松永涼+',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d9eb533c4a7ef04b4ae532d555d5e894',94,12050,10900,'SR+','[微笑みの佳人]松永涼+',28),
 	 ('068aaf42083b4a745e2da402fcfe318b',94,5140,5080,'SR','[ﾃﾞｨｰﾌﾟ･ﾛﾜｲﾔﾙ]松永涼',31),
-	 ('7cecd63dd24822ce6f6d2d9f062b470e',94,10152,7824,'SR+','[SOUND A ROUND]松永涼+',34),
+	 ('7cecd63dd24822ce6f6d2d9f062b470e',94,10152,7824,'SR+','[SOUND A ROUND]松永涼+',34);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ef5260d9e7b2be838b8fe51c98a17dea',104,2256,3792,'R+','[制服ｺﾚｸｼｮﾝ]綾瀬穂乃香+',3),
 	 ('b87250559476bd36e7a4edd44b2eb222',104,3960,2920,'R+','[夏祭り]綾瀬穂乃香+',6),
 	 ('b94589aec610282ec14866f5256f6d69',104,3984,2640,'R+','[迎春神楽]綾瀬穂乃香+',10),
@@ -4474,10 +4472,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('cf78a1a8fa2662da9903e87ff7fc35cd',104,5328,5424,'SR+','[ﾄﾞｷﾄﾞｷ☆ﾁｬﾚﾝｼﾞ]綾瀬穂乃香+',17),
 	 ('f7cf30adf9a3efe1c1994729fb9e5d2a',104,3320,2560,'SR','[ﾛﾜｲﾔﾙ･ｽｸｴｱ]綾瀬穂乃香',20),
 	 ('de632bfbfe98d8ca7dff701c187659b9',104,4320,3460,'SR','[慕われﾍﾞｰｶｰ]綾瀬穂乃香',24),
-	 ('6e75966bbcafc0541424c8d8f7b4fcd6',104,5184,4152,'SR+','[慕われﾍﾞｰｶｰ]綾瀬穂乃香+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6e75966bbcafc0541424c8d8f7b4fcd6',104,5184,4152,'SR+','[慕われﾍﾞｰｶｰ]綾瀬穂乃香+',25),
 	 ('67533eccde6262a62217411cbd355817',104,3260,2240,'R','[しとやか夏花]綾瀬穂乃香',30),
-	 ('1ebe1eaff751d797e7926208470f4aee',104,3912,2688,'R+','[しとやか夏花]綾瀬穂乃香+',31),
+	 ('1ebe1eaff751d797e7926208470f4aee',104,3912,2688,'R+','[しとやか夏花]綾瀬穂乃香+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ae2faa4771c040ad14953055cdba97c0',114,2208,3072,'R+','白坂小梅+',1),
 	 ('c8dd511c09612e82ebe3ccfed4c80e16',114,1730,2250,'R+','[ｳｨﾝﾀｰｽﾀｲﾙ]白坂小梅+',8),
 	 ('f885b02cf61af65fe2bb964902ff5e6c',114,2550,3360,'R+','[ｳｨﾝﾀｰｽﾀｲﾙﾊﾞｯｸﾞ]白坂小梅+',11),
@@ -4485,10 +4483,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('99baa4962244767d412e5585b86a318c',34,3500,3440,'R+','[ｽｳｨｰﾄﾌｨｰﾙ]西園寺琴歌+',10),
 	 ('a3bb548475ded39750363881d0d9e565',34,5380,3960,'SR','[花園の春風]西園寺琴歌',15),
 	 ('46a013ca127d7f819c23d119e7a7edda',34,6456,4752,'SR+','[花園の春風]西園寺琴歌+',16),
-	 ('0732aa4adbd00581535c13bcaf43b50c',34,6680,4920,'SR','[ﾄﾛﾋﾟｶﾙｻﾏｰ]西園寺琴歌',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0732aa4adbd00581535c13bcaf43b50c',34,6680,4920,'SR','[ﾄﾛﾋﾟｶﾙｻﾏｰ]西園寺琴歌',21),
 	 ('85a78a16c15d828a821e3be821b3793c',34,8016,5904,'SR+','[ﾄﾛﾋﾟｶﾙｻﾏｰ]西園寺琴歌+',22),
-	 ('173b8eb87228a824489b1750b8c584b5',34,5720,4380,'SR','[うららか夢心地]西園寺琴歌',27),
+	 ('173b8eb87228a824489b1750b8c584b5',34,5720,4380,'SR','[うららか夢心地]西園寺琴歌',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('91f25c0043fe17d26cb37a3e9e000c22',34,3984,2496,'R+','[ﾏﾘｯｼﾞｺﾚｸｼｮﾝ]西園寺琴歌+',30),
 	 ('d1d8e651baf8126015d8e999116ccb3f',34,10128,7872,'SR+','[ﾉｰﾌﾞﾙ･ﾃﾞｨｼｼﾞｮﾝ]西園寺琴歌+',32),
 	 ('4708ed7e50952392ecc752f78a2fc494',35,3200,2460,'R+','[夏休み]双葉杏+',2),
@@ -4496,10 +4494,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('06bf3b4fc27d472d11c5735d4bf1008c',35,4320,3696,'SR+','[だらだら妖精]双葉杏+',7),
 	 ('f67ab6bb27463ff30c1bf3eb9e30c205',35,1420,1120,'SR','[CDﾃﾞﾋﾞｭｰ]双葉杏',8),
 	 ('0749a5f548083353b1c06f7a71ea2796',35,1704,1344,'SR+','[CDﾃﾞﾋﾞｭｰ]双葉杏+',9),
-	 ('d48d11a6d14755a40c497076b2010f6e',35,4400,3200,'SR','[ﾊﾛｳｨﾝぷちﾃﾞﾋﾞﾙ]双葉杏',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d48d11a6d14755a40c497076b2010f6e',35,4400,3200,'SR','[ﾊﾛｳｨﾝぷちﾃﾞﾋﾞﾙ]双葉杏',10),
 	 ('68be112533136c5b5838059c76802622',35,5280,3840,'SR+','[ﾊﾛｳｨﾝぷちﾃﾞﾋﾞﾙ]双葉杏+',11),
-	 ('9e3d3bf199e1b48a4f973abcd484d078',35,4540,2880,'SR','[だだっ子お姫さま]双葉杏',12),
+	 ('9e3d3bf199e1b48a4f973abcd484d078',35,4540,2880,'SR','[だだっ子お姫さま]双葉杏',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('fda6831b48d56bb489de02a54b6e5c1e',35,5340,3880,'SR','[新春の甘姫]双葉杏',14),
 	 ('451734e83549281289ac3b275f16855c',35,4720,4640,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]双葉杏',16),
 	 ('f86d864ff653884e26e6f2c63457bb11',35,5664,5568,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]双葉杏+',17),
@@ -4507,10 +4505,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fb27330f9cd9285f01e38151db642b5b',35,3640,3640,'SR+','[ﾉｰｱｲﾄﾞﾙ･ﾉｰﾗｲﾌ]双葉杏+',20),
 	 ('f3b18751e845843846fc93062cc3409a',35,4020,5120,'SR+','[ｷｬﾝﾃﾞｨｱｲﾗﾝﾄﾞ]双葉杏+',22),
 	 ('b565fc1857e5773d5aa49d06a90fa4d2',35,6560,4760,'SR','[わがままｻﾝﾀ]双葉杏',23),
-	 ('7363848059cb366197a23423e4b50718',35,6720,4800,'SR','[ﾊｯﾋﾟｰﾗｲﾌﾜｰｸ]双葉杏',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7363848059cb366197a23423e4b50718',35,6720,4800,'SR','[ﾊｯﾋﾟｰﾗｲﾌﾜｰｸ]双葉杏',25),
 	 ('f3146fec776d68a022b7424198d733df',35,8064,5760,'SR+','[ﾊｯﾋﾟｰﾗｲﾌﾜｰｸ]双葉杏+',26),
-	 ('458454502049072b7c4f264362088614',35,8736,6624,'SR+','[あんずのきもち]双葉杏+',28),
+	 ('458454502049072b7c4f264362088614',35,8736,6624,'SR+','[あんずのきもち]双葉杏+',28);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('553668e418d1a9e9c80d6f450e38fe36',35,9168,7152,'SR+','[よきにはからえ]双葉杏+',30),
 	 ('1368ef2c75ed2760c77032e30987d6f5',35,7000,7000,'SR','[あんずの主張]双葉杏',31),
 	 ('fffdb0dbb5c29d377363b4559084e8f3',35,8400,8400,'SR+','[あんずの主張]双葉杏+',32),
@@ -4518,10 +4516,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9b94a4dc5c3b4861d128afdbb75974a5',35,9624,7512,'SR+','[ぐうたら王国]双葉杏+',36),
 	 ('06d513b5c3ad07378f58e37ae4f3e312',35,8300,6480,'SR','[あんずの誓い]双葉杏',37),
 	 ('660179bc7d7e406cf7c859ed90b3020a',35,10296,7848,'SR+','[やる時はやる]双葉杏+',40),
-	 ('c4b191ff0f48ad4a7f10720e6a8a8420',35,10368,7992,'SR+','[安らぎの案内人]双葉杏+',42);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c4b191ff0f48ad4a7f10720e6a8a8420',35,10368,7992,'SR+','[安らぎの案内人]双葉杏+',42),
 	 ('30376d9c5c74a63aa62d34b6e5549287',75,2120,1800,'R','[眼鏡ﾏｼﾞｯｸ]上条春菜',2),
-	 ('f4e2b86a14a5136878c169258a0d752d',75,3768,2664,'R+','[新春ｺﾚｸｼｮﾝ]上条春菜+',7),
+	 ('f4e2b86a14a5136878c169258a0d752d',75,3768,2664,'R+','[新春ｺﾚｸｼｮﾝ]上条春菜+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1a99e96a10fc8b6aa1d86de6df110900',75,3300,2200,'R','[秋の学園祭]上条春菜',10),
 	 ('2a2f22a080bc2c4e29398609f0c9745b',75,3200,2120,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]上条春菜',12),
 	 ('dd7ae2fc2ca09c5c5b4bdc9e3e7697b6',75,4480,4160,'SR','[ﾎﾜｲﾄﾌﾟﾘﾝｾｽ]上条春菜',16),
@@ -4529,10 +4527,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('18b68bdafe0fbaff1a378cced824f0ff',75,5800,4400,'SR','[ﾒﾓﾘｱﾙ･ﾌﾞﾙｰ]上条春菜',20),
 	 ('d0295a5659843bd21770dac6893d9b56',75,6520,6480,'SR','[炎陽の瞳]上条春菜',24),
 	 ('f1ce9fe3c24401ead324369c9831189f',75,7824,7776,'SR+','[炎陽の瞳]上条春菜+',25),
-	 ('fbd1480e52e28f45e958c4a83617ab44',75,8440,6500,'SR','[澄みきった世界]上条春菜',30);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('fbd1480e52e28f45e958c4a83617ab44',75,8440,6500,'SR','[澄みきった世界]上条春菜',30),
 	 ('95609d3248c39e7b27ee3e5bd6a406dc',75,9288,9120,'SR+','[ひみつの行き先]上条春菜+',33),
-	 ('68ed242f80829cdb4072549098177b27',85,1176,1464,'N+','新田美波+',1),
+	 ('68ed242f80829cdb4072549098177b27',85,1176,1464,'N+','新田美波+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e9d2e494154da1e8f2df3c7fbc2bb7ce',85,3936,2640,'R+','[ｽｸｰﾙﾌﾟｰﾙ]新田美波+',7),
 	 ('f2b2772c7797da5eeb1f587e0fce9a8b',85,9792,7776,'SR+','[揺らめく花影]新田美波+',36),
 	 ('5a5982017937c03da1bd479e13729cd3',85,8440,6560,'SR','[夏色の南風]新田美波',41),
@@ -4540,10 +4538,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('052c63f721faba1ce3c0ee0b14c45bb4',95,760,800,'R','小室千奈美',0),
 	 ('e07ba1df924d713909c3e34b14cf279a',95,3240,3192,'R+','[ｾﾚﾌﾞﾚﾃｨJKT]小室千奈美+',5),
 	 ('65aa48277443a7498e3181e6ded0f4bd',104,2960,1920,'R','[ﾌﾟﾘﾏ･ｶﾞｰﾙ]綾瀬穂乃香',4),
-	 ('49cc7476bd18bdeef7db013a4800066e',104,3864,2640,'R+','[努力のﾒｿｯﾄﾞ]綾瀬穂乃香+',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('49cc7476bd18bdeef7db013a4800066e',104,3864,2640,'R+','[努力のﾒｿｯﾄﾞ]綾瀬穂乃香+',8),
 	 ('381325f3180288e9b294f4fe6895063c',104,2592,1848,'SR+','[ﾋﾟｭｱﾊｰﾄ]綾瀬穂乃香+',15),
-	 ('99fbb3e80d42f6a456d1f1dbbfbe2ad9',104,4440,4520,'SR','[ﾄﾞｷﾄﾞｷ☆ﾁｬﾚﾝｼﾞ]綾瀬穂乃香',16),
+	 ('99fbb3e80d42f6a456d1f1dbbfbe2ad9',104,4440,4520,'SR','[ﾄﾞｷﾄﾞｷ☆ﾁｬﾚﾝｼﾞ]綾瀬穂乃香',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('582c4b7e8369b6f5cb65c7a949a59d98',104,3984,3072,'SR+','[ﾛﾜｲﾔﾙ･ｽｸｴｱ]綾瀬穂乃香+',21),
 	 ('64be02ca19b0210c83956d56b53baa98',104,7728,5352,'SR+','[ｸｰﾘｯｼｭﾗﾌﾞﾘｰ]綾瀬穂乃香+',23),
 	 ('b5e8d9784a291c73d1d7dedf4596a79c',104,5260,4260,'SR','[ほほえみﾍﾞｰｶｰ]綾瀬穂乃香',26),
@@ -4551,10 +4549,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('682bfdefbd5735ba025d49b5c6da6491',104,10200,7848,'SR+','[星降るｴｽﾊﾟｽ]綾瀬穂乃香+',33),
 	 ('3636752aaa4fff30e038839aa6121adf',114,3020,1880,'R','[ﾒｲﾄﾞｺﾚｸｼｮﾝ]白坂小梅',2),
 	 ('45b845227aa7ff52c176905bee731373',114,2010,2420,'R+','[ｳｨﾝﾀｰｽﾀｲﾙﾏﾌﾗｰ]白坂小梅+',9),
-	 ('bcc92a7d693443ae50353418e9f01e87',35,4008,2616,'R+','[ﾊｲｶﾗｻｸﾗ]双葉杏+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bcc92a7d693443ae50353418e9f01e87',35,4008,2616,'R+','[ﾊｲｶﾗｻｸﾗ]双葉杏+',5),
 	 ('be6b498b2324fa909e6ad58fa03e875e',35,3340,2180,'R','[ﾊｲｶﾗｻｸﾗ]双葉杏',4),
-	 ('fa5391c4ffc5f3aaaab8f4be52e4ede2',35,3600,3080,'SR','[だらだら妖精]双葉杏',6),
+	 ('fa5391c4ffc5f3aaaab8f4be52e4ede2',35,3600,3080,'SR','[だらだら妖精]双葉杏',6);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2519a9de93e6cf2e5fee9e4cb9776afe',35,5448,3456,'SR+','[だだっ子お姫さま]双葉杏+',13),
 	 ('bc7ab362d3fa9c3bbb60bad0f61efded',35,6408,4656,'SR+','[新春の甘姫]双葉杏+',15),
 	 ('2141fdb8ac6c65306f07450a0b6e4690',35,4920,4840,'SR','[杏の夏休み]双葉杏',18),
@@ -4562,10 +4560,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('333da524bde405e4ce1612183eb8971b',35,7872,5712,'SR+','[わがままｻﾝﾀ]双葉杏+',24),
 	 ('29daabf3b7a002ea14915a6655fd080b',35,7280,5520,'SR','[あんずのきもち]双葉杏',27),
 	 ('98d5d1499a00235948699b056d8daf95',35,7640,5960,'SR','[よきにはからえ]双葉杏',29),
-	 ('bbb244a6d356579c822bd8bb45e282c3',35,8040,6100,'SR','[ﾊﾞﾃﾊﾞﾃさまｰ]双葉杏',33);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bbb244a6d356579c822bd8bb45e282c3',35,8040,6100,'SR','[ﾊﾞﾃﾊﾞﾃさまｰ]双葉杏',33),
 	 ('0dc537e6e61d9dbb5ea1d6e7ac31e58f',35,8020,6260,'SR','[ぐうたら王国]双葉杏',35),
-	 ('9d6375e8f75f678dd62f595aa08700f9',35,9960,7776,'SR+','[あんずの誓い]双葉杏+',38),
+	 ('9d6375e8f75f678dd62f595aa08700f9',35,9960,7776,'SR+','[あんずの誓い]双葉杏+',38);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('9e26e0341def5ac38ede2eb5b5dc6b3c',35,8580,6540,'SR','[やる時はやる]双葉杏',39),
 	 ('57841da90cca62567be2152120c681fb',35,8640,6660,'SR','[安らぎの案内人]双葉杏',41),
 	 ('ae7639b357d9efd061b81712dac66726',35,8560,6520,'SR','[なまけものﾌｪｱﾘｰ]双葉杏',43),
@@ -4573,10 +4571,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('84be1e67e057d843bd0eb46f1540d18c',36,1560,2640,'R','[制服ｺﾚｸｼｮﾝ]楊菲菲',2),
 	 ('5c830b15548cf9f8c0b706feb765dc48',36,2500,1980,'R','[ﾄｷﾒｷﾊﾞﾚﾝﾀｲﾝ]楊菲菲',4),
 	 ('753750c2b678c8617ce06d6ca935b48c',36,1872,3168,'R+','[制服ｺﾚｸｼｮﾝ]楊菲菲+',3),
-	 ('e8fda8efaad9a349b6a7071d0e10e0b4',36,3960,2616,'R+','[ﾌﾞｼﾄﾞｰﾅﾃﾞｼｺ]楊菲菲+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e8fda8efaad9a349b6a7071d0e10e0b4',36,3960,2616,'R+','[ﾌﾞｼﾄﾞｰﾅﾃﾞｼｺ]楊菲菲+',7),
 	 ('c388718bcf729ef026da145417f86ac3',36,2720,2740,'R','[ｶﾞｰﾘｰｽﾀｲﾙ]楊菲菲',8),
-	 ('f7a27f37ed56823171d7ec434280b94a',36,3264,3288,'R+','[ｶﾞｰﾘｰｽﾀｲﾙ]楊菲菲+',9),
+	 ('f7a27f37ed56823171d7ec434280b94a',36,3264,3288,'R+','[ｶﾞｰﾘｰｽﾀｲﾙ]楊菲菲+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('70371c6e3790ad4e7a6aa6a3d835313a',36,2860,2000,'R','[ｳｪﾃﾞｨﾝｸﾞｾﾚﾓﾆｰ]楊菲菲',10),
 	 ('9a209998130e17e144ce929cdd0d659d',36,3200,2120,'R','[喜気爛漫]楊菲菲',13),
 	 ('178ee3098ad7d558adde557726966b4a',36,3840,2544,'R+','[喜気爛漫]楊菲菲+',14),
@@ -4584,10 +4582,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('658f3b5d8a57402d73f6f5b8fbf98179',36,2352,2952,'SR+','[繚乱の舞姫]楊菲菲+',16),
 	 ('bdccb733796bcc6f371daf922723613a',36,4320,4100,'SR','[幸福娘々]楊菲菲',19),
 	 ('3540dfd706534f58264d1b479f3e8344',36,5184,4920,'SR+','[幸福娘々]楊菲菲+',20),
-	 ('4f20573d3dff91b7701a154fc841e1cc',36,6200,4520,'SR','[玲瓏水晶]楊菲菲',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4f20573d3dff91b7701a154fc841e1cc',36,6200,4520,'SR','[玲瓏水晶]楊菲菲',21),
 	 ('c46b6174a69648b148c8856a9991ee3b',36,7440,5424,'SR+','[玲瓏水晶]楊菲菲+',22),
-	 ('6d0cf40221d09e948140a83632e12173',36,7120,5160,'SR','[煌星摩天楼]楊菲菲',25),
+	 ('6d0cf40221d09e948140a83632e12173',36,7120,5160,'SR','[煌星摩天楼]楊菲菲',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1e653c3b662a6a2546f72515e8738a84',36,8544,6192,'SR+','[煌星摩天楼]楊菲菲+',26),
 	 ('c483b9e179db230257a6552acd2ee53a',36,4280,3120,'R+','[流鏑馬I.C]楊菲菲+',27),
 	 ('a07e6e805df4c16f711e8f15a1e45b31',36,4640,3480,'SR','[はつらつ馬術]楊菲菲',28),
@@ -4595,10 +4593,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9eaa00aaff759057e912349a8ed7978e',36,3280,2220,'R','[ﾊﾟﾗﾀﾞｲｽｻﾏｰ]楊菲菲',32),
 	 ('4046d2c05a63497e9d6363b8c93131c0',75,2544,2160,'R+','[眼鏡ﾏｼﾞｯｸ]上条春菜+',3),
 	 ('9ec2e1396e64cbf435a52b7c4f7ff518',75,3140,2220,'R','[新春ｺﾚｸｼｮﾝ]上条春菜',6),
-	 ('f809934dbe9b4b0d3549c6716383ebfb',75,5700,5680,'SR','[ｱﾆﾏﾙﾃｲﾏｰ]上条春菜',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f809934dbe9b4b0d3549c6716383ebfb',75,5700,5680,'SR','[ｱﾆﾏﾙﾃｲﾏｰ]上条春菜',22),
 	 ('24c1442f66c34265352137a677e8f527',75,6792,5280,'SR+','[ｻﾊﾞｲﾊﾞﾙﾚﾝｽﾞ]上条春菜+',27),
-	 ('7b245fdc7be9e193631939b659fe9aba',75,9768,7584,'SR+','[満開のﾊﾟﾉﾗﾏ]上条春菜+',29),
+	 ('7b245fdc7be9e193631939b659fe9aba',75,9768,7584,'SR+','[満開のﾊﾟﾉﾗﾏ]上条春菜+',29);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a0156409e36d2062831b460501ba759f',75,10128,7800,'SR+','[澄みきった世界]上条春菜+',31),
 	 ('54b6b2bbe68eff5cc0a866562daed5a1',85,1600,1480,'R','[ｻﾏｰﾗｲﾌﾞ]新田美波',2),
 	 ('1009f9985fad285ed98d06fcc23cea57',85,4120,3960,'SR','[制服の女神]新田美波',10),
@@ -4606,10 +4604,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f14e96d527c85980c994a8e0234afb58',85,5060,3640,'SR','[眠れる小悪魔]新田美波',14),
 	 ('0982b1f6992128e2a7a6668b5f306cb7',85,6072,4368,'SR+','[眠れる小悪魔]新田美波+',15),
 	 ('33d51a091cde3faf6392a9ce3ba46102',85,5720,4020,'SR','[ﾚﾃﾞｨｱﾝﾄｳﾞｨｰﾅｽ]新田美波',18),
-	 ('b20006cdb511c392497e750074e6be96',85,5040,5088,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ･S]新田美波+',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b20006cdb511c392497e750074e6be96',85,5040,5088,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ･S]新田美波+',23),
 	 ('906abd014daf85c1ed5b45f4f9e19c05',85,4660,4460,'SR+','[ﾗﾌﾞﾗｲｶ]新田美波+',24),
-	 ('83b3d57e92f23692100ded8f29d72671',85,6800,6700,'SR','[ﾌｫｽﾒｰﾃｨｽ]新田美波',29),
+	 ('83b3d57e92f23692100ded8f29d72671',85,6800,6700,'SR','[ﾌｫｽﾒｰﾃｨｽ]新田美波',29);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('adb04d003eedc8874a18ae48bdec3f80',85,8160,8040,'SR+','[ﾌｫｽﾒｰﾃｨｽ]新田美波+',30),
 	 ('17d671c0bb113221046ddf5a04d28472',85,7600,5980,'SR','[学舎のﾀﾞｲｱﾛｰｸﾞ]新田美波',31),
 	 ('65838b52cff2f63c99d93e38006ccc41',85,9696,7320,'SR+','[ﾒﾗﾝｺﾘｯｸｴﾝﾌﾟﾚｽ]新田美波+',34),
@@ -4617,10 +4615,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ab7231a02da6290597e3dd6512e429ff',85,10320,7728,'SR+','[ﾏｲﾃﾞｨｱｳﾞｨｰﾅｽ]新田美波+',40),
 	 ('e33f0418d795637c98fb9997ef090cb1',95,912,960,'R+','小室千奈美+',1),
 	 ('ea5f708af5590fa7d0ae03018ef7c4fd',105,2160,2160,'R','佐城雪美',0),
-	 ('57b35cdd62ee9d80eac805a4d238e032',105,3264,2496,'R+','[T.B.ﾁｱｰｽﾞ]佐城雪美+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('57b35cdd62ee9d80eac805a4d238e032',105,3264,2496,'R+','[T.B.ﾁｱｰｽﾞ]佐城雪美+',5),
 	 ('0be443f0e1a964e0a77940d87b72089f',105,2160,3840,'R+','[新春ｶﾞｰﾙ]佐城雪美+',7),
-	 ('b981ac8a47e9a3529cbeff801f4ad2c1',105,3360,3144,'R+','[ｸｰﾘｯｼｭｽﾀｲﾙ]佐城雪美+',9),
+	 ('b981ac8a47e9a3529cbeff801f4ad2c1',105,3360,3144,'R+','[ｸｰﾘｯｼｭｽﾀｲﾙ]佐城雪美+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('b41f85ebc71b158b26cbddfde963c525',105,3816,4632,'SR+','[ｸﾘｽﾏｽﾄﾞｰﾙ]佐城雪美+',13),
 	 ('1b14103e8c942735e3f68012c1bceee4',105,4400,4240,'SR','[夏宵のお嬢様]佐城雪美',14),
 	 ('368396982ecee85ed01ac8aae39086b1',105,5016,5256,'SR+','[小さなﾄﾞｷﾄﾞｷ]佐城雪美+',19),
@@ -4628,10 +4626,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('258c7d9292272921ae3731d3ffe239d9',36,3300,2180,'R','[ﾌﾞｼﾄﾞｰﾅﾃﾞｼｺ]楊菲菲',6),
 	 ('645f9c84d5e3470979cb9ae80078cfba',36,3432,2400,'R+','[ｳｪﾃﾞｨﾝｸﾞｾﾚﾓﾆｰ]楊菲菲+',11),
 	 ('a92e9f1dfe182f9b5c7381c22ee80d53',36,4300,3080,'R+','[おもてなしﾊﾞﾗｴﾃｨ]楊菲菲+',12),
-	 ('3e2f37c00261808dcbf8415535d34084',36,3960,4000,'SR','[ﾊｰﾄﾌｪﾙﾄﾊﾟｰﾃｨｰ]楊菲菲',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3e2f37c00261808dcbf8415535d34084',36,3960,4000,'SR','[ﾊｰﾄﾌｪﾙﾄﾊﾟｰﾃｨｰ]楊菲菲',17),
 	 ('25757551fc8ff326f8b928b50228303c',36,4752,4800,'SR+','[ﾊｰﾄﾌｪﾙﾄﾊﾟｰﾃｨｰ]楊菲菲+',18),
-	 ('ec67c8c8a52a99a464d17895c38bacb0',36,4880,3960,'SR','[加油ﾁｱｰ]楊菲菲',23),
+	 ('ec67c8c8a52a99a464d17895c38bacb0',36,4880,3960,'SR','[加油ﾁｱｰ]楊菲菲',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('6f2cef2655f476d2f3f6ea80d8f481ec',36,5856,4752,'SR+','[加油ﾁｱｰ]楊菲菲+',24),
 	 ('6a620dd6302840cc47320b77382ba5cf',36,5568,4176,'SR+','[はつらつ馬術]楊菲菲+',29),
 	 ('3f559062b607a701f0d034e0685ee965',36,5640,4440,'SR','[笑顔の馬術]楊菲菲',30),
@@ -4639,10 +4637,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fa6d973aa7f7b480fa96338ffecc9ed9',37,1368,2088,'R+','桃井あずき+',1),
 	 ('72e2b4dade433fec680531a9839da725',37,2328,2472,'R+','[桜祭り]桃井あずき+',3),
 	 ('963b05e86daf038003b417060a1646ed',37,1940,2060,'R','[桜祭り]桃井あずき',2),
-	 ('55689885ba0c5749221b56330494a77a',37,2060,1940,'R','[桜祭りｽﾏｲﾙ]桃井あずき',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('55689885ba0c5749221b56330494a77a',37,2060,1940,'R','[桜祭りｽﾏｲﾙ]桃井あずき',4),
 	 ('0574e12bd0b603f118f7961ba4c3e72c',37,3288,3168,'R+','[ﾌﾚﾝｽﾞ大作戦]桃井あずき+',7),
-	 ('5972a0d0eacd1baf011aaead666663fa',37,2820,2640,'R','[ｻﾏｰﾊﾞｹｰｼｮﾝ]桃井あずき',8),
+	 ('5972a0d0eacd1baf011aaead666663fa',37,2820,2640,'R','[ｻﾏｰﾊﾞｹｰｼｮﾝ]桃井あずき',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('72271817bbcfa730bf3454c26f94eaff',37,2820,2660,'R','[秋の学園祭]桃井あずき',10),
 	 ('24bcddb9bcf4f50c23e64b2657329db3',37,3280,2220,'R','[まごころﾒｲﾄﾞ]桃井あずき',12),
 	 ('4dd815b7097a2487a982d3d071b570ab',37,3936,2664,'R+','[まごころﾒｲﾄﾞ]桃井あずき+',13),
@@ -4650,10 +4648,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c6273faed14788e2c436bea39444cb77',37,2640,3888,'R+','[いたわり大作戦]桃井あずき+',15),
 	 ('46378cb4d0fffad00600ba63d8a2d183',37,2100,1700,'SR','[艶娘大作戦]桃井あずき',16),
 	 ('7e6f804d5a9f4f886b637c99669b2ee0',37,2520,2040,'SR+','[艶娘大作戦]桃井あずき+',17),
-	 ('0e28275081099ed145f74b056ec0e813',37,3200,3840,'SR','[湯けむり大作戦]桃井あずき',18);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('0e28275081099ed145f74b056ec0e813',37,3200,3840,'SR','[湯けむり大作戦]桃井あずき',18),
 	 ('cebea77bf64e2434c3ecafd915d2d8d2',37,4900,3340,'SR','[ﾒﾙﾍﾝ大作戦]桃井あずき',20),
-	 ('dbea89c47dd5b612f5c1d0a802c77d19',37,5140,5140,'SR','[ﾛﾜｲﾔﾙ･ｽｸｴｱ]桃井あずき',22),
+	 ('dbea89c47dd5b612f5c1d0a802c77d19',37,5140,5140,'SR','[ﾛﾜｲﾔﾙ･ｽｸｴｱ]桃井あずき',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5c926c00a2911519dcdaec1349c4297f',37,6168,6168,'SR+','[ﾛﾜｲﾔﾙ･ｽｸｴｱ]桃井あずき+',23),
 	 ('cf166d5c57c0446980b7393d66318f22',37,7992,5568,'SR+','[ﾁｬｲﾅ大作戦]桃井あずき+',25),
 	 ('b57a4e5deff8c34535395b87470cd03c',37,3960,3880,'SR','[ｽｹﾙﾄﾝﾁｱｰ]桃井あずき',26),
@@ -4661,10 +4659,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('92a4b53e24fa408890625c20bacadd26',37,3960,2688,'R+','[ｸﾘｽﾏｽｽﾉｰ]桃井あずき+',29),
 	 ('5ba5775cf18a4e77fc4e7c8c9aa84ea1',37,8880,8760,'SR+','[応援大作戦]桃井あずき+',31),
 	 ('e09900f2df4a1ef440c69995c18cbb48',37,7820,7660,'SR','[小粋な小町]桃井あずき',32),
-	 ('82d2eab4067f865fdeb3b7bd9f3f1a1c',75,2020,1360,'R','[ｱﾆﾊﾞｰｻﾘｰﾌﾞﾙｰ]上条春菜',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('82d2eab4067f865fdeb3b7bd9f3f1a1c',75,2020,1360,'R','[ｱﾆﾊﾞｰｻﾘｰﾌﾞﾙｰ]上条春菜',4),
 	 ('f1279cb152f79f39243600a630ba373a',75,3360,2180,'R','[ｸﾘｽﾏｽﾌﾟﾚｾﾞﾝﾄ]上条春菜',8),
-	 ('32d8b86ecc3590d3d7c24af83676493e',75,3960,2640,'R+','[秋の学園祭]上条春菜+',11),
+	 ('32d8b86ecc3590d3d7c24af83676493e',75,3960,2640,'R+','[秋の学園祭]上条春菜+',11);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d4bf3f8607525c3677d202531d6a2b8f',75,3500,3660,'SR','[眼鏡ﾌﾟﾘﾝｾｽ]上条春菜',14),
 	 ('51d10185262f6caafe0355f40b29a286',75,6888,4704,'SR+','[眼鏡越しの輝き]上条春菜+',19),
 	 ('a580271bf1d560a89be26d09aca1b669',85,1920,1776,'R+','[ｻﾏｰﾗｲﾌﾞ]新田美波+',3),
@@ -4672,10 +4670,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('db67fce1ced5a2e2946e3facbd9abe19',85,5256,3888,'SR+','[笑顔の女神]新田美波+',9),
 	 ('ed35c60eef3f13be50edee7dfee4523d',85,6624,4224,'SR+','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]新田美波+',17),
 	 ('fe5e70f0df196ae8e84391062564ad33',85,6864,4824,'SR+','[ﾚﾃﾞｨｱﾝﾄｳﾞｨｰﾅｽ]新田美波+',19),
-	 ('5f5daadbc3fadef1cca713f6e9e05255',85,4200,4240,'SR','[3rdｱﾆﾊﾞｰｻﾘｰ･S]新田美波',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5f5daadbc3fadef1cca713f6e9e05255',85,4200,4240,'SR','[3rdｱﾆﾊﾞｰｻﾘｰ･S]新田美波',22),
 	 ('b3a0aede00bbe1146a472828895912dd',85,5600,5560,'SR','[ｱﾃﾞｨｸﾃｨﾌﾞﾒｲﾄﾞ]新田美波',25),
-	 ('05967e0044c4828455e8547b98df1d06',85,7776,7728,'SR+','[ｽｲｰﾄｸﾞﾗﾃｨﾁｭｰﾄﾞ]新田美波+',28),
+	 ('05967e0044c4828455e8547b98df1d06',85,7776,7728,'SR+','[ｽｲｰﾄｸﾞﾗﾃｨﾁｭｰﾄﾞ]新田美波+',28);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('4c4bf7a69b8b499c5fea52bfe619135c',85,9120,7176,'SR+','[学舎のﾀﾞｲｱﾛｰｸﾞ]新田美波+',32),
 	 ('c4b918de5fc5b4e285d1f2c71e6e83c5',85,8080,6100,'SR','[ﾒﾗﾝｺﾘｯｸｴﾝﾌﾟﾚｽ]新田美波',33),
 	 ('eee398b4bef19b879c761dd2c7bc3723',95,1560,1880,'R','[ｽﾎﾟｰﾂ祭]小室千奈美',2),
@@ -4683,10 +4681,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f49aaf4a024810dd9fa9ab09a70e9d72',95,3384,3168,'R+','[ﾌｧﾝｻｰｷｯﾄ]小室千奈美+',9),
 	 ('a988b74f3ee24cc63bd06fb9b3c998ed',95,3360,3264,'R+','[ﾌﾗﾜｰﾌｪｱﾘｰｽﾞ]小室千奈美+',11),
 	 ('f0f4465ce296a72ddb0dafc12a069467',95,4240,4320,'SR','[ﾋﾞｭｰﾃｨｰﾊｰﾍﾞｽﾄ]小室千奈美',16),
-	 ('6bce57ed40bb3f7a5ccd19cd679a0a66',95,5088,5184,'SR+','[ﾋﾞｭｰﾃｨｰﾊｰﾍﾞｽﾄ]小室千奈美+',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6bce57ed40bb3f7a5ccd19cd679a0a66',95,5088,5184,'SR+','[ﾋﾞｭｰﾃｨｰﾊｰﾍﾞｽﾄ]小室千奈美+',17),
 	 ('c5f69e6bd6e6c98f96e2379c279e8528',95,5080,5100,'SR','[ｿﾘｯﾄﾞｱﾃｨﾁｭｰﾄﾞ]小室千奈美',22),
-	 ('a563ed48951f74f9c04236310d92d1cb',95,6096,6120,'SR+','[ｿﾘｯﾄﾞｱﾃｨﾁｭｰﾄﾞ]小室千奈美+',23),
+	 ('a563ed48951f74f9c04236310d92d1cb',95,6096,6120,'SR+','[ｿﾘｯﾄﾞｱﾃｨﾁｭｰﾄﾞ]小室千奈美+',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3722850cc72d17384b34480a8430cac6',105,2592,2592,'R+','佐城雪美+',1),
 	 ('9fd88c297854635eaed7f81eaeef6204',114,3624,2256,'R+','[ﾒｲﾄﾞｺﾚｸｼｮﾝ]白坂小梅+',3),
 	 ('6dbdb5e600214a62be8c86a4ce119358',114,1290,1710,'R','[ｳｨﾝﾀｰﾎﾗｰﾎﾞﾙﾄﾞｰ]白坂小梅',6),
@@ -4694,10 +4692,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4a12dd2f01f425e3ac788cbf487dccd2',126,3000,2040,'R','[ﾊﾛｳｨﾝﾅｲﾄ]森久保乃々',4),
 	 ('f0514789e4b35f9e8d4086e85bfa43ed',37,2472,2328,'R+','[桜祭りｽﾏｲﾙ]桃井あずき+',5),
 	 ('096928f93993001378e0a9dfa0e84d77',37,2740,2640,'R','[ﾌﾚﾝｽﾞ大作戦]桃井あずき',6),
-	 ('fd84cd6a9120f8ffcafa17c834e6d421',37,3384,3168,'R+','[ｻﾏｰﾊﾞｹｰｼｮﾝ]桃井あずき+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('fd84cd6a9120f8ffcafa17c834e6d421',37,3384,3168,'R+','[ｻﾏｰﾊﾞｹｰｼｮﾝ]桃井あずき+',9),
 	 ('ea55478abc68ac42807e04ff2164cabe',37,3384,3192,'R+','[秋の学園祭]桃井あずき+',11),
-	 ('2b2ccaa519a19a25d519eb2b35aac5a1',37,3840,4608,'SR+','[湯けむり大作戦]桃井あずき+',19),
+	 ('2b2ccaa519a19a25d519eb2b35aac5a1',37,3840,4608,'SR+','[湯けむり大作戦]桃井あずき+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e0d8ee3ba65f7a1db58ab820537d8665',37,5880,4008,'SR+','[ﾒﾙﾍﾝ大作戦]桃井あずき+',21),
 	 ('f7a21d6187b06fa18ed0bf215310a7cb',37,6660,4640,'SR','[ﾁｬｲﾅ大作戦]桃井あずき',24),
 	 ('a2a499e20be133fd5e48154c2be098ac',37,4752,4656,'SR+','[ｽｹﾙﾄﾝﾁｱｰ]桃井あずき+',27),
@@ -4705,10 +4703,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bd6b1bcac4d537277e12148220fc57cd',37,9384,9192,'SR+','[小粋な小町]桃井あずき+',33),
 	 ('52d8710dc5cde4cdcef8c3191012e6d6',38,1800,1720,'R','[UKｽﾀｲﾙ]涼宮星花',2),
 	 ('c9660e96a053c8c20baf961e2b8c3987',38,2160,2064,'R+','[UKｽﾀｲﾙ]涼宮星花+',3),
-	 ('3ba4b6c440bc9865e3ae92e6e698008e',38,2700,1880,'R','[優しい旋律]涼宮星花',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3ba4b6c440bc9865e3ae92e6e698008e',38,2700,1880,'R','[優しい旋律]涼宮星花',4),
 	 ('6522c3fb23ccf563aad50deebcab512b',38,2960,2320,'R+','[ﾛｯｸI.C]涼宮星花+',6),
-	 ('118b941b346b356e9a0dddd100b73dcb',38,2112,3888,'R+','[さわやかｽﾎﾟｰﾂ]涼宮星花+',8),
+	 ('118b941b346b356e9a0dddd100b73dcb',38,2112,3888,'R+','[さわやかｽﾎﾟｰﾂ]涼宮星花+',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f8a4150602d2e7ae3ee4e94e40d99383',38,3840,2688,'R+','[ﾍﾙｼｰﾘﾌﾚｯｼｭ]涼宮星花+',10),
 	 ('af63524aed4f0e699b1de4eb7eba4b62',38,3300,2200,'R','[ｳｨﾝﾀｰﾘｿﾞｰﾄﾋﾞｰﾁ]涼宮星花',11),
 	 ('9ff0c7e86bb6701f7bc022dccc35a9a1',38,3960,2640,'R+','[ｳｨﾝﾀｰﾘｿﾞｰﾄﾋﾞｰﾁ]涼宮星花+',12),
@@ -4716,10 +4714,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0d50821041c89efcbc1ab9496cec73e1',38,4008,2544,'R+','[ﾘﾌｧｲﾝﾉﾋﾞﾘﾃｨｰ]涼宮星花+',16),
 	 ('7be787dc8fe32a61130cfa876ac1c6e9',38,3840,2784,'SR+','[ｶﾞｰﾙｽﾞﾛｯｶｰ]涼宮星花+',22),
 	 ('47d6db9899b8a6573a7c81e8db4fec3a',38,4180,3920,'SR','[ｶﾞｰﾙｽﾞﾛｯｶｰ･S]涼宮星花',23),
-	 ('282f4d8a13c4767b5c6cca46e58894c9',38,8664,6432,'SR+','[ｽｶｲｺﾝﾀﾞｸﾀｰ]涼宮星花+',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('282f4d8a13c4767b5c6cca46e58894c9',38,8664,6432,'SR+','[ｽｶｲｺﾝﾀﾞｸﾀｰ]涼宮星花+',28),
 	 ('15b30810c788f120586bc0916134b1da',76,520,920,'N','荒木比奈',0),
-	 ('cb32cc18a6a4ddffb5eeea41bb83582e',76,2040,2328,'R+','[ｸﾘｽﾏｽﾊﾟｰﾃｨｰ]荒木比奈+',5),
+	 ('cb32cc18a6a4ddffb5eeea41bb83582e',76,2040,2328,'R+','[ｸﾘｽﾏｽﾊﾟｰﾃｨｰ]荒木比奈+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('709707a9d2a67c4371536f7e525f9392',76,3320,2240,'R','[ﾅｲﾄﾊﾟｰﾃｨｰ]荒木比奈',6),
 	 ('cf11785b7891fb42a7d5b75fd7b33723',76,3140,2180,'R','[T.B.ﾁｱｰｽﾞ]荒木比奈',10),
 	 ('0c2ecb19bd0d360cd0e6b00e36b4348d',76,3768,2616,'R+','[T.B.ﾁｱｰｽﾞ]荒木比奈+',11),
@@ -4727,10 +4725,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0681a26986b44e551c2ac9d3f9681014',76,2832,3840,'SR+','[夏の思い出]荒木比奈+',17),
 	 ('b29bf49901062956bfa1a97d530a1a8c',76,7560,5328,'SR+','[こころﾍﾟｲﾝﾄ]荒木比奈+',21),
 	 ('df6fa045d58337acbd9725d8a940d1b4',76,8256,6144,'SR+','[青き日のﾒﾓﾘｰ]荒木比奈+',23),
-	 ('6f8be84a9bc8c1914b19a1b838525a8b',76,8976,6864,'SR+','[ｽﾀｰﾃｨﾝｸﾞ･ﾌﾞﾙｰ]荒木比奈+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6f8be84a9bc8c1914b19a1b838525a8b',76,8976,6864,'SR+','[ｽﾀｰﾃｨﾝｸﾞ･ﾌﾞﾙｰ]荒木比奈+',25),
 	 ('0b4b350b04f1dd3042abb54ec1ab179e',76,8140,6340,'SR','[ﾏｲﾆｭｰｶﾗｰ]荒木比奈',28),
-	 ('0bbcd5dc585282bd3e3dc15aff259880',76,10104,7776,'SR+','[ﾈｸｽﾄ☆ﾍﾟｰｼﾞ]荒木比奈+',31),
+	 ('0bbcd5dc585282bd3e3dc15aff259880',76,10104,7776,'SR+','[ﾈｸｽﾄ☆ﾍﾟｰｼﾞ]荒木比奈+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a8ff862d393e2d5dda368de20fb13201',85,1780,3220,'R','[ﾊｲｶﾗｻｸﾗ]新田美波',4),
 	 ('a0e0bb81d532da3f17e6cec67286b1f4',85,4380,3240,'SR','[笑顔の女神]新田美波',8),
 	 ('906e36ae3310e4ca2451e0d6c4df7b42',85,4944,4752,'SR+','[制服の女神]新田美波+',11),
@@ -4738,10 +4736,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1da9783f4db2e0d170433ff25e97f064',85,5520,3520,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]新田美波',16),
 	 ('7d83a3bcc9cfc6da0e3f8381c0c3b585',85,2340,3300,'SR','[3rdｱﾆﾊﾞｰｻﾘｰ]新田美波',20),
 	 ('ce21537c19faa7c7b6ae4b5c8defb324',85,2808,3960,'SR+','[3rdｱﾆﾊﾞｰｻﾘｰ]新田美波+',21),
-	 ('ca97decc65659e09550943d2766e5d3e',85,6720,6672,'SR+','[ｱﾃﾞｨｸﾃｨﾌﾞﾒｲﾄﾞ]新田美波+',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ca97decc65659e09550943d2766e5d3e',85,6720,6672,'SR+','[ｱﾃﾞｨｸﾃｨﾌﾞﾒｲﾄﾞ]新田美波+',26),
 	 ('b391620fec4da6f7bef081f4823d39ab',85,6480,6440,'SR','[ｽｲｰﾄｸﾞﾗﾃｨﾁｭｰﾄﾞ]新田美波',27),
-	 ('d5723c7e2d46dd593414d0a0bd6ad545',85,8160,6480,'SR','[揺らめく花影]新田美波',35),
+	 ('d5723c7e2d46dd593414d0a0bd6ad545',85,8160,6480,'SR','[揺らめく花影]新田美波',35);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2a065fcef81ef9b5d1bdb8af613e9b20',85,9360,9048,'SR+','[ﾐｯｼﾝｸﾞﾒﾓﾘｰ]新田美波+',38),
 	 ('a21ca5c6f704d55fc702bc056b183ead',85,8600,6440,'SR','[ﾏｲﾃﾞｨｱｳﾞｨｰﾅｽ]新田美波',39),
 	 ('5880ef8815cbbc4493ef5d6ce5c3e6d0',95,1872,2256,'R+','[ｽﾎﾟｰﾂ祭]小室千奈美+',3),
@@ -4749,10 +4747,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c6a5c72597e322cb892e57e32fd2a252',95,2800,2720,'R','[ﾌﾗﾜｰﾌｪｱﾘｰｽﾞ]小室千奈美',10),
 	 ('b3f7ea5dd24289a103d9f2968646218c',95,2800,2720,'SR','[ｽﾃｰｼﾞﾃﾞｨｰｳﾞｧ]小室千奈美',12),
 	 ('751eac81ec20fef9cb7f5ee42102d579',95,3888,2808,'SR+','[美しき品位]小室千奈美+',15),
-	 ('f4a1f0573cf0bc83790d5e89511ec5ba',95,7100,5060,'SR','[ｽﾊﾟｰｸﾙｵﾌﾞﾌﾟﾗｲﾄﾞ]小室千奈美',18);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('f4a1f0573cf0bc83790d5e89511ec5ba',95,7100,5060,'SR','[ｽﾊﾟｰｸﾙｵﾌﾞﾌﾟﾗｲﾄﾞ]小室千奈美',18),
 	 ('2b1d46f3c77fa1f5166e832dc4412efb',95,4728,4680,'SR+','[ﾌﾟﾗｳﾄﾞﾁｱｰ]小室千奈美+',21),
-	 ('1edccff2d12ffd9299053fc9fd511f5f',95,2760,2780,'R','[ﾌﾟﾘﾃｨﾌﾟﾛｸﾞﾗﾑ]小室千奈美',24),
+	 ('1edccff2d12ffd9299053fc9fd511f5f',95,2760,2780,'R','[ﾌﾟﾘﾃｨﾌﾟﾛｸﾞﾗﾑ]小室千奈美',24);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3f951d9ae741667ca9f12e59abda200d',105,2600,2420,'R','[ｾﾚｸﾄﾒｲﾄﾞ]佐城雪美',2),
 	 ('d1867fe96fed3771cbbf73cc35af08ea',105,4608,3936,'SR+','[ﾌﾟﾁ･ﾏﾄﾞﾓｱｾﾞﾙ]佐城雪美+',11),
 	 ('4d4711956ba85d9c8fcbb4b0fe2f9fe8',105,5140,5100,'SR','[ﾏｰﾁﾝｸﾞ☆ﾒﾛﾃﾞｨｰ]佐城雪美',16),
@@ -4760,10 +4758,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('cbbfe22229dab51ecdb033d78869a359',105,8040,5760,'SR+','[紺青のゆらめき]佐城雪美+',21),
 	 ('543d34404859fffa632e28139b07d48c',105,7580,5920,'SR','[ｸﾘｽﾀﾙﾒｲｽﾞ]佐城雪美',24),
 	 ('b5fb3fdaaa29f6e0011f9f62b8b0d0f6',105,3280,2260,'R','[ほっこり温泉]佐城雪美',26),
-	 ('bc953b2f0ec510c22eac406cf9bf3443',38,3240,2256,'R+','[優しい旋律]涼宮星花+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('bc953b2f0ec510c22eac406cf9bf3443',38,3240,2256,'R+','[優しい旋律]涼宮星花+',5),
 	 ('30ac0cfd82daa33c8a661016a0009c90',38,1760,3240,'R','[さわやかｽﾎﾟｰﾂ]涼宮星花',7),
-	 ('5ae6cea9a38bd6f3e2bd8118450d53fc',38,3336,3240,'R+','[深まるﾊｰﾓﾆｰ]涼宮星花+',14),
+	 ('5ae6cea9a38bd6f3e2bd8118450d53fc',38,3336,3240,'R+','[深まるﾊｰﾓﾆｰ]涼宮星花+',14);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ee49eaecc77b2a1dfaeacd791c5aa02e',38,4080,4020,'SR','[小悪魔お嬢様]涼宮星花',17),
 	 ('cc0bc0563db4d31f94553bec36f3ca30',38,3140,2340,'SR','[お嬢様の一幕]涼宮星花',19),
 	 ('8f572e0b5bd2cde69ae199dfffb951d4',38,3200,2320,'SR','[ｶﾞｰﾙｽﾞﾛｯｶｰ]涼宮星花',21),
@@ -4771,10 +4769,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3061a037d96c67742e7e95021f310354',38,7220,5360,'SR','[ｽｶｲｺﾝﾀﾞｸﾀｰ]涼宮星花',27),
 	 ('2aee1f6eedebc4195c05650c61b3268a',38,4008,2400,'R+','[ﾌﾚｯｼｭﾌﾞﾘｰｽﾞ]涼宮星花+',30),
 	 ('1ac3475189f6684094860fa41607cc72',76,624,1104,'N+','荒木比奈+',1),
-	 ('b72a61e46933108a7e0ecbcd37bcc461',86,1220,980,'N','水野翠',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b72a61e46933108a7e0ecbcd37bcc461',86,1220,980,'N','水野翠',0),
 	 ('b1121186a42a0d42c89ecf10be529b52',86,3264,3264,'R+','[ﾋﾞｰﾁｻｲﾄﾞ]水野翠+',5),
-	 ('9d4e0d62b61177018b93bc155b6a1f8e',86,3264,3240,'R+','[名湯探訪･S]水野翠+',10),
+	 ('9d4e0d62b61177018b93bc155b6a1f8e',86,3264,3240,'R+','[名湯探訪･S]水野翠+',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ca8a02d25ea3704eddcdeb7c570fde5c',86,3024,2952,'R+','[新春浪漫]水野翠+',12),
 	 ('5d5e16f335315c45d1854ad76f7a86e9',95,2700,2660,'R','[ｾﾚﾌﾞﾚﾃｨJKT]小室千奈美',4),
 	 ('91c81b332d95258dbe1ba94bbfd74d12',95,2820,2640,'R','[ﾌｧﾝｻｰｷｯﾄ]小室千奈美',8),
@@ -4782,10 +4780,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('58f99d1d3a87002b47bd50d93fd5bb7d',95,3240,2340,'SR','[美しき品位]小室千奈美',14),
 	 ('5adfeb655cf51c970156064c22dfb037',95,8520,6072,'SR+','[ｽﾊﾟｰｸﾙｵﾌﾞﾌﾟﾗｲﾄﾞ]小室千奈美+',19),
 	 ('0202984afa5385e5c64bdb5521b5b8f1',95,3940,3900,'SR','[ﾌﾟﾗｳﾄﾞﾁｱｰ]小室千奈美',20),
-	 ('ce17fb8db255a6dce90b897ac5c5a284',95,3312,3336,'R+','[ﾌﾟﾘﾃｨﾌﾟﾛｸﾞﾗﾑ]小室千奈美+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ce17fb8db255a6dce90b897ac5c5a284',95,3312,3336,'R+','[ﾌﾟﾘﾃｨﾌﾟﾛｸﾞﾗﾑ]小室千奈美+',25),
 	 ('ac248d004a5dd805137fdc498e3e7727',105,3120,2904,'R+','[ｾﾚｸﾄﾒｲﾄﾞ]佐城雪美+',3),
-	 ('1f4711721753f11851af47c892f44e86',105,2800,2620,'R','[ｸｰﾘｯｼｭｽﾀｲﾙ]佐城雪美',8),
+	 ('1f4711721753f11851af47c892f44e86',105,2800,2620,'R','[ｸｰﾘｯｼｭｽﾀｲﾙ]佐城雪美',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5e8655c608de2216d5d29f33385f96de',105,7660,7560,'SR','[ちいさな手のひら]佐城雪美',30),
 	 ('9589583b3b1c0c6854df218d00a720cb',114,900,1200,'R','[ｳｨﾝﾀｰﾎﾗｰｸﾞﾘｰﾝ]白坂小梅',4),
 	 ('387ff8f96121c16b6c70a997e51649b4',114,1560,1980,'R','[ｳｨﾝﾀｰﾎﾗｰﾌﾞﾙｰ]白坂小梅',7),
@@ -4793,10 +4791,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f7afc5b2914e336f57bb2c9051cc257c',114,8664,8664,'SR+','[ｸﾘｰﾋﾟｰﾌﾚﾝｽﾞ]白坂小梅+',45),
 	 ('f7433163489e0890602e32ce1d7ac700',114,9816,7608,'SR+','[ﾊｽﾘﾝｸﾞｺｰﾙ]白坂小梅+',47),
 	 ('6f8bd5f12cc59fdd9b06e479056aa476',114,10224,7848,'SR+','[ﾃﾞｯﾄﾞﾘｰﾁｪｲｽ]白坂小梅+',49),
-	 ('226aeb209b9b3186b3d94c59a4bbdd00',114,10152,7920,'SR+','[ﾖﾓｽｶﾞﾗ･ﾊﾟｰﾃｨｰ]白坂小梅+',53);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('226aeb209b9b3186b3d94c59a4bbdd00',114,10152,7920,'SR+','[ﾖﾓｽｶﾞﾗ･ﾊﾟｰﾃｨｰ]白坂小梅+',53),
 	 ('c4195810f06ae5063dba2150f13b0bf3',205,5740,4380,'SR','[ｽﾄﾘｰﾐﾝｸﾞﾁｱｰ]砂塚あきら',2),
-	 ('7e88ad3eca7e5841fcab04e102a0ca95',205,11400,8900,'SR','[9thｱﾆﾊﾞｰｻﾘｰ･S]砂塚あきら',8),
+	 ('7e88ad3eca7e5841fcab04e102a0ca95',205,11400,8900,'SR','[9thｱﾆﾊﾞｰｻﾘｰ･S]砂塚あきら',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('15444a20ee24d046fb2ee462fe82fbfd',126,3288,3264,'R+','[ﾒﾙﾍﾝﾌﾞｯｸ]森久保乃々+',7),
 	 ('c9e92786947e1a2ae30990d7696c8345',126,4820,3260,'SR','[ﾈｶﾞﾃｨｳﾞ乙女]森久保乃々',10),
 	 ('cec8ca056124d304b5e6b55824ff2f1e',126,3312,3312,'SR+','[ｼｮｺﾗﾊﾞﾚﾝﾀｲﾝ]森久保乃々+',13),
@@ -4804,10 +4802,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d1b146a936a57f7226f823a8168bc63d',126,5616,5664,'SR+','[困惑の小ﾘｽ]森久保乃々+',17),
 	 ('b8f74bf0a450467938b45e0bb1886615',126,6260,4600,'SR','[迷々ｴｽｹｰﾌﾟ]森久保乃々',20),
 	 ('e15ddf799ec1549fa0c5da5c387bbac3',126,6600,4840,'SR','[ｲｰｽﾀｰﾊﾌﾟﾆﾝｸﾞ]森久保乃々',22),
-	 ('56f0586ed2e674e1f29e4b001bf2184a',126,6280,6160,'SR','[ｴｽｹｰﾌﾟﾌﾞﾗｲﾄﾞ]森久保乃々',24);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('56f0586ed2e674e1f29e4b001bf2184a',126,6280,6160,'SR','[ｴｽｹｰﾌﾟﾌﾞﾗｲﾄﾞ]森久保乃々',24),
 	 ('afd508cf6540f11395ca2b8459eff752',126,3860,4000,'SR','[6thｱﾆﾊﾞｰｻﾘｰ]森久保乃々',28),
-	 ('67e2911e123fc43d825c23aff759b897',126,11900,10450,'SR+','[6thｱﾆﾊﾞｰｻﾘｰ･S]森久保乃々+',31),
+	 ('67e2911e123fc43d825c23aff759b897',126,11900,10450,'SR+','[6thｱﾆﾊﾞｰｻﾘｰ･S]森久保乃々+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('677b2cfb9341290c47fb6811685c7fb3',126,9768,7440,'SR+','[ﾎﾜｲﾄｱｳﾄ]森久保乃々+',33),
 	 ('291302f8800040930835be5be87a247e',38,3200,2240,'R','[ﾍﾙｼｰﾘﾌﾚｯｼｭ]涼宮星花',9),
 	 ('dc87deb968bf07b7963e52af00916891',38,2780,2700,'R','[深まるﾊｰﾓﾆｰ]涼宮星花',13),
@@ -4815,10 +4813,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b5c0174f4edd5af240e21e6da73fefa8',38,3768,2808,'SR+','[お嬢様の一幕]涼宮星花+',20),
 	 ('9a5fd2fbdb9c27b091d92a84cef6463c',38,5016,4704,'SR+','[ｶﾞｰﾙｽﾞﾛｯｶｰ･S]涼宮星花+',24),
 	 ('a27419ca801cfd72eb2a724f82cdaf55',38,5472,4752,'SR+','[ﾘｽﾞﾑｱｯﾌﾟ]涼宮星花+',26),
-	 ('7a835562dc2ff2203e671d87b0996058',38,3340,2000,'R','[ﾌﾚｯｼｭﾌﾞﾘｰｽﾞ]涼宮星花',29);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7a835562dc2ff2203e671d87b0996058',38,3340,2000,'R','[ﾌﾚｯｼｭﾌﾞﾘｰｽﾞ]涼宮星花',29),
 	 ('caed99715be00834924660ef829d1828',39,2960,2140,'R','[ｴﾚｶﾞﾝﾄﾚｯﾄﾞ]月宮雅',2),
-	 ('c0ff3b5b0c1a27a9c588a523004f6289',39,3552,2568,'R+','[ｴﾚｶﾞﾝﾄﾚｯﾄﾞ]月宮雅+',3),
+	 ('c0ff3b5b0c1a27a9c588a523004f6289',39,3552,2568,'R+','[ｴﾚｶﾞﾝﾄﾚｯﾄﾞ]月宮雅+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('9753b636f0ca1066fd101e5b4df7c022',39,2420,2560,'R','[ﾋﾟﾝｷｰﾋﾞｷﾆ]月宮雅',4),
 	 ('de9f7f33793a7dd6c3165d79d5551938',39,3864,2640,'R+','[ｾﾚｸﾄﾒｲﾄﾞ]月宮雅+',7),
 	 ('1ce85a1d9321855918cc353ccb64be18',39,3980,2900,'R+','[ｽｳｨｰﾄｶﾞｰﾙ]月宮雅+',8),
@@ -4826,10 +4824,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d57de9624ff48a962e3a773d2886b8c0',39,2688,3816,'R+','[思い出の形]月宮雅+',10),
 	 ('edbcc80a5804b8e14d2770ad3c279346',39,2760,2700,'R','[ﾌﾟﾘﾃｨﾋﾞｼﾞｭｰ]月宮雅',11),
 	 ('85b43547bfdadf34adebe8dc54e0b05f',39,3312,3240,'R+','[ﾌﾟﾘﾃｨﾋﾞｼﾞｭｰ]月宮雅+',12),
-	 ('afb1d70598ac915ff4ca6b31bc6073ab',39,3504,3792,'SR+','[桜ｶﾞｰﾙ]月宮雅+',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('afb1d70598ac915ff4ca6b31bc6073ab',39,3504,3792,'SR+','[桜ｶﾞｰﾙ]月宮雅+',14),
 	 ('1f1542c72d0aef515d3d40838783572a',39,4180,3900,'SR','[華･美･雅]月宮雅',15),
-	 ('4ff3d0f9b5375da499d0d0f26c960500',39,5040,5112,'SR+','[ｽｳｨｰﾄ･ﾛﾜｲﾔﾙ]月宮雅+',18),
+	 ('4ff3d0f9b5375da499d0d0f26c960500',39,5040,5112,'SR+','[ｽｳｨｰﾄ･ﾛﾜｲﾔﾙ]月宮雅+',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1ac01a720d642c8679ee7aaa60c5ef7d',39,4920,3900,'SR','[ﾐﾙｷｰﾐﾝﾄ]月宮雅',19),
 	 ('919e170503dee2d9ca5697d7903dcf56',39,5904,4680,'SR+','[ﾐﾙｷｰﾐﾝﾄ]月宮雅+',20),
 	 ('4353332eabc486839ac51f1b559c4b95',39,3320,2280,'R','[ﾊｯﾋﾟｰﾊﾛｳｨﾝ]月宮雅',27),
@@ -4837,10 +4835,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f3fe34f102bcfc79c85c7301729dc3fc',76,2320,1760,'R','[ｻｲﾊﾞｰｸﾞﾗｽ]荒木比奈',2),
 	 ('3497634f983f9f98d7d73469c45007f2',76,2760,2720,'R','[ﾗｲﾄﾆﾝｸﾞﾓｰﾆﾝｸﾞ]荒木比奈',8),
 	 ('50b324eef14d2a6f827d1c51538c63cf',76,4008,5400,'SR+','[ﾌﾞﾙｰﾌﾛｰﾄﾊﾟｰﾃｨｰ]荒木比奈+',13),
-	 ('aa5df8e05c805eab2ef48d45718fa710',76,3160,2320,'SR','[花咲く舞姿]荒木比奈',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('aa5df8e05c805eab2ef48d45718fa710',76,3160,2320,'SR','[花咲く舞姿]荒木比奈',14),
 	 ('42ca3dd4352298a6655156f141e4e1a9',76,4896,4848,'SR+','[一夏の思い出]荒木比奈+',19),
-	 ('c115429a11c4b530dcd0ba74454fbbfc',76,9288,6912,'SR+','[もの想う緑風]荒木比奈+',27),
+	 ('c115429a11c4b530dcd0ba74454fbbfc',76,9288,6912,'SR+','[もの想う緑風]荒木比奈+',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('840f916e4ce77247f294049b8be1bcd3',76,8420,6480,'SR','[ﾈｸｽﾄ☆ﾍﾟｰｼﾞ]荒木比奈',30),
 	 ('a93fa27fd527f136453ed340ca84a433',76,10296,7752,'SR+','[ｷﾗﾒｷﾄﾞﾘｰﾐｨ]荒木比奈+',33),
 	 ('0a91b0a75ea811b3ea5533fe284cfb38',86,1464,1176,'N+','水野翠+',1),
@@ -4848,10 +4846,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2f7fbd89b0c629c74a97f2d87da77ed1',86,3200,2100,'R','[T.B.ﾁｱｰｽﾞ]水野翠',13),
 	 ('02f4259ef8e4cfbf3ecaa1d68d99df20',86,4360,4000,'SR','[流麗な令嬢]水野翠',17),
 	 ('9243275ee7e036423573a40b857fdac8',86,5232,4800,'SR+','[流麗な令嬢]水野翠+',18),
-	 ('b6e88f29f51360f5246ef97d39b3aa9b',86,4800,4000,'SR','[ﾌﾞﾗｲﾄ･ﾛﾜｲﾔﾙ]水野翠',23);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b6e88f29f51360f5246ef97d39b3aa9b',86,4800,4000,'SR','[ﾌﾞﾗｲﾄ･ﾛﾜｲﾔﾙ]水野翠',23),
 	 ('dfaf8718bb2640e34528b866c667312e',86,7060,5320,'SR','[宴のﾏｼﾞｽﾄﾚｲﾄ]水野翠',25),
-	 ('cdf2529d3432d2f74bad6e20ac5abc96',86,8060,6340,'SR','[馬上の英姿]水野翠',27),
+	 ('cdf2529d3432d2f74bad6e20ac5abc96',86,8060,6340,'SR','[馬上の英姿]水野翠',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('fa2dec52d070ce84f31fe991bd02a9f4',96,620,940,'R','高峯のあ',0),
 	 ('080ff95ef15907ec9dde885760b35ca5',96,3260,2220,'R','[定常の薄片]高峯のあ',5),
 	 ('ce1da97e5dd419f44c6b80bb3198befd',96,7800,7560,'SR','[ここにある未来]高峯のあ',31),
@@ -4859,10 +4857,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c65bf606e70d6198e249127bd4bfeceb',105,1800,3200,'R','[新春ｶﾞｰﾙ]佐城雪美',6),
 	 ('b765e76345cd9a4fa8b071a3e5764e96',105,3840,3280,'SR','[ﾌﾟﾁ･ﾏﾄﾞﾓｱｾﾞﾙ]佐城雪美',10),
 	 ('f3393d71e257bdf3a2e4ca51772ef2be',105,3180,3860,'SR','[ｸﾘｽﾏｽﾄﾞｰﾙ]佐城雪美',12),
-	 ('1ebec92842779992268a13bd4a21bdb2',105,5280,5088,'SR+','[夏宵のお嬢様]佐城雪美+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1ebec92842779992268a13bd4a21bdb2',105,5280,5088,'SR+','[夏宵のお嬢様]佐城雪美+',15),
 	 ('b2a4e884c5dea362551b34d22975a824',105,4180,4380,'SR','[小さなﾄﾞｷﾄﾞｷ]佐城雪美',18),
-	 ('a72b17701c91600e7de7ad03eaacb779',105,6700,4800,'SR','[紺青のゆらめき]佐城雪美',20),
+	 ('a72b17701c91600e7de7ad03eaacb779',105,6700,4800,'SR','[紺青のゆらめき]佐城雪美',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('07877c912588c86210295fd83d33f6cd',105,9096,7104,'SR+','[ｸﾘｽﾀﾙﾒｲｽﾞ]佐城雪美+',25),
 	 ('c7a470b1a1bbfa73c9553da468e89348',105,4032,2568,'R+','[ﾌｧﾝﾀｼﾞｯｸｴｱｰ]佐城雪美+',28),
 	 ('e68e57609eb3533c2667329e1815d313',105,7800,7560,'SR','[きらめきﾎﾘﾃﾞｰﾒﾓﾘｰ]佐城雪美',32),
@@ -4870,10 +4868,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('241544a784fce0bee2c6393f50c0b66a',114,4260,3160,'R+','[ｸﾚｰﾌﾟI.C]白坂小梅+',15),
 	 ('5cb519e64701c15572f2f51981c79ac7',114,4420,4120,'SR','[納涼浴衣娘]白坂小梅',20),
 	 ('54627202ea402abc86e37147cea9c2ea',114,5304,4944,'SR+','[納涼浴衣娘]白坂小梅+',21),
-	 ('14f7e77a84e8f89398274d5e9ff63c3f',114,4720,4640,'SR','[学園のﾋﾛｲﾝ]白坂小梅',26);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('14f7e77a84e8f89398274d5e9ff63c3f',114,4720,4640,'SR','[学園のﾋﾛｲﾝ]白坂小梅',26),
 	 ('72301fc6b66e10af7b057d56155ceaa5',114,5664,5568,'SR+','[学園のﾋﾛｲﾝ]白坂小梅+',27),
-	 ('3677958390fba4828e21cad9bbfc30b4',114,2740,3640,'SR','[4thｱﾆﾊﾞｰｻﾘｰ]白坂小梅',32),
+	 ('3677958390fba4828e21cad9bbfc30b4',114,2740,3640,'SR','[4thｱﾆﾊﾞｰｻﾘｰ]白坂小梅',32);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('8bf75ee15f38e8cb455b551604b503e5',114,4200,4400,'SR','[4thｱﾆﾊﾞｰｻﾘｰ･S]白坂小梅',34),
 	 ('8760de4f1ffcd5454f63f3332535bb24',114,7536,7440,'SR+','[ﾂﾅｶﾞﾙｳﾜｻ]白坂小梅+',37),
 	 ('ff217064ae11f5761b22be67d6e345ea',114,4460,3340,'SR','[ｽﾘﾘﾝｸﾞﾍﾞﾝﾀﾞｰ]白坂小梅',40),
@@ -4881,10 +4879,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6d6293f8bdd0b942ddbf4203687c4186',205,4420,4420,'SR','[9thｱﾆﾊﾞｰｻﾘｰ]砂塚あきら',6),
 	 ('6b0b2de1e6e4ef2116b183803d25c17d',39,2904,3072,'R+','[ﾋﾟﾝｷｰﾋﾞｷﾆ]月宮雅+',5),
 	 ('bd4c00d4b8ad3eed06511322b751bce0',39,3220,2200,'R','[ｾﾚｸﾄﾒｲﾄﾞ]月宮雅',6),
-	 ('a541e1700026bd6b0383659bd92c006b',39,2920,3160,'SR','[桜ｶﾞｰﾙ]月宮雅',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a541e1700026bd6b0383659bd92c006b',39,2920,3160,'SR','[桜ｶﾞｰﾙ]月宮雅',13),
 	 ('7d15fa5eb270efe4d371bbb6f17dfde2',39,5016,4680,'SR+','[華･美･雅]月宮雅+',16),
-	 ('0e32a0dafd89eb55cc8a31b0fcc6ef0b',39,4200,4260,'SR','[ｽｳｨｰﾄ･ﾛﾜｲﾔﾙ]月宮雅',17),
+	 ('0e32a0dafd89eb55cc8a31b0fcc6ef0b',39,4200,4260,'SR','[ｽｳｨｰﾄ･ﾛﾜｲﾔﾙ]月宮雅',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('27d9297f2fa9b6bee8a4e1ecdf8f0a49',39,6300,6240,'SR','[ﾙｯｸｱｯﾄﾐｰ]月宮雅',21),
 	 ('e303443ec6f4f9ac899ceea04e23235a',39,4848,4584,'SR+','[ﾌﾗｯﾌｨｰﾁｱｰ]月宮雅+',24),
 	 ('d84d9ea4024e06492402ea53db6ea502',39,4032,2544,'R+','[ﾀｲﾑﾚｽﾁｬｰﾑ]月宮雅+',26),
@@ -4892,10 +4890,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1cddd797664730b9996c24be7647aeef',76,3984,2688,'R+','[ﾅｲﾄﾊﾟｰﾃｨｰ]荒木比奈+',7),
 	 ('685e778faec4180be5af8d453a5bdbd8',76,3312,3264,'R+','[ﾗｲﾄﾆﾝｸﾞﾓｰﾆﾝｸﾞ]荒木比奈+',9),
 	 ('cf22d3b6255843c39b54ae310cccc00b',76,3340,4500,'SR','[ﾌﾞﾙｰﾌﾛｰﾄﾊﾟｰﾃｨｰ]荒木比奈',12),
-	 ('4678637baed65cc724da47c58b5fbeeb',76,3792,2784,'SR+','[花咲く舞姿]荒木比奈+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('4678637baed65cc724da47c58b5fbeeb',76,3792,2784,'SR+','[花咲く舞姿]荒木比奈+',15),
 	 ('3806edd95899d90efae5a33f742071fe',76,4080,4040,'SR','[一夏の思い出]荒木比奈',18),
-	 ('bad411da0072464e386083dad9d15429',76,6300,4440,'SR','[こころﾍﾟｲﾝﾄ]荒木比奈',20),
+	 ('bad411da0072464e386083dad9d15429',76,6300,4440,'SR','[こころﾍﾟｲﾝﾄ]荒木比奈',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('79deb31a7619f1a72fd3a4d72c8e7f44',76,7480,5720,'SR','[ｽﾀｰﾃｨﾝｸﾞ･ﾌﾞﾙｰ]荒木比奈',24),
 	 ('9eab17738e9d57ce04ae5fcec18b4f36',76,9768,7608,'SR+','[ﾏｲﾆｭｰｶﾗｰ]荒木比奈+',29),
 	 ('e1b9ca4e503b2a418cd1ae71fdd42d16',76,8580,6460,'SR','[ｷﾗﾒｷﾄﾞﾘｰﾐｨ]荒木比奈',32),
@@ -4903,10 +4901,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('57325aceabc5936c1929ef4612eac534',86,2720,2700,'R','[名湯探訪･S]水野翠',9),
 	 ('79291f3d0a3c74375a84cf612dd32774',86,2520,2460,'R','[新春浪漫]水野翠',11),
 	 ('9e5204e0e6f541db4962b38be6ac4857',86,3840,2520,'R+','[T.B.ﾁｱｰｽﾞ]水野翠+',14),
-	 ('c19da47ce6c5ffd3c89c606af52fe802',86,4776,3720,'SR+','[真心の射手]水野翠+',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c19da47ce6c5ffd3c89c606af52fe802',86,4776,3720,'SR+','[真心の射手]水野翠+',16),
 	 ('f0c170150ebc829334e052ad02f684df',86,4600,3800,'SR','[光彩の華]水野翠',19),
-	 ('7a73cd330d410ac8d07b1fd19fbe2ff6',86,6160,4560,'SR','[ｸﾞﾙﾒｼﾞｬｯｼﾞﾒﾝﾄ]水野翠',21),
+	 ('7a73cd330d410ac8d07b1fd19fbe2ff6',86,6160,4560,'SR','[ｸﾞﾙﾒｼﾞｬｯｼﾞﾒﾝﾄ]水野翠',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('cff720f0338a7ae16dc936a802809a2f',86,8472,6384,'SR+','[宴のﾏｼﾞｽﾄﾚｲﾄ]水野翠+',26),
 	 ('e3311e7e2e9ceb7fd8ba4a87fc71aa53',86,3360,1980,'R','[きらめく水流]水野翠',29),
 	 ('601fe50f575ef26e92fdf9c2d6536286',96,744,1128,'R+','高峯のあ+',1),
@@ -4914,10 +4912,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b91812d174f27857fc52fcd2a132cf1d',96,2720,2680,'R','[微笑む京の町]高峯のあ',11),
 	 ('5e07fd98a4bc380a8fa8a54bb0fc8402',96,5256,3840,'SR+','[ﾐｽﾃﾘｱｽﾒｲﾄﾞ]高峯のあ+',16),
 	 ('eb19babf3f607140e5e7729c2c7bd063',96,4460,4120,'SR','[ﾄﾗﾝｾﾝﾄﾞﾊﾞﾆｰ]高峯のあ',17),
-	 ('90e8bb440dc7b7d442a7e0a54a5a159c',96,7632,5400,'SR+','[ｲｸﾞﾅｲﾄｱﾋﾞﾘﾃｨｰｽﾞ]高峯のあ+',22);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('90e8bb440dc7b7d442a7e0a54a5a159c',96,7632,5400,'SR+','[ｲｸﾞﾅｲﾄｱﾋﾞﾘﾃｨｰｽﾞ]高峯のあ+',22),
 	 ('eb6c39fd1f1cc9a59cb18cab01f5cf01',96,5860,5860,'SR','[ｲﾝｽﾍﾟｸﾄｺﾝｺﾙﾃﾞｨｱ]高峯のあ',23),
-	 ('0aaf9c67dd390e86954ce2b6655b5032',96,8688,8664,'SR+','[ｴｳﾞｧﾈｯｾﾝﾄﾌｫｰﾙ]高峯のあ+',28),
+	 ('0aaf9c67dd390e86954ce2b6655b5032',96,8688,8664,'SR+','[ｴｳﾞｧﾈｯｾﾝﾄﾌｫｰﾙ]高峯のあ+',28);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bac71801e52aed85607e0ac568eedb15',105,4420,4460,'SR','[ﾄﾞｰﾘｰ･ﾛﾜｲﾔﾙ]佐城雪美',22),
 	 ('674f4cb361e967bca336653539ed6613',105,5304,5352,'SR+','[ﾄﾞｰﾘｰ･ﾛﾜｲﾔﾙ]佐城雪美+',23),
 	 ('c21b5d8e7d5daf99cd0c16243e6245b0',105,3936,2712,'R+','[ほっこり温泉]佐城雪美+',27),
@@ -4925,10 +4923,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('44f2da3a9c5beecfda2bfddae84a1153',114,3800,3400,'SR','[ﾊﾛｳｨﾝﾅｲﾄﾒｱ]白坂小梅',16),
 	 ('a24533b9f3185e3735b81abe720ccefa',114,2000,3000,'SR+','[ﾎﾜｲﾄﾅｲﾄﾒｱ]白坂小梅+',19),
 	 ('040042fc1ca9ce2681ec5db9997d39c1',114,1840,2360,'SR','[CDﾃﾞﾋﾞｭｰ]白坂小梅',22),
-	 ('2af32ad71bbed8be247e01b670d051a9',114,6168,4416,'SR+','[ｺﾞｼｯｸﾎﾗｰﾅｲﾄﾒｱ]白坂小梅+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2af32ad71bbed8be247e01b670d051a9',114,6168,4416,'SR+','[ｺﾞｼｯｸﾎﾗｰﾅｲﾄﾒｱ]白坂小梅+',25),
 	 ('d380946c0a53f37c0d8fccc405fa343f',114,6040,3680,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]白坂小梅',28),
-	 ('46884da8ea8a4a9e6d66c1c7ae4fc974',114,7680,5448,'SR+','[ｽﾃｯﾌﾟﾊﾞｲｽﾃｯﾌﾟ]白坂小梅+',31),
+	 ('46884da8ea8a4a9e6d66c1c7ae4fc974',114,7680,5448,'SR+','[ｽﾃｯﾌﾟﾊﾞｲｽﾃｯﾌﾟ]白坂小梅+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('39fddacadc87a87a49aa2ad95731d1b8',114,3288,4368,'SR+','[4thｱﾆﾊﾞｰｻﾘｰ]白坂小梅+',33),
 	 ('841987aba0f4f9816f396b8341de2ec2',114,7620,5940,'SR','[溟海の使者]白坂小梅',38),
 	 ('c5cc689baeb011c694df6513f66c3399',114,6408,5088,'SR+','[ｽﾏｲﾙﾍﾞﾝﾀﾞｰ]白坂小梅+',43),
@@ -4936,10 +4934,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('26e2e2d1abd29821d2fd5bee8742bab4',114,9120,9096,'SR+','[ｾﾝﾘﾂﾉﾖﾙ]白坂小梅+',51),
 	 ('27971f5bbeb08bbf3cfd996438d84fb2',205,8500,6660,'SR','[#seaside_color]砂塚あきら',4),
 	 ('59888091676444396a1c5413a191cba9',205,5304,5304,'SR+','[9thｱﾆﾊﾞｰｻﾘｰ]砂塚あきら+',7),
-	 ('72903e368650176ba65038f3c8f5a8e6',126,7360,5060,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]森久保乃々',34);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('72903e368650176ba65038f3c8f5a8e6',126,7360,5060,'SR','[ｼﾝﾃﾞﾚﾗﾄﾞﾘｰﾑ]森久保乃々',34),
 	 ('81d465da3bf8e5ec6b084fc608a4c916',126,8540,6500,'SR','[夢のささやき]森久保乃々',37),
-	 ('0e89522f25808ac3ad1ebfed7cecd8c9',126,10128,7968,'SR+','[めぐりあう夏]森久保乃々+',39),
+	 ('0e89522f25808ac3ad1ebfed7cecd8c9',126,10128,7968,'SR+','[めぐりあう夏]森久保乃々+',39);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ea6ea7bc7bb994ee3f40bf04f6126ec8',39,7560,7488,'SR+','[ﾙｯｸｱｯﾄﾐｰ]月宮雅+',22),
 	 ('64b884720b8e70230751a590404ff00d',39,4040,3820,'SR','[ﾌﾗｯﾌｨｰﾁｱｰ]月宮雅',23),
 	 ('cab4deaddbfefbc80eee242f356da77d',39,3360,2120,'R','[ﾀｲﾑﾚｽﾁｬｰﾑ]月宮雅',25),
@@ -4947,10 +4945,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bc8b2dbbf15ea462967d6052df22acdb',76,6880,5120,'SR','[青き日のﾒﾓﾘｰ]荒木比奈',22),
 	 ('8bf7dc8dbd84d951fd785c1238375da5',76,7740,5760,'SR','[もの想う緑風]荒木比奈',26),
 	 ('69d297f1b6fb812bf26843f0d76ff50f',86,3456,2568,'R+','[純真子女]水野翠+',3),
-	 ('197ed6234c6ed8842ff1d7c5ea8aec6b',86,3560,3520,'R+','[ｽﾏｰﾄｽﾀｲﾙ]水野翠+',6);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('197ed6234c6ed8842ff1d7c5ea8aec6b',86,3560,3520,'R+','[ｽﾏｰﾄｽﾀｲﾙ]水野翠+',6),
 	 ('df24296562d7ff98a40501958c234758',96,2280,2280,'R','[ｻｲﾊﾞﾈﾃｨｯｸﾋﾞｭｰﾃｨｰ]高峯のあ',2),
-	 ('733970eab21286369c8512a48dc9f54a',96,3888,2736,'R+','[新春浪漫]高峯のあ+',8),
+	 ('733970eab21286369c8512a48dc9f54a',96,3888,2736,'R+','[新春浪漫]高峯のあ+',8);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5318a142d7ac9c1442963b5a74114a12',96,2640,3140,'SR','[寡黙の女王]高峯のあ',13),
 	 ('e5e24d0c31229301ba067bd7b55c07f1',96,3168,3768,'SR+','[寡黙の女王]高峯のあ+',14),
 	 ('ebeffaed713567cdde72ef9093f78574',96,5480,3880,'SR','[銀弾の射手]高峯のあ',19),
@@ -4958,10 +4956,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('3045052fe275d79c6d260fb4dbd2b265',96,7240,5320,'SR','[大いなる越境者]高峯のあ',25),
 	 ('9a2a2e5aaffbfb59d19b066c02a28794',96,8688,6384,'SR+','[大いなる越境者]高峯のあ+',26),
 	 ('5432572bb8afd73e824682769144d690',96,8500,6460,'SR','[ﾗｲｼﾞﾝｸﾞｻｳﾝﾄﾞ]高峯のあ',29),
-	 ('fd28305453f9d90dd175b9cfcad36358',96,9360,9072,'SR+','[ここにある未来]高峯のあ+',32);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('fd28305453f9d90dd175b9cfcad36358',96,9360,9072,'SR+','[ここにある未来]高峯のあ+',32),
 	 ('770a4681735755bba21ecb130826c2e2',105,3360,2140,'R','[ﾌｧﾝﾀｼﾞｯｸｴｱｰ]佐城雪美',29),
-	 ('4435d640170b43c71421af7d07761528',105,9192,9072,'SR+','[ちいさな手のひら]佐城雪美+',31),
+	 ('4435d640170b43c71421af7d07761528',105,9192,9072,'SR+','[ちいさな手のひら]佐城雪美+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1d08bacd23af6535de32f73691eb5c7a',105,9360,9072,'SR+','[きらめきﾎﾘﾃﾞｰﾒﾓﾘｰ]佐城雪美+',33),
 	 ('c73b4dc40685bc50d331c9f32d1b91fb',115,960,960,'R','岸部彩華',0),
 	 ('038dbf3dcf6ba83def688acc1d3a51b8',115,1992,1968,'R+','[ﾘｰﾌﾞﾙﾊﾟﾋﾟﾖﾝ]岸部彩華+',5),
@@ -4969,10 +4967,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d6aad9209b558bbe367ce9f4a68ee90a',115,3280,2140,'R','[ﾏｲﾃﾞｺﾗﾃｨﾌﾞ]岸部彩華',12),
 	 ('73a610b13d74ddc5de06cbdbf6dc898e',205,11400,8900,'SR+','[9thｱﾆﾊﾞｰｻﾘｰ･S]砂塚あきら+',9),
 	 ('bdd75aa4670e84394fa074885329d353',128,1600,1200,'R','大和亜季',0),
-	 ('21adbd340e60c5982af18b580d87049d',128,2616,2256,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙ]大和亜季+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('21adbd340e60c5982af18b580d87049d',128,2616,2256,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙ]大和亜季+',5),
 	 ('1a44a4f1c5ab36cbd0371578241348d7',40,1536,2064,'R+','兵藤ﾚﾅ+',1),
-	 ('9a344a0f7eacff98f66992e81351ccf4',40,2200,1800,'R','[ﾃﾞｨｰﾗｰｽﾞﾊｰﾄ]兵藤ﾚﾅ',2),
+	 ('9a344a0f7eacff98f66992e81351ccf4',40,2200,1800,'R','[ﾃﾞｨｰﾗｰｽﾞﾊｰﾄ]兵藤ﾚﾅ',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('28274ccdbc9075fbccd18ce5bb4e606c',40,2640,2160,'R+','[ﾃﾞｨｰﾗｰｽﾞﾊｰﾄ]兵藤ﾚﾅ+',3),
 	 ('1f613d36bd64b334cab8051894158168',40,3020,1960,'R','[湯けむり温泉]兵藤ﾚﾅ',4),
 	 ('a0e2019b4854b20b56dd58cd920c30f5',40,2280,2088,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙ]兵藤ﾚﾅ+',7),
@@ -4980,10 +4978,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('241884f39b4e56dcad17bc712b028f4b',40,2136,3840,'R+','[ﾋﾞｰﾁｻｲﾄﾞ]兵藤ﾚﾅ+',9),
 	 ('4067febaae2008b50c289fbff62d0187',40,2136,3864,'R+','[ﾋﾞﾀｰ&ｽｳｨｰﾄ]兵藤ﾚﾅ+',11),
 	 ('2a1eafa5944c41d04572380e89ea37c7',40,3264,3240,'R+','[ｶｲﾝﾄﾞｽﾁｰﾑ]兵藤ﾚﾅ+',13),
-	 ('183399a6cf3fd2be17db048014c5e717',40,3816,2568,'R+','[麗しの紅孔雀]兵藤ﾚﾅ+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('183399a6cf3fd2be17db048014c5e717',40,3816,2568,'R+','[麗しの紅孔雀]兵藤ﾚﾅ+',15),
 	 ('b41536a7189300f12a2e7cea0671960b',40,2760,2720,'R','[ｱﾝﾃｨｸﾛｽ]兵藤ﾚﾅ',16),
-	 ('81fc4d2dd94ad0113c4f89297c0677d4',40,3312,3264,'R+','[ｱﾝﾃｨｸﾛｽ]兵藤ﾚﾅ+',17),
+	 ('81fc4d2dd94ad0113c4f89297c0677d4',40,3312,3264,'R+','[ｱﾝﾃｨｸﾛｽ]兵藤ﾚﾅ+',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2cb9de945cba44c89e83966070671d50',40,3400,4440,'SR','[ｾｸｼｰﾊﾞﾆｰ]兵藤ﾚﾅ',18),
 	 ('472819ff358f1aca7a0521c1034b354b',40,4080,5328,'SR+','[ｾｸｼｰﾊﾞﾆｰ]兵藤ﾚﾅ+',19),
 	 ('232036d7ff6b8e1b9e458b312616f7a2',40,5120,5080,'SR','[ﾋﾞｭｰﾃｨｰｳｨｯﾁ]兵藤ﾚﾅ',20),
@@ -4991,10 +4989,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('864bcc62abdfd8c798e906bcd25c0e93',40,5360,5360,'SR','[牡丹に蝶]兵藤ﾚﾅ',24),
 	 ('81b0f657327ed31d928398f4f6a616cf',40,4800,4800,'SR','[勝負の鬼]兵藤ﾚﾅ',26),
 	 ('499c7f7de5c84cfbfffbcd4d40a4ab50',40,5760,5760,'SR+','[勝負の鬼]兵藤ﾚﾅ+',27),
-	 ('84c5ebdc50f14dc6f9e4a2eacdeeb662',40,4200,4160,'SR','[ｶﾘﾋﾞｱﾝｱﾐｭｰｽﾞ]兵藤ﾚﾅ',28);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('84c5ebdc50f14dc6f9e4a2eacdeeb662',40,4200,4160,'SR','[ｶﾘﾋﾞｱﾝｱﾐｭｰｽﾞ]兵藤ﾚﾅ',28),
 	 ('9799d06c93973d5a534dc34ce79a0aec',40,5040,4992,'SR+','[ｶﾘﾋﾞｱﾝｱﾐｭｰｽﾞ]兵藤ﾚﾅ+',29),
-	 ('74aa09925c2e9f3dfa27f9d6c9043737',77,620,1000,'N','東郷あい',0),
+	 ('74aa09925c2e9f3dfa27f9d6c9043737',77,620,1000,'N','東郷あい',0);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('d94d965adfb72f7ef95ac3b77733401a',77,1968,2328,'R+','[ﾒｲﾄﾞｺﾚｸｼｮﾝ]東郷あい+',5),
 	 ('6b328ca71ed9610a04aa38670c9b3166',77,2560,2460,'R','[ｴﾚｶﾞﾝﾄﾋﾞｭｰﾃｨｰ]東郷あい',10),
 	 ('31b37aeecf1445f7e363f3b8b7b6db23',77,3280,2240,'R','[ｻﾏｰﾊﾞｹｰｼｮﾝ]東郷あい',13),
@@ -5002,10 +5000,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c3fa0697da17804c6fbd18ba99d2c722',77,5952,5856,'SR+','[ﾄﾞﾗｲﾌﾞﾄｩﾈｸｽﾄ]東郷あい+',22),
 	 ('6820ec6d2e126592f9bade2f433bbcc7',77,3048,4008,'SR+','[貫禄のお嬢様]東郷あい+',24),
 	 ('cd2da0337b1ecce664227382948450db',77,4880,3920,'SR','[夏の戯れ]東郷あい',27),
-	 ('81c57f1739669fb5369729b4e5793224',77,7640,5940,'SR','[ｸﾗｯｼｰｽｹｰﾙ]東郷あい',31);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('81c57f1739669fb5369729b4e5793224',77,7640,5940,'SR','[ｸﾗｯｼｰｽｹｰﾙ]東郷あい',31),
 	 ('caaa98d6cdcd8dbcda7c43eb82bbc492',77,5140,5060,'SR','[ﾊﾝｻﾑﾁｱｰ]東郷あい',33),
-	 ('ea7c0cc9378022c32cf494aef5ff306f',77,4032,2688,'R+','[ﾎｰﾘｰﾅｲﾄ]東郷あい+',36),
+	 ('ea7c0cc9378022c32cf494aef5ff306f',77,4032,2688,'R+','[ﾎｰﾘｰﾅｲﾄ]東郷あい+',36);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0a48ebcb12a416c18d6b1bbac33cee1c',86,2720,2720,'R','[ﾋﾞｰﾁｻｲﾄﾞ]水野翠',4),
 	 ('de07443b2548608fe9ed2f95f53bc753',86,2460,2820,'R','[名湯探訪]水野翠',7),
 	 ('560834b8207166222b10eb2590a1e099',86,3980,3100,'SR','[真心の射手]水野翠',15),
@@ -5013,10 +5011,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e07a8e6fc6082559aeb12e34d3fa941a',86,7392,5472,'SR+','[ｸﾞﾙﾒｼﾞｬｯｼﾞﾒﾝﾄ]水野翠+',22),
 	 ('64be6676bdf303ee26c8b5cf28a04ac1',86,5760,4800,'SR+','[ﾌﾞﾗｲﾄ･ﾛﾜｲﾔﾙ]水野翠+',24),
 	 ('20ee2b470e23712c88a54dc2ea3d999a',86,9672,7608,'SR+','[馬上の英姿]水野翠+',28),
-	 ('ac03319878fbf51863c2a28503abf0e7',86,4032,2376,'R+','[きらめく水流]水野翠+',30);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ac03319878fbf51863c2a28503abf0e7',86,4032,2376,'R+','[きらめく水流]水野翠+',30),
 	 ('0512fbcece083f4b2077d3ba763bfc59',96,2736,2736,'R+','[ｻｲﾊﾞﾈﾃｨｯｸﾋﾞｭｰﾃｨｰ]高峯のあ+',3),
-	 ('dc44f2b08fa035521ae2c420f188395f',96,3912,2664,'R+','[定常の薄片]高峯のあ+',6),
+	 ('dc44f2b08fa035521ae2c420f188395f',96,3912,2664,'R+','[定常の薄片]高峯のあ+',6);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ea8f2debee7ea75735a2f425f94e53bb',96,2904,3432,'R+','[艶めく京の町]高峯のあ+',10),
 	 ('9a804229c184c183c87a1df65696fb2a',96,3264,3216,'R+','[微笑む京の町]高峯のあ+',12),
 	 ('9e4f24a0d5ffb26f7c9c24c818ba09df',96,4380,3200,'SR','[ﾐｽﾃﾘｱｽﾒｲﾄﾞ]高峯のあ',15),
@@ -5024,10 +5022,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('4eb2a1368c3fd86ecc07cab40f40e1ad',96,6360,4500,'SR','[ｲｸﾞﾅｲﾄｱﾋﾞﾘﾃｨｰｽﾞ]高峯のあ',21),
 	 ('eacc9bc4fe9128ac315bf016a2c356c4',96,7032,7032,'SR+','[ｲﾝｽﾍﾟｸﾄｺﾝｺﾙﾃﾞｨｱ]高峯のあ+',24),
 	 ('5ce4de51e58e34e54e6a42a786a9e9c0',96,7240,7220,'SR','[ｴｳﾞｧﾈｯｾﾝﾄﾌｫｰﾙ]高峯のあ',27),
-	 ('6266f471377bc1698b58ddd4638ead09',106,1000,600,'R','如月千早',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('6266f471377bc1698b58ddd4638ead09',106,1000,600,'R','如月千早',0),
 	 ('3d78511d3da1db3fb51a938c8dd968d1',106,1180,1420,'R','[制服ｸﾞﾘｰﾝ]如月千早',5),
-	 ('f68f6ba5aaa28606a5d9290ea4e7db4d',106,1630,2050,'R+','[ﾊｲﾈｽﾙｰｼﾞｭ]如月千早+',10),
+	 ('f68f6ba5aaa28606a5d9290ea4e7db4d',106,1630,2050,'R+','[ﾊｲﾈｽﾙｰｼﾞｭ]如月千早+',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('5b51c5da302fb24a3a7af06ba2df4b1e',106,1600,2400,'SR','[瑠璃の歌姫]如月千早',13),
 	 ('333569a4bc55998dc01ad3a8a2f91cc3',106,2000,3000,'SR+','[瑠璃の歌姫]如月千早+',14),
 	 ('28bb1de41fcfabcb5d2ba1d3870c121b',115,1152,1152,'R+','岸部彩華+',1),
@@ -5035,10 +5033,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('66f5d69f9648c1bcd8f0cf357cb804ff',128,1920,1440,'R+','大和亜季+',1),
 	 ('38de71214ba7e32b35be68f067cd1186',128,3504,2520,'R+','[ﾄﾛﾋﾟｶﾙﾘｿﾞｰﾄ]大和亜季+',9),
 	 ('64f9f11efe3ea3e156d089af6383daf5',128,4872,4776,'SR+','[ｳﾞｫﾔｰｼﾞｭ･ｸﾞﾗｯﾌﾟﾗｰ]大和亜季+',13),
-	 ('07acb4080f5ab49d5e122849994e21ec',128,5840,4400,'SR','[V･ｼﾞｪﾈﾗﾙ]大和亜季',16);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('07acb4080f5ab49d5e122849994e21ec',128,5840,4400,'SR','[V･ｼﾞｪﾈﾗﾙ]大和亜季',16),
 	 ('f4edb567d2d54063babfa277b6716e8c',128,3792,3864,'SR+','[ﾌｫﾜｰﾄﾞﾁｱｰ]大和亜季+',19),
-	 ('f575c75aca75758a1c6505917a35300d',128,3740,3160,'SR','[煩悩ﾋﾞｰﾄｱｳﾄ]大和亜季',22),
+	 ('f575c75aca75758a1c6505917a35300d',128,3740,3160,'SR','[煩悩ﾋﾞｰﾄｱｳﾄ]大和亜季',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a3419185103e269d06eb03126ee50a0c',128,5328,4032,'SR+','[異国のﾄﾞﾚｯｻｰ]大和亜季+',25),
 	 ('908b4b0bc1c2ca748b6e485832f2afd7',128,7180,7180,'SR','[ﾊﾟﾜﾌﾙｵﾌｨｻｰ]大和亜季',28),
 	 ('30480e1245cdbe88f88165b669321b8a',40,3624,2352,'R+','[湯けむり温泉]兵藤ﾚﾅ+',5),
@@ -5046,10 +5044,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('dd939d75521e408a4185069f3168145e',40,1780,3220,'R','[ﾋﾞﾀｰ&ｽｳｨｰﾄ]兵藤ﾚﾅ',10),
 	 ('6dbeaec9fbbebd69811dc606b638cfb1',40,2720,2700,'R','[ｶｲﾝﾄﾞｽﾁｰﾑ]兵藤ﾚﾅ',12),
 	 ('ebc9d0d5dfac3dff136e70adea8eb3d8',40,3180,2140,'R','[麗しの紅孔雀]兵藤ﾚﾅ',14),
-	 ('e71a7133899c8ed597bd85cabe1bec47',40,6144,6096,'SR+','[ﾋﾞｭｰﾃｨｰｳｨｯﾁ]兵藤ﾚﾅ+',21);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e71a7133899c8ed597bd85cabe1bec47',40,6144,6096,'SR+','[ﾋﾞｭｰﾃｨｰｳｨｯﾁ]兵藤ﾚﾅ+',21),
 	 ('db3da083a2e7e999fad7983cd49e5127',40,5376,4824,'SR+','[美しき挑発]兵藤ﾚﾅ+',23),
-	 ('9cf74ba99862e8a7d52677bca5e48c3b',40,6432,6432,'SR+','[牡丹に蝶]兵藤ﾚﾅ+',25),
+	 ('9cf74ba99862e8a7d52677bca5e48c3b',40,6432,6432,'SR+','[牡丹に蝶]兵藤ﾚﾅ+',25);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e17ec435360aacffe0bc16e55e64e5a3',40,10550,8550,'SR','[ｶﾘﾋﾞｱﾝｽﾏｲﾙ]兵藤ﾚﾅ',30),
 	 ('a649466d9e2417ea3abd515e0f5b4fe8',40,10550,8550,'SR+','[ｶﾘﾋﾞｱﾝｽﾏｲﾙ]兵藤ﾚﾅ+',31),
 	 ('6c298af445eea9e1b73482704eec4924',41,1760,1120,'R','道明寺歌鈴',0),
@@ -5057,10 +5055,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e280aa01f99069f3253b0c406eeaa233',41,950,1430,'R','[新春]道明寺歌鈴',2),
 	 ('9fd5148925ca5f8523c6187a584da80c',41,1140,1716,'R+','[新春]道明寺歌鈴+',3),
 	 ('e7c21fde6b9e0665f541deadd30cee5b',41,2000,1760,'R','[ｱﾆﾊﾞｰｻﾘｰﾋﾟﾝｸ]道明寺歌鈴',4),
-	 ('080b3fa1b8895f20a4462cba7ca55d44',41,2400,2112,'R+','[ｱﾆﾊﾞｰｻﾘｰﾋﾟﾝｸ]道明寺歌鈴+',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('080b3fa1b8895f20a4462cba7ca55d44',41,2400,2112,'R+','[ｱﾆﾊﾞｰｻﾘｰﾋﾟﾝｸ]道明寺歌鈴+',5),
 	 ('9602cd56a0d2dd6fb7c3aa2d911fb95c',41,1860,3080,'R','[新春ｺﾚｸｼｮﾝ]道明寺歌鈴',6),
-	 ('43c772ecc9cc0ac50c0cf5b8705da38a',41,2232,3696,'R+','[新春ｺﾚｸｼｮﾝ]道明寺歌鈴+',7),
+	 ('43c772ecc9cc0ac50c0cf5b8705da38a',41,2232,3696,'R+','[新春ｺﾚｸｼｮﾝ]道明寺歌鈴+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('89745565c1ee9c10ebaa7adfbadde425',41,2460,2380,'R','[勇壮の槍騎士]道明寺歌鈴',8),
 	 ('6c2726aaf43a56940326e08fe6d8b098',41,2952,2856,'R+','[勇壮の槍騎士]道明寺歌鈴+',9),
 	 ('79a9a786007e9b69d544fcf709131652',41,4240,3100,'R+','[ｺﾚｸｼｮﾝｽﾀｲﾙ]道明寺歌鈴+',10),
@@ -5068,10 +5066,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('940e1b9231b2d42110041563ee72bf8f',41,3300,2220,'R','[秋空ｽﾎﾟｰﾂ]道明寺歌鈴',12),
 	 ('1ff8c8545bc88012c0862e66010ea28b',41,3960,2664,'R+','[秋空ｽﾎﾟｰﾂ]道明寺歌鈴+',13),
 	 ('fb17067100ef5228c4de359c66c27336',41,3280,2720,'SR','[大器晩成]道明寺歌鈴',14),
-	 ('e276c868cb46d0753eb4162eb078acf1',41,3936,3264,'SR+','[大器晩成]道明寺歌鈴+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e276c868cb46d0753eb4162eb078acf1',41,3936,3264,'SR+','[大器晩成]道明寺歌鈴+',15),
 	 ('0312fa19f6f938e7fe0f6125c9703e04',41,4000,3960,'SR','[ｻﾝｼｬｲﾝﾋﾞｰﾁ]道明寺歌鈴',16),
-	 ('4c8ea91dd2c68daeb6caa2ef85d01325',41,4800,4752,'SR+','[ｻﾝｼｬｲﾝﾋﾞｰﾁ]道明寺歌鈴+',17),
+	 ('4c8ea91dd2c68daeb6caa2ef85d01325',41,4800,4752,'SR+','[ｻﾝｼｬｲﾝﾋﾞｰﾁ]道明寺歌鈴+',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3188ae6a90fb6b6517c9a2a177c19be7',41,5720,3940,'SR','[おてんば神楽]道明寺歌鈴',18),
 	 ('e542dd24695b0c9853ff72cb182bd32a',41,6864,4728,'SR+','[おてんば神楽]道明寺歌鈴+',19),
 	 ('d0d75973eab499695ccec3682febd599',41,5460,5420,'SR','[ぴかぴかｶﾞｰﾙ]道明寺歌鈴',20),
@@ -5079,10 +5077,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('41f86f41f533b5dfd2c406298fd4bbd1',41,6740,4900,'SR','[古都の花嫁]道明寺歌鈴',22),
 	 ('2fe37f02176fe6b24e4ecec33318811d',41,8088,5880,'SR+','[古都の花嫁]道明寺歌鈴+',23),
 	 ('eb61ed2c8f8e22bbd115f50600da6c6c',41,3460,3480,'SR','[不屈のくのいち]道明寺歌鈴',24),
-	 ('679389de74afb22434d01fce5723c3cb',41,4152,4176,'SR+','[不屈のくのいち]道明寺歌鈴+',25);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('679389de74afb22434d01fce5723c3cb',41,4152,4176,'SR+','[不屈のくのいち]道明寺歌鈴+',25),
 	 ('aa1f7b77aac0449d2c04b32f6b2d72b6',41,4440,4440,'SR','[朗笑のくのいち]道明寺歌鈴',26),
-	 ('d9be7d1d689f9e143ff27dd1063a0040',41,5328,5328,'SR+','[朗笑のくのいち]道明寺歌鈴+',27),
+	 ('d9be7d1d689f9e143ff27dd1063a0040',41,5328,5328,'SR+','[朗笑のくのいち]道明寺歌鈴+',27);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('28aefe67e58eb8815d5b209fd207adda',41,6540,6500,'SR','[たわむれの楽園]道明寺歌鈴',28),
 	 ('efc801df368c5282f5ee6ad90dd1f3fe',41,7848,7800,'SR+','[たわむれの楽園]道明寺歌鈴+',29),
 	 ('14263eb5a5fde66e648f1e70f5d9d6b4',41,7580,5960,'SR','[青春ﾊﾞﾚﾝﾀｲﾝ]道明寺歌鈴',30),
@@ -5090,10 +5088,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1aac77005c96b6b294e2f4e0fcda9820',41,2760,2640,'R','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ･S]道明寺歌鈴',32),
 	 ('93a9bbb57a201b45434b40f56729e7ad',41,2380,2900,'R','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ]道明寺歌鈴',33),
 	 ('5b9bf00c0b49d3553abdd355c575c84d',41,2856,3480,'R+','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ]道明寺歌鈴+',34),
-	 ('59e459acd545197c412bf6799f45b9ea',41,3312,3168,'R+','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ･S]道明寺歌鈴+',35);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('59e459acd545197c412bf6799f45b9ea',41,3312,3168,'R+','[ｸﾙｰｼﾞﾝｸﾞﾘﾎﾟｰﾄ･S]道明寺歌鈴+',35),
 	 ('eb259f9615b2fb698ce709fa569bfedd',41,7660,7580,'SR','[ﾌﾞﾗｯﾃﾞｨｰﾊﾝﾀｰ]道明寺歌鈴',36),
-	 ('a447a9799b628985be3fcca1bfa1d3e0',41,9192,9096,'SR+','[ﾌﾞﾗｯﾃﾞｨｰﾊﾝﾀｰ]道明寺歌鈴+',37),
+	 ('a447a9799b628985be3fcca1bfa1d3e0',41,9192,9096,'SR+','[ﾌﾞﾗｯﾃﾞｨｰﾊﾝﾀｰ]道明寺歌鈴+',37);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('50df3fdd87250d178206f7fd0dd591a4',41,7760,7580,'SR','[今より一歩先へ]道明寺歌鈴',38),
 	 ('65b90ad4104e3adadc875d70fe0b6d76',41,9312,9096,'SR+','[今より一歩先へ]道明寺歌鈴+',39),
 	 ('73221b45dc3a76f73b08bb8854191273',42,1000,600,'R','高槻やよい',0),
@@ -5101,10 +5099,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('155ed2dec00ed07a45f8c784540cb149',42,1200,900,'R','[制服ｸﾞﾘｰﾝ]高槻やよい',2),
 	 ('d157ad4390a55281f9462b8b46ed45ef',42,1360,1020,'R','[制服ﾌﾞﾗｳﾝ]高槻やよい',3),
 	 ('35d33f8fd00c39daeef8513a854e44bf',42,1520,1190,'R','[制服ﾌﾞﾗｯｸ]高槻やよい',4),
-	 ('167a430223c78828914bedf21a062497',42,1700,1370,'R','[制服ﾈｲﾋﾞｰ]高槻やよい',5);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('167a430223c78828914bedf21a062497',42,1700,1370,'R','[制服ﾈｲﾋﾞｰ]高槻やよい',5),
 	 ('32d74cb0a88ebc1f09461f43f3f96572',42,1880,1550,'R+','[ﾋﾟﾝｸﾀﾞｲﾔﾓﾝﾄﾞ765]高槻やよい+',6),
-	 ('5087a9aa0d84d7a8f29201e635567523',42,2060,1730,'R+','[ｴﾊﾞｰｸﾞﾘｰﾝﾘｰﾌﾞｽ]高槻やよい+',7),
+	 ('5087a9aa0d84d7a8f29201e635567523',42,2060,1730,'R+','[ｴﾊﾞｰｸﾞﾘｰﾝﾘｰﾌﾞｽ]高槻やよい+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a36bba235ac6ac42a80b30fa4bda8119',42,2340,1910,'R+','[ｷﾞﾙﾃﾞｯﾄﾞﾏﾄﾞﾓｱｾﾞﾙ]高槻やよい+',8),
 	 ('02405f18ba16f3b333f4de1c9d4860a7',42,2510,2090,'R+','[ｽｶｰﾚｯﾄｽﾌﾟﾗｲﾄ]高槻やよい+',9),
 	 ('732c5c98cdfdb6e0619317091537bc8f',42,2890,2270,'R+','[ｽﾀｲﾘｯｼｭﾃﾞﾆﾑ]高槻やよい+',10),
@@ -5112,10 +5110,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0c964265c9e630ed4e9750660191acea',42,3000,2000,'SR+','[元気120%]高槻やよい+',12),
 	 ('64c325a7f50f059665e36c3cc67d33ae',42,4000,2803,'SR','[小さなお姉さん]高槻やよい',13),
 	 ('d0ea18fc5575dd86bc9e9657f0d720c3',42,4800,3364,'SR+','[小さなお姉さん]高槻やよい+',14),
-	 ('a3e6c69d2edf043cfb9c28701375fc34',77,744,1200,'N+','東郷あい+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('a3e6c69d2edf043cfb9c28701375fc34',77,744,1200,'N+','東郷あい+',1),
 	 ('055eb7721bc1270b22d4547cf462a82c',77,1800,2136,'R+','[桜祭りｽﾏｲﾙ]東郷あい+',9),
-	 ('de2b8c2618b86a482480c947beb1b759',77,2616,3888,'R+','[ﾊﾝｻﾑﾚﾃﾞｨ]東郷あい+',16),
+	 ('de2b8c2618b86a482480c947beb1b759',77,2616,3888,'R+','[ﾊﾝｻﾑﾚﾃﾞｨ]東郷あい+',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e359a699281a6fb7935618fc6358470f',77,3820,4140,'SR','[美貌の麗女]東郷あい',19),
 	 ('96c902ec8911587b338d09528fe19024',77,4584,4968,'SR+','[美貌の麗女]東郷あい+',20),
 	 ('a93f91d99fbc2f134011e4fdf38e49bb',87,1560,1080,'N','[ﾑｰﾝﾗｲﾄﾊﾞﾆｰ]古澤頼子',0),
@@ -5123,10 +5121,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('22cd8051835cfd6702d130844565c9a4',96,3880,2820,'R+','[全味万能]高峯のあ+',4),
 	 ('84b72c4e84ba7d8ec4767638ef6e4333',96,3240,2280,'R','[新春浪漫]高峯のあ',7),
 	 ('95c7d2e559772a55a87ed08a19137d54',96,10200,7752,'SR+','[ﾗｲｼﾞﾝｸﾞｻｳﾝﾄﾞ]高峯のあ+',30),
-	 ('9c713eb6f7e6bab427ce008655b9e9a9',106,1200,720,'R+','如月千早+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9c713eb6f7e6bab427ce008655b9e9a9',106,1200,720,'R+','如月千早+',1),
 	 ('031476bad3baae90639d1aa438801e77',115,2260,1820,'R','[ﾊﾞﾚﾝﾀｲﾝﾊﾟｰﾃｨｰ]岸部彩華',2),
-	 ('ec4525fd83e7bb622de501a3920e4658',115,3220,2200,'R','[ﾚﾃﾞｨｽﾀｲﾙ]岸部彩華',10),
+	 ('ec4525fd83e7bb622de501a3920e4658',115,3220,2200,'R','[ﾚﾃﾞｨｽﾀｲﾙ]岸部彩華',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('2f134dd8b8d1407655ad091f825c99c7',115,2880,2120,'R','[艶めき紅葉]岸部彩華',14),
 	 ('c2577107124aa14e299556fa7e765639',115,2740,2720,'R','[ﾚｲｽﾞｶﾞｰﾙｱｯﾌﾟ]岸部彩華',16),
 	 ('d41291b48e8a5e5c6db1ddfd3adac08e',115,4824,4848,'SR+','[ｺﾞｰｼﾞｬｽﾁｱｰ]岸部彩華+',19),
@@ -5134,10 +5132,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('603b7e55e0e21d8b3fa97b12bc2cfd65',115,3864,2520,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]岸部彩華+',25),
 	 ('a25f353900a562963468878cdd389636',210,2340,1860,'R','久川颯',1),
 	 ('d4ed74985e0e90e83c8e6e9829e06ca2',128,1520,2060,'R','[ﾃｰﾏﾊﾟｰｸ]大和亜季',2),
-	 ('7adbf1d707b30fe0915ead29c3ed2dc8',128,2920,2100,'R','[ﾄﾛﾋﾟｶﾙﾘｿﾞｰﾄ]大和亜季',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7adbf1d707b30fe0915ead29c3ed2dc8',128,2920,2100,'R','[ﾄﾛﾋﾟｶﾙﾘｿﾞｰﾄ]大和亜季',8),
 	 ('ada388db99b4fce828433ebe3e0e5833',128,5136,5208,'SR+','[ﾊﾛｳｨﾝｶﾞﾝﾅｰ]大和亜季+',11),
-	 ('d4f4da3d57f9fa884b57215a5dacccbb',128,3260,2320,'SR','[峻烈闘技]大和亜季',14),
+	 ('d4f4da3d57f9fa884b57215a5dacccbb',128,3260,2320,'SR','[峻烈闘技]大和亜季',14);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('827a6122f087530b62b045dd10e1024a',128,7008,5280,'SR+','[V･ｼﾞｪﾈﾗﾙ]大和亜季+',17),
 	 ('dd4b44c6df0f6e78a9c10459a4101093',128,5880,5840,'SR','[ﾊﾟｰﾌｪｸﾄﾌﾟﾚﾃﾞﾀｰ]大和亜季',20),
 	 ('3fd70cf35e090606cfb1d891b35fb013',128,4488,3792,'SR+','[煩悩ﾋﾞｰﾄｱｳﾄ]大和亜季+',23),
@@ -5145,10 +5143,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f26e03ac5fdbeb551bacab79f77b909e',128,8616,8616,'SR+','[ﾊﾟﾜﾌﾙｵﾌｨｻｰ]大和亜季+',29),
 	 ('cf475400b82fd795f47fcf3fc1aacfa2',128,9240,9048,'SR+','[ﾒﾘｰｻｽﾍﾟﾝｼｮﾝ]大和亜季+',32),
 	 ('404957c126156e54750231e4e58221ad',42,2300,2300,'SR+','[ｵｵｶﾐｶﾞｰﾙ]高槻やよい+',15),
-	 ('7c3cc9c1c697ecc6b62dc2d5a835f534',43,720,1200,'R','菊地真',0);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7c3cc9c1c697ecc6b62dc2d5a835f534',43,720,1200,'R','菊地真',0),
 	 ('ccf8b0fa90c6686cf061bc155458c771',43,864,1440,'R+','菊地真+',1),
-	 ('66f955d622985f1bd2d2dfeec8676619',43,900,1200,'R','[制服ﾍﾞｰｼﾞｭ]菊地真',2),
+	 ('66f955d622985f1bd2d2dfeec8676619',43,900,1200,'R','[制服ﾍﾞｰｼﾞｭ]菊地真',2);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('daa75ed58a88e9a32500dec7290798b0',43,1020,1460,'R','[制服ﾌﾞﾙｰ]菊地真',3),
 	 ('e9e704ca90a1625b045a6ee36fddb9c6',43,1290,1710,'R','[制服ﾌﾞﾗｯｸ]菊地真',4),
 	 ('77854d40d4d4fb3562a3fe90562fa361',43,1560,1980,'R','[制服ﾎﾜｲﾄ]菊地真',5),
@@ -5156,10 +5154,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('c4edddba0e55fd7db3c62f2adf327c3d',43,2010,2420,'R+','[ｽｶｰﾚｯﾄｽﾌﾟﾗｲﾄ]菊地真+',7),
 	 ('aaba42a5b3189a77d67a4fc3c2c01744',43,2280,2800,'R+','[ﾊﾟｳﾀﾞｰｽﾉｰﾎﾜｲﾃｨ]菊地真+',8),
 	 ('ce60d87b5d013cd6f4c2f1cbb330b402',43,2550,3360,'R+','[ｷﾞﾙﾃﾞｯﾄﾞﾏﾄﾞﾓｱｾﾞﾙ]菊地真+',9),
-	 ('16ad0ffc22898e08cca59ba3dba7274b',43,2820,4010,'R+','[ﾒｲﾃﾞﾝｲﾝﾌﾞﾗｯｸ]菊地真+',10);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('16ad0ffc22898e08cca59ba3dba7274b',43,2820,4010,'R+','[ﾒｲﾃﾞﾝｲﾝﾌﾞﾗｯｸ]菊地真+',10),
 	 ('d13b3a791d8be0063fb81ab21724aaef',43,3080,3080,'SR','[王子様な女子]菊地真',11),
-	 ('b50b95609ded8046828f33f9cba3c875',43,3696,3696,'SR+','[王子様な女子]菊地真+',12),
+	 ('b50b95609ded8046828f33f9cba3c875',43,3696,3696,'SR+','[王子様な女子]菊地真+',12);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('20c2b7d34506df953c0adfae8b0073d7',43,1600,2400,'SR','[ｷｭｰﾃｨｰﾌﾟﾘﾝｾｽ]菊地真',13),
 	 ('d7496c4167acfdfd916f526a3a01f114',43,2000,3000,'SR+','[ｷｭｰﾃｨｰﾌﾟﾘﾝｾｽ]菊地真+',14),
 	 ('2838e5d36d4e11a09fac86270dcf63a4',43,2640,2440,'SR+','[ﾁｰﾑ765ｴﾝｼﾞｪﾙｽ]菊地真+',15),
@@ -5167,10 +5165,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('bd13be7dd4e65b4b5aa07234c6e80c87',44,1440,1440,'R+','我那覇響+',1),
 	 ('c5e454cbcc691c9e7863eac4fe359e5d',44,3400,2760,'SR','[沖縄元気っ娘]我那覇響',2),
 	 ('a23658ae02efa72867661794bccf1d28',44,4080,3312,'SR+','[沖縄元気っ娘]我那覇響+',3),
-	 ('c5e1fe7ef2b387eb27a9adbb9d9dfa6c',44,2200,2400,'SR+','[1stﾒﾓﾘｱﾙ]我那覇響+',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c5e1fe7ef2b387eb27a9adbb9d9dfa6c',44,2200,2400,'SR+','[1stﾒﾓﾘｱﾙ]我那覇響+',4),
 	 ('0b94e4097c16bce2c2579da0914234c5',45,1040,1040,'R','柳清良',0),
-	 ('dcd3b9f7c582181235d47dde3b4a0fb5',45,1248,1248,'R+','柳清良+',1),
+	 ('dcd3b9f7c582181235d47dde3b4a0fb5',45,1248,1248,'R+','柳清良+',1);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('94c8abcfe804ad7d1ffba83136b21276',45,1960,2080,'R','[ﾃﾞﾋﾞﾘｯｼｭｺﾞｼｯｸ]柳清良',2),
 	 ('5a2704f747a6d29b004f47f0ed95a83b',45,1880,1860,'R','[ｳｨﾝﾀｰｽﾀｲﾙ]柳清良',4),
 	 ('02bb974e8ed0f1bcece903d42d309c0f',45,2352,2496,'R+','[ﾃﾞﾋﾞﾘｯｼｭｺﾞｼｯｸ]柳清良+',3),
@@ -5178,10 +5176,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('a0e2153bde26babe6152d492ec24e1a9',45,2420,2420,'R','[黒白微笑]柳清良',6),
 	 ('e12ff3a3ff2743eabeda9478f2a94cc1',45,2904,2904,'R+','[黒白微笑]柳清良+',7),
 	 ('19b317324b93b4c203f1aa474c8b6143',45,2720,2720,'R','[ｱﾀﾞﾙﾄｽﾀｲﾙ]柳清良',8),
-	 ('118543d91139af711399d7bb6b029375',45,3264,3264,'R+','[ｱﾀﾞﾙﾄｽﾀｲﾙ]柳清良+',9);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('118543d91139af711399d7bb6b029375',45,3264,3264,'R+','[ｱﾀﾞﾙﾄｽﾀｲﾙ]柳清良+',9),
 	 ('71fa9fd263816362735276ee3d1dfc04',45,2600,2420,'R','[新春ﾚﾃﾞｨ]柳清良',10),
-	 ('ec807ef1db97e4c15ef318f9a6596941',45,3120,2904,'R+','[新春ﾚﾃﾞｨ]柳清良+',11),
+	 ('ec807ef1db97e4c15ef318f9a6596941',45,3120,2904,'R+','[新春ﾚﾃﾞｨ]柳清良+',11);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('15fdd1bf43a64e0bfe2a9f7dc5360e3b',45,3740,3720,'R+','[ｻﾊﾞｹﾞｰI.C]柳清良+',12),
 	 ('2dc06c7605dee3eafbb4619312238f83',45,2540,2440,'R','[ﾎｰﾘｰｺｰﾗｽ]柳清良',13),
 	 ('25172c5667ad6f1d3d5989e5aa1fd94e',45,3048,2928,'R+','[ﾎｰﾘｰｺｰﾗｽ]柳清良+',14),
@@ -5189,10 +5187,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5e96d496b6ff36d61f622a76ab901039',45,3888,2520,'R+','[思いやりのｶﾀﾁ]柳清良+',16),
 	 ('0274ddaddbe765df3eb6905025398711',45,4360,3020,'R+','[無人島ﾊﾞﾗｴﾃｨ]柳清良+',17),
 	 ('6d84be33bafbe45f651c50fd5114c4d0',45,3020,2440,'SR','[二面性の天使]柳清良',18),
-	 ('ce10dbc0aa9373a75ec4f514d644f62a',45,3624,2928,'SR+','[二面性の天使]柳清良+',19);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ce10dbc0aa9373a75ec4f514d644f62a',45,3624,2928,'SR+','[二面性の天使]柳清良+',19),
 	 ('de191e77ede324ba840d36ca006d90f1',45,4400,4100,'SR','[ｸﾞﾗﾏﾗｽ･ﾛﾜｲﾔﾙ]柳清良',20),
-	 ('519d323f0a2f06e97bd6af40e79fcb98',45,5280,4920,'SR+','[ｸﾞﾗﾏﾗｽ･ﾛﾜｲﾔﾙ]柳清良+',21),
+	 ('519d323f0a2f06e97bd6af40e79fcb98',45,5280,4920,'SR+','[ｸﾞﾗﾏﾗｽ･ﾛﾜｲﾔﾙ]柳清良+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('f4de77473b4f78559dc3f8500deee18f',45,3460,3440,'SR','[ﾃﾞﾓﾆｯｸｿﾙｼﾞｬｰ]柳清良',22),
 	 ('ae9a28ada0457cda1ba5a199023587d3',45,4152,4128,'SR+','[ﾃﾞﾓﾆｯｸｿﾙｼﾞｬｰ]柳清良+',23),
 	 ('647923bb59ff1a909f0f52938608227e',45,4320,4520,'SR','[ﾃﾞﾓﾆｯｸｿﾙｼﾞｬｰ･S]柳清良',24),
@@ -5200,10 +5198,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('36e904d77d2926470313bacd99883a25',45,5280,4240,'SR','[静かなる意志]柳清良',26),
 	 ('c1bbbabeafc45845596f59d921253e5a',45,6336,5088,'SR+','[静かなる意志]柳清良+',27),
 	 ('ae77c508f35ab9cc26dfa54002626ef1',45,8100,6380,'SR','[ﾛﾏﾝﾃｨｯｸﾍｳﾞﾝ]柳清良',28),
-	 ('d6af18e02f8227aad48d59b5268e4038',45,9720,7656,'SR+','[ﾛﾏﾝﾃｨｯｸﾍｳﾞﾝ]柳清良+',29);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('d6af18e02f8227aad48d59b5268e4038',45,9720,7656,'SR+','[ﾛﾏﾝﾃｨｯｸﾍｳﾞﾝ]柳清良+',29),
 	 ('e60a1373b510882c9a00b406e7042a6a',45,3400,1940,'R','[導きの手]柳清良',30),
-	 ('cdb908b84e3dea5ed4e19405120f20cb',45,4080,2328,'R+','[導きの手]柳清良+',31),
+	 ('cdb908b84e3dea5ed4e19405120f20cb',45,4080,2328,'R+','[導きの手]柳清良+',31);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('85d13609464513894fdecb0baad54c2a',46,1000,1000,'R','[制服ﾍﾞｰｼﾞｭ]天海春香',0),
 	 ('e5b85211de1d55c40d370545a8d61d7f',46,1100,1100,'R','[制服ｸﾞﾚｰ]天海春香',1),
 	 ('8281a506b62578a43608d55490ef4b9d',46,1170,1170,'R','[制服ﾋﾟﾝｸ]天海春香',2),
@@ -5211,10 +5209,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('5152c6a98ac868d03a15f55534c5a32d',46,1540,1540,'R+','[ｻﾞ☆ﾜｲﾙﾄﾞｽﾄﾛﾍﾞﾘｰ]天海春香+',4),
 	 ('e24cfc29ae88b186122cc858d94fe1a7',46,1620,1620,'R+','[ﾀﾞﾘｱﾉﾜｰﾙ]天海春香+',5),
 	 ('29907bc26188d3171fa0eab89f44b9b7',46,1710,1710,'R+','[ﾚｲｸｻｲﾄﾞﾊﾟﾝｼﾞｰ]天海春香+',6),
-	 ('fe2fe78b29c7d4bdc824d820fd130c45',46,1800,1800,'R+','[ﾌｫｰﾁｭｰﾝｸﾛｰﾊﾞｰ]天海春香+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('fe2fe78b29c7d4bdc824d820fd130c45',46,1800,1800,'R+','[ﾌｫｰﾁｭｰﾝｸﾛｰﾊﾞｰ]天海春香+',7),
 	 ('75c1d9166fbf0b09e1cbb867000a2556',46,1890,1890,'R+','[ﾎｯﾄｻﾏｰｼﾄﾗｽ]天海春香+',8),
-	 ('894f904e12ca1fcf4891b47839c97ab7',46,2000,2000,'SR','[普通の女の子]天海春香',9),
+	 ('894f904e12ca1fcf4891b47839c97ab7',46,2000,2000,'SR','[普通の女の子]天海春香',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e7fe451b0e7483323d10d1c8b038bf94',46,2640,2640,'SR+','[普通の女の子]天海春香+',10),
 	 ('1f62eb063030ed5083b0e7826245d3af',97,2080,1520,'R','高垣楓',0),
 	 ('cbd4d17190b8b2715f502211ec0ededb',46,3600,3600,'SR','[王道ｱｲﾄﾞﾙ]天海春香',11),
@@ -5222,10 +5220,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('cbe69bd743d9d067fd6b11cc0049a085',77,1220,1220,'R','[新春]東郷あい',2),
 	 ('4accecd9f5f759be292a3c85c2ce3918',77,1500,1780,'R','[桜祭りｽﾏｲﾙ]東郷あい',8),
 	 ('4d32085d7d14fafb8a406e873442e7b8',77,3072,2952,'R+','[ｴﾚｶﾞﾝﾄﾋﾞｭｰﾃｨｰ]東郷あい+',11),
-	 ('b44cc7e3317df4588e160990fbfd4d86',77,2680,3100,'R+','[ｴﾚｶﾞﾝﾄI.C]東郷あい+',12);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b44cc7e3317df4588e160990fbfd4d86',77,2680,3100,'R+','[ｴﾚｶﾞﾝﾄI.C]東郷あい+',12),
 	 ('696c01a795166f331a53c37994b5f7aa',77,3936,2688,'R+','[ｻﾏｰﾊﾞｹｰｼｮﾝ]東郷あい+',14),
-	 ('9a9e72c629933e4ced1d13022e74552f',77,2540,3340,'SR','[貫禄のお嬢様]東郷あい',23),
+	 ('9a9e72c629933e4ced1d13022e74552f',77,2540,3340,'SR','[貫禄のお嬢様]東郷あい',23);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3ce11c195914bac2bf7d885ecda38e09',77,3680,4760,'SR','[貫禄のお嬢様･S]東郷あい',25),
 	 ('928aa1d8c522c0ce8da26b91bf967cf6',77,4416,5712,'SR+','[貫禄のお嬢様･S]東郷あい+',26),
 	 ('35a37964b7d42169b3c4cf2f4beffaec',77,6300,6220,'SR','[白銀のｼｭﾌﾟｰﾙ]東郷あい',29),
@@ -5233,10 +5231,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('142e8aee151b3c9280dc49323f38f5e9',77,3360,2240,'R','[ﾎｰﾘｰﾅｲﾄ]東郷あい',35),
 	 ('0d1b35fad868c671e2d8b58842279076',87,1872,1296,'N+','[ﾑｰﾝﾗｲﾄﾊﾞﾆｰ]古澤頼子+',1),
 	 ('fc3e8210b81af75d60a3ad891c10abfb',87,3000,3432,'R+','[ｵﾘ･ﾛｺｶﾞｰﾙ]古澤頼子+',9),
-	 ('36e2ec6a18c40ce663ccd28590245217',87,4260,3140,'R+','[お化け屋敷I.C]古澤頼子+',12);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('36e2ec6a18c40ce663ccd28590245217',87,4260,3140,'R+','[お化け屋敷I.C]古澤頼子+',12),
 	 ('da65627da71565535fc0457bfeb46564',87,2780,2660,'R','[節分の大役]古澤頼子',13),
-	 ('a99c2ef0bb60c2fb792940844c5ce231',87,3168,3168,'SR+','[博識子女]古澤頼子+',16),
+	 ('a99c2ef0bb60c2fb792940844c5ce231',87,3168,3168,'SR+','[博識子女]古澤頼子+',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('63e8236c873d25762b04042fb1cf84e0',87,5700,5460,'SR','[未来の風向き]古澤頼子',19),
 	 ('f60964648d389217f5bf6fd9bf80abfe',87,5256,4080,'SR+','[知能派ｷｮﾝｼｰ]古澤頼子+',22),
 	 ('44b7c4ee1a93bcf2fa73bfcb7541e5f2',87,5080,5080,'SR','[水際のﾈﾚｲｽ]古澤頼子',25),
@@ -5244,10 +5242,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('2cc6e90536c27201a4042b1bc3aa7a4b',97,2496,1824,'R+','高垣楓+',1),
 	 ('ffde517a1d2a3fdb6900d97eefb33ac4',97,5328,3816,'SR+','[湯けむり女神]高垣楓+',7),
 	 ('976b76648428ec1dbb7f5250e79a7a23',97,5380,3920,'SR','[甘美なる姫君]高垣楓',10),
-	 ('b4022ee73d439603da996d48bbc302a8',97,5664,5520,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]高垣楓+',13);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b4022ee73d439603da996d48bbc302a8',97,5664,5520,'SR+','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]高垣楓+',13),
 	 ('2e54872e35ff6ae1e3b8db794325ebdc',97,6400,4660,'SR','[白南風の淑女]高垣楓',16),
-	 ('81b0bcb1a5d9b6463f17eef50387d30c',97,6760,4780,'SR','[幸福のひととき]高垣楓',18),
+	 ('81b0bcb1a5d9b6463f17eef50387d30c',97,6760,4780,'SR','[幸福のひととき]高垣楓',18);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1ca766129358cfadaa734d780b7c2da4',97,8304,8304,'SR+','[ｼﾝﾃﾞﾚﾗｶﾞｰﾙ]高垣楓+',25),
 	 ('081496e77c44ec12dc3715d179d54aac',97,7780,5980,'SR','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]高垣楓',26),
 	 ('53c92b0160cbf7e0f2fd0aa4083f6628',97,8240,6500,'SR','[麗しの妙薬]高垣楓',31),
@@ -5255,10 +5253,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('0d39c65b94d1a11cae537f6886dbb97a',106,3400,2760,'SR','[孤高の歌姫]如月千早',11),
 	 ('d2b23ca96d8ec3e6e9d06a33fc2ab472',106,4080,3312,'SR+','[孤高の歌姫]如月千早+',12),
 	 ('6825521e806675ddeb47bc1fce922ed7',106,1080,1080,'SR+','[ｽｸｰﾘｯｼｭｶﾞｰﾙ]如月千早+',15),
-	 ('e715a9ad30451fd62a269fb9a888c330',115,2712,2184,'R+','[ﾊﾞﾚﾝﾀｲﾝﾊﾟｰﾃｨｰ]岸部彩華+',3);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e715a9ad30451fd62a269fb9a888c330',115,2712,2184,'R+','[ﾊﾞﾚﾝﾀｲﾝﾊﾟｰﾃｨｰ]岸部彩華+',3),
 	 ('67c5c09da322da1f45a594ffb616516a',115,2800,2700,'R','[ﾄﾞｩｰﾏﾘｱｰｼﾞｭ]岸部彩華',6),
-	 ('720ef57f0103eee721a8021066c3b34d',115,2136,3888,'R+','[ｻﾏｰｼｰｽﾞﾝ]岸部彩華+',9),
+	 ('720ef57f0103eee721a8021066c3b34d',115,2136,3888,'R+','[ｻﾏｰｼｰｽﾞﾝ]岸部彩華+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3ecd3524410cf349b532c7017d061c96',115,3864,2640,'R+','[ﾚﾃﾞｨｽﾀｲﾙ]岸部彩華+',11),
 	 ('7a9fa317e0b7b733838a7bbb4a71f5d1',115,3936,2568,'R+','[ﾏｲﾃﾞｺﾗﾃｨﾌﾞ]岸部彩華+',13),
 	 ('b7030a4ba52a34d1a36657917bb8e159',115,3288,3264,'R+','[ﾚｲｽﾞｶﾞｰﾙｱｯﾌﾟ]岸部彩華+',17),
@@ -5266,10 +5264,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f80f99a8345634f90869cfc12bfd7411',115,6744,5352,'SR+','[ﾋﾞｳｨｯﾁﾝｸﾞﾊﾛｳ]岸部彩華+',23),
 	 ('913ec6161abae5f38091dcdaf99d5eb3',115,3220,2100,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙNC]岸部彩華',24),
 	 ('8f03d105495820281c5ea974bf28c496',210,5260,4960,'SR','[飛躍祈願]久川颯',2),
-	 ('77ab277a285478ee92643668e4d320f4',128,1824,2472,'R+','[ﾃｰﾏﾊﾟｰｸ]大和亜季+',3);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('77ab277a285478ee92643668e4d320f4',128,1824,2472,'R+','[ﾃｰﾏﾊﾟｰｸ]大和亜季+',3),
 	 ('b309e13986724c2a213d606c19a82ed2',128,2160,3240,'R','[ﾊﾞﾃﾞｨｽﾞﾎﾞﾝｽﾞ]大和亜季',6),
-	 ('541d4ff6ae2186367610013d4a5b966b',128,4280,4340,'SR','[ﾊﾛｳｨﾝｶﾞﾝﾅｰ]大和亜季',10),
+	 ('541d4ff6ae2186367610013d4a5b966b',128,4280,4340,'SR','[ﾊﾛｳｨﾝｶﾞﾝﾅｰ]大和亜季',10);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('507ff18b613c769ad6af2e41c6ffd7d9',128,4060,3980,'SR','[ｳﾞｫﾔｰｼﾞｭ･ｸﾞﾗｯﾌﾟﾗｰ]大和亜季',12),
 	 ('14b55a84faefe92d20fef54ae6dfd19d',128,3912,2784,'SR+','[峻烈闘技]大和亜季+',15),
 	 ('3e53dc3355ec6ba2d0e7ade9878ea440',128,3160,3220,'SR','[ﾌｫﾜｰﾄﾞﾁｱｰ]大和亜季',18),
@@ -5277,10 +5275,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('f50522800b4de965eec97fe433a94851',128,4440,3360,'SR','[異国のﾄﾞﾚｯｻｰ]大和亜季',24),
 	 ('db2324b5eca202cc82ef37a1b78cfe3b',128,11650,11500,'SR+','[ｳﾞｨｸﾄﾘｰﾄﾞﾚｯｻｰ]大和亜季+',27),
 	 ('b9e4a66d2805e3569685fead1950a0b6',128,7700,7540,'SR','[ﾒﾘｰｻｽﾍﾟﾝｼｮﾝ]大和亜季',31),
-	 ('e3244334db50c5ac5b9a137c50de2c32',128,10128,7848,'SR+','[ｺﾏﾝﾄﾞｰ･ｵﾌﾞ･ｽﾃｰｼﾞ]大和亜季+',33);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e3244334db50c5ac5b9a137c50de2c32',128,10128,7848,'SR+','[ｺﾏﾝﾄﾞｰ･ｵﾌﾞ･ｽﾃｰｼﾞ]大和亜季+',33),
 	 ('3d10639a24d9fb8457ee6352be6922bf',46,2640,2640,'SR','[ｼｬｲﾆｰﾌｪｽﾀ]天海春香',13),
-	 ('4a72d18788cce0a7d131aab3752f2c99',77,1464,1464,'R+','[新春]東郷あい+',3),
+	 ('4a72d18788cce0a7d131aab3752f2c99',77,1464,1464,'R+','[新春]東郷あい+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3c1f88d55d79cac9df8e77f18357f902',77,1560,2352,'R+','[桜祭り]東郷あい+',7),
 	 ('7888d199d8ef096e8332cee6985de6a3',77,2160,3300,'R','[ﾌｪｱｸﾞﾚｲｽ]東郷あい',17),
 	 ('ddbd26670ff1355b7d128b9af04868c3',77,2592,3960,'R+','[ﾌｪｱｸﾞﾚｲｽ]東郷あい+',18),
@@ -5288,10 +5286,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('b7e85b995983a4804983f200ce49b269',77,5856,4704,'SR+','[夏の戯れ]東郷あい+',28),
 	 ('18587c946f96cd9c273730176ecbcec8',77,7560,7464,'SR+','[白銀のｼｭﾌﾟｰﾙ]東郷あい+',30),
 	 ('9339d541ae9773d66dc5f54d175665de',77,9168,7128,'SR+','[ｸﾗｯｼｰｽｹｰﾙ]東郷あい+',32),
-	 ('ce06f399bc842655c0b9ea49fc9cca4a',87,3000,1960,'R','[幕間のひととき]古澤頼子',2);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('ce06f399bc842655c0b9ea49fc9cca4a',87,3000,1960,'R','[幕間のひととき]古澤頼子',2),
 	 ('f862e42981eef571d6420636d5035b46',87,3060,2220,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙND]古澤頼子',10),
-	 ('23240cbaa429c06b5834dab70e2468db',87,2640,2640,'SR','[博識子女]古澤頼子',15),
+	 ('23240cbaa429c06b5834dab70e2468db',87,2640,2640,'SR','[博識子女]古澤頼子',15);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('0c4e761bc05c904c8d1d80ae19f55042',97,3640,3160,'SR','[神秘の女神]高垣楓',2),
 	 ('7918df8e9ee92c02ea13b4fef6e6448f',97,7240,5480,'SR','[聖夜の祝宴]高垣楓',20),
 	 ('5e013960c6ecd88627148666b8fb215c',97,7340,5580,'SR','[優艶の花尽し]高垣楓',22),
@@ -5299,10 +5297,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('85568477cb64a2a8fa68d63395613565',97,7240,7120,'SR','[芳声の花姫]高垣楓',28),
 	 ('4de04d6c07a4eb79ad38e676ae8e2bde',97,8688,8544,'SR+','[芳声の花姫]高垣楓+',29),
 	 ('abe1b0e1475e4f2678349555e31dd48d',97,10272,7800,'SR+','[心映す瞳]高垣楓+',33),
-	 ('7b80fbc184731895e18d4d04b69d4af5',106,1020,1260,'R','[制服ﾍﾞｰｼﾞｭ]如月千早',3);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('7b80fbc184731895e18d4d04b69d4af5',106,1020,1260,'R','[制服ﾍﾞｰｼﾞｭ]如月千早',3),
 	 ('306b770ebb8f0cf8f990c4d7e3720910',106,1270,1710,'R+','[ﾋﾟﾝｸﾀﾞｲﾔﾓﾝﾄﾞ765]如月千早+',6),
-	 ('c8f06e16aaa220f282b912a6b05ff4d7',106,1540,1960,'R+','[ﾚｻﾞｰﾄﾞｸｨｰﾝ]如月千早+',9),
+	 ('c8f06e16aaa220f282b912a6b05ff4d7',106,1540,1960,'R+','[ﾚｻﾞｰﾄﾞｸｨｰﾝ]如月千早+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('dfe34529a4dc472ca44c6ad923e44b5b',106,2620,2420,'SR+','[ｱｰﾘｰｻﾏｰﾊﾞｶﾝｽ]如月千早+',16),
 	 ('ccc7d18edcfe645bd67a10ee9418a1a3',115,1660,1640,'R','[ﾘｰﾌﾞﾙﾊﾟﾋﾟﾖﾝ]岸部彩華',4),
 	 ('55ae486ac1f7dd977dad78e87069e444',115,3360,3240,'R+','[ﾄﾞｩｰﾏﾘｱｰｼﾞｭ]岸部彩華+',7),
@@ -5310,10 +5308,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('94ac010e58c3c7e7e3e4978efa06ae25',115,4340,4540,'SR','[ﾏｼﾞﾓｰﾄﾞ]岸部彩華',20),
 	 ('2c67e5e41d85f043ffc99b92a4873ae1',115,5208,5448,'SR+','[ﾏｼﾞﾓｰﾄﾞ]岸部彩華+',21),
 	 ('135d5bee6e022f4156c689deba5a1be6',210,6312,5952,'SR+','[飛躍祈願]久川颯+',3),
-	 ('5ea595f4fea9bde7543b507bb9a53b13',128,2180,1880,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙ]大和亜季',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('5ea595f4fea9bde7543b507bb9a53b13',128,2180,1880,'R','[ﾛﾜｲﾔﾙｽﾀｲﾙ]大和亜季',4),
 	 ('5b501a4c1349d198b2b9ee5f0a03aed3',128,2592,3888,'R+','[ﾊﾞﾃﾞｨｽﾞﾎﾞﾝｽﾞ]大和亜季+',7),
-	 ('3e312f0be1822c45a9f64013e879f7c6',46,3168,3168,'SR+','[ｼｬｲﾆｰﾌｪｽﾀ]天海春香+',14),
+	 ('3e312f0be1822c45a9f64013e879f7c6',46,3168,3168,'SR+','[ｼｬｲﾆｰﾌｪｽﾀ]天海春香+',14);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('eb10c4da293f3f132f146989bd997f64',46,2600,2440,'SR+','[ｱｰﾘｰｻﾏｰﾊﾞｶﾝｽ]天海春香+',16),
 	 ('39675e1d3dc31791f353b9e6841ae8d8',77,1640,1940,'R','[ﾒｲﾄﾞｺﾚｸｼｮﾝ]東郷あい',4),
 	 ('5ef83cd87feba045f3f187b1762ff6ca',77,1300,1960,'R','[桜祭り]東郷あい',6),
@@ -5321,10 +5319,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('e120bef59049701c084e9bc9f3e90084',87,2900,2160,'R','[ﾛｺｶﾞｰﾙ]古澤頼子',6),
 	 ('c477e1693bc9e6f1865117ac944cc87b',87,2500,2860,'R','[ｵﾘ･ﾛｺｶﾞｰﾙ]古澤頼子',8),
 	 ('5efcadb4c0499c22d70657bc5f2e0609',87,3672,2664,'R+','[ﾛﾜｲﾔﾙｽﾀｲﾙND]古澤頼子+',11),
-	 ('c3b54fa669fdfbdea94725880b6303b7',87,3336,3192,'R+','[節分の大役]古澤頼子+',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c3b54fa669fdfbdea94725880b6303b7',87,3336,3192,'R+','[節分の大役]古澤頼子+',14),
 	 ('4f9408e5e8319f71d87a88be473f9fc5',87,4360,4060,'SR','[ｸﾗｼｶﾙｴﾚｶﾞﾝﾄ]古澤頼子',17),
-	 ('0fdb985e97611cb4df916563d6e7a27b',87,6840,6552,'SR+','[未来の風向き]古澤頼子+',20),
+	 ('0fdb985e97611cb4df916563d6e7a27b',87,6840,6552,'SR+','[未来の風向き]古澤頼子+',20);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a1c5be406440981ded1baee3d16040ba',87,5220,4320,'SR','[笑顔のｷｮﾝｼｰ]古澤頼子',23),
 	 ('d091d89b99e771b19aa8bda4001c4c12',87,6096,6096,'SR+','[水際のﾈﾚｲｽ]古澤頼子+',26),
 	 ('926e169d36fe1b9807b3371ef3ede712',87,3260,2260,'R','[新春和心]古澤頼子',29),
@@ -5332,10 +5330,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('9a77b70cbfa5519c355bec95e1dd93c6',97,4780,3380,'SR','[新緑の淑女]高垣楓',8),
 	 ('6d1df5bc4e0f9a31473c1aa86414f6ae',97,5736,4056,'SR+','[新緑の淑女]高垣楓+',9),
 	 ('1b961de171c55574e471134ad28f883f',97,5960,4340,'SR','[謹賀新年]高垣楓',14),
-	 ('9daca9b18b0acbe7a315daee7b7a8fed',97,7152,5208,'SR+','[謹賀新年]高垣楓+',15);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('9daca9b18b0acbe7a315daee7b7a8fed',97,7152,5208,'SR+','[謹賀新年]高垣楓+',15),
 	 ('188262224c3c9e6dd3b291c111101d72',97,8112,5736,'SR+','[幸福のひととき]高垣楓+',19),
-	 ('70e5c843c758082e2ff927eb38cf943b',97,8688,6576,'SR+','[聖夜の祝宴]高垣楓+',21),
+	 ('70e5c843c758082e2ff927eb38cf943b',97,8688,6576,'SR+','[聖夜の祝宴]高垣楓+',21);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('3379e42a62c01537f49bae9561b024e3',97,6920,6920,'SR','[ｼﾝﾃﾞﾚﾗｶﾞｰﾙ]高垣楓',24),
 	 ('6b8bb8a0aae595746c822017ad3dfce6',97,9336,7176,'SR+','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]高垣楓+',27),
 	 ('597590221e61c65647c860a300fab84f',97,9888,7800,'SR+','[麗しの妙薬]高垣楓+',30),
@@ -5343,10 +5341,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d50995707445f5c03baf09f706419ccb',97,10248,8184,'SR+','[誘惑の招宴]高垣楓+',35),
 	 ('d7732a8d0a3fdfc3060ca2897187f188',106,1090,1330,'R','[制服ﾚｯﾄﾞ]如月千早',4),
 	 ('c486d656f7e2b62acee082e7311ab881',106,1360,1780,'R+','[ﾊﾟｳﾀﾞｰｽﾉｰﾎﾜｲﾃｨ]如月千早+',7),
-	 ('91f73d36b69535cd4578ec74637c6059',106,1450,1870,'R+','[ﾌｧｲｱｵﾊﾟｰﾙ76ct]如月千早+',8);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('91f73d36b69535cd4578ec74637c6059',106,1450,1870,'R+','[ﾌｧｲｱｵﾊﾟｰﾙ76ct]如月千早+',8),
 	 ('9cdd818a009f19eab8c73cc845175ee6',116,2240,1960,'R','氏家むつみ',0),
-	 ('47d7ba193b349e7bd1dc3f1a03a599c8',116,1512,2352,'R+','[ｽﾊﾟﾆｯｼｭｽﾀｲﾙ]氏家むつみ+',5),
+	 ('47d7ba193b349e7bd1dc3f1a03a599c8',116,1512,2352,'R+','[ｽﾊﾟﾆｯｼｭｽﾀｲﾙ]氏家むつみ+',5);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e44e7611282f6c57fea4ab3fc18d6519',120,860,960,'R','塩見周子',0),
 	 ('82b476bcab7ef6f64617900a063971c3',120,1220,1820,'R','[ﾆｭｰｲﾔｰ]塩見周子',4),
 	 ('718611eef304cc92ed0363ef1632ce08',120,4752,3600,'SR+','[ﾐｯﾄﾞﾅｲﾄﾌｪｱﾘｰ]塩見周子+',9),
@@ -5354,10 +5352,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('fb292dd3c101e5c65d16c5e4467cf434',120,2440,3100,'SR','[CDﾃﾞﾋﾞｭｰ]塩見周子',18),
 	 ('89c64f8de6b5d1a9711d943eb66e1478',120,7968,5688,'SR+','[ｱﾆﾊﾞｰｻﾘｰﾌﾟﾘﾝｾｽ]塩見周子+',21),
 	 ('71e4c4b47b167ba9e37188547a8a9678',120,6420,6380,'SR','[湯けむり舞娘]塩見周子',24),
-	 ('e02867846f13e03eb619cb5e9bddae89',120,8592,6456,'SR+','[花明り夜風]塩見周子+',27);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('e02867846f13e03eb619cb5e9bddae89',120,8592,6456,'SR+','[花明り夜風]塩見周子+',27),
 	 ('3b0bd00649ffc4d42c84aa05575dde42',120,6860,6820,'SR','[ﾌｫﾚｽﾄｳﾞｨﾘﾃﾞｨｽ]塩見周子',30),
-	 ('f844e89849a419ea5f5a6b81aa3fb9de',120,9408,9168,'SR+','[降り注ぐ悠久の光]塩見周子+',39),
+	 ('f844e89849a419ea5f5a6b81aa3fb9de',120,9408,9168,'SR+','[降り注ぐ悠久の光]塩見周子+',39);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1b576c073a6fa12c5ac6ff05abf679b2',128,3840,3660,'R+','[ﾐﾘﾀﾝﾄﾌｨｷﾞｭｱ]大和亜季+',30),
 	 ('af4ab176885e530f655d8197eb94127c',128,8440,6540,'SR','[ｺﾏﾝﾄﾞｰ･ｵﾌﾞ･ｽﾃｰｼﾞ]大和亜季',34),
 	 ('e3053b178bab9f6dca92afea00011551',46,2400,2200,'SR+','[ﾕｶﾀﾒｲﾄﾞ]天海春香+',15),
@@ -5365,10 +5363,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('1300313f0ac00ac625a3ab3b05e784f8',47,1116,1116,'R+','井村雪菜+',1),
 	 ('a7c5c0dadc49e8461079d832e96fda8d',47,2380,1700,'R','[ｺｽﾒﾃｨｯｸｶﾞｰﾙ]井村雪菜',2),
 	 ('49a867483c6dc78f68b39dd6d12da52c',47,2856,2040,'R+','[ｺｽﾒﾃｨｯｸｶﾞｰﾙ]井村雪菜+',3),
-	 ('baa18ddffaa449e63527a4d6c1103b69',47,2720,2700,'R','[びっくりｳｨﾝｸ]井村雪菜',4);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('baa18ddffaa449e63527a4d6c1103b69',47,2720,2700,'R','[びっくりｳｨﾝｸ]井村雪菜',4),
 	 ('42572e4f6dd0a720da70c1fe78cc39bf',47,3264,3240,'R+','[びっくりｳｨﾝｸ]井村雪菜+',5),
-	 ('72905292c809034429f21d1ca7a03213',47,2780,2060,'R','[ｵｰﾀﾑｺﾚｸｼｮﾝ]井村雪菜',6),
+	 ('72905292c809034429f21d1ca7a03213',47,2780,2060,'R','[ｵｰﾀﾑｺﾚｸｼｮﾝ]井村雪菜',6);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('ba1e7aa823e2f486bd0b7f8dfa9f92c5',47,3336,2472,'R+','[ｵｰﾀﾑｺﾚｸｼｮﾝ]井村雪菜+',7),
 	 ('a8af8761f80d9f7e4631228ebc66c583',47,2900,2100,'R','[ｻﾏｰﾋﾞｰﾁ]井村雪菜',8),
 	 ('a584d77ce572744ffc8eeae90e0f7a0b',47,3480,2520,'R+','[ｻﾏｰﾋﾞｰﾁ]井村雪菜+',9),
@@ -5376,10 +5374,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('8dd24703fae4c4e53f6c36f964f208e1',47,3024,2928,'R+','[艶めき紅葉]井村雪菜+',11),
 	 ('34f7db72066da5140ec9e9856cbfe868',47,3760,3720,'R+','[ふれあいI.C]井村雪菜+',12),
 	 ('9c24447ef9d6a10a524b9de555ecd05a',47,2620,2480,'SR','[ﾛﾏﾝﾁｯｸﾅｲﾄ]井村雪菜',13),
-	 ('1edf266e99871ff9d48d791d03376b23',47,3144,2976,'SR+','[ﾛﾏﾝﾁｯｸﾅｲﾄ]井村雪菜+',14);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('1edf266e99871ff9d48d791d03376b23',47,3144,2976,'SR+','[ﾛﾏﾝﾁｯｸﾅｲﾄ]井村雪菜+',14),
 	 ('7cf80f4e1d6137d41dcb35a1228b2c4f',47,4660,3880,'SR','[ﾋﾞｭｰﾃｨｰﾋｰﾙ]井村雪菜',15),
-	 ('33f32d395742c24944d95fdef61b71b3',47,5592,4656,'SR+','[ﾋﾞｭｰﾃｨｰﾋｰﾙ]井村雪菜+',16),
+	 ('33f32d395742c24944d95fdef61b71b3',47,5592,4656,'SR+','[ﾋﾞｭｰﾃｨｰﾋｰﾙ]井村雪菜+',16);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('1ded8bab3016b38dff6df60ebf3e2f3c',47,3920,3900,'SR','[花畑ﾏｷｱｰｼﾞｭ]井村雪菜',17),
 	 ('9394a74e8344967cbf42eb20eae12ab5',47,4704,4680,'SR+','[花畑ﾏｷｱｰｼﾞｭ]井村雪菜+',18),
 	 ('dbd1c443dd1ca8fbe37be54b625652e1',47,4060,3820,'SR','[きらめきﾌｧｰﾏｰ]井村雪菜',19),
@@ -5387,10 +5385,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('afb12d5ecc0d4f797b56c0bbe304b463',47,5120,5040,'SR','[きらめきﾌｧｰﾏｰ･S]井村雪菜',21),
 	 ('1ef0ae80afad09c736cddfeb58bef906',47,6144,6048,'SR+','[きらめきﾌｧｰﾏｰ･S]井村雪菜+',22),
 	 ('d51ac2dc8361344c3f77cd7151d70b9a',47,3340,2000,'R','[T.B.ﾁｱｰｽﾞ]井村雪菜',23),
-	 ('2574d75c7237d9febf6e83b09c64d059',47,4008,2400,'R+','[T.B.ﾁｱｰｽﾞ]井村雪菜+',24);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('2574d75c7237d9febf6e83b09c64d059',47,4008,2400,'R+','[T.B.ﾁｱｰｽﾞ]井村雪菜+',24),
 	 ('a227d442b2bf279e502925e9274c01b2',47,9800,9700,'SR','[ｷﾗﾒｷｵｰｼｬﾝ]井村雪菜',25),
-	 ('5886af7e8aaa9f0723dcda52f0d7b54d',47,9800,9700,'SR+','[ｷﾗﾒｷｵｰｼｬﾝ]井村雪菜+',26),
+	 ('5886af7e8aaa9f0723dcda52f0d7b54d',47,9800,9700,'SR+','[ｷﾗﾒｷｵｰｼｬﾝ]井村雪菜+',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('98daacfc83511eb95974e557aaf84caf',48,2590,1730,'R','日下部若葉',0),
 	 ('a54ca3ed50318224a01b666b99687d1b',48,3108,2076,'R+','日下部若葉+',1),
 	 ('93e14d9a6e04065bba6cb30745bbedcf',48,1560,1440,'R','[ｱﾆﾏﾙﾊﾟｰｸ]日下部若葉',2),
@@ -5398,10 +5396,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('64ce41dc523eb087c5a4d02a52fbc5d8',48,1560,2060,'R','[ｻﾏｰﾊﾞｹｰｼｮﾝ]日下部若葉',4),
 	 ('a08838a564ba9bc6bfb9d76e91ab6ce9',48,1872,2472,'R+','[ｻﾏｰﾊﾞｹｰｼｮﾝ]日下部若葉+',5),
 	 ('41773d24499b3d8e05743752ccd92a1d',48,2820,2720,'R','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]日下部若葉',6),
-	 ('295b3b0ae7a4d4af95fff7bea9d5726e',48,3384,3264,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]日下部若葉+',7);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('295b3b0ae7a4d4af95fff7bea9d5726e',48,3384,3264,'R+','[ﾏｰﾁﾝｸﾞﾊﾞﾝﾄﾞ]日下部若葉+',7),
 	 ('dcd7d12d16749e4c24cbee10026b28bf',48,3180,2240,'R','[ｽﾏｰﾄﾚﾃﾞｨ]日下部若葉',8),
-	 ('498690a47ff548be70cddb845339649a',48,3816,2688,'R+','[ｽﾏｰﾄﾚﾃﾞｨ]日下部若葉+',9),
+	 ('498690a47ff548be70cddb845339649a',48,3816,2688,'R+','[ｽﾏｰﾄﾚﾃﾞｨ]日下部若葉+',9);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('e7b4ce48a14dfda28f3a1a116a8ea397',48,2920,2640,'R','[湯けむり紀行]日下部若葉',10),
 	 ('a71c410c5dd3fba39e1b1e8c34cf66b7',48,3504,3168,'R+','[湯けむり紀行]日下部若葉+',11),
 	 ('2ceb15c5f02157aaf098ee182289d3f3',48,3320,2140,'R','[はりきりﾐｯｼｰ]日下部若葉',12),
@@ -5409,10 +5407,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('7cf6b998042d60ec860faf5e486261dc',48,3300,3940,'SR','[ﾛｰｾﾞｽｺﾞｼｯｸ]日下部若葉',14),
 	 ('ba8d96eebf33c4e6f9104a6bcb6c5ada',48,3960,4728,'SR+','[ﾛｰｾﾞｽｺﾞｼｯｸ]日下部若葉+',15),
 	 ('9ce8db57726c12bb4d03b7187efd119b',48,3180,2340,'SR','[ﾛﾜｲﾔﾙﾘﾄﾙ]日下部若葉',16),
-	 ('53393350148a36019963248cb5fbc2be',48,3816,2808,'SR+','[ﾛﾜｲﾔﾙﾘﾄﾙ]日下部若葉+',17);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('53393350148a36019963248cb5fbc2be',48,3816,2808,'SR+','[ﾛﾜｲﾔﾙﾘﾄﾙ]日下部若葉+',17),
 	 ('01cc6f010fdbaf4f9c132a9b17454c8a',48,4200,4360,'SR','[ｾｸｼｰ刑事]日下部若葉',18),
-	 ('16b3f7c98071fcc566c63e350f6d6755',48,5040,5232,'SR+','[ｾｸｼｰ刑事]日下部若葉+',19),
+	 ('16b3f7c98071fcc566c63e350f6d6755',48,5040,5232,'SR+','[ｾｸｼｰ刑事]日下部若葉+',19);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('57f557dc2250fd02eeab3e586ddfdaa0',48,5240,4300,'SR','[ｵｰﾊﾞｰﾋｰﾄ]日下部若葉',20),
 	 ('51ed14ce15a70accfe7541e7a78a98ed',48,6288,5160,'SR+','[ｵｰﾊﾞｰﾋｰﾄ]日下部若葉+',21),
 	 ('8fc5acd2bc1a7030bd3f720d6c21d365',48,4620,3500,'SR','[ﾊｰﾄﾋﾞｰﾄｸﾞﾙｰｳﾞ]日下部若葉',22),
@@ -5420,10 +5418,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('ba5d64677c1e4754ae265ac562aad8d1',48,2780,2760,'R','[ﾒﾛｳﾋﾟｸｼｰ]日下部若葉',24),
 	 ('4fe1883dcdff351bff1e1334d8d7f922',48,3336,3312,'R+','[ﾒﾛｳﾋﾟｸｼｰ]日下部若葉+',25),
 	 ('0a2cb7263e4bab320935782c987b0ed1',49,1280,1920,'R','榊原里美',0),
-	 ('3971354d7c145d26b9e76bcf7ff85203',49,1536,2304,'R+','榊原里美+',1);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('3971354d7c145d26b9e76bcf7ff85203',49,1536,2304,'R+','榊原里美+',1),
 	 ('2744cd367edb50ffe7959ba47f5f6afe',49,1280,1940,'R','[ｲﾀﾘｱﾝｽﾀｲﾙ]榊原里美',2),
-	 ('1a71cce509dbda3f4d3a9d8a7a83b5a8',49,1536,2328,'R+','[ｲﾀﾘｱﾝｽﾀｲﾙ]榊原里美+',3),
+	 ('1a71cce509dbda3f4d3a9d8a7a83b5a8',49,1536,2328,'R+','[ｲﾀﾘｱﾝｽﾀｲﾙ]榊原里美+',3);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('43d1d4fc514cdece1a5ae65bc99d480f',49,3000,1920,'R','[ﾒﾛﾒﾛｷｬﾝﾃﾞｨ]榊原里美',4),
 	 ('868ad09a014294cd1f31276948b65141',49,3600,2304,'R+','[ﾒﾛﾒﾛｷｬﾝﾃﾞｨ]榊原里美+',5),
 	 ('6f0e256632a44047e538f5c99fe4fa31',49,2560,1920,'R','[ﾜｰｷﾝｸﾞ･ﾏﾌｨｱ]榊原里美',6),
@@ -5431,10 +5429,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('656a5b69d3f81ed6c3f1afc6a294cb71',49,3480,3400,'R+','[夏祭り]榊原里美+',8),
 	 ('914e2e1efbc1f05e987772cc5c925722',78,1020,780,'N','多田李衣菜',0),
 	 ('08be8e4dcff4f7384656fca3062ccaba',49,3240,2240,'R','[ﾗﾌﾞﾘｰﾒｲﾄﾞ]榊原里美',9),
-	 ('c5f8a51fd468b2d67fbee35744959e59',49,2780,2740,'R','[ふんわりﾊﾟﾋﾟﾖﾝ]榊原里美',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('c5f8a51fd468b2d67fbee35744959e59',49,2780,2740,'R','[ふんわりﾊﾟﾋﾟﾖﾝ]榊原里美',11),
 	 ('9948c2cc9042b6db538973772ffd6bee',49,3336,3288,'R+','[ふんわりﾊﾟﾋﾟﾖﾝ]榊原里美+',12),
-	 ('190de0bebd3334545f163e7279d80e28',49,4340,4520,'SR','[ゆるあまﾁｱｰ]榊原里美',22),
+	 ('190de0bebd3334545f163e7279d80e28',49,4340,4520,'SR','[ゆるあまﾁｱｰ]榊原里美',22);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('c380fb6a93df85dc490135f4d5d987b3',49,5120,5100,'SR','[ｱｸｱﾃｨｯｸﾊｰﾄ]榊原里美',26),
 	 ('17c1dfda6510677f5a448d951c086d33',78,1224,936,'N+','多田李衣菜+',1),
 	 ('09a091936b403ea2cc9bd3922d47b873',78,3936,2712,'R+','[ﾜｰｷﾝｸﾞ･ﾚｽｷｭｰ]多田李衣菜+',9),
@@ -5442,10 +5440,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('6082b9c30ed35ed98c89d9f8185ec4ec',78,3740,3740,'R+','[ｸﾘｴｲﾃｨﾌﾞI.C]多田李衣菜+',12),
 	 ('02395469aae2e69c4de945a9b169f4a6',78,6360,4640,'SR','[ﾌﾞﾙｰｻﾝｼｬｲﾝｻﾏｰ]多田李衣菜',29),
 	 ('ce6cc64940b1610edfdd5e8486bd0de2',78,7180,5320,'SR','[ﾊﾞｲｵﾚｯﾄﾃﾞｨｼｼﾞｮﾝ]多田李衣菜',34),
-	 ('cf4f3f645babfe2a9eaf1c57b84308d8',78,7700,7580,'SR','[空色ﾄﾘﾋﾞｭｰﾄ]多田李衣菜',42);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('cf4f3f645babfe2a9eaf1c57b84308d8',78,7700,7580,'SR','[空色ﾄﾘﾋﾞｭｰﾄ]多田李衣菜',42),
 	 ('e953b61de50dd7879353f130a39e8cba',87,2500,2180,'R','[憩いのひととき]古澤頼子',4),
-	 ('50774bacbeae5d09201b91b16f98c262',87,3480,2592,'R+','[ﾛｺｶﾞｰﾙ]古澤頼子+',7),
+	 ('50774bacbeae5d09201b91b16f98c262',87,3480,2592,'R+','[ﾛｺｶﾞｰﾙ]古澤頼子+',7);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a4df63531be7d6b41ed4a895781be32a',87,5232,4872,'SR+','[ｸﾗｼｶﾙｴﾚｶﾞﾝﾄ]古澤頼子+',18),
 	 ('74258df91dae9f991c7db82d62d0c205',87,4380,3400,'SR','[知能派ｷｮﾝｼｰ]古澤頼子',21),
 	 ('afc29013a7e2abcb0fa346a45fd770d5',87,6264,5184,'SR+','[笑顔のｷｮﾝｼｰ]古澤頼子+',24),
@@ -5453,10 +5451,10 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('d1618ce683679750379fd7945c01eb7f',87,3912,2712,'R+','[新春和心]古澤頼子+',30),
 	 ('0902f546ad623f9ea9743f549991ca4a',97,1320,1280,'SR','[CDﾃﾞﾋﾞｭｰ]高垣楓',4),
 	 ('a9058c6198b35b7282ff3694c1177b66',97,4440,3180,'SR','[湯けむり女神]高垣楓',6),
-	 ('02766491016ecc94d2cc339c3a2d2dd6',97,6456,4704,'SR+','[甘美なる姫君]高垣楓+',11);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('02766491016ecc94d2cc339c3a2d2dd6',97,6456,4704,'SR+','[甘美なる姫君]高垣楓+',11),
 	 ('b2962e6246b90fa8843eb06722614ff3',97,4720,4600,'SR','[ﾜﾝﾀﾞﾌﾙﾏｼﾞｯｸ]高垣楓',12),
-	 ('3549cd6ea8a118812832841f4dbbac61',97,7680,5592,'SR+','[白南風の淑女]高垣楓+',17),
+	 ('3549cd6ea8a118812832841f4dbbac61',97,7680,5592,'SR+','[白南風の淑女]高垣楓+',17);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('a809d668f1d11f620f9f2618246f1944',97,8540,6820,'SR','[誘惑の招宴]高垣楓',34),
 	 ('70716895c47fcf16e1441bb913c05bb8',107,800,1200,'R','三浦あずさ',0),
 	 ('ba921b7605a9080d619152c0a64d2169',116,2688,2352,'R+','氏家むつみ+',1),
@@ -5464,15 +5462,17 @@ INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_ra
 	 ('323630ff5d66437d6b8e66b0b763c0cb',116,3280,2220,'R','[ﾌｧﾝｻｰｷｯﾄ]氏家むつみ',10),
 	 ('70a62d93285f5c7e10b9e127db9bf8a0',116,3000,2976,'R+','[ﾜｲﾙﾄﾞﾌﾚﾝｽﾞ]氏家むつみ+',13),
 	 ('a6ae3f65caf2cc10d44c0a64f2f1191e',116,5160,4896,'SR+','[冒険竜]氏家むつみ+',18),
-	 ('b0a88d8ab733b0a8b4603a9ed1905b9a',116,5064,5256,'SR+','[ｱﾄﾞﾍﾞﾝﾄﾁｱｰ]氏家むつみ+',20);
-INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
+	 ('b0a88d8ab733b0a8b4603a9ed1905b9a',116,5064,5256,'SR+','[ｱﾄﾞﾍﾞﾝﾄﾁｱｰ]氏家むつみ+',20),
 	 ('19b88d380912d15001d688671571f768',116,4728,4680,'SR+','[希望のｽﾋﾟﾘｯﾄ]氏家むつみ+',22),
-	 ('da2239b66e125fdda8c2ddc47fb7b1b8',116,6720,5352,'SR+','[青嵐ﾃﾞｨｽｶﾊﾞｰ]氏家むつみ+',26),
+	 ('da2239b66e125fdda8c2ddc47fb7b1b8',116,6720,5352,'SR+','[青嵐ﾃﾞｨｽｶﾊﾞｰ]氏家むつみ+',26);
+INSERT INTO public."TB_IDOLS_CARDS" (card_hash,idol_id,card_atk,card_def,card_rare,card_name,card_seq) VALUES
 	 ('bb6e614630c63314d1ac5aacbe013840',116,3888,2664,'R+','[ｸﾘｽﾏｽｽﾉｰ]氏家むつみ+',28),
 	 ('fa981efff42e0b151f712d8ccbe583e1',116,3360,3264,'R+','[ｻﾏｰﾄﾚｼﾞｬｰ]氏家むつみ+',30),
 	 ('ed3863e909c00d702b232b25c6f1633a',120,1032,1152,'R+','塩見周子+',1),
 	 ('7414eee0038d5be21fb8b12014d6bd02',120,1464,2184,'R+','[ﾆｭｰｲﾔｰ]塩見周子+',5),
 	 ('f3c0fc3102be01d6f7ae5f3b0c40f647',120,3960,3000,'SR','[ﾐｯﾄﾞﾅｲﾄﾌｪｱﾘｰ]塩見周子',8),
+	 ('4b39f05563a8175f27b8d893561976ee',3,288,432,'N+','水本ゆかり+',1),
+	 ('5a32b53f2943c5c7b76b18c0e098f400',3,240,360,'N','水本ゆかり',0),
 	 ('6993c3919d9955689694fab691b877a4',49,3888,2688,'R+','[ﾗﾌﾞﾘｰﾒｲﾄﾞ]榊原里美+',10),
 	 ('fd618c95410cbe5a4707aae30fc701a7',49,2900,2100,'R','[ｸﾘｽﾏｽﾎﾘﾃﾞｰ]榊原里美',13),
 	 ('a2014a0c6b69ec002f9f8795e01be8fc',49,5160,4920,'SR+','[ｽｳｨｰﾄ･ﾛﾜｲﾔﾙ]榊原里美+',21);

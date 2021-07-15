@@ -2,38 +2,48 @@ import React, { Component, useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import action from '../../../store/action'
 import axios from 'axios'
+import styles from './InsertPage.scss'
 
 const InsertPage = () => {
-    const [ip, setIp] = useState('')
+    const [input, setInput] = useState('')
+    const [searchResult, setSearchResult] = useState([])
 
-    const test = async () => {
-        const data = await axios.get(`/api/rank?id=${ip}`)
-        const { content } = data.data
-        const avg = content.reduce((acc, val) => {
-            const name = val.ranking[0].name
-            const total = acc.total + val.ranking[0].gainPointOneHourBySystemId
-            const count = acc.count + 1
-            let min = acc.min ? acc.min > val.ranking[0].gainPointOneHourBySystemId ? val.ranking[0].gainPointOneHourBySystemId : acc.min : val.ranking[0].gainPointOneHourBySystemId
-            min = val.ranking[0].gainPointOneHourBySystemId === 0 ? acc.min : min
-            const max = acc.max ? acc.max < val.ranking[0].gainPointOneHourBySystemId ? val.ranking[0].gainPointOneHourBySystemId : acc.max : val.ranking[0].gainPointOneHourBySystemId
-            return {
-                name,
-                total, count, min, max
-            }
-        }, { name: '', total: 0, count: 0, min: 0, max: 0 })
-        const result = {
-            name: avg.name,
-            avg: Math.floor(avg.total / avg.count),
-            min: avg.min,
-            max: avg.max
-        }
-        console.log(result)
+    const findIdol = async () => {
+        const data = await axios.get(`/query/translations/findCodeByName?name=${input}`).then(rst => rst.data)
+        setSearchResult(data)
+    }
+
+    const insertScript = async (id) => {
+        const insert = await axios.get(`/crowl/test?id=${id}`).catch(e => console.log(e))
+        console.log(insert)
+    }
+
+    const renderContent = ({ idol_id, trans_name }) => {
+        return (
+            <li className={styles.cardItems}>
+                <div className={styles.cardInfoBox}>{trans_name}</div >
+                <div className={styles.cardInfoBox}>
+                    <button className={styles.submit}>초기화</button>
+                    <button className={styles.submit} onClick={() => insertScript(idol_id)}>동기화</button>
+                </div >
+            </li>)
     }
 
     return (
         <div >
-            <input value={ip} onChange={(e) => setIp(e.target.value)} />
-            <button onClick={test}>dd</button>
+            <div className={styles.searchBody}>
+                <div className={styles.inputBody}>
+                    <label>검색</label><input value={input} onChange={(e) => setInput(e.target.value)} />
+                </div>
+                <div className={styles.buttonContainer}>
+                    <button className={styles.submit} onClick={findIdol}>확인</button>
+                </div>
+                <div className={styles.contentContainer}>
+                    <ul className={styles.contentBody}>
+                        {searchResult?.map(item => renderContent(item))}
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }

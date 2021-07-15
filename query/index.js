@@ -6,6 +6,7 @@ const master = require('./master/masterCode')
 const translations = require('./idols/translations')
 const cards = require('./idols/cards')
 const cardAbility = require('./idols/cardAbility')
+const script = require('./idols/script')
 
 /**raw query */
 router.get('/raw/findCardData', raw.findCardData)
@@ -31,5 +32,8 @@ router.get('/cards/findByHash', cards.findByHash)
 
 /**cardAbility */
 router.put('/cardAbility/reg', cardAbility.reg)
+
+/**scripts */
+router.get('/script/findByHash', script.findByHash)
 
 module.exports = router;
